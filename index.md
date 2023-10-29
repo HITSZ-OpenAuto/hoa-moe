@@ -1,4 +1,10 @@
-# 哈工大（深圳）自动化专业课程攻略 | HITSZ-OpenAuto
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: 哈工大（深圳）自动化专业课程攻略
+---
 
 > HITSZ-OpenAuto已迁移至HITSZ-Auto organization中，若有意愿成为组织维护者的同学请邮箱联系<mh.li298@foxmail.com>，前提：最近一个月内曾积极PR，并有空闲时间进行仓库维护
 
