@@ -27,6 +27,7 @@ url: "https//:hitsz-auto.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  HITSZ-Auto
 show_resource: true
+show_project: true
 
 # Variables
 github:
