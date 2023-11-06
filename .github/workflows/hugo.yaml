@@ -53,15 +53,15 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      # - name: Sync Posts
-      #   run: |
-      #     echo '---' > ./content/docs/guide/math1004.md
-      #     echo 'title: 高等数学' >> ./content/docs/guide/math1004.md
-      #     echo 'weight: 1' >> ./content/docs/guide/math1004.md
-      #     echo 'prev: /docs/guide' >> ./docs/docs/guide/math1004.md
-      #     echo '---' >> ./content/docs/guide/math1004.md
-      #     git clone https://github.com/HITSZ-Auto/MATH1004 temp-repo
-      #     cat temp-repo/README.md content/docs/guide/math1004.md
+      - name: Sync Posts
+        run: |
+          echo '---' > ./content/docs/guide/math1004.md
+          echo 'title: 高等数学' >> ./content/docs/guide/math1004.md
+          echo 'weight: 1' >> ./content/docs/guide/math1004.md
+          echo 'prev: /docs/guide' >> ./content/docs/guide/math1004.md
+          echo '---' >> ./content/docs/guide/math1004.md
+          git clone https://github.com/HITSZ-Auto/MATH1004 temp-repo
+          cat temp-repo/README.md content/docs/guide/math1004.md
 
       # - name: Commit and Push Changes
       #   run: |
@@ -71,10 +71,6 @@ jobs:
       #     git add -A
       #     git commit -m "ci: sync posts (auto)" || exit 0
       #     git push
-      - name: Check Path
-        run: |
-          pwd
-          ls -al
 
       - name: Build with Hugo
         env:
