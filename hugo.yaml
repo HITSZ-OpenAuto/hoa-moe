@@ -73,9 +73,9 @@ menu:
       name: "About"
       pageRef: "/about"
       weight: 2
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
+    - identifier: githubPage
+      name: "GitHub 主页 ↗"
+      url: “https://github.com/HITSZ-Auto”
       weight: 3
 
 params:

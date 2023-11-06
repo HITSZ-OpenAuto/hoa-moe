@@ -55,14 +55,21 @@ jobs:
 
       - name: Sync Posts
         run: |
-          echo '---' > ./content/docs/guide/math1004.md
-          echo 'title: 概率论与数理统计' >> ./content/docs/guide/math1004.md
-          echo 'weight: 1' >> ./content/docs/guide/math1004.md
-          echo 'prev: /docs/guide' >> ./content/docs/guide/math1004.md
-          echo '---' >> ./content/docs/guide/math1004.md
-          curl https://raw.githubusercontent.com/HITSZ-Auto/MATH1004/main/README.md -o temp.md
-          cat temp.md >> content/docs/guide/math1004.md
+          echo '---' > ./content/docs/fresh/math1004.md
+          echo 'title: 概率论与数理统计' >> ./content/docs/fresh/math1004.md
+          echo 'weight: 2' >> ./content/docs/fresh/math1004.md
+          echo '---' >> ./content/docs/fresh/math1004.md
+          curl https://raw.githubusercontent.com/HITSZ-Auto/MATH1004/main/README.md -o temp1.md
+          cat temp1.md >> content/docs/fresh/math1004.md
 
+          echo '---' > ./content/docs/senior/auto2005.md
+          echo 'title: 信号分析与处理' >> ./content/docs/senior/auto2005.md
+          echo 'weight: 2' >> ./content/docs/senior/auto2005.md
+          echo '---' >> ./content/docs/senior/auto2005.md
+          curl https://raw.githubusercontent.com/HITSZ-Auto/AUTO2005/main/README.md -o temp2.md
+          cat temp2.md >> content/docs/senior/auto2005.md
+
+          
       # - name: Commit and Push Changes
       #   env:
       #     PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
