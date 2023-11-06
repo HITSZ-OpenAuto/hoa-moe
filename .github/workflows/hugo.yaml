@@ -62,6 +62,7 @@ jobs:
           echo '---' >> ./content/docs/guide/math1004.md
           git clone https://github.com/HITSZ-Auto/MATH1004 temp-repo
           cat temp-repo/README.md content/docs/guide/math1004.md
+        working-directory: ${{ github.workspace }}
 
       - name: Commit and Push Changes
         run: |
