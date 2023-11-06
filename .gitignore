@@ -18,5 +18,5 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 
-# Ignore Mac system files
-.DS_Store
+# # Ignore Mac system files
+# .DS_Store
