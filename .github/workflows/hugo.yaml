@@ -60,18 +60,18 @@ jobs:
           echo 'weight: 1' >> ./content/docs/guide/math1004.md
           echo 'prev: /docs/guide' >> ./content/docs/guide/math1004.md
           echo '---' >> ./content/docs/guide/math1004.md
-          git clone https://github.com/HITSZ-Auto/MATH1004 temp-repo
-          cat temp-repo/README.md content/docs/guide/math1004.md
+          curl https://raw.githubusercontent.com/HITSZ-Auto/MATH1004/main/README.md -o temp.md
+          cat temp.md >> content/docs/guide/math1004.md
 
-      - name: Commit and Push Changes
-        env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add -A
-          git commit -m "ci: sync posts (auto)" || exit 0
-          git push
+      # - name: Commit and Push Changes
+      #   env:
+      #     PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+      #   run: |
+      #     git config --global user.email "actions@github.com"
+      #     git config --global user.name "GitHub Actions"
+      #     git add -A
+      #     git commit -m "ci: sync posts (auto)" || exit 0
+      #     git push
 
       - name: Build with Hugo
         env:
