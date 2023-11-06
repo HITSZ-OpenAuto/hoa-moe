@@ -33,7 +33,7 @@ layout: hextra-home
     title="一份全面的课程攻略"
     subtitle="笔记分享、实验攻略、考试资料"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="/images/showcase.png"
+    image="/images/showcase.webp"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
@@ -42,7 +42,7 @@ layout: hextra-home
     title="基于GitHub维护"
     subtitle="云端托管，多端维护"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="/images/showcase.png"
+    image="/images/showcase.webp"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
