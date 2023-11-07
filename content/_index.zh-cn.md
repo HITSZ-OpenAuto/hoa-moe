@@ -12,13 +12,13 @@ layout: hextra-home
 
 <div class="mt-6 mb-6">
 {{< hextra/hero-headline >}}
-  HITSZ 课程攻略共享计划&nbsp;<br class="sm:block hidden" />
+  HITSZ 机电工程与自动化课程攻略共享计划&nbsp;<br class="sm:block hidden" />
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  由HITSZ Auto维护&nbsp;<br class="sm:block hidden" />为HITSZ学子提供课程攻略共享服务
+  📚Comprehensive learning resource for HITSZ undergraduates&nbsp;<br class="sm:block hidden" />🔧Maintainence by HITSZ OpenAuto
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -40,7 +40,7 @@ layout: hextra-home
   >}}
 
   {{< hextra/feature-card
-    title="基于GitHub维护"
+    title="基于 GitHub 维护"
     subtitle="云端托管，多端维护"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/showcase.webp"
