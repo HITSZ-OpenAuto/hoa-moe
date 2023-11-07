@@ -128,7 +128,7 @@ jobs:
             echo 'weight: 2' >> "./content/docs/${semester}/${line}.md"
             echo '---' >> "./content/docs/${semester}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
-            sed -i '1d' "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
+            tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
           done
 
       - name: Build with Hugo
