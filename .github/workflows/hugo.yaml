@@ -75,7 +75,7 @@ jobs:
           for line in $(cat filter.txt)
           do
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
-            echo "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
+
             OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
             case ${OUT} in
               '第一学年秋季')
@@ -148,7 +148,7 @@ jobs:
       - name: Deploy to Cloudflare Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-            PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+            PERSONAL_TOKEN: ${{ secrets.LONGLIN_SECRET }}
             EXTERNAL_REPOSITORY: Huang-Zifeng/hitsz-open-auto.github.io
             PUBLISH_BRANCH: cf-pages
             PUBLISH_DIR: ./public
