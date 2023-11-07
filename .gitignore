@@ -20,4 +20,4 @@ hugo.linux
 
 # # Ignore Mac system files
 # .DS_Store
-.DS_Store
+*.DS_Store

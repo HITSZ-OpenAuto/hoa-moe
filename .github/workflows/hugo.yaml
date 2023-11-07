@@ -57,7 +57,7 @@ jobs:
         uses : austenstone/get-org-repos@v3.1
         with:
           github-token: ${{ secrets.LONGLIN_SECRET }}
-          org: "HITSZ-Auto"
+          org: "HITSZ-OpenAuto"
           delimiter: "\n"
         id: get-org-repos
 
@@ -71,14 +71,64 @@ jobs:
         run: |
           echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
           cat tmp.txt | grep -E "^-.([A-Z]){4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > filter.txt
+          cat filter.txt
           for line in $(cat filter.txt)
           do
-            echo '---' > "./content/docs/guide/${line}.md"
-            # echo "title: ${line}" >> "./content/docs/guide/${line}.md"
-            echo 'weight: 2' >> "./content/docs/guide/${line}.md"
-            echo '---' >> "./content/docs/guide/${line}.md"
-            curl "https://raw.githubusercontent.com/HITSZ-Auto/${line}/main/README.md" -o "temp_${line}.md"
-            cat "temp_${line}.md" >> "./content/docs/guide/${line}.md"
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
+            echo "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
+            OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
+            case ${OUT} in
+              '第一学年秋季')
+                semester='fresh/Autumn'
+                ;;
+              '第一学年春季')
+                semester='fresh/Spring'
+                ;;
+              '第一学年夏季')
+                semester='fresh/Summer'
+                ;;
+              '第二学年秋季')
+                semester='junior/Autumn'
+                ;;
+              '第二学年春季')
+                semester='junior/Spring'
+                ;;
+              '第二学年夏季')
+                semester='junior/Summer'
+                ;;
+              '第三学年秋季')
+                semester='senior/Autumn'
+                ;;
+              '第三学年春季')
+                semester='senior/Spring'
+                ;;
+              '第三学年夏季')
+                semester='senior/Summer'
+                ;;
+              '第四学年秋季')
+                semester='sophomore/Autumn'
+                ;;
+              '第四学年春季')
+                semester='sophomore/Spring'
+                ;;
+              '第四学年夏季')
+                semester='sophomore/Summer'
+                ;;
+              *)
+                echo "404"
+                continue
+                ;;   
+            esac       
+            echo $semester    
+
+            cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
+
+            echo '---' > "./content/docs/${semester}/${line}.md"
+            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+            echo 'weight: 2' >> "./content/docs/${semester}/${line}.md"
+            echo '---' >> "./content/docs/${semester}/${line}.md"
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
+            cat "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
           done
 
       - name: Build with Hugo
