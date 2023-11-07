@@ -70,13 +70,13 @@ jobs:
       - name: Grep Matched Name
         run: |
           echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
-          cat tmp.txt | grep -E "^-.([A-Z]){4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/'> filter.txt
+          cat tmp.txt | grep -E "^-.([A-Z]){4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > filter.txt
           for line in $(cat filter.txt)
           do
-            echo "---" > "./content/docs/guide/${line}.md"
+            echo '---'' > "./content/docs/guide/${line}.md"
             # echo "title: ${line}" >> "./content/docs/guide/${line}.md"
             echo 'weight: 2' >> "./content/docs/guide/${line}.md"
-            echo "---" >> "./content/docs/guide/${line}.md"
+            echo '---' >> "./content/docs/guide/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-Auto/${line}/main/README.md" -o "temp_${line}.md"
             cat "temp_${line}.md” >> "./content/docs/guide/${line}.md"
           done
