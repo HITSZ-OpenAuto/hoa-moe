@@ -145,14 +145,14 @@ jobs:
         with:
           path: ./public
 
-      - name: Deploy to Cloudflare Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-            PERSONAL_TOKEN: ${{ secrets.LONGLIN_SECRET }}
-            EXTERNAL_REPOSITORY: longlin10086/hitsz-open-auto.github.io
-            PUBLISH_BRANCH: cf-pages
-            PUBLISH_DIR: ./public
-            commit_message: ${{ github.event.head_commit.message }}
+      # - name: Deploy to Cloudflare Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #       PERSONAL_TOKEN: ${{ secrets.LONGLIN_SECRET }}
+      #       EXTERNAL_REPOSITORY: longlin10086/hitsz-open-auto.github.io
+      #       PUBLISH_BRANCH: cf-pages
+      #       PUBLISH_DIR: ./public
+      #       commit_message: ${{ github.event.head_commit.message }}
 
   # Deployment job
   deploy:
