@@ -77,7 +77,11 @@ jobs:
             echo '-------------------------------------------------'
             echo ${line}
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
+            
+            echo '-----tag.txt-----'
             cat "tag_${line}.txt"
+            echo '-----------------'
+            
             OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
             echo ${OUT}
 
