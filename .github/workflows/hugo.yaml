@@ -84,7 +84,9 @@ jobs:
             echo '-----------------'
 
             OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
+            CATEGORY = `cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
             echo ${OUT}
+            echo ${CATEGORY}
 
             case ${OUT} in
               '第一学年秋季')
@@ -128,17 +130,49 @@ jobs:
                 continue
                 ;;   
             esac
+
+            case ${CATEGORY} in
+            '必修')
+                category='Mandatory'
+                ;;
+              '限选')
+                category='Distributional-Selective'
+                ;;
+              '跨专业选修')
+                category='Cross-major-Selective'
+                ;;
+              *)
+                echo "No match category"
+                continue
+                ;;   
+            esac
+
             echo " "       
-            echo $semester    
+            echo $semester
+            echo $category
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
 
-            echo '---' > "./content/docs/${semester}/${line}.md"
-            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
-            echo 'weight: 2' >> "./content/docs/${semester}/${line}.md"
-            echo '---' >> "./content/docs/${semester}/${line}.md"
+            echo '---' > "./content/docs/${semester}/category/${line}.md"
+            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/category/${line}.md"
+            echo 'weight: 2' >> "./content/docs/${semester}/category/${line}.md"
+            echo '---' >> "./content/docs/${semester}/category/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
-            tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
+            tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/category/${line}.md"
+
+            if [ -f "./content/docs/${semester}/category/_index.zh-cn.md"]
+            then
+              echo "{{< cards >}}" >> "./content/docs/${semester}/category/_index.zh-cn.md"
+              echo "{{< card link="${line}" title=$(cat "name_${line}.txt")>}}" >> "./content/docs/${semester}/category/_index.zh-cn.md"
+              echo "{{< /cards >}}" >> "./content/docs/${semester}/category/_index.zh-cn.md"
+            else
+              echo '---' > "./content/docs/${semester}/category/${line}.md"
+              echo "title: ${category}" >> "./content/docs/${semester}/category/${line}.md"
+              echo 'weight: 2' >> "./content/docs/${semester}/category/${line}.md"
+              echo 'sidebar:' >> "./content/docs/${semester}/category/${line}.md"
+              echo '  open: false' >> "./content/docs/${semester}/category/${line}.md"
+              echo '---' >> "./content/docs/${semester}/category/${line}.md"
+            fi
           done
 
       - name: Build with Hugo
