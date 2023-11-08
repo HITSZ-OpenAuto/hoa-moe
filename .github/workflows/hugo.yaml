@@ -84,9 +84,7 @@ jobs:
             echo '-----------------'
 
             OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
-            CATEGORY = `cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
             echo ${OUT}
-            echo ${CATEGORY}
 
             case ${OUT} in
               '第一学年秋季')
@@ -131,7 +129,9 @@ jobs:
                 ;;   
             esac
 
-            case ${CATEGORY} in
+            OUT = `cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
+
+            case ${OUT} in
             '必修')
                 category='Mandatory'
                 ;;
