@@ -80,8 +80,9 @@ jobs:
             
             echo '-----tag.txt-----'
             cat "tag_${line}.txt"
+            echo " "
             echo '-----------------'
-            
+
             OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
             echo ${OUT}
 
@@ -96,34 +97,31 @@ jobs:
                 semester='fresh/Summer'
                 ;;
               '第二学年秋季')
-                semester='junior/Autumn'
-                ;;
-              '第二学年春季')
-                semester='junior/Spring'
-                ;;
-              '第二学年夏季')
-                semester='junior/Summer'
-                ;;
-              '第三学年秋季')
-                semester='senior/Autumn'
-                ;;
-              '第三学年春季')
-                semester='senior/Spring'
-                ;;
-              '第三学年夏季')
-                semester='senior/Summer'
-                ;;
-              '第四学年秋季')
                 semester='sophomore/Autumn'
                 ;;
-              '第四学年春季')
+              '第二学年春季')
                 semester='sophomore/Spring'
                 ;;
-              '第四学年夏季')
+              '第二学年夏季')
                 semester='sophomore/Summer'
                 ;;
-              '第二学年秋季')
+              '第三学年秋季')
                 semester='junior/Autumn'
+                ;;
+              '第三学年春季')
+                semester='junior/Spring'
+                ;;
+              '第三学年夏季')
+                semester='junior/Summer'
+                ;;
+              '第四学年秋季')
+                semester='senior/Autumn'
+                ;;
+              '第四学年春季')
+                semester='senior/Spring'
+                ;;
+              '第四学年夏季')
+                semester='senior/Summer'
                 ;;
               *)
                 echo "No match semester"
