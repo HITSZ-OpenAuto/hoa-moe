@@ -159,6 +159,7 @@ jobs:
               echo "{{< card link="${line}" title=$(cat "name_${line}.txt")>}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             else
+              echo "create a folder"
               mkdir "./content/docs/${semester}/${category}"
               echo '---' > "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "title: ${category}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
