@@ -131,9 +131,9 @@ jobs:
      
             echo $semester
 
-            OUT=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
+            CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
 
-            case ${OUT} in
+            case ${CATEGORY} in
             '必修')
                 category='Mandatory'
                 ;;
@@ -162,11 +162,16 @@ jobs:
               echo "create a folder"
               mkdir "./content/docs/${semester}/${category}"
               echo '---' > "./content/docs/${semester}/${category}/_index.zh-cn.md"
-              echo "title: ${category}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "title: ${CATEGORY}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo 'weight: 2' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo 'sidebar:' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo '  open: false' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo '---' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+
+              echo "{{< cards >}}" >> "./content/docs/${semester}/_index.zh-cn.md"
+              echo "{{< card link=\"${category}\" title=\"${CATEGORY}\">}}" >> "./content/docs/${semester}/_index.zh-cn.md"
+              echo "{{< /cards >}}" >> "./content/docs/${semester}/_index.zh-cn.md"
+
               echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "<!--more-->" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
