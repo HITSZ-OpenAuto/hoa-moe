@@ -153,7 +153,7 @@ jobs:
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
 
-            if [ -f "./content/docs/${semester}/${category}/_index.zh-cn.md"]
+            if [-e "./content/docs/${semester}/${category}/_index.zh-cn.md"]
             then
               echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< card link="${line}" title=$(cat "name_${line}.txt")>}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
