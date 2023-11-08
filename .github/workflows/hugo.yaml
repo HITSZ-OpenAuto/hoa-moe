@@ -129,7 +129,10 @@ jobs:
                 ;;   
             esac
 
-            OUT = `cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
+            echo " "       
+            echo $semester
+
+            OUT=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
 
             case ${OUT} in
             '必修')
@@ -147,8 +150,6 @@ jobs:
                 ;;   
             esac
 
-            echo " "       
-            echo $semester
             echo $category
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
