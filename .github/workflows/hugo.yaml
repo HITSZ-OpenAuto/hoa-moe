@@ -190,7 +190,7 @@ jobs:
             fi
 
             echo '---' > "./content/docs/${semester}/${category}/${line}.md"
-            echo "title: $(cat "name_${line}.txt")" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/${line}.md"
+            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${category}/${line}.md"
             echo 'weight: 2' >> "./content/docs/${semester}/${category}/${line}.md"
             echo '---' >> "./content/docs/${semester}/${category}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
