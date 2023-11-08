@@ -167,6 +167,12 @@ jobs:
               echo 'sidebar:' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo '  open: false' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo '---' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "<!--more-->" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< card link="${line}" title=$(cat "name_${line}.txt")>}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              cat "./content/docs/${semester}/${category}/_index.zh-cn.md"
             fi
 
             echo '---' > "./content/docs/${semester}/${category}/${line}.md"
