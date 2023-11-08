@@ -156,7 +156,7 @@ jobs:
             if [ -e "./content/docs/${semester}/${category}/_index.zh-cn.md" ]
             then
               echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
-              echo "{{< card link="${line}" title=$(cat "name_${line}.txt")>}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< card link=\"${line}\" title=\"$(cat "name_${line}.txt")\"">}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             else
               echo "create a folder"
@@ -170,9 +170,8 @@ jobs:
               echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "<!--more-->" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
-              echo "{{< card link="${line}" title=$(cat "name_${line}.txt")>}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< card link=\"${line}\" title=\"$(cat "name_${line}.txt")\"">}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
-              cat "./content/docs/${semester}/${category}/_index.zh-cn.md"
             fi
 
             echo '---' > "./content/docs/${semester}/${category}/${line}.md"
