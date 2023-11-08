@@ -128,8 +128,7 @@ jobs:
                 continue
                 ;;   
             esac
-
-            echo " "       
+     
             echo $semester
 
             OUT=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
@@ -154,26 +153,28 @@ jobs:
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
 
-            echo '---' > "./content/docs/${semester}/category/${line}.md"
-            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/category/${line}.md"
-            echo 'weight: 2' >> "./content/docs/${semester}/category/${line}.md"
-            echo '---' >> "./content/docs/${semester}/category/${line}.md"
-            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
-            tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/category/${line}.md"
-
-            if [ -f "./content/docs/${semester}/category/_index.zh-cn.md"]
+            if [ -f "./content/docs/${semester}/${category}/_index.zh-cn.md"]
             then
-              echo "{{< cards >}}" >> "./content/docs/${semester}/category/_index.zh-cn.md"
-              echo "{{< card link="${line}" title=$(cat "name_${line}.txt")>}}" >> "./content/docs/${semester}/category/_index.zh-cn.md"
-              echo "{{< /cards >}}" >> "./content/docs/${semester}/category/_index.zh-cn.md"
+              echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< card link="${line}" title=$(cat "name_${line}.txt")>}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             else
-              echo '---' > "./content/docs/${semester}/category/${line}.md"
-              echo "title: ${category}" >> "./content/docs/${semester}/category/${line}.md"
-              echo 'weight: 2' >> "./content/docs/${semester}/category/${line}.md"
-              echo 'sidebar:' >> "./content/docs/${semester}/category/${line}.md"
-              echo '  open: false' >> "./content/docs/${semester}/category/${line}.md"
-              echo '---' >> "./content/docs/${semester}/category/${line}.md"
+              mkdir "./content/docs/${semester}/${category}"
+              echo '---' > "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "title: ${category}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo 'weight: 2' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo 'sidebar:' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo '  open: false' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo '---' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             fi
+
+            echo '---' > "./content/docs/${semester}/${category}/${line}.md"
+            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${category}/${line}.md"
+            echo 'weight: 2' >> "./content/docs/${semester}/${category}/${line}.md"
+            echo '---' >> "./content/docs/${semester}/${category}/${line}.md"
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
+            tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${category}/${line}.md"
+            
           done
 
       - name: Build with Hugo
