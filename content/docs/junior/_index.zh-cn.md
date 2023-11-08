@@ -10,6 +10,7 @@ sidebar:
 <!--more-->
 
 {{< cards >}}
-  {{< card link="math1001" title="大学物理" icon="document-duplicate" >}}
-  {{< card link="math1002" title="电路" icon="adjustments" >}}
+  {{< card link="autumn" title="第三学年秋季">}}
+  {{< card link="spring" title="第三学年春季">}}
+  {{< card link="summer" title="第三学年夏季">}}
 {{< /cards >}}
