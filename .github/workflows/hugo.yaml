@@ -70,13 +70,17 @@ jobs:
       - name: Grep Matched Name
         run: |
           echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
-          cat tmp.txt | grep -E "^-.([A-Z]){4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > filter.txt
+          cat tmp.txt | grep -E "^-.([A-Z]){2,4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > filter.txt
           cat filter.txt
           for line in $(cat filter.txt)
           do
+            echo '-------------------------------------------------'
+            echo ${line}
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
-
+            cat "tag_${line}.txt"
             OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
+            echo ${OUT}
+
             case ${OUT} in
               '第一学年秋季')
                 semester='fresh/Autumn'
@@ -114,11 +118,15 @@ jobs:
               '第四学年夏季')
                 semester='sophomore/Summer'
                 ;;
+              '第二学年秋季')
+                semester='junior/Autumn'
+                ;;
               *)
-                echo "404"
+                echo "No match semester"
                 continue
                 ;;   
-            esac       
+            esac
+            echo " "       
             echo $semester    
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
