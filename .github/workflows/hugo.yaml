@@ -156,7 +156,8 @@ jobs:
             if [ -e "./content/docs/${semester}/${category}/_index.zh-cn.md" ]
             then
               echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
-              echo "{{< card link=\"${line}\" title=\"$(cat "name_${line}.txt")\">}}" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             else
               echo "create a folder"
