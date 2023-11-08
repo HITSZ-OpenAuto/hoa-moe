@@ -1,6 +1,6 @@
 ---
 title: 大二
-weight: 15
+weight: 3
 sidebar:
   open: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: 大四
-weight: 10
+weight: 5
 sidebar:
   open: false
 ---
