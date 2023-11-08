@@ -1,4 +1,4 @@
-baseURL: "https://huang-zifeng.github.io/hitsz-open-auto.github.io/"
+baseURL: "https://hoa.moe/"
 languageCode: en-us
 title: HITSZ 自动化课程攻略共享计划
 
@@ -24,11 +24,11 @@ languages:
       languageName: 简体中文
       languageCode: zh-CN
       weight: 1
-      title: HITSZ Auto
+      title: HITSZ OpenAuto
   en:
     languageName: English
     weight: 2
-    title: HITSZ Auto
+    title: HITSZ OpenAuto
 
 markup:
   goldmark:
@@ -59,7 +59,7 @@ menu:
         type: search
     - name: GitHub
       weight: 6
-      url: "https://github.com/Huang-Zifeng/hitsz-open-auto.github.io"
+      url: "https://github.com/HITSZ-Auto"
       params:
         icon: github
 
