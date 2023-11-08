@@ -1,8 +1,8 @@
 ---
-title: 大三
-weight: 10
+title: 大四
+weight: 5
 sidebar:
-  open: true
+  open: false
 ---
 
 探索以下各节以查找相关资料

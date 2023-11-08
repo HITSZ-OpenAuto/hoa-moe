@@ -2,7 +2,7 @@
 title: 大一
 weight: 2
 sidebar:
-  open: true
+  open: false
 ---
 
 探索以下各节以查找相关资料
