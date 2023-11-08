@@ -6,10 +6,6 @@ authors:
 excludeSearch: false
 ---
 
-## 综述
-
-这个页面涉及的课程和“大二““大三“”大四”的页面可能有交叉。但是由于这点比较难以解释，故此处单列一页面说明。
-
 自动化专业的培养方案中有<u>三个模块的专业限选课以及“实践课程体系”</u>，常常让人摸不着头脑。这里给大家来分析一下这些课的信息、以及给大家一些选课的建议。
 
 此为21级学生方案，培养方案每年都在更新，**因此欢迎学弟学妹参与贡献！**
@@ -36,7 +32,7 @@ excludeSearch: false
 
  这3个模块里面选1个作为主选修，要修满6学分；选1个作为副选修，要修满4学分。下面分成几种情况讨论： 
 
-### （1）   控制理论与控制工程模块 
+### （1）控制理论与控制工程模块 
 
 | 序号 | 开课学期 | 课程名称     | 组内必修  or  选修？ | 学分 | 总学时 | 讲课 | 实验 | 课外辅导 |
 | ---- | -------- | ------------ | -------------------- | ---- | ------ | ---- | ---- | -------- |
@@ -52,7 +48,7 @@ excludeSearch: false
 
  可以前两门全选，也可以前两门选一门，再选上选修。 
 
-### （2）   机器人与智能系统模块 
+### （2）机器人与智能系统模块 
 
 |  序号  |  开课学期  |  课程名称    |  组内必修  or  选修？  |  学分  |  总学时  |  讲课  |  实验  |  课外辅导  |
 | -------- | ------------ | -------------- | ---------------------------- | -------- | ---------- | -------- | -------- | ------------ |
@@ -69,7 +65,7 @@ excludeSearch: false
 
  《机器人学导论》必选，后三门至少选一门。 
 
-### （3）   智能检测模块： 
+### （3）智能检测模块： 
 
 |  序号  |  开课学期  |  课程名称  |  组内必修  or  选修？  |  学分  |  总学时  |  讲课  |  实验  |  课外辅导  |
 | -------- | ------------ | ------------ | ---------------------------- | -------- | ---------- | -------- | -------- | ------------ |
@@ -86,9 +82,9 @@ excludeSearch: false
 
  《数字图像处理》必选，后三门至少选一门。 
 
-### 综上所述，一共有如下6种组合： 
+### 综上所述，一共有如下6种组合 
 
-#### （1）   主选修模块：控制理论与控制工程；副选修模块：机器人与智能系统 
+**（1）主选修模块：控制理论与控制工程；副选修模块：机器人与智能系统**
 
 <figure><table>
 <thead>
@@ -98,7 +94,8 @@ excludeSearch: false
 <tr><td>6</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
 <tr><td>7</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
-#### （2）   主选修模块：控制理论与控制工程；副选修模块：智能检测模块 
+
+**（2）主选修模块：控制理论与控制工程；副选修模块：智能检测模块**
 
 <figure><table>
 <thead>
@@ -109,7 +106,7 @@ excludeSearch: false
 <tr><td>7</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
 
-####  （3）   主选修模块：机器人与智能系统；副选修模块：控制理论与控制工程 
+**（3）主选修模块：机器人与智能系统；副选修模块：控制理论与控制工程**
 
 <figure><table>
 <thead>
@@ -121,14 +118,15 @@ excludeSearch: false
 
 【注】如果第2、3门课都选了，就不用选。否则，则要选。
 
-####  （4）   主选修模块：机器人与智能系统；副选修模块：智能检测模块 
+**（4）主选修模块：机器人与智能系统；副选修模块：智能检测模块**
 
 <figure><table>
 <thead>
 <tr><th>序号</th><th>开课学期</th><th>课程名称</th><th>组内必修  or  选修？</th><th>学分</th><th>总学时</th><th>讲课</th><th>实验</th><th>课外辅导</th></tr></thead>
 <tbody><tr><td>1</td><td>大三下</td><td>机器人学导论</td><td>必修</td><td>2.0</td><td>36</td><td>28</td><td>8</td><td>（  24  ）</td></tr><tr><td>2</td><td>大三上</td><td>数字图像处理</td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>3</td><td>大三下</td><td>运动控制系统</td><td rowspan='3'>选修至少<u>两门</u></td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>4</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>5</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>6</td><td>大三下</td><td>机器视觉</td><td rowspan='3'>选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>7</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>8</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
-####  （5）   主选修模块：智能检测模块；副选修模块：控制理论与控制工程 
+
+**（5）主选修模块：智能检测模块；副选修模块：控制理论与控制工程**
 
 <figure><table>
 <thead>
@@ -138,7 +136,7 @@ excludeSearch: false
 
 【注】如果第2、3门课都选了，就不用选。否则，则要选。
 
-####  （6）   主选修模块：智能检测模块；副选修模块：机器人与智能系统 
+**（6）主选修模块：智能检测模块；副选修模块：机器人与智能系统**
 
 <figure><table>
 <thead>
@@ -146,7 +144,8 @@ excludeSearch: false
 <tbody><tr><td>1</td><td>大三上</td><td>数字图像处理</td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>2</td><td>大三下</td><td>机器人学导论</td><td>必修</td><td>2.0</td><td>36</td><td>28</td><td>8</td><td>（  24  ）</td></tr><tr><td>3</td><td>大三下</td><td>机器视觉</td><td rowspan='3'>选修至少两门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>4</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>5</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>6</td><td>大四上</td><td>运动控制系统</td><td rowspan='3'>选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>7</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>8</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
 
-## 限选课选课建议：（欢迎学长学姐补充）
+## 限选课选课建议：
+（欢迎学长学姐补充）
 
  据学长介绍，最多人选和大四课最少的方案是： 
 
@@ -157,6 +156,7 @@ excludeSearch: false
 <tr><th>序号</th><th>开课学期</th><th>课程名称</th><th>组内必修  or  选修？</th><th>学分</th><th>总学时</th><th>讲课</th><th>实验</th><th>课外辅导</th></tr></thead>
 <tbody><tr><td>1</td><td>大三下</td><td>过程控制系统</td><td rowspan='3'>必修</td><td>3.0</td><td>48</td><td>36</td><td>12</td><td>&nbsp;</td></tr><tr><td>2</td><td>大三下</td><td>数学规划</td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>3</td><td>大三上</td><td>数字图像处理</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>4</td><td>大三下</td><td>机器视觉</td><td>选修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
+
 ## 课程资料跳转链接
 
 ### 实践课程体系
