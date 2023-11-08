@@ -135,13 +135,13 @@ jobs:
 
             case ${CATEGORY} in
             '必修')
-                category='Mandatory'
+                category='mandatory'
                 ;;
               '限选')
-                category='Distributional-Selective'
+                category='distributional-selective'
                 ;;
               '跨专业选修')
-                category='Cross-major-Selective'
+                category='cross-major-selective'
                 ;;
               *)
                 echo "No match category"
@@ -156,7 +156,7 @@ jobs:
             if [ -e "./content/docs/${semester}/${category}/_index.zh-cn.md" ]
             then
               echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
-              echo "{{< card link=\"${line}\" title=\"$(cat "name_${line}.txt")\">}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< card link=\"${line}\" title=\"$(cat "name_${line}.txt")\">}}" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             else
               echo "create a folder"
@@ -175,12 +175,12 @@ jobs:
               echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "<!--more-->" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
-              echo "{{< card link=\"${line}\" title=\"$(cat "name_${line}.txt")\">}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< card link=\"${line}\" title=\"$(cat "name_${line}.txt")\">}}" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             fi
 
             echo '---' > "./content/docs/${semester}/${category}/${line}.md"
-            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${category}/${line}.md"
+            echo "title: $(cat "name_${line}.txt")" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/${line}.md"
             echo 'weight: 2' >> "./content/docs/${semester}/${category}/${line}.md"
             echo '---' >> "./content/docs/${semester}/${category}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
