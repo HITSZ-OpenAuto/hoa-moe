@@ -7,7 +7,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -53,32 +53,93 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Sync Posts
+      - name: Get Organization Repository Names
+        uses : austenstone/get-org-repos@v3.1
+        with:
+          github-token: ${{ secrets.PERSONAL_TOKEN }}
+          org: "HITSZ-OpenAuto"
+          delimiter: "\n"
+        id: get-org-repos
+
+      - name: Turn To Array
+        id: modified_files_list
+        uses: lucaspinheirogit/list-from-string-array-action@v1.4.3
+        with:
+          stringArray: ${{ steps.get-org-repos.outputs.repos }}
+
+      - name: Grep Matched Name
         run: |
-          echo '---' > ./content/docs/fresh/math1004.md
-          echo 'title: 概率论与数理统计' >> ./content/docs/fresh/math1004.md
-          echo 'weight: 2' >> ./content/docs/fresh/math1004.md
-          echo '---' >> ./content/docs/fresh/math1004.md
-          curl https://raw.githubusercontent.com/HITSZ-Auto/MATH1004/main/README.md -o temp1.md
-          cat temp1.md >> content/docs/fresh/math1004.md
+          echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
+          cat tmp.txt | grep -E "^-.([A-Z]){2,4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > filter.txt
+          cat filter.txt
+          for line in $(cat filter.txt)
+          do
+            echo '-------------------------------------------------'
+            echo ${line}
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
+            
+            echo '-----tag.txt-----'
+            cat "tag_${line}.txt"
+            echo " "
+            echo '-----------------'
 
-          echo '---' > ./content/docs/senior/auto2005.md
-          echo 'title: 信号分析与处理' >> ./content/docs/senior/auto2005.md
-          echo 'weight: 2' >> ./content/docs/senior/auto2005.md
-          echo '---' >> ./content/docs/senior/auto2005.md
-          curl https://raw.githubusercontent.com/HITSZ-Auto/AUTO2005/main/README.md -o temp2.md
-          cat temp2.md >> content/docs/senior/auto2005.md
+            OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
+            echo ${OUT}
 
-          
-      # - name: Commit and Push Changes
-      #   env:
-      #     PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-      #   run: |
-      #     git config --global user.email "actions@github.com"
-      #     git config --global user.name "GitHub Actions"
-      #     git add -A
-      #     git commit -m "ci: sync posts (auto)" || exit 0
-      #     git push
+            case ${OUT} in
+              '第一学年秋季')
+                semester='fresh/Autumn'
+                ;;
+              '第一学年春季')
+                semester='fresh/Spring'
+                ;;
+              '第一学年夏季')
+                semester='fresh/Summer'
+                ;;
+              '第二学年秋季')
+                semester='sophomore/Autumn'
+                ;;
+              '第二学年春季')
+                semester='sophomore/Spring'
+                ;;
+              '第二学年夏季')
+                semester='sophomore/Summer'
+                ;;
+              '第三学年秋季')
+                semester='junior/Autumn'
+                ;;
+              '第三学年春季')
+                semester='junior/Spring'
+                ;;
+              '第三学年夏季')
+                semester='junior/Summer'
+                ;;
+              '第四学年秋季')
+                semester='senior/Autumn'
+                ;;
+              '第四学年春季')
+                semester='senior/Spring'
+                ;;
+              '第四学年夏季')
+                semester='senior/Summer'
+                ;;
+              *)
+                echo "No match semester"
+                continue
+                ;;   
+            esac
+            echo " "       
+            echo $semester    
+
+            cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
+
+            echo '---' > "./content/docs/${semester}/${line}.md"
+            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+            echo 'weight: 2' >> "./content/docs/${semester}/${line}.md"
+            echo '---' >> "./content/docs/${semester}/${line}.md"
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
+            tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
+          done
 
       - name: Build with Hugo
         env:
@@ -88,7 +149,7 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify        
+            --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
