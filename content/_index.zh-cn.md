@@ -43,7 +43,8 @@ layout: hextra-home
     title="基于 GitHub 维护"
     subtitle="云端存储 随时获取"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="https://github.com/HITSZ-OpenAuto/hitsz-open-auto.github.io/assets/110339237/db59588e-105e-440c-a64d-363f70e3a352"
+    image="https://github.com/HITSZ-OpenAuto/hitsz-open-auto.github.io/assets/110339237/aba7c2af-d6e0-4f72-b200-bd30a19ca49a
+"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
