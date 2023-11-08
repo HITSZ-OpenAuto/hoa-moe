@@ -1,5 +1,5 @@
 ---
-title: Hextra 主题
+title: HITSZ OpenAuto
 layout: hextra-home
 ---
 
@@ -12,19 +12,19 @@ layout: hextra-home
 
 <div class="mt-6 mb-6">
 {{< hextra/hero-headline >}}
-  HITSZ 课程攻略共享计划&nbsp;<br class="sm:block hidden" />
+  HITSZ 自动化课程攻略共享计划&nbsp;<br class="sm:block hidden" />
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  由HITSZ Auto维护&nbsp;<br class="sm:block hidden" />为HITSZ学子提供课程攻略共享服务
+  由HITSZ OpenAuto维护&nbsp;<br class="sm:block hidden" />为HITSZ学子提供课程攻略共享服务
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="mb-6">
 {{< hextra/hero-button text="即刻查看" link="docs" >}}
-{{< hextra/hero-button text="关于我们" link="about" >}}
+{{< hextra/hero-button text="了解计划" link="about" >}}
 </div>
 
 <div class="mt-6"></div>
@@ -40,10 +40,10 @@ layout: hextra-home
   >}}
 
   {{< hextra/feature-card
-    title="基于GitHub维护"
-    subtitle="云端托管，多端维护"
+    title="基于 GitHub 维护"
+    subtitle="云端存储 随时获取"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/showcase.webp"
+    image="https://github.com/HITSZ-OpenAuto/hitsz-open-auto.github.io/assets/110339237/db59588e-105e-440c-a64d-363f70e3a352"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
