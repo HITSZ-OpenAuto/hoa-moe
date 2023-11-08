@@ -173,9 +173,18 @@ jobs:
               echo "{{< /cards >}}" >> "./content/docs/${semester}/_index.zh-cn.md"
 
               echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              if [ ${CATEGORY} = "限选" ]
+              then
+                echo "[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              fi
+              if [ ${CATEGORY} == "跨专业选修" ]
+              then
+                echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              fi
               echo "<!--more-->" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
-              echo "{{< card link=\"${line}\" title=\"$(cat "name_${line}.txt")\">}}" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             fi
 
