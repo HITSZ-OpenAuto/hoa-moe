@@ -70,7 +70,7 @@ jobs:
       - name: Grep Matched Name
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'senior-summer')
-          semester_name=('大一（秋）' '大一（春）' '大一（夏）' '大二（秋）' '大二（春）' '大二（夏）' '大三（秋）' '大三（春）' '大三（夏）' '大四（秋）' '大四（春）' '大四（夏）')
+          semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春·' '大四·夏')
           category_arr='mandatory distributional-selective cross-major-selective'
           for((i=0;i<${#semester_arr[@]};i++))
           do
@@ -81,7 +81,7 @@ jobs:
             echo "./content/docs/${SEMESTER}"
             echo '---' > "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "title: ${OUT}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            echo 'weight: 1' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'weight: $i' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo 'sidebar:' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
@@ -197,7 +197,7 @@ jobs:
 
             echo '---' > "./content/docs/${semester}/${line}.md"
             echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
-            echo 'weight: 2' >> "./content/docs/${semester}/${line}.md"
+            echo 'weight: $((2*line))' >> "./content/docs/${semester}/${line}.md"
             echo '---' >> "./content/docs/${semester}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
             tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
