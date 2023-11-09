@@ -160,15 +160,18 @@ jobs:
               echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
               echo "{{< /cards >}}" >> "${semester}-${category}.txt"
             else
-              echo "create a folder for a new semester"
-              mkdir "./content/docs/${semester}"
-              echo '---' > "./content/docs/${semester}/_index.zh-cn.md"
-              echo "title: ${OUT}" >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo 'weight: 2' >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo 'sidebar:' >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo '  open: false' >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo '---' >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/_index.zh-cn.md"
+              if test ! -e "./content/docs/${semester}/_index.zh-cn.md"
+              then
+                echo "create a folder for a new semester"
+                mkdir "./content/docs/${semester}"
+                echo '---' > "./content/docs/${semester}/_index.zh-cn.md"
+                echo "title: ${OUT}" >> "./content/docs/${semester}/_index.zh-cn.md"
+                echo 'weight: 2' >> "./content/docs/${semester}/_index.zh-cn.md"
+                echo 'sidebar:' >> "./content/docs/${semester}/_index.zh-cn.md"
+                echo '  open: false' >> "./content/docs/${semester}/_index.zh-cn.md"
+                echo '---' >> "./content/docs/${semester}/_index.zh-cn.md"
+                echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/_index.zh-cn.md"
+              fi
 
               echo "## ${CATEGORY}" > "${semester}-${category}.txt"
               if [ ${CATEGORY} = "限选" ]
