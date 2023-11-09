@@ -81,7 +81,8 @@ jobs:
             echo "./content/docs/${SEMESTER}"
             echo '---' > "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "title: ${OUT}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            echo 'weight: $((5*(i+1)))' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo -n "weight: " >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo $((${i}+2)) >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo 'sidebar:' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
@@ -197,7 +198,6 @@ jobs:
 
             echo '---' > "./content/docs/${semester}/${line}.md"
             echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
-            echo 'weight: $((2*line))' >> "./content/docs/${semester}/${line}.md"
             echo '---' >> "./content/docs/${semester}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
             tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
