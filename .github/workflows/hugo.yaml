@@ -215,7 +215,7 @@ jobs:
             echo '---' >> "./content/docs/${semester}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
             tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
-            echo '![IMG_0135](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim)'
+            echo '![Reward Code](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim)'>>"./content/docs/${semester}/${line}.md"
             
           done
 
