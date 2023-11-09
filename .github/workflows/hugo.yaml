@@ -184,6 +184,7 @@ jobs:
               echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
               echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
               echo "{{< /cards >}}" >> "${semester}-${category}.txt"
+              echo "${semester}-${category}.txt" >> "names.txt"
             fi
 
             echo '---' > "./content/docs/${semester}/${line}.md"
@@ -192,7 +193,6 @@ jobs:
             echo '---' >> "./content/docs/${semester}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
             tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
-            echo "${semester}-${category}.txt" >> "names.txt"
             
           done
 
