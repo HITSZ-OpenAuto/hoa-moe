@@ -70,7 +70,7 @@ jobs:
       - name: Grep Matched Name
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'senior-summer')
-          semester_name=('大一秋季学期' '大一春季学期' '大一夏季学期' '大二秋季学期' '大二春季学期' '大二夏季学期' '大三秋季学期' '大三春季学期' '大三夏季学期' '大四秋季学期' '大四春季学期' '大四夏季学期')
+          semester_name=('大一（秋）' '大一（春）' '大一（夏）' '大二（秋）' '大二（春）' '大二（夏）' '大三（秋）' '大三（春）' '大三（夏）' '大四（秋）' '大四（春）' '大四（夏）')
           category_arr='mandatory distributional-selective cross-major-selective'
           for((i=0;i<${#semester_arr[@]};i++))
           do
@@ -183,21 +183,17 @@ jobs:
               then
                 echo "[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}-${category}.txt"
               fi
-              if [ ${CATEGORY} == "跨专业选修" ]
+              if [ ${CATEGORY} = "跨专业选修" ]
               then
                 echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
               fi
               echo "<!--more-->" >> "${semester}-${category}.txt"
-              echo "{{< cards >}}" >> "${semester}-${category}.txt"
-              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
-              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
-              echo "{{< /cards >}}" >> "${semester}-${category}.txt"
-            else
-              echo "{{< cards >}}" >> "${semester}-${category}.txt"
-              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
-              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
-              echo "{{< /cards >}}" >> "${semester}-${category}.txt"
             fi
+
+            echo "{{< cards >}}" >> "${semester}-${category}.txt"
+            echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
+            echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
+            echo "{{< /cards >}}" >> "${semester}-${category}.txt"
 
             echo '---' > "./content/docs/${semester}/${line}.md"
             echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
@@ -210,8 +206,8 @@ jobs:
 
           for((i=0;i<${#semester_arr[@]};i++))
           do
-          SEMESTER="${semester_arr[i]}"
-          for CATEGORY in $category_arr
+            SEMESTER="${semester_arr[i]}"
+            for CATEGORY in $category_arr
             do
               echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
               echo "${SEMESTER}-${CATEGORY}.txt"
