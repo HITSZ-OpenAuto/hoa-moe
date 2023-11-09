@@ -1,6 +1,6 @@
 ---
 title: 哈工大(深圳)自动化专业 限选课选课说明及选课建议
-date: 2023-11-9
+date: 2023-11-09
 authors:
   - name: 吴俊达
 excludeSearch: false
@@ -65,7 +65,7 @@ excludeSearch: false
 
  《机器人学导论》必选，后三门至少选一门。 
 
-### （3）智能检测模块： 
+### （3）智能检测模块
 
 |  序号  |  开课学期  |  课程名称  |  组内必修  or  选修？  |  学分  |  总学时  |  讲课  |  实验  |  课外辅导  |
 | -------- | ------------ | ------------ | ---------------------------- | -------- | ---------- | -------- | -------- | ------------ |
@@ -116,7 +116,7 @@ excludeSearch: false
 <tr><td>3</td><td>大三下</td><td>数学规划</td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>4</td><td>大四上</td><td>运动控制系统</td><td rowspan="3">选修至少<u>两门</u></td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>5</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>6</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>7</td><td>大四上</td><td>先进控制概论</td><td>【注】 </td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
 
-【注】如果第2、3门课都选了，就不用选。否则，则要选。
+【注】如果第2、3门课都选了，就不用选。否则就要选。
 
 **（4）主选修模块：机器人与智能系统；副选修模块：智能检测模块**
 
@@ -134,7 +134,7 @@ excludeSearch: false
 <tbody><tr><td>1</td><td>大三上</td><td>数字图像处理</td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>2</td><td>大三下</td><td>过程控制系统</td><td rowspan='2'>必修（二选一）</td><td>3.0</td><td>48</td><td>36</td><td>12</td><td>&nbsp;</td></tr><tr><td>3</td><td>大三下</td><td>数学规划</td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>4</td><td>大三下</td><td>机器视觉</td><td rowspan='3'>选修至少两门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>5</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>6</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>7</td><td>大四上</td><td>先进控制概论</td><td>【注】 </td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
 
-【注】如果第2、3门课都选了，就不用选。否则，则要选。
+【注】如果第2、3门课都选了，就不用选。否则就要选。
 
 **（6）主选修模块：智能检测模块；副选修模块：机器人与智能系统**
 
@@ -144,7 +144,7 @@ excludeSearch: false
 <tbody><tr><td>1</td><td>大三上</td><td>数字图像处理</td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>2</td><td>大三下</td><td>机器人学导论</td><td>必修</td><td>2.0</td><td>36</td><td>28</td><td>8</td><td>（  24  ）</td></tr><tr><td>3</td><td>大三下</td><td>机器视觉</td><td rowspan='3'>选修至少两门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>4</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>5</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>6</td><td>大四上</td><td>运动控制系统</td><td rowspan='3'>选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>7</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr><tr><td>8</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
 
-## 限选课选课建议：
+## 限选课选课建议
 （欢迎学长学姐补充）
 
  据学长介绍，最多人选和大四课最少的方案是： 

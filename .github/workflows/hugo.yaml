@@ -81,8 +81,7 @@ jobs:
             echo "./content/docs/${SEMESTER}"
             echo '---' > "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "title: ${OUT}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            echo -n "weight: " >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            echo $((${i}+2)) >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo "weight: $((${i}+2))" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo 'sidebar:' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
@@ -97,6 +96,9 @@ jobs:
           cat tmp.txt | grep -E "^-.([A-Z]){2,4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > filter.txt
           cat filter.txt
           for line in $(cat filter.txt)
+          counter_man=0
+          counter_dis=100
+          counter_cross=200
           do
             echo '-------------------------------------------------'
             echo ${line}
@@ -198,6 +200,18 @@ jobs:
 
             echo '---' > "./content/docs/${semester}/${line}.md"
             echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+            if [ ${CATEGORY} = "必修" ]
+            then
+              counter_man=$((${counter_man}+1));
+              echo "weight: ${counter_man}" >> "./content/docs/${semester}/${category}.md"
+            elif [ ${CATEGORY} = "限选" ]
+            then
+              counter_dis=$((${counter_dis}+1));
+              echo "weight: ${counter_dis}" >> "./content/docs/${semester}/${category}.md"
+            else
+              counter_cross=$((${counter_cross}+1));
+              echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${category}.md"
+            fi
             echo '---' >> "./content/docs/${semester}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
             tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
