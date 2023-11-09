@@ -69,7 +69,7 @@ jobs:
 
       - name: Grep Matched Name
         run: |
-          semester_arr='fresh-autumn fresh-spring fresh-summer sophomore-autumn sophomore-spring sophomore-summer junior-autumn junior-spring junior-summer senior-autumn senior-spring senior-summer')
+          semester_arr='fresh-autumn fresh-spring fresh-summer sophomore-autumn sophomore-spring sophomore-summer junior-autumn junior-spring junior-summer senior-autumn senior-spring senior-summer'
           category_arr='mandatory distributional-selective cross-major-selective'
           for SEMESTER in semester_arr
           do
