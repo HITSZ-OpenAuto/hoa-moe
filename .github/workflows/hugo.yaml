@@ -205,11 +205,6 @@ jobs:
             
           done
 
-          echo '-----names.txt-----'
-          cat "names.txt"
-          echo " "
-          echo '-----------------'
-
           for SEMESTER in $semester_arr
           do
           for CATEGORY in $category_arr
