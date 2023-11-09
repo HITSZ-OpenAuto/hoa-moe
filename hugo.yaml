@@ -122,7 +122,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+    base: "https://github.com/HITSZ-OpenAuto/hitsz-open-auto/edit/main/content"
 
   blog:
     list:
