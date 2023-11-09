@@ -176,7 +176,7 @@ jobs:
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
 
-            if [ -s "${semester}-${category}.txt" ]
+            if test ! -s "${semester}-${category}.txt"
             then
               echo "## ${CATEGORY}" > "${semester}-${category}.txt"
               if [ ${CATEGORY} = "限选" ]
