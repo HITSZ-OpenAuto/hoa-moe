@@ -95,10 +95,10 @@ jobs:
           echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
           cat tmp.txt | grep -E "^-.([A-Z]){2,4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > filter.txt
           cat filter.txt
-          for line in $(cat filter.txt)
           counter_man=0
           counter_dis=100
           counter_cross=200
+          for line in $(cat filter.txt)
           do
             echo '-------------------------------------------------'
             echo ${line}
