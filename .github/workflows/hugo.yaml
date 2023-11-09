@@ -225,7 +225,10 @@ jobs:
             for CATEGORY in $category_arr
             do
               echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-              echo "{{< /cards >}}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+              if test -s "${SEMESTER}-${CATEGORY}.txt"
+              then
+                echo "{{< /cards >}}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+              fi
             done
           done
 
