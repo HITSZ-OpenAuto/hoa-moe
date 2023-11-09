@@ -196,9 +196,15 @@ jobs:
             
           done
 
+          echo '-----names.txt-----'
+          cat "names.txt"
+          echo " "
+          echo '-----------------'
+
           for filename in "names.txt"
           do
-            echo "$(cat "filename.txt")" >> "./content/docs/${semester}/_index.zh-cn.md"
+            echo "$(cat "${filename}.txt")" >> "./content/docs/${semester}/_index.zh-cn.md"
+            echo ${filename}
           done
 
 
