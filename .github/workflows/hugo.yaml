@@ -69,7 +69,9 @@ jobs:
 
       - name: Grep Matched Name
         run: |
-          for SEMESTER in ('fresh-autumn','fresh-spring','fresh-summer','sophomore-autumn','sophomore-spring','sophomore-summer','junior-autumn','junior-spring','junior-summer','senior-autumn','senior-spring','senior-summer')
+          semester_arr='fresh-autumn fresh-spring fresh-summer sophomore-autumn sophomore-spring sophomore-summer junior-autumn junior-spring junior-summer senior-autumn senior-spring senior-summer')
+          category_arr='mandatory distributional-selective cross-major-selective'
+          for SEMESTER in semester_arr
           do
             echo "create a folder for a new semester"
             mkdir "./content/docs/${SEMESTER}"
@@ -80,7 +82,7 @@ jobs:
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "探索以下各节以查找相关资料" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            for CATEGORY in ('mandatory','distributional-selective','cross-major-selective')
+            for CATEGORY in category_arr
             do
               touch "${semester}-${category}.txt"
             done
@@ -207,9 +209,9 @@ jobs:
           echo " "
           echo '-----------------'
 
-          for SEMESTER in ('fresh-autumn','fresh-spring','fresh-summer','sophomore-autumn','sophomore-spring','sophomore-summer','junior-autumn','junior-spring','junior-summer','senior-autumn','senior-spring','senior-summer')
+          for SEMESTER in semester_arr
           do
-          for CATEGORY in ('mandatory','distributional-selective','cross-major-selective')
+          for CATEGORY in category_arr
             do
               echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
               echo "${SEMESTER}-${CATEGORY}.txt"
