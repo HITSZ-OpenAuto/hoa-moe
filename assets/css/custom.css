@@ -10,3 +10,23 @@ img {
     margin-bottom: 0.2rem;
     border-radius: 0.375rem;
 }
+
+.content :where(a):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    --tw-text-opacity: 1;
+    /* color: hsl(var(--primary-hue) var(--primary-saturation) 45% / var(--tw-text-opacity)); */
+    color: #0b346e;
+    text-decoration-line: none;
+    text-decoration-thickness: from-font;
+    text-underline-position: from-font;
+
+}
+
+a:hover {
+    background-color: rgb(219, 230, 239);
+    background-size: 400%;
+    /* color: transparent; */
+    /* background-repeat: no-repeat; */
+    transition: all 1s 0.25s;
+    background-position: 400%;
+
+}
