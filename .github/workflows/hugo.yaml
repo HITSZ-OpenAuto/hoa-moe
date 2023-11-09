@@ -70,7 +70,7 @@ jobs:
       - name: Grep Matched Name
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'senior-summer')
-          semester_name=('第一学年秋季' '第一学年春季' '第一学年夏季' '第二学年秋季' '第二学年春季' '第二学年夏季' '第三学年秋季' '第三学年春季' '第三学年夏季' '第四学年秋季' '第四学年春季' '第四学年夏季')
+          semester_name=('大一秋季学期' '大一春季学期' '大一夏季学期' '大二秋季学期' '大二春季学期' '大二夏季学期' '大三秋季学期' '大三春季学期' '大三夏季学期' '大四秋季学期' '大四春季学期' '大四夏季学期')
           category_arr='mandatory distributional-selective cross-major-selective'
           for((i=0;i<${#semester_arr[@]};i++))
           do
@@ -81,7 +81,7 @@ jobs:
             echo "./content/docs/${SEMESTER}"
             echo '---' > "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "title: ${OUT}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            echo 'weight: 2' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'weight: 1' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo 'sidebar:' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
@@ -176,13 +176,8 @@ jobs:
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
 
-            if [ -e "${semester}-${category}.txt" ]
+            if [ -s "${semester}-${category}.txt" ]
             then
-              echo "{{< cards >}}" >> "${semester}-${category}.txt"
-              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
-              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
-              echo "{{< /cards >}}" >> "${semester}-${category}.txt"
-            else
               echo "## ${CATEGORY}" > "${semester}-${category}.txt"
               if [ ${CATEGORY} = "限选" ]
               then
@@ -193,6 +188,11 @@ jobs:
                 echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
               fi
               echo "<!--more-->" >> "${semester}-${category}.txt"
+              echo "{{< cards >}}" >> "${semester}-${category}.txt"
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
+              echo "{{< /cards >}}" >> "${semester}-${category}.txt"
+            else
               echo "{{< cards >}}" >> "${semester}-${category}.txt"
               echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
               echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
