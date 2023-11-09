@@ -191,12 +191,11 @@ jobs:
                 echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
               fi
               echo "<!--more-->" >> "${semester}-${category}.txt"
+              echo "{{< cards >}}" >> "${semester}-${category}.txt"
             fi
-
-            echo "{{< cards >}}" >> "${semester}-${category}.txt"
+            
             echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
             echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
-            echo "{{< /cards >}}" >> "${semester}-${category}.txt"
 
             echo '---' > "./content/docs/${semester}/${line}.md"
             echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
@@ -215,6 +214,7 @@ jobs:
             echo '---' >> "./content/docs/${semester}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
             tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
+            echo "" >> "./content/docs/${semester}/${line}.md"
             echo '<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim" alt="IMG_0135" style="zoom:25%; display: block; margin: 0 auto;" />'>>"./content/docs/${semester}/${line}.md"
             
           done
@@ -225,7 +225,7 @@ jobs:
             for CATEGORY in $category_arr
             do
               echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-              echo "${SEMESTER}-${CATEGORY}.txt"
+              echo "{{< /cards >}}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             done
           done
 
