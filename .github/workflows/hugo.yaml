@@ -204,7 +204,7 @@ jobs:
           echo " "
           echo '-----------------'
 
-          for filename in names.txt
+          for filename in `cat names.txt`
           do
             echo "$(cat "${filename}")" >> "./content/docs/${semester}/_index.zh-cn.md"
             echo ${filename}
