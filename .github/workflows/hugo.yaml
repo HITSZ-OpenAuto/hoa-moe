@@ -71,10 +71,11 @@ jobs:
         run: |
           semester_arr='fresh-autumn fresh-spring fresh-summer sophomore-autumn sophomore-spring sophomore-summer junior-autumn junior-spring junior-summer senior-autumn senior-spring senior-summer'
           category_arr='mandatory distributional-selective cross-major-selective'
-          for SEMESTER in semester_arr
+          for SEMESTER in $semester_arr
           do
             echo "create a folder for a new semester"
             mkdir "./content/docs/${SEMESTER}"
+            echo "./content/docs/${SEMESTER}"
             echo '---' > "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "title: ${OUT}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo 'weight: 2' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
@@ -82,7 +83,7 @@ jobs:
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "探索以下各节以查找相关资料" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            for CATEGORY in category_arr
+            for CATEGORY in $category_arr
             do
               touch "${SEMESTER}-${CATEGORY}.txt"
             done
@@ -209,9 +210,9 @@ jobs:
           echo " "
           echo '-----------------'
 
-          for SEMESTER in semester_arr
+          for SEMESTER in $semester_arr
           do
-          for CATEGORY in category_arr
+          for CATEGORY in $category_arr
             do
               echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
               echo "${SEMESTER}-${CATEGORY}.txt"
