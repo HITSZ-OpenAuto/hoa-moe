@@ -84,7 +84,7 @@ jobs:
             echo "探索以下各节以查找相关资料" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             for CATEGORY in category_arr
             do
-              touch ${semester}-${category}.txt
+              touch "${SEMESTER}-${CATEGORY}.txt"
             done
           done
           
