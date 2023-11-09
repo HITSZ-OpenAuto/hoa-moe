@@ -70,9 +70,12 @@ jobs:
       - name: Grep Matched Name
         run: |
           semester_arr='fresh-autumn fresh-spring fresh-summer sophomore-autumn sophomore-spring sophomore-summer junior-autumn junior-spring junior-summer senior-autumn senior-spring senior-summer'
+          semester_name='第一学年秋季 第一学年春季 第一学年夏季 第二学年秋季 第二学年春季 第二学年夏季 第三学年秋季 第三学年春季 第三学年夏季 第四学年秋季 第四学年春季 第四学年夏季'
           category_arr='mandatory distributional-selective cross-major-selective'
-          for SEMESTER in $semester_arr
+          for i in $(seq 0 ${#semester_arr[@]});
           do
+            SEMESTER=${semester_arr[$i]}
+            OUT=${semester_name[$i]}
             echo "create a folder for a new semester"
             mkdir "./content/docs/${SEMESTER}"
             echo "./content/docs/${SEMESTER}"
