@@ -81,7 +81,7 @@ jobs:
             echo "./content/docs/${SEMESTER}"
             echo '---' > "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "title: ${OUT}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            echo 'weight: $i' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'weight: $((i+1))' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo 'sidebar:' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
