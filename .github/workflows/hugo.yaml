@@ -88,40 +88,40 @@ jobs:
 
             case ${OUT} in
               '第一学年秋季')
-                semester='fresh-Autumn'
+                semester='fresh-autumn'
                 ;;
               '第一学年春季')
-                semester='fresh-Spring'
+                semester='fresh-spring'
                 ;;
               '第一学年夏季')
-                semester='fresh-Summer'
+                semester='fresh-summer'
                 ;;
               '第二学年秋季')
-                semester='sophomore-Autumn'
+                semester='sophomore-autumn'
                 ;;
               '第二学年春季')
-                semester='sophomore-Spring'
+                semester='sophomore-spring'
                 ;;
               '第二学年夏季')
-                semester='sophomore-Summer'
+                semester='sophomore-summer'
                 ;;
               '第三学年秋季')
-                semester='junior-Autumn'
+                semester='junior-autumn'
                 ;;
               '第三学年春季')
-                semester='junior-Spring'
+                semester='junior-spring'
                 ;;
               '第三学年夏季')
-                semester='junior-Summer'
+                semester='junior-summer'
                 ;;
               '第四学年秋季')
-                semester='senior-Autumn'
+                semester='senior-autumn'
                 ;;
               '第四学年春季')
-                semester='senior-Spring'
+                semester='senior-spring'
                 ;;
               '第四学年夏季')
-                semester='senior-Summer'
+                semester='senior-summer'
                 ;;
               *)
                 echo "No match semester"
@@ -153,7 +153,7 @@ jobs:
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
 
-            if [ -e "./content/docs/${semester}/_index.zh-cn.md" ]
+            if [ -e "${semester}-${category}.txt" ]
             then
               echo "{{< cards >}}" >> "${semester}-${category}.txt"
               echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
@@ -201,9 +201,9 @@ jobs:
           echo " "
           echo '-----------------'
 
-          for filename in "names.txt"
+          for filename in names.txt
           do
-            echo "$(cat "${filename}.txt")" >> "./content/docs/${semester}/_index.zh-cn.md"
+            echo "$(cat "${filename}")" >> "./content/docs/${semester}/_index.zh-cn.md"
             echo ${filename}
           done
 
