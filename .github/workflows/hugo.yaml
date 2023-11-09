@@ -155,10 +155,10 @@ jobs:
 
             if [ -e "./content/docs/${semester}/_index.zh-cn.md" ]
             then
-              echo "{{< cards >}}" >> "${semester}/${category}.txt"
-              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}/${category}.txt"
-              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}/${category}.txt"
-              echo "{{< /cards >}}" >> "${semester}/${category}.txt"
+              echo "{{< cards >}}" >> "${semester}-{category}.txt"
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-{category}.txt"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-{category}.txt"
+              echo "{{< /cards >}}" >> "${semester}-{category}.txt"
             else
               echo "create a folder for a new semester"
               mkdir "./content/docs/${semester}"
@@ -170,20 +170,20 @@ jobs:
               echo '---' >> "./content/docs/${semester}/_index.zh-cn.md"
               echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/_index.zh-cn.md"
 
-              echo "## ${CATEGORY}" > "${semester}/${category}.txt"
+              echo "## ${CATEGORY}" > "${semester}-{category}.txt"
               if [ ${CATEGORY} = "限选" ]
               then
-                echo "[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}/${category}.txt"
+                echo "[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}-{category}.txt"
               fi
               if [ ${CATEGORY} == "跨专业选修" ]
               then
-                echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}/${category}.txt"
+                echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-{category}.txt"
               fi
-              echo "<!--more-->" >> "${semester}/${category}.txt"
-              echo "{{< cards >}}" >> "${semester}/${category}.txt"
-              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}/${category}.txt"
-              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}/${category}.txt"
-              echo "{{< /cards >}}" >> "${semester}/${category}.txt"
+              echo "<!--more-->" >> "${semester}-{category}.txt"
+              echo "{{< cards >}}" >> "${semester}-{category}.txt"
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-{category}.txt"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-{category}.txt"
+              echo "{{< /cards >}}" >> "${semester}-{category}.txt"
             fi
 
             echo '---' > "./content/docs/${semester}/${line}.md"
@@ -195,11 +195,11 @@ jobs:
             
           done
 
-          for SEMESTER in "fresh-Autumn fresh-Spring fresh-Summer sophomore-Autumn sophomore-Spring sophomore-Summer junior-Autumn junior-Spring junior-Summer senior-Autumn senior-Spring senior-Summer"
+          for semester in "fresh-Autumn fresh-Spring fresh-Summer sophomore-Autumn sophomore-Spring sophomore-Summer junior-Autumn junior-Spring junior-Summer senior-Autumn senior-Spring senior-Summer"
           do
-            for CATEGORY in "mandatory distributional-selective cross-major-selective"
+            for category in "mandatory distributional-selective cross-major-selective"
             do
-              echo "${SEMESTER}/${CATEGORY}.txt" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+              echo "${semester}-{category}.txt" >> "./content/docs/${semester}/_index.zh-cn.md"
             done
           done
 
