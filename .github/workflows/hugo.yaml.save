@@ -88,40 +88,40 @@ jobs:
 
             case ${OUT} in
               '第一学年秋季')
-                semester='fresh-Autumn'
+                semester='fresh/Autumn'
                 ;;
               '第一学年春季')
-                semester='fresh-Spring'
+                semester='fresh/Spring'
                 ;;
               '第一学年夏季')
-                semester='fresh-Summer'
+                semester='fresh/Summer'
                 ;;
               '第二学年秋季')
-                semester='sophomore-Autumn'
+                semester='sophomore/Autumn'
                 ;;
               '第二学年春季')
-                semester='sophomore-Spring'
+                semester='sophomore/Spring'
                 ;;
               '第二学年夏季')
-                semester='sophomore-Summer'
+                semester='sophomore/Summer'
                 ;;
               '第三学年秋季')
-                semester='junior-Autumn'
+                semester='junior/Autumn'
                 ;;
               '第三学年春季')
-                semester='junior-Spring'
+                semester='junior/Spring'
                 ;;
               '第三学年夏季')
-                semester='junior-Summer'
+                semester='junior/Summer'
                 ;;
               '第四学年秋季')
-                semester='senior-Autumn'
+                semester='senior/Autumn'
                 ;;
               '第四学年春季')
-                semester='senior-Spring'
+                semester='senior/Spring'
                 ;;
               '第四学年夏季')
-                semester='senior-Summer'
+                semester='senior/Summer'
                 ;;
               *)
                 echo "No match semester"
@@ -153,56 +153,50 @@ jobs:
 
             cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
 
-            if [ -e "./content/docs/${semester}/_index.zh-cn.md" ]
+            if [ -e "./content/docs/${semester}/${category}/_index.zh-cn.md" ]
             then
-              echo "{{< cards >}}" >> "${semester}/${category}.txt"
-              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}/${category}.txt"
-              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}/${category}.txt"
-              echo "{{< /cards >}}" >> "${semester}/${category}.txt"
+              echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             else
-              echo "create a folder for a new semester"
-              mkdir "./content/docs/${semester}"
-              echo '---' > "./content/docs/${semester}/_index.zh-cn.md"
-              echo "title: ${OUT}" >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo 'weight: 2' >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo 'sidebar:' >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo '  open: false' >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo '---' >> "./content/docs/${semester}/_index.zh-cn.md"
-              echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/_index.zh-cn.md"
+              echo "create a folder"
+              mkdir "./content/docs/${semester}/${category}"
+              echo '---' > "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "title: ${CATEGORY}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo 'weight: 2' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo 'sidebar:' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo '  open: false' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo '---' >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
 
-              echo "## ${CATEGORY}" > "${semester}/${category}.txt"
+              echo "{{< cards >}}" >> "./content/docs/${semester}/_index.zh-cn.md"
+              echo "{{< card link=\"${category}\" title=\"${CATEGORY}\">}}" >> "./content/docs/${semester}/_index.zh-cn.md"
+              echo "{{< /cards >}}" >> "./content/docs/${semester}/_index.zh-cn.md"
+
+              echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               if [ ${CATEGORY} = "限选" ]
               then
-                echo "[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}/${category}.txt"
+                echo "[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               fi
               if [ ${CATEGORY} == "跨专业选修" ]
               then
-                echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}/${category}.txt"
+                echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
               fi
-              echo "<!--more-->" >> "${semester}/${category}.txt"
-              echo "{{< cards >}}" >> "${semester}/${category}.txt"
-              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}/${category}.txt"
-              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}/${category}.txt"
-              echo "{{< /cards >}}" >> "${semester}/${category}.txt"
+              echo "<!--more-->" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
+              echo "{{< /cards >}}" >> "./content/docs/${semester}/${category}/_index.zh-cn.md"
             fi
 
-            echo '---' > "./content/docs/${semester}/${line}.md"
-            echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
-            echo 'weight: 2' >> "./content/docs/${semester}/${line}.md"
-            echo '---' >> "./content/docs/${semester}/${line}.md"
+            echo '---' > "./content/docs/${semester}/${category}/${line}.md"
+            echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${category}/${line}.md"
+            echo 'weight: 2' >> "./content/docs/${semester}/${category}/${line}.md"
+            echo '---' >> "./content/docs/${semester}/${category}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
-            tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
+            tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${category}/${line}.md"
             
           done
-
-          for SEMESTER in "fresh-Autumn fresh-Spring fresh-Summer sophomore-Autumn sophomore-Spring sophomore-Summer junior-Autumn junior-Spring junior-Summer senior-Autumn senior-Spring senior-Summer"
-          do
-            for CATEGORY in "mandatory distributional-selective cross-major-selective"
-            do
-              echo "${SEMESTER}/${CATEGORY}.txt" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
-            done
-          done
-
 
       - name: Build with Hugo
         env:
