@@ -69,6 +69,23 @@ jobs:
 
       - name: Grep Matched Name
         run: |
+          for SEMESTER in ('fresh-autumn','fresh-spring','fresh-summer','sophomore-autumn','sophomore-spring','sophomore-summer','junior-autumn','junior-spring','junior-summer','senior-autumn','senior-spring','senior-summer')
+          do
+            echo "create a folder for a new semester"
+            mkdir "./content/docs/${SEMESTER}"
+            echo '---' > "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo "title: ${OUT}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'weight: 2' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'sidebar:' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo "探索以下各节以查找相关资料" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            for CATEGORY in ('mandatory','distributional-selective','cross-major-selective')
+            do
+              touch "${semester}-${category}.txt"
+            done
+          done
+          
           echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
           cat tmp.txt | grep -E "^-.([A-Z]){2,4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > filter.txt
           cat filter.txt
@@ -160,19 +177,6 @@ jobs:
               echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
               echo "{{< /cards >}}" >> "${semester}-${category}.txt"
             else
-              if test ! -e "./content/docs/${semester}/_index.zh-cn.md"
-              then
-                echo "create a folder for a new semester"
-                mkdir "./content/docs/${semester}"
-                echo '---' > "./content/docs/${semester}/_index.zh-cn.md"
-                echo "title: ${OUT}" >> "./content/docs/${semester}/_index.zh-cn.md"
-                echo 'weight: 2' >> "./content/docs/${semester}/_index.zh-cn.md"
-                echo 'sidebar:' >> "./content/docs/${semester}/_index.zh-cn.md"
-                echo '  open: false' >> "./content/docs/${semester}/_index.zh-cn.md"
-                echo '---' >> "./content/docs/${semester}/_index.zh-cn.md"
-                echo "探索以下各节以查找相关资料" >> "./content/docs/${semester}/_index.zh-cn.md"
-              fi
-
               echo "## ${CATEGORY}" > "${semester}-${category}.txt"
               if [ ${CATEGORY} = "限选" ]
               then
@@ -187,7 +191,6 @@ jobs:
               echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
               echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
               echo "{{< /cards >}}" >> "${semester}-${category}.txt"
-              echo "${semester}-${category}.txt" >> "names.txt"
             fi
 
             echo '---' > "./content/docs/${semester}/${line}.md"
@@ -204,10 +207,13 @@ jobs:
           echo " "
           echo '-----------------'
 
-          for filename in `cat names.txt`
+          for SEMESTER in ('fresh-autumn','fresh-spring','fresh-summer','sophomore-autumn','sophomore-spring','sophomore-summer','junior-autumn','junior-spring','junior-summer','senior-autumn','senior-spring','senior-summer')
           do
-            echo "$(cat "${filename}")" >> "./content/docs/${semester}/_index.zh-cn.md"
-            echo ${filename}
+          for CATEGORY in ('mandatory','distributional-selective','cross-major-selective')
+            do
+              echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+              echo "${SEMESTER}-${CATEGORY}.txt"
+            done
           done
 
 
