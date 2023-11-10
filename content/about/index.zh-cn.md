@@ -94,3 +94,11 @@ Issue、Pull Request、纠错、资料、选课/考试攻略，完全欢迎！�
   有问题或反馈？请随时[提出问题](https://github.com/HITSZ-Auto/HITSZ-OpenAuto/issues)！
 {{< /callout >}}
 
+## 感谢 | Thanks
+
+**由衷感谢每一位 OpenAuto 项目的贡献者！**
+
+<a href="https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HITSZ-OpenAuto/HITSZ-OpenAuto" />
+</a>
+
