@@ -214,9 +214,9 @@ jobs:
             echo '---' >> "./content/docs/${semester}/${line}.md"
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
             tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
-            echo "" >> "./content/docs/${semester}/${line}.md"
-            echo "" >> "./content/docs/${semester}/${line}.md"
-            echo "" >> "./content/docs/${semester}/${line}.md"
+            echo "   " >> "./content/docs/${semester}/${line}.md"
+            echo "   " >> "./content/docs/${semester}/${line}.md"
+            echo "   " >> "./content/docs/${semester}/${line}.md"
             echo '<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim" alt="IMG_0135" style="zoom:25%; display: block; margin: 0 auto;" />'>>"./content/docs/${semester}/${line}.md"
             
           done
