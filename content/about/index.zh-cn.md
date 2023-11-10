@@ -102,3 +102,13 @@ Issue、Pull Request、纠错、资料、选课/考试攻略，完全欢迎！�
   <img src="https://contrib.rocks/image?repo=HITSZ-OpenAuto/HITSZ-OpenAuto" />
 </a>
 
+## 关于我们 | About us
+
+<br>
+
+
+<div class="github-card" data-github="HITSZ-OpenAuto" data-width="400" data-height="" data-theme="default" style="float:left;width:20%"><script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script></div>
+<!-- <div style="float:right;width:25%"> -->
+<div class="sponsor-img">
+<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim" alt="IMG_0135" style="float:left;width:25%">
+</div>
