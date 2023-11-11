@@ -103,17 +103,21 @@ Issue、Pull Request、纠错、资料、选课/考试攻略，完全欢迎！�
 </a>
 
 ## 关注和支持我们 | Follow and Support Us
-
 <br>
-
-
-<div style="overflow: auto;">
-  <div style="float: left; width: 50%;">
+<div style="overflow: auto; display: flex; flex-wrap: wrap;">
+  <div style="flex: 1;">
     <div class="github-card" data-github="HITSZ-OpenAuto" data-width="400" data-height="" data-theme="default"><script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script></div>
   </div>
-  <div style="float: left; width: 50%;">
+  <div style="flex: 1;">
     <div class="sponsor-img">
       <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim" alt="Reward Code" style="zoom: 17.3%; display: block; margin: 0 auto; border-radius: 20px;">
     </div>
   </div>
 </div>
+<style>
+  @media (max-width: 600px) {
+    .sponsor-img {
+      width: 100%;
+    }
+  }
+</style>
