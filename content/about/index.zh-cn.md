@@ -102,13 +102,18 @@ Issue、Pull Request、纠错、资料、选课/考试攻略，完全欢迎！�
   <img src="https://contrib.rocks/image?repo=HITSZ-OpenAuto/HITSZ-OpenAuto" />
 </a>
 
-## 关于我们 | About us
+## 关注和支持我们 | Follow and Support Us
 
 <br>
 
 
-<div class="github-card" data-github="HITSZ-OpenAuto" data-width="400" data-height="" data-theme="default" style="float:left;width:20%"><script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script></div>
-<!-- <div style="float:right;width:25%"> -->
-<div class="sponsor-img">
-<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim" alt="IMG_0135" style="float:left;width:25%">
+<div style="overflow: auto;">
+  <div style="float: left; width: 50%;">
+    <div class="github-card" data-github="HITSZ-OpenAuto" data-width="400" data-height="" data-theme="default"><script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script></div>
+  </div>
+  <div style="float: left; width: 50%;">
+    <div class="sponsor-img">
+      <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim" alt="Reward Code" style="zoom: 17.3%; display: block; margin: 0 auto; border-radius: 20px;">
+    </div>
+  </div>
 </div>
