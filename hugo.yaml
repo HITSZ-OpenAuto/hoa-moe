@@ -94,7 +94,7 @@ params:
 
   theme:
     # light | dark | system
-    default: light
+    default: system
     displayToggle: true
 
   footer:
