@@ -104,7 +104,7 @@ params:
     width: normal
 
   displayUpdatedDate: true
-  dateFormat: "2006-06-02"
+  dateFormat: "2023-11-12"
 
   # Search
   # flexsearch is enabled by default
