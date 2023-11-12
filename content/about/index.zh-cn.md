@@ -1,6 +1,7 @@
 ---
 title: 关于
 toc: false
+comments: true
 ---
 
 👋 你好！欢迎来到HITSZ Open Auto！

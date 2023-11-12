@@ -1,0 +1,25 @@
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="100b3e75-de12-486c-95dc-77a9928f7467"
+  data-page-id="{{ .File.UniqueID }}"
+  data-page-url="{{ .Permalink }}"
+  data-page-title="{{ .Title }}"
+  data-theme="auto"
+></div>
+<script defer src="https://cusdis.com/js/widget/lang/zh-cn.js"></script>
+<script defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<script>
+  function setCusdisTheme(theme) {
+      let cusdis = document.querySelector('#cusdis_thread iframe');
+      if (cusdis) {
+          window.CUSDIS.setTheme(theme)
+      }
+  }
+
+  window.addEventListener('onColorSchemeChange', (e) => {
+      setCusdisTheme(e.detail)
+  })
+</script>
+
+

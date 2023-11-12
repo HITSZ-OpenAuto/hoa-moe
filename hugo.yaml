@@ -25,10 +25,6 @@ languages:
       languageCode: zh-CN
       weight: 1
       title: HITSZ OpenAuto
-  en:
-    languageName: English
-    weight: 2
-    title: HITSZ OpenAuto
 
 markup:
   goldmark:
@@ -98,7 +94,7 @@ params:
 
   theme:
     # light | dark | system
-    default: system
+    default: light
     displayToggle: true
 
   footer:
@@ -129,8 +125,8 @@ params:
       displayTags: true
 
   comments:
-    enable: false
-    type: giscus
+    enable: true
+    type: cusdis
 
     # https://giscus.app/
     giscus:

@@ -84,6 +84,7 @@ jobs:
             echo "weight: $((${i}+2))" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo 'sidebar:' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'comments: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "探索以下各节以查找相关资料" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             for CATEGORY in $category_arr
