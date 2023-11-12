@@ -111,7 +111,7 @@ Issue、Pull Request、纠错、资料、选课/考试攻略，完全欢迎！�
   </div>
   <div style="flex: 1;">
     <div class="sponsor-img">
-      <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim" alt="Reward Code" style="zoom: 20%; display: block; margin: 0 auto; border-radius: 20px;">
+      <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward Code" style="zoom: 15%; display: block; margin: 0 auto; border-radius: 20px;">
     </div>
   </div>
 </div>

@@ -61,7 +61,7 @@ jobs:
           delimiter: "\n"
         id: get-org-repos
 
-      - name: Turn To Array
+      - name: Turn to Array
         id: modified_files_list
         uses: lucaspinheirogit/list-from-string-array-action@v1.4.3
         with:
@@ -219,7 +219,7 @@ jobs:
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
-            echo '<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/IMG_0135.png?imageSlim" alt="IMG_0135" style="zoom:25%; display: block; margin: 0 auto;" />'>>"./content/docs/${semester}/${line}.md"
+            echo '<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />'>>"./content/docs/${semester}/${line}.md"
             
           done
 
