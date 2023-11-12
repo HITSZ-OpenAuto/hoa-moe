@@ -71,7 +71,7 @@ menu:
       weight: 2
     - identifier: githubPage
       name: "GitHub 主页 ↗"
-      url: “https://github.com/HITSZ-OpenAuto”
+      url: "https://github.com/HITSZ-OpenAuto"
       weight: 3
 
 params:
@@ -104,7 +104,7 @@ params:
     width: normal
 
   displayUpdatedDate: true
-  dateFormat: "January 2, 2006"
+  dateFormat: "2006-06-02"
 
   # Search
   # flexsearch is enabled by default
