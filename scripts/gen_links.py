@@ -1,11 +1,10 @@
 import requests
 import argparse
 
-def list_files_in_repo(owner, repo, token, path=''):
+def list_files_in_repo(owner, repo, username, token, path=''):
     paths = []
     url = f'https://api.github.com/repos/{owner}/{repo}/contents/{path}'
-    headers = {'Authorization': f'token {token}'}
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, auth=(username,token))
     if response.status_code == 200:
         contents = response.json()
         for content in contents:
@@ -21,8 +20,8 @@ def list_files_in_repo(owner, repo, token, path=''):
 
     return paths
 
-def save_files_list(owner, repo, token):
-     paths = list_files_in_repo(owner, repo, token)
+def save_files_list(owner, repo, username, token):
+     paths = list_files_in_repo(owner, repo, username, token)
      prefix = f'https://github.com/{owner}/{repo}/raw/main/'
      filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip'))]
      with open('result.txt', 'w') as file:
@@ -35,11 +34,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate download links of files from a GitHub repository.")
     parser.add_argument("owner", help="GitHub repository owner")
     parser.add_argument("repo", help="GitHub repository name")
+    parser.add_argument("username", help="GitHub username")
     parser.add_argument("token", help="GitHub token")
 
     args = parser.parse_args()
     owner = args.owner
     repo = args.repo
+    username = args.username
     token = args.token
     
-    save_files_list(owner, repo, token)
+    save_files_list(owner, repo, username, token)
