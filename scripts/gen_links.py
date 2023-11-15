@@ -1,5 +1,6 @@
 import requests
 import argparse
+import urllib.parse
 
 def list_files_in_repo(owner, repo, username, token, path=''):
     paths = []
@@ -26,7 +27,8 @@ def save_files_list(owner, repo, username, token):
      filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip'))]
      with open('result.txt', 'w') as file:
         for path in filtered_paths:
-            full_path = prefix + path
+            encoded_path = urllib.parse.quote(path)
+            full_path = prefix + encoded_path
             full_path_md = f'[{path}]({full_path})'
             file.write(full_path_md + '<br>')
 
