@@ -1,0 +1,13 @@
+## 关注和支持我们
+<br>
+<div style="overflow: auto; display: flex; flex-wrap: wrap;">
+  <div style="flex: 1;">
+    <div class="github-card" data-github="HITSZ-OpenAuto" data-width="400" data-height="" data-theme="default"><script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script></div>
+  </div>
+  <div style="flex: 1;">
+    <div class="sponsor-img">
+      <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward Code" style="zoom: 15%; display: block; margin: 0 auto; border-radius: 20px;">
+    </div>
+  </div>
+</div>
+<style>

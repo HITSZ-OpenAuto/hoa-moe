@@ -244,14 +244,12 @@ jobs:
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
             done
 
+            echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
             python scripts/gen_links.py HITSZ-OpenAuto ${line} xiln7 ${{ secrets.PERSONAL_TOKEN }}
             cat result.txt >> "./content/docs/${semester}/${line}.md"
 
-            for _ in {1..3}; do
-              echo '<br>' >> "./content/docs/${semester}/${line}.md"
-            done
-
-            echo '<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />'>>"./content/docs/${semester}/${line}.md"
+            echo '<br>' >> "./content/docs/${semester}/${line}.md"
+            cat scripts/support_us.txt >> "./content/docs/${semester}/${line}.md"
           done
 
           for((i=0;i<${#semester_arr[@]};i++))
