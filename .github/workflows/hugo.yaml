@@ -213,12 +213,18 @@ jobs:
               echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
             fi
             echo '---' >> "./content/docs/${semester}/${line}.md"
+            if [ ${CATEGORY} = "限选" ]
+            then
+              MODULE=`cat "tag_${line}.txt" | grep -E "^module:..*$" | sed -E 's/^module:.(.*)$/\1/'`
+              echo "**该课程属于限选课程的${MODULE}模块。**" >> "./content/docs/${semester}/${line}.md"
+              echo "**什么是${MODULE}模块？请查阅[限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)**" >> "./content/docs/${semester}/${line}.md"
+            fi
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp_${line}.md"
             tail -n +2 "temp_${line}.md" >> "./content/docs/${semester}/${line}.md"
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
-            echo '<br>' >> "./content/docs/${semester}/${line}.md"
+            echo "### 支持我们|Support Us" >> "./content/docs/${semester}/${line}.md"
             echo '<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />'>>"./content/docs/${semester}/${line}.md"
             
           done
