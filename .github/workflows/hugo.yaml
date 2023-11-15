@@ -244,7 +244,7 @@ jobs:
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
             done
 
-            python scripts/gen_links.py HITSZ-OpenAuto ${line}
+            python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_TOKEN }}
             cat result.txt >> "./content/docs/${semester}/${line}.md"
 
             for _ in {1..3}; do
