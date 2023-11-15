@@ -12,7 +12,7 @@ def list_files_in_repo(owner, repo, username, token, path=''):
                 print(content['path'])
                 paths.append(content['path'])
             elif content['type'] == 'dir':
-                paths.extend(list_files_in_repo(owner, repo, content['path']))
+                paths.extend(list_files_in_repo(owner, repo, username, token, content['path']))
         print(f"Successfully retrieved {len(paths)} files.")
     else:
         print(f"Failed to retrieve files. Status code: {response.status_code}")
