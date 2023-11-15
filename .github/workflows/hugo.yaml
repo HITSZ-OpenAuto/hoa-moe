@@ -109,7 +109,7 @@ jobs:
           cat tmp.txt | grep -E "^-.([A-Z]){2,4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
           cat repos.txt
 
-      - name: Build Courses Pages
+      - name: Build Courses' Pages
         run: |
           counter_man=0
           counter_dis=100
@@ -252,7 +252,11 @@ jobs:
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
             cat scripts/support_us.txt >> "./content/docs/${semester}/${line}.md"
           done
-
+      
+      - name: Build Guide Pages
+        run: |
+          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'senior-summer')
+          category_arr='mandatory distributional-selective cross-major-selective'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
