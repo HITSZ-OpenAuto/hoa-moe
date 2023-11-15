@@ -29,8 +29,10 @@ def save_files_list(owner, repo, username, token):
         for path in filtered_paths:
             encoded_path = urllib.parse.quote(path)
             full_path = prefix + encoded_path
-            full_path_md = f'[{path}]({full_path})'
-            file.write(full_path_md + '<br>')
+            full_path_html = f'<a href="{full_path}">{path}</a>'
+            # full_path_md = f'[{path}]({full_path})'
+            file.write(full_path_html + '\n<br>\n')
+            
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate download links of files from a GitHub repository.")
