@@ -30,9 +30,9 @@
       {{ .context.Scratch.Set "enableFooterSwitches" true }}
     {{- else -}}
       <ul class="flex flex-col gap-1 max-md:hidden">   
-       {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL "page" $context "toc" true) }}
-    {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL "page" $context) }}  
-   <!--       {{ template "sidebar-footer" }}-->
+      <!-- {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL "page" $context "toc" true) }}-->
+      {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL "page" $context) }}  
+       {{ template "sidebar-footer" }}
       </ul>
     {{ end -}}
   </div>
