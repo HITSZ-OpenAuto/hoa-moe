@@ -7,8 +7,8 @@
 
 <aside class="hextra-toc flex flex-col print:hidden md:top-16 md:shrink-0 md:w-64 md:self-start max-md:[transform:translate3d(0,-100%,0)] md:sticky px-4 pt-4">
   {{- if $toc }}
-  <div class="hextra-scrollbar overflow-y-auto overflow-x-hidden text-sm grow md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)]">  
-    {{- with .page.Fragments.Headings -}}
+  <div class="hextra-scrollbar overflow-y-auto overflow-x-hidden text-sm grow max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))]">  
+    {{- with .Fragments.Headings -}}
     <p style="text-align:center;" class="mt-2 mb-2 font-semibold tracking-tight">{{ $onThisPage }}</p>
     {{- range . -}}
       <ul class="flex flex-col gap-1 max-md:hidden">
@@ -58,7 +58,7 @@
        <ul class='flex flex-col gap-1'>
         <li class="flex flex-col">
           <a
-          class="{{$class}} flex items-center justify-between gap-1 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+          class="{{ $class }} flex items-center justify-between gap-1 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
           text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 contrast-more:text-gray-900 contrast-more:underline contrast-more:dark:text-gray-50 w-full break-words"
           href="#{{ anchorize .ID }}"
         >
