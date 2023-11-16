@@ -33,8 +33,109 @@ a:hover {
 
 :root {
     --background-color: #dbe6ef;
+    --label-height: 2rem;
 }
 
 .dark {
     --background-color: rgb(40, 40, 40);
+}
+
+@media (max-width: 767px) {
+  .sidebar-container {
+    @apply fixed pt-[calc(var(--navbar-height))] top-0 w-full bottom-0 z-[15] overscroll-contain bg-white dark:bg-dark;
+    transition: transform 0.8s cubic-bezier(0.52, 0.16, 0.04, 1);
+    will-change: transform, opacity;
+    contain: layout style;
+    backface-visibility: hidden;
+  }
+   label.open{
+display:none;
+}
+}
+
+#switch{   /* 隐藏多选框 */
+    display:none;
+}
+
+
+@media (min-width: 768px) {
+.sidebar-container {
+  padding-top: calc(var(--label-height));
+  transition: transform 0.8s cubic-bezier(0.52, 0.16, 0.04, 1);
+}
+.hextra-toc{ 
+  padding-top: calc(var(--label-height));
+  transition: transform 0.8s cubic-bezier(0.52, 0.16, 0.04, 1);
+}
+label.open{  /* 开关按钮 */
+    position: fixed;
+    z-index:15;
+    width:200px;
+    height:20px;
+    transition:0.3s linear;
+    margin:10px;
+}
+.main label.open:hover{ 
+    filter:drop-shadow(0 0 10px #1e90ff);
+}
+
+label.open::before,label.open::after{ /* 利用伪类画出菜单图标 */
+    content:"";
+    width:100%;
+    height:20%;
+    position:absolute;
+    left:20px;
+    background:rgba(100,100,100,0.01);
+    transition:0.5s linear;
+    /* transform:translateX(310px);*/
+}
+label.open::before{
+    content:"显示全部文档索引";
+}
+label.open::after{
+    content:"显示本文档目录";
+}
+/*
+label.open::before{
+    top:20%;
+}
+label.open::after{
+    top:60%;
+}
+#switch:checked ~ label.open::before{ 变更按钮外型 取消注释后请自行增加注释！
+    top:50%;
+    transform:translateY(-50%) rotate(45deg);
+}
+#switch:checked ~ label.open::after{
+    top:50%;
+    transform:translateY(-50%) rotate(-45deg);
+}
+*/
+#switch:checked ~ label.open::before{
+    display:none;
+}
+#switch:not(:checked) ~ label.open::after{
+    display:none;
+}
+#switch:checked ~ label.open{  /* 菜单显示时的按钮位置 */
+    transform:translateX(0px);
+}
+
+#switch:not(:checked) ~ .sidebar-container{ /* 切换菜单的显示或隐藏 */
+    display:none;
+}
+#switch:checked ~ .hextra-toc{
+    display:none;
+}
+}
+.sidebar-container {
+  li > div {
+    @apply h-0;
+  }
+  li.open > div {
+    @apply h-auto pt-1;
+  }
+  li.open > a > span > svg > path {
+    @apply rotate-90;
+  }
 }
