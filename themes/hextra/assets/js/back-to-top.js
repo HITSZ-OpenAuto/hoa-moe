@@ -18,10 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
   if (switch_1) {
     document.addEventListener("scroll", (e) => {
       if (window.scrollY > document.scrollingElement.scrollHeight-document.scrollingElement.clientHeight-200) {
-        switch_1.classList.add("opacity-0");
-        console.log(switch_1.parentElement);
+        // switch_1.classList.add("opacity-0");
+        // switch_1.style.visibility = 'hidden';
+        switch_1.style.display = 'none';
       } else {
-        switch_1.classList.remove("opacity-0");
+        // switch_1.classList.remove("opacity-0");
+        // switch_1.style.visibility = 'visible';
+        switch_1.style.display = 'block';
       }
     });
   }
