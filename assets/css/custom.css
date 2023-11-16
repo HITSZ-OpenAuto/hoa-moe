@@ -51,6 +51,9 @@ a:hover {
    label.open{
 display:none;
 }
+.hextra-toc{
+    display:none;
+}
 }
 
 #switch{   /* 隐藏多选框 */
@@ -90,10 +93,10 @@ label.open::before,label.open::after{ /* 利用伪类画出菜单图标 */
     /* transform:translateX(310px);*/
 }
 label.open::before{
-    content:"显示全部文档索引";
+    content:"切换到全部文档索引";
 }
 label.open::after{
-    content:"显示本文档目录";
+    content:"切换到本文档的目录";
 }
 /*
 label.open::before{
