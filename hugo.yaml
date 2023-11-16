@@ -117,7 +117,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/HITSZ-OpenAuto/hitsz-open-auto/edit/main/content"
+    base: "https://github.com/HITSZ-OpenAuto/hitsz-openauto/edit/main/content"
 
   blog:
     list:
