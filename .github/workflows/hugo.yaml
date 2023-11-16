@@ -227,6 +227,9 @@ jobs:
               counter_cross=$((${counter_cross}+1));
               echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
             fi
+            echo 'toc: true' >> "./content/docs/${semester}/${line}.md"
+            echo 'params:' >> "./content/docs/${semester}/${line}.md"
+            echo '  editURL: "https://github.com/HITSZ-OpenAuto/${line}/edit/main/README.md"' >> "./content/docs/${semester}/${line}.md"
             echo '---' >> "./content/docs/${semester}/${line}.md"
 
             if [ ${CATEGORY} = "限选" ]
