@@ -8,7 +8,7 @@
 <aside class="hextra-toc flex flex-col print:hidden md:top-16 md:shrink-0 md:w-64 md:self-start max-md:[transform:translate3d(0,-100%,0)] md:sticky px-4 pt-4">
   {{- if $toc }}
   <div class="hextra-scrollbar overflow-y-auto overflow-x-hidden text-sm grow md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)]">  
-    {{- with .Fragments.Headings -}}
+    {{- with .page.Fragments.Headings -}}
     <p style="text-align:center;" class="mt-2 mb-2 font-semibold tracking-tight">{{ $onThisPage }}</p>
     {{- range . -}}
       <ul class="flex flex-col gap-1 max-md:hidden">
