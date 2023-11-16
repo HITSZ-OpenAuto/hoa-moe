@@ -109,7 +109,7 @@ jobs:
           cat tmp.txt | grep -E "^-.([A-Z]){2,4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
           cat repos.txt
 
-      - name: Build Courses Pages
+      - name: Build Courses' Pages
         run: |
           counter_man=0
           counter_dis=100
@@ -229,9 +229,6 @@ jobs:
             fi
             echo '---' >> "./content/docs/${semester}/${line}.md"
 
-            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
-            tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
-
             if [ ${CATEGORY} = "限选" ]
             then
               MODULE=`cat "tag_${line}.txt" | grep -E "^module:..*$" | sed -E 's/^module:.(.*)$/\1/'`
@@ -239,6 +236,9 @@ jobs:
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
               echo "什么是${MODULE}模块？请查阅[限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "./content/docs/${semester}/${line}.md"
             fi
+            
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
+            tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
 
             for _ in {1..3}; do
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
@@ -252,7 +252,11 @@ jobs:
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
             cat scripts/support_us.txt >> "./content/docs/${semester}/${line}.md"
           done
-
+      
+      - name: Build Guide Pages
+        run: |
+          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'senior-summer')
+          category_arr='mandatory distributional-selective cross-major-selective'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
