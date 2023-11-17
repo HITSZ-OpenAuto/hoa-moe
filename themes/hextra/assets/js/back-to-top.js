@@ -13,23 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const switch_1 = document.getElementById("switchlabel");
-  if (switch_1) {
-    document.addEventListener("scroll", (e) => {
-      if (window.scrollY > document.scrollingElement.scrollHeight-document.scrollingElement.clientHeight-200) {
-        // switch_1.classList.add("opacity-0");
-        // switch_1.style.visibility = 'hidden';
-        switch_1.style.display = 'none';
-      } else {
-        // switch_1.classList.remove("opacity-0");
-        // switch_1.style.visibility = 'visible';
-        switch_1.style.display = 'block';
-      }
-    });
-  }
-});
-
 function scrollUp() {
   window.scroll({
     top: 0,

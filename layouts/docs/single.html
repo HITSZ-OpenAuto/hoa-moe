@@ -1,7 +1,9 @@
 {{ define "main" }}
   <div class='mx-auto flex {{ partial "utils/page-width" . }}'>
-   <input type="checkbox" id="switch">
-   <label for="switch" id="switchlabel" class="open"></label>
+   <input type="checkbox" id="switchIndex">
+   <label for="switchIndex" id="switchlabel_index" class="openIndex"></label>
+   <input type="checkbox" id="switchToc">
+   <label for="switchToc" id="switchlabel_toc" class="openToc"></label>
     {{ partial "sidebar.html" (dict "context" .) }}
     {{ partial "toc.html" (dict "context" .) }}
     <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">

@@ -1,6 +1,8 @@
 {{ define "main" }}
   {{- $readMore := (T "readMore") | default "Read more →" -}}
   <div class="mx-auto flex {{ partial `utils/page-width` . }}">
+<input type="checkbox" id="switchIndex">
+   <label for="switchIndex" id="switchlabel_index" class="openIndex"></label>
   {{ partial "sidebar.html" (dict "context" . "disableSidebar" false "displayPlaceholder" true) }}
     <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
