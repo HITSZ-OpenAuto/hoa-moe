@@ -82,11 +82,11 @@ display:none;
   }
 /* index */
 label.openIndex{  /* 开关按钮 */
-    position: fixed;
+    position: absolute;
     z-index: 15;
     width:6rem;
     left: 0;
-    /* height:20px; */
+    height:1.5rem;
     /* transition:0.3s linear; */
     margin:5px;
     font-weight: 600;
@@ -180,11 +180,11 @@ label.openIndex::after{
 
 /* toc */
 label.openToc{  /* 开关按钮 */
-    position: fixed;
+    position: absolute;
     z-index:15;
     width:6rem;
     left:calc(100vw);
-    /* height:20px; */
+    height:1.5rem;
     /* transition:0.3s linear; */
     margin:5px;
     font-weight: 600;
