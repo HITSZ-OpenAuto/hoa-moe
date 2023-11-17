@@ -109,7 +109,7 @@ jobs:
           cat tmp.txt | grep -E "^-.([A-Z]){2,4}([0-9]){4}.*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
           cat repos.txt
 
-      - name: Build Courses' Pages
+      - name: Build Courses Pages
         run: |
           counter_man=0
           counter_dis=100
