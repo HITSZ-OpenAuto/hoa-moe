@@ -3,7 +3,7 @@ title: (必修)微积分A
 weight: 11
 toc: true
 params:
-  editURL: "https://github.com/HITSZ-OpenAuto/${line}"
+  editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A"
 ---
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)

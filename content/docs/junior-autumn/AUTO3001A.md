@@ -3,7 +3,7 @@ title: (必修)自动控制理论A
 weight: 3
 toc: true
 params:
-  editURL: "https://github.com/HITSZ-OpenAuto/${line}"
+  editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A"
 ---
 
 <div align="left">
