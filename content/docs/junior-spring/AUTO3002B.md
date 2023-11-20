@@ -2,8 +2,7 @@
 title: (必修)自动控制实践B
 weight: 7
 toc: true
-params:
-  editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B"
+editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B"
 ---
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-6-moccasin)

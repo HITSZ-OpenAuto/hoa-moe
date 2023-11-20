@@ -2,8 +2,7 @@
 title: (必修)自动控制实践A
 weight: 2
 toc: true
-params:
-  editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
+editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 ---
 文档编写者：Oliver Wu
 贡献者：
