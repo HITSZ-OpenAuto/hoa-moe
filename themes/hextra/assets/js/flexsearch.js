@@ -173,24 +173,24 @@ document.addEventListener("DOMContentLoaded", function () {
   // Preload the search index.
   async function preloadIndex() {
     window.pageIndex = new FlexSearch.Document({
+      tokenize: 'forward',
       cache: 100,
       document: {
         id: 'id',
         store: ['title'],
         index: "content"
-      },
-      encode: str => str.split("")
+      }
     });
 
     window.sectionIndex = new FlexSearch.Document({
+      tokenize: 'forward',
       cache: 100,
       document: {
         id: 'id',
         store: ['title', 'content', 'url', 'display'],
         index: "content",
         tag: 'pageId'
-      },
-      encode: str => str.split("")
+      }
     });
 
     const resp = await fetch(searchDataURL);
