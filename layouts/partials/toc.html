@@ -1,6 +1,5 @@
 {{/* Table of Contents */}}
 {{/* TODO: toc bottom part should be able to hide */}}
-{{- $context := .context -}}
 {{- $toc := .Params.toc | default true -}}
 {{- $onThisPage := (T "onThisPage") | default "On this page"}}
 {{- $editThisPage := (T "editThisPage") | default "Edit this page"}}
@@ -9,7 +8,7 @@
 <divn class="hextra-toc order-last flex flex-col print:hidden md:top-16 md:shrink-0 md:w-64 md:self-start max-md:[transform:translate3d(0,-100%,0)] md:sticky px-4 pt-4">
   {{- if $toc }}
   <div class="hextra-scrollbar overflow-y-auto overflow-x-hidden text-sm grow md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)]"> 
-    {{- with $context.Fragments.Headings -}}
+    {{- with .Fragments.Headings -}}
     <p style="text-align:center;" class="mt-2 mb-2 font-semibold tracking-tight">{{ $onThisPage }}</p>
     {{- range . -}}
       <ul class="flex flex-col gap-1 max-md:hidden">
@@ -56,7 +55,7 @@
   
     {{- range $headings }}
       {{- if .Title }}
-       <!-- <ul class='flex flex-col gap-1'> -->
+        <!-- <ul class='flex flex-col gap-1'> -->
         <li class="flex flex-col">
           <a
           class="{{$class}} flex items-center justify-between gap-1 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
