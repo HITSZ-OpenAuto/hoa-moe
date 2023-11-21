@@ -24,8 +24,8 @@ def list_files_in_repo(owner, repo, username, token, path=''):
 def save_files_list(owner, repo, username, token):
      paths = list_files_in_repo(owner, repo, username, token)
      prefix = f'https://cdn.jsdelivr.net/gh/{owner}/{repo}/'
-     prefix_word = f'https://github.com/{owner}/{repo}/raw/main/'
-     filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip'))]
+     prefix_word = f'https://gh.hoa.moe/github.com/{owner}/{repo}/raw/main/'
+     filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z'))]
      word_paths = [path for path in paths if path.endswith(('.docx', '.doc'))]
      with open('result.txt', 'w') as file:
         for path in filtered_paths:
