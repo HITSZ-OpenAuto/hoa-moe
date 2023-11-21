@@ -18,7 +18,7 @@ layout: hextra-home
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  由HITSZ OpenAuto维护&nbsp;<br class="sm:block hidden" />为HITSZ学子提供课程攻略共享服务
+  由 HITSZ OpenAuto 维护&nbsp;<br class="sm:block hidden" />为 HITSZ 学子提供课程攻略共享服务
 {{< /hextra/hero-subtitle >}}
 </div>
 

@@ -60,12 +60,6 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-
       - name: Get Organization Repository Names
         uses : austenstone/get-org-repos@v3.1
         with:
@@ -259,11 +253,6 @@ jobs:
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
             cat scripts/support_us.txt >> "./content/docs/${semester}/${line}.md"
           done
-
-      - uses: EndBug/add-and-commit@v9
-        with:
-          add: 'content'
-          default_author: github_actions
       
       - name: Build Guide Pages
         run: |
@@ -282,6 +271,11 @@ jobs:
             done
           done
 
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: 'content'
+          default_author: github_actions
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -297,11 +291,14 @@ jobs:
         with:
           path: ./public
 
-      - name: Deploy to Cloudflare Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-            PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-            EXTERNAL_REPOSITORY: HITSZ-OpenAuto/hitsz-open-auto.github.io
-            PUBLISH_BRANCH: cf-pages
-            PUBLISH_DIR: ./public
-            commit_message: ${{ github.event.head_commit.message }}
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to Cloudflare Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        EXTERNAL_REPOSITORY: HITSZ-OpenAuto/hitsz-open-auto.github.io
+        PUBLISH_BRANCH: cf-pages
+        PUBLISH_DIR: ./public
+        commit_message: ${{ github.event.head_commit.message }}
