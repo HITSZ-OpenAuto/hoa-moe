@@ -23,8 +23,9 @@ layout: hextra-home
 </div>
 
 <div class="mb-6">
-{{< hextra/hero-button text="即刻查看" link="docs" >}}
-{{< hextra/hero-button text="了解计划" link="about" >}}
+  {{< hextra/hero-button text="即刻查看" link="docs" >}}
+  <span class="ml-4"></span> <!-- Add this line to create space -->
+  {{< hextra/hero-button text="了解计划" link="about" >}}
 </div>
 
 <div class="mt-6"></div>
