@@ -49,12 +49,16 @@ menu:
       name: About
       pageRef: /about
       weight: 4
-    - name: Search
+    - identifier: fund
+      name: 支持
+      pageRef: /fund
       weight: 5
+    - name: Search
+      weight: 6
       params:
         type: search
     - name: GitHub
-      weight: 6
+      weight: 7
       url: "https://github.com/HITSZ-OpenAuto"
       params:
         icon: github
