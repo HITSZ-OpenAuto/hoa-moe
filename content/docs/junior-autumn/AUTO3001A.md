@@ -144,9 +144,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A"
 <br>
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001A/homework/%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E2%80%94%E4%BD%9C%E4%B8%9A9%E5%8F%8A%E7%AD%94%E6%A1%88%282%29.pdf">homework/作业答案/自控理论A—作业9及答案(2).pdf</a>
 <br>
-<a href="https://github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/experiments/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A-%E5%88%98%E5%AE%87%E6%98%8E.docx">experiments/第一次上机报告-刘宇明.docx</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/experiments/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A-%E5%88%98%E5%AE%87%E6%98%8E.docx">experiments/第一次上机报告-刘宇明.docx</a>
 <br>
-<a href="https://github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/experiments/%E8%87%AA%E6%8E%A7%E4%B8%8A%E6%9C%BA2.docx">experiments/自控上机2.docx</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/experiments/%E8%87%AA%E6%8E%A7%E4%B8%8A%E6%9C%BA2.docx">experiments/自控上机2.docx</a>
 <br>
 <br>
 <h2>支持我们｜Buy Us a Coffee</h2>

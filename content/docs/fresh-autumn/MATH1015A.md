@@ -202,9 +202,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A"
 <br>
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/notes/%E7%AC%94%E8%AE%B02/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8A%E5%86%8C%EF%BC%89%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F.pdf">notes/笔记2/高等数学（上册）常用公式.pdf</a>
 <br>
-<a href="https://github.com/HITSZ-OpenAuto/MATH1015A/raw/main/examination/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc">examination/2017年试题/高数-2017秋-期中-深圳-试卷.doc</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/examination/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc">examination/2017年试题/高数-2017秋-期中-深圳-试卷.doc</a>
 <br>
-<a href="https://github.com/HITSZ-OpenAuto/MATH1015A/raw/main/examination/2019%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2019%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc">examination/2019年试题/高数-2019秋-期中-深圳-试卷.doc</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/examination/2019%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2019%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc">examination/2019年试题/高数-2019秋-期中-深圳-试卷.doc</a>
 <br>
 <br>
 <h2>支持我们｜Buy Us a Coffee</h2>
