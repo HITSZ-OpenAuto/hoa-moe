@@ -9,6 +9,7 @@ comments: false
 ## 必修
 <!--more-->
 {{< cards >}}
+{{< card link="ee1007"title="模拟电子技术基础">}}
 {{< card link="emec1002"title="理论力学Ⅱ">}}
 {{< /cards >}}
 ## 限选
