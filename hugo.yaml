@@ -1,5 +1,5 @@
 baseURL: "https://hoa.moe/"
-languageCode: en-us
+languageCode: zh-cn
 title: HITSZ 自动化课程攻略共享计划
 
 theme: hextra
@@ -24,7 +24,7 @@ languages:
       languageName: 简体中文
       languageCode: zh-CN
       weight: 1
-      title: HITSZ OpenAuto
+      title: HITSZ 自动化课程攻略共享计划
 
 markup:
   goldmark:
