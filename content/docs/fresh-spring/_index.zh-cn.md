@@ -10,6 +10,7 @@ comments: false
 <!--more-->
 {{< cards >}}
 {{< card link="ee1011a"title="电路IA">}}
+{{< card link="auto2006"title="控制理论中的代数基础">}}
 {{< /cards >}}
 
 
