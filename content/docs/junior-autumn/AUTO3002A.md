@@ -156,9 +156,19 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <br>
 <h2>资料下载 | Download</h2>
 <br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/ACPP_HW1.pdf">assignments/ACPP_HW1.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/ACPP_HW2.pdf">assignments/ACPP_HW2.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/ACPP_HW3.pdf">assignments/ACPP_HW3.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E6%95%99%E6%9D%90%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.pdf">assignments/自动控制元件教材课后题答案.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A1.pdf">assignments/自控实践作业1.pdf</a>
+<br>
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/books/%E7%94%B5%E5%AD%90%E4%B9%A6-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF.pdf">books/电子书-自动控制元件及线路.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/examination/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf">examination/自动控制实践历年考题.pdf</a>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf">exams/自动控制实践历年考题.pdf</a>
 <br>
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/experiment/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C1.pdf">experiment/实验报告-实验1.pdf</a>
 <br>
@@ -167,16 +177,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/experiment/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C3.pdf">experiment/实验报告-实验3.pdf</a>
 <br>
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/experiment/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C4.pdf">experiment/实验报告-实验4.pdf</a>
-<br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/homework/ACPP_HW1.pdf">homework/ACPP_HW1.pdf</a>
-<br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/homework/ACPP_HW2.pdf">homework/ACPP_HW2.pdf</a>
-<br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/homework/ACPP_HW3.pdf">homework/ACPP_HW3.pdf</a>
-<br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/homework/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E6%95%99%E6%9D%90%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.pdf">homework/自动控制元件教材课后题答案.pdf</a>
-<br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/homework/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A1.pdf">homework/自控实践作业1.pdf</a>
 <br>
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf">notes/自控实践笔记.pdf</a>
 <br>
