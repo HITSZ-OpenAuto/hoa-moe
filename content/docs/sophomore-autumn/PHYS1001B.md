@@ -1,0 +1,80 @@
+---
+title: (必修)大学物理IB
+weight: 20
+toc: true
+editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001B"
+---
+
+<!--
+1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
+2. 请根据课程的具体内容增删仓库的子文件夹。子文件夹建议使用小写英文，并且添加 README.md。
+3. 关于课程的描述可以不止以下几个方面，酌情增删。
+4. hoa.moe 生成本课程对应页面后，请将页面链接复制到 GitHub 仓库的 About/Website 中。
+5. 可以在 GitHub 页面的 About/Topics 中为课程添加话题名称。
+-->
+
+![考试课](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
+![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
+![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
+![跨专业选修课](https://img.shields.io/badge/%E8%B7%A8%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE-lightskyblue)
+![实验](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-purple)
+![文理通识](https://img.shields.io/badge/%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86-orange)
+
+![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![作业40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
+![期末考试60%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+
+
+## 授课教师
+
+- （教师名）
+  - 授课风格：
+  - 听课建议：
+  - ……
+
+## 关于考试
+
+## 学习建议
+# 课程名
+- 是否考试课：
+- 学分：
+- 分数构成：
+
+## 授课教师
+- 教师1：
+  - 授课风格：
+  - 是否需要认真听讲做笔记
+  - 听课建议
+
+## 关于考试
+- 考试难度：
+
+## Tips
+
+## 课程建议<br>
+<br>
+<br>
+<h2>资料下载 | Download</h2>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E5%85%89%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 光学练习.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E6%9C%BA%E6%A2%B0%E6%8C%AF%E5%8A%A8%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 机械振动练习.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E6%9C%BA%E6%A2%B0%E6%B3%A2%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 机械波练习.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E7%83%AD%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 热学练习.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E5%BE%80%E5%B9%B4%E9%A2%981.pdf">exams/大学物理IB往年题1.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E5%BE%80%E5%B9%B4%E9%A2%982.pdf">exams/大学物理IB往年题2.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E7%89%A9IB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%95%E9%A2%98.pdf">exams/大物IB期末复习试题.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E7%89%A9IB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%90202303%E4%BF%AE.pdf">exams/大物IB期末复习试题解析202303修.pdf</a>
+<br>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/materials/%E7%89%A9%E7%90%86%E5%AD%A6%E7%AC%AC%E5%85%AD%E7%89%88%E4%B9%A0%E9%A2%98%E5%88%86%E6%9E%90%E4%B8%8E%E8%A7%A3%E7%AD%94.pdf">materials/物理学第六版习题分析与解答.pdf</a>
+<br>
+<br>
+<h2>支持我们｜Buy Us a Coffee</h2>
+<br>
+<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />            
