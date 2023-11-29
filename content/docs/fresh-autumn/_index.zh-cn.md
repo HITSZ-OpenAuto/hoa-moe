@@ -12,7 +12,7 @@ comments: false
 {{< card link="math1015a"title="微积分A">}}
 {{< card link="comp2021"title="高级语言程序设计">}}
 {{< card link="math1002"title="代数与几何">}}
-{{< card link="auto1001"title="自动化认识与实践">}}
+{{< card link="auto1001"title="自动化认知与实践">}}
 {{< /cards >}}
 
 
