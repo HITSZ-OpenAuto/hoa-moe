@@ -4,6 +4,7 @@ date: 2020-01-01
 authors:
   - name: John Doe
 excludeSearch: true
+draft: true
 ---
 
 这篇文章提供了一些基础的 Markdown 语法样例。
