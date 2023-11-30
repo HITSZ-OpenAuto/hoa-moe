@@ -13,6 +13,7 @@ comments: false
 {{< card link="math1005"title="复变函数与积分变换">}}
 {{< card link="math1004"title="概率论与数理统计">}}
 {{< card link="ee1011b"title="电路IB">}}
+{{< card link="auto1001"title="自动化认知与实践">}}
 {{< card link="phys1001b"title="大学物理IB">}}
 {{< card link="ee1012b"title="电路实验IB">}}
 {{< card link="geip1011"title="马克思主义基本原理">}}
