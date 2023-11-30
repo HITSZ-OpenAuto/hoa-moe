@@ -98,6 +98,7 @@ jobs:
             echo 'sidebar:' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '  open: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo 'comments: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'toc: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             echo "探索以下各节以查找相关资料" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
             for CATEGORY in $category_arr
@@ -246,10 +247,6 @@ jobs:
             for _ in {1..3}; do
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
             done
-
-            # echo '<br>' >> "./content/docs/${semester}/${line}.md"
-            # echo "<a href="https://github.com/HITSZ-OpenAuto/${line}">Visit GitHub Repo ↗</a>" >> "./content/docs/${semester}/${line}.md"
-            # echo '<br>' >> "./content/docs/${semester}/${line}.md"
 
             echo "<h2>资料下载 | Download</h2>" >> "./content/docs/${semester}/${line}.md"
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
