@@ -7,10 +7,8 @@ authors:
 excludeSearch: false
 ---
 
-> 参考资料：[GitHub push失败-Failed to connect to github.com port 443: Timed out - CSDN](http://t.csdnimg.cn/eFTpg)
-
 > 已经会魔法的 / 能够稳定访问 GitHub 的朋友，这篇文章对你来说帮助不大了，本文面向刚开始接触 GitHub 的新朋友。
-
+>
 > 本人不精通计算机网络知识，用语难免不严谨。本文只是分享一些自己的经验，如果有错误，欢迎指正。
 
 ## 1. Introduction
@@ -22,6 +20,7 @@ HITSZ-OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一
 > 为什么 GitHub 进不去啊？
 
 许多人在没有科学上网的情况下，访问 GitHub 会遇到各种各样的困难，比如：
+
 - GitHub 网页打不开
 - 偶然能访问 GitHub 上的仓库，但里面的文件无法下载
 - GitHub 仓库无法克隆
@@ -39,15 +38,14 @@ HITSZ-OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一
 - [Watt Toolkit](https://steampp.net/)：原名 Steam++，一个开源跨平台的多功能 Steam 工具箱，并且可以加速 GitHub 的访问。
   目前已支持 Windows、macOS、Linux 和 Android，属于开箱即用的软件。
 
-如果需要下载 GitHub 上的文件，那么我们可以使用一些镜像站点。
+如果需要下载\克隆 GitHub 上的文件，可以使用本站提供的代理服务。
 
-- [GitHub Proxy](https://mirror.ghproxy.com/)：网站内有更详细的说明。
+- [HOA's Github Proxy](https://gh.hoa.moe/):
 
 ## 3. 通过修改 hosts 文件访问 GitHub
 
 上面所述的使用软件，本质上还是使用别人帮我们设置好的代理上网，速度有时并不理想；
-而使用镜像站点下载文件，前提是知道 GitHub 上文件的地址；为了获取地址，你通常还是直接访问 GitHub。
-最重要的是，**这些工具随时可能失效**。
+而使用镜像站点下载文件，前提是知道 GitHub 上文件的地址；为了获取地址，你通常还是直接访问 GitHub。最重要的是，**这些工具随时可能失效**。
 
 所以本文的核心内容不是分享软件和网站，而是教大家如何通过**自己的操作**连接 GitHub。
 
@@ -69,13 +67,14 @@ HITSZ-OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一
 下一步，查询 GitHub 的 IP 地址。
 提供 IP 查询的网站很多，这里给大家介绍 [IP Address](https://www.ipaddress.com/)。
 
-进入网站，选择其中的 `IP Address Lookup` 功能（或直接进入链接： https://www.ipaddress.com/ip-lookup）。
+进入网站，选择其中的 `IP Address Lookup` 功能（或直接进入链接： <https://www.ipaddress.com/ip-lookup）。>
 
 ![ip address lookup](ip-address-lookup.png)
 
 在搜索框中输入 `github.com`，点击 `Lookup` 就可以在结果中看到 GitHub 的 IP 地址了。
 
 我们查询这 4 个网站的 IP 地址，把它们记下来：
+
 - github.com
 - api.github.com
 - github.global.ssl.fastly.net
@@ -124,6 +123,7 @@ Linux 中，hosts 文件位于 `/etc` 目录下。
 
 Linux 下修改 hosts 文件的方法和 Windows 下类似，只是需要使用 `sudo` 命令。
 不熟悉 `vim` 的朋友可以使用 `nano` 编辑器。
+
 ```bash
 sudo nano /etc/hosts
 ```
@@ -140,9 +140,13 @@ sudo nano /etc/hosts
 这种方法不依赖任何第三方的工具（查询 IP 的网站不至于炸掉吧😶），因此不限设备、任何时间都可以使用。
 
 但是这种方法还是存在两个缺点：
+
 1. 网站的 IP 地址是不固定的，因此 hosts 文件需要时常更新。如果某一天你发现你又连接不上 GitHub 了，那么就需要重新查询一下 GitHub 的 IP 地址了。
 2. 纯手工操作，每次更新会比较麻烦。
 
 如果你不是活跃在 GitHub 上的开发者，只是偶尔需要获取 GitHub 上的资源，那么这种方法已经足够了。
 
 😉
+
+> 参考资料：
+> [GitHub push失败-Failed to connect to github.com port 443: Timed > out - CSDN](http://t.csdnimg.cn/eFTpg)
