@@ -1,6 +1,6 @@
 ---
 title: 新人指南：不使用第三方工具访问 GitHub
-description: 如何稳定地访问 GitHub 应该是新朋友们继续探索开源社区的第一步。
+description: 如何稳定地访问 GitHub 应该是新朋友们继续探索开源社区的第一步
 date: 2023-11-30
 authors:
   - name: Maxwell Jay
