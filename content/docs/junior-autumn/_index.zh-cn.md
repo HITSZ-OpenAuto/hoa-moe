@@ -14,6 +14,7 @@ comments: false
 {{< card link="auto2005"title="信号分析与处理">}}
 {{< card link="auto3004"title="系统建模与仿真">}}
 {{< card link="auto3016"title="自动控制实践A课程设计">}}
+{{< card link="mech2010"title="机械设计基础">}}
 {{< /cards >}}
 ## 限选
 [点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)
