@@ -56,23 +56,23 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001B"
 <br>
 <h2>资料下载 | Download</h2>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E5%85%89%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 光学练习.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E5%85%89%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 光学练习.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E6%9C%BA%E6%A2%B0%E6%8C%AF%E5%8A%A8%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 机械振动练习.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E6%9C%BA%E6%A2%B0%E6%8C%AF%E5%8A%A8%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 机械振动练习.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E6%9C%BA%E6%A2%B0%E6%B3%A2%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 机械波练习.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E6%9C%BA%E6%A2%B0%E6%B3%A2%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 机械波练习.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E7%83%AD%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 热学练习.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E7%83%AD%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 热学练习.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E5%BE%80%E5%B9%B4%E9%A2%981.pdf">exams/大学物理IB往年题1.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E5%BE%80%E5%B9%B4%E9%A2%981.pdf">exams/大学物理IB往年题1.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E5%BE%80%E5%B9%B4%E9%A2%982.pdf">exams/大学物理IB往年题2.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E5%BE%80%E5%B9%B4%E9%A2%982.pdf">exams/大学物理IB往年题2.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E7%89%A9IB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%95%E9%A2%98.pdf">exams/大物IB期末复习试题.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E7%89%A9IB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%95%E9%A2%98.pdf">exams/大物IB期末复习试题.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/exams/%E5%A4%A7%E7%89%A9IB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%90202303%E4%BF%AE.pdf">exams/大物IB期末复习试题解析202303修.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E7%89%A9IB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%90202303%E4%BF%AE.pdf">exams/大物IB期末复习试题解析202303修.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001B/materials/%E7%89%A9%E7%90%86%E5%AD%A6%E7%AC%AC%E5%85%AD%E7%89%88%E4%B9%A0%E9%A2%98%E5%88%86%E6%9E%90%E4%B8%8E%E8%A7%A3%E7%AD%94.pdf">materials/物理学第六版习题分析与解答.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/materials/%E7%89%A9%E7%90%86%E5%AD%A6%E7%AC%AC%E5%85%AD%E7%89%88%E4%B9%A0%E9%A2%98%E5%88%86%E6%9E%90%E4%B8%8E%E8%A7%A3%E7%AD%94.pdf">materials/物理学第六版习题分析与解答.pdf</a>
 <br>
 <br>
 <h2>支持我们｜Buy Us a Coffee</h2>

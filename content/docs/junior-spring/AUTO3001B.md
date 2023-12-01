@@ -35,77 +35,77 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B"
 <br>
 <h2>资料下载 | Download</h2>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/1/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/1/第一次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/1/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/1/第一次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/1/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/1/自动控制原理B第一次作业答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/1/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/1/自动控制原理B第一次作业答案.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/2/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/2/第二次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/2/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/2/第二次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/2/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/2/自动控制原理B第二次作业答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/2/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/2/自动控制原理B第二次作业答案.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/3/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/3/第三次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/3/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/3/第三次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/3/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/3/自动控制原理B第三次作业答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/3/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/3/自动控制原理B第三次作业答案.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/4/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/4/自动控制原理B第四次作业答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/4/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/4/自动控制原理B第四次作业答案.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/5/%E7%AC%AC%E4%BA%94%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/5/第五次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/5/%E7%AC%AC%E4%BA%94%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/5/第五次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/5/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%BA%94%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/5/自动控制原理B第五次作业答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/5/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%BA%94%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/5/自动控制原理B第五次作业答案.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/6/%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/6/第六次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/6/%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/6/第六次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/6/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/6/自动控制原理B第六次作业答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/6/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/6/自动控制原理B第六次作业答案.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/7/%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/7/第七次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/7/%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/7/第七次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/7/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/7/自动控制原理B第七次作业答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/7/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/7/自动控制原理B第七次作业答案.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/8/%E7%AC%AC%E5%85%AB%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/8/第八次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/8/%E7%AC%AC%E5%85%AB%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/8/第八次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/8/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E5%85%AB%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/8/自动控制原理B第八次作业答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/8/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E5%85%AB%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/8/自动控制原理B第八次作业答案.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/9/%E7%AC%AC%E4%B9%9D%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/9/第九次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/9/%E7%AC%AC%E4%B9%9D%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/9/第九次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/assignments/2023%E5%B9%B4%E6%98%A5/9/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B9%9D%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/9/自动控制原理B第九次作业.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/9/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B9%9D%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/9/自动控制原理B第九次作业.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/exams/%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf">exams/自控B-校正.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf">exams/自控B-校正.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf">exams/自控理论b考试回忆.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf">exams/自控理论b考试回忆.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf">exams/补考前复习题-参考解答.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf">exams/补考前复习题-参考解答.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf">exams/补考前复习题.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf">exams/补考前复习题.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/labs/FWI_Version/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B-%E4%B8%8A%E6%9C%BA2.pdf">labs/FWI_Version/自动控制原理B-上机2.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/FWI_Version/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B-%E4%B8%8A%E6%9C%BA2.pdf">labs/FWI_Version/自动控制原理B-上机2.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/labs/FWI_Version/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C.pdf">labs/FWI_Version/自动控制原理B第一次实验.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/FWI_Version/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C.pdf">labs/FWI_Version/自动控制原理B第一次实验.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/labs/%E4%B8%8A%E6%9C%BA1.pdf">labs/上机1.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E4%B8%8A%E6%9C%BA1.pdf">labs/上机1.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/labs/%E4%B8%8A%E6%9C%BA2.pdf">labs/上机2.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E4%B8%8A%E6%9C%BA2.pdf">labs/上机2.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/labs/%E5%AE%9E%E9%AA%8C1.pdf">labs/实验1.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E5%AE%9E%E9%AA%8C1.pdf">labs/实验1.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/labs/%E5%AE%9E%E9%AA%8C2.pdf">labs/实验2.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E5%AE%9E%E9%AA%8C2.pdf">labs/实验2.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/1-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BAB%E7%BB%AA%E8%AE%BA.pdf">sildes/1-自动控制理论B绪论.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/1-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BAB%E7%BB%AA%E8%AE%BA.pdf">sildes/1-自动控制理论B绪论.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/10-%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%8E%A7%E5%88%B6%E5%88%86%E6%9E%90xj.pdf">sildes/10-非线性控制分析xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/10-%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%8E%A7%E5%88%B6%E5%88%86%E6%9E%90xj.pdf">sildes/10-非线性控制分析xj.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/2-%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87.pdf">sildes/2-控制系统的性能指标.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/2-%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87.pdf">sildes/2-控制系统的性能指标.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/3-%E9%A2%91%E7%8E%87%E6%A0%A1%E6%AD%A3.pdf">sildes/3-频率校正.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/3-%E9%A2%91%E7%8E%87%E6%A0%A1%E6%AD%A3.pdf">sildes/3-频率校正.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/4-%E6%A0%B9%E8%BD%A8%E8%BF%B9%E6%A0%A1%E6%AD%A3.pdf">sildes/4-根轨迹校正.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/4-%E6%A0%B9%E8%BD%A8%E8%BF%B9%E6%A0%A1%E6%AD%A3.pdf">sildes/4-根轨迹校正.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/6-%E7%A6%BB%E6%95%A3%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%A1%E6%AD%A3xj.pdf">sildes/6-离散控制系统的校正xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/6-%E7%A6%BB%E6%95%A3%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%A1%E6%AD%A3xj.pdf">sildes/6-离散控制系统的校正xj.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/7-PID%E6%8E%A7%E5%88%B6%E5%99%A8-xj.pdf">sildes/7-PID控制器-xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/7-PID%E6%8E%A7%E5%88%B6%E5%99%A8-xj.pdf">sildes/7-PID控制器-xj.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/8-%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%83%BD%E6%8E%A7%E6%80%A7%E4%B8%8E%E8%83%BD%E8%A7%82%E6%80%A7xj.pdf">sildes/8-线性系统的能控性与能观性xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/8-%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%83%BD%E6%8E%A7%E6%80%A7%E4%B8%8E%E8%83%BD%E8%A7%82%E6%80%A7xj.pdf">sildes/8-线性系统的能控性与能观性xj.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001B/sildes/9-%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E7%BB%BC%E5%90%88xj.pdf">sildes/9-状态空间综合xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/9-%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E7%BB%BC%E5%90%88xj.pdf">sildes/9-状态空间综合xj.pdf</a>
 <br>
 <br>
 <h2>支持我们｜Buy Us a Coffee</h2>
