@@ -205,13 +205,13 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B02/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8A%E5%86%8C%EF%BC%89%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F.pdf">notes/笔记2/高等数学（上册）常用公式.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/sildes/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B9%A0%E9%A2%98%E8%AF%BE%E7%AD%94%E6%A1%88.pdf">sildes/不定积分习题课答案.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B9%A0%E9%A2%98%E8%AF%BE%E7%AD%94%E6%A1%88.pdf">slides/不定积分习题课答案.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/sildes/%E8%AF%BE%E4%BB%B6%E7%89%88%E6%9C%AC2/1.1%20%E5%AF%BC%E6%95%B0%E7%9A%84%E6%A6%82%E5%BF%B5%281-8%29.pdf">sildes/课件版本2/1.1 导数的概念(1-8).pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E8%AF%BE%E4%BB%B6%E7%89%88%E6%9C%AC2/1.1%20%E5%AF%BC%E6%95%B0%E7%9A%84%E6%A6%82%E5%BF%B5%281-8%29.pdf">slides/课件版本2/1.1 导数的概念(1-8).pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/sildes/%E8%AF%BE%E4%BB%B6%E7%89%88%E6%9C%AC2/1.2%20%E6%9E%81%E9%99%90%E7%9A%84%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%85%B6%E6%80%A7%E8%B4%A8%281-35%29.pdf">sildes/课件版本2/1.2 极限的概念及其性质(1-35).pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E8%AF%BE%E4%BB%B6%E7%89%88%E6%9C%AC2/1.2%20%E6%9E%81%E9%99%90%E7%9A%84%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%85%B6%E6%80%A7%E8%B4%A8%281-35%29.pdf">slides/课件版本2/1.2 极限的概念及其性质(1-35).pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/sildes/%E8%AF%BE%E4%BB%B6%E7%89%88%E6%9C%AC2/%E7%AC%AC%E5%85%AD%E8%AE%B2%EF%BC%9A%E5%8F%98%E9%99%90%E7%A7%AF%E5%88%86%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98.pdf">sildes/课件版本2/第六讲：变限积分函数问题.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E8%AF%BE%E4%BB%B6%E7%89%88%E6%9C%AC2/%E7%AC%AC%E5%85%AD%E8%AE%B2%EF%BC%9A%E5%8F%98%E9%99%90%E7%A7%AF%E5%88%86%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98.pdf">slides/课件版本2/第六讲：变限积分函数问题.pdf</a>
 <br>
 <br>
 <h2>支持我们｜Buy Us a Coffee</h2>

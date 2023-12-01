@@ -89,23 +89,23 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E5%AE%9E%E9%AA%8C2.pdf">labs/实验2.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/1-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BAB%E7%BB%AA%E8%AE%BA.pdf">sildes/1-自动控制理论B绪论.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/1-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BAB%E7%BB%AA%E8%AE%BA.pdf">slides/1-自动控制理论B绪论.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/10-%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%8E%A7%E5%88%B6%E5%88%86%E6%9E%90xj.pdf">sildes/10-非线性控制分析xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/10-%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%8E%A7%E5%88%B6%E5%88%86%E6%9E%90xj.pdf">slides/10-非线性控制分析xj.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/2-%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87.pdf">sildes/2-控制系统的性能指标.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/2-%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87.pdf">slides/2-控制系统的性能指标.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/3-%E9%A2%91%E7%8E%87%E6%A0%A1%E6%AD%A3.pdf">sildes/3-频率校正.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/3-%E9%A2%91%E7%8E%87%E6%A0%A1%E6%AD%A3.pdf">slides/3-频率校正.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/4-%E6%A0%B9%E8%BD%A8%E8%BF%B9%E6%A0%A1%E6%AD%A3.pdf">sildes/4-根轨迹校正.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/4-%E6%A0%B9%E8%BD%A8%E8%BF%B9%E6%A0%A1%E6%AD%A3.pdf">slides/4-根轨迹校正.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/6-%E7%A6%BB%E6%95%A3%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%A1%E6%AD%A3xj.pdf">sildes/6-离散控制系统的校正xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/6-%E7%A6%BB%E6%95%A3%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%A1%E6%AD%A3xj.pdf">slides/6-离散控制系统的校正xj.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/7-PID%E6%8E%A7%E5%88%B6%E5%99%A8-xj.pdf">sildes/7-PID控制器-xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/7-PID%E6%8E%A7%E5%88%B6%E5%99%A8-xj.pdf">slides/7-PID控制器-xj.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/8-%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%83%BD%E6%8E%A7%E6%80%A7%E4%B8%8E%E8%83%BD%E8%A7%82%E6%80%A7xj.pdf">sildes/8-线性系统的能控性与能观性xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/8-%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%83%BD%E6%8E%A7%E6%80%A7%E4%B8%8E%E8%83%BD%E8%A7%82%E6%80%A7xj.pdf">slides/8-线性系统的能控性与能观性xj.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/sildes/9-%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E7%BB%BC%E5%90%88xj.pdf">sildes/9-状态空间综合xj.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/9-%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E7%BB%BC%E5%90%88xj.pdf">slides/9-状态空间综合xj.pdf</a>
 <br>
 <br>
 <h2>支持我们｜Buy Us a Coffee</h2>

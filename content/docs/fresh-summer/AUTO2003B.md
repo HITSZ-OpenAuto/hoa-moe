@@ -49,21 +49,21 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%BB%84%E7%BB%A7%E5%87%A1-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx">course_design/地铁站示例/黄继凡-创新训练课B报告.docx</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/sildes/%E7%AC%AC1%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf">sildes/第1章 高级语言程序设计.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC1%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf">slides/第1章 高级语言程序设计.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/sildes/%E7%AC%AC2%E7%AB%A0%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6.pdf">sildes/第2章 可行性研究.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC2%E7%AB%A0%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6.pdf">slides/第2章 可行性研究.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/sildes/%E7%AC%AC3%E7%AB%A0%20%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.pdf">sildes/第3章 需求分析.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%20%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.pdf">slides/第3章 需求分析.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/sildes/%E7%AC%AC4%E7%AB%A0%20%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1.pdf">sildes/第4章 总体设计.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC4%E7%AB%A0%20%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1.pdf">slides/第4章 总体设计.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/sildes/%E7%AC%AC5%E7%AB%A0%20%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A11.pdf">sildes/第5章 详细设计1.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC5%E7%AB%A0%20%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A11.pdf">slides/第5章 详细设计1.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/sildes/%E7%AC%AC6%E7%AB%A0%20%E5%AE%9E%E7%8E%B0.pdf">sildes/第6章 实现.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC6%E7%AB%A0%20%E5%AE%9E%E7%8E%B0.pdf">slides/第6章 实现.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/sildes/%E7%AC%AC7%E7%AB%A0%20%E7%BB%B4%E6%8A%A4.pdf">sildes/第7章 维护.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC7%E7%AB%A0%20%E7%BB%B4%E6%8A%A4.pdf">slides/第7章 维护.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/sildes/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf">sildes/课程设计题目.pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf">slides/课程设计题目.pdf</a>
 <br>
 <br>
 <h2>支持我们｜Buy Us a Coffee</h2>
