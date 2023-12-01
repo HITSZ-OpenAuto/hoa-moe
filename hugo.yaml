@@ -53,6 +53,10 @@ menu:
       name: 友链
       pageRef: /friend
       weight: 5
+    - identifier: support
+      name: 支持
+      pageRef: /support
+      weight: 5
     - name: Search
       weight: 6
       params:

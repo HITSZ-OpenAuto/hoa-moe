@@ -1,14 +1,13 @@
 ---
-title: 友链
 toc: false
-sidebar:
-  open: true
 comments: true
 ---
+<br>
+<h1 align="center">友链</h1>
 
 ## 🔗 友情链接 ｜ Link Exchange
 
-{{< callout type=“info” >}}
+{{< callout type=“info” emoji="🌐" >}}
 
 我们会收录的链接包括但不限于：
 
