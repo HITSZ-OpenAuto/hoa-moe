@@ -23,22 +23,14 @@ def list_files_in_repo(owner, repo, username, token, path=''):
 
 def save_files_list(owner, repo, username, token):
      paths = list_files_in_repo(owner, repo, username, token)
-     prefix = f'https://cdn.jsdelivr.net/gh/{owner}/{repo}/'
-     prefix_word = f'https://gh.hoa.moe/github.com/{owner}/{repo}/raw/main/'
-     filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z'))]
-     word_paths = [path for path in paths if path.endswith(('.docx', '.doc'))]
+     prefix = f'https://gh.hoa.moe/github.com/{owner}/{repo}/raw/main/'
+     filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc'))]
      with open('result.txt', 'w') as file:
         for path in filtered_paths:
             encoded_path = urllib.parse.quote(path)
             full_path = prefix + encoded_path
             full_path_html = f'<a href="{full_path}">{path}</a>'
-            file.write(full_path_html + '\n<br>\n')
-        for path in word_paths:
-            encoded_path = urllib.parse.quote(path)
-            full_path = prefix_word + encoded_path
-            full_path_html = f'<a href="{full_path}">{path}</a>'
-            file.write(full_path_html + '\n<br>\n')
-            
+            file.write(full_path_html + '\n<br>\n')          
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate download links of files from a GitHub repository.")
