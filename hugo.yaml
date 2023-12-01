@@ -56,13 +56,13 @@ menu:
     - identifier: support
       name: 支持
       pageRef: /support
-      weight: 5
-    - name: Search
       weight: 6
+    - name: Search
+      weight: 7
       params:
         type: search
     - name: GitHub
-      weight: 7
+      weight: 8
       url: "https://github.com/HITSZ-OpenAuto"
       params:
         icon: github
