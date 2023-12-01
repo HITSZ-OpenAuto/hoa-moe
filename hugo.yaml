@@ -49,9 +49,9 @@ menu:
       name: About
       pageRef: /about
       weight: 4
-    - identifier: fund
-      name: 支持
-      pageRef: /fund
+    - identifier: friend
+      name: 友链
+      pageRef: /friend
       weight: 5
     - name: Search
       weight: 6
