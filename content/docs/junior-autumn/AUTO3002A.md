@@ -170,13 +170,13 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <br>
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf">exams/自动控制实践历年考题.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/experiment/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C1.pdf">experiment/实验报告-实验1.pdf</a>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C1.pdf">labs/实验报告-实验1.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/experiment/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C2.pdf">experiment/实验报告-实验2.pdf</a>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C2.pdf">labs/实验报告-实验2.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/experiment/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C3.pdf">experiment/实验报告-实验3.pdf</a>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C3.pdf">labs/实验报告-实验3.pdf</a>
 <br>
-<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/experiment/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C4.pdf">experiment/实验报告-实验4.pdf</a>
+<a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C4.pdf">labs/实验报告-实验4.pdf</a>
 <br>
 <a href="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf">notes/自控实践笔记.pdf</a>
 <br>
