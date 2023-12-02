@@ -1,6 +1,6 @@
 ---
 title: (必修)大学物理IB
-weight: 20
+weight: 21
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001B"
 ---
