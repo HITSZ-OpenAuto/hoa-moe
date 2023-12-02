@@ -3,13 +3,6 @@ title: HITSZ OpenAuto
 layout: hextra-home
 ---
 
-<!-- {{< hextra/hero-badge >}}
-
-  <div class="w-2 h-2 rounded-full bg-primary-400"></div>
-  <span> 开源</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}} -->
-
 <div class="mt-6 mb-6">
 {{< hextra/hero-headline >}}
   HITSZ 自动化课程攻略共享计划&nbsp;<br class="sm:block hidden" />
@@ -18,14 +11,12 @@ layout: hextra-home
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  由 HITSZ OpenAuto 维护&nbsp;<br class="sm:block hidden" />为 HITSZ 学子提供课程攻略共享服务
+  由 HITSZ OpenAuto 维护&nbsp;<br class="sm:block hidden" />为 HITSZ 学子提供课程攻略共享平台
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="mb-6">
   {{< hextra/hero-button text="即刻查看" link="docs" >}}
-  <span class="ml-4"></span> <!-- Add this line to create space -->
-  {{< hextra/hero-button text="了解计划" link="about" >}}
 </div>
 
 <div class="mt-6"></div>

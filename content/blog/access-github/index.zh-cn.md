@@ -15,7 +15,7 @@ excludeSearch: false
 
 无论你是先从 GitHub 上的 OpenAuto 找到了这里，还是先从这里知道了 OpenAuto，并且想要进一步使用里面的资源，你都需要能够稳定地访问 GitHub。
 
-HITSZ-OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一个问题就是：
+HITSZ OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一个问题就是：
 
 > 为什么 GitHub 进不去啊？
 
