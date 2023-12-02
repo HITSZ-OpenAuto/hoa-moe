@@ -49,13 +49,13 @@ menu:
       name: About
       pageRef: /about
       weight: 4
-    - identifier: friend
+    - identifier: links
       name: 友链
-      pageRef: /friend
+      pageRef: /links
       weight: 5
-    - identifier: support
-      name: 支持
-      pageRef: /support
+    - identifier: sponsor
+      name: 支持我们
+      pageRef: /sponsor
       weight: 6
     - name: Search
       weight: 7
@@ -83,7 +83,7 @@ menu:
       weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: 提供全面学习资料
 
   navbar:
     displayTitle: true
