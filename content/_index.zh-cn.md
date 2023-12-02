@@ -24,7 +24,7 @@ layout: hextra-home
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="一份全面的课程攻略"
-    subtitle="笔记分享、实验攻略、考试资料"
+    subtitle="笔记分享、实验攻略、考试复习"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231116142356.png?imageSlim"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80 rounded-lg"
@@ -37,6 +37,15 @@ layout: hextra-home
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231116144543.png?imageSlim"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80 rounded-lg"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+  >}}
+
+  {{< hextra/feature-card
+    title="全文搜索"
+    subtitle="内置 FlexSearch 全文搜索，无需额外设置。"
+    class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
+    image="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231202192349.png?imageSlim"
+    imageClass="top-[40%] left-[36px] w-[110%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
   

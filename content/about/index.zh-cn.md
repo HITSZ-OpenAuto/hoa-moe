@@ -7,7 +7,7 @@ comments: true
 
 <!--more-->
 
-HITSZ 自动化课程攻略共享计划最初由[@lmh12138](https://github.com/lmh12138)于2022年06月27日创建，现在由 [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto) 维护。
+HITSZ 自动化课程攻略共享计划最初由 [@lmh12138](https://github.com/lmh12138) 创建，现由 [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto) 维护。
 
 ## 愿景 | Vision
 
