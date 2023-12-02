@@ -45,7 +45,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A"
 <br>
 <br>
 <br>
-<h2>资料下载 | Download</h2>
+
+
+资料下载
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E4%B9%A6%E5%90%8E%E6%9C%9F%E4%B8%AD%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88.zip">assignments/书后期中考题答案.zip</a>
 <br>
@@ -214,6 +216,11 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A"
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E8%AF%BE%E4%BB%B6%E7%89%88%E6%9C%AC2/%E7%AC%AC%E5%85%AD%E8%AE%B2%EF%BC%9A%E5%8F%98%E9%99%90%E7%A7%AF%E5%88%86%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98.pdf">slides/课件版本2/第六讲：变限积分函数问题.pdf</a>
 <br>
 <br>
-<h2>支持我们｜Buy Us a Coffee</h2>
+
+
+## 支持我们｜Buy Me a Coffee
+
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+
 <br>
-<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />            
+<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

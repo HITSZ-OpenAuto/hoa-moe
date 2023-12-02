@@ -37,7 +37,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B"
 <br>
 <br>
 <br>
-<h2>资料下载 | Download</h2>
+
+
+资料下载
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf">assignments/1_第七章微分方程作业答案（7.6-7.9）.pdf</a>
 <br>
@@ -136,6 +138,11 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B"
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9.pdf">notes/高等数学（下册）易遗忘知识点.pdf</a>
 <br>
 <br>
-<h2>支持我们｜Buy Us a Coffee</h2>
+
+
+## 支持我们｜Buy Me a Coffee
+
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+
 <br>
-<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />            
+<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

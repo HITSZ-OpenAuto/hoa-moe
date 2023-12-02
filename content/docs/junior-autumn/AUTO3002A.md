@@ -154,7 +154,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <br>
 <br>
 <br>
-<h2>资料下载 | Download</h2>
+
+
+资料下载
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW1.pdf">assignments/ACPP_HW1.pdf</a>
 <br>
@@ -181,6 +183,11 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf">notes/自控实践笔记.pdf</a>
 <br>
 <br>
-<h2>支持我们｜Buy Us a Coffee</h2>
+
+
+## 支持我们｜Buy Me a Coffee
+
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+
 <br>
-<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />            
+<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

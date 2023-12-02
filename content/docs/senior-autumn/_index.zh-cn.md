@@ -1,8 +1,6 @@
 ---
 title: 大四·秋
 weight: 11
-sidebar:
-  open: false
 comments: false
 toc: false
 ---

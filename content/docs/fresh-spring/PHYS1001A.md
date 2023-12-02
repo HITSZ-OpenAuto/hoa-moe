@@ -60,7 +60,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A"
 <br>
 <br>
 <br>
-<h2>资料下载 | Download</h2>
+
+
+资料下载
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2020%E7%89%A9%E7%90%861A.pdf">exams/2020物理1A.pdf</a>
 <br>
@@ -75,6 +77,11 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A"
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3_compressed.pdf">notes/笔记和课后习题（含考研真题）详解_compressed.pdf</a>
 <br>
 <br>
-<h2>支持我们｜Buy Us a Coffee</h2>
+
+
+## 支持我们｜Buy Me a Coffee
+
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+
 <br>
-<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />            
+<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

@@ -1,8 +1,6 @@
 ---
 title: 大一·春
 weight: 3
-sidebar:
-  open: false
 comments: false
 toc: false
 ---
