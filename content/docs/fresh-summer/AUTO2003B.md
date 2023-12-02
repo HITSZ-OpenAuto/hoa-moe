@@ -41,8 +41,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B"
 <br>
 
 
-资料下载
-<br>
+## 资料下载
+
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx">course_design/创新训练课B报告.docx</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/Qt-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E9%A2%98%E7%9B%AE3.zip">course_design/地铁站示例/Qt-创新训练题目3.zip</a>
@@ -72,7 +72,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B"
 
 ## 支持我们｜Buy Me a Coffee
 
-如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

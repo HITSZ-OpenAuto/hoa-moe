@@ -39,8 +39,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B"
 <br>
 
 
-资料下载
-<br>
+## 资料下载
+
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf">assignments/1_第七章微分方程作业答案（7.6-7.9）.pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B9%9D%E7%AB%A0%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E6%B3%95%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/1_第九章多元函数微分法及其应用作业答案.pdf</a>
@@ -142,7 +142,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B"
 
 ## 支持我们｜Buy Me a Coffee
 
-如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

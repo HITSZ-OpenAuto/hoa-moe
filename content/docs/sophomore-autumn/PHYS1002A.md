@@ -74,8 +74,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1002A"
 <br>
 
 
-资料下载
-<br>
+## 资料下载
+
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp01/MaxwellJay/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E5%90%8E%E5%8D%8A%E9%83%A8%E5%88%86.pdf">Exp01/MaxwellJay/实验报告后半部分.pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp01/%E7%94%A8%E7%A4%BA%E6%B3%A2%E5%99%A8%E8%A7%82%E6%B5%8B%E7%A3%81%E6%BB%9E%E5%9B%9E%E7%BA%BF%2820%E7%BA%A7%20LiuYuming%29.pdf">Exp01/用示波器观测磁滞回线(20级 LiuYuming).pdf</a>
@@ -127,7 +127,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1002A"
 
 ## 支持我们｜Buy Me a Coffee
 
-如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

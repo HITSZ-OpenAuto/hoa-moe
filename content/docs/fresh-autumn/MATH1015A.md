@@ -47,8 +47,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A"
 <br>
 
 
-资料下载
-<br>
+## 资料下载
+
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E4%B9%A6%E5%90%8E%E6%9C%9F%E4%B8%AD%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88.zip">assignments/书后期中考题答案.zip</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.zip">assignments/第二章习题答案.zip</a>
@@ -220,7 +220,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A"
 
 ## 支持我们｜Buy Me a Coffee
 
-如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
