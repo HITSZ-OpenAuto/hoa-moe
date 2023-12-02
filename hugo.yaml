@@ -53,16 +53,12 @@ menu:
       name: 友链
       pageRef: /links
       weight: 5
-    - identifier: sponsor
-      name: 支持我们
-      pageRef: /sponsor
-      weight: 6
     - name: Search
-      weight: 7
+      weight: 6
       params:
         type: search
     - name: GitHub
-      weight: 8
+      weight: 7
       url: "https://github.com/HITSZ-OpenAuto"
       params:
         icon: github
