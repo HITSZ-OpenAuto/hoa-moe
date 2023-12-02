@@ -1,8 +1,6 @@
 ---
 title: 大三·春
 weight: 9
-sidebar:
-  open: false
 comments: false
 toc: false
 ---

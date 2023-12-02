@@ -1,8 +1,6 @@
 ---
 title: 大二·春
 weight: 6
-sidebar:
-  open: false
 comments: false
 toc: false
 ---

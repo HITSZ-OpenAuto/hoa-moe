@@ -1,8 +1,6 @@
 ---
 title: 大一·夏
 weight: 4
-sidebar:
-  open: false
 comments: false
 toc: false
 ---

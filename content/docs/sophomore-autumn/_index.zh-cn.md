@@ -1,8 +1,6 @@
 ---
 title: 大二·秋
 weight: 5
-sidebar:
-  open: false
 comments: false
 toc: false
 ---

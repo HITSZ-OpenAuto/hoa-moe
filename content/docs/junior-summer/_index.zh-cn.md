@@ -1,8 +1,6 @@
 ---
 title: 大三·夏
 weight: 10
-sidebar:
-  open: false
 comments: false
 toc: false
 ---
