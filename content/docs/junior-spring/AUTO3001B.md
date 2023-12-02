@@ -35,8 +35,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B"
 <br>
 
 
-资料下载
-<br>
+## 资料下载
+
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/1/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf">assignments/2023年春/1/第一次作业.pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/1/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf">assignments/2023年春/1/自动控制原理B第一次作业答案.pdf</a>
@@ -114,7 +114,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B"
 
 ## 支持我们｜Buy Me a Coffee
 
-如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

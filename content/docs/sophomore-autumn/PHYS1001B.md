@@ -56,8 +56,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001B"
 <br>
 
 
-资料下载
-<br>
+## 资料下载
+
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E5%85%89%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 光学练习.pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%20%E6%9C%BA%E6%A2%B0%E6%8C%AF%E5%8A%A8%E7%BB%83%E4%B9%A0.pdf">exams/大学物理IB 机械振动练习.pdf</a>
@@ -81,7 +81,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001B"
 
 ## 支持我们｜Buy Me a Coffee
 
-如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />

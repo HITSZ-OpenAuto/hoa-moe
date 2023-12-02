@@ -62,8 +62,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A"
 <br>
 
 
-资料下载
-<br>
+## 资料下载
+
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2020%E7%89%A9%E7%90%861A.pdf">exams/2020物理1A.pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2023%E5%B9%B4%E6%98%A5%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E2%85%A0A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf">exams/2023年春大学物理ⅠA期末考试试题（回忆版）.pdf</a>
@@ -81,7 +81,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A"
 
 ## 支持我们｜Buy Me a Coffee
 
-如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~3
+如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。您的每一份慷慨支持都将大幅减轻我们承担的域名及对象存储服务的费用负担~
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
