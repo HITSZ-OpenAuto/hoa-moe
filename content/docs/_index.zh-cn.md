@@ -22,5 +22,4 @@ comments: false
   {{< card link="junior-summer" title="大三小学期" icon="markdown" >}}
   {{< card link="senior-autumn" title="大四上" icon="document-duplicate" >}}
   {{< card link="senior-spring" title="大四下" icon="adjustments" >}}
-  {{< card link="senior-summer" title="大四小学期" icon="markdown" >}}
 {{< /cards >}}
