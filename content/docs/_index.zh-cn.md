@@ -13,14 +13,14 @@ comments: false
 
 {{< cards >}}
   {{< card link="fresh-autumn" title="大一·秋" icon="document-duplicate" >}}
-  {{< card link="fresh-spring" title="大一·夏" icon="adjustments" >}}
+  {{< card link="fresh-spring" title="大一·春" icon="adjustments" >}}
   {{< card link="fresh-summer" title="大一·夏" icon="markdown" >}}
   {{< card link="sophomore-autumn" title="大二·秋" icon="document-duplicate" >}}
-  {{< card link="sophomore-spring" title="大二·夏" icon="adjustments" >}}
+  {{< card link="sophomore-spring" title="大二·春" icon="adjustments" >}}
   {{< card link="sophomore-summer" title="大二·夏" icon="markdown" >}}
   {{< card link="junior-autumn" title="大三·秋" icon="document-duplicate" >}}
-  {{< card link="junior-spring" title="大三·夏" icon="adjustments" >}}
+  {{< card link="junior-spring" title="大三·春" icon="adjustments" >}}
   {{< card link="junior-summer" title="大三·夏" icon="markdown" >}}
   {{< card link="senior-autumn" title="大四·秋" icon="document-duplicate" >}}
-  {{< card link="senior-spring" title="大四·夏" icon="adjustments" >}}
+  {{< card link="senior-spring" title="大四·春" icon="adjustments" >}}
 {{< /cards >}}
