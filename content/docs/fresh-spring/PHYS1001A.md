@@ -1,6 +1,6 @@
 ---
 title: (必修)大学物理IA
-weight: 26
+weight: 28
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A"
 ---
