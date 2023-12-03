@@ -83,7 +83,7 @@ jobs:
       - name: Bulid Semester Pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'senior-summer')
-          semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春' '大四·夏')
+          semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春')
           category_arr='mandatory distributional-selective cross-major-selective'
           for((i=0;i<${#semester_arr[@]};i++))
           do
@@ -161,9 +161,6 @@ jobs:
                 ;;
               '第四学年春季')
                 semester='senior-spring'
-                ;;
-              '第四学年夏季')
-                semester='senior-summer'
                 ;;
               *)
                 echo "No match semester"
