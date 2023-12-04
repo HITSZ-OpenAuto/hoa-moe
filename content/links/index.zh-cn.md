@@ -3,7 +3,7 @@ title: 友链
 toc: false
 comments: true
 sidebar:
-  hide: true
+  exclude: true
 ---
 
 ### 校内相关
