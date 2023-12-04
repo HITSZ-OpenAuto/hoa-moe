@@ -12,7 +12,7 @@ toc: false
 
 - 对象存储服务: ¥50 / 年，用于图片/资料下载加速
 
-- ...(如果得到的捐助足够，我们会购买服务器或者NAS降低开销并提供更好的服务)
+- ...(如果得到的捐助足够，我们会购买服务器或者NAS以用来降低开销并提供更好的服务)
 
 `HITSZ 自动化课程攻略共享计划`不会因为没有捐助而消失，在失去捐助并且维护者不再活跃/没有新的维护者之后，我们会使用免费的GitHub Pages服务，届时请访问[hitsz-openauto.github.io](hitsz-openauto.github.io)，GitHub Pages服务在国内访问将会有不少困难，不过这也是类似项目[上交生存手册](https://survivesjtu.gitbook.io/survivesjtumanual/)、[浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)的共同做法。
 
