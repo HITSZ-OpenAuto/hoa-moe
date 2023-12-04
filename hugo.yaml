@@ -49,16 +49,12 @@ menu:
       name: About
       pageRef: /about
       weight: 4
-    - identifier: links
-      name: 友链
-      pageRef: /links
-      weight: 5
     - name: Search
-      weight: 6
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 7
+      weight: 6
       url: "https://github.com/HITSZ-OpenAuto"
       params:
         icon: github
@@ -73,10 +69,14 @@ menu:
       name: "友链"
       pageRef: "/links"
       weight: 2
+    - identifier: sponsor
+      name: 捐助我们
+      pageRef: /sponsor
+      weight: 3
     - identifier: githubPage
       name: "GitHub 主页 ↗"
       url: "https://github.com/HITSZ-OpenAuto"
-      weight: 3
+      weight: 4
 
 params:
   description: 由 HITSZ OpenAuto 维护, 为 HITSZ 学子提供课程攻略共享服务

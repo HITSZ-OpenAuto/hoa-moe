@@ -1,11 +1,10 @@
 ---
+title: 友链
 toc: false
 comments: true
 sidebar:
   hide: true
 ---
-<br>
-<h1 align="center">友链</h1>
 
 ### 校内相关
 
