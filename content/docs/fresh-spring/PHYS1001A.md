@@ -55,9 +55,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A"
 
 ## 支持我们 | Buy Us a Coffee or Join with Us
 
-如果你喜欢 HITSZ 自动化课程攻略共享计划，想支持我们，以下是几种支持我们的方式
+如果你喜欢 HITSZ 自动化课程攻略共享计划，想支持我们，以下是几种支持我们的方式:
 
-- HITSZ 自动化课程攻略共享计划 是所有同学都可以参与编写贡献的，如果你有好的笔记或者资料，欢迎前往我们的[GitHub](https://github.com/HITSZ-OpenAuto)进行贡献，也可以发邮件至[hi@hoa.moe](mailto:hi@hoa.moe)联系我们，我们会在收到的第一时间进行答复。
+- HITSZ 自动化课程攻略共享计划 是所有同学都可以参与编写贡献的，如果你有好的笔记或者资料，欢迎前往我们的[GitHub](https://github.com/HITSZ-OpenAuto)进行贡献，也可以发邮件至[📮hi@hoa.moe](mailto:hi@hoa.moe)联系我们，我们会在收到的第一时间进行答复。
 
 - 将本网站分享给你的同学也是支持我们的重要方式。
 
