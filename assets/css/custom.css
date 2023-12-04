@@ -69,7 +69,7 @@ display:none;
 
 @media (min-width: 768px) {
 .sidebar-container {
-  padding-top: calc(var(--label-height));
+/*   padding-top: calc(var(--label-height)); */
   transition: width 0.8s cubic-bezier(0.52, 0.16, 0.04, 1), opacity 0.3s 0.5s ease;
 }
 /* .hextra-toc{ 
