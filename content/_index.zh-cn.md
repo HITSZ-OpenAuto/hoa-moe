@@ -32,7 +32,7 @@ layout: hextra-home
   >}}
 
   {{< hextra/feature-card
-    title="基于 GitHub 维护"
+    title="通过 GitHub 维护"
     subtitle="版本控制、协作编辑、问题反馈"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231116144543.png?imageSlim"
@@ -42,7 +42,7 @@ layout: hextra-home
 
   {{< hextra/feature-card
     title="全文搜索"
-    subtitle="内置 FlexSearch 全文搜索，无需额外设置。"
+    subtitle="内置 FlexSearch 全文搜索，无需额外设置"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231202192349.png?imageSlim"
     imageClass="top-[40%] left-[36px] w-[110%] sm:w-[110%] dark:opacity-80"

@@ -73,10 +73,14 @@ menu:
       name: 捐助我们
       pageRef: /sponsor
       weight: 3
+    - identifier: sponsor
+      name: 常见问题
+      pageRef: /faq
+      weight: 4
     - identifier: githubPage
       name: "GitHub 主页 ↗"
       url: "https://github.com/HITSZ-OpenAuto"
-      weight: 4
+      weight: 5
 
 params:
   description: 由 HITSZ OpenAuto 维护, 为 HITSZ 学子提供课程攻略共享服务
