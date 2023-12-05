@@ -50,7 +50,22 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B"
 
 > by [@Maxwell Jay](https://github.com/MaxwellJay256), 2023.12
 
-这应该是自动化学生为数不多的软件开发的机会。
+这应该是自动化学生为数不多的参与软件开发的机会。
+
+### 选题
+
+图省事的话推荐贪吃蛇，借助 AI 不到 1 天就能速通。
+
+如果想多积累一点敲代码经验，可以选择客户端类型的软件（信息管理系统、售票系统），体验一下前、后端的开发思想，尤其是 GUI 该怎么设计才能中看又中用。
+
+### 组队
+
+课程要求 1-2 人一个小组。
+
+如果选择组队，并且不摆烂的话，那么你和队友就必须启用 git 这种版本控制系统。
+协作开发是一门大学问，后续我们会尝试更新一篇相关的博客（如果你对协作开发有有益的见解，欢迎投稿你的分享！）。
+
+如果对团队协作没有信心，或者对你的队友没有信心，一个人组队会轻松很多。
 
 ### 挑选一个开发框架
 
@@ -64,7 +79,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B"
 1. [EasyX](https://docs.easyx.cn/)：一个基于 `GDI+` 的图形库，比较古老了，使用简单，但是功能有限。
 2. [Qt](https://www.qt.io/)：跨平台的 GUI 开发框架，功能强大，几乎可以做任何事情。并且你校学生证可以申请到 Qt 的教育许可证，解锁完整特性。
 3. [MFC(Microsoft Foundation Classes)](https://learn.microsoft.com/zh-cn/cpp/mfc/mfc-desktop-applications)：一组封装了 C++ 类库的 Windows 编程框架，优点是兼容从 Win95 至今的所有 Windows 操作系统，且运行效率非常高；缺点是开发效率低，并且只能在 Windows 上运行。
-4. [C#](https://learn.microsoft.com/dotnet/csharp/)：微软推出的一种面向对象的编程语言，语法类似于 `C/C++`，但是更加简洁，配合 UWP 或 WPF 可以开发出非常现代化的桌面应用程序。
+4. [C#](https://learn.microsoft.com/dotnet/csharp/)：微软推出的一种面向对象的编程语言，语法类似于 `C/C++`，但是更加简洁，配合 [UWP](https://learn.microsoft.com/windows/uwp/) 或 [WPF](https://learn.microsoft.com/dotnet/desktop/wpf/) 可以开发出非常现代化的桌面应用程序。
+   但是课程规定 `C#` 仅限在实现图形界面的时候使用，代码逻辑仍需使用 `C/C++`。
 
 个人推荐前 2 个。
 
@@ -74,12 +90,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B"
 Visual Studio 也是 MFC 或 C# 的最佳选择。
 
 Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，适合学习和实操 Qt 时使用。
-
-### 选题
-
-图省事的话推荐贪吃蛇，借助 AI 不到 1 天就能速通。
-
-如果想多积累一点敲代码经验，可以选择客户端类型的软件（信息管理系统、售票系统），体验一下前、后端的开发思想，尤其是 GUI 该怎么设计才能中看又中用。
 <br>
 <br>
 <br>
@@ -114,7 +124,7 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 <br>
 
 
-## 支持我们 | Buy Us a Coffee or Join with Us
+## 支持我们
 
 如果你喜欢 HITSZ 自动化课程攻略共享计划，想支持我们，以下是几种支持我们的方式:
 
