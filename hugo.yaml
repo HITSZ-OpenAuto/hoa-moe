@@ -44,7 +44,7 @@ menu:
     - identifier: blog
       name: Blog
       pageRef: /blog
-      weight: 3
+      weight: 2
     - identifier: about
       name: About
       pageRef: /about
@@ -54,7 +54,7 @@ menu:
       params:
         type: search
     - name: GitHub
-      weight: 6
+      weight: 6 
       url: "https://github.com/HITSZ-OpenAuto"
       params:
         icon: github
@@ -66,8 +66,8 @@ menu:
         type: separator
       weight: 1
     - identifier: links
-      name: "友链"
-      pageRef: "/links"
+      name: 友链
+      pageRef: /links
       weight: 2
     - identifier: sponsor
       name: 捐助我们
