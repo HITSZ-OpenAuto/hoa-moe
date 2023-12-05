@@ -185,7 +185,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <br>
 
 
-## 支持我们 | Buy Us a Coffee or Join with Us
+## 支持我们
 
 如果你喜欢 HITSZ 自动化课程攻略共享计划，想支持我们，以下是几种支持我们的方式:
 
