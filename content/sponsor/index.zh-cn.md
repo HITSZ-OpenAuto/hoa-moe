@@ -24,6 +24,9 @@ sidebar:
 
 如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名及对象存储服务的费用负担，同时也是对维护者最大的鼓励。我们鼓励选择“向对方展示我的名字”，你的ID和留言将会显示在我们的[Sponsor](https://hoa.moe/sponsor/)页面中。
 
+<br>
+<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
+
 `HITSZ 自动化课程攻略共享计划` 便捷的访问服务离不开以下每一位同学的热心捐助（按照时间排序）：
 
 > > 来自@Somnambulist
