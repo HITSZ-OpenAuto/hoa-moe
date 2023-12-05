@@ -12,7 +12,7 @@ sidebar:
 
 {{% details title="域名: $ 13.99 / 年" closed="true" %}}
 
-用于将域名解析到国内DNS，并且这个短小可爱的域名可以为你输入网址 /跟朋友推荐时节省不少时间
+用于将域名解析到国内DNS，并且这个短小可爱的域名可以为你输入网址/跟朋友推荐时节省不少时间
 
 {{% /details %}}
 
@@ -21,10 +21,6 @@ sidebar:
 用于图床/资料下载加速
 
 {{% /details %}}
-
-ps: 如果得到的捐助足够，我们会购买服务器或者NAS以降低开销并提供更好的服务。
-
-`HITSZ 自动化课程攻略共享计划`不会因为没有捐助而消失，在失去捐助并且维护者不再活跃/没有新的维护者之后，我们会使用免费的GitHub Pages服务，届时请访问[hitsz-openauto.github.io](hitsz-openauto.github.io)。GitHub Pages服务在国内访问会有不少困难，不过这也是类似项目[上交生存手册](https://survivesjtu.gitbook.io/survivesjtumanual/)、[浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)的共同做法。维护者会在最大限度内为这个项目为爱发电至少2~3年，但是`HITSZ 自动化课程攻略共享计划`会因为你的捐助而更加美好。
 
 如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名及对象存储服务的费用负担，同时也是对维护者最大的鼓励。我们鼓励选择“向对方展示我的名字”，你的ID和留言将会显示在我们的[Sponsor](https://hoa.moe/sponsor/)页面中。
 
