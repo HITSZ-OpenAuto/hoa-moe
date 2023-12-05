@@ -73,7 +73,7 @@ menu:
       name: 捐助我们
       pageRef: /sponsor
       weight: 3
-    - identifier: sponsor
+    - identifier: faq
       name: 常见问题
       pageRef: /faq
       weight: 4
