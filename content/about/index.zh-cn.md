@@ -9,7 +9,7 @@ comments: true
 
 HITSZ 自动化课程攻略共享计划最初由 [@lmh12138](https://github.com/lmh12138) 创建，现由 [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto) 维护。
 
-## 愿景 | Vision
+## 愿景
 
 1. **尊重并保护知识产权**。
 
@@ -19,7 +19,7 @@ HITSZ 自动化课程攻略共享计划最初由 [@lmh12138](https://github.com/
 
 4. 仓库存活期间永久保证：**公益、免费、开源**。
 
-## 平台 | Platform
+## 平台
 
 为什么采用 GitHub 项目作为平台呢？我们有以下考虑:
 
