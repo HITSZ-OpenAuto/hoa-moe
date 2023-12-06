@@ -1,7 +1,7 @@
 ---
 title: 捐助我们
 comments: true
-toc: false
+toc: true
 sidebar:
   exclude: true
 ---
@@ -26,6 +26,10 @@ sidebar:
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
+
+## 感谢名单
+
+### 捐助者
 
 `HITSZ 自动化课程攻略共享计划` 便捷的访问服务离不开以下每一位同学的热心捐助（按照时间排序）：
 
