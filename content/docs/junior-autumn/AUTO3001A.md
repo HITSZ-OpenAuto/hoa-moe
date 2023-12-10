@@ -120,10 +120,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E2%80%94%E4%BD%9C%E4%B8%9A9%E5%8F%8A%E7%AD%94%E6%A1%88%282%29.pdf">assignments/作业答案/自控理论A—作业9及答案(2).pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/books/%E7%94%B5%E5%AD%90%E4%B9%A6-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86%28%E8%83%A1%E5%AF%BF%E6%9D%BE%29.pdf">books/电子书-自动控制原理(胡寿松).pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/books/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86%20%E4%B8%8A%2B%E4%B8%8B.pdf">books/自动控制原理 上+下.pdf</a>
-<br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/19%E7%A7%8B%E8%87%AA%E6%8E%A7C%E8%80%83%E5%8D%B7%E3%80%90%E6%9C%9F%E6%9C%AB%E3%80%91%EF%BC%88%E5%90%AB%E7%AD%94%E6%A1%88%EF%BC%89.pdf">exams/19秋自控C考卷【期末】（含答案）.pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86.pdf">exams/[网盘计划]自动控制原理.pdf</a>
