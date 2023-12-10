@@ -22,7 +22,7 @@ sidebar:
 
 {{% /details %}}
 
-如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名及对象存储服务的费用负担，同时也是对维护者最大的鼓励。我们鼓励选择“向对方展示我的名字”，你的ID和留言将会显示在我们的[Sponsor](https://hoa.moe/sponsor/)页面中。
+如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名及对象存储服务的费用负担，同时也是对维护者最大的鼓励。我们鼓励选择“向对方展示我的名字”，你的ID和留言将会显示在我们的[Sponsor](https://hoa.moe/sponsor/)页面中。受限于赞赏的留言字数限制，如果你有更多想说的，可以致信我们的[📮邮箱](mailto:hi@hoa.moe)
 
 <br>
 <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231112170457.png?imageSlim" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
@@ -56,3 +56,9 @@ sidebar:
 >来自@ʚ🧸ɞ  小熊不吃饼干
 >
 >留言：辛苦啦
+
+>来自@乙醛
+>
+>留言：针不戳
+
+>来自匿名用户
