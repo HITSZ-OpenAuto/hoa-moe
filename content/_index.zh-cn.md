@@ -37,7 +37,7 @@ layout: hextra-home
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231116144543.png?imageSlim"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80 rounded-lg"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
 
   {{< hextra/feature-card
