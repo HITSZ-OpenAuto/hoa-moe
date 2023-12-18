@@ -27,7 +27,7 @@ sidebar:
 
 {{< cards >}}
   {{< card link="https://www.longlin.tech/" title="longlin的个人小站" >}}
-  {{< card link="https://longbin.tech" title="Tang's Blog" >}}  
+  {{< card link="https://longbin.tech" title="Longbin's Tech-Blog" >}}  
 {{< /cards >}}
 
 <br>
