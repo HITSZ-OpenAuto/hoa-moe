@@ -17,6 +17,10 @@ layout: hextra-home
 
 <div class="mb-6">
   {{< hextra/hero-button text="即刻查看" link="docs" >}}
+
+  {{< hextra/hero-button text="友情链接" link="links" >}}
+
+  {{< hextra/hero-button text="关于我们" link="about" >}}
 </div>
 
 <div class="mt-6"></div>
