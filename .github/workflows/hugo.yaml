@@ -49,8 +49,6 @@ jobs:
           token: ${{ secrets.PERSONAL_TOKEN }}
           submodules: recursive
           fetch-depth: 0
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -277,13 +275,6 @@ jobs:
         with:
           add: 'content'
           default_author: github_actions
-
-      - name: Auto Merge
-        if: github.actor == 'github-actions[bot]'
-        uses: peter-evans/enable-pull-request-automerge@v3
-        with:
-          pull-request-number: ${{ github.event.pull_request.number }}
-          merge-method: squash
 
       - name: Build with Hugo
         env:
