@@ -4,10 +4,15 @@ weight: 2
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 ---
+**new: 步进电机练习答案更新**
+
 文档编写者：[Oliver Wu](https://github.com/OliverWu515)（撰写有关21级部分）
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+
 ![Static Badge](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90（21级）-gold)![Static Badge](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-10%25-wheat) ![Static Badge](https://img.shields.io/badge/实验-25%25-wheat)![Static Badge](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-65%25-wheat)
+
+![Static Badge](https://img.shields.io/badge/总学时48-wheat) ![Static Badge](https://img.shields.io/badge/讲课学时-40-wheat) ![Static Badge](https://img.shields.io/badge/实验-2学时*4-wheat)
 
 该课程有配套的课程设计（[(必修)自动控制实践A课程设计](https://hoa.moe/docs/junior-autumn/auto3016/)），独立设课，1学分、40学时。
 
@@ -15,7 +20,11 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 
 教材：梅晓榕主编，自动控制元件及线路（第五版），科学出版社。
 
-参考书：
+参考书及网课：
+
+本课程涵盖三部分内容：电机驱动与拖动；传感与测量元件；简单的电力电子技术（PWM）。以第一块内容为最重。
+
+电机学：
 
 - （哈尔滨理工大学）戈宝军,梁艳萍,温嘉斌，电机学（第三版），中国电力出版社。
 
@@ -25,9 +34,17 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 
 - （大连理工大学）孙建忠、刘凤春等编，电机与拖动（第4版），机械工业出版社。
 
-- （西安交通大学）王兆安等，电力电子技术（第5版），机械工业出版社。
+上面的是传统电机学教材，可以看里面的直流电机、变压器、异步电机和同步电机。关于伺服电机和步进电机，可以参考以下书目：
 
-本课程涵盖三部分内容：电机驱动与拖动；传感与测量元件；简单的电力电子技术（PWM），以第一块内容为最重。
+- [日]坂本正文著，王自强译，步进电机应用技术，科学出版社2010年版。（翻译有些错误，凑合着看）
+- （一些奇怪的论坛里的pdf，找到后放上来）
+
+关于电力电子技术，本门课要求很低。如果大家想拓展~~（学电气的专业课）~~，可以参考的书目有：（请大家量力而行，学有余力再去看拓展提高的内容！）
+
+- （西安交通大学）王兆安等，电力电子技术（第5版），机械工业出版社。
+- Erickson，Fundamental of power electronics（3rd ed.)，Springer。
+- https://space.bilibili.com/519909115
+- [西瓜粥西瓜粥的个人空间-西瓜粥西瓜粥个人主页-哔哩哔哩视频 (bilibili.com)](https://space.bilibili.com/287344644?spm_id_from=333.337.search-card.all.click)
 
 <h4>学时安排表（21级）</h4>   <!--标题-->
 <table border="1" cellspacing="10">
@@ -97,12 +114,12 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <tr>
   <td>步进电机的结构与工作原理</td>
   <td>1</td>
-  <td>重要（复习后再来更新）</td>
+  <td>重要。理解“错齿是使步进电机运动的根本原因”。关于齿数的计算，反应式和混合式其实是有不同的。但是一般按照反应式的公式计算。</td>
 </tr>
 <tr>
   <td>步进电机的静态特性、动态特性与驱动</td>
   <td>3</td>
-  <td>重要（复习后再来更新）</td>
+  <td>重要。静态特性主要是矩角特性，动态特性主要是从矩角特性出发用合成法来分析启动特性（图解特别重要），以及矩频特性。驱动以细分驱动为主。</td>
 </tr>
 <tr>
   <td>交流电机概述</td>
@@ -122,16 +139,16 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <tr>
   <td>交流绕组的基本原理，三相异步电机的原理及结构</td>
   <td>2</td>
-  <td>是重点，也是难点！！旋转磁场理解起来比较困难。详见文件中的异步电机笔记。</td>
+  <td>是重点，也是难点！！但是学时比较少。旋转磁场理解起来比较困难。详见文件中的异步电机笔记。</td>
 </tr>
 <tr>
-  <td>三相异步电机的等效电路及运行分析</td>
-  <td>2</td>
-  <td>是重点，也是难点！！等效的流程：电路模型-频率归算-绕组归算。<b>异步电机可以看成“会动的变压器”！</b> 详见文件中的异步电机笔记。</td>
+  <td>三相异步电机的等效电路及运行分析，机械特性和调速运行</td>
+  <td>约2.5</td>
+  <td>是重点，也是难点！！但是你没看错，2学时结束了。等效的流程：电路模型-频率归算-绕组归算。<b>异步电机可以看成“会动的变压器”！</b> 详见文件中的异步电机笔记。</td>
 </tr>
 <tr>
   <td>单相异步电机的等效电路及运行分析</td>
-  <td>1</td>
+  <td>约0.5</td>
   <td>需要理解，有小题。</td>
 </tr>
 <tr>
@@ -140,6 +157,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <td>没时间了，几乎没讲，考试不涉及。</td>
 </tr>
 </table>
+
 <!--在表格td中，有两个属性控制居中显示
 	align——表示左右居中——left，center，right
 	valign——控制上下居中——left，center，right
@@ -199,7 +217,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/14%20%E5%B0%8F%E5%8A%9F%E7%8E%87%E5%90%8C%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/14 小功率同步电机相关试题.docx</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/15 步进电机相关试题 - 答案.docx</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88%28%E6%9B%B4%E6%96%B0%29.docx">exams/本部-试题汇编/15 步进电机相关试题 - 答案(更新).docx</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/15 步进电机相关试题.docx</a>
 <br>
