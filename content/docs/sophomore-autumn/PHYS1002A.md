@@ -84,6 +84,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1002A"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp02/%E6%8B%89%E4%BC%B8%E6%B3%95%E6%B5%8B%E6%9D%A8%E6%B0%8F%E5%BC%B9%E6%80%A7%E6%A8%A1%E9%87%8F%2820%E7%BA%A7%20LiuYuming%29.pdf">Exp02/拉伸法测杨氏弹性模量(20级 LiuYuming).pdf</a>
 <br>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp02/%E6%8B%89%E4%BC%B8%E6%B3%95%E6%B5%8B%E6%9D%A8%E6%B0%8F%E5%BC%B9%E6%80%A7%E6%A8%A1%E9%87%8F%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf">Exp02/拉伸法测杨氏弹性模量(22级 Maxwell Jay).pdf</a>
+<br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp02/%E6%8B%89%E4%BC%B8%E6%B3%95%E6%B5%8B%E6%9D%A8%E6%B0%8F%E5%BC%B9%E6%80%A7%E6%A8%A1%E9%87%8F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">Exp02/拉伸法测杨氏弹性模量实验报告模板.docx</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp03/%E6%B6%B2%E4%BD%93%E9%BB%8F%E5%BA%A6%E6%B5%8B%E5%AE%9A%2820%E7%BA%A7%20LiuYuming%29.pdf">Exp03/液体黏度测定(20级 LiuYuming).pdf</a>
@@ -92,13 +94,21 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1002A"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp04/%E8%96%84%E9%80%8F%E9%95%9C%E7%84%A6%E8%B7%9D%E6%B5%8B%E5%AE%9A%2820%E7%BA%A7%20LiuYuming%29.pdf">Exp04/薄透镜焦距测定(20级 LiuYuming).pdf</a>
 <br>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp04/%E8%96%84%E9%80%8F%E9%95%9C%E7%84%A6%E8%B7%9D%E7%9A%84%E6%B5%8B%E5%AE%9A%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf">Exp04/薄透镜焦距的测定(22级 Maxwell Jay).pdf</a>
+<br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp04/%E8%96%84%E9%80%8F%E9%95%9C%E7%84%A6%E8%B7%9D%E7%9A%84%E6%B5%8B%E5%AE%9A%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">Exp04/薄透镜焦距的测定实验报告模板.docx</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp05/%E6%83%A0%E6%96%AF%E9%80%9A%E7%94%B5%E6%A1%A5%E4%B8%8E%E4%BC%8F%E5%AE%89%E7%89%B9%E6%80%A7%2820%E7%BA%A7%20LiuYuming%29.pdf">Exp05/惠斯通电桥与伏安特性(20级 LiuYuming).pdf</a>
 <br>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp05/%E7%94%A8%E6%83%A0%E6%96%AF%E9%80%9A%E7%94%B5%E6%A1%A5%E6%B5%8B%E7%94%B5%E9%98%BB%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf">Exp05/用惠斯通电桥测电阻(22级 Maxwell Jay).pdf</a>
+<br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp05/%E7%94%A8%E6%83%A0%E6%96%AF%E9%80%9A%E7%94%B5%E6%A1%A5%E6%B5%8B%E7%94%B5%E9%98%BB%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">Exp05/用惠斯通电桥测电阻实验报告模板.docx</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp06/DIY%E5%AE%9E%E9%AA%8C%E2%80%94%E2%80%94%E7%A3%81%E8%80%A6%E5%90%88%E8%B0%90%E6%8C%AF%E5%BC%8F%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8A%9B%E4%BC%A0%E8%BE%93%E5%AE%9E%E9%AA%8C%E7%A0%94%E7%A9%B6%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">Exp06/DIY实验——磁耦合谐振式无线电力传输实验研究实验报告模板.docx</a>
+<br>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp06/%E7%A3%81%E8%80%A6%E5%90%88%E5%85%B1%E6%8C%AF%E5%BC%8F%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8A%9B%E4%BC%A0%E8%BE%93%E5%AE%9E%E9%AA%8C%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf">Exp06/磁耦合共振式无线电力传输实验(22级 Maxwell Jay).pdf</a>
+<br>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp07/%E5%A3%B0%E9%80%9F%E7%9A%84%E6%B5%8B%E9%87%8F%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf">Exp07/声速的测量(22级 Maxwell Jay).pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp07/%E5%A3%B0%E9%80%9F%E7%9A%84%E6%B5%8B%E9%87%8F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx">Exp07/声速的测量实验报告模板.docx</a>
 <br>
