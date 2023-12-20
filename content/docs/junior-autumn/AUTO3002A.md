@@ -4,7 +4,7 @@ weight: 2
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 ---
-**new: 步进电机练习答案更新**
+**new: 步进电机笔记&答案更新**
 
 文档编写者：[Oliver Wu](https://github.com/OliverWu515)（撰写有关21级部分）
 
@@ -39,7 +39,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 - [日]坂本正文著，王自强译，步进电机应用技术，科学出版社2010年版。（翻译有些错误，凑合着看）
 - （一些奇怪的论坛里的pdf，找到后放上来）
 
-关于电力电子技术，本门课要求很低。如果大家想拓展~~（学电气的专业课）~~，可以参考的书目有：（请大家量力而行，学有余力再去看拓展提高的内容！）
+关于电力电子技术，本门课要求很低。如果大家想拓展（学电气的专业课[bushi]），可以参考的书目有：（请大家量力而行，学有余力再去看拓展提高的内容！）
 
 - （西安交通大学）王兆安等，电力电子技术（第5版），机械工业出版社。
 - Erickson，Fundamental of power electronics（3rd ed.)，Springer。
@@ -129,7 +129,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <tr>
   <td>无刷直流电机与交流伺服电机</td>
   <td>5</td>
-  <td>讲得最细致的部分。原理相对比较简单，重点理解六步换向和Clark-Park/d-q变换，理解如何将伺服电机的驱动变得像有刷直流那样简单。</td>
+  <td>讲得最细致的部分，但其实原理相对比较简单，重点理解六步换向和Clark-Park/d-q变换，理解如何将伺服电机的驱动变得像有刷直流那样简单。</td>
 </tr>
 <tr>
   <td>测量元件、旋转变压器、感应同步器、编码器、光栅</td>
@@ -157,6 +157,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <td>没时间了，几乎没讲，考试不涉及。</td>
 </tr>
 </table>
+
 
 <!--在表格td中，有两个属性控制居中显示
 	align——表示左右居中——left，center，right
@@ -286,6 +287,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.1%29.pdf">notes/WJD_VERSION/自动控制实践A_ 1. 磁路、直流电机(V1.1).pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%203.%20%E5%8F%98%E5%8E%8B%E5%99%A8%28V1.1%29.pdf">notes/WJD_VERSION/自动控制实践A_ 3. 变压器(V1.1).pdf</a>
+<br>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.0%29.pdf">notes/WJD_VERSION/自动控制实践A_ 4. 步进电机(V1.0).pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%205.%20%E4%BA%A4%E6%B5%81%E7%BB%95%E7%BB%84%E3%80%81%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%28V1.0%29.pdf">notes/WJD_VERSION/自动控制实践A_ 5. 交流绕组、异步电机(V1.0).pdf</a>
 <br>
