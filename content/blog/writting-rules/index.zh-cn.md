@@ -1,5 +1,5 @@
 ---
-title: HITSZ-OpenAuto 文档编写手册
+title: HITSZ OpenAuto 文档编写指南
 description: 如何编写 OpenAuto 文档？编写时要注意哪些事项？
 date: 2023-12-23
 authors:
@@ -13,15 +13,11 @@ excludeSearch: false
 
 ![link-to-repo](link-to-repo.png)
 
-可以发现，我们的页面 index 实际上是来源于此文件：
+点击下图中的按钮即可编辑：
 
-![readme](readme.png)
+![edit-readme](https://github.com/longlin10086/hitsz-open-auto.github.io/assets/110339237/8c6d44c3-586a-4630-901a-e0f7fe0c8c06)
 
-由于设置了分支保护，我们不支持你直接在 main 分支进行修改。你可以先将此仓库 fork 出一个自己的分支：
-
-![fork](fork.png)
-
-接着就可以在自己分支上进行修改开发，并最终向我们提交 pull request 了。经过我们审核通过后，你修改的部分就会被展示在网页上了！（关于 git 的具体操作这里就不展开讲了，有兴趣的可以阅读 [git 官方手册](https://git-scm.com/book/zh/v2)）
+编辑完成后点击右上方的"Commit changes"即可提交更改，我们会在收到 PR 的第一时间进行查看。
 
 ## ❗️编写时有哪些注意事项？
 
@@ -35,4 +31,4 @@ excludeSearch: false
 
 ## 写在最后
 
-最后，由衷感谢每位 OpenAuto 项目的贡献者以及屏幕前的你，没有你们的支持就没有本项目。希望 OpenAuto 能有越来越多的贡献者参与其中，能帮助越来越多的同学！
+最后，由衷感谢每位 OpenAuto 项目的贡献者以及屏幕前的你，本项目的成长离不开你们的支持。希望 OpenAuto 能有越来越多的贡献者参与其中，能帮助越来越多的同学！
