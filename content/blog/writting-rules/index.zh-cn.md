@@ -19,6 +19,10 @@ excludeSearch: false
 
 编辑完成后点击右上方的"Commit changes"即可提交更改，我们会在收到 PR 的第一时间进行查看。
 
+在发起 PR 时，可以通过 suggest reviewers 邮件通知我们，这样我们就能更快地进行 review 并及时给予回复。
+
+![suggest-reviewers](suggest-reviewers.png)
+
 ## ❗️编写时有哪些注意事项？
 
 1. **不要随意删除/修改 已有文件 或 他人的评价、建议**
