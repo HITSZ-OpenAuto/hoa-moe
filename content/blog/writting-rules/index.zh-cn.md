@@ -15,7 +15,7 @@ excludeSearch: false
 
 点击下图中的按钮即可编辑：
 
-![edit-readme](https://github.com/HITSZ-OpenAuto/hitsz-openauto.github.io/assets/110339237/a5cab3ca-d2fa-4d9f-91b2-81a96c924c03)
+![edit-readme](edit-readme.png)
 
 编辑完成后点击右上方的"Commit changes"即可提交更改，我们会在收到 PR 的第一时间进行查看。
 
