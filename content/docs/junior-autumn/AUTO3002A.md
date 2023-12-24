@@ -4,7 +4,7 @@ weight: 2
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 ---
-**new: 步进电机笔记&答案更新**
+**new: 直流电机、PWM、步进电机笔记更新，直流电机动特性与选择的答案更新**
 
 文档编写者：[Oliver Wu](https://github.com/OliverWu515)（撰写有关21级部分）
 
@@ -31,7 +31,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
   配套网课：[电机学（哈尔滨理工大学）bilibili](https://www.bilibili.com/video/BV1cx411Z76w/?spm_id_from=333.337.search-card.all.click)
 
 - （哈尔滨理工大学）汤蕴璆编著，电机学（第5版），机械工业出版社。
-
 - （大连理工大学）孙建忠、刘凤春等编，电机与拖动（第4版），机械工业出版社。
 
 上面的是传统电机学教材，可以看里面的直流电机、变压器、异步电机和同步电机。关于伺服电机和步进电机，可以参考以下书目：
@@ -43,8 +42,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 
 - （西安交通大学）王兆安等，电力电子技术（第5版），机械工业出版社。
 - Erickson，Fundamental of power electronics（3rd ed.)，Springer。
-- https://space.bilibili.com/519909115
-- [西瓜粥西瓜粥的个人空间-西瓜粥西瓜粥个人主页-哔哩哔哩视频 (bilibili.com)](https://space.bilibili.com/287344644?spm_id_from=333.337.search-card.all.click)
+- [傅旻帆-上海科技大学](https://space.bilibili.com/519909115)
+- [西瓜粥西瓜粥个人主页-哔哩哔哩视频 (bilibili.com)](https://space.bilibili.com/287344644?spm_id_from=333.337.search-card.all.click)
 
 <h4>学时安排表（21级）</h4>   <!--标题-->
 <table border="1" cellspacing="10">
@@ -55,7 +54,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
   <th align="center">建议</th>
 </tr>
 <tr>
-  <td rowspan="10" align="center">Long Zhili</td>
+  <td rowspan="10" align="center">隆志力</td>
   <td>绪论</td>
   <td>2</td>
   <td>了解即可。</td>
@@ -106,7 +105,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
   <td>很重要，学时很少，要记忆的东西却很多。重点在负载运行和空载运行的基本方程和T形等效电路。笔记文件夹里的笔记整理得很清楚。</td>
 </tr>
 <tr>
-  <td rowspan="10" align="center">Li Jiangang</td>
+  <td rowspan="10" align="center">李建刚</td>
   <td>课程概述</td>
   <td>1</td>
   <td>了解即可。</td>
@@ -170,10 +169,10 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 
 （21级情况）
 
-- 教师1：Long Zhili
+- 教师1：隆志力
   - 授课风格：稍显含糊，车轱辘话较多；课件内容较丰富，有别学校课件截下来的内容，不过画质较差，而且比较乱，不适合直接做笔记。
   - 听课建议：基本忠于ppt（不会自由发挥），由于车轱辘话较多，知识讲解得比较抽象，上课不易听懂，课后要多花时间。
-- 教师2：Li Jiangang
+- 教师2：李建刚
   - 授课风格：语速很快（因为学时有限、内容又多，到后面会快到起飞）、逻辑较清晰（到后面由于速度快变得不清晰）、答疑有耐心、板书不好看、语气词较多（到后程由于速度极快，
     语气词的数量甚至会超过传递信息的词）、课件较美观（但是由于摘选自外校课件，有时会出现符号的冲突或逻辑不连贯）。
   - 听课建议：因为上课节奏较快，上课只求听懂大概即可，但课后务必整理笔记！！！
@@ -181,10 +180,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 ## 关于考试
 
 - 考试难度：
-
-## Tips
-
-## 课程建议
 <br>
 <br>
 <br>
@@ -242,7 +237,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/4%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E7%89%B9%E6%80%A7%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%96%B9%E6%B3%95%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/4 直流电机的特性与控制方法相关试题.docx</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/5 直流电机的动特性与选择相关试题 - 答案.docx</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88%28V1.1%29.docx">exams/本部-试题汇编/5 直流电机的动特性与选择相关试题 - 答案(V1.1).docx</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/5 直流电机的动特性与选择相关试题.docx</a>
 <br>
@@ -284,11 +279,15 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/LMH_VERSION/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf">notes/LMH_VERSION/自控实践笔记.pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.1%29.pdf">notes/WJD_VERSION/自动控制实践A_ 1. 磁路、直流电机(V1.1).pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.2%29.pdf">notes/WJD_VERSION/自动控制实践A_ 1. 磁路、直流电机(V1.2).pdf</a>
+<br>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.1%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.pdf">notes/WJD_VERSION/自动控制实践A_ 2.1 电力电子技术概述.pdf</a>
+<br>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.2%20PWM.pdf">notes/WJD_VERSION/自动控制实践A_ 2.2 PWM.pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%203.%20%E5%8F%98%E5%8E%8B%E5%99%A8%28V1.1%29.pdf">notes/WJD_VERSION/自动控制实践A_ 3. 变压器(V1.1).pdf</a>
 <br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.0%29.pdf">notes/WJD_VERSION/自动控制实践A_ 4. 步进电机(V1.0).pdf</a>
+<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.1%29.pdf">notes/WJD_VERSION/自动控制实践A_ 4. 步进电机(V1.1).pdf</a>
 <br>
 <a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%205.%20%E4%BA%A4%E6%B5%81%E7%BB%95%E7%BB%84%E3%80%81%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%28V1.0%29.pdf">notes/WJD_VERSION/自动控制实践A_ 5. 交流绕组、异步电机(V1.0).pdf</a>
 <br>
