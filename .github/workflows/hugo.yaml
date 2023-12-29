@@ -226,6 +226,7 @@ jobs:
             fi
             echo 'toc: true' >> "./content/docs/${semester}/${line}.md"
             echo "editURL: \"https://github.com/HITSZ-OpenAuto/${line}\"" >> "./content/docs/${semester}/${line}.md"
+            echo "math: true" >> "./content/docs/${semester}/${line}.md"
             echo '---' >> "./content/docs/${semester}/${line}.md"
 
             if [ ${CATEGORY} = "限选" ]
