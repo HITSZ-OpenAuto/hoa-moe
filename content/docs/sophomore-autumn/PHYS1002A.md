@@ -3,6 +3,7 @@ title: (必修)大学物理实验IA
 weight: 1
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1002A"
+math: true
 ---
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
