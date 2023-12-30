@@ -1,36 +1,72 @@
 import requests
 import argparse
 import urllib.parse
+import os
+
+def create_hugo_shortcode(file_paths, owner, repo):
+    result = "{{< filetree/container >}}\n"
+    organized_paths = organize_paths(file_paths)
+
+    # Generate shortcode for each directory
+    for directory, content in organized_paths.items():
+        result += generate_folder_shortcode(directory, content, owner, repo)
+    
+    result += "{{< /filetree/container >}}\n"
+    return result
+
+def organize_paths(file_paths):
+    organized_paths = {}
+    for path in file_paths:
+        components = path.split(os.path.sep)
+        current_dict = organized_paths
+        for component in components[:-1]:
+            current_dict = current_dict.setdefault(component, {})
+        current_dict[components[-1]] = None
+    return organized_paths
+
+def generate_folder_shortcode(directory, content, owner, repo):
+    result = f'  {{{{< filetree/folder name="{os.path.basename(directory)}" state="closed" >}}}}\n'
+    for name, value in content.items():
+        if value is None:
+            # It's a file
+            file_path = os.path.join(directory, name)
+            encoded_path = urllib.parse.quote(file_path)
+            
+            if name.lower().endswith('.pdf'):
+                prefix = f'https://cdn.jsdelivr.net/gh/{owner}/{repo}'
+            else:
+                prefix = f'https://gh.hoa.moe/github.com/{owner}/{repo}'
+            
+            full_path = f'{prefix}/{encoded_path}'
+            result += f'    {{{{< filetree/file name="{name}" url="{full_path}" >}}}}\n'
+        else:
+            # It's a subfolder
+            result += generate_folder_shortcode(os.path.join(directory, name), value, owner, repo)
+    result += '  {{< /filetree/folder >}}\n'
+    return result
 
 def list_files_in_repo(owner, repo, username, token, path=''):
     paths = []
     url = f'https://api.github.com/repos/{owner}/{repo}/contents/{path}'
-    response = requests.get(url, auth=(username,token))
+    response = requests.get(url, auth=(username, token))
     if response.status_code == 200:
         contents = response.json()
         for content in contents:
             if content['type'] == 'file':
-                print(content['path'])
                 paths.append(content['path'])
             elif content['type'] == 'dir':
                 paths.extend(list_files_in_repo(owner, repo, username, token, content['path']))
-        print(f"Successfully retrieved {len(paths)} files.")
     else:
         print(f"Failed to retrieve files. Status code: {response.status_code}")
         print(response.text)
-
     return paths
 
 def save_files_list(owner, repo, username, token):
-     paths = list_files_in_repo(owner, repo, username, token)
-     prefix = f'https://gh.hoa.moe/github.com/{owner}/{repo}/raw/main/'
-     filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc'))]
-     with open('result.txt', 'w') as file:
-        for path in filtered_paths:
-            encoded_path = urllib.parse.quote(path)
-            full_path = prefix + encoded_path
-            full_path_html = f'<a href="{full_path}">{path}</a>'
-            file.write(full_path_html + '\n<br>\n')          
+    paths = list_files_in_repo(owner, repo, username, token)
+    filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc'))]
+    result_content = create_hugo_shortcode(filtered_paths, owner, repo)
+    with open('result.txt', 'w') as file:
+        file.write(result_content)     
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate download links of files from a GitHub repository.")
