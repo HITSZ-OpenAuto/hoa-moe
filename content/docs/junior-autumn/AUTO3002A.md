@@ -188,110 +188,80 @@ math: true
 
 ## 资料下载
 
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW1.pdf">assignments/ACPP_HW1.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW2.pdf">assignments/ACPP_HW2.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW3.pdf">assignments/ACPP_HW3.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E6%95%99%E6%9D%90%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.pdf">assignments/自动控制元件教材课后题答案.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A3.pdf">assignments/自控实践作业3.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/books/%E7%94%B5%E5%AD%90%E4%B9%A6-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF.pdf">books/电子书-自动控制元件及线路.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/1%20%E7%BB%AA%E8%AE%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/1 绪论相关试题 - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/1%20%E7%BB%AA%E8%AE%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/1 绪论相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/10%20%E5%8F%98%E5%8E%8B%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/10 变压器相关试题 - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/10%20%E5%8F%98%E5%8E%8B%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/10 变压器相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/13%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/13 异步电机相关试题 - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/13%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/13 异步电机相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/14%20%E5%B0%8F%E5%8A%9F%E7%8E%87%E5%90%8C%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/14 小功率同步电机相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88%28%E6%9B%B4%E6%96%B0%29.docx">exams/本部-试题汇编/15 步进电机相关试题 - 答案(更新).docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/15 步进电机相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/16%20%E6%97%A0%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/16 无刷直流电机相关试题 - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/16%20%E6%97%A0%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/16 无刷直流电机相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/2%20%E7%A3%81%E8%B7%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/2 磁路基础知识相关例题 - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/2%20%E7%A3%81%E8%B7%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98.docx">exams/本部-试题汇编/2 磁路基础知识相关例题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/22%20%E6%B5%8B%E9%87%8F%E5%85%83%E4%BB%B6%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/22 测量元件相关试题  - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/22%20%E6%B5%8B%E9%87%8F%E5%85%83%E4%BB%B6%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20.docx">exams/本部-试题汇编/22 测量元件相关试题 .docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/3%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/3 直流电机的原理与基本结构相关例题 - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/3%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98.docx">exams/本部-试题汇编/3 直流电机的原理与基本结构相关例题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/4%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E7%89%B9%E6%80%A7%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%96%B9%E6%B3%95%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/4 直流电机的特性与控制方法相关试题 - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/4%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E7%89%B9%E6%80%A7%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%96%B9%E6%B3%95%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/4 直流电机的特性与控制方法相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88%28V1.1%29.docx">exams/本部-试题汇编/5 直流电机的动特性与选择相关试题 - 答案(V1.1).docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/5 直流电机的动特性与选择相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx">exams/本部-试题汇编/9 功率放大器相关试题 - 答案.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx">exams/本部-试题汇编/9 功率放大器相关试题.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62012%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf">exams/自动控制元件2012期末试卷.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62019%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf">exams/自动控制元件2019秋期末试卷.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62020%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf">exams/自动控制元件2020秋期末试卷.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf">exams/自动控制实践历年考题.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_VERSION_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C1.pdf">labs/LMH_VERSION_2021/实验报告-实验1.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_VERSION_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C2.pdf">labs/LMH_VERSION_2021/实验报告-实验2.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_VERSION_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C3.pdf">labs/LMH_VERSION_2021/实验报告-实验3.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_VERSION_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C4.pdf">labs/LMH_VERSION_2021/实验报告-实验4.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/WJD_VERSION_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx">labs/WJD_VERSION_2023/210320621-吴俊达-交流伺服电机特性实验.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/WJD_VERSION_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E4%BC%A0%E6%84%9F%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx">labs/WJD_VERSION_2023/210320621-吴俊达-传感与测量反馈元件特性实验.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/WJD_VERSION_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx">labs/WJD_VERSION_2023/210320621-吴俊达-步进电机特性实验.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/WJD_VERSION_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E7%94%B5%E6%9C%BAPWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C.docx">labs/WJD_VERSION_2023/210320621-吴俊达-电机PWM控制与驱动电路实验.docx</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/WJD_VERSION_2023/%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf">labs/WJD_VERSION_2023/交流伺服电机特性实验指导书.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/WJD_VERSION_2023/%E4%BC%A0%E6%84%9F%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C2023.pdf">labs/WJD_VERSION_2023/传感与测量反馈元件特性实验2023.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/WJD_VERSION_2023/%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.pdf">labs/WJD_VERSION_2023/步进电机特性实验.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/WJD_VERSION_2023/%E7%94%B5%E6%9C%BAPWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf">labs/WJD_VERSION_2023/电机PWM控制与驱动电路实验指导书.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/LMH_VERSION/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf">notes/LMH_VERSION/自控实践笔记.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.2%29.pdf">notes/WJD_VERSION/自动控制实践A_ 1. 磁路、直流电机(V1.2).pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.1%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.pdf">notes/WJD_VERSION/自动控制实践A_ 2.1 电力电子技术概述.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.2%20PWM.pdf">notes/WJD_VERSION/自动控制实践A_ 2.2 PWM.pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%203.%20%E5%8F%98%E5%8E%8B%E5%99%A8%28V1.1%29.pdf">notes/WJD_VERSION/自动控制实践A_ 3. 变压器(V1.1).pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.1%29.pdf">notes/WJD_VERSION/自动控制实践A_ 4. 步进电机(V1.1).pdf</a>
-<br>
-<a href="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%205.%20%E4%BA%A4%E6%B5%81%E7%BB%95%E7%BB%84%E3%80%81%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%28V1.0%29.pdf">notes/WJD_VERSION/自动控制实践A_ 5. 交流绕组、异步电机(V1.0).pdf</a>
-<br>
+{{< filetree/container >}}
+  {{< filetree/folder name="assignments" state="closed" >}}
+    {{< filetree/file name="ACPP_HW1.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/ACPP_HW1.pdf" >}}
+    {{< filetree/file name="ACPP_HW2.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/ACPP_HW2.pdf" >}}
+    {{< filetree/file name="ACPP_HW3.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/ACPP_HW3.pdf" >}}
+    {{< filetree/file name="自动控制元件教材课后题答案.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E6%95%99%E6%9D%90%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< filetree/file name="自控实践作业3.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/assignments/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A3.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="books" state="closed" >}}
+    {{< filetree/file name="电子书-自动控制元件及线路.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/books/%E7%94%B5%E5%AD%90%E4%B9%A6-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="exams" state="closed" >}}
+  {{< filetree/folder name="本部-试题汇编" state="closed" >}}
+    {{< filetree/file name="1 绪论相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/1%20%E7%BB%AA%E8%AE%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="1 绪论相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/1%20%E7%BB%AA%E8%AE%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+    {{< filetree/file name="10 变压器相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/10%20%E5%8F%98%E5%8E%8B%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="10 变压器相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/10%20%E5%8F%98%E5%8E%8B%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+    {{< filetree/file name="13 异步电机相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/13%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="13 异步电机相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/13%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+    {{< filetree/file name="14 小功率同步电机相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/14%20%E5%B0%8F%E5%8A%9F%E7%8E%87%E5%90%8C%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+    {{< filetree/file name="15 步进电机相关试题 - 答案(更新).docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88%28%E6%9B%B4%E6%96%B0%29.docx" >}}
+    {{< filetree/file name="15 步进电机相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+    {{< filetree/file name="16 无刷直流电机相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/16%20%E6%97%A0%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="16 无刷直流电机相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/16%20%E6%97%A0%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+    {{< filetree/file name="2 磁路基础知识相关例题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/2%20%E7%A3%81%E8%B7%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="2 磁路基础知识相关例题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/2%20%E7%A3%81%E8%B7%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98.docx" >}}
+    {{< filetree/file name="22 测量元件相关试题  - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/22%20%E6%B5%8B%E9%87%8F%E5%85%83%E4%BB%B6%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="22 测量元件相关试题 .docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/22%20%E6%B5%8B%E9%87%8F%E5%85%83%E4%BB%B6%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20.docx" >}}
+    {{< filetree/file name="3 直流电机的原理与基本结构相关例题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/3%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="3 直流电机的原理与基本结构相关例题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/3%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98.docx" >}}
+    {{< filetree/file name="4 直流电机的特性与控制方法相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/4%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E7%89%B9%E6%80%A7%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%96%B9%E6%B3%95%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="4 直流电机的特性与控制方法相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/4%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E7%89%B9%E6%80%A7%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%96%B9%E6%B3%95%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+    {{< filetree/file name="5 直流电机的动特性与选择相关试题 - 答案(V1.1).docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88%28V1.1%29.docx" >}}
+    {{< filetree/file name="5 直流电机的动特性与选择相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+    {{< filetree/file name="9 功率放大器相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="9 功率放大器相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+  {{< /filetree/folder >}}
+    {{< filetree/file name="自动控制元件2012期末试卷.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62012%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< filetree/file name="自动控制元件2019秋期末试卷.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62019%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< filetree/file name="自动控制元件2020秋期末试卷.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62020%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< filetree/file name="自动控制实践历年考题.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="labs" state="closed" >}}
+  {{< filetree/folder name="LMH_VERSION_2021" state="closed" >}}
+    {{< filetree/file name="实验报告-实验1.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/LMH_VERSION_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C1.pdf" >}}
+    {{< filetree/file name="实验报告-实验2.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/LMH_VERSION_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C2.pdf" >}}
+    {{< filetree/file name="实验报告-实验3.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/LMH_VERSION_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C3.pdf" >}}
+    {{< filetree/file name="实验报告-实验4.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/LMH_VERSION_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C4.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="WJD_VERSION_2023" state="closed" >}}
+    {{< filetree/file name="210320621-吴俊达-交流伺服电机特性实验.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/labs/WJD_VERSION_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx" >}}
+    {{< filetree/file name="210320621-吴俊达-传感与测量反馈元件特性实验.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/labs/WJD_VERSION_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E4%BC%A0%E6%84%9F%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx" >}}
+    {{< filetree/file name="210320621-吴俊达-步进电机特性实验.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/labs/WJD_VERSION_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx" >}}
+    {{< filetree/file name="210320621-吴俊达-电机PWM控制与驱动电路实验.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/labs/WJD_VERSION_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E7%94%B5%E6%9C%BAPWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C.docx" >}}
+    {{< filetree/file name="交流伺服电机特性实验指导书.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/WJD_VERSION_2023/%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf" >}}
+    {{< filetree/file name="传感与测量反馈元件特性实验2023.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/WJD_VERSION_2023/%E4%BC%A0%E6%84%9F%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C2023.pdf" >}}
+    {{< filetree/file name="步进电机特性实验.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/WJD_VERSION_2023/%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.pdf" >}}
+    {{< filetree/file name="电机PWM控制与驱动电路实验指导书.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/labs/WJD_VERSION_2023/%E7%94%B5%E6%9C%BAPWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="notes" state="closed" >}}
+  {{< filetree/folder name="LMH_VERSION" state="closed" >}}
+    {{< filetree/file name="自控实践笔记.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/LMH_VERSION/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="WJD_VERSION" state="closed" >}}
+    {{< filetree/file name="自动控制实践A_ 1. 磁路、直流电机(V1.2).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.2%29.pdf" >}}
+    {{< filetree/file name="自动控制实践A_ 2.1 电力电子技术概述.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.1%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.pdf" >}}
+    {{< filetree/file name="自动控制实践A_ 2.2 PWM.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.2%20PWM.pdf" >}}
+    {{< filetree/file name="自动控制实践A_ 3. 变压器(V1.1).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%203.%20%E5%8F%98%E5%8E%8B%E5%99%A8%28V1.1%29.pdf" >}}
+    {{< filetree/file name="自动控制实践A_ 4. 步进电机(V1.1).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.1%29.pdf" >}}
+    {{< filetree/file name="自动控制实践A_ 5. 交流绕组、异步电机(V1.0).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3002A/notes/WJD_VERSION/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%205.%20%E4%BA%A4%E6%B5%81%E7%BB%95%E7%BB%84%E3%80%81%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%28V1.0%29.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< /filetree/folder >}}
+{{< /filetree/container >}}
 <br>
 
 
