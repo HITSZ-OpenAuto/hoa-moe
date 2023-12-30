@@ -35,7 +35,7 @@ def generate_folder_shortcode(directory, content, owner, repo):
             if name.lower().endswith('.pdf'):
                 prefix = f'https://cdn.jsdelivr.net/gh/{owner}/{repo}'
             else:
-                prefix = f'https://gh.hoa.moe/github.com/{owner}/{repo}'
+                prefix = f'https://gh.hoa.moe/github.com/{owner}/{repo}/raw/main'
             
             full_path = f'{prefix}/{encoded_path}'
             result += f'    {{{{< filetree/file name="{name}" url="{full_path}" >}}}}\n'
