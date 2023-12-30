@@ -44,20 +44,27 @@ math: true
 
 ## 授课教师
 
-- Wu Xiaojun
-  - 本课程与教师基本无关。
+- 本课程与教师基本无关。结题答辩时的老师也是任意分配的。
 
 ## 攻略
-
 > by [@Maxwell Jay](https://github.com/MaxwellJay256), 2023.12
 
 这应该是自动化学生为数不多的参与软件开发的机会。
 
 ### 选题
 
-图省事的话推荐贪吃蛇，借助 AI 不到 1 天就能速通。
+图省事的话推荐贪吃蛇之类的小游戏，借助 AI 不到 1 天就能速通，但是你需要想想答辩的时候能说些什么。
 
 如果想多积累一点敲代码经验，可以选择客户端类型的软件（信息管理系统、售票系统），体验一下前、后端的开发思想，尤其是 GUI 该怎么设计才能中看又中用。
+
+我选择的是「模拟地铁售票系统」，仓库👉 [MetroTicketingSystem](https://github.com/MaxwellJay256/MetroTicketingSystem)。
+
+
+> by [@Longlin li](https://github.com/longlin10086), 2023.12
+
+选择「 三国杀 」的同学可以参考👉  [KingdomCard](https://github.com/chenxijun/KingdomCard)
+
+项目整体采用 C/S 架构，能实现局域网内联机。前端使用 QT6 作为 UI 框架，后端采用 Modern C++ 进行编写。
 
 ### 组队
 
@@ -71,7 +78,7 @@ math: true
 ### 挑选一个开发框架
 
 **课程要求项目必须使用 `C/C++`**。
-然而 `C/C++` 本身是没有办法制作 GUI 的，因此我们需要使用第三方库。
+然而 `C/C++` 本身是没有办法制作 GUI 的 ~~（你一定要用控制台？[TUI](https://zhuanlan.zhihu.com/p/282776001) 了解一下）~~ ，因此我们需要使用第三方库。
 
 现代的桌面应用程序已经几乎不使用 `C/C++` 开发，但是为了降低学习成本，`C/C++` 仍是多数学生的唯一选择。
 
