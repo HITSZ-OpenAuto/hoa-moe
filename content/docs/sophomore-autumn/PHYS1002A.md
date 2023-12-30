@@ -88,60 +88,60 @@ math: true
 {{< filetree/container >}}
   {{< filetree/folder name="Exp01" state="closed" >}}
   {{< filetree/folder name="用示波器观察磁滞回线-MaxwellJay" state="closed" >}}
-    {{< filetree/file name="实验报告后半部分.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp01/%E7%94%A8%E7%A4%BA%E6%B3%A2%E5%99%A8%E8%A7%82%E5%AF%9F%E7%A3%81%E6%BB%9E%E5%9B%9E%E7%BA%BF-MaxwellJay/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E5%90%8E%E5%8D%8A%E9%83%A8%E5%88%86.pdf" >}}
+    {{< filetree/file name="实验报告后半部分.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp01/%E7%94%A8%E7%A4%BA%E6%B3%A2%E5%99%A8%E8%A7%82%E5%AF%9F%E7%A3%81%E6%BB%9E%E5%9B%9E%E7%BA%BF-MaxwellJay/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E5%90%8E%E5%8D%8A%E9%83%A8%E5%88%86.pdf" >}}
   {{< /filetree/folder >}}
-    {{< filetree/file name="用示波器观测磁滞回线(20级 LiuYuming).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp01/%E7%94%A8%E7%A4%BA%E6%B3%A2%E5%99%A8%E8%A7%82%E6%B5%8B%E7%A3%81%E6%BB%9E%E5%9B%9E%E7%BA%BF%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
+    {{< filetree/file name="用示波器观测磁滞回线(20级 LiuYuming).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp01/%E7%94%A8%E7%A4%BA%E6%B3%A2%E5%99%A8%E8%A7%82%E6%B5%8B%E7%A3%81%E6%BB%9E%E5%9B%9E%E7%BA%BF%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
     {{< filetree/file name="用示波器观测磁滞回线实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp01/%E7%94%A8%E7%A4%BA%E6%B3%A2%E5%99%A8%E8%A7%82%E6%B5%8B%E7%A3%81%E6%BB%9E%E5%9B%9E%E7%BA%BF%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp02" state="closed" >}}
-    {{< filetree/file name="拉伸法测杨氏弹性模量(20级 LiuYuming).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp02/%E6%8B%89%E4%BC%B8%E6%B3%95%E6%B5%8B%E6%9D%A8%E6%B0%8F%E5%BC%B9%E6%80%A7%E6%A8%A1%E9%87%8F%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
-    {{< filetree/file name="拉伸法测杨氏弹性模量(22级 Maxwell Jay).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp02/%E6%8B%89%E4%BC%B8%E6%B3%95%E6%B5%8B%E6%9D%A8%E6%B0%8F%E5%BC%B9%E6%80%A7%E6%A8%A1%E9%87%8F%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
+    {{< filetree/file name="拉伸法测杨氏弹性模量(20级 LiuYuming).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp02/%E6%8B%89%E4%BC%B8%E6%B3%95%E6%B5%8B%E6%9D%A8%E6%B0%8F%E5%BC%B9%E6%80%A7%E6%A8%A1%E9%87%8F%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
+    {{< filetree/file name="拉伸法测杨氏弹性模量(22级 Maxwell Jay).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp02/%E6%8B%89%E4%BC%B8%E6%B3%95%E6%B5%8B%E6%9D%A8%E6%B0%8F%E5%BC%B9%E6%80%A7%E6%A8%A1%E9%87%8F%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
     {{< filetree/file name="拉伸法测杨氏弹性模量实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp02/%E6%8B%89%E4%BC%B8%E6%B3%95%E6%B5%8B%E6%9D%A8%E6%B0%8F%E5%BC%B9%E6%80%A7%E6%A8%A1%E9%87%8F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp03" state="closed" >}}
-    {{< filetree/file name="液体黏度测定(20级 LiuYuming).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp03/%E6%B6%B2%E4%BD%93%E9%BB%8F%E5%BA%A6%E6%B5%8B%E5%AE%9A%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
+    {{< filetree/file name="液体黏度测定(20级 LiuYuming).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp03/%E6%B6%B2%E4%BD%93%E9%BB%8F%E5%BA%A6%E6%B5%8B%E5%AE%9A%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
     {{< filetree/file name="液体黏度的测定实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp03/%E6%B6%B2%E4%BD%93%E9%BB%8F%E5%BA%A6%E7%9A%84%E6%B5%8B%E5%AE%9A%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp04" state="closed" >}}
-    {{< filetree/file name="薄透镜焦距测定(20级 LiuYuming).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp04/%E8%96%84%E9%80%8F%E9%95%9C%E7%84%A6%E8%B7%9D%E6%B5%8B%E5%AE%9A%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
-    {{< filetree/file name="薄透镜焦距的测定(22级 Maxwell Jay).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp04/%E8%96%84%E9%80%8F%E9%95%9C%E7%84%A6%E8%B7%9D%E7%9A%84%E6%B5%8B%E5%AE%9A%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
+    {{< filetree/file name="薄透镜焦距测定(20级 LiuYuming).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp04/%E8%96%84%E9%80%8F%E9%95%9C%E7%84%A6%E8%B7%9D%E6%B5%8B%E5%AE%9A%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
+    {{< filetree/file name="薄透镜焦距的测定(22级 Maxwell Jay).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp04/%E8%96%84%E9%80%8F%E9%95%9C%E7%84%A6%E8%B7%9D%E7%9A%84%E6%B5%8B%E5%AE%9A%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
     {{< filetree/file name="薄透镜焦距的测定实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp04/%E8%96%84%E9%80%8F%E9%95%9C%E7%84%A6%E8%B7%9D%E7%9A%84%E6%B5%8B%E5%AE%9A%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp05" state="closed" >}}
-    {{< filetree/file name="惠斯通电桥与伏安特性(20级 LiuYuming).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp05/%E6%83%A0%E6%96%AF%E9%80%9A%E7%94%B5%E6%A1%A5%E4%B8%8E%E4%BC%8F%E5%AE%89%E7%89%B9%E6%80%A7%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
-    {{< filetree/file name="用惠斯通电桥测电阻(22级 Maxwell Jay).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp05/%E7%94%A8%E6%83%A0%E6%96%AF%E9%80%9A%E7%94%B5%E6%A1%A5%E6%B5%8B%E7%94%B5%E9%98%BB%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
+    {{< filetree/file name="惠斯通电桥与伏安特性(20级 LiuYuming).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp05/%E6%83%A0%E6%96%AF%E9%80%9A%E7%94%B5%E6%A1%A5%E4%B8%8E%E4%BC%8F%E5%AE%89%E7%89%B9%E6%80%A7%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
+    {{< filetree/file name="用惠斯通电桥测电阻(22级 Maxwell Jay).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp05/%E7%94%A8%E6%83%A0%E6%96%AF%E9%80%9A%E7%94%B5%E6%A1%A5%E6%B5%8B%E7%94%B5%E9%98%BB%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
     {{< filetree/file name="用惠斯通电桥测电阻实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp05/%E7%94%A8%E6%83%A0%E6%96%AF%E9%80%9A%E7%94%B5%E6%A1%A5%E6%B5%8B%E7%94%B5%E9%98%BB%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp06" state="closed" >}}
     {{< filetree/file name="DIY实验——磁耦合谐振式无线电力传输实验研究实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp06/DIY%E5%AE%9E%E9%AA%8C%E2%80%94%E2%80%94%E7%A3%81%E8%80%A6%E5%90%88%E8%B0%90%E6%8C%AF%E5%BC%8F%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8A%9B%E4%BC%A0%E8%BE%93%E5%AE%9E%E9%AA%8C%E7%A0%94%E7%A9%B6%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
-    {{< filetree/file name="磁耦合共振式无线电力传输实验(22级 Maxwell Jay).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp06/%E7%A3%81%E8%80%A6%E5%90%88%E5%85%B1%E6%8C%AF%E5%BC%8F%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8A%9B%E4%BC%A0%E8%BE%93%E5%AE%9E%E9%AA%8C%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
+    {{< filetree/file name="磁耦合共振式无线电力传输实验(22级 Maxwell Jay).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp06/%E7%A3%81%E8%80%A6%E5%90%88%E5%85%B1%E6%8C%AF%E5%BC%8F%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8A%9B%E4%BC%A0%E8%BE%93%E5%AE%9E%E9%AA%8C%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp07" state="closed" >}}
-    {{< filetree/file name="声速的测量(22级 Maxwell Jay).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp07/%E5%A3%B0%E9%80%9F%E7%9A%84%E6%B5%8B%E9%87%8F%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
+    {{< filetree/file name="声速的测量(22级 Maxwell Jay).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp07/%E5%A3%B0%E9%80%9F%E7%9A%84%E6%B5%8B%E9%87%8F%2822%E7%BA%A7%20Maxwell%20Jay%29.pdf" >}}
     {{< filetree/file name="声速的测量实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp07/%E5%A3%B0%E9%80%9F%E7%9A%84%E6%B5%8B%E9%87%8F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
-    {{< filetree/file name="空气中声速的测量(20级 LiuYuming).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp07/%E7%A9%BA%E6%B0%94%E4%B8%AD%E5%A3%B0%E9%80%9F%E7%9A%84%E6%B5%8B%E9%87%8F%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
+    {{< filetree/file name="空气中声速的测量(20级 LiuYuming).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp07/%E7%A9%BA%E6%B0%94%E4%B8%AD%E5%A3%B0%E9%80%9F%E7%9A%84%E6%B5%8B%E9%87%8F%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp08" state="closed" >}}
     {{< filetree/file name="迈克尔逊干涉仪实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp08/%E8%BF%88%E5%85%8B%E5%B0%94%E9%80%8A%E5%B9%B2%E6%B6%89%E4%BB%AA%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp09" state="closed" >}}
-    {{< filetree/file name="电子电荷测定——密立根油滴法(20级 LiuYuming).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp09/%E7%94%B5%E5%AD%90%E7%94%B5%E8%8D%B7%E6%B5%8B%E5%AE%9A%E2%80%94%E2%80%94%E5%AF%86%E7%AB%8B%E6%A0%B9%E6%B2%B9%E6%BB%B4%E6%B3%95%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
+    {{< filetree/file name="电子电荷测定——密立根油滴法(20级 LiuYuming).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp09/%E7%94%B5%E5%AD%90%E7%94%B5%E8%8D%B7%E6%B5%8B%E5%AE%9A%E2%80%94%E2%80%94%E5%AF%86%E7%AB%8B%E6%A0%B9%E6%B2%B9%E6%BB%B4%E6%B3%95%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
     {{< filetree/file name="电子电荷的测定——密立根油滴法实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp09/%E7%94%B5%E5%AD%90%E7%94%B5%E8%8D%B7%E7%9A%84%E6%B5%8B%E5%AE%9A%E2%80%94%E2%80%94%E5%AF%86%E7%AB%8B%E6%A0%B9%E6%B2%B9%E6%BB%B4%E6%B3%95%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp10" state="closed" >}}
   {{< filetree/folder name="Hall_Effect-MaxwellJay" state="closed" >}}
-    {{< filetree/file name="霍尔效应传感器和各向异性磁电阻传感器(22级 MaxwellJay).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp10/Hall_Effect-MaxwellJay/%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94%E4%BC%A0%E6%84%9F%E5%99%A8%E5%92%8C%E5%90%84%E5%90%91%E5%BC%82%E6%80%A7%E7%A3%81%E7%94%B5%E9%98%BB%E4%BC%A0%E6%84%9F%E5%99%A8%2822%E7%BA%A7%20MaxwellJay%29.pdf" >}}
+    {{< filetree/file name="霍尔效应传感器和各向异性磁电阻传感器(22级 MaxwellJay).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/Hall_Effect-MaxwellJay/%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94%E4%BC%A0%E6%84%9F%E5%99%A8%E5%92%8C%E5%90%84%E5%90%91%E5%BC%82%E6%80%A7%E7%A3%81%E7%94%B5%E9%98%BB%E4%BC%A0%E6%84%9F%E5%99%A8%2822%E7%BA%A7%20MaxwellJay%29.pdf" >}}
   {{< /filetree/folder >}}
-    {{< filetree/file name="霍尔效应(20级 LiuYuming).pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp10/%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
+    {{< filetree/file name="霍尔效应(20级 LiuYuming).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94%2820%E7%BA%A7%20LiuYuming%29.pdf" >}}
     {{< filetree/file name="霍尔效应传感器和各向异性磁电阻传感器实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94%E4%BC%A0%E6%84%9F%E5%99%A8%E5%92%8C%E5%90%84%E5%90%91%E5%BC%82%E6%80%A7%E7%A3%81%E7%94%B5%E9%98%BB%E4%BC%A0%E6%84%9F%E5%99%A8%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp11" state="closed" >}}
-    {{< filetree/file name="7_太阳能电池.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp11/7_%E5%A4%AA%E9%98%B3%E8%83%BD%E7%94%B5%E6%B1%A0.pdf" >}}
+    {{< filetree/file name="7_太阳能电池.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp11/7_%E5%A4%AA%E9%98%B3%E8%83%BD%E7%94%B5%E6%B1%A0.pdf" >}}
     {{< filetree/file name="太阳能电池的基本特性研究实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp11/%E5%A4%AA%E9%98%B3%E8%83%BD%E7%94%B5%E6%B1%A0%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%89%B9%E6%80%A7%E7%A0%94%E7%A9%B6%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp12" state="closed" >}}
   {{< filetree/folder name="Surface_tension-MaxwellJay" state="closed" >}}
-    {{< filetree/file name="Report-MaxwellJay.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1002A/Exp12/Surface_tension-MaxwellJay/Report-MaxwellJay.pdf" >}}
+    {{< filetree/file name="Report-MaxwellJay.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp12/Surface_tension-MaxwellJay/Report-MaxwellJay.pdf" >}}
   {{< /filetree/folder >}}
     {{< filetree/file name="液体表面张力系数测量实验报告模板.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp12/%E6%B6%B2%E4%BD%93%E8%A1%A8%E9%9D%A2%E5%BC%A0%E5%8A%9B%E7%B3%BB%E6%95%B0%E6%B5%8B%E9%87%8F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF.docx" >}}
   {{< /filetree/folder >}}
