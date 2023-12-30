@@ -32,7 +32,10 @@ def generate_folder_shortcode(directory, content, owner, repo):
             file_path = os.path.join(directory, name)
             encoded_path = urllib.parse.quote(file_path)
             
-            prefix = f'https://gh.hoa.moe/github.com/{owner}/{repo}/raw/main'
+            if name.lower().endswith('.pdf'):
+                prefix = f'https://cdn.jsdelivr.net/gh/{owner}/{repo}'
+            else:
+                prefix = f'https://gh.hoa.moe/github.com/{owner}/{repo}/raw/main'
             
             full_path = f'{prefix}/{encoded_path}'
             result += f'    {{{{< filetree/file name="{name}" url="{full_path}" >}}}}\n'
@@ -60,7 +63,8 @@ def list_files_in_repo(owner, repo, username, token, path=''):
 
 def save_files_list(owner, repo, username, token):
     paths = list_files_in_repo(owner, repo, username, token)
-    result_content = create_hugo_shortcode(paths, owner, repo)
+    filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc', '.pptx', '.ppt', '.xlsx', '.xls', '.md', '.png', '.jpg', '.jpeg'))]
+    result_content = create_hugo_shortcode(filtered_paths, owner, repo)
     with open('result.txt', 'w') as file:
         file.write(result_content)     
 
