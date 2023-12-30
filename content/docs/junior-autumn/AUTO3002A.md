@@ -3,6 +3,7 @@ title: (必修)自动控制实践A
 weight: 2
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
+math: true
 ---
 **new: 直流电机、PWM、步进电机笔记更新，直流电机动特性与选择的答案更新**
 

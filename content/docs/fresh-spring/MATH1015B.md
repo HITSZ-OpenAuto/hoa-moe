@@ -3,6 +3,7 @@ title: (必修)微积分B
 weight: 30
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B"
+math: true
 ---
 
 <!--

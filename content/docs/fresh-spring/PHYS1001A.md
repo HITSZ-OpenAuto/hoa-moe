@@ -3,6 +3,7 @@ title: (必修)大学物理IA
 weight: 28
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A"
+math: true
 ---
 
 ![考试课](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)

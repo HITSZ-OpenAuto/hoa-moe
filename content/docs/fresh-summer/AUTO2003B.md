@@ -3,6 +3,7 @@ title: (必修)创新训练课B
 weight: 27
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B"
+math: true
 ---
 
 <!--
