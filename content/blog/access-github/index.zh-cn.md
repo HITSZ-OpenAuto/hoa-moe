@@ -4,10 +4,11 @@ description: 如何稳定地访问 GitHub 应该是新朋友们继续探索开�
 date: 2023-11-30
 authors:
   - name: Maxwell Jay
+    link: https://github.com/MaxwellJay256
 excludeSearch: false
 ---
 
-> 已经会魔法的 / 能够稳定访问 GitHub 的朋友，这篇文章对你来说帮助不大了，本文面向刚开始接触 GitHub 的新朋友。
+> 已经会魔法的 / 能够稳定访问 GitHub 的朋友，这篇文章对你来说帮助不大，本文面向刚开始接触 GitHub 的新朋友。
 >
 > 本人不精通计算机网络知识，用语难免不严谨。本文只是分享一些自己的经验，如果有错误，欢迎指正。
 
@@ -38,9 +39,9 @@ HITSZ OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一
 - [Watt Toolkit](https://steampp.net/)：原名 Steam++，一个开源跨平台的多功能 Steam 工具箱，并且可以加速 GitHub 的访问。
   目前已支持 Windows、macOS、Linux 和 Android，属于开箱即用的软件。
 
-如果需要下载\克隆 GitHub 上的文件，可以使用本站提供的代理服务。
+如果需要下载/克隆 GitHub 上的文件，可以使用本站提供的代理服务：
 
-- [HOA's Github Proxy](https://gh.hoa.moe/):
+- [HOA's Github Proxy](https://gh.hoa.moe/)
 
 ## 3. 通过修改 hosts 文件访问 GitHub
 
@@ -67,7 +68,7 @@ HITSZ OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一
 下一步，查询 GitHub 的 IP 地址。
 提供 IP 查询的网站很多，这里给大家介绍 [IP Address](https://www.ipaddress.com/)。
 
-进入网站，选择其中的 `IP Address Lookup` 功能（或直接进入链接： <https://www.ipaddress.com/ip-lookup）。>
+进入网站，选择其中的 `IP Address Lookup` 功能（或直接点击这个链接：<https://www.ipaddress.com/ip-lookup>）。
 
 ![ip address lookup](ip-address-lookup.png)
 
@@ -80,7 +81,7 @@ HITSZ OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一
 - github.global.ssl.fastly.net
 - codeload.Github.com
 
-这 4 个网站足够我们访问 GitHub、推送到 GitHub 仓库、使用 GitHub 的 API 了。
+这 4 个网站足够我们访问 GitHub、推送/拉取 GitHub 仓库、使用 GitHub 的 API（包括 GitHub Copilot）了。
 
 ### 3.3 修改 hosts 文件
 
