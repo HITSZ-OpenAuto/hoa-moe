@@ -108,14 +108,14 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}
-    {{< filetree/file name="第1章 高级语言程序设计.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO2003B/slides/%E7%AC%AC1%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf" >}}
-    {{< filetree/file name="第2章 可行性研究.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO2003B/slides/%E7%AC%AC2%E7%AB%A0%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6.pdf" >}}
-    {{< filetree/file name="第3章 需求分析.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO2003B/slides/%E7%AC%AC3%E7%AB%A0%20%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.pdf" >}}
-    {{< filetree/file name="第4章 总体设计.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO2003B/slides/%E7%AC%AC4%E7%AB%A0%20%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1.pdf" >}}
-    {{< filetree/file name="第5章 详细设计1.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO2003B/slides/%E7%AC%AC5%E7%AB%A0%20%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A11.pdf" >}}
-    {{< filetree/file name="第6章 实现.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO2003B/slides/%E7%AC%AC6%E7%AB%A0%20%E5%AE%9E%E7%8E%B0.pdf" >}}
-    {{< filetree/file name="第7章 维护.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO2003B/slides/%E7%AC%AC7%E7%AB%A0%20%E7%BB%B4%E6%8A%A4.pdf" >}}
-    {{< filetree/file name="课程设计题目.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO2003B/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
+    {{< filetree/file name="第1章 高级语言程序设计.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC1%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf" >}}
+    {{< filetree/file name="第2章 可行性研究.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC2%E7%AB%A0%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6.pdf" >}}
+    {{< filetree/file name="第3章 需求分析.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%20%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.pdf" >}}
+    {{< filetree/file name="第4章 总体设计.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC4%E7%AB%A0%20%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1.pdf" >}}
+    {{< filetree/file name="第5章 详细设计1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC5%E7%AB%A0%20%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A11.pdf" >}}
+    {{< filetree/file name="第6章 实现.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC6%E7%AB%A0%20%E5%AE%9E%E7%8E%B0.pdf" >}}
+    {{< filetree/file name="第7章 维护.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC7%E7%AB%A0%20%E7%BB%B4%E6%8A%A4.pdf" >}}
+    {{< filetree/file name="课程设计题目.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 <br>

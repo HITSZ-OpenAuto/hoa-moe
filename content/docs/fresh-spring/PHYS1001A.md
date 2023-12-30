@@ -41,14 +41,14 @@ math: true
 
 {{< filetree/container >}}
   {{< filetree/folder name="exams" state="closed" >}}
-    {{< filetree/file name="2020物理1A.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001A/exams/2020%E7%89%A9%E7%90%861A.pdf" >}}
-    {{< filetree/file name="2023年春大学物理ⅠA期末考试试题（回忆版）.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001A/exams/2023%E5%B9%B4%E6%98%A5%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E2%85%A0A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
-    {{< filetree/file name="大学物理IA期中考试 参考答案及评分标准.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001A/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%20%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%E5%8F%8A%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf" >}}
-    {{< filetree/file name="大学物理IA期中考试试题（打印）.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001A/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%EF%BC%88%E6%89%93%E5%8D%B0%EF%BC%89.pdf" >}}
+    {{< filetree/file name="2020物理1A.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2020%E7%89%A9%E7%90%861A.pdf" >}}
+    {{< filetree/file name="2023年春大学物理ⅠA期末考试试题（回忆版）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2023%E5%B9%B4%E6%98%A5%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E2%85%A0A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
+    {{< filetree/file name="大学物理IA期中考试 参考答案及评分标准.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%20%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%E5%8F%8A%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf" >}}
+    {{< filetree/file name="大学物理IA期中考试试题（打印）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%EF%BC%88%E6%89%93%E5%8D%B0%EF%BC%89.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="notes" state="closed" >}}
-    {{< filetree/file name="Sora的大学物理补天攻略.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001A/notes/Sora%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%A1%A5%E5%A4%A9%E6%94%BB%E7%95%A5.pdf" >}}
-    {{< filetree/file name="笔记和课后习题（含考研真题）详解_compressed.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/PHYS1001A/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3_compressed.pdf" >}}
+    {{< filetree/file name="Sora的大学物理补天攻略.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/Sora%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%A1%A5%E5%A4%A9%E6%94%BB%E7%95%A5.pdf" >}}
+    {{< filetree/file name="笔记和课后习题（含考研真题）详解_compressed.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3_compressed.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 <br>
