@@ -100,11 +100,11 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 {{< filetree/container >}}
   {{< filetree/folder name="course_design" state="closed" >}}
-    {{< filetree/file name="创新训练课B报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
+    {{< filetree/file name="创新训练课B报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
   {{< filetree/folder name="地铁站示例" state="closed" >}}
-    {{< filetree/file name="Qt-创新训练题目3.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/Qt-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E9%A2%98%E7%9B%AE3.zip" >}}
-    {{< filetree/file name="项目展示答辩.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BA%E7%AD%94%E8%BE%A9.zip" >}}
-    {{< filetree/file name="黄继凡-创新训练课B报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%BB%84%E7%BB%A7%E5%87%A1-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
+    {{< filetree/file name="Qt-创新训练题目3.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/Qt-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E9%A2%98%E7%9B%AE3.zip" >}}
+    {{< filetree/file name="项目展示答辩.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BA%E7%AD%94%E8%BE%A9.zip" >}}
+    {{< filetree/file name="黄继凡-创新训练课B报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%BB%84%E7%BB%A7%E5%87%A1-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}

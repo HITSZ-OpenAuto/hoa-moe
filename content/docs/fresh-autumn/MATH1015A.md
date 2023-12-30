@@ -52,8 +52,8 @@ math: true
 
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
-    {{< filetree/file name="书后期中考题答案.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/assignments/%E4%B9%A6%E5%90%8E%E6%9C%9F%E4%B8%AD%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88.zip" >}}
-    {{< filetree/file name="第二章习题答案.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/assignments/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.zip" >}}
+    {{< filetree/file name="书后期中考题答案.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E4%B9%A6%E5%90%8E%E6%9C%9F%E4%B8%AD%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88.zip" >}}
+    {{< filetree/file name="第二章习题答案.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.zip" >}}
     {{< filetree/file name="第五章习题答案.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/assignments/%E7%AC%AC%E4%BA%94%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="第六章习题答案.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/assignments/%E7%AC%AC%E5%85%AD%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="第四章习题答案.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/assignments/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
@@ -74,7 +74,7 @@ math: true
   {{< filetree/folder name="exams" state="closed" >}}
   {{< filetree/folder name="2017年试题" state="closed" >}}
     {{< filetree/file name="高数-2017秋-期中-深圳-答案.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< filetree/file name="高数-2017秋-期中-深圳-试卷.doc" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc" >}}
+    {{< filetree/file name="高数-2017秋-期中-深圳-试卷.doc" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc" >}}
     {{< filetree/file name="高数-2017秋-期中-深圳-试卷.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.pdf" >}}
     {{< filetree/file name="高数-2017秋-期末-深圳-答案.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E6%9C%AB-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="高数-2017秋-期末-深圳-试卷.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E6%9C%AB-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.pdf" >}}
@@ -87,7 +87,7 @@ math: true
   {{< /filetree/folder >}}
   {{< filetree/folder name="2019年试题" state="closed" >}}
     {{< filetree/file name="高数-2019秋-期中-深圳-答案.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/exams/2019%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2019%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< filetree/file name="高数-2019秋-期中-深圳-试卷.doc" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/exams/2019%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2019%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc" >}}
+    {{< filetree/file name="高数-2019秋-期中-深圳-试卷.doc" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2019%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2019%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc" >}}
     {{< filetree/file name="高数-2019秋-期末-深圳-答案.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/exams/2019%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2019%E7%A7%8B-%E6%9C%9F%E6%9C%AB-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="高数-2019秋-期末-深圳-试卷.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/MATH1015A/exams/2019%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2019%E7%A7%8B-%E6%9C%9F%E6%9C%AB-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.pdf" >}}
   {{< /filetree/folder >}}

@@ -126,8 +126,8 @@ math: true
     {{< filetree/file name="实验2 系统的稳定性分析(连续+离散)实验报告2020.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001A/labs/%E5%AE%9E%E9%AA%8C2%20%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%88%86%E6%9E%90%28%E8%BF%9E%E7%BB%AD%2B%E7%A6%BB%E6%95%A3%29%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2020.pdf" >}}
     {{< filetree/file name="实验3 线性系统的根轨迹分析实验报告2020.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001A/labs/%E5%AE%9E%E9%AA%8C3%20%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%B9%E8%BD%A8%E8%BF%B9%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2020.pdf" >}}
     {{< filetree/file name="实验4 系统频域特性测试与分析实验报告更正版.pdf" url="https://cdn.jsdelivr.net/gh/HITSZ-OpenAuto/AUTO3001A/labs/%E5%AE%9E%E9%AA%8C4%20%E7%B3%BB%E7%BB%9F%E9%A2%91%E5%9F%9F%E7%89%B9%E6%80%A7%E6%B5%8B%E8%AF%95%E4%B8%8E%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%9B%B4%E6%AD%A3%E7%89%88.pdf" >}}
-    {{< filetree/file name="第一次上机报告-刘宇明.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/labs/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A-%E5%88%98%E5%AE%87%E6%98%8E.docx" >}}
-    {{< filetree/file name="自控上机2.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/labs/%E8%87%AA%E6%8E%A7%E4%B8%8A%E6%9C%BA2.docx" >}}
+    {{< filetree/file name="第一次上机报告-刘宇明.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A-%E5%88%98%E5%AE%87%E6%98%8E.docx" >}}
+    {{< filetree/file name="自控上机2.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/%E8%87%AA%E6%8E%A7%E4%B8%8A%E6%9C%BA2.docx" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 <br>
