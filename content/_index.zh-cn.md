@@ -3,6 +3,10 @@ title: HITSZ OpenAuto
 layout: hextra-home
 ---
 
+{{< hextra/hero-badge >}}
+  {{< icon name="information-circle" attributes="height=14" >}} LICENSED UNDER CC BY-NC-SA 4.0
+{{< /hextra/hero-badge >}}
+
 <div class="mt-6 mb-6">
 {{< hextra/hero-headline >}}
   HITSZ 自动化课程攻略共享计划&nbsp;<br class="sm:block hidden" />
