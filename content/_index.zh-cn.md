@@ -4,7 +4,8 @@ layout: hextra-home
 ---
 
 {{< hextra/hero-badge >}}
-  {{< icon name="information-circle" attributes="height=14" >}} LICENSED UNDER CC BY-NC-SA 4.0
+  <div class="w-2 h-2 rounded-full bg-primary-400"></div>
+  <span>Licence CC BY-NC-SA 4.0</span>
 {{< /hextra/hero-badge >}}
 
 <div class="mt-6 mb-6">

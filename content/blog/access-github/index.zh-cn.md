@@ -151,7 +151,3 @@ sudo nano /etc/hosts
 
 > 参考资料：
 > [GitHub push失败-Failed to connect to github.com port 443: Timed > out - CSDN](http://t.csdnimg.cn/eFTpg)
-
-{{< hextra/hero-badge >}}
-  {{< icon name="information-circle" attributes="height=14" >}} LICENSED UNDER CC BY-NC-SA 4.0
-{{< /hextra/hero-badge >}}
