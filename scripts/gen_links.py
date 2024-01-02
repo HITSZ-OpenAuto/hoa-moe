@@ -60,7 +60,7 @@ def list_files_in_repo(owner, repo, username, token, path=''):
 
 def save_files_list(owner, repo, username, token):
     paths = list_files_in_repo(owner, repo, username, token)
-    filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc'))]
+    filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc', '.ipynb'))]
     result_content = create_hugo_shortcode(filtered_paths, owner, repo)
     with open('result.txt', 'w') as file:
         file.write(result_content)     
