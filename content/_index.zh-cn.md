@@ -5,7 +5,7 @@ layout: hextra-home
 
 {{< hextra/hero-badge >}}
   <div class="w-2 h-2 rounded-full bg-primary-400"></div>
-  <span>Licence CC BY-NC-SA 4.0</span>
+  <span>采用 CC BY-NC-SA 4.0 许可证</span>
 {{< /hextra/hero-badge >}}
 
 <div class="mt-6 mb-6">
