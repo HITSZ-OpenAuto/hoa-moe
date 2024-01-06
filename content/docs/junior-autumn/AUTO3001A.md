@@ -131,6 +131,9 @@ math: true
     {{< filetree/file name="自控上机2.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E8%87%AA%E6%8E%A7%E4%B8%8A%E6%9C%BA2.docx" >}}
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="notes" state="closed" >}}
+    {{< filetree/file name="自控原理_by_Spar Océsel_2023.apkg" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86_by_Spar%20Oce%CC%81sel_2023.apkg" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}
     {{< filetree/file name="2021课件合订本.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2021%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
     {{< filetree/file name="2022课件合订本.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2022%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
