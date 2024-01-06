@@ -111,7 +111,7 @@ excludeSearch: false
 <tbody>
   <tr><td>1</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3007/">过程控制系统</a></td><td rowspan='3'>必修</td><td>3.0</td><td>48</td><td>36</td><td>12</td><td>&nbsp;</td></tr>
   <tr><td>2</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/math3010/">数学规划</a></td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-  <tr><td>3</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-spring/auto3003/">数字图像处理</a></td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
+  <tr><td>3</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3003/">数字图像处理</a></td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>4</td><td>大四上</td><td>先进控制概论</td><td>可选可不选</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr>
   <tr><td>5</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3006/">机器视觉</a></td><td rowspan="3">选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>6</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr>
@@ -144,7 +144,7 @@ excludeSearch: false
 <tr><th>序号</th><th>开课学期</th><th>课程名称</th><th>组内必修  or  选修？</th><th>学分</th><th>总学时</th><th>讲课</th><th>实验</th><th>课外辅导</th></tr></thead>
 <tbody>
   <tr><td>1</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3005/">机器人学导论</a></td><td>必修</td><td>2.0</td><td>36</td><td>28</td><td>8</td><td>（24）</td></tr>
-  <tr><td>2</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-spring/auto3003/">数字图像处理</a></td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
+  <tr><td>2</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3003/">数字图像处理</a></td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>3</td><td>大三下</td><td>运动控制系统</td><td rowspan='3'>选修至少<u>两门</u></td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>4</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>5</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr>
@@ -160,7 +160,7 @@ excludeSearch: false
 <thead>
 <tr><th>序号</th><th>开课学期</th><th>课程名称</th><th>组内必修  or  选修？</th><th>学分</th><th>总学时</th><th>讲课</th><th>实验</th><th>课外辅导</th></tr></thead>
 <tbody>
-  <tr><td>1</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-spring/auto3003/">数字图像处理</a></td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
+  <tr><td>1</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3003/">数字图像处理</a></td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>2</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3007/">过程控制系统</a></td><td rowspan='2'>必修（二选一）</td><td>3.0</td><td>48</td><td>36</td><td>12</td><td>&nbsp;</td></tr>
   <tr><td>3</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/math3010/">数学规划</a></td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td><td>&nbsp;</td></tr>
   <tr><td>4</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3006/">机器视觉</a></td><td rowspan='3'>选修至少两门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
@@ -178,7 +178,7 @@ excludeSearch: false
 <thead>
 <tr><th>序号</th><th>开课学期</th><th>课程名称</th><th>组内必修  or  选修？</th><th>学分</th><th>总学时</th><th>讲课</th><th>实验</th><th>课外辅导</th></tr></thead>
 <tbody>
-  <tr><td>1</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-spring/auto3003/">数字图像处理</a></td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
+  <tr><td>1</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3003/">数字图像处理</a></td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>2</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3005/">机器人学导论</a></td><td>必修</td><td>2.0</td><td>36</td><td>28</td><td>8</td><td>（24）</td></tr>
   <tr><td>3</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3006/">机器视觉</a></td><td rowspan='3'>选修至少两门</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>4</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td></tr>
@@ -202,7 +202,7 @@ excludeSearch: false
 <tbody>
   <tr><td>1</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3007/">过程控制系统</a></td><td rowspan='3'>必修</td><td>3.0</td><td>48</td><td>36</td><td>12</td><td>&nbsp;</td></tr>
   <tr><td>2</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/math3010/">数学规划</a></td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-  <tr><td>3</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-spring/auto3003/">数字图像处理</a></td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
+  <tr><td>3</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3003/">数字图像处理</a></td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr>
   <tr><td>4</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3006/">机器视觉</a></td><td>选修</td><td>2.0</td><td>32</td><td>24</td><td>8</td><td>&nbsp;</td></tr></tbody>
 </table></figure>
 按此选课策略，可以修满控制理论与控制工程模块的6学分和智能检测模块的4学分而达标。
