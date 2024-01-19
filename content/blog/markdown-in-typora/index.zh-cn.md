@@ -1,20 +1,19 @@
 ---
-title: 如何利用 Typora 创作 Markdown
+title: 在 Typora 中快速上手 Markdown 与 Latex
 date: 2024-1-19
 authors:
-  - name: Unknown
-description: Markdown 的使用说明
+  - name: longlin
+    link: https://github.com/longlin10086
+    image: https://avatars.githubusercontent.com/u/110278150?v=4
+  - name: xiln7
+    link: https://github.com/xiln7
+    image: https://avatars.githubusercontent.com/u/110339237?v=4
+description: 面向每一位想入门 Markdown 与 Latex 的新人
 excludeSearch: false
 math: true
 ---
 
-**前排提示：本文来源于网络，由 [@longlin](https://github.com/longlin10086) 在原文章基础上整理修订后发布在此，如有侵权请联系我们删除。**
-
-- 本文中对所有语法都是基于 Typora 这款 md 编辑器，属于 Markdown 的一支方言，部分语法并不适用于其他编辑器。
-- 本文 **数学公式的输入** 一节实质是 $\LaTeX$ 相关语法，由此可见 Typora 对其的支持是十分完善的。
-- 本文主要充当百科性质，当某项功能需要用到时可以直接在此处查看，初学者不必追求完全掌握。
-- 受限于网页，本文部分效果采用了截图的方式进行展示。
-
+Typora 是一款支持实时预览的 Markdown 文本编辑器。为了保证良好的 Markdown编辑体验，我们建议您先安装 Typora 后再来阅读之后的教程。同时，由于 Markdown 语法较为简单，本文不作过多文字性描述，只提供示例的 Markdown 代码与在 Typora 中可以简单实现的 Latex 代码。读者只需要在 Typora 中输入对应的代码，即可看到实时预览的效果。
 
 ## 一、标题
 
@@ -968,3 +967,5 @@ math: true
 > 效果：
 > &#x27A4;
 
+## 参考资料
+- [【Typora 教程】手把手教你如何用Typora撰写笔记](https://www.bilibili.com/video/BV1h84y1Y7nn/)
