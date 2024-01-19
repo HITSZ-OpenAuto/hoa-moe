@@ -3,14 +3,14 @@ title: 如何利用 Typora 创作 Markdown
 date: 2024-1-19
 authors:
   - name: Unknown
-description: markdown的使用说明
+description: Markdown 的使用说明
 excludeSearch: false
 math: true
 ---
 
 **前排提示：本文来源于网络，由 [@longlin](https://github.com/longlin10086) 在原文章基础上整理修订后发布在此，如有侵权请联系我们删除。**
 
-- 本文中对所有语法都是基于 Typora 这款 md 编辑器，属于 markdown 的一支方言，部分语法并不适用于其他编辑器。
+- 本文中对所有语法都是基于 Typora 这款 md 编辑器，属于 Markdown 的一支方言，部分语法并不适用于其他编辑器。
 - 本文 **数学公式的输入** 一节实质是 $\LaTeX$ 相关语法，由此可见 Typora 对其的支持是十分完善的。
 - 本文主要充当百科性质，当某项功能需要用到时可以直接在此处查看，初学者不必追求完全掌握。
 - 受限于网页，本文部分效果采用了截图的方式进行展示。
