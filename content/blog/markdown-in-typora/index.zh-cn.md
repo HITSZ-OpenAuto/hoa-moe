@@ -1,6 +1,6 @@
 ---
 title: 在 Typora 中快速上手 Markdown 与 Latex
-date: 2024-1-19
+date: 2024-01-19
 authors:
   - name: longlin
     link: https://github.com/longlin10086
