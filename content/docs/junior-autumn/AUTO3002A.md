@@ -197,6 +197,7 @@ math: true
     {{< filetree/file name="自控实践作业3.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A3.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
+    {{< filetree/file name="2023 自动控制实践A试题回忆版(V1.0).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
   {{< filetree/folder name="本部-试题汇编" state="closed" >}}
     {{< filetree/file name="1 绪论相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/1%20%E7%BB%AA%E8%AE%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< filetree/file name="1 绪论相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/1%20%E7%BB%AA%E8%AE%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
