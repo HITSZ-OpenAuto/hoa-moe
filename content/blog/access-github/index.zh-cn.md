@@ -5,6 +5,7 @@ date: 2023-11-30
 authors:
   - name: Maxwell Jay
     link: https://github.com/MaxwellJay256
+    image: https://github.com/MaxwellJay256.png
 excludeSearch: false
 ---
 

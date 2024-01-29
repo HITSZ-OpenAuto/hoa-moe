@@ -4,10 +4,10 @@ date: 2024-01-19
 authors:
   - name: longlin
     link: https://github.com/longlin10086
-    image: https://avatars.githubusercontent.com/u/110278150?v=4
+    image: https://github.com/longlin10086.png
   - name: xiln7
     link: https://github.com/xiln7
-    image: https://avatars.githubusercontent.com/u/110339237?v=4
+    image: https://github.com/xiln7.png
 description: 面向每一位想入门 Markdown 与 Latex 的新人
 excludeSearch: false
 math: true
