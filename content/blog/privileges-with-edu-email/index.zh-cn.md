@@ -75,7 +75,7 @@ Autodesk 的教育访问权限允许用户免费获得其绝大多数软件产�
 考虑使用 [GNU Octave](https://www.gnu.org/software/octave/) 作为在公开研究中的替代。
 `Python` 也可以胜任 MATLAB 除去 Simulink 之外的大部分工作。
 
-或者前往淘宝购买正版成品账号，价格在 20 元左右，关键词 `MATLAB 正版`。
+> 也可以前往淘宝购买正版成品账号，价格在 20 元左右，关键词 `MATLAB 正版`。
 
 ### Origin
 
