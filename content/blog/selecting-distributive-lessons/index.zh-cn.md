@@ -3,6 +3,8 @@ title: 哈工大(深圳)自动化专业 限选课选课说明及选课建议
 date: 2023-11-09
 authors:
   - name: 吴俊达
+    link: https://github.com/oliverwu515
+    image: https://github.com/oliverwu515.png
 description: 限选课怎么选？看这一篇就够了！
 excludeSearch: false
 ---
