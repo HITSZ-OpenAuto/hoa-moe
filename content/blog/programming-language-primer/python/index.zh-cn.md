@@ -1,5 +1,5 @@
 ---
-title: Auto 技术指南：Python 语言特性杂谈
+title: Python 语言特性杂谈
 date: 2024-01-28
 description: Python 这样的语言对比之前的 C 来说，非常的高级
 authors:
