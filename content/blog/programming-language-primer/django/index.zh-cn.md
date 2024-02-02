@@ -1,5 +1,5 @@
 ---
-title: Auto 技术指南：使用 Django 搭建一个登录页面
+title: 使用 Django 搭建一个登录页面
 date: 2024-01-29
 description: Django 是基于 Python 的网站后端语言
 authors:
