@@ -125,7 +125,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/HITSZ-OpenAuto/hitsz-openauto.github.io/edit/main/content/"
+    base: "https://github.com/HITSZ-OpenAuto/hoa.moe/edit/main/content/"
     
   blog:
     list:
