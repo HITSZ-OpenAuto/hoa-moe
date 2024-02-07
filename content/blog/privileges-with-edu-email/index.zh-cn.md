@@ -35,10 +35,17 @@ draft: false
 
 **申请链接**：[**免费教育许可证 - JetBrains**](https://www.jetbrains.com/zh-cn/community/education/#students)
 
+JetBrains 是来自捷克的软件开发公司，针对许多编程语言提供了一系列的 IDE，例如面向 `Java` 的 [IntelliJ IDEA](https://www.jetbrains.com/idea/)、面向 `Python` 的 [PyCharm](https://www.jetbrains.com/pycharm/)、面向 `C++` 的 [CLion](https://www.jetbrains.com/clion/) 等。
+
 不巧的是，HIT 位于 JetBrains 的 [stoplist](https://github.com/JetBrains/swot/blob/master/lib/domains/stoplist.txt) 中。
 因此在上述申请链接直接使用学生邮箱会申请失败；即使使用 GitHub Student Developer Pack 登录也可能遭到拒绝。
 
-> 笔者正在尝试使用学信网学籍认证文件进行申请，后续结果会在这里更新。
+- 解决办法：
+
+1. 使用 GitHub Student Developer Pack 登录遭到拒绝的原因是 JetBrains 发现你的 GitHub 用户中含有「xxx@stu.hit.edu.cn」的邮箱。
+因此，你可以临时将学生邮箱从你的 GitHub 账户中移除，再使用 GitHub 申请 JetBrains 教育许可证；等到需要更新你的 GitHub 学生认证时再将学生邮箱添加回去。
+2. 使用学信网的学籍证明申请 JetBrains 教育许可证。
+  参考[「Jetbrains 学生授权获取指南 - 知乎」](https://zhuanlan.zhihu.com/p/378185042)中的流程。
 
 ### Qt
 
