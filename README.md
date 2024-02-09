@@ -2,7 +2,7 @@
 
 This is the website of [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto), built with [Hugo](https://gohugo.io/) and [Hextra](https://imfing.github.io/hextra/).
 
-![showcase](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/hoa/20231210153637.png?imageSlim)
+![showcase](static/images/showcase.webp)
 
 ## Features
 
