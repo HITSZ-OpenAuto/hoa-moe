@@ -24,8 +24,8 @@ toc: false
 {{< card link="comp2014"title="C++语言程序设计">}}
 {{< /cards >}}
 ## 跨专业选修
-[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)
 <!--more-->
 {{< cards >}}
 {{< card link="chem1012"title="大学化学III">}}
 {{< /cards >}}
+
