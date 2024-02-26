@@ -84,7 +84,7 @@ jobs:
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring')
           semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春')
-          category_arr='mandatory distributional-selective cross-major-selective'
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
@@ -113,7 +113,8 @@ jobs:
         run: |
           counter_man=0
           counter_dis=100
-          counter_cross=200
+          counter_graduate=200
+          counter_cross=300
           for line in $(cat repos.txt)
           do
             echo '-------------------------------------------------'
@@ -179,6 +180,9 @@ jobs:
               '限选')
                 category='distributional-selective'
                 ;;
+              '研究生阶段课程')
+                category='graduate-course'
+                ;;
               '跨专业选修')
                 category='cross-major-selective'
                 ;;
@@ -199,9 +203,13 @@ jobs:
               then
                 echo "[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}-${category}.txt"
               fi
-              if [ ${CATEGORY} = "跨专业选修" ]
+              # if [ ${CATEGORY} = "跨专业选修" ]
+              # then
+              #   echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
+              # fi
+              if [ ${CATEGORY} = "研究生阶段课程" ]
               then
-                echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
+                echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
               fi
               echo "<!--more-->" >> "${semester}-${category}.txt"
               echo "{{< cards >}}" >> "${semester}-${category}.txt"
@@ -220,6 +228,10 @@ jobs:
             then
               counter_dis=$((${counter_dis}+1));
               echo "weight: ${counter_dis}" >> "./content/docs/${semester}/${line}.md"
+            elif [ ${CATEGORY} = "研究生阶段课程" ]
+            then
+              counter_dis=$((${counter_graduate}+1));
+              echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
             else
               counter_cross=$((${counter_cross}+1));
               echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
@@ -258,7 +270,7 @@ jobs:
       - name: Build Guide Pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring')
-          category_arr='mandatory distributional-selective cross-major-selective'
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
