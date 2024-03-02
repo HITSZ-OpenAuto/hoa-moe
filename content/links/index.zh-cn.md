@@ -21,6 +21,7 @@ sidebar:
   {{< card link="https://github.com/DseidLi/HITSZ-OpenDS" title="哈尔滨工业大学（深圳）大数据专业课程攻略" >}}
   {{< card link="https://n92uuvwhvl.feishu.cn/docx/doxcnjhfZtDck76yesZH5yOREtf" title="网盘计划" >}}
   {{< card link="https://hitsz.flowus.cn/" title="HITSZ 计科手册" >}}
+  {{< card link="https://open.osa.moe/" title="Alist 网盘" >}}
 {{< /cards >}}
 
 ## 个人博客
