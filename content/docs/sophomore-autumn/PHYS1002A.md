@@ -137,6 +137,11 @@ math: true
   {{< /filetree/folder >}}
   {{< filetree/folder name="Exp10" state="closed" >}}
   {{< filetree/folder name="Hall_Effect-MaxwellJay" state="closed" >}}
+    {{< filetree/file name="1-VH-IM.csv" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/Hall_Effect-MaxwellJay/1-VH-IM.csv" >}}
+    {{< filetree/file name="2-VH-IS.csv" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/Hall_Effect-MaxwellJay/2-VH-IS.csv" >}}
+    {{< filetree/file name="3-VH-x.csv" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/Hall_Effect-MaxwellJay/3-VH-x.csv" >}}
+    {{< filetree/file name="4-Vout-IM.csv" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/Hall_Effect-MaxwellJay/4-Vout-IM.csv" >}}
+    {{< filetree/file name="5-Vout-theta.csv" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/Hall_Effect-MaxwellJay/5-Vout-theta.csv" >}}
     {{< filetree/file name="Exp10-Hall_Effect.ipynb" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/Hall_Effect-MaxwellJay/Exp10-Hall_Effect.ipynb" >}}
     {{< filetree/file name="霍尔效应传感器和各向异性磁电阻传感器(22级 MaxwellJay).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1002A/raw/main/Exp10/Hall_Effect-MaxwellJay/%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94%E4%BC%A0%E6%84%9F%E5%99%A8%E5%92%8C%E5%90%84%E5%90%91%E5%BC%82%E6%80%A7%E7%A3%81%E7%94%B5%E9%98%BB%E4%BC%A0%E6%84%9F%E5%99%A8%2822%E7%BA%A7%20MaxwellJay%29.pdf" >}}
   {{< /filetree/folder >}}

@@ -1,6 +1,6 @@
 ---
 title: (必修)自动控制实践B
-weight: 7
+weight: 6
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B"
 math: true

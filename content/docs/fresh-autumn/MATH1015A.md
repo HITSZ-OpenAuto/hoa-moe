@@ -1,6 +1,6 @@
 ---
 title: (必修)微积分A
-weight: 11
+weight: 32
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A"
 math: true
@@ -58,18 +58,6 @@ math: true
     {{< filetree/file name="第六章习题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E7%AC%AC%E5%85%AD%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="第四章习题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="高数第三章习题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E9%AB%98%E6%95%B0%E7%AC%AC%E4%B8%89%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="books" state="closed" >}}
-    {{< filetree/file name="同济高等数学第七版上册习题全解指南.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E5%90%8C%E6%B5%8E%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88%E4%B8%8A%E5%86%8C%E4%B9%A0%E9%A2%98%E5%85%A8%E8%A7%A3%E6%8C%87%E5%8D%97.pdf" >}}
-    {{< filetree/file name="同济高等数学第七版下册习题全解指南.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E5%90%8C%E6%B5%8E%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88%E4%B8%8B%E5%86%8C%E4%B9%A0%E9%A2%98%E5%85%A8%E8%A7%A3%E6%8C%87%E5%8D%97.pdf" >}}
-    {{< filetree/file name="工数习题解答-哈工大-上.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E5%B7%A5%E6%95%B0%E4%B9%A0%E9%A2%98%E8%A7%A3%E7%AD%94-%E5%93%88%E5%B7%A5%E5%A4%A7-%E4%B8%8A.pdf" >}}
-    {{< filetree/file name="工数习题解答-哈工大-下.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E5%B7%A5%E6%95%B0%E4%B9%A0%E9%A2%98%E8%A7%A3%E7%AD%94-%E5%93%88%E5%B7%A5%E5%A4%A7-%E4%B8%8B.pdf" >}}
-    {{< filetree/file name="工科数学分析-哈工大-上.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E5%B7%A5%E7%A7%91%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90-%E5%93%88%E5%B7%A5%E5%A4%A7-%E4%B8%8A.pdf" >}}
-    {{< filetree/file name="工科数学分析-哈工大-下.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E5%B7%A5%E7%A7%91%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90-%E5%93%88%E5%B7%A5%E5%A4%A7-%E4%B8%8B.pdf" >}}
-    {{< filetree/file name="高等数学-第7版-上册-同济大学.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6-%E7%AC%AC7%E7%89%88-%E4%B8%8A%E5%86%8C-%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6.pdf" >}}
-    {{< filetree/file name="高等数学-第7版-下册-同济大学.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6-%E7%AC%AC7%E7%89%88-%E4%B8%8B%E5%86%8C-%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6.pdf" >}}
-    {{< filetree/file name="高等数学典型题-第二版-西安交通大学.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%85%B8%E5%9E%8B%E9%A2%98-%E7%AC%AC%E4%BA%8C%E7%89%88-%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6.pdf" >}}
-    {{< filetree/file name="高等数学解题指南.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/books/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%A7%A3%E9%A2%98%E6%8C%87%E5%8D%97.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
   {{< filetree/folder name="2017年试题" state="closed" >}}

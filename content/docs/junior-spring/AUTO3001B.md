@@ -1,6 +1,6 @@
 ---
 title: (必修)自动控制理论B
-weight: 6
+weight: 5
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B"
 math: true

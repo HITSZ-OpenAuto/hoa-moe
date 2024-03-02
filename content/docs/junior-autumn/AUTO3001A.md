@@ -1,6 +1,6 @@
 ---
 title: (必修)自动控制理论A
-weight: 3
+weight: 30
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A"
 math: true
@@ -135,8 +135,6 @@ math: true
     {{< filetree/file name="自控原理_by_Spar Océsel_2023.apkg" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86_by_Spar%20Oce%CC%81sel_2023.apkg" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}
-    {{< filetree/file name="2021课件合订本.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2021%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
-    {{< filetree/file name="2022课件合订本.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2022%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
     {{< filetree/file name="2023课件合订本.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2023%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
