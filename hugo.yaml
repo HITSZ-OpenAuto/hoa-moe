@@ -45,6 +45,10 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 2
+    - identifier: links
+      name: 友链
+      pageRef: /links
+      weight: 3
     - identifier: about
       name: About
       pageRef: /about
@@ -133,17 +137,17 @@ params:
 
   comments:
     enable: true
-    type: cusdis
+    type: giscus
 
     # https://giscus.app/
     giscus:
-      repo: imfing/hextra
-      repoId: R_kgDOJ9fJag
+      repo: HITSZ-OpenAuto/hoa.moe
+      repoId: R_kgDOKmcukw
       category: General
-      categoryId: DIC_kwDOJ9fJas4CY7gW
-      # mapping: pathname
-      # strict: 0
-      # reactionsEnabled: 1
-      # emitMetadata: 0
-      # inputPosition: top
-      # lang: en
+      categoryId: DIC_kwDOKmcuk84Cdqlf
+      mapping: pathname
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: bottom
+      lang: zh-CN
