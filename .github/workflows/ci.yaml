@@ -201,11 +201,11 @@ jobs:
               echo "## ${CATEGORY}" > "${semester}-${category}.txt"
               if [ ${CATEGORY} = "限选" ]
               then
-                echo "[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}-${category}.txt"
+                echo "[查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}-${category}.txt"
               fi
               # if [ ${CATEGORY} = "跨专业选修" ]
               # then
-              #   echo "[点击查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
+              #   echo "[查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
               # fi
               if [ ${CATEGORY} = "研究生阶段课程" ]
               then
@@ -237,7 +237,7 @@ jobs:
               echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
             fi
             echo 'toc: true' >> "./content/docs/${semester}/${line}.md"
-            echo "editURL: \"https://github.com/HITSZ-OpenAuto/${line}\"" >> "./content/docs/${semester}/${line}.md"
+            echo "editURL: \"https://github.com/HITSZ-OpenAuto/${line}/edit/main/README.md\"" >> "./content/docs/${semester}/${line}.md"
             echo "math: true" >> "./content/docs/${semester}/${line}.md"
             echo '---' >> "./content/docs/${semester}/${line}.md"
 
