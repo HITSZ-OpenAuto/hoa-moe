@@ -259,7 +259,7 @@ jobs:
             echo >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md" && echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/gen_links.py HITSZ-OpenAuto ${line} xiln7 ${{ secrets.PERSONAL_TOKEN }}
+            python scripts/gen_links.py HITSZ-OpenAuto ${line} kowyo ${{ secrets.PERSONAL_TOKEN }}
             cat result.txt >> "./content/docs/${semester}/${line}.md"
             echo '<br>' >> "./content/docs/${semester}/${line}.md"
 

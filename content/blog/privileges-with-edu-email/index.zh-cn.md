@@ -6,9 +6,9 @@ authors:
     - name: Maxwell Jay
       link: https://github.com/MaxwellJay256
       image: https://github.com/MaxwellJay256.png
-    - name: xiln7
-      link: https://github.com/xiln7
-      image: https://github.com/xiln7.png
+    - name: kowyo
+      link: https://github.com/kowyo
+      image: https://github.com/kowyo.png
 draft: false
 ---
 

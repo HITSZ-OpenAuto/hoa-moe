@@ -5,9 +5,9 @@ authors:
   - name: longlin
     link: https://github.com/longlin10086
     image: https://github.com/longlin10086.png
-  - name: xiln7
-    link: https://github.com/xiln7
-    image: https://github.com/xiln7.png
+  - name: kowyo
+    link: https://github.com/kowyo
+    image: https://github.com/kowyo.png
   - name: 吴俊达
     link: https://github.com/oliverwu515
     image: https://github.com/oliverwu515.png

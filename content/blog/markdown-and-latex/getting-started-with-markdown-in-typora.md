@@ -5,9 +5,9 @@ authors:
   - name: longlin
     link: https://github.com/longlin10086
     image: https://github.com/longlin10086.png
-  - name: xiln7
-    link: https://github.com/xiln7
-    image: https://github.com/xiln7.png
+  - name: kowyo
+    link: https://github.com/kowyo
+    image: https://github.com/kowyo.png
 description: 面向每一位想入门 Markdown 的新人
 excludeSearch: false
 math: true
