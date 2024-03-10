@@ -15,7 +15,7 @@ toc: false
 {{< card link="emec1002"title="理论力学Ⅱ">}}
 {{< /cards >}}
 ## 限选
-[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)
+[查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)
 <!--more-->
 {{< cards >}}
 {{< card link="comp2050"title="数据结构与算法">}}

@@ -18,7 +18,7 @@ toc: false
 {{< card link="geip1011"title="马克思主义基本原理">}}
 {{< /cards >}}
 ## 限选
-[点击查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)
+[查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)
 <!--more-->
 {{< cards >}}
 {{< card link="comp2014"title="C++语言程序设计">}}

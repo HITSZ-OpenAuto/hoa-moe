@@ -2,7 +2,7 @@
 title: (必修)自动控制实践A
 weight: 2
 toc: true
-editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A"
+editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 **new: 步进电机试题答案更新，更新一份课内实验报告版本**
