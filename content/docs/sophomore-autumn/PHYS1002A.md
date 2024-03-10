@@ -2,7 +2,7 @@
 title: (必修)大学物理实验IA
 weight: 1
 toc: true
-editURL: "https://github.com/HITSZ-OpenAuto/PHYS1002A"
+editURL: "https://github.com/HITSZ-OpenAuto/PHYS1002A/edit/main/README.md"
 math: true
 ---
 

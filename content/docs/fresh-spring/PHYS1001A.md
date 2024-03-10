@@ -2,7 +2,7 @@
 title: (必修)大学物理IA
 weight: 25
 toc: true
-editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A"
+editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A/edit/main/README.md"
 math: true
 ---
 
