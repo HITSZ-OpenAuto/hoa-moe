@@ -13,13 +13,23 @@ math: true
 4. hoa.moe 生成本课程对应页面后，请将页面链接复制到 GitHub 仓库的 About/Website 中。
 5. 可以在 GitHub 页面的 About/Topics 中为课程添加话题名称。
 -->
-
 ![考试课](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
-![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
 
 ![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![作业30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
 ![期末考试70%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
+
+**注意！从2024春季学期开始，《大学物理》课程安排有所调整，但仅更改了某些模块的讲授顺序，总体内容不变，因此将原“大学物理IA”、“大学物理IB”栏目合并为“大学物理”栏目。**
+鉴于部分资料中仍有“大学物理IA”与“大学物理IB”字样，为了避免新旧课程混淆，下面列出原《大学物理IA》、《大学物理IB》课程和现在《大学物理XA》、《大学物理XB》（计算机与电子通信、自动化与电气工程、机器人与智能装备等大类开设）以及《大学物理IA》、《大学物理IB》（材料、土木、化学等大类开设）的对照表。
+
+|课程名称|开课学期|学分|主要内容|
+|----|---|-|----|
+|**原**大学物理IA|大一春|4.0|运动与力、狭义相对论、电磁学|
+|**原**大学物理IB|大二秋|4.0|机械波（振动与波动）、光学、热学、量子物理|
+|**新**大学物理XA|大一春|5.0|运动与力、机械波（振动与波动）、狭义相对论、电磁学|
+|**新**大学物理XB|大二秋|4.0|光学、热学、量子物理|
+|**新**大学物理IA|大一春|4.5|运动与力、机械波（振动与波动）、电磁学|
+|**新**大学物理IB|大二秋|4.5|光学、热学、狭义相对论、量子物理|
 
 ## 授课教师
 
@@ -42,7 +52,8 @@ math: true
 我的对策是多给自己留一些时间用来复习（对于 2022 级学生，大物IB 的期末考试是大二上学期的最后一门考试，有至少两周的准备时间），把物理公式记熟。
 只要记得住公式和方程，考试时就不会有什么问题。
 
-可以用来练习的成套试卷并不多，因此珍惜每一次练习的机会，反复咀嚼不清楚的地方；清华题库中的题目难度偏高，不建议死磕。<br>
+可以用来练习的成套试卷并不多，因此珍惜每一次练习的机会，反复咀嚼不清楚的地方；清华题库中的题目难度偏高，不建议死磕。
+<br>
 <br>
 <br>
 
@@ -62,6 +73,15 @@ math: true
   {{< /filetree/folder >}}
   {{< filetree/folder name="materials" state="closed" >}}
     {{< filetree/file name="物理学第六版习题分析与解答.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/materials/%E7%89%A9%E7%90%86%E5%AD%A6%E7%AC%AC%E5%85%AD%E7%89%88%E4%B9%A0%E9%A2%98%E5%88%86%E6%9E%90%E4%B8%8E%E8%A7%A3%E7%AD%94.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="notes" state="closed" >}}
+    {{< filetree/file name="2023_zsa_大学物理IB笔记.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/notes/2023_zsa_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E7%AC%94%E8%AE%B0.pdf" >}}
+  {{< filetree/folder name="Empty_2023" state="closed" >}}
+    {{< filetree/file name="2023_Empty_大学物理IB（光学）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/notes/Empty_2023/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E5%85%89%E5%AD%A6%EF%BC%89.pdf" >}}
+    {{< filetree/file name="2023_Empty_大学物理IB（振动与波）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/notes/Empty_2023/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E6%8C%AF%E5%8A%A8%E4%B8%8E%E6%B3%A2%EF%BC%89.pdf" >}}
+    {{< filetree/file name="2023_Empty_大学物理IB（热学与量子物理）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/notes/Empty_2023/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E7%83%AD%E5%AD%A6%E4%B8%8E%E9%87%8F%E5%AD%90%E7%89%A9%E7%90%86%EF%BC%89.pdf" >}}
+    {{< filetree/file name="2023_Empty_大学物理IB（考前必看）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001B/raw/main/notes/Empty_2023/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E8%80%83%E5%89%8D%E5%BF%85%E7%9C%8B%EF%BC%89.pdf" >}}
+  {{< /filetree/folder >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 <br>

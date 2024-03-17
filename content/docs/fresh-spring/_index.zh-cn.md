@@ -10,7 +10,7 @@ toc: false
 {{< cards >}}
 {{< card link="auto2006"title="控制理论中的代数基础">}}
 {{< card link="geip1016"title="中国近现代史纲要">}}
-{{< card link="phys1001a"title="大学物理IA">}}
+{{< card link="phys1001a"title="大学物理">}}
 {{< card link="math1015b"title="微积分B">}}
 {{< card link="ee1011a"title="电路IA">}}
 {{< /cards >}}
