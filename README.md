@@ -17,7 +17,7 @@ This is the website of [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto), buil
 ### Clone the repository
 
 ```bash
-git clone https://github.com/HITSZ-OpenAuto/hoa.moe --recurse-submodules
+git clone https://github.com/HITSZ-OpenAuto/hoa.moe.git --recurse-submodules
 ```
 
 ### Install Hugo
