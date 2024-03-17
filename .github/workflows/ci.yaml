@@ -126,6 +126,7 @@ jobs:
             echo " "
             echo '-----------------'
 
+
             OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
             echo ${OUT}
 
