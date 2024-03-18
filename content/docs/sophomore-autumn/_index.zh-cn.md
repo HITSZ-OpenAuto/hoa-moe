@@ -15,6 +15,7 @@ toc: false
 {{< card link="phys1001b"title="大学物理IB">}}
 {{< card link="ee1012b"title="电路实验IB">}}
 {{< card link="geip1011"title="马克思主义基本原理">}}
+{{< card link="phys1001a"title="大学物理">}}
 {{< /cards >}}
 ## 限选
 [查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)
