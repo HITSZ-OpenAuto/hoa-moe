@@ -126,146 +126,152 @@ jobs:
             echo " "
             echo '-----------------'
 
-            OUT=`cat "tag_${line}.txt" | grep -E "^semester:..*$" | sed -E 's/^semester:.(.*)$/\1/'`
-            echo ${OUT}
 
-            case ${OUT} in
-              '第一学年秋季')
-                semester='fresh-autumn'
-                ;;
-              '第一学年春季')
-                semester='fresh-spring'
-                ;;
-              '第一学年夏季')
-                semester='fresh-summer'
-                ;;
-              '第二学年秋季')
-                semester='sophomore-autumn'
-                ;;
-              '第二学年春季')
-                semester='sophomore-spring'
-                ;;
-              '第二学年夏季')
-                semester='sophomore-summer'
-                ;;
-              '第三学年秋季')
-                semester='junior-autumn'
-                ;;
-              '第三学年春季')
-                semester='junior-spring'
-                ;;
-              '第三学年夏季')
-                semester='junior-summer'
-                ;;
-              '第四学年秋季')
-                semester='senior-autumn'
-                ;;
-              '第四学年春季')
-                semester='senior-spring'
-                ;;
-              *)
-                echo "No match semester"
-                continue
-                ;;   
-            esac
-     
-            echo $semester
+            Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
+            Semesters=${Semesters#*: }
+            echo ${Semesters}
 
-            CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
+            IFS=' / ' read -r -a semesters <<< "$Semesters"
 
-            case ${CATEGORY} in
-            '必修')
-                category='mandatory'
-                ;;
-              '限选')
-                category='distributional-selective'
-                ;;
-              '研究生阶段课程')
-                category='graduate-course'
-                ;;
-              '跨专业选修')
-                category='cross-major-selective'
-                ;;
-              *)
-                echo "No match category"
-                continue
-                ;;   
-            esac
+            for match_semester in "${semesters[@]}"
+            do
+              case ${match_semester} in
+                '第一学年秋季')
+                  semester='fresh-autumn'
+                  ;;
+                '第一学年春季')
+                  semester='fresh-spring'
+                  ;;
+                '第一学年夏季')
+                  semester='fresh-summer'
+                  ;;
+                '第二学年秋季')
+                  semester='sophomore-autumn'
+                  ;;
+                '第二学年春季')
+                  semester='sophomore-spring'
+                  ;;
+                '第二学年夏季')
+                  semester='sophomore-summer'
+                  ;;
+                '第三学年秋季')
+                  semester='junior-autumn'
+                  ;;
+                '第三学年春季')
+                  semester='junior-spring'
+                  ;;
+                '第三学年夏季')
+                  semester='junior-summer'
+                  ;;
+                '第四学年秋季')
+                  semester='senior-autumn'
+                  ;;
+                '第四学年春季')
+                  semester='senior-spring'
+                  ;;
+                *)
+                  echo "No match semester"
+                  continue
+                  ;;   
+              esac
+      
+              echo $semester
 
-            echo $category
+              CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
 
-            cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
+              case ${CATEGORY} in
+              '必修')
+                  category='mandatory'
+                  ;;
+                '限选')
+                  category='distributional-selective'
+                  ;;
+                '研究生阶段课程')
+                  category='graduate-course'
+                  ;;
+                '跨专业选修')
+                  category='cross-major-selective'
+                  ;;
+                *)
+                  echo "No match category"
+                  continue
+                  ;;   
+              esac
 
-            if test ! -s "${semester}-${category}.txt"
-            then
-              echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+              echo $category
+
+              cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
+
+              if test ! -s "${semester}-${category}.txt"
+              then
+                echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                if [ ${CATEGORY} = "限选" ]
+                then
+                  echo "[查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}-${category}.txt"
+                fi
+                # if [ ${CATEGORY} = "跨专业选修" ]
+                # then
+                #   echo "[查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
+                # fi
+                if [ ${CATEGORY} = "研究生阶段课程" ]
+                then
+                  echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
+                fi
+                echo "<!--more-->" >> "${semester}-${category}.txt"
+                echo "{{< cards >}}" >> "${semester}-${category}.txt"
+              fi
+              
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
+
+              echo '---' > "./content/docs/${semester}/${line}.md"
+              echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+              if [ ${CATEGORY} = "必修" ]
+              then
+                counter_man=$((${counter_man}+1));
+                echo "weight: ${counter_man}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "限选" ]
+              then
+                counter_dis=$((${counter_dis}+1));
+                echo "weight: ${counter_dis}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "研究生阶段课程" ]
+              then
+                counter_dis=$((${counter_graduate}+1));
+                echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
+              else
+                counter_cross=$((${counter_cross}+1));
+                echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
+              fi
+              echo 'toc: true' >> "./content/docs/${semester}/${line}.md"
+              echo "editURL: \"https://github.com/HITSZ-OpenAuto/${line}/edit/main/README.md\"" >> "./content/docs/${semester}/${line}.md"
+              echo "math: true" >> "./content/docs/${semester}/${line}.md"
+              echo '---' >> "./content/docs/${semester}/${line}.md"
+
               if [ ${CATEGORY} = "限选" ]
               then
-                echo "[查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}-${category}.txt"
+                MODULE=`cat "tag_${line}.txt" | grep -E "^module:..*$" | sed -E 's/^module:.(.*)$/\1/'`
+                echo "该课程属于限选课程的${MODULE}模块。" >> "./content/docs/${semester}/${line}.md"
+                echo '<br>' >> "./content/docs/${semester}/${line}.md"
+                echo "什么是${MODULE}模块？请查阅[限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)。" >> "./content/docs/${semester}/${line}.md"
               fi
-              # if [ ${CATEGORY} = "跨专业选修" ]
-              # then
-              #   echo "[查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
-              # fi
-              if [ ${CATEGORY} = "研究生阶段课程" ]
-              then
-                echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
-              fi
-              echo "<!--more-->" >> "${semester}-${category}.txt"
-              echo "{{< cards >}}" >> "${semester}-${category}.txt"
-            fi
-            
-            echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
-            echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
+              
+              curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
+              tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
 
-            echo '---' > "./content/docs/${semester}/${line}.md"
-            echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
-            if [ ${CATEGORY} = "必修" ]
-            then
-              counter_man=$((${counter_man}+1));
-              echo "weight: ${counter_man}" >> "./content/docs/${semester}/${line}.md"
-            elif [ ${CATEGORY} = "限选" ]
-            then
-              counter_dis=$((${counter_dis}+1));
-              echo "weight: ${counter_dis}" >> "./content/docs/${semester}/${line}.md"
-            elif [ ${CATEGORY} = "研究生阶段课程" ]
-            then
-              counter_dis=$((${counter_graduate}+1));
-              echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
-            else
-              counter_cross=$((${counter_cross}+1));
-              echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
-            fi
-            echo 'toc: true' >> "./content/docs/${semester}/${line}.md"
-            echo "editURL: \"https://github.com/HITSZ-OpenAuto/${line}/edit/main/README.md\"" >> "./content/docs/${semester}/${line}.md"
-            echo "math: true" >> "./content/docs/${semester}/${line}.md"
-            echo '---' >> "./content/docs/${semester}/${line}.md"
+              for _ in {1..3}; do
+                echo '<br>' >> "./content/docs/${semester}/${line}.md"
+              done
 
-            if [ ${CATEGORY} = "限选" ]
-            then
-              MODULE=`cat "tag_${line}.txt" | grep -E "^module:..*$" | sed -E 's/^module:.(.*)$/\1/'`
-              echo "该课程属于限选课程的${MODULE}模块。" >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md" && echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
+              python scripts/gen_links.py HITSZ-OpenAuto ${line} kowyo ${{ secrets.PERSONAL_TOKEN }}
+              cat result.txt >> "./content/docs/${semester}/${line}.md"
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
-              echo "什么是${MODULE}模块？请查阅[限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)。" >> "./content/docs/${semester}/${line}.md"
-            fi
-            
-            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
-            tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
 
-            for _ in {1..3}; do
-              echo '<br>' >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md" && cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
             done
-
-            echo >> "./content/docs/${semester}/${line}.md"
-            echo >> "./content/docs/${semester}/${line}.md" && echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
-            echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/gen_links.py HITSZ-OpenAuto ${line} kowyo ${{ secrets.PERSONAL_TOKEN }}
-            cat result.txt >> "./content/docs/${semester}/${line}.md"
-            echo '<br>' >> "./content/docs/${semester}/${line}.md"
-
-            echo >> "./content/docs/${semester}/${line}.md"
-            echo >> "./content/docs/${semester}/${line}.md" && cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
-          done
       
       - name: Build Guide Pages
         run: |
