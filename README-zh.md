@@ -37,14 +37,14 @@ brew install hugo
 sudo snap install hugo
 ```
 
-### Run the development server
+### 在本地环境下运行
 
 ```bash
 cd hoa.moe
 hugo server
 ```
 
-现在，你可以在浏览器里访问 `http://localhost:1313` 查看网站的本地运行版本。
+现在，你可以在浏览器里访问 `http://localhost:1313` 查看网站的本地运行版本进行网站开发。
 
 ## 如何贡献
 
