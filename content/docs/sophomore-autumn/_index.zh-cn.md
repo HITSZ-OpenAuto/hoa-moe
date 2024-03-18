@@ -8,7 +8,6 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="phys1002a"title="大学物理实验IA">}}
 {{< card link="math1005"title="复变函数与积分变换">}}
 {{< card link="math1004"title="概率论与数理统计">}}
 {{< card link="ee1011b"title="电路IB">}}
