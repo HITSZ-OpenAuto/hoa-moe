@@ -272,6 +272,7 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md" && cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
             done
+          done
       
       - name: Build Guide Pages
         run: |
