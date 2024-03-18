@@ -22,6 +22,7 @@ sidebar:
   {{< card link="https://n92uuvwhvl.feishu.cn/docx/doxcnjhfZtDck76yesZH5yOREtf" title="网盘计划" >}}
   {{< card link="https://hitsz.flowus.cn/" title="HITSZ 计科手册" >}}
   {{< card link="https://open.osa.moe/" title="Alist 网盘" >}}
+  {{< card link="https://doby.tech" title="一键导入课程表" >}}
 {{< /cards >}}
 
 ## 个人博客
