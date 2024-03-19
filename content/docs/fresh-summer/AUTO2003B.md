@@ -105,7 +105,6 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 ## 资料下载
 
-如果你是哈深学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO2003B) 查看电子书和课件
 {{< filetree/container >}}
   {{< filetree/folder name="course_design" state="closed" >}}
     {{< filetree/file name="创新训练课B报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
@@ -127,6 +126,7 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
     {{< filetree/file name="课程设计题目.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
+如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO2003B) 查看电子书和课件
 <br>
 
 

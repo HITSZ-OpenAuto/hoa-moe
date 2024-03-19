@@ -40,7 +40,6 @@ math: true
 
 ## 资料下载
 
-如果你是哈深学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3001A) 查看电子书和课件
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
   {{< filetree/folder name="2019_作业答案" state="closed" >}}
@@ -139,6 +138,7 @@ math: true
     {{< filetree/file name="2023课件合订本.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2023%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
+如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3001A) 查看电子书和课件
 <br>
 
 

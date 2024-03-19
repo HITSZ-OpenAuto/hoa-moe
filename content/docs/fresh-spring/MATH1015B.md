@@ -60,7 +60,6 @@ math: true
 
 ## 资料下载
 
-如果你是哈深学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/MATH1015B) 查看电子书和课件
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
     {{< filetree/file name="1_第七章微分方程作业答案（7.6-7.9）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf" >}}
@@ -123,6 +122,7 @@ math: true
     {{< filetree/file name="高等数学（下册）易遗忘知识点.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
+如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/MATH1015B) 查看电子书和课件
 <br>
 
 
