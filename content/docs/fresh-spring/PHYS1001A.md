@@ -70,7 +70,7 @@ math: true
 
 ## 资料下载
 
-[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/PHYS1001A)
+如果你是哈深学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/PHYS1001A) 查看电子书和课件
 {{< filetree/container >}}
   {{< filetree/folder name="exams" state="closed" >}}
     {{< filetree/file name="2020物理1A.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2020%E7%89%A9%E7%90%861A.pdf" >}}

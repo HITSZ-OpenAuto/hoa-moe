@@ -28,7 +28,7 @@ math: true
 
 ## 资料下载
 
-[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/AUTO3002B)
+如果你是哈深学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3002B) 查看电子书和课件
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
   {{< filetree/folder name="LL_Version" state="closed" >}}
