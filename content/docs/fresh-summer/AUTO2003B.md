@@ -126,6 +126,7 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
     {{< filetree/file name="课程设计题目.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
+<br>
 如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO2003B) 查看电子书和课件
 <br>
 

@@ -107,6 +107,7 @@ math: true
     {{< filetree/file name="笔记和课后习题（含考研真题）详解_compressed.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3_compressed.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
+<br>
 如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/PHYS1001A) 查看电子书和课件
 <br>
 

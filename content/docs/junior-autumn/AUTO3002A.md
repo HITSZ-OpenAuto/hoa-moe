@@ -277,6 +277,7 @@ math: true
     {{< filetree/file name="自控实践_by_Spar Océsel_2023.apkg" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5_by_Spar%20Oc%C3%A9sel_2023.apkg" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
+<br>
 如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3002A) 查看电子书和课件
 <br>
 

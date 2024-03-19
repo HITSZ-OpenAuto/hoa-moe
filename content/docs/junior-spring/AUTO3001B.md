@@ -100,6 +100,7 @@ math: true
     {{< filetree/file name="9-状态空间综合xj.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/slides/9-%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E7%BB%BC%E5%90%88xj.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
+<br>
 如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3001B) 查看电子书和课件
 <br>
 

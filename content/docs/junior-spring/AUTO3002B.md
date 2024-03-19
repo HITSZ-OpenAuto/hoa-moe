@@ -76,6 +76,7 @@ math: true
     {{< filetree/file name="第9章，课程总结.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC9%E7%AB%A0%EF%BC%8C%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
+<br>
 如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3002B) 查看电子书和课件
 <br>
 
