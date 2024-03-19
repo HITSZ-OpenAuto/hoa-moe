@@ -1,6 +1,6 @@
 ---
 title: (必修)创新训练课B
-weight: 24
+weight: 23
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
@@ -105,6 +105,7 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 ## 资料下载
 
+[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/AUTO2003B)
 {{< filetree/container >}}
   {{< filetree/folder name="course_design" state="closed" >}}
     {{< filetree/file name="创新训练课B报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}

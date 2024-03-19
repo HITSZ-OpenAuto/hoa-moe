@@ -28,6 +28,7 @@ math: true
 
 ## 资料下载
 
+[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/AUTO3002B)
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
   {{< filetree/folder name="LL_Version" state="closed" >}}

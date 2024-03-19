@@ -194,6 +194,7 @@ math: true
 
 ## 资料下载
 
+[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/AUTO3002A)
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
     {{< filetree/file name="ACPP_HW1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW1.pdf" >}}

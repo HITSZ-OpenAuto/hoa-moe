@@ -1,6 +1,6 @@
 ---
 title: (必修)微积分B
-weight: 28
+weight: 27
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
@@ -60,6 +60,7 @@ math: true
 
 ## 资料下载
 
+[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/MATH1015B)
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
     {{< filetree/file name="1_第七章微分方程作业答案（7.6-7.9）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf" >}}

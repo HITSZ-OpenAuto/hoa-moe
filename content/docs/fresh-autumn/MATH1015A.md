@@ -1,6 +1,6 @@
 ---
 title: (必修)微积分A
-weight: 33
+weight: 32
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
@@ -50,6 +50,7 @@ math: true
 
 ## 资料下载
 
+[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/MATH1015A)
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
     {{< filetree/file name="书后期中考题答案.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E4%B9%A6%E5%90%8E%E6%9C%9F%E4%B8%AD%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88.zip" >}}

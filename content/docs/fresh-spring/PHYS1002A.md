@@ -85,6 +85,7 @@ math: true
 
 ## 资料下载
 
+[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/PHYS1002A)
 {{< filetree/container >}}
   {{< filetree/folder name="Exp01" state="closed" >}}
   {{< filetree/folder name="用示波器观察磁滞回线-MaxwellJay" state="closed" >}}
