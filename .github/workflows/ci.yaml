@@ -265,8 +265,7 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md" && echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
-              echo -n "[电子书、课件等资料下载（校内网访问）](https://open.osa.moe/openauto/" >> "./content/docs/${semester}/${line}.md"
-              echo -n "${line}" >> "./content/docs/${semester}/${line}.md" && echo ")" >> "./content/docs/${semester}/${line}.md"
+              echo "如果你是哈深学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/${line}) 查看电子书和课件" >> "./content/docs/${semester}/${line}.md"
               python scripts/gen_links.py HITSZ-OpenAuto ${line} kowyo ${{ secrets.PERSONAL_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
