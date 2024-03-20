@@ -39,7 +39,7 @@ Issues、Pull Requests、纠错、资料、选课/考试攻略，完全欢迎！
 
 2. 也可以直接把文件提交到 Issues 中，由维护者进行添加。
 
-3. 发邮件至我们的邮箱 [hi@hoa.moe](mailto:hoa.moe) 。
+3. 发邮件至我们的邮箱 [hi@hoa.moe](mailto:hi@hoa.moe) 。
 
 ## 鸣谢
 
