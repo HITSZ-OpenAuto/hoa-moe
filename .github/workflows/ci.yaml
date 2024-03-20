@@ -84,7 +84,7 @@ jobs:
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring')
           semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春')
-          category_arr='mandatory distributional-selective cross-major-selective graduate-course'
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course legacy'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
@@ -115,6 +115,7 @@ jobs:
           counter_dis=100
           counter_graduate=200
           counter_cross=300
+          counter_legacy=1000
           for line in $(cat repos.txt)
           do
             echo '-------------------------------------------------'
@@ -192,6 +193,9 @@ jobs:
                 '跨专业选修')
                   category='cross-major-selective'
                   ;;
+                '不再开课')
+                  category='legacy'
+                  ;;
                 *)
                   echo "No match category"
                   continue
@@ -217,6 +221,10 @@ jobs:
                 then
                   echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
                 fi
+                if [ ${CATEGORY} = "不再开课" ]
+                then
+                  echo "此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了，但原课程资料仍保留，感兴趣的同学可以自行查阅。" >> "${semester}-${category}.txt"
+                fi
                 echo "<!--more-->" >> "${semester}-${category}.txt"
                 echo "{{< cards >}}" >> "${semester}-${category}.txt"
               fi
@@ -236,8 +244,12 @@ jobs:
                 echo "weight: ${counter_dis}" >> "./content/docs/${semester}/${line}.md"
               elif [ ${CATEGORY} = "研究生阶段课程" ]
               then
-                counter_dis=$((${counter_graduate}+1));
+                counter_graduate=$((${counter_graduate}+1));
                 echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "不再开课" ]
+              then
+                counter_legacy=$((${counter_legacy}+1));
+                echo "weight: ${counter_legacy}" >> "./content/docs/${semester}/${line}.md"
               else
                 counter_cross=$((${counter_cross}+1));
                 echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
@@ -279,7 +291,7 @@ jobs:
       - name: Build Guide Pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring')
-          category_arr='mandatory distributional-selective cross-major-selective graduate-course'
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course legacy'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
