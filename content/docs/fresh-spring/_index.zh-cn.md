@@ -8,7 +8,7 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="phys1002a"title="大学物理实验IA">}}
+{{< card link="phys1002a"title="大学物理实验">}}
 {{< card link="auto2006"title="控制理论中的代数基础">}}
 {{< card link="geip1016"title="中国近现代史纲要">}}
 {{< card link="phys1001a"title="大学物理">}}

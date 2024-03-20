@@ -8,6 +8,7 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
+{{< card link="phys1002a"title="大学物理实验">}}
 {{< card link="ee1007"title="模拟电子技术基础">}}
 {{< card link="ee1009"title="数字电子技术基础">}}
 {{< card link="ee1010"title="数字电子技术实验">}}
