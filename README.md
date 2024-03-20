@@ -11,7 +11,7 @@ This is the website of [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto), buil
 - **Fast** - Built with Hugo, the world's fastest framework for building websites.
 - **Responsive Layout and Dark Mode** - It looks great on all devices, from mobile, tablet to desktop. Dark mode is also supported to accommodate various lighting conditions.
 - **Full-text Search** - Built-in offline full-text search powered by FlexSearch, no additional configuration required.
-- **Comments** - Support comments powered by [cusdis](https://cusdis.com/).
+- **Comments** - Support comments powered by [giscus](https://giscus.app/).
 - **Continuous integration** - All of the documents are automatically fetched from the repositories of [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto), and updated without manual intervention.
 
 ## Quick Start
