@@ -193,7 +193,7 @@ jobs:
                 '跨专业选修')
                   category='cross-major-selective'
                   ;;
-                '不再开课')
+                '归档')
                   category='legacy'
                   ;;
                 *)
@@ -221,7 +221,7 @@ jobs:
                 then
                   echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
                 fi
-                if [ ${CATEGORY} = "不再开课" ]
+                if [ ${CATEGORY} = "归档" ]
                 then
                   echo "此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了，但原课程资料仍保留，感兴趣的同学可以自行查阅。" >> "${semester}-${category}.txt"
                 fi
@@ -246,7 +246,7 @@ jobs:
               then
                 counter_graduate=$((${counter_graduate}+1));
                 echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
-              elif [ ${CATEGORY} = "不再开课" ]
+              elif [ ${CATEGORY} = "归档" ]
               then
                 counter_legacy=$((${counter_legacy}+1));
                 echo "weight: ${counter_legacy}" >> "./content/docs/${semester}/${line}.md"
