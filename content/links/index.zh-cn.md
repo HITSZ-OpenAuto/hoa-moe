@@ -23,6 +23,7 @@ sidebar:
   {{< card link="https://hitsz.flowus.cn/" title="HITSZ 计科手册" >}}
   {{< card link="https://open.osa.moe/" title="Alist 网盘" >}}
   {{< card link="https://doby.tech" title="一键导入课程表" >}}
+  {{< card link="http://219.223.238.14:88/ve/" title="课程回放" >}}
 {{< /cards >}}
 
 ## 个人博客
