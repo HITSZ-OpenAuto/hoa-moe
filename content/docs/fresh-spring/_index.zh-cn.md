@@ -14,6 +14,7 @@ toc: false
 {{< card link="phys1001a"title="大学物理">}}
 {{< card link="math1015b"title="微积分B">}}
 {{< card link="ee1011a"title="电路IA">}}
+{{< card link="pe100x"title="体育">}}
 {{< /cards >}}
 
 

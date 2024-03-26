@@ -12,6 +12,7 @@ toc: false
 {{< card link="math1002"title="代数与几何">}}
 {{< card link="lang1006"title="大学英语A">}}
 {{< card link="math1015a"title="微积分A">}}
+{{< card link="pe100x"title="体育">}}
 {{< /cards >}}
 
 
