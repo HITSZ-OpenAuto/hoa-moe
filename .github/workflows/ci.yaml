@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -280,7 +280,7 @@ jobs:
               python scripts/gen_links.py HITSZ-OpenAuto ${line} kowyo ${{ secrets.PERSONAL_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
-              echo "如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/${line}) 查看电子书和课件" >> "./content/docs/${semester}/${line}.md"
+              echo "如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/${line}) 查看本门课程的电子书和课件" >> "./content/docs/${semester}/${line}.md"
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
 
               echo >> "./content/docs/${semester}/${line}.md"
