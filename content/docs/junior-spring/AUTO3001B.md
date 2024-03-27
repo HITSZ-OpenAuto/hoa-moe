@@ -101,7 +101,7 @@ math: true
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 <br>
-如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3001B) 查看电子书和课件
+如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3001B) 查看本门课程的电子书和课件
 <br>
 
 
