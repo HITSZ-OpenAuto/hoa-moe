@@ -1,5 +1,5 @@
 ---
-title: (必修)大学物理
+title: （必修）大学物理
 weight: 26
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A/edit/main/README.md"
