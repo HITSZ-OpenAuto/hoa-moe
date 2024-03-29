@@ -233,7 +233,7 @@ jobs:
               echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
 
               echo '---' > "./content/docs/${semester}/${line}.md"
-              echo "title: (${CATEGORY})$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+              echo "title: （${CATEGORY}）$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
               if [ ${CATEGORY} = "必修" ]
               then
                 counter_man=$((${counter_man}+1));
