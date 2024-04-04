@@ -2,7 +2,7 @@ baseURL: "https://hoa.moe/"
 languageCode: zh-cn
 title: HITSZ 自动化课程攻略共享计划
 
-theme: hextra
+theme: ["hextra", "hugo-embed-pdf-shortcode"]
 
 enableRobotsTXT: true
 enableGitInfo: true
