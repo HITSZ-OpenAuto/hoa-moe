@@ -9,6 +9,7 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="auto2003b"title="创新训练课B">}}
+{{< card link="auto2003a"title="创新训练课A">}}
 {{< /cards >}}
 
 
