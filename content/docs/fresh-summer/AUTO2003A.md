@@ -9,7 +9,7 @@ math: true
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
 ![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
 
-## Awesome 大一立项
+## Awesome HITSZ 大一立项
 
 收集 HITSZ 中有意思的大一立项项目：
 
