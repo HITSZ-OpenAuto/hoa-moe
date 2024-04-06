@@ -38,9 +38,6 @@ math: true
     {{< filetree/file name="HW5.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/assignments/LL_Version/HW5.pdf" >}}
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
-  {{< filetree/folder name="books" state="closed" >}}
-    {{< filetree/file name="《控制系统设计》.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/books/%E3%80%8A%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E3%80%8B.pdf" >}}
-  {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
     {{< filetree/file name="☆老师官方版stm32题库★.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E2%98%86%E8%80%81%E5%B8%88%E5%AE%98%E6%96%B9%E7%89%88stm32%E9%A2%98%E5%BA%93%E2%98%85.pdf" >}}
     {{< filetree/file name="《黄瑞宁漏出》.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E3%80%8A%E9%BB%84%E7%91%9E%E5%AE%81%E6%BC%8F%E5%87%BA%E3%80%8B.pdf" >}}
