@@ -17,5 +17,6 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="auto5003"title="最优估计">}}
+{{< card link="auto5023"title="凸优化与最优控制">}}
 {{< /cards >}}
 
