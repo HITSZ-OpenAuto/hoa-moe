@@ -35,6 +35,7 @@ layout: hextra-home
     image="images/contents.webp"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    link="/docs"
   >}}
   {{< hextra/feature-card
     title="通过 GitHub 维护"
@@ -43,13 +44,15 @@ layout: hextra-home
     image="/images/github.webp"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+    link="https://github.com/HITSZ-OpenAuto"
   >}}
   {{< hextra/feature-card
-    title="全文搜索"
-    subtitle="内置 FlexSearch 全文搜索"
+    title="技术博客分享"
+    subtitle="支持 RSS 订阅"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/search.webp"
+    image="/images/blog.webp"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+    link="/blog"
   >}}
 {{< /hextra/feature-grid >}}
