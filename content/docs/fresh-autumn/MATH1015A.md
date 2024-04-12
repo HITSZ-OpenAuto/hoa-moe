@@ -91,6 +91,10 @@ math: true
     {{< filetree/file name="高数-2021秋-期中-深圳-答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2021%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2021%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="高数-2021秋-期中-深圳-试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2021%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2021%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.pdf" >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="2022年试题" state="closed" >}}
+    {{< filetree/file name="微积分A-2022秋-期中-深圳-试题（回忆版）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2022%E5%B9%B4%E8%AF%95%E9%A2%98/%E5%BE%AE%E7%A7%AF%E5%88%86A-2022%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E9%A2%98%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
+    {{< filetree/file name="微积分A-2022秋-期末-深圳-试题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2022%E5%B9%B4%E8%AF%95%E9%A2%98/%E5%BE%AE%E7%A7%AF%E5%88%86A-2022%E7%A7%8B-%E6%9C%9F%E6%9C%AB-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E9%A2%98.pdf" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="2023年试题" state="closed" >}}
     {{< filetree/file name="2023_微积分A_先修_印刷版试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2023%E5%B9%B4%E8%AF%95%E9%A2%98/2023_%E5%BE%AE%E7%A7%AF%E5%88%86A_%E5%85%88%E4%BF%AE_%E5%8D%B0%E5%88%B7%E7%89%88%E8%AF%95%E5%8D%B7.pdf" >}}
     {{< filetree/file name="2023_微积分A_先修_试题解答.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2023%E5%B9%B4%E8%AF%95%E9%A2%98/2023_%E5%BE%AE%E7%A7%AF%E5%88%86A_%E5%85%88%E4%BF%AE_%E8%AF%95%E9%A2%98%E8%A7%A3%E7%AD%94.pdf" >}}
