@@ -1,6 +1,6 @@
 ---
 title: 你的学生邮箱能薅到哪些羊毛？
-description: 使用学生邮箱可以申请到的免费软件清单
+description: 自动化本科期间可以用到的免费正版软件清单
 date: 2024-01-29T20:15:00+08:00
 authors: 
     - name: Maxwell Jay
@@ -89,3 +89,13 @@ Autodesk 的教育访问权限允许用户免费获得其绝大多数软件产�
 **申请链接**：[**Origin Student Version - OriginLab**](https://www.originlab.com/index.aspx?go=PRODUCTS/OriginStudentVersion)
 
 [Origin](https://www.originlab.com/index.aspx?go=PRODUCTS/Origin) 是来自 [OriginLab](https://www.originlab.com/) 的数据分析和绘图软件，并且拥有 `C++` 和 `Python` API。
+
+### HALCON
+
+MVTec HALCON 是一款综合性的机器视觉标准软件，拥有全球通用的集成开发环境 (HDevelop)。它不仅能够节约成本而且缩短您产品进入市场的时间。HALCON 的灵活架构有利于快速开发任何类型的机器视觉应用。
+
+HALCON 虽然也有针对教育用户推出的免费版本，并不可以用 HIT 的学生邮箱申请，拒绝理由显示所在地区没有该计划。所幸 HALCON 对免费试用的申请并不严格，申请 HALCON 正版试用的方法有：
+
+- 联系中国代理商申请，这也是官方的唯一正规渠道（笔者 Kowyo 亲自尝试，回复很迅速）。
+- 这个 [GitHub 仓库](https://github.com/lovelyyoshino/Halcon_licenses) 有每个月更新的 HALCON 试用许可证。
+- 淘宝有一家店也售卖相关的许可证，软件从官网下载即可。
