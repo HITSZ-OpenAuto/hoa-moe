@@ -1,5 +1,4 @@
 baseURL: "https://hoa.moe/"
-languageCode: zh-cn
 title: HITSZ 自动化课程攻略共享计划
 
 theme: ["hextra", "hugo-embed-pdf-shortcode"]
@@ -102,7 +101,7 @@ params:
 
   page:
     # full (100%), wide (90rem), normal (1280px)
-    width: wide
+    width: normal
 
   theme:
     # light | dark | system
@@ -126,6 +125,9 @@ params:
     flexsearch:
       # index page by: content | summary | heading | title
       index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
 
   editURL:
     enable: true
