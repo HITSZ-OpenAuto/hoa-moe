@@ -8,8 +8,8 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="auto3002b"title="自动控制实践B">}}
 {{< card link="auto3001b"title="自动控制理论B">}}
+{{< card link="auto3002b"title="自动控制实践B">}}
 {{< /cards >}}
 ## 限选
 [查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)

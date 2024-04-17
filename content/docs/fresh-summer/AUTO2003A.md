@@ -1,6 +1,6 @@
 ---
 title: （必修）创新训练课A
-weight: 37
+weight: 36
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true

@@ -1,6 +1,6 @@
 ---
 title: （必修）自动控制实践B
-weight: 6
+weight: 38
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
@@ -66,34 +66,13 @@ math: true
     {{< filetree/file name="《黄瑞宁漏出》.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E3%80%8A%E9%BB%84%E7%91%9E%E5%AE%81%E6%BC%8F%E5%87%BA%E3%80%8B.pdf" >}}
     {{< filetree/file name="本部2020答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A82020%E7%AD%94%E6%A1%88.pdf" >}}
   {{< /filetree/folder >}}
-  {{< filetree/folder name="experiment" state="closed" >}}
+  {{< filetree/folder name="labs" state="closed" >}}
   {{< filetree/folder name="综合实验" state="closed" >}}
-    {{< filetree/file name="综合实验任务书.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/experiment/%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C/%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E4%BB%BB%E5%8A%A1%E4%B9%A6.pdf" >}}
+    {{< filetree/file name="综合实验任务书.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C/%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E4%BB%BB%E5%8A%A1%E4%B9%A6.pdf" >}}
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="notes" state="closed" >}}
     {{< filetree/file name="Revision of Auto-Practical.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/Revision%20of%20Auto-Practical.pdf" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="slides" state="closed" >}}
-    {{< filetree/file name="STM32_Class_1&2&3&4&5....pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/STM32_Class_1%262%263%264%265....pdf" >}}
-    {{< filetree/file name="第1章，绪论.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC1%E7%AB%A0%EF%BC%8C%E7%BB%AA%E8%AE%BA.pdf" >}}
-    {{< filetree/file name="第2章，控制系统的设计流程-1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC2%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%B5%81%E7%A8%8B-1.pdf" >}}
-    {{< filetree/file name="第2章，控制系统的设计流程-2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC2%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%B5%81%E7%A8%8B-2.pdf" >}}
-    {{< filetree/file name="第3章，控制系统的输入条件分析-1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-1.pdf" >}}
-    {{< filetree/file name="第3章，控制系统的输入条件分析-2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-2.pdf" >}}
-    {{< filetree/file name="第3章，控制系统的输入条件分析-3.pptx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-3.pptx" >}}
-    {{< filetree/file name="第3章，控制系统的输入条件分析-4.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-4.pdf" >}}
-    {{< filetree/file name="第3章，控制系统的输入条件分析-5.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-5.pdf" >}}
-    {{< filetree/file name="第4章，控制系统的设计约束-1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC4%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E7%BA%A6%E6%9D%9F-1.pdf" >}}
-    {{< filetree/file name="第4章，控制系统的设计约束-2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC4%E7%AB%A0%EF%BC%8C%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E7%BA%A6%E6%9D%9F-2.pdf" >}}
-    {{< filetree/file name="第5章，Anti-Windup设计-1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC5%E7%AB%A0%EF%BC%8CAnti-Windup%E8%AE%BE%E8%AE%A1-1.pdf" >}}
-    {{< filetree/file name="第5章，Anti-Windup设计-2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC5%E7%AB%A0%EF%BC%8CAnti-Windup%E8%AE%BE%E8%AE%A1-2.pdf" >}}
-    {{< filetree/file name="第6章，伺服系统的设计-1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC6%E7%AB%A0%EF%BC%8C%E4%BC%BA%E6%9C%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1-1.pdf" >}}
-    {{< filetree/file name="第6章，伺服系统的设计-2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC6%E7%AB%A0%EF%BC%8C%E4%BC%BA%E6%9C%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1-2.pdf" >}}
-    {{< filetree/file name="第7章，调节系统的设计-1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC7%E7%AB%A0%EF%BC%8C%E8%B0%83%E8%8A%82%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1-1.pdf" >}}
-    {{< filetree/file name="第7章，调节系统的设计-2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC7%E7%AB%A0%EF%BC%8C%E8%B0%83%E8%8A%82%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1-2.pdf" >}}
-    {{< filetree/file name="第8章，多回路系统的设计.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC8%E7%AB%A0%EF%BC%8C%E5%A4%9A%E5%9B%9E%E8%B7%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1.pdf" >}}
-    {{< filetree/file name="第9章，课程总结.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E7%AC%AC9%E7%AB%A0%EF%BC%8C%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 <br>
