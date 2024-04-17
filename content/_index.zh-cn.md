@@ -48,7 +48,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="技术博客分享"
-    subtitle="支持 RSS 订阅"
+    subtitle="优质长文内容，支持 RSS 订阅"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/blog.webp"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
