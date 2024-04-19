@@ -50,11 +50,11 @@ Open `http://localhost:1313` in your browser.
 
 If you want to contribute to the documentation, please refer to the [HITSZ OpenAuto 文档编写指南](https://hoa.moe/blog/writing-rules/).
 
-To post your article, you can simply create a new markdown file in the `content/blog` directory, and submit a pull request.If you are not familiar with Git, you can also send your article to [📮hi@hoa.moe](mailto:hi@hoa.moe). We will review your article and merge it into the main branch if it meets the [requirements](https://github.com/HITSZ-OpenAuto/.github/blob/main/pull_request_template.md).
+To post your article, you can simply create a new markdown file in the `content/blog` directory, and submit a pull request. If you are not familiar with Git, you can also send your article to [📮hi@hoa.moe](mailto:hi@hoa.moe). We will review your articl once we receive it.
 
 ## License
 
-This project is licensed under the CC BY-NC-SA 4.0 License.
+The content on the project is licensed under the CC BY-NC-SA 4.0 License. The source code is licensed under [MIT License](LICENSE).
 
 ## Acknowledgements
 

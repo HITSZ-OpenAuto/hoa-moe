@@ -50,11 +50,11 @@ hugo server
 
 如果你想为本网站贡献说明文档，请阅读 [HITSZ OpenAuto 文档编写指南](https://hoa.moe/blog/writing-rules/)。
 
-如果你想在本网站发布博客文章，你可以在 `content/blog` 文件夹下按照格式创建一个新的 markdown 文本文件, 编辑完成后向我们提交 pull request。如果你不熟悉 Git 的使用方法, 你也可以将文章通过邮件的方式发送至 [📮hi@hoa.moe](mailto:hi@hoa.moe)。如果符合 [相关要求](https://github.com/HITSZ-OpenAuto/.github/blob/main/pull_request_template.md)，我们会将你的文章合并至主分支。
+如果你想在本网站发布博客文章，你可以在 `content/blog` 文件夹下按照格式创建一个新的 markdown 文本文件, 编辑完成后向我们提交 pull request。如果你不熟悉 Git 的使用方法, 你也可以将文章通过邮件的方式发送至 [📮hi@hoa.moe](mailto:hi@hoa.moe)，我们会在第一时间审核你的文章。
 
 ## 开源许可证
 
-本项目采用 CC BY-NC-SA 4.0 协议。
+由贡献者编写部分的许可采用 CC BY-NC-SA 4.0 协议；本网站源代码采用 [MIT 许可](LICENSE)。
 
 ## 鸣谢
 
