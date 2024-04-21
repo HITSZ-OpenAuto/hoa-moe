@@ -14,6 +14,7 @@ toc: false
 {{< card link="ee1010"title="数字电子技术实验">}}
 {{< card link="ee1008"title="模拟电子技术实验">}}
 {{< card link="emec1002"title="理论力学Ⅱ">}}
+{{< card link="lang1006"title="大学英语">}}
 {{< card link="pe100x"title="体育">}}
 {{< /cards >}}
 ## 限选

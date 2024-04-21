@@ -10,7 +10,7 @@ toc: false
 {{< cards >}}
 {{< card link="comp2021"title="高级语言程序设计">}}
 {{< card link="math1002"title="代数与几何">}}
-{{< card link="lang1006"title="大学英语A">}}
+{{< card link="lang1006"title="大学英语">}}
 {{< card link="math1015a"title="微积分A">}}
 {{< card link="pe100x"title="体育">}}
 {{< /cards >}}
