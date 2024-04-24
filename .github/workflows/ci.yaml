@@ -280,7 +280,7 @@ jobs:
               python scripts/gen_links.py HITSZ-OpenAuto ${line} kowyo ${{ secrets.PERSONAL_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
-              echo "如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/${line}) 查看本门课程的电子书、课件和实验软件等。" >> "./content/docs/${semester}/${line}.md"
+              echo "如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/${line}'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。" >> "./content/docs/${semester}/${line}.md"
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
 
               echo >> "./content/docs/${semester}/${line}.md"
