@@ -9,6 +9,10 @@ comments: true
 
 HITSZ 自动化课程攻略共享计划最初由 [@lmh12138](https://github.com/lmh12138) 创建，现由 [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto) 维护。
 
+<h3 align="center">
+	<img src="/images/HITSZOpenAutoShadow.png" width="300" alt="Logo"/><br/>
+</h3>
+
 ## 愿景
 
 1. **尊重并保护知识产权**。
