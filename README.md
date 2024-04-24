@@ -62,3 +62,4 @@ The content on the project is licensed under the CC BY-NC-SA 4.0 License. The so
 
 - [Hugo](https://gohugo.io/)
 - [Hextra](https://imfing.github.io/hextra/)
+- - [Programming VTuber Logos (addon edition)](https://github.com/PetricaT/ProgrammingVTuberLogos-Addon), [@Petrica](https://github.com/PetricaT) helped us with designing the wonderful logo in homepage.
