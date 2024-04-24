@@ -1,8 +1,11 @@
-# hoa.moe
+<h3 align="center">
+	<img src="./static/images/HITSZOpenAutoShadow.png" width="400" alt="Logo"/><br/>
+</h3>
+<h1 align="center">hoa.moe</h1>
+<h5 align="center"><a href="README.md">English</a> | <a href="README-zh.md">中文</a></h5>
 
-[English](README.md) | [中文](README-zh.md)
+<p align="center">本网站使用 <a href="https://gohugo.io/">Hugo</a> 框架和 <a href="https://imfing.github.io/hextra/">Hextra</a> 主题进行构建，由 <a href="https://github.com/HITSZ-OpenAuto">HITSZ OpenAuto</a>团队管理维护。</p>
 
-本网站使用 [Hugo](https://gohugo.io/) 框架和 [Hextra](https://imfing.github.io/hextra/) 主题进行构建，由 [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto) 团队管理维护。
 
 ![showcase](static/images/showcase.webp)
 
@@ -60,3 +63,4 @@ hugo server
 
 - [Hugo](https://gohugo.io/)
 - [Hextra](https://imfing.github.io/hextra/)
+- [Programming VTuber Logos (addon edition)](https://github.com/PetricaT/ProgrammingVTuberLogos-Addon), [@Petrica](https://github.com/PetricaT) 帮助我们设计了首页中好看的 Logo

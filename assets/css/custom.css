@@ -273,3 +273,8 @@ label.openToc::after{
     @apply rotate-90;
   }
 }
+
+
+.grid-col-span-2 {
+    grid-column-start: span 2;
+}
