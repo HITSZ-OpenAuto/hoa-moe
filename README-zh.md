@@ -63,3 +63,4 @@ hugo server
 
 - [Hugo](https://gohugo.io/)
 - [Hextra](https://imfing.github.io/hextra/)
+- [Programming VTuber Logos (addon edition)](https://github.com/PetricaT/ProgrammingVTuberLogos-Addon), [@Petrica](https://github.com/PetricaT) 帮助我们设计了首页中好看的 Logo
