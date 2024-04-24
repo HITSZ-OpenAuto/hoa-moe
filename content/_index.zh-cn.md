@@ -9,21 +9,10 @@ layout: hextra-home
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
-<div class="hx-mt-6 hx-mb-6">
-{{< hextra/hero-headline >}}
+{{< hero-container image="/images/HITSZOpenAuto.png" subtitle="由 HITSZ OpenAuto 维护&nbsp;<br class='sm:hx-block hx-hidden' />为 HITSZ 学子提供课程攻略共享平台" button_text="查看文档" button_link="docs" >}}
   HITSZ 自动化课程攻略共享计划
-{{< /hextra/hero-headline >}}
-</div>
+{{< /hero-container >}}
 
-<div class="hx-mb-12">
-{{< hextra/hero-subtitle >}}
-  由 HITSZ OpenAuto 维护&nbsp;<br class="sm:hx-block hx-hidden" />为 HITSZ 学子提供课程攻略共享平台
-{{< /hextra/hero-subtitle >}}
-</div>
-
-<div class="hx-mb-6">
-{{< hextra/hero-button text="查看文档" link="docs" >}}
-</div>
 
 <div class="hx-mt-6"></div>
 

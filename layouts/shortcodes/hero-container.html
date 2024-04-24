@@ -1,0 +1,58 @@
+{{- $cols := .Get "cols" | default 3 -}}
+{{- $style := .Get "style" | default "" -}}
+{{- $image := .Get "image" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $button_link := .Get "button_link" -}}
+{{- $button_text := .Get "button_text" -}}
+
+{{- $css := printf "--hextra-feature-grid-cols: %v; %s" $cols $style -}}
+{{- $external := hasPrefix $button_link "http" -}}
+{{- $href := cond (hasPrefix $button_link "/") ($button_link | relURL) $button_link -}}
+
+<div
+  class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-1 hx-gap-10 hx-w-full not-prose"
+  {{ with $css }}style="{{ . | safeCSS }}"{{ end }}
+>
+    <div class="hx-py-1 grid-col-span-2">
+        <div class="hx-mt-6 hx-mb-6">
+            <h1
+            class="not-prose hx-text-4xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-5xl hx-py-1 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400"
+            {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+            >
+            {{ .Inner | markdownify }}
+            </h1><br/>
+        </div>
+
+        <div class="hx-mb-6">
+            <p
+            class="not-prose hx-text-xl hx-text-gray-600 dark:hx-text-gray-400 sm:hx-text-xl"
+            {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+            >
+            {{ $subtitle | markdownify }}
+            </p><br/>
+        </div>
+
+        <div class="hx-mb-6">
+            <a
+            href="{{ $href }}"
+            class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
+            {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+            {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
+            >
+            {{- $button_text -}}
+            </a>
+        </div>
+
+    </div>
+    {{ if $image }}
+    <div class="hx-py-3 float-right">
+        <img src={{ $image }} width="400" alt="Logo"/><br/>
+    </div>
+    {{ end -}}
+</div>
+
+
+
+
+
+
