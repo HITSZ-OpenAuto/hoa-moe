@@ -278,7 +278,7 @@ math: true
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 <br>
-如果你是校内学生，可移步至 [open.osa.moe](https://open.osa.moe/openauto/AUTO3002A) 查看本门课程的电子书、课件和实验软件等。
+如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO3002A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 <br>
 
 
