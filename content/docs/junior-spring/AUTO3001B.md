@@ -54,10 +54,6 @@ math: true
     {{< filetree/file name="第五次作业.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/5/%E7%AC%AC%E4%BA%94%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf" >}}
     {{< filetree/file name="自动控制原理B第五次作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/5/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%BA%94%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
   {{< /filetree/folder >}}
-  {{< filetree/folder name="6" state="closed" >}}
-    {{< filetree/file name="第六次作业.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/6/%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf" >}}
-    {{< filetree/file name="自动控制原理B第六次作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/6/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-  {{< /filetree/folder >}}
   {{< filetree/folder name="7" state="closed" >}}
     {{< filetree/file name="第七次作业.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/7/%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf" >}}
     {{< filetree/file name="自动控制原理B第七次作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/assignments/2023%E5%B9%B4%E6%98%A5/7/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
