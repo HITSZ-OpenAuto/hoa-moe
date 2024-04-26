@@ -6,7 +6,7 @@
 
 <p align="center">This is the website of <a href="https://github.com/HITSZ-OpenAuto">HITSZ OpenAuto</a>, built with <a href="https://gohugo.io/">Hugo</a> and <a href="https://imfing.github.io/hextra/">Hextra</a>.</p>
 
-![showcase](static/images/showcase.webp)
+![showcase](static/images/showcase-new.png)
 
 ## Features
 
