@@ -7,7 +7,7 @@
 <p align="center">本网站使用 <a href="https://gohugo.io/">Hugo</a> 框架和 <a href="https://imfing.github.io/hextra/">Hextra</a> 主题进行构建，由 <a href="https://github.com/HITSZ-OpenAuto">HITSZ OpenAuto</a>团队管理维护。</p>
 
 
-![showcase](static/images/showcase.webp)
+![showcase](static/images/showcase-new.png)
 
 ## 网站特点
 
