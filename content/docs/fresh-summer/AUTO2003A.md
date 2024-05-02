@@ -17,8 +17,6 @@ math: true
 - [Bike-Computer](https://github.com/MaxwellJay256/Bike-Computer) - 基于 ESP-32 和 esp-idf v4.4 的 自行车 GPS 码表
 - [stockanalysis-freshman-year-project](https://github.com/efJerryYang/stockanalysis-freshman-year-project) - 基于机器学习的股票预测和分析
 
-## 参与
-
 如果你发现了有意思的大一立项项目，或者想分享自己的大一立项项目，欢迎开立 Pull Request 来增加新內容。
 <br>
 <br>
