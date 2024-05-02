@@ -29,7 +29,9 @@
       <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
       {{ partial "google-analytics.html" . }}
     {{- end }}
-  
+    
+    <!-- Umami Cloud -->
+    <script async src="https://analytics.eu.umami.is/script.js" data-website-id="8f9fd64f-34e7-410c-a26c-786fd11a1780"></script>
   
     <script>
       /* Initialize light/dark mode */
@@ -44,16 +46,12 @@
         document.documentElement.style.colorScheme = "light";
       }
   
-      if ("color-theme" in localStorage) {
-        localStorage.getItem("color-theme") === "dark" ? setDarkTheme() : setLightTheme();
-      } else {
-        defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
-        if (defaultTheme === "system") {
-          window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
-        }
+      defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
+      if (defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
       }
+
     </script>
-    <script async src="https://analytics.eu.umami.is/script.js" data-website-id="8f9fd64f-34e7-410c-a26c-786fd11a1780"></script>
   
     {{ partial "custom/head-end.html" . }}
   </head>
