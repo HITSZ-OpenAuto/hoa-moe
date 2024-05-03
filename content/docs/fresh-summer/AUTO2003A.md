@@ -30,15 +30,6 @@ math: true
 <br>
 
 
-## 支持我们
+## 参与
 
-如果你喜欢 HITSZ 自动化课程攻略共享计划，想支持我们，以下是几种支持我们的方式:
-
-- HITSZ 自动化课程攻略共享计划 是所有同学都可以参与编写贡献的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行贡献，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
-
-- 将本网站分享给你的同学也是支持我们的重要方式。
-
-- 如果您认为本页面提供的信息对您有帮助，请考虑捐赠 ¥2 给我们。每一份慷慨支持都将大幅减轻我们承担的域名的费用负担。我们鼓励选择“向对方展示我的名字”，你的 ID 和留言将会显示在我们的 [感谢名单](https://hoa.moe/sponsor/#感谢名单) 中。
-
-<br>
-<img src="/images/sponsor.webp" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
+《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
