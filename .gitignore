@@ -20,3 +20,6 @@ hugo.linux
 
 # # Ignore Mac system files
 *.DS_Store
+
+.idea/*
+*/.idea/
