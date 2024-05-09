@@ -191,7 +191,12 @@ jobs:
                   category='graduate-course'
                   ;;
                 '跨专业选修')
+                  semester='cross-specialty'
                   category='cross-major-selective'
+                  ;;
+                'MOOC')
+                  semester='MOOC'
+                  category='MOOC'
                   ;;
                 '归档')
                   category='legacy'
