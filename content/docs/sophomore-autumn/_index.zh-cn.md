@@ -24,7 +24,3 @@ toc: false
 {{< cards >}}
 {{< card link="comp2014"title="C++语言程序设计">}}
 {{< /cards >}}
-
-
-
-

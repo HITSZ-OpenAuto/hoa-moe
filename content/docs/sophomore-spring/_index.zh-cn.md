@@ -23,7 +23,3 @@ toc: false
 {{< cards >}}
 {{< card link="comp2050"title="数据结构与算法">}}
 {{< /cards >}}
-
-
-
-
