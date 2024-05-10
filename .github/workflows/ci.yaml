@@ -194,9 +194,9 @@ jobs:
                   semester='cross-specialty'
                   category='cross-major-selective'
                   ;;
-                'MOOC')
-                  semester='MOOC'
-                  category='MOOC'
+                '文理通识')
+                  semester='general-knowledge'
+                  category='general-knowledge'
                   ;;
                 '归档')
                   category='legacy'
@@ -295,8 +295,8 @@ jobs:
       
       - name: Build Guide Pages
         run: |
-          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring')
-          category_arr='mandatory distributional-selective cross-major-selective graduate-course legacy'
+          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course general-knowledge legacy'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
