@@ -106,7 +106,7 @@ jobs:
           done
           
           echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
-          cat tmp.txt | grep -E "^-.^(([A-Z]{2}|[A-Z]{4})[0-9]*[A-Z]?)$" | sed -E 's/^..(.*)$/\1/' > repos.txt
+          cat tmp.txt | grep -E "^-.(([A-Z]){2,4}|MOOC)([0-9]){3}([0-9]|X){1}.*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
           cat repos.txt
 
       - name: Build Courses Pages
