@@ -86,3 +86,13 @@ toc: false
 
 
 
+
+
+## 跨专业选修
+<!--more-->
+{{< cards >}}
+{{< card link="chem1012"title="大学化学III">}}
+{{< /cards >}}
+
+
+
