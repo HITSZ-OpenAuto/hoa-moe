@@ -82,9 +82,9 @@ jobs:
 
       - name: Bulid Semester Pages
         run: |
-          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring')
-          semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春')
-          category_arr='mandatory distributional-selective cross-major-selective graduate-course legacy'
+          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
+          semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春' '跨专业选修' '文理通识和MOOC')
+          category_arr='mandatory distributional-selective cross-major-selective general-knowledge graduate-course legacy'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
@@ -115,6 +115,7 @@ jobs:
           counter_dis=100
           counter_graduate=200
           counter_cross=300
+          counter_general=400
           counter_legacy=1000
           for line in $(cat repos.txt)
           do
@@ -237,6 +238,10 @@ jobs:
               echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
               echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
 
+              echo '------index.txt-------'
+              cat "${semester}-${category}.txt"
+              echo '----------------------'
+
               echo '---' > "./content/docs/${semester}/${line}.md"
               echo "title: （${CATEGORY}）$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
               if [ ${CATEGORY} = "必修" ]
@@ -251,13 +256,18 @@ jobs:
               then
                 counter_graduate=$((${counter_graduate}+1));
                 echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "跨专业选修" ]
+              then
+                counter_cross=$((${counter_cross}+1));
+                echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "文理通识" ]
+              then
+                counter_general=$((${counter_general}+1));
+                echo "weight: ${counter_general}" >> "./content/docs/${semester}/${line}.md"
               elif [ ${CATEGORY} = "归档" ]
               then
                 counter_legacy=$((${counter_legacy}+1));
                 echo "weight: ${counter_legacy}" >> "./content/docs/${semester}/${line}.md"
-              else
-                counter_cross=$((${counter_cross}+1));
-                echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
               fi
               echo 'toc: true' >> "./content/docs/${semester}/${line}.md"
               echo "editURL: \"https://github.com/HITSZ-OpenAuto/${line}/edit/main/README.md\"" >> "./content/docs/${semester}/${line}.md"
@@ -302,9 +312,9 @@ jobs:
             SEMESTER="${semester_arr[i]}"
             for CATEGORY in $category_arr
             do
-              echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
               if test -s "${SEMESTER}-${CATEGORY}.txt"
               then
+                echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
                 echo "{{< /cards >}}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
               fi
             done
