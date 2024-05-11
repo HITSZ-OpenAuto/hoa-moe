@@ -1,5 +1,5 @@
 ---
-title: 文理通识和MOOC
+title: 文理通识与MOOC
 weight: 14
 comments: false
 toc: false
