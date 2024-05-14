@@ -6,31 +6,18 @@ authors:
   - name: longlin
     link: https://github.com/longlin10086
     image: https://github.com/longlin10086.png
+  - name: kowyo
+    link: https://github.com/kowyo
+    image: https://github.com/kowyo.png
 excludeSearch: false
+
 ---
 
-## 💡如何编写 OpenAuto 文档？
+## 💡如何编写课程文档？
 
 由于本网站的特殊架构，各个页面实际上是从分属不同仓库的 README.md 文件拉取的，因此对应修改需要定位到对应仓库。网站的页面中已经做好了链接到各仓库的入口，点击即可跳转编辑相关文档：
 
 ![link-to-repo](link-to-repo.png)
-
-编辑完成后点击右上方的"Commit changes"即可提交更改，我们会在收到 PR 的第一时间进行查看。
-
-在发起 PR 时，可以通过 suggest reviewers 邮件通知我们，这样我们就能更快地进行 review 并及时给予回复。
-
-![suggest-reviewers](suggest-reviewers.png)
-
-## ❓如何在编辑后向我们提交 PR ？
-
-我们推荐两种提交 PR 的方式：
-
-> 一、直接 commit 后创建 patch-branch 并提交
-
-这种方式适用于对文档进行简单的修改，操作方便快捷。缺点是不能应对多文件的复杂修改。
-
-首先找到你想修改的文档，点击图示编辑按钮，来到编辑界面。
-![edit-doc](edit-doc.png)
 
 对文档做完修改后，点击图示绿色的 commit 按钮提交更改。
 
@@ -40,11 +27,23 @@ excludeSearch: false
 
 ![propose-changes](propose-changes.png)
 
+编辑完成后点击右上方的"Commit changes"即可提交更改，我们会在收到 PR 的第一时间进行查看。
+
+在发起 PR 时，可以通过 suggest reviewers 邮件通知我们，这样我们就能更快地进行 review 并及时给予回复。
+
+![suggest-reviewers](suggest-reviewers.png)
+
 **PS：记得写清楚 commit message 哦（具体 message 要写什么可以参考 「[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)」）**
 
-> 二、fork 到自己仓库后 clone 到本地，推送后再提交 PR 给我们
+## ❓如何上传文件
 
-如果你需要一次性做出大量修改，比如上传文件，或是修改仓库中的多个文档，我们推荐采用这种方式。
+如果你只是想要上传单份文件，可以通过 Upload Files 按钮实现
+
+![image-20240515012210091](/Users/kowyo/Downloads/hitsz-open-auto.github.io-blog/content/blog/writing-rules/upload-files.png)
+
+但是如果你想上传多个文件，我们更建议你在本地 Git 进行操作，如果你没有 Git 相关的知识，请查看开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
+
+流程如下：
 
 首先将你想修改的仓库 fork 一份副本至自己名下。
 
@@ -67,7 +66,7 @@ git push                            # 将本地修改同步到远端仓库
 
 注意将 [ ] 中内容进行替换。
 
-具体 Git 命令如何使用，原理等内容不在本文所讨论的范围内，可以参考 「[OSA 的 Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)」
+具体 Git 命令如何使用，原理等内容不在本文所讨论的范围内，可以参考 [开源技术协会（OSA）](http://osa.moe) 编写的 「[ Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)」
 
 当你将上述内容都做完后，来到你的远端仓库，点击 contribute 按钮，你会发现一个大大的 Open pull request 按钮正等着你呢！
 
