@@ -26,9 +26,7 @@ excludeSearch: false
 
 - 盗版电子书，盗版软件以及一切和盗版有关的东西
 - 未经老师同意上传的教学课件
-- 代码，代码的抄袭成本明显低于借鉴成本
-
-前两项内容由于网站面向外网开放的原因因而不被允许，但是你可以前往开源技术协会自建的 [网盘](https://open.osa.moe/openauto) 获取/上传这些内容。
+- 代码，因为它们的抄袭成本明显低于借鉴成本
 
 ## 操作指引
 
@@ -58,7 +56,7 @@ excludeSearch: false
 
 如果你只是想要上传单份文件，可以通过 Upload Files 按钮实现
 
-![image-20240515012210091](/Users/kowyo/Downloads/hitsz-open-auto.github.io-blog/content/blog/writing-rules/upload-files.png)
+![upload-file](upload-files.png)
 
 但是如果你想上传多个文件，我们更建议你在本地 Git 进行操作，如果你没有 Git 相关的知识，请查看开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
 
