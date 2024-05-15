@@ -33,7 +33,7 @@ excludeSearch: false
 
 ![suggest-reviewers](suggest-reviewers.png)
 
-**PS：记得写清楚 commit message 哦（具体 message 要写什么可以参考 「[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)」）**
+**PS：记得写清楚 commit message 哦（具体 message 要写什么、怎么写，可以参考 「[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)」和「[向一个项目贡献](https://git-scm.com/book/zh/v2/%E5%88%86%E5%B8%83%E5%BC%8F-Git-%E5%90%91%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%B4%A1%E7%8C%AE)」）**
 
 ## ❓如何上传文件
 
@@ -64,7 +64,7 @@ git push                            # 将本地修改同步到远端仓库
 
 ```
 
-注意将 [ ] 中内容进行替换。
+注意将 [ ] 中内容进行替换——与 Github 上的 commit message 类似，它也遵循 **约定式提交**。
 
 当你将上述内容都做完后，来到你的远端仓库，点击 contribute 按钮，你会发现一个大大的 Open pull request 按钮正等着你呢！
 
@@ -75,9 +75,11 @@ git push                            # 将本地修改同步到远端仓库
 ## ❗️编写时有哪些注意事项？
 
 1. **不要随意删除/修改 已有文件 或 他人的评价、建议**
-2. **在提出某项意见/评价时请按格式署名（不一定要真实姓名）、标注时间，例如：**
+2. **在提出某项意见/评价时请按格式署名（不一定要真实姓名）、标注时间，放在你所修改部分的最末尾。例如：**
 
-![signature](signature.png)
+> 文/ [IcyDesert](https://github.com/IcyDesert), 2024.5
+>
+>（你可能看到部分文档使用的署名格式是「by IcyDesert」，这是早期的约定，现已废弃）
 
 3. **文档格式尽量按照 「 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 」要求编写**
 
