@@ -9,9 +9,10 @@ comments: true
 	<img src="/images/HITSZOpenAutoShadow.png" width="300" alt="Logo"/><br/>
 </h3>
 
-## 本项目存在的意义
+## 愿景
 
-消除信息不对等，追求更有意义的评价体系。
+- 消除信息不对等，追求更有意义的评价体系。
+- 分享课程资料、学习方法，最大程度减少学习弯路。
 
 ## 历史
 
