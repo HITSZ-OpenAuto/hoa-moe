@@ -87,6 +87,9 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
   {{< filetree/folder name="新科学家英语" state="closed" >}}
     {{< filetree/file name="新科学家英语：演讲与写作.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%96%B0%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8B%B1%E8%AF%AD/%E6%96%B0%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8B%B1%E8%AF%AD%EF%BC%9A%E6%BC%94%E8%AE%B2%E4%B8%8E%E5%86%99%E4%BD%9C.docx" >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="智慧树中国红色文化精神" state="closed" >}}
+    {{< filetree/file name="中国红色文化精神.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E4%B8%AD%E5%9B%BD%E7%BA%A2%E8%89%B2%E6%96%87%E5%8C%96%E7%B2%BE%E7%A5%9E/%E4%B8%AD%E5%9B%BD%E7%BA%A2%E8%89%B2%E6%96%87%E5%8C%96%E7%B2%BE%E7%A5%9E.docx" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="智慧树关爱生命" state="closed" >}}
     {{< filetree/file name="智慧树关爱生命---自救与急救技能章节习题及答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD---%E8%87%AA%E6%95%91%E4%B8%8E%E6%80%A5%E6%95%91%E6%8A%80%E8%83%BD%E7%AB%A0%E8%8A%82%E4%B9%A0%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88.docx" >}}
   {{< /filetree/folder >}}
