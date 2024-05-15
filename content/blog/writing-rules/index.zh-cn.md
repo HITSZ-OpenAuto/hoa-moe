@@ -66,8 +66,6 @@ git push                            # 将本地修改同步到远端仓库
 
 注意将 [ ] 中内容进行替换。
 
-具体 Git 命令如何使用，原理等内容不在本文所讨论的范围内，可以参考 [开源技术协会（OSA）](http://osa.moe) 编写的 「[ Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)」
-
 当你将上述内容都做完后，来到你的远端仓库，点击 contribute 按钮，你会发现一个大大的 Open pull request 按钮正等着你呢！
 
 ![open-pr](open-pr.png)
