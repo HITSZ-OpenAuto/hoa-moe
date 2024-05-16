@@ -10,8 +10,6 @@ authors:
     link: https://github.com/kowyo
     image: https://github.com/kowyo.png
 excludeSearch: false
-
-
 ---
 
 ## 内容公约
