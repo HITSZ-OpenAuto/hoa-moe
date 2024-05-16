@@ -1,0 +1,30 @@
+name: Weekly Commit Report
+
+on:
+  schedule:
+    - cron: '0 10 * * 5'  # This sets the workflow to run at 10:00 UTC+8 every Friday (6 PM Beijing time)
+  workflow_dispatch:  # This allows you to manually trigger the workflow
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install -r scripts/requirements.txt
+
+    - name: Run the script
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ORG_NAME: HITSZ-OpenAuto
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Add your OpenAI API key as a secret
+      run: |
+        python scripts/weekly.py
