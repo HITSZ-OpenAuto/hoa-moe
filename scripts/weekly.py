@@ -95,7 +95,7 @@ weekly_commits = {}
 
 # YAML front matter for the markdown file
 yaml_front_matter = yaml.dump({
-    "title": f"weekly-{one_week_ago.date()}",
+    "title": f"AUTO 周报 {one_week_ago.date()} - {datetime.datetime.now().date()}",
     "date": datetime.datetime.now().strftime("%Y-%m-%d"),
     "authors": [
         {
