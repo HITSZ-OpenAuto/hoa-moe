@@ -106,8 +106,8 @@ yaml_front_matter = yaml.dump({
     ],
     "description": "本周报由 GitHub Actions 和 Python 自动生成",
     "excludeSearch": False,
-    "draft": True
-}, default_flow_style=False)
+    "draft": False
+}, default_flow_style=False, allow_unicode=True)
 
 # Fetch and filter commits from the past week
 for repo in repos:
