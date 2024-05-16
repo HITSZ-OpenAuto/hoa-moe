@@ -104,7 +104,6 @@ yaml_front_matter = yaml.dump({
             "image": "https://github.com/openai.png"
         }
     ],
-    "description": "本周报由 GitHub Actions 和 ChatGPT 自动生成",
     "excludeSearch": False,
     "draft": False
 }, default_flow_style=False, allow_unicode=True)
@@ -137,6 +136,7 @@ if weekly_commits:
         markdown_report += f'## [{title}](https://github.com/{ORG_NAME}/{repo_name})\n\n'
         prev_author = None
         prev_date = None
+        is_first_commit = True
         for commit in commits:
             if commit["author"] != "github-actions":  # Exclude commits authored by github-actions
                 datetime_object = datetime.datetime.strptime(commit["date"], "%Y-%m-%dT%H:%M:%SZ")
@@ -147,10 +147,14 @@ if weekly_commits:
                     prev_date = datetime_object.date()
 
                 if commit["author"] != prev_author:
-                    markdown_report += f'**{commit["author"]}**\n'
+                    markdown_report += f'**{commit["author"]}**\n\n'
                     prev_author = commit["author"]
+                    is_first_commit = True
 
-                markdown_report += "**更新内容：**\n"
+                if is_first_commit:
+                    markdown_report += "**更新内容：**\n"
+                    is_first_commit = False
+                
                 message_lines = commit["message"].split('\n')
                 heading = message_lines[0]
                 markdown_report += f'- {heading}\n'
