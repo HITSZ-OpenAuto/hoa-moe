@@ -1,6 +1,6 @@
 ---
-title: HITSZ OpenAuto 文档编写指南
-description: 如何编写 OpenAuto 文档？编写时要注意哪些事项？
+title: 参与指南
+description: 参与 OpenAuto 所需要知道的一切
 date: 2024-05-14
 authors:
   - name: longlin
@@ -11,9 +11,26 @@ authors:
     image: https://github.com/kowyo.png
 excludeSearch: false
 
+
 ---
 
-## 💡如何编写课程文档？
+## 内容公约
+
+我们目前的内容有以下板块：
+
+- 课程文档：每门课老师的授课风格、学习经验分享、作业参考答案、实验指南以及考试复习题……
+- 博客：保研，留学，考研和技术分享……
+- 信息聚合：校内热门群聊，常用站点……
+
+我们的初心是分享学习经验，而非鼓励抄袭/盗版，以下是不宜上传的内容：
+
+- 盗版电子书，盗版软件以及一切和盗版有关的东西
+- 未经老师同意上传的教学课件
+- 代码，因为它们的抄袭成本明显低于借鉴成本
+
+## 操作指引
+
+### 💡如何编写课程文档？
 
 由于本网站的特殊架构，各个页面实际上是从分属不同仓库的 README.md 文件拉取的，因此对应修改需要定位到对应仓库。网站的页面中已经做好了链接到各仓库的入口，点击即可跳转编辑相关文档：
 
@@ -39,7 +56,7 @@ excludeSearch: false
 
 如果你只是想要上传单份文件，可以通过 Upload Files 按钮实现
 
-![image-20240515012210091](/Users/kowyo/Downloads/hitsz-open-auto.github.io-blog/content/blog/writing-rules/upload-files.png)
+![upload-file](upload-files.png)
 
 但是如果你想上传多个文件，我们更建议你在本地 Git 进行操作，如果你没有 Git 相关的知识，请查看开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
 
@@ -72,16 +89,17 @@ git push                            # 将本地修改同步到远端仓库
 
 **恭喜你成功提交了你在 OpenAuto 的第一个 PR ！🎉**
 
-## ❗️编写时有哪些注意事项？
+### ❗️编写时有哪些注意事项？
 
 1. **不要随意删除/修改 已有文件 或 他人的评价、建议**
 2. **在提出某项意见/评价时请按格式署名（不一定要真实姓名）、标注时间，放在你所修改部分的最末尾。例如：**
 
 > 文/ [IcyDesert](https://github.com/IcyDesert), 2024.5
 >
->（你可能看到部分文档使用的署名格式是「by IcyDesert」，这是早期的约定，现已废弃）
+> （你可能看到部分文档使用的署名格式是「by IcyDesert」，这是早期的约定，现已废弃）
 
 3. **文档格式尽量按照 「 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 」要求编写**
+4. 如果你碰到了网络相关的问题，可以参考我们的文章：[「新人指南：不使用第三方工具访问 GitHub」](https://hoa.moe/blog/access-github/) 或者其他科学上网手段。
 
 
 ## 写在最后
