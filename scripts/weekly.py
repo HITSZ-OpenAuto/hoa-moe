@@ -104,7 +104,7 @@ yaml_front_matter = yaml.dump({
             "image": "https://github.com/openai.png"
         }
     ],
-    "description": "本周报由 GitHub Actions 和 Python 自动生成",
+    "description": "本周报由 GitHub Actions 和 ChatGPT 自动生成",
     "excludeSearch": False,
     "draft": False
 }, default_flow_style=False, allow_unicode=True)
