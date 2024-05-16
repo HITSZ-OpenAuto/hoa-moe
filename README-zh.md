@@ -51,9 +51,7 @@ hugo server
 
 ## 如何贡献
 
-如果你想为本网站贡献说明文档，请阅读 [HITSZ OpenAuto 文档编写指南](https://hoa.moe/blog/writing-rules/)。
-
-如果你想在本网站发布博客文章，你可以在 `content/blog` 文件夹下按照格式创建一个新的 markdown 文本文件, 编辑完成后向我们提交 pull request。如果你不熟悉 Git 的使用方法, 你也可以将文章通过邮件的方式发送至 [📮hi@hoa.moe](mailto:hi@hoa.moe)，我们会在第一时间审核你的文章。
+如果您想要为这份文件做出贡献，请参考我们的[贡献指南](https://hoa.moe/blog/writing-rules/)。我们也欢迎代码贡献，特别是那些解决现有问题的贡献。
 
 ## 开源许可证
 

@@ -50,9 +50,7 @@ Open `http://localhost:1313` in your browser.
 
 ## Contributing
 
-If you want to contribute to the documentation, please refer to the [HITSZ OpenAuto 文档编写指南](https://hoa.moe/blog/writing-rules/).
-
-To post your article, you can simply create a new markdown file in the `content/blog` directory, and submit a pull request. If you are not familiar with Git, you can also send your article to [📮hi@hoa.moe](mailto:hi@hoa.moe). We will review your articl once we receive it.
+If you would like to contribute to the document, please refer to our [contribution guidelines](https://hoa.moe/blog/writing-rules/). We also welcome code contributions, especially those addressing existing issues.
 
 ## License
 
