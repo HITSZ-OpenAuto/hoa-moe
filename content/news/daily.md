@@ -8,7 +8,7 @@ excludeSearch: false
 title: AUTO 日报 2024-05-18
 ---
 
-**时间跨度：（北京时间）2024-05-17 1时 - 2024-05-18 1时**
+**时间跨度：（北京时间）2024-05-17 2时 - 2024-05-18 2时**
 ### [.github](https://github.com/HITSZ-OpenAuto/.github)
 
 **昨日** 
