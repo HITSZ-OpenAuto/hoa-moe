@@ -46,7 +46,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
           submodules: recursive
           fetch-depth: 0
 
@@ -321,7 +321,7 @@ jobs:
             done
           done
 
-      - name: Run the script
+      - name: Generate News
         env:
           TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           ORG_NAME: HITSZ-OpenAuto
@@ -345,6 +345,7 @@ jobs:
           hugo \
             --gc \
             --minify
+
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
