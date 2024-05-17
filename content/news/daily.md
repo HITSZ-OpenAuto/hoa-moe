@@ -46,5 +46,3 @@ title: AUTO 日报 2024-05-18
 
 - （IcyDesert）贡献者 oldkingOK 的 link 导向错误，已纠正
 
-- （Kowyo）docs: update readme-zh.md
-
