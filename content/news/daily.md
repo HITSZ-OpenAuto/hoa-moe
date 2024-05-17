@@ -8,7 +8,7 @@ excludeSearch: false
 title: AUTO 日报 2024-05-17
 ---
 
-**时间跨度：2024-05-16 00:00 - 2024-05-17 15:35**
+**时间跨度：2024-05-16 00:00 - 2024-05-17 16:00**
 ### [.github](https://github.com/HITSZ-OpenAuto/.github)
 
 **今日** 
@@ -17,6 +17,14 @@ title: AUTO 日报 2024-05-17
 ### [hoa.moe](https://github.com/HITSZ-OpenAuto/hoa.moe)
 
 **今日** 
+- （Kowyo）ci: fix token error
+
+- （Kowyo）ci: fix missing name
+
+- （Kowyo）ci: fix bad format
+
+- （Kowyo）ci: optimize workflow
+
 - （吴俊达）feat: add daily report
 
 - （dependabot[bot]）chore(deps): bump tqdm from 4.66.2 to 4.66.3 in /scripts (#100)
@@ -43,16 +51,6 @@ title: AUTO 日报 2024-05-17
 - （Kowyo）fix: allow yaml unicode
 
 - （Kowyo）ci: fix error token
-
-- （Kowyo）ci: fix permission
-
-- （Kowyo）ci: fix missing dependencies
-
-- （Kowyo）ci: fix missing pip dependencies
-
-- （Kowyo）ci: fix format
-
-- （Kowyo）fix: add content changes to weekly.yaml file
 
 ### [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006)
 
