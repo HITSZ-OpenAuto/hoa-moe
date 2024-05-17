@@ -8,7 +8,7 @@ excludeSearch: false
 title: AUTO 日报 2024-05-18
 ---
 
-**时间跨度：（北京时间）2024-05-17 00时 - 2024-05-18 16时**
+**时间跨度：（北京时间）2024-05-17 0时 - 2024-05-18 0时**
 ### [.github](https://github.com/HITSZ-OpenAuto/.github)
 
 **昨日** 
@@ -17,6 +17,10 @@ title: AUTO 日报 2024-05-18
 ### [hoa.moe](https://github.com/HITSZ-OpenAuto/hoa.moe)
 
 **今日** 
+- （吴俊达）Merge pull request #103 from HITSZ-OpenAuto/ow1
+
+- （oliver-wu）修复时区小bug
+
 - （吴俊达）Merge pull request #102 from HITSZ-OpenAuto/ow1
 
 - （oliver-wu）将显示的时区转为东八区。
@@ -45,8 +49,4 @@ title: AUTO 日报 2024-05-18
 - （Kowyo）docs: update readme-zh.md
 
 - （Kowyo）docs: update weekly-2024-05-09.md
-
-- （吴俊达）docs: update contributing guide(#99)
-
-- （longlin li）docs: update weekly-post (#96)
 
