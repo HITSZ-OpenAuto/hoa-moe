@@ -48,5 +48,3 @@ title: AUTO 日报 2024-05-18
 
 - （Kowyo）docs: update readme-zh.md
 
-- （Kowyo）docs: update weekly-2024-05-09.md
-
