@@ -1,14 +1,14 @@
 ---
 authors:
-- name: gitHub-actions
+- name: GitHub-actions
 date: '2024-05-17'
-description: 自 2024-05-16 到 2024-05-17的更新（每小时更新一次）
+description: 自 2024-05-16 到 2024-05-18的更新（每小时更新一次）
 draft: false
 excludeSearch: false
-title: AUTO 日报 2024-05-17
+title: AUTO 日报 2024-05-18
 ---
 
-**时间跨度：2024-05-16 00:00 - 2024-05-17 16:00**
+**时间跨度：（北京时间）2024-05-16 16时 - 2024-05-18 16时**
 ### [.github](https://github.com/HITSZ-OpenAuto/.github)
 
 **今日** 
@@ -17,7 +17,12 @@ title: AUTO 日报 2024-05-17
 ### [hoa.moe](https://github.com/HITSZ-OpenAuto/hoa.moe)
 
 **今日** 
+- （吴俊达）更新时间跨度，单位变为小时；将显示的时区转为东八区。
+
+**今日** 
 - （Kowyo）ci: fix token error
+
+- （oliver-wu）更新时间跨度，单位变为小时；将显示的时区转为东八区。
 
 - （Kowyo）ci: fix missing name
 
@@ -41,26 +46,9 @@ title: AUTO 日报 2024-05-17
 
 - （longlin li）docs: update weekly-post (#96)
 
-**昨日** 
 - （Kowyo）chore: fix weekly format
 
 - （Kowyo）ci: update cron schedule
 
 - （Kowyo）ci: update cron schedule to run at 30 minutes past the hour
-
-- （Kowyo）fix: allow yaml unicode
-
-- （Kowyo）ci: fix error token
-
-### [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006)
-
-**昨日** 
-- （Kowyo）docs: add a signature. (#2)
-
-### [微积分A](https://github.com/HITSZ-OpenAuto/MATH1015A)
-
-**昨日** 
-- （Kowyo）Merge IcyDesert-patch-1 into main (#3)
-
-- （IcyDesert）fix: typo (#1)
 
