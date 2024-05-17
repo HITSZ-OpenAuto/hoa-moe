@@ -87,11 +87,11 @@ def get_filtered_commits(owner, repo, since):
 
 # Calculate the date
 if NEWS_TYPE == "weekly":
-    start_time = datetime.datetime.utcnow() - datetime.timedelta(weeks=1) # search: UTC
+    start_time = datetime.datetime.now(datetime.UTC) - datetime.timedelta(weeks=1) # search: UTC
     display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')) - datetime.timedelta(weeks=1) # display: GMT-8
 elif NEWS_TYPE == "daily":
     start_time = datetime.date.today()-datetime.timedelta(days=1) # search: UTC
-    display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')).today()-datetime.timedelta(days=1) # display: GMT-8
+    display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')) - datetime.timedelta(days=1) # display: GMT-8
 
 
 # Get all public repositories in the organization
@@ -104,7 +104,7 @@ if NEWS_TYPE == "weekly":
     # YAML front matter for the markdown file
     yaml_front_matter = yaml.dump({
         "title": f"AUTO 周报 {display_start_time.date()} - {datetime.datetime.now(timezone('Etc/GMT-8')).date()}", # title: GMT-8
-        "date": datetime.datetime.utcnow().strftime("%Y-%m-%d"), # date: UTC
+        "date": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d"), # date: UTC
         "authors": [
             {
                 "name": "ChatGPT",
@@ -118,7 +118,7 @@ if NEWS_TYPE == "weekly":
 elif NEWS_TYPE == "daily":
     yaml_front_matter = yaml.dump({
         "title": f"AUTO 日报 {datetime.datetime.now(timezone('Etc/GMT-8')).date()}",
-        "date": datetime.datetime.utcnow().strftime("%Y-%m-%d"), # date: UTC
+        "date": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d"), # date: UTC
         "authors": [
             {
                 "name": "GitHub-actions"
