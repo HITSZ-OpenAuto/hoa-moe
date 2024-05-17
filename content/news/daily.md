@@ -40,5 +40,3 @@ title: AUTO 日报 2024-05-18
 
 - （吴俊达）feat: add daily report
 
-- （dependabot[bot]）chore(deps): bump tqdm from 4.66.2 to 4.66.3 in /scripts (#100)
-
