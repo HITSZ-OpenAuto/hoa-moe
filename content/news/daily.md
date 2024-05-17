@@ -44,5 +44,3 @@ title: AUTO 日报 2024-05-18
 
 - （Kowyo）docs: fix typo in writing-rules
 
-- （IcyDesert）贡献者 oldkingOK 的 link 导向错误，已纠正
-
