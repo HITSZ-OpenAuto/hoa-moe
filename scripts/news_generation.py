@@ -3,8 +3,8 @@ import requests
 import datetime
 import certifi
 import openai
+from pytz import timezone
 import yaml
-from datetime import timezone
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from tqdm import tqdm
@@ -87,11 +87,11 @@ def get_filtered_commits(owner, repo, since):
 
 # Calculate the date
 if NEWS_TYPE == "weekly":
-    start_time = datetime.datetime.now(timezone.utc) - datetime.timedelta(weeks=1)
+    start_time = datetime.datetime.utcnow() - datetime.timedelta(weeks=1) # search: UTC
+    display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')) - datetime.timedelta(weeks=1) # display: GMT-8
 elif NEWS_TYPE == "daily":
-    a = datetime.date.today()-datetime.timedelta(days=1)
-    b = datetime.time(0,0,0,1)
-    start_time = datetime.datetime.combine(a,b)
+    start_time = datetime.date.today()-datetime.timedelta(days=1) # search: UTC
+    display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')).today()-datetime.timedelta(days=1) # display: GMT-8
 
 
 # Get all public repositories in the organization
@@ -103,8 +103,8 @@ filtered_commits = {}
 if NEWS_TYPE == "weekly":
     # YAML front matter for the markdown file
     yaml_front_matter = yaml.dump({
-        "title": f"AUTO 周报 {start_time.date()} - {datetime.datetime.now().date()}",
-        "date": datetime.datetime.now().strftime("%Y-%m-%d"),
+        "title": f"AUTO 周报 {display_start_time.date()} - {datetime.datetime.now(timezone('Etc/GMT-8')).date()}", # title: GMT-8
+        "date": datetime.datetime.utcnow().strftime("%Y-%m-%d"), # date: UTC
         "authors": [
             {
                 "name": "ChatGPT",
@@ -117,14 +117,14 @@ if NEWS_TYPE == "weekly":
     }, default_flow_style=False, allow_unicode=True)
 elif NEWS_TYPE == "daily":
     yaml_front_matter = yaml.dump({
-        "title": f"AUTO 日报 {datetime.datetime.now().date()}",
-        "date": datetime.datetime.utcnow().strftime("%Y-%m-%d"),
+        "title": f"AUTO 日报 {datetime.datetime.now(timezone('Etc/GMT-8')).date()}",
+        "date": datetime.datetime.utcnow().strftime("%Y-%m-%d"), # date: UTC
         "authors": [
             {
-                "name": "gitHub-actions"
+                "name": "GitHub-actions"
             }
         ],
-        "description": f"自 {start_time.date()} 到 {datetime.datetime.now().date()}的更新（每小时更新一次）",
+        "description": f"自 {display_start_time.date()} 到 {datetime.datetime.now(timezone('Etc/GMT-8')).date()}的更新（每小时更新一次）",
         "excludeSearch": False,
         "draft": False
     }, default_flow_style=False, allow_unicode=True)
@@ -158,18 +158,18 @@ if filtered_commits:
         prev_date = None
         for commit in commits:
             if commit["author"] != "github-actions":
-                datetime_object = datetime.datetime.strptime(commit["date"], "%Y-%m-%dT%H:%M:%SZ")
+                datetime_object = datetime.datetime.strptime(commit["date"], "%Y-%m-%dT%H:%M:%SZ") + datetime.timedelta(hours=8) # UTC-8
                 if NEWS_TYPE == "weekly":  # Exclude commits authored by github-actions
                     chinese_day = chinese_weekday(datetime_object)
 
                     if prev_date != datetime_object.date():
-                        markdown_report += f'**{chinese_day}** \n\n'
+                        markdown_report += f'**{chinese_day}（{datetime_object.month}.{datetime_object.day}）** \n\n'
                         prev_date = datetime_object.date()
 
                 elif NEWS_TYPE == "daily":  # Exclude commits authored by github-actions
 
                     if prev_date != datetime_object.date():
-                        if datetime_object.date() == start_time.date():
+                        if datetime_object.date() == display_start_time.date():
                             markdown_report += f'**昨日** \n'
                         else:
                             markdown_report += f'**今日** \n'
@@ -186,15 +186,15 @@ if filtered_commits:
     if NEWS_TYPE == "weekly":
         summary = generate_summary(markdown_report)
     if NEWS_TYPE == "daily":
-        final_markdown_report += "**时间跨度：{} {:02}:{:02} - {} {:02}:{:02}**\n"\
-            .format(start_time.date(),start_time.hour,start_time.minute,datetime.date.today(),datetime.datetime.now().hour,datetime.datetime.now().minute)
+        final_markdown_report += "**时间跨度：（北京时间）{} {:02}时 - {} {:02}时**\n"\
+            .format(display_start_time.date(),display_start_time.hour,datetime.datetime.now(timezone('Etc/GMT-8')).date(),datetime.datetime.now(timezone('Etc/GMT-8')).now().hour)
     if summary:
         final_markdown_report += f'## 本周概要\n\n{summary}\n\n'
 
     final_markdown_report += markdown_report
 
     if NEWS_TYPE == "weekly":
-        with open(f'content/news/weekly-{start_time.date()}.md', 'w') as file:
+        with open(f'content/news/weekly-{display_start_time.date()}.md', 'w') as file:
             file.write(final_markdown_report)
     elif NEWS_TYPE == "daily":
         with open(f'content/news/daily.md', 'w') as file:
