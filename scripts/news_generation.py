@@ -91,7 +91,7 @@ if NEWS_TYPE == "weekly":
 elif NEWS_TYPE == "daily":
     a = datetime.date.today()-datetime.timedelta(days=1)
     b = datetime.time(0,0,0,1)
-    start_time = combine(a,b)
+    start_time = datetime.datetime.combine(a,b)
 
 
 # Get all public repositories in the organization
