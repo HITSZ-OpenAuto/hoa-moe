@@ -97,7 +97,7 @@ HITSZ OpenAuto 的课程文档大致可分为以下几部分，你如果发现�
 
 ![propose-changes](propose-changes.png)
 
-在发起 PR 时，可以通过 suggest reviewers 邮件通知我们，这样我们就能更快地进行 review 并及时给予回复。然后填写 title 和 description，再点击 Compare Pull Request 就成功将 PR 提交审核啦！🎉
+在发起 PR 时，可以通过 suggest reviewers 邮件通知我们，这样我们就能更快地进行 review 并及时给予回复。然后填写 title 和 description，再点击 Create pull request 就成功将 PR 提交审核啦！🎉
 
 ![suggest-reviewers](suggest-reviewers.png)
 
