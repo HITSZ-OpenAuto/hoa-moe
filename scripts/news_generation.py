@@ -42,7 +42,7 @@ headers = {
 
 # Generate a funny summary using GPT-3.5-turbo
 def generate_summary(report_text):
-    prompt = f"Generate a funny summary for the weekly commit report in Chinese:\n\n{report_text}\n\n---\n\nSummary:"
+    prompt = f"Generate a summary for the weekly commit report in Chinese:\n\n{report_text}\n\n---\n\nSummary:"
     try:
         completion = openai.chat.completions.create(
             model="gpt-3.5-turbo",
@@ -189,7 +189,7 @@ if filtered_commits:
         final_markdown_report += "**时间跨度：{} {:02}:{:02} - {} {:02}:{:02}**\n"\
             .format(start_time.date(),start_time.hour,start_time.minute,datetime.date.today(),datetime.datetime.now().hour,datetime.datetime.now().minute)
     if summary:
-        final_markdown_report += f'## 本周概要\n\n{summary}\n\n'
+        final_markdown_report += f'##✨AI 摘要\n\n{summary}\n\n'
 
     final_markdown_report += markdown_report
 

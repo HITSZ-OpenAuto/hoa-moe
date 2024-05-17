@@ -46,7 +46,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PERSONAL_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
           fetch-depth: 0
 
@@ -55,19 +55,16 @@ jobs:
         with:
             python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install Python Dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
       - name: Get Organization Repository Names
         uses : austenstone/get-org-repos@v3.1
         with:
-          github-token: ${{ secrets.PERSONAL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           org: "HITSZ-OpenAuto"
           delimiter: "\n"
         id: get-org-repos
@@ -296,7 +293,7 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md" && echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
-              python scripts/gen_links.py HITSZ-OpenAuto ${line} kowyo ${{ secrets.PERSONAL_TOKEN }}
+              python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.GITHUB_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
               echo "如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/${line}'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。" >> "./content/docs/${semester}/${line}.md"
@@ -348,17 +345,16 @@ jobs:
           hugo \
             --gc \
             --minify
-            
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@1
         with:
-          path: ./public
-
-      - name: Deploy to Cloudflare Pages
-        uses: peaceiris/actions-gh-pages@v3
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-            PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-            EXTERNAL_REPOSITORY: HITSZ-OpenAuto/hoa.moe
-            PUBLISH_BRANCH: cf-pages
-            PUBLISH_DIR: ./public
-            commit_message: ${{ github.event.head_commit.message }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: hoa-moe
+          directory: public
+          branch: main
