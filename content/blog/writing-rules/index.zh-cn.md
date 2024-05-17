@@ -16,8 +16,6 @@ excludeSearch: false
 
 ---
 
-[TOC]
-
 ## 内容公约
 
 我们目前的内容有以下板块：
