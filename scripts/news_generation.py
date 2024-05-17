@@ -185,7 +185,9 @@ if filtered_commits:
     summary = None
     if NEWS_TYPE == "weekly":
         summary = generate_summary(markdown_report)
-
+    if NEWS_TYPE == "daily":
+        final_markdown_report += "**时间跨度：{} {:02}:{:02} - {} {:02}:{:02}**\n"\
+            .format(start_time.date(),start_time.hour,start_time.minute,datetime.date.today(),datetime.datetime.now().hour,datetime.datetime.now().minute)
     if summary:
         final_markdown_report += f'## 本周概要\n\n{summary}\n\n'
 
