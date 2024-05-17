@@ -50,5 +50,3 @@ title: AUTO 日报 2024-05-18
 
 - （longlin li）docs: update weekly-post (#96)
 
-- （Kowyo）chore: fix weekly format
-
