@@ -8,9 +8,4 @@ excludeSearch: false
 title: AUTO 日报 2024-05-18
 ---
 
-**时间跨度：（北京时间）2024-05-17 5时 - 2024-05-18 5时**
-### [.github](https://github.com/HITSZ-OpenAuto/.github)
-
-**昨日** 
-- （Kowyo）精简 PR 模版，并更新内容
-
+过去24小时内没有更新记录。
