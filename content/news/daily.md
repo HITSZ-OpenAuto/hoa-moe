@@ -8,7 +8,7 @@ excludeSearch: false
 title: AUTO 日报 2024-05-17
 ---
 
-**时间跨度：2024-05-16 00:00 - 2024-05-17 14:32**
+**时间跨度：2024-05-16 00:00 - 2024-05-17 14:34**
 ### [.github](https://github.com/HITSZ-OpenAuto/.github)
 
 **今日** 
@@ -57,8 +57,6 @@ title: AUTO 日报 2024-05-17
 - （Kowyo）feat(test): add ai weekly
 
 - （longlin li）feat: add News module (#95)
-
-- （Kowyo）docs: update about page (#93)
 
 ### [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006)
 
