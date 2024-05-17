@@ -58,17 +58,6 @@ math: true
 
 ## 资料下载
 
-{{< filetree/container >}}
-  {{< filetree/folder name="assignments" state="closed" >}}
-    {{< filetree/file name="1_第七章微分方程作业答案（7.6-7.9）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf" >}}
-    {{< filetree/file name="1_第九章多元函数微分法及其应用作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B9%9D%E7%AB%A0%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E6%B3%95%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< filetree/file name="1_第十一章曲线积分与曲面积分作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< filetree/file name="1_第十章重积分作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E5%8D%81%E7%AB%A0%E9%87%8D%E7%A7%AF%E5%88%86%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< filetree/file name="第十一章曲线积分与曲面积分作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< filetree/file name="第十二章无穷级数作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< filetree/file name="第十章重积分作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E5%8D%81%E7%AB%A0%E9%87%8D%E7%A7%AF%E5%88%86%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-  {{< /filetree/folder >}}
-{{< /filetree/container >}}
 <br>
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MATH1015B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 <br>

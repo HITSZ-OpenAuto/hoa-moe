@@ -38,5 +38,3 @@ title: AUTO 日报 2024-05-18
 
 - （Kowyo）ci: optimize workflow
 
-- （吴俊达）feat: add daily report
-
