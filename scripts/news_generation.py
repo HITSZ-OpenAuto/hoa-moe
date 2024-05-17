@@ -87,11 +87,15 @@ def get_filtered_commits(owner, repo, since):
 
 # Calculate the date
 if NEWS_TYPE == "weekly":
-    start_time = datetime.datetime.now(datetime.UTC) - datetime.timedelta(weeks=1) # search: UTC
+    start_time_precise = datetime.datetime.now(datetime.UTC) - datetime.timedelta(weeks=1) # search: UTC
+    b = datetime.time(start_time_precise.hour, 0, 0, 0)
+    start_time = datetime.datetime.combine(start_time_precise.date(), b)
     display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')) - datetime.timedelta(weeks=1) # display: GMT-8
 elif NEWS_TYPE == "daily":
-    start_time = datetime.date.today()-datetime.timedelta(days=1) # search: UTC
-    display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')) - datetime.timedelta(days=1) # display: GMT-8
+    start_time_precise = datetime.datetime.now(datetime.UTC)-datetime.timedelta(days=1) # search: UTC
+    b = datetime.time(start_time_precise.hour,0,0,0)
+    start_time = datetime.datetime.combine(start_time_precise.date(),b)
+    display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')).today()-datetime.timedelta(days=1) # display: GMT-8
 
 
 # Get all public repositories in the organization
@@ -132,7 +136,7 @@ elif NEWS_TYPE == "daily":
 # Fetch and filter commits from the past week
 for repo in repos:
     commits = get_filtered_commits(ORG_NAME, repo['name'], start_time)
-    if commits:
+    if commits and repo['name'] != 'hoa.moe':
         filtered_commits[repo['name']] = []
         for commit in commits:
             filtered_commits[repo['name']].append({
