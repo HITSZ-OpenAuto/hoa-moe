@@ -35,8 +35,9 @@ jobs:
         TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         ORG_NAME: HITSZ-OpenAuto
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Add your OpenAI API key as a secret
+        NEWS_TYPE: weekly
       run: |
-        python scripts/weekly.py
+        python scripts/news_generation.py
 
     - name: Commit and push changes
       uses: EndBug/add-and-commit@v9

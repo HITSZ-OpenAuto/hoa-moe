@@ -11,6 +11,7 @@ from tqdm import tqdm
 
 TOKEN = os.environ.get('TOKEN')
 ORG_NAME = os.environ.get('ORG_NAME')
+NEWS_TYPE = os.environ.get('NEWS_TYPE')
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 openai.base_url = "https://aihubmix.com/v1/"
@@ -73,8 +74,8 @@ def get_org_public_repos(url):
             url = None
     return repos
 
-# Function to get commits from the past week
-def get_weekly_commits(owner, repo, since):
+# Function to get commits from a given period of time
+def get_filtered_commits(owner, repo, since):
     commits_url = f'https://api.github.com/repos/{owner}/{repo}/commits'
     params = {'since': since.isoformat()}
     response = session.get(commits_url, headers=headers, params=params)
@@ -84,45 +85,65 @@ def get_weekly_commits(owner, repo, since):
         print(f'Failed to fetch commits for {repo}: {response.status_code}')
         return []
 
-# Calculate the date one week ago
-one_week_ago = datetime.datetime.now(timezone.utc) - datetime.timedelta(weeks=1)
+# Calculate the date
+if NEWS_TYPE == "weekly":
+    start_time = datetime.datetime.now(timezone.utc) - datetime.timedelta(weeks=1)
+elif NEWS_TYPE == "daily":
+    a = datetime.date.today()-datetime.timedelta(days=1)
+    b = datetime.time(0,0,0,1)
+    start_time = datetime.datetime.combine(a,b)
+
 
 # Get all public repositories in the organization
 repos = get_org_public_repos(f'https://api.github.com/orgs/{ORG_NAME}/repos')
 
-# Store weekly commits
-weekly_commits = {}
+# Store commits in a given period of time
+filtered_commits = {}
 
-# YAML front matter for the markdown file
-yaml_front_matter = yaml.dump({
-    "title": f"AUTO 周报 {one_week_ago.date()} - {datetime.datetime.now().date()}",
-    "date": datetime.datetime.now().strftime("%Y-%m-%d"),
-    "authors": [
-        {
-            "name": "ChatGPT",
-            "link": "https://github.com/openai",
-            "image": "https://github.com/openai.png"
-        }
-    ],
-    "excludeSearch": False,
-    "draft": False
-}, default_flow_style=False, allow_unicode=True)
+if NEWS_TYPE == "weekly":
+    # YAML front matter for the markdown file
+    yaml_front_matter = yaml.dump({
+        "title": f"AUTO 周报 {start_time.date()} - {datetime.datetime.now().date()}",
+        "date": datetime.datetime.now().strftime("%Y-%m-%d"),
+        "authors": [
+            {
+                "name": "ChatGPT",
+                "link": "https://github.com/openai",
+                "image": "https://github.com/openai.png"
+            }
+        ],
+        "excludeSearch": False,
+        "draft": False
+    }, default_flow_style=False, allow_unicode=True)
+elif NEWS_TYPE == "daily":
+    yaml_front_matter = yaml.dump({
+        "title": f"AUTO 日报 {datetime.datetime.now().date()}",
+        "date": datetime.datetime.utcnow().strftime("%Y-%m-%d"),
+        "authors": [
+            {
+                "name": "gitHub-actions"
+            }
+        ],
+        "description": f"自 {start_time.date()} 到 {datetime.datetime.now().date()}的更新（每小时更新一次）",
+        "excludeSearch": False,
+        "draft": False
+    }, default_flow_style=False, allow_unicode=True)
 
 # Fetch and filter commits from the past week
 for repo in repos:
-    commits = get_weekly_commits(ORG_NAME, repo['name'], one_week_ago)
+    commits = get_filtered_commits(ORG_NAME, repo['name'], start_time)
     if commits:
-        weekly_commits[repo['name']] = []
+        filtered_commits[repo['name']] = []
         for commit in commits:
-            weekly_commits[repo['name']].append({
+            filtered_commits[repo['name']].append({
                 'author': commit['commit']['author']['name'],
                 'date': commit['commit']['author']['date'],
                 'message': commit['commit']['message']
             })
 
 markdown_report = ""
-if weekly_commits:
-    for repo_name, commits in tqdm(weekly_commits.items()):
+if filtered_commits:
+    for repo_name, commits in tqdm(filtered_commits.items()):
 
         # check if https://github.com/{ORG_NAME}/{repo_name}/blob/main/tag.txt exists, if exists, extract the tag start with "name:" as the repo name
         tag_url = f'https://raw.githubusercontent.com/{ORG_NAME}/{repo_name}/main/tag.txt'
@@ -133,44 +154,51 @@ if weekly_commits:
         else:
             title = repo_name
 
-        markdown_report += f'## [{title}](https://github.com/{ORG_NAME}/{repo_name})\n\n'
-        prev_author = None
+        markdown_report += f'### [{title}](https://github.com/{ORG_NAME}/{repo_name})\n\n'
         prev_date = None
-        is_first_commit = True
         for commit in commits:
-            if commit["author"] != "github-actions":  # Exclude commits authored by github-actions
+            if commit["author"] != "github-actions":
                 datetime_object = datetime.datetime.strptime(commit["date"], "%Y-%m-%dT%H:%M:%SZ")
-                chinese_day = chinese_weekday(datetime_object)
-                
-                if prev_date != datetime_object.date():
-                    markdown_report += f'### {chinese_day} \n'
-                    prev_date = datetime_object.date()
+                if NEWS_TYPE == "weekly":  # Exclude commits authored by github-actions
+                    chinese_day = chinese_weekday(datetime_object)
 
-                if commit["author"] != prev_author:
-                    markdown_report += f'**{commit["author"]}**\n\n'
-                    prev_author = commit["author"]
-                    is_first_commit = True
+                    if prev_date != datetime_object.date():
+                        markdown_report += f'**{chinese_day}** \n\n'
+                        prev_date = datetime_object.date()
 
-                if is_first_commit:
-                    markdown_report += "**更新内容：**\n"
-                    is_first_commit = False
-                
+                elif NEWS_TYPE == "daily":  # Exclude commits authored by github-actions
+
+                    if prev_date != datetime_object.date():
+                        if datetime_object.date() == start_time.date():
+                            markdown_report += f'**昨日** \n'
+                        else:
+                            markdown_report += f'**今日** \n'
+                        prev_date = datetime_object.date()
+
                 message_lines = commit["message"].split('\n')
                 heading = message_lines[0]
-                markdown_report += f'- {heading}\n'
+                markdown_report += f'- （{commit["author"]}）{heading}\n'
                 markdown_report += '\n'
 
     final_markdown_report = f'---\n{yaml_front_matter}---\n\n'
 
-    summary = generate_summary(markdown_report)
-
+    summary = None
+    if NEWS_TYPE == "weekly":
+        summary = generate_summary(markdown_report)
+    if NEWS_TYPE == "daily":
+        final_markdown_report += "**时间跨度：{} {:02}:{:02} - {} {:02}:{:02}**\n"\
+            .format(start_time.date(),start_time.hour,start_time.minute,datetime.date.today(),datetime.datetime.now().hour,datetime.datetime.now().minute)
     if summary:
         final_markdown_report += f'## 本周概要\n\n{summary}\n\n'
 
     final_markdown_report += markdown_report
 
-    with open(f'content/news/weekly-{one_week_ago.date()}.md', 'w') as file:
-        file.write(final_markdown_report)
+    if NEWS_TYPE == "weekly":
+        with open(f'content/news/weekly-{start_time.date()}.md', 'w') as file:
+            file.write(final_markdown_report)
+    elif NEWS_TYPE == "daily":
+        with open(f'content/news/daily.md', 'w') as file:
+            file.write(final_markdown_report)
 
 else:
     print('No commits found in the past week.')
