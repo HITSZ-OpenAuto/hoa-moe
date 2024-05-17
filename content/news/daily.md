@@ -42,5 +42,3 @@ title: AUTO 日报 2024-05-18
 
 - （dependabot[bot]）chore(deps): bump tqdm from 4.66.2 to 4.66.3 in /scripts (#100)
 
-- （Kowyo）docs: fix typo in writing-rules
-
