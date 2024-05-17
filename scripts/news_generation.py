@@ -207,8 +207,10 @@ if filtered_commits:
 else:
     final_markdown_report = f'---\n{yaml_front_matter}---\n\n'
     if NEWS_TYPE == "weekly":
+        final_markdown_report += "本周没有更新记录。"
         with open(f'content/news/weekly-{display_start_time.date()}.md', 'w') as file:
-            file.write("本周没有更新记录。")
+            file.write(final_markdown_report)
     elif NEWS_TYPE == "daily":
+        inal_markdown_report += "过去24小时内没有更新记录。"
         with open(f'content/news/daily.md', 'w') as file:
-            file.write("过去24小时内没有更新记录。")
+            file.write(final_markdown_report)
