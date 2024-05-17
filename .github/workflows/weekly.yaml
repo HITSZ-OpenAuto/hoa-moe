@@ -32,7 +32,7 @@ jobs:
 
     - name: Run the script
       env:
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         ORG_NAME: HITSZ-OpenAuto
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Add your OpenAI API key as a secret
         NEWS_TYPE: weekly

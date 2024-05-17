@@ -11,12 +11,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
@@ -293,7 +287,7 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md" && echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
-              python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.GITHUB_TOKEN }}
+              python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
               echo '<br>' >> "./content/docs/${semester}/${line}.md"
               echo "如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/${line}'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。" >> "./content/docs/${semester}/${line}.md"
