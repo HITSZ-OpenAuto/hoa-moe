@@ -2,39 +2,15 @@
 authors:
 - name: GitHub-actions
 date: '2024-05-17'
-description: 自 2024-05-17 到 2024-05-18的更新（每小时更新一次）
+description: 自 2024-05-16 到 2024-05-18的更新（每小时更新一次）
 draft: false
 excludeSearch: false
 title: AUTO 日报 2024-05-18
 ---
 
-**时间跨度：（北京时间）2024-05-17 0时 - 2024-05-18 0时**
+**时间跨度：（北京时间）2024-05-16 16时 - 2024-05-18 0时**
 ### [.github](https://github.com/HITSZ-OpenAuto/.github)
 
-**昨日** 
-- （Kowyo）精简 PR 模版，并更新内容
-
-### [hoa.moe](https://github.com/HITSZ-OpenAuto/hoa.moe)
-
 **今日** 
-- （吴俊达）Merge pull request #103 from HITSZ-OpenAuto/ow1
-
-- （oliver-wu）修复时区小bug
-
-- （吴俊达）Merge pull request #102 from HITSZ-OpenAuto/ow1
-
-- （oliver-wu）将显示的时区转为东八区。
-
-- （吴俊达）更新时间跨度，单位变为小时；将显示的时区转为东八区。
-
-**昨日** 
-- （Kowyo）ci: fix token error
-
-- （oliver-wu）更新时间跨度，单位变为小时；将显示的时区转为东八区。
-
-- （Kowyo）ci: fix missing name
-
-- （Kowyo）ci: fix bad format
-
-- （Kowyo）ci: optimize workflow
+- （Kowyo）精简 PR 模版，并更新内容
 
