@@ -155,54 +155,29 @@ if filtered_commits:
             title = repo_name
 
         markdown_report += f'### [{title}](https://github.com/{ORG_NAME}/{repo_name})\n\n'
-        prev_author = None
         prev_date = None
-        is_first_commit = True
         for commit in commits:
-            if commit["author"] != "github-actions" and NEWS_TYPE == "weekly":  # Exclude commits authored by github-actions
+            if commit["author"] != "github-actions":
                 datetime_object = datetime.datetime.strptime(commit["date"], "%Y-%m-%dT%H:%M:%SZ")
-                chinese_day = chinese_weekday(datetime_object)
+                if NEWS_TYPE == "weekly":  # Exclude commits authored by github-actions
+                    chinese_day = chinese_weekday(datetime_object)
 
-                if prev_date != datetime_object.date():
-                    markdown_report += f'**{chinese_day}** \n\n'
-                    prev_date = datetime_object.date()
+                    if prev_date != datetime_object.date():
+                        markdown_report += f'**{chinese_day}** \n\n'
+                        prev_date = datetime_object.date()
 
-                if commit["author"] != prev_author:
-                    markdown_report += f'**{commit["author"]}**\n\n'
-                    prev_author = commit["author"]
-                    is_first_commit = True
+                elif NEWS_TYPE == "daily":  # Exclude commits authored by github-actions
 
-                if is_first_commit:
-                    markdown_report += "**更新内容：**\n"
-                    is_first_commit = False
+                    if prev_date != datetime_object.date():
+                        if datetime_object.date() == start_time.date():
+                            markdown_report += f'**昨日** \n'
+                        else:
+                            markdown_report += f'**今日** \n'
+                        prev_date = datetime_object.date()
 
                 message_lines = commit["message"].split('\n')
                 heading = message_lines[0]
-                markdown_report += f'- {heading}\n'
-                markdown_report += '\n'
-
-            elif commit["author"] != "github-actions" and NEWS_TYPE == "daily":  # Exclude commits authored by github-actions
-                datetime_object = datetime.datetime.strptime(commit["date"], "%Y-%m-%dT%H:%M:%SZ")
-
-                if prev_date != datetime_object.date():
-                    if datetime_object.date() == start_time.date():
-                        markdown_report += f'**昨日** \n'
-                    else:
-                        markdown_report += f'**今日** \n'
-                    prev_date = datetime_object.date()
-
-                if commit["author"] != prev_author:
-                    markdown_report += f'**{commit["author"]}**\n\n'
-                    prev_author = commit["author"]
-                    is_first_commit = True
-
-                if is_first_commit:
-                    markdown_report += "**更新内容：**\n"
-                    is_first_commit = False
-
-                message_lines = commit["message"].split('\n')
-                heading = message_lines[0]
-                markdown_report += f'- {heading}\n'
+                markdown_report += f'- （{commit["author"]}）{heading}\n'
                 markdown_report += '\n'
 
     final_markdown_report = f'---\n{yaml_front_matter}---\n\n'
