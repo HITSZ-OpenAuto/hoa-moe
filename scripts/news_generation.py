@@ -95,7 +95,7 @@ elif NEWS_TYPE == "daily":
     start_time_precise = datetime.datetime.now(datetime.UTC)-datetime.timedelta(days=1) # search: UTC
     b = datetime.time(start_time_precise.hour,0,0,0)
     start_time = datetime.datetime.combine(start_time_precise.date(),b)
-    display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')).today()-datetime.timedelta(days=1) # display: GMT-8
+    display_start_time = datetime.datetime.now(timezone('Etc/GMT-8')) - datetime.timedelta(days=1) # display: GMT-8
 
 
 # Get all public repositories in the organization
@@ -205,4 +205,10 @@ if filtered_commits:
             file.write(final_markdown_report)
 
 else:
-    print('No commits found in the past week.')
+    final_markdown_report = f'---\n{yaml_front_matter}---\n\n'
+    if NEWS_TYPE == "weekly":
+        with open(f'content/news/weekly-{display_start_time.date()}.md', 'w') as file:
+            file.write("本周没有更新记录。")
+    elif NEWS_TYPE == "daily":
+        with open(f'content/news/daily.md', 'w') as file:
+            file.write("过去24小时内没有更新记录。")
