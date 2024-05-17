@@ -186,8 +186,8 @@ if filtered_commits:
     if NEWS_TYPE == "weekly":
         summary = generate_summary(markdown_report)
     if NEWS_TYPE == "daily":
-        final_markdown_report += "**时间跨度：（北京时间）{} {:02}时 - {} {:02}时**\n"\
-            .format(display_start_time.date(),display_start_time.hour,datetime.datetime.now(timezone('Etc/GMT-8')).date(),datetime.datetime.now(timezone('Etc/GMT-8')).now().hour)
+        final_markdown_report += "**时间跨度：（北京时间）{} {}时 - {} {}时**\n"\
+            .format(display_start_time.date(),display_start_time.hour,datetime.datetime.now(timezone('Etc/GMT-8')).date(),datetime.datetime.now(timezone('Etc/GMT-8')).hour)
     if summary:
         final_markdown_report += f'##✨AI 摘要\n\n{summary}\n\n'
 
