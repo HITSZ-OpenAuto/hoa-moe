@@ -1,9 +1,6 @@
 name: Build Courses Pages
 
 on:
-  schedule:
-    - cron: '0 * * * *' # Runs every hour
-
   workflow_dispatch: # This allows you to manually trigger the workflow
 
 jobs:
