@@ -13,10 +13,6 @@ TOKEN = os.environ.get('TOKEN')
 ORG_NAME = os.environ.get('ORG_NAME')
 NEWS_TYPE = os.environ.get('NEWS_TYPE')
 
-openai.api_key = os.environ.get("OPENAI_API_KEY")
-openai.base_url = "https://aihubmix.com/v1/"
-openai.default_headers = {"x-foo": "true"}
-
 # Set the SSL certificates path
 os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
 
@@ -43,6 +39,9 @@ headers = {
 # Generate a funny summary using GPT-3.5-turbo
 def generate_summary(report_text):
     prompt = f"Generate a summary for the weekly commit report in Chinese:\n\n{report_text}\n\n---\n\nSummary:"
+    openai.api_key = os.environ.get("OPENAI_API_KEY")
+    openai.base_url = "https://aihubmix.com/v1/"
+    openai.default_headers = {"x-foo": "true"}
     try:
         completion = openai.chat.completions.create(
             model="gpt-3.5-turbo",
@@ -126,7 +125,8 @@ elif NEWS_TYPE == "daily":
         "authors": [
             {
                 "name": "github-actions[bot]",
-                "link": "https://avatars.githubusercontent.com/in/15368"
+                "link": "https://github.com/features/actions",
+                "image": "https://avatars.githubusercontent.com/in/15368"
             }
         ],
         "description": f"自 {display_start_time.date()} 到 {datetime.datetime.now(timezone('Etc/GMT-8')).date()} 的更新（每小时更新一次）",
