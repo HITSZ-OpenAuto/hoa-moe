@@ -190,9 +190,7 @@ if filtered_commits:
     summary = None
     if NEWS_TYPE == "weekly":
         summary = generate_summary(markdown_report)
-    if NEWS_TYPE == "daily":
-        final_markdown_report += "**时间跨度：（北京时间）{} {}时 - {} {}时**\n"\
-            .format(display_start_time.date(),display_start_time.hour,datetime.datetime.now(timezone('Etc/GMT-8')).date(),datetime.datetime.now(timezone('Etc/GMT-8')).hour)
+
     if summary:
         final_markdown_report += f'##✨AI 摘要\n\n{summary}\n\n'
 
@@ -206,12 +204,4 @@ if filtered_commits:
             file.write(final_markdown_report)
 
 else:
-    final_markdown_report = f'---\n{yaml_front_matter}---\n\n'
-    if NEWS_TYPE == "weekly":
-        final_markdown_report += "本周没有更新记录。"
-        with open(f'content/news/weekly-{display_start_time.date()}.md', 'w') as file:
-            file.write(final_markdown_report)
-    elif NEWS_TYPE == "daily":
-        final_markdown_report += "过去24小时内没有更新记录。"
-        with open(f'content/news/daily.md', 'w') as file:
-            file.write(final_markdown_report)
+    print('No commits found in the past week')
