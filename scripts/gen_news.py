@@ -100,9 +100,6 @@ elif NEWS_TYPE == "daily":
 # Get all public repositories in the organization
 repos = get_org_public_repos(f'https://api.github.com/orgs/{ORG_NAME}/repos')
 
-# Store commits in a given period of time
-filtered_commits = {}
-
 if NEWS_TYPE == "weekly":
     # YAML front matter for the markdown file
     yaml_front_matter = yaml.dump({
@@ -120,8 +117,8 @@ if NEWS_TYPE == "weekly":
     }, default_flow_style=False, allow_unicode=True)
 elif NEWS_TYPE == "daily":
     yaml_front_matter = yaml.dump({
-        "title": f"AUTO 日报 {datetime.datetime.now(timezone('Etc/GMT-8')).date()}",
-        "date": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d"), # date: UTC
+        "title": f"AUTO 更新速递",
+        "date": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d"),  # date: UTC
         "authors": [
             {
                 "name": "github-actions[bot]",
@@ -129,61 +126,62 @@ elif NEWS_TYPE == "daily":
                 "image": "https://avatars.githubusercontent.com/in/15368"
             }
         ],
-        "description": f"自 {display_start_time.date()} 到 {datetime.datetime.now(timezone('Etc/GMT-8')).date()} 的更新",
+        "description": "时间跨度：（北京时间）{} {:02}时至今".format(display_start_time.date(), display_start_time.hour),
         "excludeSearch": False,
         "draft": False
     }, default_flow_style=False, allow_unicode=True)
 
-# Fetch and filter commits from the past week
-for repo in repos:
+# Store commits in a given period of time
+filtered_commits = []
+org_course_name = {}
+
+# Fetch and filter commits from the given period of time
+for repo in tqdm(repos):
     commits = get_filtered_commits(ORG_NAME, repo['name'], start_time)
+    contain_manual = False
     if commits and repo['name'] != 'hoa.moe':
-        filtered_commits[repo['name']] = []
         for commit in commits:
-            filtered_commits[repo['name']].append({
+            filtered_commits.append({
                 'author': commit['commit']['author']['name'],
-                'date': commit['commit']['author']['date'],
-                'message': commit['commit']['message']
+                'date': datetime.datetime.strptime(commit['commit']['author']['date'], "%Y-%m-%dT%H:%M:%SZ") + datetime.timedelta(hours=8), # UTC-8
+                'message': commit['commit']['message'],
+                'repo_name': repo['name']
             })
-
-markdown_report = ""
-if filtered_commits:
-    for repo_name, commits in tqdm(filtered_commits.items()):
-
-        # check if https://github.com/{ORG_NAME}/{repo_name}/blob/main/tag.txt exists, if exists, extract the tag start with "name:" as the repo name
+            if contain_manual == False and commit['commit']['author']['name'] != "github-actions":
+                contain_manual = True
+    if contain_manual:
+        repo_name = repo['name']
         tag_url = f'https://raw.githubusercontent.com/{ORG_NAME}/{repo_name}/main/tag.txt'
         response = session.get(tag_url)
-        if response.status_code == 200:
-            tag = response.text.split("name:")[1].strip()
-            title = tag
-        else:
-            title = repo_name
+        if response.status_code == 200: # check if https://github.com/{ORG_NAME}/{repo_name}/blob/main/tag.txt exists, if exists, extract the tag start with "name:" as the repo name
+            org_course_name[repo_name] = response.text.split("name:")[1].strip()
 
-        markdown_report += f'### [{title}](https://github.com/{ORG_NAME}/{repo_name})\n\n'
-        prev_date = None
-        for commit in commits:
-            if commit["author"] != "github-actions":
-                datetime_object = datetime.datetime.strptime(commit["date"], "%Y-%m-%dT%H:%M:%SZ") + datetime.timedelta(hours=8) # UTC-8
-                if NEWS_TYPE == "weekly":  # Exclude commits authored by github-actions
-                    chinese_day = chinese_weekday(datetime_object)
 
-                    if prev_date != datetime_object.date():
-                        markdown_report += f'**{chinese_day}（{datetime_object.month}.{datetime_object.day}）** \n\n'
-                        prev_date = datetime_object.date()
+if filtered_commits:
+    filtered_commits.sort(key=lambda a:a['date'], reverse=True)
+    markdown_report = ""
 
-                elif NEWS_TYPE == "daily":  # Exclude commits authored by github-actions
+    prev_date = None
+    for commit in tqdm(filtered_commits):
+        try:
+            title = org_course_name[commit['repo_name']]
+        except KeyError:
+            title = commit['repo_name']
+        repo_name = commit['repo_name']
 
-                    if prev_date != datetime_object.date():
-                        if datetime_object.date() == display_start_time.date():
-                            markdown_report += f'**昨日** \n'
-                        else:
-                            markdown_report += f'**今日** \n'
-                        prev_date = datetime_object.date()
+        if commit["author"] != "github-actions": # Exclude commits authored by github-actions
+            datetime_object = commit['date']
+            chinese_day = chinese_weekday(datetime_object)
 
-                message_lines = commit["message"].split('\n')
-                heading = message_lines[0]
-                markdown_report += f'- （{commit["author"]}）{heading}\n'
-                markdown_report += '\n'
+            if prev_date != datetime_object.date():
+                markdown_report += f'**{chinese_day}（{datetime_object.month}.{datetime_object.day}）** \n\n'
+                prev_date = datetime_object.date()
+
+            message_lines = commit["message"].split('\n')
+            course_name_line = f'[{title}](https://github.com/{ORG_NAME}/{repo_name})'
+            heading = message_lines[0]
+            markdown_report += '- （{}:{:02}）{}：（{}）{}\n'.format(datetime_object.hour,datetime_object.minute,course_name_line,commit["author"],heading)
+            markdown_report += '\n'
 
     final_markdown_report = f'---\n{yaml_front_matter}---\n\n'
 
@@ -204,4 +202,4 @@ if filtered_commits:
             file.write(final_markdown_report)
 
 else:
-    print('No commits found in the past week')
+    print('No commits found in the given period of time')
