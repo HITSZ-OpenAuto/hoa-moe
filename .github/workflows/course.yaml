@@ -1,48 +1,27 @@
-name: Deploy Hugo site to Pages
+name: Build Courses Pages
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *' # Runs every hour
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-# Default to bash
-defaults:
-  run:
-    shell: bash
+  workflow_dispatch: # This allows you to manually trigger the workflow
 
 jobs:
-  # Build job
   build:
-    runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.124.0
-    steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb   
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+      id-token: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
 
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
-
+    steps:  
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PERSONAL_TOKEN }}
           submodules: recursive
           fetch-depth: 0
+          token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -51,9 +30,6 @@ jobs:
 
       - name: Install Python Dependencies
         run: pip install -r scripts/requirements.txt
-
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
       - name: Get Organization Repository Names
         uses : austenstone/get-org-repos@v3.1
@@ -329,22 +305,3 @@ jobs:
         with:
           add: 'content'
           default_author: github_actions
-
-      - name: Build with Hugo
-        env:
-          # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-            --gc \
-            --minify
-
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: hoa-moe
-          directory: public
-          branch: main

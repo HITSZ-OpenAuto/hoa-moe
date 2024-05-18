@@ -2,18 +2,15 @@ name: Weekly Commit Report
 
 on:
   schedule:
-    - cron: '30 10 * * 5'  # This sets the workflow to run at 10:00 UTC+8 every Friday (6 PM Beijing time)
+    - cron: '30 10 * * 5'  # This sets the workflow to run at 10:00 UTC+0 every Friday (6 PM Beijing time)
   workflow_dispatch:  # This allows you to manually trigger the workflow
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
 
 jobs:
   generate-report:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+      id-token: write
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
