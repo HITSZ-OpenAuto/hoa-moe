@@ -298,7 +298,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Add your OpenAI API key as a secret
           NEWS_TYPE: daily
         run: |
-          python scripts/news_generation.py
+          python scripts/gen_news.py
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9

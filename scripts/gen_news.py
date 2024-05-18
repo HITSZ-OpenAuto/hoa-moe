@@ -125,10 +125,11 @@ elif NEWS_TYPE == "daily":
         "date": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d"), # date: UTC
         "authors": [
             {
-                "name": "GitHub-actions"
+                "name": "github-actions[bot]",
+                "link": "https://avatars.githubusercontent.com/in/15368"
             }
         ],
-        "description": f"自 {display_start_time.date()} 到 {datetime.datetime.now(timezone('Etc/GMT-8')).date()}的更新（每小时更新一次）",
+        "description": f"自 {display_start_time.date()} 到 {datetime.datetime.now(timezone('Etc/GMT-8')).date()} 的更新（每小时更新一次）",
         "excludeSearch": False,
         "draft": False
     }, default_flow_style=False, allow_unicode=True)
