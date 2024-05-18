@@ -1,6 +1,7 @@
 ---
 authors:
-- link: https://avatars.githubusercontent.com/in/15368
+- image: https://avatars.githubusercontent.com/in/15368
+  link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-05-18'
 description: 自 2024-05-17 到 2024-05-18 的更新（每小时更新一次）
