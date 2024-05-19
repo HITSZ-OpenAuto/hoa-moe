@@ -47,7 +47,7 @@ math: true
 - 本课程与教师基本无关。结题答辩时的老师也是任意分配的。
 
 ## 攻略
-> by [@Maxwell Jay](https://github.com/MaxwellJay256), 2023.12
+> 文 / [@Maxwell Jay](https://github.com/MaxwellJay256), 2023.12
 
 这应该是自动化学生为数不多的参与软件开发的机会。
 
@@ -56,15 +56,6 @@ math: true
 图省事的话推荐贪吃蛇之类的小游戏，借助 AI 不到 1 天就能速通，但是你需要想想答辩的时候能说些什么。
 
 如果想多积累一点敲代码经验，可以选择客户端类型的软件（信息管理系统、售票系统），体验一下前、后端的开发思想，尤其是 GUI 该怎么设计才能中看又中用。
-
-我选择的是「模拟地铁售票系统」，仓库👉 [MetroTicketingSystem](https://github.com/MaxwellJay256/MetroTicketingSystem)。
-
-
-> by [@Longlin li](https://github.com/longlin10086), 2023.12
-
-选择「 三国杀 」的同学可以参考👉  [KingdomCard](https://github.com/chenxijun/KingdomCard)
-
-项目整体采用 C/S 架构，能实现局域网内联机。前端使用 QT6 作为 UI 框架，后端采用 Modern C++ 进行编写。
 
 ### 组队
 
@@ -98,6 +89,26 @@ math: true
 Visual Studio 也是 MFC 或 C# 的最佳选择。
 
 Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，适合学习和实操 Qt 时使用。
+除此之外，Visual Studio 上有
+[Qt Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools-19123)
+插件，方便在 VS 上编辑 Qt 工程。
+
+## 项目收集
+
+这里有一些往年的项目，仅供参考。同时欢迎同学通过 PR 到本仓库分享自己的项目！
+
+#### [MaxwellJay256/MetroTicketingSystem](https://github.com/MaxwellJay256/MetroTicketingSystem)
+
+模拟地铁售票系统，有二进制成品和 demo。
+
+#### [chenxijun/KingdomCard](https://github.com/chenxijun/KingdomCard)
+
+三国杀游戏。项目整体采用 C/S 架构，能实现局域网内联机。
+前端使用 Qt6 作为 UI 框架，后端采用 Modern C++ 进行编写。
+
+#### [novemberinnorth/Simulate_Shenzhen_Subway_Ticketing_System](https://github.com/novemberinnorth/Simulate_Shenzhen_Subway_Ticketing_System)
+
+使用 C++ Qt6 实现图形化的模拟深圳地铁自动售票系统。
 <br>
 <br>
 <br>
