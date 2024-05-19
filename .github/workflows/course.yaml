@@ -3,14 +3,16 @@ name: Build Courses Pages
 on:
   workflow_dispatch: # This allows you to manually trigger the workflow
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
       id-token: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:  
       - name: Checkout
