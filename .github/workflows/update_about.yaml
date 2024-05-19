@@ -38,5 +38,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: 'content/about/index.zh-cn.md'
-          author_name: github_actions
+          default_author: github-actions
           message: 'ci: update about page'
