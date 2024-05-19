@@ -23,4 +23,6 @@ comments: false
   {{< card link="junior-summer" title="大三·夏" icon="markdown" >}}
   {{< card link="senior-autumn" title="大四·秋" icon="document-duplicate" >}}
   {{< card link="senior-spring" title="大四·春" icon="adjustments" >}}
+  {{< card link="cross-specialty" title="跨专业选修" icon="markdown" >}}
+  {{< card link="general-knowledge" title="文理通识与MOOC" icon="document-duplicate" >}}
 {{< /cards >}}
