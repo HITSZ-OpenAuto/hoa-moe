@@ -1,4 +1,4 @@
-name: Build Courses Pages
+name: 'Build Documentation'
 
 on:
   workflow_dispatch: # This allows you to manually trigger the workflow
@@ -22,15 +22,15 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - name: Setup python
+        uses: actions/setup-python@v5
         with:
-            python-version: '3.x'
+            python-version: '3.10'
 
-      - name: Install Python Dependencies
+      - name: Install python dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Get Organization Repository Names
+      - name: Get all repositories in the organization
         uses : austenstone/get-org-repos@v3.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -38,13 +38,13 @@ jobs:
           delimiter: "\n"
         id: get-org-repos
 
-      - name: Turn to Array
+      - name: Turn to array
         id: modified_files_list
         uses: lucaspinheirogit/list-from-string-array-action@v1.4.3
         with:
           stringArray: ${{ steps.get-org-repos.outputs.repos }}
 
-      - name: Bulid Semester Pages
+      - name: Bulid directory
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
           semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春' '跨专业选修' '文理通识与MOOC')
@@ -73,7 +73,7 @@ jobs:
           cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
           cat repos.txt
 
-      - name: Build Courses Pages
+      - name: Build course pages
         run: |
           counter_man=0
           counter_dis=100
@@ -273,7 +273,7 @@ jobs:
             done
           done
       
-      - name: Build Guide Pages
+      - name: Build Semester Pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
           category_arr='mandatory distributional-selective cross-major-selective graduate-course general-knowledge legacy'
@@ -290,9 +290,9 @@ jobs:
             done
           done
 
-      - name: Run the script
+      - name: Generate daily report
         env:
-          TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
         run: |
