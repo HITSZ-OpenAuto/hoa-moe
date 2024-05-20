@@ -93,6 +93,9 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
   {{< filetree/folder name="游戏化思维" state="closed" >}}
     {{< filetree/file name="游戏化思维参考答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="知识产权法律及实务" state="closed" >}}
+    {{< filetree/file name="知识产权法律及实务.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1.docx" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="职业发展英语" state="closed" >}}
     {{< filetree/file name="职English.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E8%8B%B1%E8%AF%AD/%E8%81%8CEnglish.docx" >}}
   {{< /filetree/folder >}}
