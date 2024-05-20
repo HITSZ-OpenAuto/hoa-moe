@@ -1,7 +1,9 @@
 name: 'Build Documentation'
 
 on:
-  workflow_dispatch: # This allows you to manually trigger the workflow
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}
