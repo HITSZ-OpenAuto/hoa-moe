@@ -62,10 +62,6 @@ math: true
 
 学习的时候，上课专心听，老师的节奏慢，可以不用预习（个人感觉）。对于一些公式，最好记下来，然后平时多做题。在作业之余，有时间可以刷一下教辅——工科数学分析，记一下上面的拓展公式（对考试帮助很大）。个人感觉不需要 MOOC。
 
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
@@ -214,9 +210,9 @@ math: true
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
+
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MATH1015A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
+
 
 
 ## 参与

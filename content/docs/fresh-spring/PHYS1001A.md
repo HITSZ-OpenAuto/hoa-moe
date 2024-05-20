@@ -63,10 +63,6 @@ math: true
 只要记得住公式和方程，考试时就不会有什么问题。
 
 可以用来练习的成套试卷并不多，因此珍惜每一次练习的机会，反复咀嚼不清楚的地方；清华题库中的题目难度偏高，不建议死磕。
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
@@ -107,9 +103,9 @@ math: true
     {{< filetree/file name="笔记和课后习题（含考研真题）详解_compressed.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3_compressed.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
+
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/PHYS1001A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
+
 
 
 ## 参与

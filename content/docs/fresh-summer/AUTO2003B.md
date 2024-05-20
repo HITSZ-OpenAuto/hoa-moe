@@ -109,10 +109,6 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 #### [novemberinnorth/Simulate_Shenzhen_Subway_Ticketing_System](https://github.com/novemberinnorth/Simulate_Shenzhen_Subway_Ticketing_System)
 
 使用 C++ Qt6 实现图形化的模拟深圳地铁自动售票系统。
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
@@ -137,9 +133,9 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
     {{< filetree/file name="课程设计题目.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
+
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO2003B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
+
 
 
 ## 参与

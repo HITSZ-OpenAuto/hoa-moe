@@ -18,16 +18,12 @@ math: true
 - [stockanalysis-freshman-year-project](https://github.com/efJerryYang/stockanalysis-freshman-year-project) - 基于机器学习的股票预测和分析
 
 如果你发现了有意思的大一立项项目，或者想分享自己的大一立项项目，欢迎开立 Pull Request 来增加新內容。
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
-<br>
+
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO2003A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
+
 
 
 ## 参与

@@ -23,10 +23,6 @@ math: true
 - 说明：（注意：可能不适用于21级）考试时间可能会比较紧，注意平时练习熟练度。考试题型较为传统，也不会考的较深较难，不用全面复习。
 
 ## 学习建议
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
@@ -87,9 +83,9 @@ math: true
     {{< filetree/file name="实验2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E5%AE%9E%E9%AA%8C2.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
+
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO3001B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
+
 
 
 ## 参与

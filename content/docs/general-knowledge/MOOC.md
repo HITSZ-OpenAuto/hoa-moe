@@ -57,10 +57,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 > 
 > 不过，根据 [lmh学长](https://github.com/lmh12138)的描述，挂 MOOC 目前暂不会影响**保研资格**。
 
-> 文 / [IcyDesert](https://github.com/IcyDesert) 2024.5 
-<br>
-<br>
-<br>
+> 文 / [IcyDesert](https://github.com/IcyDesert) 2024.5
 
 
 ## 资料下载
@@ -103,9 +100,9 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
     {{< filetree/file name="设计的人因与文化.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%BA%E5%9B%A0%E4%B8%8E%E6%96%87%E5%8C%96/%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%BA%E5%9B%A0%E4%B8%8E%E6%96%87%E5%8C%96.docx" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
+
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MOOC'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
+
 
 
 ## 参与
