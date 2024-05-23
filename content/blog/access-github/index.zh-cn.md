@@ -40,9 +40,9 @@ HITSZ OpenAuto 的资源基于 GitHub 托管，导致许多人问我们的第一
 - [Watt Toolkit](https://steampp.net/)：原名 Steam++，一个开源跨平台的多功能 Steam 工具箱，并且可以加速 GitHub 的访问。
   目前已支持 Windows、macOS、Linux 和 Android，属于开箱即用的软件。
 
-如果需要下载/克隆 GitHub 上的文件，可以使用本站提供的代理服务：
+如果只需要下载本组织中的文件，可以使用本站提供的代理服务：
 
-- [HOA's Github Proxy](https://gh.hoa.moe/)
+- [GitHub 文件加速](https://gh.hoa.moe/)
 
 ## 3. 通过修改 hosts 文件访问 GitHub
 

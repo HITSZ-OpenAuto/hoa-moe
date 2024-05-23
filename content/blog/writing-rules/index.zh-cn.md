@@ -64,16 +64,16 @@ excludeSearch: false
 
 tag.txt 记录的是课程类别（category）、课程名称（name）、开课学期（semester）和模块（module，对于限选课）。通常只有在培养方案发生变动时，此文件内容才会发生变化。它会直接影响该课程在网页前端的显示情况，所以对于这个文件的修改一定要根据当年的培养方案慎重处理。
 
-  - tag.txt 变量说明：
-    - category: 必修；限选；跨专业选修；研究生阶段课程；文理通识；归档
-    - module: 实践课程体系；控制理论与控制工程；机器人与智能系统；智能检测（注意：仅有限选课有此字段）
-    - semester: 第x学年x季（示例：第一学年秋季 / 第一学年春季）【不同学期用斜杠分开，需保留斜杠前后的空格】
-    - name: （示例）大学物理实验
-  - 提交信息示例：更改课程类别为「归档」，更改课程开课学期为「大三·秋」
+- tag.txt 变量说明：
+  - category: 必修；限选；跨专业选修；研究生阶段课程；文理通识；归档
+  - module: 实践课程体系；控制理论与控制工程；机器人与智能系统；智能检测（注意：仅有限选课有此字段）
+  - semester: 第x学年x季（示例：第一学年秋季 / 第一学年春季）【不同学期用斜杠分开，需保留斜杠前后的空格】
+- name: （示例）大学物理实验
+- 提交信息示例：更改课程类别为「归档」，更改课程开课学期为「大三·秋」
 
 ## 操作指引
 
-首先，如果你碰到了网络相关的问题，可以参考我们的文章：「[新人指南：不使用第三方工具访问 GitHub](https://hoa.moe/blog/access-github/)」 或者其他科学上网手段。
+如果你无法访问 GitHub，请参考 [《新人指南：不使用第三方工具访问 GitHub》](https://hoa.moe/blog/access-github/) 这篇文章，这里笔者更推荐使用 [修改 Host 文件](https://hoa.moe/blog/access-github/#3-通过修改-hosts-文件访问-github) 的方法。
 
 ### 如何编写课程文档？
 
@@ -135,6 +135,17 @@ git commit -m "[commit message]"    # 提交 commit message
 git push                            # 将本地修改同步到远端仓库
 
 ```
+
+{{< callout type="info" >}}
+如果在 push 时遇到以"fatal: unable to access"开头的错误，例如：
+
+```bash
+fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+```
+
+可能是因为你的网络环境无法访问 Github，可以尝试使用 VPN 或者参考 [《新人指南：不使用第三方工具访问 GitHub》](https://hoa.moe/blog/access-github/#3-通过修改-hosts-文件访问-github) 中修改 Host 文件的方法。
+
+{{< /callout >}}
 
 注意将 [ ] 中内容进行替换——与 Github 上的 commit message 类似，它也遵循 **约定式提交**。
 
