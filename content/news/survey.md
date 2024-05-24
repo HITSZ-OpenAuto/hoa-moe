@@ -17,4 +17,4 @@ OpenAuto 的第一次问卷调查来啦，希望屏幕前的你可以抽出几�
 
 2. 扫描下方二维码填写问卷:
 
-<img src="/images/survey.png" alt="问卷二维码" style="width: 400px align: center;"/>
+<img src="/images/survey.webp" alt="问卷二维码" style="width: 400px align: center;"/>

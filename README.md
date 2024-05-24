@@ -1,12 +1,12 @@
 <h3 align="center">
-	<img src="./static/images/HITSZOpenAutoShadow.png" width="400" alt="Logo"/><br/>
+	<img src="./static/images/HITSZOpenAutoShadow.webp" width="400" alt="Logo"/><br/>
 </h3>
 <h1 align="center">hoa.moe</h1>
 <h5 align="center"><a href="README.md">English</a> | <a href="README-zh.md">中文</a></h5>
 
 <p align="center">This is the website of <a href="https://github.com/HITSZ-OpenAuto">HITSZ OpenAuto</a>, built with <a href="https://gohugo.io/">Hugo</a> and <a href="https://imfing.github.io/hextra/">Hextra</a>.</p>
 
-![showcase](static/images/showcase-new.png)
+![showcase](static/images/showcase.webp)
 
 ## Features
 

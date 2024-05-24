@@ -9,7 +9,7 @@ layout: hextra-home
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
-{{< hero-container image="/images/HITSZOpenAuto.png" subtitle="" button_text="查看文档" button_link="docs" >}}
+{{< hero-container image="/images/HITSZOpenAuto.webp" subtitle="" button_text="查看文档" button_link="docs" >}}
   HITSZ 自动化课程攻略共享计划
 {{< /hero-container >}}
 
