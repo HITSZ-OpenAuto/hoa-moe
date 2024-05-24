@@ -6,7 +6,7 @@ comments: true
 <!--more-->
 
 <h3 align="center">
-	<img src="/images/HITSZOpenAutoShadow.png" width="300" alt="Logo"/><br/>
+	<img src="/images/HITSZOpenAutoShadow.webp" width="300" alt="Logo"/><br/>
 </h3>
 
 ## 愿景
