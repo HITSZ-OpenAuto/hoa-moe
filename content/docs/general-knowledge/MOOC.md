@@ -115,4 +115,3 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 {{< callout type="" >}}
   © 版权声明：[署名-非商业性使用-相同方式共享 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
-

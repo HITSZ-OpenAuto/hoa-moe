@@ -145,4 +145,3 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 {{< callout type="" >}}
   © 版权声明：[署名-非商业性使用-相同方式共享 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
-
