@@ -3,16 +3,15 @@ title: HITSZ OpenAuto
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge >}}
+{{< hextra/hero-badge link="<https://hoa.moe/blog/writing-rules/">}}>
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>采用 CC BY-NC-SA 4.0 许可证</span>
+  <span>参与</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 {{< hero-container image="/images/HITSZOpenAuto.webp" subtitle="" button_text="查看文档" button_link="docs" >}}
   HITSZ 自动化课程攻略共享计划
 {{< /hero-container >}}
-
 
 <div class="hx-mt-6"></div>
 
@@ -33,7 +32,7 @@ layout: hextra-home
     image="/images/github.webp"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/HITSZ-OpenAuto"
+    link="<https://github.com/HITSZ-OpenAuto>"
   >}}
   {{< hextra/feature-card
     title="技术博客分享"
