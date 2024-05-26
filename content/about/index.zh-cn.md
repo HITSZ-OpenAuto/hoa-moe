@@ -3,58 +3,40 @@ title: 关于
 comments: true
 ---
 
-👋 你好！欢迎来到 HITSZ 自动化课程攻略共享计划!
-
 <!--more-->
 
-HITSZ 自动化课程攻略共享计划最初由 [@lmh12138](https://github.com/lmh12138) 创建，现由 [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto) 维护。
-
 <h3 align="center">
-	<img src="/images/HITSZOpenAutoShadow.png" width="300" alt="Logo"/><br/>
+	<img src="/images/HITSZOpenAutoShadow.webp" width="300" alt="Logo"/><br/>
 </h3>
 
 ## 愿景
 
-1. **尊重并保护知识产权**。
+- 消除信息不对等，追求更有意义的评价体系。
+- 分享课程资料、学习方法，最大程度减少学习弯路。
 
-2. 一定程度上消除信息不对称所带来的不公平现象。
+## 历史
 
-3. 以成为同学们学习中的辅助与参考为出发点，**坚决反对抄袭**。
+HITSZ 自动化课程攻略共享计划于 2022 年 6 月由 [lmh12138](https://github.com/lmh12138) 创建，2023 年 11 月开始由 [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto) 维护。
 
-4. 仓库存活期间永久保证：**公益、免费、开源**。
+## 参与
 
-## 平台
+如果你有可供分享的资料，欢迎创建 Pull Request 为对应课程的仓库增加新内容；如果对仓库中的内容有疑问或建议，可以通过创建 Issue 的方式提出。
 
-为什么采用 GitHub 项目作为平台呢？我们有以下考虑:
-
-- QQ 群大多为年级和专业所分隔，无法长期共同地保有；况且群文件也缺乏组织。
-- GitHub 带有便捷的 Issues 和 Pull Requests 功能，大大降低了想参与维护此项目的同学的入门门槛，并且管理者可以方便地对贡献的质量进行监督和调整。
-- GitHub 没有托管的成本，这个项目即使在我们发起人毕业之后仍可以长时间存在。
-
-## 如何贡献
-
-**欢迎贡献！欢迎贡献！欢迎贡献！** 😃
-
-Issues、Pull Requests、纠错、资料、选课/考试攻略，完全欢迎！来自大家的关注、维护和贡献，才是让这个攻略继续存在的动力~
-
-屏幕前的您请不要吝啬，您的作品一旦被合并至该仓库中，有可能会被无数学弟学妹仰慕。我们需要您的贡献！我们提供以下几种贡献方法：
-
-1. 创建 PR：Fork 你需要贡献的课程仓库，在以你的 ID 命名的文件夹下上传你的文件，需要留意仓库原有的文件组织结构。
-
-2. 也可以直接把文件提交到 Issues 中，由维护者进行添加。
-
-3. 发邮件至我们的邮箱 [hi@hoa.moe](mailto:hi@hoa.moe) 。
+具体方式可以阅读我们的 [参与指南](https://hoa.moe/blog/writing-rules/)。
 
 ## 鸣谢
+
+由衷感谢每一位 HITSZ OpenAuto 的贡献者:
+
+![Contributors](https://contrib.nn.ci/api?repo=HITSZ-OpenAuto/HITSZ-OpenAuto&repo=HITSZ-OpenAuto/PHYS1002&repo=HITSZ-OpenAuto/AUTO3002A&repo=HITSZ-OpenAuto/CHEM1012&repo=HITSZ-OpenAuto/AUTO2005&repo=HITSZ-OpenAuto/AUTO3003&repo=HITSZ-OpenAuto/AUTO3004&repo=HITSZ-OpenAuto/MATH1005&repo=HITSZ-OpenAuto/MATH1004&repo=HITSZ-OpenAuto/EE1011B&repo=HITSZ-OpenAuto/AUTO3007&repo=HITSZ-OpenAuto/COMP2050&repo=HITSZ-OpenAuto/MATH3010&repo=HITSZ-OpenAuto/COMP2021&repo=HITSZ-OpenAuto/COMP2014&repo=HITSZ-OpenAuto/AUTO3005&repo=HITSZ-OpenAuto/AUTO3016&repo=HITSZ-OpenAuto/MATH1002&repo=HITSZ-OpenAuto/EE3005&repo=HITSZ-OpenAuto/AUTO2006&repo=HITSZ-OpenAuto/EE1007&repo=HITSZ-OpenAuto/EE1009&repo=HITSZ-OpenAuto/EE1010&repo=HITSZ-OpenAuto/EE1008&repo=HITSZ-OpenAuto/GEIP1018&repo=HITSZ-OpenAuto/EMEC1002&repo=HITSZ-OpenAuto/ECON2005F&repo=HITSZ-OpenAuto/AUTO1001&repo=HITSZ-OpenAuto/EE1012B&repo=HITSZ-OpenAuto/GEIP1011&repo=HITSZ-OpenAuto/GEIP1016&repo=HITSZ-OpenAuto/AUTO2003B&repo=HITSZ-OpenAuto/PHYS1001A&repo=HITSZ-OpenAuto/LANG1006&repo=HITSZ-OpenAuto/EE1012A&repo=HITSZ-OpenAuto/MATH1015B&repo=HITSZ-OpenAuto/MECH2010&repo=HITSZ-OpenAuto/MOOC&repo=HITSZ-OpenAuto/AUTO3014&repo=HITSZ-OpenAuto/AUTO5003&repo=HITSZ-OpenAuto/AUTO3001A&repo=HITSZ-OpenAuto/EE1011A&repo=HITSZ-OpenAuto/MATH1015A&repo=HITSZ-OpenAuto/EE1013&repo=HITSZ-OpenAuto/PE100X&repo=HITSZ-OpenAuto/EE1014&repo=HITSZ-OpenAuto/AUTO2003A&repo=HITSZ-OpenAuto/AUTO5023&repo=HITSZ-OpenAuto/AUTO3001B&repo=HITSZ-OpenAuto/AUTO3002B&repo=HITSZ-OpenAuto/images&repo=HITSZ-OpenAuto/AUTO3006&repo=HITSZ-OpenAuto/AUTO3099)
+
+目前仅记录在 GitHub 组织下参与的同学，但是我们同样感谢曾经通过邮件/ OpenAuto 仓库参与的同学！
 
 HITSZ OpenAuto 的建设离不开这些项目提供的灵感：
 
 - [浙江大学相关项目](https://github.com/QSCTech/zju-icicles)
-- [哈工大（深圳）计算机系相关项目](https://github.com/hewei2001/HITSZ-OpenCS)
-
-由衷感谢每一位 HITSZ OpenAuto 的贡献者:
-
-![Contributors](https://contrib.nn.ci/api?repo=tanglongbin/HITSZ-OpenAuto&repo=HITSZ-OpenAuto/EE1011A&repo=HITSZ-OpenAuto/EE1011B&repo=HITSZ-OpenAuto/MECH2010&repo=HITSZ-OpenAuto/COMP2014&repo=HITSZ-OpenAuto/PHYS1002A&repo=HITSZ-OpenAuto/AUTO3001A&repo=HITSZ-OpenAuto/AUTO2003B&repo=HITSZ-OpenAuto/EE1012B&repo=HITSZ-OpenAuto/AUTO2005&repo=HITSZ-OpenAuto/EE1007&repo=HITSZ-OpenAuto/AUTO3016&repo=HITSZ-OpenAuto/AUTO3002A&repo=HITSZ-OpenAuto/GEIP1011&repo=HITSZ-OpenAuto/AUTO3004&repo=HITSZ-OpenAuto/EE3005&repo=HITSZ-OpenAuto/AUTO3003&repo=HITSZ-OpenAuto/MATH1005&repo=HITSZ-OpenAuto/HITSZ-Auto-Wiki&repo=HITSZ-OpenAuto/AUTO3001B&repo=HITSZ-OpenAuto/AUTO1001&repo=HITSZ-OpenAuto/AUTO3006&repo=HITSZ-OpenAuto/GEIP1016&repo=HITSZ-OpenAuto/MOOC&repo=HITSZ-OpenAuto/AUTO3007&repo=HITSZ-OpenAuto/COMP2021&repo=HITSZ-OpenAuto/ECON2005F&repo=HITSZ-OpenAuto/CHEM1012&repo=HITSZ-OpenAuto/MATH1004&repo=HITSZ-OpenAuto/GEIP1018&repo=HITSZ-OpenAuto/EMEC1002&repo=HITSZ-OpenAuto/EE1010&repo=HITSZ-OpenAuto/EE1009&repo=HITSZ-OpenAuto/EE1008&repo=HITSZ-OpenAuto/COMP2050&repo=HITSZ-OpenAuto/MATH1015A&repo=HITSZ-OpenAuto/MATH1002&repo=HITSZ-OpenAuto/LANG1006&repo=HITSZ-OpenAuto/PHYS1001A&repo=HITSZ-OpenAuto/MATH1015B&repo=HITSZ-OpenAuto/EE1012A&repo=HITSZ-OpenAuto/AUTO2006&repo=HITSZ-OpenAuto/AUTO3002B&repo=HITSZ-OpenAuto/AUTO3005&repo=HITSZ-OpenAuto/MATH3010&repo=HITSZ-OpenAuto/EE1013&repo=YinMo19/_HIT_C_course_EXPR_Amount_System)
+- [哈尔滨工业大学（深圳）计算机专业课程攻略](https://github.com/hewei2001/HITSZ-OpenCS)
+- 哈工大网盘计划
 
 我们的 Logo 由 [@Petrica](https://github.com/PetricaT) 设计：
 - [Programming VTuber Logos (addon edition)](https://github.com/PetricaT/ProgrammingVTuberLogos-Addon)

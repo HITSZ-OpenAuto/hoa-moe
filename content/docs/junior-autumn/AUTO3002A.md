@@ -187,10 +187,6 @@ math: true
 - 有少数题目不太严谨，不要因为这个影响答题。
 - 仅做往年题而不理解概念的后果，就是对于往年题之外的题目无从下手。所以这门课虽说挂科率不低，但考高分的也少。
 - 所以，往年题只供大家参考，只靠通过刷往年考试题来获取高分或者保证不挂科是**不可取的**。而且往年题有许多题目并无答案，需要理解并且与同学讨论来得出答案。**希望大家认真复习，把基本概念、方法掌握扎实。**
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
@@ -277,11 +273,15 @@ math: true
     {{< filetree/file name="自控实践_by_Spar Océsel_2023.apkg" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5_by_Spar%20Oc%C3%A9sel_2023.apkg" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO3002A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
 
+如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO3002A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 
-《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+- 《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+
+- 我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+
+{{< callout type="" >}}
+  © 版权声明：[署名-非商业性使用-相同方式共享 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+{{< /callout >}}

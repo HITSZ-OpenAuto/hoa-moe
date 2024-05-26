@@ -13,22 +13,16 @@ math: true
 
 ## 授课教师
 
-- 教师 1：Wu Aiguo
-  - 授课风格：
-  - 听课建议：
-- 教师 2：Xu Jun
-  - 授课风格：
-  - 听课建议：
+- 教师 1：吴爱国
+
+- 教师 2：许鋆
+  
 ## 关于考试
 
 - 考试难度：中等
 - 说明：（注意：可能不适用于21级）考试时间可能会比较紧，注意平时练习熟练度。考试题型较为传统，也不会考的较深较难，不用全面复习。
 
 ## 学习建议
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
@@ -89,11 +83,15 @@ math: true
     {{< filetree/file name="实验2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E5%AE%9E%E9%AA%8C2.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO3001B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
 
+如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO3001B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 
-《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+- 《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+
+- 我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+
+{{< callout type="" >}}
+  © 版权声明：[署名-非商业性使用-相同方式共享 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+{{< /callout >}}

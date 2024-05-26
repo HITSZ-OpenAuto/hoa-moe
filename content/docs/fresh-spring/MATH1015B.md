@@ -51,10 +51,6 @@ math: true
 
 ## 关于考试
 - 考试难度：半期考试比较容易，25+ 对于大多数同学是能实现的；期末考试由于曲线曲面积分以及级数的加入，计算量陡增，难度也随之增加，想上 40 分会比较有挑战性，挂科率也是相当高。
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
@@ -120,11 +116,15 @@ math: true
     {{< filetree/file name="高等数学（下册）易遗忘知识点.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MATH1015B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
 
+如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MATH1015B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 
-《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+- 《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+
+- 我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+
+{{< callout type="" >}}
+  © 版权声明：[署名-非商业性使用-相同方式共享 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+{{< /callout >}}

@@ -57,10 +57,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 > 
 > 不过，根据 [lmh学长](https://github.com/lmh12138)的描述，挂 MOOC 目前暂不会影响**保研资格**。
 
-> 文 / [IcyDesert](https://github.com/IcyDesert) 2024.5 
-<br>
-<br>
-<br>
+> 文 / [IcyDesert](https://github.com/IcyDesert) 2024.5
 
 
 ## 资料下载
@@ -87,11 +84,17 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
   {{< filetree/folder name="新科学家英语" state="closed" >}}
     {{< filetree/file name="新科学家英语：演讲与写作.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%96%B0%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8B%B1%E8%AF%AD/%E6%96%B0%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8B%B1%E8%AF%AD%EF%BC%9A%E6%BC%94%E8%AE%B2%E4%B8%8E%E5%86%99%E4%BD%9C.docx" >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="智慧树中国红色文化精神" state="closed" >}}
+    {{< filetree/file name="中国红色文化精神.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E4%B8%AD%E5%9B%BD%E7%BA%A2%E8%89%B2%E6%96%87%E5%8C%96%E7%B2%BE%E7%A5%9E/%E4%B8%AD%E5%9B%BD%E7%BA%A2%E8%89%B2%E6%96%87%E5%8C%96%E7%B2%BE%E7%A5%9E.docx" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="智慧树关爱生命" state="closed" >}}
     {{< filetree/file name="智慧树关爱生命---自救与急救技能章节习题及答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD---%E8%87%AA%E6%95%91%E4%B8%8E%E6%80%A5%E6%95%91%E6%8A%80%E8%83%BD%E7%AB%A0%E8%8A%82%E4%B9%A0%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="游戏化思维" state="closed" >}}
     {{< filetree/file name="游戏化思维参考答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="知识产权法律及实务" state="closed" >}}
+    {{< filetree/file name="知识产权法律及实务.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="职业发展英语" state="closed" >}}
     {{< filetree/file name="职English.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E8%8B%B1%E8%AF%AD/%E8%81%8CEnglish.docx" >}}
@@ -100,11 +103,15 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
     {{< filetree/file name="设计的人因与文化.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%BA%E5%9B%A0%E4%B8%8E%E6%96%87%E5%8C%96/%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%BA%E5%9B%A0%E4%B8%8E%E6%96%87%E5%8C%96.docx" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MOOC'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
 
+如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MOOC'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 
-《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+- 《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+
+- 我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+
+{{< callout type="" >}}
+  © 版权声明：[署名-非商业性使用-相同方式共享 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+{{< /callout >}}

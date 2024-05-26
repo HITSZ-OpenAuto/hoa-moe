@@ -1,12 +1,12 @@
 <h3 align="center">
-	<img src="./static/images/HITSZOpenAutoShadow.png" width="400" alt="Logo"/><br/>
+	<img src="./static/images/HITSZOpenAutoShadow.webp" width="400" alt="Logo"/><br/>
 </h3>
 <h1 align="center">hoa.moe</h1>
 <h5 align="center"><a href="README.md">English</a> | <a href="README-zh.md">中文</a></h5>
 
 <p align="center">This is the website of <a href="https://github.com/HITSZ-OpenAuto">HITSZ OpenAuto</a>, built with <a href="https://gohugo.io/">Hugo</a> and <a href="https://imfing.github.io/hextra/">Hextra</a>.</p>
 
-![showcase](static/images/showcase-new.png)
+![showcase](static/images/showcase.webp)
 
 ## Features
 
@@ -50,9 +50,7 @@ Open `http://localhost:1313` in your browser.
 
 ## Contributing
 
-If you want to contribute to the documentation, please refer to the [HITSZ OpenAuto 文档编写指南](https://hoa.moe/blog/writing-rules/).
-
-To post your article, you can simply create a new markdown file in the `content/blog` directory, and submit a pull request. If you are not familiar with Git, you can also send your article to [📮hi@hoa.moe](mailto:hi@hoa.moe). We will review your articl once we receive it.
+If you would like to contribute to the document, please refer to our [contribution guidelines](https://hoa.moe/blog/writing-rules/). We also welcome code contributions, especially those addressing existing issues.
 
 ## License
 

@@ -42,24 +42,28 @@ def generate_folder_shortcode(directory, content, owner, repo):
     result += '  {{< /filetree/folder >}}\n'
     return result
 
-def list_files_in_repo(owner, repo, username, token, path=''):
+def list_files_in_repo(owner, repo, token, path=''):
     paths = []
     url = f'https://api.github.com/repos/{owner}/{repo}/contents/{path}'
-    response = requests.get(url, auth=(username, token))
+    # response = requests.get(url, auth=(token))
+    headers = {
+        'Authorization': f'token {token}'
+    }
+    response = requests.get(url, headers=headers)
     if response.status_code == 200:
         contents = response.json()
         for content in contents:
             if content['type'] == 'file':
                 paths.append(content['path'])
             elif content['type'] == 'dir':
-                paths.extend(list_files_in_repo(owner, repo, username, token, content['path']))
+                paths.extend(list_files_in_repo(owner, repo, token, content['path']))
     else:
         print(f"Failed to retrieve files. Status code: {response.status_code}")
         print(response.text)
     return paths
 
-def save_files_list(owner, repo, username, token):
-    paths = list_files_in_repo(owner, repo, username, token)
+def save_files_list(owner, repo, token):
+    paths = list_files_in_repo(owner, repo, token)
     filtered_paths = [path for path in paths if path.endswith(('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc', '.ipynb', '.pptx', '.apkg', '.mp4', '.csv', 'xlsx'))]
     result_content = ""
     if filtered_paths:
@@ -71,13 +75,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate download links of files from a GitHub repository.")
     parser.add_argument("owner", help="GitHub repository owner")
     parser.add_argument("repo", help="GitHub repository name")
-    parser.add_argument("username", help="GitHub username")
     parser.add_argument("token", help="GitHub token")
 
     args = parser.parse_args()
     owner = args.owner
     repo = args.repo
-    username = args.username
     token = args.token
     
-    save_files_list(owner, repo, username, token)
+    save_files_list(owner, repo, token)

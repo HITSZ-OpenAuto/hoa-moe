@@ -1,5 +1,5 @@
 <h3 align="center">
-	<img src="./static/images/HITSZOpenAutoShadow.png" width="400" alt="Logo"/><br/>
+	<img src="./static/images/HITSZOpenAutoShadow.webp" width="400" alt="Logo"/><br/>
 </h3>
 <h1 align="center">hoa.moe</h1>
 <h5 align="center"><a href="README.md">English</a> | <a href="README-zh.md">中文</a></h5>
@@ -7,7 +7,7 @@
 <p align="center">本网站使用 <a href="https://gohugo.io/">Hugo</a> 框架和 <a href="https://imfing.github.io/hextra/">Hextra</a> 主题进行构建，由 <a href="https://github.com/HITSZ-OpenAuto">HITSZ OpenAuto</a>团队管理维护。</p>
 
 
-![showcase](static/images/showcase-new.png)
+![showcase](static/images/showcase.webp)
 
 ## 网站特点
 
@@ -51,9 +51,7 @@ hugo server
 
 ## 如何贡献
 
-如果你想为本网站贡献说明文档，请阅读 [HITSZ OpenAuto 文档编写指南](https://hoa.moe/blog/writing-rules/)。
-
-如果你想在本网站发布博客文章，你可以在 `content/blog` 文件夹下按照格式创建一个新的 markdown 文本文件, 编辑完成后向我们提交 pull request。如果你不熟悉 Git 的使用方法, 你也可以将文章通过邮件的方式发送至 [📮hi@hoa.moe](mailto:hi@hoa.moe)，我们会在第一时间审核你的文章。
+如果您想参与网页中的内容编写，请阅读我们的[《参与指南》](https://hoa.moe/blog/writing-rules/)。我们也欢迎代码贡献，特别是那些解决现有问题的贡献。
 
 ## 开源许可证
 

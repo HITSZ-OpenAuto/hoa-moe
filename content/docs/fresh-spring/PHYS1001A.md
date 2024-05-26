@@ -63,10 +63,6 @@ math: true
 只要记得住公式和方程，考试时就不会有什么问题。
 
 可以用来练习的成套试卷并不多，因此珍惜每一次练习的机会，反复咀嚼不清楚的地方；清华题库中的题目难度偏高，不建议死磕。
-<br>
-<br>
-<br>
-
 
 ## 资料下载
 
@@ -107,11 +103,15 @@ math: true
     {{< filetree/file name="笔记和课后习题（含考研真题）详解_compressed.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3_compressed.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
-<br>
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/PHYS1001A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
-<br>
 
+如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/PHYS1001A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 
-《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+- 《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+
+- 我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+
+{{< callout type="" >}}
+  © 版权声明：[署名-非商业性使用-相同方式共享 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+{{< /callout >}}

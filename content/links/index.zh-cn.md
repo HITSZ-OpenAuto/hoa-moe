@@ -34,9 +34,7 @@ sidebar:
   {{< card link="https://longbin.tech" title="Longbin's Tech-Blog" >}}  
 {{< /cards >}}
 
-<br>
-
-{{< callout type=“info” emoji="🌐" >}}
+{{< callout type="info" >}}
 
 我们会收录的链接包括但不限于：
 
