@@ -113,5 +113,5 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 - 我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
 
 {{< callout type="" >}}
-  © 版权声明：[署名-非商业性使用-相同方式共享 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
