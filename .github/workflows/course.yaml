@@ -1,6 +1,10 @@
 name: 'Build Documentation'
 
 on:
+  push:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/course.yaml'
   schedule:
     - cron: '0 16 */2 * *'
   workflow_dispatch:
