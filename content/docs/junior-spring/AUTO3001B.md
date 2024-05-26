@@ -6,6 +6,11 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
+{{< callout type="info" >}}
+  我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+{{< /callout >}}
+
+
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)
 
 ![Static Badge](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)  ![Static Badge](https://img.shields.io/badge/作业未知%25-wheat)  ![Static Badge](https://img.shields.io/badge/实验未知%25-wheat)  ![Static Badge](https://img.shields.io/badge/考试%25-wheat)

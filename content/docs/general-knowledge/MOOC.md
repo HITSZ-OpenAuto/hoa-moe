@@ -6,6 +6,11 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
+{{< callout type="info" >}}
+  我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+{{< /callout >}}
+
+
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-red)
 ![学分](https://img.shields.io/badge/MOOC%E9%9A%B6%E5%B1%9E%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86%20%E6%97%A0%E7%89%B9%E6%AE%8A%E5%AD%A6%E5%88%86%E8%A6%81%E6%B1%82-moccasin)
 

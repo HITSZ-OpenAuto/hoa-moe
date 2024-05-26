@@ -6,6 +6,11 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
+{{< callout type="info" >}}
+  我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+{{< /callout >}}
+
+
 <div align="left">
 <figure>
   <img alt="考试课" src="https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red" >

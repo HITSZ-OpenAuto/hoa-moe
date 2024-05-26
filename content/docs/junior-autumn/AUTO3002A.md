@@ -5,6 +5,11 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
+
+{{< callout type="info" >}}
+  我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
+{{< /callout >}}
+
 **new: 步进电机试题答案更新，更新一份课内实验报告版本**
 
 文档编写者：[Oliver Wu](https://github.com/OliverWu515)（撰写有关21级部分）
