@@ -257,6 +257,10 @@ jobs:
                 echo '<br>' >> "./content/docs/${semester}/${line}.md"
                 echo "什么是${MODULE}模块？请查阅[限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)。" >> "./content/docs/${semester}/${line}.md"
               fi
+
+              echo >> "./content/docs/${semester}/${line}.md"
+              cat scripts/notice.txt >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
               
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
               tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
