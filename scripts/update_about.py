@@ -43,6 +43,8 @@ if __name__ == "__main__":
         for repo in repos:
             f.write(f'HITSZ-OpenAuto/{repo}\n')
 
+        f.write('noname7321/HITSZ-OpenAuto\n')
+
     repo_file_path = 'repos_list.txt'
     readme_file_path = 'content/about/index.zh-cn.md'
     new_contributors_url = generate_contributors_url(repo_file_path)

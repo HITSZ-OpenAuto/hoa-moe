@@ -3,6 +3,9 @@ name: Update About Page
 on:
   schedule:
     - cron: '0 0 * * *'
+  push:
+    paths:
+      - 'scripts/update_about.py'
 
   workflow_dispatch:
 
