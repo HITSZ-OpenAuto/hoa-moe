@@ -115,6 +115,10 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 使用 C++ Qt6 实现图形化的模拟深圳地铁自动售票系统。
 
+#### [Sieroy/Musnake](https://github.com/Sieroy/Musnake)
+
+使用SDL2实现图形界面的、融合轻量音游玩法的贪吃蛇游戏。使用C++编写，编写时代码水平比较弱，望见谅。附有可玩demo，试运行前建议设置显卡全局FPS限制以降低消耗。
+
 ## 资料下载
 
 {{< filetree/container >}}
