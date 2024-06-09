@@ -3,16 +3,14 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-06-01'
-description: 时间跨度：（北京时间）2024-06-01 00时至今
+date: '2024-06-09'
+description: 时间跨度：（北京时间）2024-06-08 20时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
-#### 周六（6.1) 
+#### 周日（6.9) 
 
-- （16:57）[创新训练课A](https://github.com/HITSZ-OpenAuto/AUTO2003A)：（Kowyo）测试 GitHub Actions
-
-- （16:55）[创新训练课A](https://github.com/HITSZ-OpenAuto/AUTO2003A)：（Kowyo）测试 GitHub Actions
+- （20:11）[机器人学导论](https://github.com/HITSZ-OpenAuto/AUTO3005)：（吴俊达）新增作业3-6代码部分和实验1-4
 
