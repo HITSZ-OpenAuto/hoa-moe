@@ -4,11 +4,15 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-06-11'
-description: 时间跨度：（北京时间）2024-06-11 00时至今
+description: 时间跨度：（北京时间）2024-06-11 02时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
+
+#### 周三（6.12) 
+
+- （2:25）[自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001)：（吴俊达）Update semester
 
 #### 周二（6.11) 
 

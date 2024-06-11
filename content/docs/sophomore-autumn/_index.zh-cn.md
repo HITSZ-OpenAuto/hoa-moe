@@ -10,7 +10,6 @@ toc: false
 {{< cards >}}
 {{< card link="math1005"title="复变函数与积分变换">}}
 {{< card link="math1004"title="概率论与数理统计">}}
-{{< card link="auto1001"title="自动化认知与实践">}}
 {{< card link="geip1011"title="马克思主义基本原理">}}
 {{< card link="phys1001a"title="大学物理">}}
 {{< card link="lang1006"title="大学英语">}}
