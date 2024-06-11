@@ -31,8 +31,8 @@ def update_readme(readme_path, new_url):
 
     with open(readme_path, 'w') as file:
         for line in lines:
-            if line.strip().startswith("![Contributors]"):
-                file.write(f"![Contributors]({new_url})\n")
+            if line.strip().startswith("<iframe"):
+                file.write(f"<iframe src=\"{new_url}\" width=\"1000\" height=\"300\"></iframe>\n")
             else:
                 file.write(line)
 
