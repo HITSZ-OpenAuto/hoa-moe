@@ -16,7 +16,7 @@ math: true
 ![Static Badge](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![Static Badge](https://img.shields.io/badge/作业-10%25-wheat)
 ![Static Badge](https://img.shields.io/badge/实验-40%25-wheat)
-![Static Badge](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+![Static Badge](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
 
 
 ## 授课教师
