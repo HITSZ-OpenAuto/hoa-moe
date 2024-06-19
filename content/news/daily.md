@@ -4,11 +4,15 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-06-19'
-description: 时间跨度：（北京时间）2024-06-19 00时至今
+description: 时间跨度：（北京时间）2024-06-19 01时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
+
+#### 周四（6.20) 
+
+- （1:13）[数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009)：（Kowyo）Update README.md
 
 #### 周三（6.19) 
 
