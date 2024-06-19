@@ -3,14 +3,14 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-06-17'
-description: 时间跨度：（北京时间）2024-06-17 00时至今
+date: '2024-06-19'
+description: 时间跨度：（北京时间）2024-06-18 23时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
-#### 周一（6.17) 
+#### 周三（6.19) 
 
-- （20:29）[自动控制实践B](https://github.com/HITSZ-OpenAuto/AUTO3002B)：（Kowyo）更新分数组成
+- （23:10）[数字电子技术实验](https://github.com/HITSZ-OpenAuto/EE1010)：（345ljh）add lab_report ver2023 (#2)
 
