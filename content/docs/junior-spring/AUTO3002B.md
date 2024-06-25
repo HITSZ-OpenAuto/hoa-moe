@@ -65,6 +65,7 @@ math: true
   {{< /filetree/folder >}}
   {{< filetree/folder name="notes" state="closed" >}}
     {{< filetree/file name="Revision of Auto-Practical.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/Revision%20of%20Auto-Practical.pdf" >}}
+    {{< filetree/file name="自控实践B复习_Tintin.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E5%A4%8D%E4%B9%A0_Tintin.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
