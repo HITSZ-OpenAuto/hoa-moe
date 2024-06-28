@@ -4,13 +4,15 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-06-28'
-description: 时间跨度：（北京时间）2024-06-28 03时至今
+description: 时间跨度：（北京时间）2024-06-28 04时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 #### 周六（6.29) 
+
+- （4:45）[理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002)：（oliver-wu）更新2023试题答案
 
 - （3:01）[线性系统理论](https://github.com/HITSZ-OpenAuto/AUTO5001)：（oliver-wu）add trigger workflow
 
