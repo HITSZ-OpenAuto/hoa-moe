@@ -19,7 +19,7 @@ sidebar:
 {{< cards >}}
   {{< card link="https://github.com/HITSZ-OpenCS/HITSZ-OpenCS" title="哈尔滨工业大学（深圳）计算机专业课程攻略" >}}
   {{< card link="https://github.com/DseidLi/HITSZ-OpenDS" title="哈尔滨工业大学（深圳）大数据专业课程攻略" >}}
-  {{< card link="https://n92uuvwhvl.feishu.cn/docx/doxcnjhfZtDck76yesZH5yOREtf" title="网盘计划" >}}
+  {{< card link="https://n92uuvwhvl.feishu.cn/docx/doxcnJJJRHkvnueihVcR5G2YF6f" title="哈工大深圳网盘计划（飞书）" >}}
   {{< card link="https://hitsz.flowus.cn/" title="HITSZ 计科手册" >}}
   {{< card link="https://open.osa.moe/" title="Alist 网盘" >}}
   {{< card link="https://doby.tech" title="一键导入课程表" >}}
