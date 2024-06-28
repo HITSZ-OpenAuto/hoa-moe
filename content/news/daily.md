@@ -3,14 +3,14 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-06-25'
-description: 时间跨度：（北京时间）2024-06-25 00时至今
+date: '2024-06-28'
+description: 时间跨度：（北京时间）2024-06-28 01时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
-#### 周二（6.25) 
+#### 周六（6.29) 
 
-- （18:46）[自动控制实践B](https://github.com/HITSZ-OpenAuto/AUTO3002B)：（吴俊达）增加复习笔记一份
+- （1:41）[自动控制理论B](https://github.com/HITSZ-OpenAuto/AUTO3001B)：（oliver-wu）新增一个实验报告版本、两份模拟题、一份复习笔记
 

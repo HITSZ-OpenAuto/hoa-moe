@@ -24,8 +24,17 @@ math: true
 
 - 教师 1：吴爱国
 
+授课认真，讲解细致，按步骤演算各校正过程，生怕学生听不懂，非常负责任的好老师。上课给人的感觉是举重若轻、信手拈来~~（不知道成语用对了没有）~~。
+
+自编讲义并印发给学生（每班2本），不过其中有一些错误，课件中修正了一部分；课件中的图片大多是矢量图，非常清晰美观。
+
+仅看课件不一定看得懂（有些页面只有一张图），需要结合听课来理解。
+
+>文/ [Oliver Wu](https://www.github.com/OliverWu515), 2024.6
+
 - 教师 2：许鋆
-  
+
+
 ## 关于考试
 
 - 考试难度：中等
@@ -76,20 +85,33 @@ math: true
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
+    {{< filetree/file name="模拟题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E6%A8%A1%E6%8B%9F%E9%A2%98.pdf" >}}
+    {{< filetree/file name="模拟题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E6%A8%A1%E6%8B%9F%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="自控B-校正.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf" >}}
     {{< filetree/file name="自控理论b考试回忆.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf" >}}
     {{< filetree/file name="补考前复习题-参考解答.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf" >}}
     {{< filetree/file name="补考前复习题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="labs" state="closed" >}}
-  {{< filetree/folder name="FWI_Version" state="closed" >}}
-    {{< filetree/file name="自动控制原理B-上机2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/FWI_Version/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B-%E4%B8%8A%E6%9C%BA2.pdf" >}}
-    {{< filetree/file name="自动控制原理B第一次实验.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/FWI_Version/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C.pdf" >}}
+  {{< filetree/folder name="2022_LMH" state="closed" >}}
+    {{< filetree/file name="上机1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E4%B8%8A%E6%9C%BA1.pdf" >}}
+    {{< filetree/file name="上机2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E4%B8%8A%E6%9C%BA2.pdf" >}}
+    {{< filetree/file name="实验1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E5%AE%9E%E9%AA%8C1.pdf" >}}
+    {{< filetree/file name="实验2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E5%AE%9E%E9%AA%8C2.pdf" >}}
   {{< /filetree/folder >}}
-    {{< filetree/file name="上机1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E4%B8%8A%E6%9C%BA1.pdf" >}}
-    {{< filetree/file name="上机2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E4%B8%8A%E6%9C%BA2.pdf" >}}
-    {{< filetree/file name="实验1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E5%AE%9E%E9%AA%8C1.pdf" >}}
-    {{< filetree/file name="实验2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/%E5%AE%9E%E9%AA%8C2.pdf" >}}
+  {{< filetree/folder name="2023_FWI" state="closed" >}}
+    {{< filetree/file name="自动控制原理B-上机2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_FWI/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B-%E4%B8%8A%E6%9C%BA2.pdf" >}}
+    {{< filetree/file name="自动控制原理B第一次实验.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_FWI/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="2023_Tintin" state="closed" >}}
+    {{< filetree/file name="上机实验1 线性系统的频率校正设计实验报告-watermark.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1%20%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%A2%91%E7%8E%87%E6%A0%A1%E6%AD%A3%E8%AE%BE%E8%AE%A1%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-watermark.pdf" >}}
+    {{< filetree/file name="上机实验二 相平面分析报告-watermark.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C%E4%BA%8C%20%E7%9B%B8%E5%B9%B3%E9%9D%A2%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A-watermark.pdf" >}}
+    {{< filetree/file name="实验1 磁悬浮根轨迹校正报告-watermark.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E5%AE%9E%E9%AA%8C1%20%E7%A3%81%E6%82%AC%E6%B5%AE%E6%A0%B9%E8%BD%A8%E8%BF%B9%E6%A0%A1%E6%AD%A3%E6%8A%A5%E5%91%8A-watermark.pdf" >}}
+    {{< filetree/file name="实验2 直线一级电机倒立摆-watermark.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E5%AE%9E%E9%AA%8C2%20%E7%9B%B4%E7%BA%BF%E4%B8%80%E7%BA%A7%E7%94%B5%E6%9C%BA%E5%80%92%E7%AB%8B%E6%91%86-watermark.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="notes" state="closed" >}}
+    {{< filetree/file name="自控B_Tintin.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/%E8%87%AA%E6%8E%A7B_Tintin.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
