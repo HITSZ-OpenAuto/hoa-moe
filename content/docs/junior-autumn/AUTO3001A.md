@@ -108,6 +108,7 @@ math: true
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
     {{< filetree/file name="19秋自控C考卷【期末】（含答案）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/19%E7%A7%8B%E8%87%AA%E6%8E%A7C%E8%80%83%E5%8D%B7%E3%80%90%E6%9C%9F%E6%9C%AB%E3%80%91%EF%BC%88%E5%90%AB%E7%AD%94%E6%A1%88%EF%BC%89.pdf" >}}
+    {{< filetree/file name="2023自动控制原理A试题考点回忆版.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2023%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86A%E8%AF%95%E9%A2%98%E8%80%83%E7%82%B9%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
     {{< filetree/file name="[网盘计划]自动控制原理.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86.pdf" >}}
     {{< filetree/file name="自控A期末考试A试题--2019.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%87%AA%E6%8E%A7A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98--2019.pdf" >}}
     {{< filetree/file name="自控A期末考试A试题--2019–带答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%87%AA%E6%8E%A7A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98--2019%E2%80%93%E5%B8%A6%E7%AD%94%E6%A1%88.pdf" >}}
