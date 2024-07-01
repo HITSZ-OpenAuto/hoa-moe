@@ -87,8 +87,6 @@ math: true
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
-    {{< filetree/file name="模拟题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E6%A8%A1%E6%8B%9F%E9%A2%98.pdf" >}}
-    {{< filetree/file name="模拟题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E6%A8%A1%E6%8B%9F%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="自控B-校正.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf" >}}
     {{< filetree/file name="自控理论b考试回忆.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf" >}}
     {{< filetree/file name="补考前复习题-参考解答.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf" >}}
