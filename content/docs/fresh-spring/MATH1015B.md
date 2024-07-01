@@ -5,6 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
+最近由 Kowyo 更新于 2024.5.18，更新内容：Add trigger workflow (#3)
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

@@ -5,6 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
+最近由 Sieroy 更新于 2024.5.30，更新内容：新增一个项目分享 (#5)
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

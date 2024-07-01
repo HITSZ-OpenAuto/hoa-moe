@@ -5,6 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
+最近由 Kowyo 更新于 2024.5.18，更新内容：Add trigger workflow (#13)
 **new: 步进电机试题答案更新，更新一份课内实验报告版本**
 
 文档编写者：[Oliver Wu](https://github.com/OliverWu515)（撰写有关21级部分）

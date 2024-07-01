@@ -5,6 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
+最近由 吴俊达 更新于 2024.6.30，更新内容：更新2023试题考点回忆版
 
 <div align="left">
 <figure>
