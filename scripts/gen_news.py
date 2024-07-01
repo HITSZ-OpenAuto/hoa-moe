@@ -174,7 +174,7 @@ if filtered_commits:
             chinese_day = chinese_weekday(datetime_object)
 
             if prev_date != datetime_object.date():
-                markdown_report += f'#### {chinese_day}（{datetime_object.month}.{datetime_object.day}) \n\n'
+                markdown_report += f'#### {chinese_day}（{datetime_object.month}.{datetime_object.day}）\n\n'
                 prev_date = datetime_object.date()
 
             message_lines = commit["message"].split('\n')

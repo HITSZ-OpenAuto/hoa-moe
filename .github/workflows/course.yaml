@@ -250,6 +250,9 @@ jobs:
               echo "math: true" >> "./content/docs/${semester}/${line}.md"
               echo '---' >> "./content/docs/${semester}/${line}.md"
 
+              python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+              cat result.txt >> "./content/docs/${semester}/${line}.md"
+              
               if [ ${CATEGORY} = "限选" ]
               then
                 MODULE=`cat "tag_${line}.txt" | grep -E "^module:..*$" | sed -E 's/^module:.(.*)$/\1/'`

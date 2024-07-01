@@ -118,7 +118,7 @@ params:
     displayPoweredBy: true
     width: normal
 
-  displayUpdatedDate: true
+  displayUpdatedDate: false
 
   # Search
   # flexsearch is enabled by default
