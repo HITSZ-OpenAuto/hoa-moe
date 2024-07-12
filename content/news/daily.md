@@ -12,5 +12,7 @@ title: AUTO 更新速递
 
 #### 周五（7.12）
 
+- （10:54）[毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018)：（Maxwell Jay）Update tag.txt
+
 - （10:49）[大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002)：（Peng Shangpin）添加22级psp实验报告 (#25)
 

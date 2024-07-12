@@ -13,6 +13,7 @@ toc: false
 {{< card link="ee1009"title="数字电子技术基础">}}
 {{< card link="ee1010"title="数字电子技术实验">}}
 {{< card link="ee1008"title="模拟电子技术实验">}}
+{{< card link="geip1018"title="毛泽东思想和中国特色社会主义理论体系概论">}}
 {{< card link="emec1002"title="理论力学Ⅱ">}}
 {{< card link="auto1001"title="自动化认知与实践">}}
 {{< card link="lang1006"title="大学英语">}}
