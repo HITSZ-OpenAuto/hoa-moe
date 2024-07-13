@@ -4,8 +4,8 @@ description: 更适合自动化学子的计算器使用教程
 date: 2024-07-13
 authors:
   - name: drq-48
-    link: https://github.com/MaxwellJay256
-    image: https://github.com/MaxwellJay256.png
+    link: https://github.com/drq-48
+    image: https://github.com/drq-48.png
 excludeSearch: false
 math: true
 tags:
