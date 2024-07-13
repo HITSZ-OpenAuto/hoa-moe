@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A/edit/main/README.md"
 math: true
 ---
-最近由 Kowyo 更新于 2024.5.18，更新内容：Add trigger workflow (#2)
+最近由 psp_dada 更新于 2024.7.12，更新内容：add new notes
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -66,6 +66,12 @@ math: true
 
 可以用来练习的成套试卷并不多，因此珍惜每一次练习的机会，反复咀嚼不清楚的地方；清华题库中的题目难度偏高，不建议死磕。
 
+> by [@psp_dada](https://github.com/pspdada)，2024.7.12
+
+- 几何光学部分需要重视思路，理解**光程差**是解决几何光学问题的关键
+- 虽然考试是大背诵，但还是需要重视平时课堂上老师对问题分析和推导的过程
+  - 能帮助我们打牢数理基础
+  - 24 年 IB 期末考试考了薛定谔方程的推导过程，课上老师讲过，但我根本没复习这部分内容（
 ## 资料下载
 
 {{< filetree/container >}}
@@ -101,8 +107,9 @@ math: true
     {{< filetree/file name="2023_Empty_大学物理IB（考前必看）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_Empty/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E8%80%83%E5%89%8D%E5%BF%85%E7%9C%8B%EF%BC%89.pdf" >}}
   {{< /filetree/folder >}}
     {{< filetree/file name="2023_zsa_大学物理IB笔记.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_zsa_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E7%AC%94%E8%AE%B0.pdf" >}}
+    {{< filetree/file name="2024_psp_大学物理笔记.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2024_psp_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0.pdf" >}}
     {{< filetree/file name="Sora的大学物理补天攻略.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/Sora%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%A1%A5%E5%A4%A9%E6%94%BB%E7%95%A5.pdf" >}}
-    {{< filetree/file name="笔记和课后习题（含考研真题）详解_compressed.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3_compressed.pdf" >}}
+    {{< filetree/file name="笔记和课后习题（含考研真题）详解.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
