@@ -12,6 +12,8 @@ title: AUTO 更新速递
 
 #### 周日（7.14）
 
+- （0:05）[数字电子技术实验](https://github.com/HITSZ-OpenAuto/EE1010)：（Maxwell Jay）Update README.md
+
 - （0:00）[大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002)：（吴俊达）更新学期、补充README；删除因为大小写原因重复的文件夹EXP24 (#26)
 
 #### 周六（7.13）
