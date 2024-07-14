@@ -21,9 +21,9 @@ tags:
 
 ### 1. 标记与指示符简介
 
-​		991的功能按键存在非常多的复用，即一个按键对应多个功能，不同功能的图标颜色不同。比如sin上面有黄色的$\color{olive}{sin<sup>-1</sup>}$、红色的$\color{red}{D}$，D被蓝色中括号$\color{blue}{⌈ ⌉}$括起来；再比如ENG上面有紫色的$\color{purple}{i}$，黄色的$\color{olive}{∠}$，黄色的箭头$\color{olive}{←}$由$\color{purple}{i}$指向$\color{olive}{∠}$，$\color{olive}{∠}$被紫色中括号$\color{purple}{⌈ ⌉}$括起来。它们调用的方式不尽相同：黄色标记的功能需要先按$\color{olive}{SHIFT}$再按对应按键，以下记为$\color{olive}{SHIFT+xx（yy）}$，括号内为对应的按键标记；红色标记的功能需要先按$\color{red}{ALPHA}$再按对应按键，以下记为$\color{red}{ALPHA}+xx（yy）$，括号内为对应的按键标记；蓝色标记的功能在基数模式里调用；紫色标记的功能在复数模式里调用。
+​		991的功能按键存在非常多的复用，即一个按键对应多个功能，不同功能的图标颜色不同。比如sin上面有黄色的<font face='黑体' color=#DEB887 size=4>sin<sup>-1</sup></font>、红色的<font face='黑体' color=#DC143C size=4>D</font>， D被蓝色中括号<font face='黑体' color=#00BFFF size=4>⌈ ⌉</font>括起来；再比如ENG上面有紫色的<font face='黑体' color=#9400D3 size=4>i</font>，黄色的<font face='黑体' color=#DEB887 size=4>∠</font>，黄色的箭头<font face='黑体' color=#DEB887 size=4>←</font>由<font face='黑体' color=#9400D3 size=4>i</font>指向<font face='黑体' color=#DEB887 size=4>∠</font>，<font face='黑体' color=#DEB887 size=4>∠</font>被紫色中括号<font face='黑体' color=#9400D3 size=4>⌈ ⌉</font>括起来。它们调用的方式不尽相同：黄色标记的功能需要先按<font face='黑体' color=#DEB887 size=4>SHIFT</font>再按对应按键，以下记为<font face='黑体' color=#DEB887 size=4>SHIFT+xx(yy)</font>，括号内为对应的按键标记；红色标记的功能需要先按<font face='黑体' color=#DC143C size=4>ALPHA</font>再按对应按键，以下记为<font face='黑体' color=#DC143C size=4>ALPHA+xx(yy)</font>，括号内为对应的按键标记；蓝色标记的功能在基数模式里调用；紫色标记的功能在复数模式里调用。
 
-​		部分按键按下、部分功能启用或部分设置变化时，屏幕最上方会出现对应的提示符。常用的提示符如下：按下$\color{olive}{SHIFT}$会出现S，按下$\color{red}{ALPHA}$会出现A；按下STO会出现**→**x，表示计算器正在等待输入变量名称（ABCDEFxyM），从而为该变量赋值；D、R、G表示缺省的角度单位，分别为角度、弧度、百分度，可在设置的角度单位子菜单中切换；FIX、SCI分别表示结果输出格式为固定位数的小数或者有效数字，可在设置中的显示格式子菜单切换；i和∠分别表示复数的默认输出格式为a+bi与r∠θ，可在设置中的复数子菜单中切换。
+​		部分按键按下、部分功能启用或部分设置变化时，屏幕最上方会出现对应的提示符。常用的提示符如下：按下<font face='黑体' color=#DEB887 size=4>SHIFT</font>会出现S，按下<font face='黑体' color=#DC143C size=4>ALPHA</font>会出现A；按下STO会出现**→**x，表示计算器正在等待输入变量名称（ABCDEFxyM），从而为该变量赋值；D、R、G表示缺省的角度单位，分别为角度、弧度、百分度，可在设置的角度单位子菜单中切换；FIX、SCI分别表示结果输出格式为固定位数的小数或者有效数字，可在设置中的显示格式子菜单切换；i和∠分别表示复数的默认输出格式为a+bi与r∠θ，可在设置中的复数子菜单中切换。
 
 ### 2. 按键简介
 
@@ -33,23 +33,23 @@ tags:
 
 <table><tr><td bgcolor=orange>非常实用</td></tr></table>
 
-​		STO与$\color{olive}{SHIFT+STO（调用）}$，一般用于记录中间变量以便计算中调用，善用该功能可以简化表达式。
+​		STO与<font face='黑体' color=#DEB887 size=4>SHIFT+STO</font>，一般用于记录中间变量以便计算中调用，善用该功能可以简化表达式。
 
-​		对于输出的结果，按下STO，会出现**→**x。再按任意有变量标记（$\color{red}{ABCDEFMxy}$）的按键，则该值会被记录至该变量下；按下$\color{olive}{SHIFT+STO（调用）}$，则会显示所有变量的赋值，此时再按任意有变量标记（$\color{red}{ABCDEFMxy}$）的按键，则会在表达式中输入该字母；也可通过$\color{red}{ALPHA+任意有变量标记（ABCDEFMxy）的按键}$输入该字母。
+​		对于输出的结果，按下STO，会出现**→**x。再按任意有变量标记（<font face='黑体' color=#DC143C size=4>ABCDEFMxy</font>）的按键，则该值会被记录至该变量下；按下<font face='黑体' color=#DEB887 size=4>SHIFT+STO</font>，则会显示所有变量的赋值，此时再按任意有变量标记（<font face='黑体' color=#DC143C size=4>ABCDEFMxy</font>）的按键，则会在表达式中输入该字母；也可通过<font face='黑体' color=#DC143C size=4>ALPHA+任意有变量标记（ABCDEFMxy）的按键</font>输入该字母。
 
-​		e.g. 输入1，按下STO，出现**→**x，按下sin（它对应的变量为$\color{red}{D}$），则D被赋为1；按下$\color{olive}{SHIFT+STO（调用）}$，则会显示所有变量的赋值，若D=1，则表明赋值成功；此时按下sin（它对应的变量为$\color{red}{D}$），则会输入D，按下=，结果为1；按下$\color{red}{ALPHA+sin（D）}$同样可以输入D，按下=，结果为1。
+​		e.g. 输入1，按下STO，出现**→**x，按下sin（它对应的变量为<font face='黑体' color=#DC143C size=4>D</font>），则D被赋为1；按下<font face='黑体' color=#DEB887 size=4>SHIFT+STO</font>，则会显示所有变量的赋值，若D=1，则表明赋值成功；此时按下sin（它对应的变量为<font face='黑体' color=#DC143C size=4>D</font>），则会输入D，按下=，结果为1；按下<font face='黑体' color=#DC143C size=4>ALPHA+sin（D）</font>同样可以输入D，按下=，结果为1。
 
 #### 科学常数
 
 <table><tr><td bgcolor=orange>非常实用</td></tr></table>
 
-​		$\color{olive}{SHIFT+7（科学常数）}$，包括通用常数、电磁常数、物理化学常数等。
+​		<font face='黑体' color=#DEB887 size=4>SHIFT+7（科学常数）</font>，包括通用常数、电磁常数、物理化学常数等。
 
 #### 分数小数互化与带分数假分数互化
 
 <table><tr><td bgcolor=orange>较常用</td></tr></table>
 
-​		S⇔D与$\color{olive}{SHIFT+S⇔D}$。e.g.若结果为假分数，按下$\color{olive}{SHIFT+S⇔D}$，会使其变为带分数，反之亦然；若结果为分数，按下S⇔D会使其变为小数，反之亦然。
+​		S⇔D与<font face='黑体' color=#DEB887 size=4>SHIFT+S⇔D</font>。e.g.若结果为假分数，按下<font face='黑体' color=#DEB887 size=4>SHIFT+S⇔D</font>，会使其变为带分数，反之亦然；若结果为分数，按下S⇔D会使其变为小数，反之亦然。
 
 #### 答案
 
@@ -69,19 +69,19 @@ tags:
 
 <table><tr><td bgcolor=orange>不太常用</td></tr></table>
 
-​		$\color{olive}{SHIFT++（Pol）}$与$\color{olive}{SHIFT+-（Rec）}$。e.g.以直角坐标化为极坐标为例，输入Pol，再输入x、y坐标，两者之间以逗号$\color{olive}{SHIFT+）（.）}$隔开，则输出对应的r和θ。
+​		<font face='黑体' color=#DEB887 size=4>SHIFT++（Pol）</font>与<font face='黑体' color=#DEB887 size=4>SHIFT+-（Rec）</font>。e.g.以直角坐标化为极坐标为例，输入Pol，再输入x、y坐标，两者之间以逗号<font face='黑体' color=#DEB887 size=4>SHITF+)（,）</font>隔开，则输出对应的r和θ。
 
 #### 单位换算
 
 <table><tr><td bgcolor=orange>不太常用</td></tr></table>
 
-​		$\color{olive}{SHIFT+8单位换算）}$。一般仅用于压力和速度的换算。e.g.输入待换算的数据，按下$\color{olive}{SHIFT+8单位换算）}$，找到所需的换算式，按下对应的数字，则会输入该换算式，再按=，则会输出换算结果。
+​		<font face='黑体' color=#DEB887 size=4>SHIFT+8（单位换算）</font>。一般仅用于压力和速度的换算。e.g.输入待换算的数据，按下<font face='黑体' color=#DEB887 size=4>SHIFT+8（单位换算）</font>，找到所需的换算式，按下对应的数字，则会输入该换算式，再按=，则会输出换算结果。
 
 #### 质因数分解
 
 <table><tr><td bgcolor=orange>不太常用</td></tr></table>
 
-​		$\color{olive}{SHIFT+°'"（FACT）}$。e.g.输入10位及以内的整数，按下=，再按$\color{olive}{SHIFT+°'"（FACT）}$，则会输出分解结果。注意，计算器无法分解过大的整数（7位及以上），此类整数会用括号标注。
+​		<font face='黑体' color=#DEB887 size=4>SHIFT+°'"（FACT）</font>。e.g.输入10位及以内的整数，按下=，再按<font face='黑体' color=#DEB887 size=4>SHIFT+°'"（FACT）</font>，则会输出分解结果，注意，计算器无法分解过大的整数（7位及以上），此类整数会用括号标注。
 
 ### 3. 模式简介
 
@@ -97,7 +97,7 @@ tags:
 
 <table><tr><td bgcolor=orange>很常用</td></tr></table>
 
-​		可计算辐角、共轭，提取实部、虚部，进行直角坐标与极坐标转换。在复数模式下，按下ENG会输入i，按下$\color{olive}{SHIFT+ENG（∠）}$会输入∠。
+​		可计算辐角、共轭，提取实部、虚部，进行直角坐标与极坐标转换。在复数模式下，按下ENG会输入i，按下<font face='黑体' color=#DEB887 size=4>SHIFT+ENG（∠）</font>会输入∠。
 
 #### 矩阵
 
@@ -137,7 +137,7 @@ tags:
 
 ### 4.设置简介
 
-​		$\color{olive}{SHIFT+菜单（设置）}$即可进入设置，设置一般默认即可，也可以按需调整。$\color{olive}{SHIFT+9（复位）}$可将所有设置数据重置为默认值。以下介绍顺序按照个人认为的重要性依次排列。
+​		<font face='黑体' color=#DEB887 size=4>SHIFT+菜单(设置)</font>即可进入设置，设置一般默认即可，也可以按需调整。<font face='黑体' color=#DEB887 size=4>SHIFT+9(复位)</font>可将所有设置数据重置为默认值。以下介绍顺序按照个人认为的重要性依次排列。
 
 #### 角度单位
 
@@ -175,9 +175,9 @@ tags:
 
 #### 解单变量方程
 
-​		$\color{red}{ALPHA+CALC（=）}$输入等号，等式两侧输入单变量表达式，$\color{olive}{SHIFT+CALC（SOLVE）}$输入变量迭代初值后求解距离初值最近的解。若解距离初值过远可能显示无解，求解过程可通过AC打断。可用于求解非线性方程、高次方程。
+​		<font face='黑体' color=#DC143C size=4>ALPHA+CALC（=）</font>输入等号，等式两侧输入单变量表达式，<font face='黑体' color=#DEB887 size=4>SHIFT+CALC（SOLVE）</font>输入变量迭代初值后求解距离初值最近的解。若解距离初值过远可能显示无解，求解过程可通过AC打断。可用于求解非线性方程、高次方程。
 
-​		e.g.输入ln(x)，$\color{red}{ALPHA+CALC（=）}$输入等号，输入1，按下$\color{olive}{SHIFT+CALC（SOLVE）}$后输入0（即变量迭代初值），按下=即可求解，解得x=0.
+​		e.g.输入ln(x)，<font face='黑体' color=#DC143C size=4>ALPHA+CALC（=）</font>输入等号，输入1，按下<font face='黑体' color=#DEB887 size=4>SHIFT+CALC（SOLVE）</font>后输入0（即变量迭代初值），按下=即可求解，解得x=0.
 
 #### 含参表达式求解
 
