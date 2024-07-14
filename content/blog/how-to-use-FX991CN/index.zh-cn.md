@@ -13,7 +13,9 @@ tags:
 
 ---
 
-​		期末月期间在自救群里看到了一些关于卡西欧FX-991CNX计算器使用的讨论，才发觉其实有很多同学不那么擅长使用该计算器。本人高中时曾经旁听物竞课程，记得当时的第一课既不是运动学，也不是速通微积分，而是991使用教学，本人从此开始使用这款功能完备的计算器，也算是略有一些经验。目前，无论是991自带的说明书还是网上的教程，对该计算器的介绍都相当全面，但是作为一名自动化学子，这些教程要么过于基础，要么过于驳杂，很难让人有看下去的欲望。因此，本文旨在以面向课程的方式，为大家奉上更适合自动化学子的计算器使用教程。本人对该计算器的使用也并非尽善尽美，欢迎各位批评、指正。
+​		期末月期间在自救群里看到了一些关于卡西欧FX-991CNX计算器使用的讨论，才发觉其实有很多同学不那么擅长使用该计算器。本人高中时曾经旁听物竞课程，记得当时的第一课既不是运动学，也不是速通微积分，而是991使用教学，本人从此开始使用这款功能完备的计算器，也算是略有一些经验。
+
+​		目前，无论是991自带的说明书还是网上的教程，对该计算器的介绍都相当全面，但是作为一名自动化学子，这些教程要么过于基础，要么过于驳杂，很难让人有看下去的欲望。因此，本文旨在为大家奉上更简洁、更实用、更适合自动化学子的计算器使用教程。本文也可作速查手册使用，可先翻阅右侧的目录以大致了解文档结构。本人对该计算器的使用也并非尽善尽美，欢迎各位批评、指正。
 
 ---
 
@@ -31,7 +33,7 @@ tags:
 
 #### 数据记录、查询与调用
 
-<table><tr><td bgcolor=orange>非常实用</td></tr></table>
+<table><tr><td bgcolor=orange>很常用</td></tr></table>
 
 ​		STO与<font face='黑体' color=#DEB887 size=4>SHIFT+STO</font>，一般用于记录中间变量以便计算中调用，善用该功能可以简化表达式。
 
@@ -41,9 +43,9 @@ tags:
 
 #### 科学常数
 
-<table><tr><td bgcolor=orange>非常实用</td></tr></table>
+<table><tr><td bgcolor=orange>较常用</td></tr></table>
 
-​		<font face='黑体' color=#DEB887 size=4>SHIFT+7（科学常数）</font>，包括通用常数、电磁常数、物理化学常数等。
+​		<font face='黑体' color=#DEB887 size=4>SHIFT+7（科学常数）</font>，包括通用常数、电磁常数、原子与核常数、物理化学常数等。
 
 #### 分数小数互化与带分数假分数互化
 
@@ -53,7 +55,7 @@ tags:
 
 #### 答案
 
-<table><tr><td bgcolor=orange>非较常用</td></tr></table>
+<table><tr><td bgcolor=orange>较常用</td></tr></table>
 
 ​		ANS。记录了上一个表达式的结果。
 
@@ -67,19 +69,19 @@ tags:
 
 #### 直角坐标与极坐标互化
 
-<table><tr><td bgcolor=orange>不太常用</td></tr></table>
+<table><tr><td bgcolor=orange>不常用</td></tr></table>
 
 ​		<font face='黑体' color=#DEB887 size=4>SHIFT++（Pol）</font>与<font face='黑体' color=#DEB887 size=4>SHIFT+-（Rec）</font>。e.g.以直角坐标化为极坐标为例，输入Pol，再输入x、y坐标，两者之间以逗号<font face='黑体' color=#DEB887 size=4>SHITF+)（,）</font>隔开，则输出对应的r和θ。
 
 #### 单位换算
 
-<table><tr><td bgcolor=orange>不太常用</td></tr></table>
+<table><tr><td bgcolor=orange>不常用</td></tr></table>
 
 ​		<font face='黑体' color=#DEB887 size=4>SHIFT+8（单位换算）</font>。一般仅用于压力和速度的换算。e.g.输入待换算的数据，按下<font face='黑体' color=#DEB887 size=4>SHIFT+8（单位换算）</font>，找到所需的换算式，按下对应的数字，则会输入该换算式，再按=，则会输出换算结果。
 
 #### 质因数分解
 
-<table><tr><td bgcolor=orange>不太常用</td></tr></table>
+<table><tr><td bgcolor=orange>不常用</td></tr></table>
 
 ​		<font face='黑体' color=#DEB887 size=4>SHIFT+°'"（FACT）</font>。e.g.输入10位及以内的整数，按下=，再按<font face='黑体' color=#DEB887 size=4>SHIFT+°'"（FACT）</font>，则会输出分解结果，注意，计算器无法分解过大的整数（7位及以上），此类整数会用括号标注。
 
@@ -91,37 +93,47 @@ tags:
 
 <table><tr><td bgcolor=orange>最常用</td></tr></table>
 
-默认模式，无特殊功能。
+​		默认模式，无特殊功能。
 
 #### 复数
 
 <table><tr><td bgcolor=orange>很常用</td></tr></table>
 
-​		可计算辐角、共轭，提取实部、虚部，进行直角坐标与极坐标转换。在复数模式下，按下ENG会输入i，按下<font face='黑体' color=#DEB887 size=4>SHIFT+ENG（∠）</font>会输入∠。
+​		可计算辐角、共轭，提取实部、虚部，进行直角坐标与极坐标转换。**不能计算e<sup>iθ</sup>！**
+
+​		在复数模式下，按下ENG会输入i，按下<font face='黑体' color=#DEB887 size=4>SHIFT+ENG（∠）</font>会输入∠。
 
 #### 矩阵
 
 <table><tr><td bgcolor=orange>很常用</td></tr></table>
 
-​		可定义、编辑最大4x4的矩阵，计算矩阵加法、乘法、行列式、转置，**不能求矩阵的秩和逆**。定义、编辑矩阵时，需要在相应位置输入各元素的值，输入完成之后按=结束对该元素值的编辑，所有元素编辑完成之后，可以直接按AC退出编辑、进入计算，也可以按OPTN选择继续定义、编辑其他矩阵，或者进入计算。
+​		可定义、编辑最大4x4的矩阵，计算矩阵加法、乘法，乘方、逆，行列式、转置，记录上一个矩阵表达式的答案，输入单位矩阵。**不能求矩阵的秩！**
+
+​		定义、编辑矩阵时，需要在相应位置输入各元素的值，输入完成之后按=结束对该元素值的编辑，所有元素编辑完成之后，可以直接按AC退出编辑、进入计算，也可以按OPTN选择继续定义、编辑其他矩阵，或者进入计算。
+
+​		定义或编辑方阵后，按OPTN进入选项，选择相应的方阵输入，按x<sup>-1</sup>，然后按=，即可求出该方阵的逆矩阵。同理，输入方阵后，按x<sup>2</sup>或者<font face='黑体' color=#DEB887 size=4>SHIFT+x<sup>2</sup>（x<sup>3</sup>）</font>，然后按=，即可求出该方阵的平方或者立方。
 
 #### 向量
 
 <table><tr><td bgcolor=orange>较常用</td></tr></table>
 
-​		可定义、编辑最大三维向量，计算向量加法、乘法、内积、夹角。定义、编辑向量时，需要在相应位置输入各元素的值，输入完成之后按=结束对该元素值的编辑，所有元素编辑完成之后，可以直接按AC退出编辑、进入计算，也可以按OPTN选择继续定义、编辑其他向量，或者进入计算。
+​		可定义、编辑最大三维向量，计算向量加法、乘法、内积、夹角、模长。
+
+​		定义、编辑向量时，需要在相应位置输入各元素的值，输入完成之后按=结束对该元素值的编辑，所有元素编辑完成之后，可以直接按AC退出编辑、进入计算，也可以按OPTN选择继续定义、编辑其他向量，或者进入计算。
+
+​		定义或编辑向量后，按<font face='黑体' color=#DEB887 size=4>SHIFT+（（ABS）</font>，再按OPTN进入选项，选择相应的向量输入，按=，即可求出该向量的模长；按OPTN进入选项，选择两个向量形成的夹角（输入Angle），然后输入相应的向量，两者之间以逗号<font face='黑体' color=#DEB887 size=4>SHITF+)（,）</font>隔开，按=，即可求出两向量之间的夹角。
 
 #### 方程
 
 <table><tr><td bgcolor=orange>很常用</td></tr></table>
 
-​		可求解四元及以下的一次线性方程组、四次及以下的一元线性方程。对于二次方程，还可以求解其最值大小和最值点。
+​		可求解四元及以下的一次线性方程组、四次及以下的一元线性方程。对于二次方程，还可以求解相应二次函数的最值大小和最值点。
 
 #### 不等式
 
 <table><tr><td bgcolor=orange>较常用</td></tr></table>
 
-可求解四次及以下的一元不等式。
+​		可求解四次及以下的一元不等式。
 
 #### 统计
 
@@ -134,6 +146,8 @@ tags:
 <table><tr><td bgcolor=orange>不常用</td></tr></table>
 
 ​		用于2、8、10、16进制之间的转换。
+
+​		在基数模式下，按下(-)、°'"、x<sup>-1</sup>、sin、cos、tan分别会输入A、B、C、D、E、F。
 
 ### 4.设置简介
 
@@ -175,9 +189,9 @@ tags:
 
 #### 解单变量方程
 
-​		<font face='黑体' color=#DC143C size=4>ALPHA+CALC（=）</font>输入等号，等式两侧输入单变量表达式，<font face='黑体' color=#DEB887 size=4>SHIFT+CALC（SOLVE）</font>输入变量迭代初值后求解距离初值最近的解。若解距离初值过远可能显示无解，求解过程可通过AC打断。可用于求解非线性方程、高次方程。
+​		<font face='黑体' color=#DC143C size=4>ALPHA+CALC（=）</font>输入等号，等式两侧输入单变量表达式，<font face='黑体' color=#DEB887 size=4>SHIFT+CALC（SOLVE）</font>输入变量迭代初值后求解距离初值最近的解。若解距离初值过远可能显示无解，求解过程可通过AC打断。可用于求解非线性方程、高次方程。注意：对于有解的方程，如果迭代初值不合适，可能会提示无解。
 
-​		e.g.输入ln(x)，<font face='黑体' color=#DC143C size=4>ALPHA+CALC（=）</font>输入等号，输入1，按下<font face='黑体' color=#DEB887 size=4>SHIFT+CALC（SOLVE）</font>后输入0（即变量迭代初值），按下=即可求解，解得x=0.
+​		e.g.输入ln(x)，<font face='黑体' color=#DC143C size=4>ALPHA+CALC（=）</font>输入等号，输入1，按下<font face='黑体' color=#DEB887 size=4>SHIFT+CALC（SOLVE）</font>后输入0（即变量迭代初值），按下=即可求解，解得x=0。
 
 #### 含参表达式求解
 
