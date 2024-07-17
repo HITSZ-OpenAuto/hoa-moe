@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
-最近由 Kowyo 更新于 2024.6.1，更新内容：测试 GitHub Actions
+最近由 Kowyo 更新于 2024.7.16，更新内容：更改文字描述
 
 
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
@@ -19,7 +19,7 @@ math: true
 - [Bike-Computer](https://github.com/MaxwellJay256/Bike-Computer) - 基于 ESP-32 和 esp-idf v4.4 的 自行车 GPS 码表
 - [stockanalysis-freshman-year-project](https://github.com/efJerryYang/stockanalysis-freshman-year-project) - 基于机器学习的股票预测和分析
 
-如果你发现了有意思的大一立项项目，或者想分享自己的大一立项项目，欢迎开立 Pull Request 来增加新內容。
+如果你发现了有意思的大一立项项目，或者想分享自己的大一立项项目，欢迎创建 Pull Request 来增加新內容。
 
 ## 资料下载
 

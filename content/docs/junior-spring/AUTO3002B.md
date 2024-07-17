@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
-最近由 吴俊达 更新于 2024.6.25，更新内容：增加复习笔记一份
+最近由 吴俊达 更新于 2024.7.16，更新内容：Merge pull request #3 from HITSZ-OpenAuto/AutoFriedRich-patch-1
 
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-6-moccasin)
@@ -65,9 +65,16 @@ math: true
     {{< filetree/file name="《黄瑞宁漏出》.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E3%80%8A%E9%BB%84%E7%91%9E%E5%AE%81%E6%BC%8F%E5%87%BA%E3%80%8B.pdf" >}}
     {{< filetree/file name="本部2020答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A82020%E7%AD%94%E6%A1%88.pdf" >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="labs" state="closed" >}}
+  {{< filetree/folder name="ljh_version" state="closed" >}}
+    {{< filetree/file name="电机调速实验报告.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/ljh_version/%E7%94%B5%E6%9C%BA%E8%B0%83%E9%80%9F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" >}}
+    {{< filetree/file name="综合实验报告模板_18号机.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/ljh_version/%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF_18%E5%8F%B7%E6%9C%BA.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="notes" state="closed" >}}
     {{< filetree/file name="Revision of Auto-Practical.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/Revision%20of%20Auto-Practical.pdf" >}}
     {{< filetree/file name="自控实践B复习_Tintin.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E5%A4%8D%E4%B9%A0_Tintin.pdf" >}}
+    {{< filetree/file name="自控实践复习整理byAb1g2he.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86byAb1g2he.pdf" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
