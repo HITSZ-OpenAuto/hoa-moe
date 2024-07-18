@@ -192,7 +192,7 @@ jobs:
                 then
                   echo "## ${CATEGORY}" > "${semester}-${category}.txt"
                   echo "[21级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-21/)" >> "${semester}-${category}.txt"
-                  echo "<br>" > "${semester}-${category}.txt"
+                  echo "<br>" >> "${semester}-${category}.txt"
                   echo "[22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)" >> "${semester}-${category}.txt"
                 fi
                 # if [ ${CATEGORY} = "跨专业选修" ]
