@@ -11,8 +11,8 @@ toc: false
 {{< card link="auto3001b"title="自动控制理论B">}}
 {{< card link="auto3002b"title="自动控制实践B">}}
 {{< /cards >}}
-## 限选
-[查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)
+<br>
+[22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
 <!--more-->
 {{< cards >}}
 {{< card link="auto3007"title="过程控制系统">}}
