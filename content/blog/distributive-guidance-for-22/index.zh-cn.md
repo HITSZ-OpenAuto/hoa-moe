@@ -1,6 +1,6 @@
 ---
-title: 哈工大（深圳）自动化专业 限选课选课说明及选课建议
-date: 2024-07-17
+title: 22级自动化学生限选课选课说明及选课建议
+date: 2024-07-18
 authors:
   - name: 吴俊达
     link: https://github.com/oliverwu515
@@ -10,6 +10,8 @@ excludeSearch: false
 ---
 
 根据新鲜出炉的培养方案，22级自动化学生需要选择“基础选修课”和“拓展选修课”。这里给大家来分析一下这些课的信息、以及给大家一些选课的建议。
+
+此为22级学生方案，21级的指南见[此处](https://hoa.moe/blog/distributive-guidance-for-21/)。
 
 培养方案每年都在更新，**因此欢迎学弟学妹参与贡献！**
 
