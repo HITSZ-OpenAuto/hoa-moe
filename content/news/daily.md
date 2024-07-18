@@ -10,3 +10,13 @@ excludeSearch: false
 title: AUTO 更新速递
 ---
 
+#### 周四（7.18）
+
+- （17:08）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（吴俊达）Merge pull request #134 from HITSZ-OpenAuto/OliverWu515-patch-2
+
+- （17:03）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（oliver-wu）更新ci
+
+- （16:55）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（oliver-wu）更新选课指南，将21级指南重新加回
+
+- （16:27）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（吴俊达）更新选课指南
+
