@@ -16,6 +16,8 @@ toc: false
 {{< card link="lang1006"title="大学英语">}}
 {{< card link="pe100x"title="体育">}}
 {{< /cards >}}
+## 限选
+[21级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-21/)
 <br>
 [22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
 <!--more-->

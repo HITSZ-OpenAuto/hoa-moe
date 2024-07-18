@@ -12,6 +12,8 @@ title: AUTO 更新速递
 
 #### 周四（7.18）
 
+- （17:23）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（吴俊达）Update course.yaml
+
 - （17:16）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（吴俊达）Update course.yaml
 
 - （17:08）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（吴俊达）Merge pull request #134 from HITSZ-OpenAuto/OliverWu515-patch-2

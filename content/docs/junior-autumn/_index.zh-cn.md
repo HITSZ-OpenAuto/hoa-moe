@@ -14,6 +14,8 @@ toc: false
 {{< card link="auto3016"title="自动控制实践A课程设计">}}
 {{< card link="auto3001a"title="自动控制理论A">}}
 {{< /cards >}}
+## 限选
+[21级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-21/)
 <br>
 [22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
 <!--more-->
