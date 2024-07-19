@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
-最近由 Kowyo 更新于 2024.5.18，更新内容：Add trigger workflow (#4)
+最近由 Peng Shangpin 更新于 2024.7.18，更新内容：add new note (#5)
 
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)
@@ -16,7 +16,7 @@ math: true
 
 > 本篇适合高中有微积分基础的同学
 
-在开课之前，即还没入学的暑假会有一个微积分先修课程（在中国大学 MOOC 上，名字为：微积分CAP）。MOOC 上的课程可以选听，对 MOOC 的成绩不影响。MOOC 上最终成绩包括课堂回答 10% , 平时测试 60% ,期末考试 30%.
+在开课之前，即还没入学的暑假会有一个微积分先修课程（在中国大学 MOOC 上，名字为：微积分CAP）。MOOC 上的课程可以选听，对 MOOC 的成绩不影响。MOOC 上最终成绩包括课堂回答 10%，平时测试 60%，期末考试 30%.
 
 需要注意的是，MOOC 的测试并不是先修是否合格的标准，只是一个“敲门砖”，在 MOOC 上取得超过80的成绩之后可以申请在期初进行先修考试。在这场考试中
 
@@ -42,6 +42,8 @@ math: true
   - 上课无考勤，使用 PPT + 板书，但板书略显杂乱
   - 老师说话有口音，但是听上去还不错，课堂很有意思，课下答疑也讲解得非常好。
   - 个别地方的讲解节奏会比较快，因此上课时建议集中精神，或者提前预习。
+
+  > 上课挺有意思，课堂氛围挺活跃的一个老师，我特别喜欢听他上课，对学生也很负责，很乐意回答学生提出的问题 文/[psp_dada](https://github.com/pspdada) 2024.7.18
 - Yang Guoqiu
   - （待补充）
   - Bilibili 里有他录制的高等数学课程和数学竞赛辅导课程：[链接](https://space.bilibili.com/1916448866/)
@@ -56,15 +58,32 @@ math: true
 
 > Comments from 22级 and 23级 students wanted here!
 
-## 学习建议
+高数特有的老师每学期会将以前的考试原题和解析发出来，所以资料很充足  
+> 文/[psp_dada](https://github.com/pspdada) 2024.7.18
 
-> by [lmh12138](https://github.com/lmh12138), 2022.7
+## 学习建议
 
 作业的话，一般都在 18 分以上，除非个别很难忍，给 17。一定要及时交，不交 0 分，交了至少 17。但作业批改随便，比如积分的时候，答案有很多形式，但助教不会帮你看，可能和助教不一样就会判错，书写也会影响分数。
 
 学习的时候，上课专心听，老师的节奏慢，可以不用预习（个人感觉）。对于一些公式，最好记下来，然后平时多做题。在作业之余，有时间可以刷一下教辅——工科数学分析，记一下上面的拓展公式（对考试帮助很大）。个人感觉不需要 MOOC。
 
+> by [lmh12138](https://github.com/lmh12138), 2022.7
 
+高数是数理基础中的基础，是大学阶段最重要也是一定要熟练掌握的一门课，是后续课程的学习、工程实际的应用和特定方向的钻研的基础。学习高数既要能熟练运用学到的每个公式和计算技巧，更要了解这些公式和技巧的由来和推导，最终体会高等数学这门课程的整体思路。
+
+学习方法上，我推荐课堂上认真听讲，并记录好老师讲的内容，在课下再整理笔记（因为课上认真听的话很难有时间再考虑哪些是重要的哪些是不重要的）。若有不懂的内容主动和同学、老师讨论，尽早解决问题，避免问题越堆越多。看课程回放来复习上课内容也是一个很有效的方式。
+
+对于高数这门课，重复的学习我认为是有必要的，通过多次、不同渠道的学习了解不同的思考方式可以提升对知识点的理解有很大的帮助，因此，可以去别的老师课堂上听听别的老师的上课风格，或是去听网课。
+
+在上课之余，如果学有余力想要听网课，我推荐[梨米特的高数教程](https://www.bilibili.com/video/BV1864y1T7Ks)，我认为他的教学思路清晰，对知识点的总结很到位，观感舒服（板书很好看）。不推荐宋浩的课程，他的课程太过于基础了，要求很低，对于一些需要需要重点理解的内容甚至一带而过，这并不好。
+
+数学网红 3Blue1Brown 的[微积分的本质](https://www.bilibili.com/video/BV1qW411N7FU)是一个建立高数直觉的不错的系列课程。
+
+对于作业，如果自己没能一次性完整独立做出来也没关系，因为黄本上的题目还是颇有难度的，只需要能理解答案为什么这么做，后续多加复习再多看几次自己不会的题目就行了。完成每章作业后，我推荐把在做这章作业的过程中形成的思考以及自己发现的做题的思路多加总结，也作为自己知识的一部分整理到笔记上去，方便期末考前复习。
+
+对于考前复习，由于和本部联考，考试难度和题型与往年可能有所不同，请根据要求复习。黄本上的期中、期末题就是本部的题目，于我而言难度很大（因为我那时候还不用联考），大家可以尽早熟悉。
+
+> 文/[psp_dada](https://github.com/pspdada) 2024.7.18
 ## 资料下载
 
 {{< filetree/container >}}
@@ -174,6 +193,7 @@ math: true
     {{< filetree/file name="中值证明题总结.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B02/%E4%B8%AD%E5%80%BC%E8%AF%81%E6%98%8E%E9%A2%98%E6%80%BB%E7%BB%93.pdf" >}}
     {{< filetree/file name="高等数学（上册）常用公式.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B02/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8A%E5%86%8C%EF%BC%89%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F.pdf" >}}
   {{< /filetree/folder >}}
+    {{< filetree/file name="高等数学笔记-psp.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-psp.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}
     {{< filetree/file name="不定积分习题课答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B9%A0%E9%A2%98%E8%AF%BE%E7%AD%94%E6%A1%88.pdf" >}}
