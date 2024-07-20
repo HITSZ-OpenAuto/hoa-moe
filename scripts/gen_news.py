@@ -44,7 +44,7 @@ def generate_summary(report_text):
     openai.default_headers = {"x-foo": "true"}
     try:
         completion = openai.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             messages=[
                 {
                     "role": "system",
