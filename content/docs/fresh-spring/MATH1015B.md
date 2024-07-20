@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
-最近由 Peng Shangpin 更新于 2024.7.18，更新内容：add psp's note (#4)
+最近由 IcyDesert 更新于 2024.7.20，更新内容：上传 2024 春期末试题和答案，并补充难度情况；更正 README.md 中笔误 (#5)
 
 
 <!--
@@ -25,11 +25,12 @@ math: true
 ![期末考试50%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
 
 ## 授课教师
-- 包革君
+- 包革军
   - 授课风格：完全不用幻灯片，纯板书，而且板书非常有条理，把他的板书全部抄下来就是一份可读性很好的笔记了（这一点比yjw好）。偶尔会点名。
   有学生觉得他讲得太慢，但事实上这位老先生总能在最后一刻讲完所有要讲的东西。
   唯二的问题是板书时常出现笔误、总是拖堂。
     > “当他在期末最后一节课上向到场的所有学生鞠躬致谢时，我便知道他是我在大一遇到的最有哈工大人气质的教授。” -[@Maxwell Jay](https://github.com/MaxwellJay256)
+    >
     > 这两个问题出在这个老师身上我觉得都不是问题了，这并不影响他讲课的连贯性和逻辑性。如果出现笔误可以在课堂上尽早指出来，就不会耗费太多时间。-[@psp_dada](https://github.com/pspdada) 2024.7.18
   - 是否需要认真听讲做笔记：如果你愿意听他的课，最好就完全跟着他的思路来。老师会在课上讲很多的例题，如果能把它们都记下来并且课后稍微复习一下，基本上就足够掌握这一部分的内容了（都把例题喂到你嘴里了这还不冲？）。
   - 听课建议：如果你是挑剔的学生，大多数课都不愿意听老师讲，那么他的课应该是你最后一个选择skip的。
@@ -43,7 +44,7 @@ math: true
     - 可能因为例题还没讲完而拖堂
   - 听课建议：
      - 老师上课时会补充不少 经典例题、方法、技巧 等，非常值得记下来；此外，他还会解释常见的 错误理解、难点 等，帮助你理解概念——这正是自学容易忽略的地方
-     - （于 2024.4.15 更新）~~老师不考勤，但是个人不太建议自学（~~ ~~这是微积分上半学期的情况~~ 学到二重积分时，老师会开始考勤。当然这不是一件坏事——后面的东西，正如余老师、OpenAuto 的学长所言，难度很大，自学更是不一定学得懂
+     - （于 2024.4.15 更新）~~老师不考勤~~ 学到二重积分时，老师会开始考勤。当然这不是一件坏事——后面的东西，正如余老师、OpenAuto 的学长所言，难度很大，自学更是不一定学得懂
      - 可以参考本部的《工科数学分析学习指导与习题解答》，他的讲解和这本书有一些重合部分
   - 课后：
     - 所有上课的课件都会发群里（甚至可以直接提醒他发），也会时不时分享一些技巧、黄本题目答案之类
@@ -54,11 +55,14 @@ math: true
 
 ## 关于考试
 - 考试难度：半期考试比较容易，25+ 对于大多数同学是能实现的；期末考试由于曲线曲面积分以及级数的加入，计算量陡增，难度也随之增加，想上 40 分会比较有挑战性，挂科率也是相当高。
+- 但 2024 春的期末考试并没有特别难，曲面积分和级数的计算量相对于作业题都不大；可能是三个校区第一年统一考试，不想太为难学生？还是不要掉以轻心为好。
+> 文/[IcyDesert](https://github.com/IcyDesert), 2024.7
+
 
 ## 学习建议
-看了上面关于两位老师的评价我觉得特别合适，他们都是非常认证负责的老师，都是可以信赖可以跟着走完一整门课的老师。
+看了上面关于两位老师的评价我觉得特别合适，他们都是非常认真负责的老师，都是可以信赖可以跟着走完一整门课的老师。
 
-由于 微积分B 和 微积分A 的学习是一脉贯通的，因此可以移步 微积分A 仓库观看详细的学习指导
+由于 微积分B 和 微积分A 的学习是一脉贯通的，因此可以移步 [微积分A](https://hoa.moe/docs/fresh-autumn/math1015a/) 仓库观看详细的学习指导
 
 > 文/[psp_dada](https://github.com/pspdada) 2024.7.18
 
@@ -103,6 +107,8 @@ math: true
     {{< filetree/file name="2022春高数B期末试题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2022%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="2022春高等数学B期末试题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2022%E6%98%A5%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98.pdf" >}}
     {{< filetree/file name="2023春微积分B期末试题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2023%E6%98%A5%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98.pdf" >}}
+    {{< filetree/file name="2024春季学期高等数学B答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2024%E6%98%A5%E5%AD%A3%E5%AD%A6%E6%9C%9F%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6B%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< filetree/file name="2024春高等数学B期末试题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2024%E6%98%A5%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98.pdf" >}}
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="materials" state="closed" >}}
