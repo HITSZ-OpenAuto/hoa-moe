@@ -21,6 +21,8 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="auto3003"title="数字图像处理">}}
+{{< card link="auto3024"title="嵌入式系统">}}
+{{< card link="auto5024"title="模式识别">}}
 {{< /cards >}}
 ## 归档
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了，但原课程资料仍保留，感兴趣的同学可以自行查阅。
