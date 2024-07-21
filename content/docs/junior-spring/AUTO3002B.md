@@ -5,22 +5,36 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
-最近由 吴俊达 更新于 2024.7.16，更新内容：Merge pull request #3 from HITSZ-OpenAuto/AutoFriedRich-patch-1
+最近由 吴俊达 更新于 2024.7.21，更新内容：更新README，更新实验报告版本，更新2024考试题 (#4)
 
 
-![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-6-moccasin)
+![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（19~21级）-6-moccasin)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（22级）-4-moccasin)
 
-![Static Badge](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![Static Badge](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90（21级）-gold)
 ![Static Badge](https://img.shields.io/badge/作业-10%25-wheat)
 ![Static Badge](https://img.shields.io/badge/实验-40%25-wheat)
 ![Static Badge](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
 
+![Static Badge](https://img.shields.io/badge/学时安排（22级）-gold)
+![Static Badge](https://img.shields.io/badge/总学时-64-wheat)
+![Static Badge](https://img.shields.io/badge/授课-48-wheat)
+![Static Badge](https://img.shields.io/badge/实验-16-wheat)
+
+自22级开始，本课程原有的STM32理论部分和基础实验、调速实验部分均被纳入大三上的拓展选修课[《嵌入式系统》](https://hoa.moe/docs/junior-spring/auto3024/)中。有关资料也已经转移，请移步查看。综合实验报告仍予保留。
+
+## 教材及参考书
+
+- 王广雄、何朕，控制系统设计，清华大学出版社。
 
 ## 授课教师
 
-- 教师 1: 董广忠
-  - 授课风格：
-  - 听课建议：
+- 理论课: 董广忠
+  - 授课风格：通过加入密度极高的无意义衬词以及含糊其辞的表述，成功达到让人听不懂的效果。
+  - 听课建议：不考勤。上课会提示重点，建议课后倍速听回放。课件在教师主页，不在qq群发放。
+    
+> 文/[Oliver Wu](https://github.com/oliverwu515)
+  
+- 实验课：王彬彬、刘瑞
 
 ## 关于考试
 
@@ -29,24 +43,9 @@ math: true
 
 > 文/[xander-2077](https://github.com/xander-2077)
 
-## 实验
+- 主要是大背诵。
 
-21级实验课的内容是 STM32 开发，实验涵盖了：GPIO、外部中断、串口通信、DMA 等功能的上手。开发板的 MCU 型号是 STM32F407ZGT6，软件是 MDK v5 + CubeMX。
-
-实验软件所使用的 CubeMX 是 STM32Cube ———— 目前 STM32 最主流的开发方式的重要一环。而2019年推出的 STM32CubeIDE，则是这个生态系统的集大成者。
-
-与 MDK 不同的是，STM32CubeIDE 还提供对 MacOS 或者 Linux 操作系统的支持。我非常推荐大家使用 STM32CubeIDE 这个 All in one 的软件（包含了 CubeMX，可以不用单独下载）进行使用。
-
-以下是一些有用的链接：
-
-- [STM32StepByStep:Step2 Blink LED](https://wiki.stmicroelectronics.cn/stm32mcu/wiki/STM32StepByStep:Step2_Blink_LED)：通过点灯，快速熟悉 IDE 的开发流程。
-- [CH341 串口驱动](https://www.wch-ic.com/downloads/CH341SER_EXE.html)：除了老师一般会发的 Windows 版本外，还含有 MacOS 和 Linux 的版本。
-- [printf 重定向](https://github.com/STMicroelectronics/STM32CubeH7/blob/master/Projects/STM32H743I-EVAL/Examples/UART/UART_Printf/Src/main.c): STM32 官方文档中的重定向方法。
-
-> 文/[Kowyo](https://github.com/kowyo)
-
- 
-
+> 文/[Oliver Wu](https://github.com/oliverwu515)
 
 ## 资料下载
 
@@ -61,15 +60,17 @@ math: true
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
-    {{< filetree/file name="☆老师官方版stm32题库★.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E2%98%86%E8%80%81%E5%B8%88%E5%AE%98%E6%96%B9%E7%89%88stm32%E9%A2%98%E5%BA%93%E2%98%85.pdf" >}}
+    {{< filetree/file name="2024 自动控制实践B试题回忆版(V1.0).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
     {{< filetree/file name="《黄瑞宁漏出》.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E3%80%8A%E9%BB%84%E7%91%9E%E5%AE%81%E6%BC%8F%E5%87%BA%E3%80%8B.pdf" >}}
     {{< filetree/file name="本部2020答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A82020%E7%AD%94%E6%A1%88.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="labs" state="closed" >}}
+    {{< filetree/file name="2024_wjd_综合-watermark.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/2024_wjd_%E7%BB%BC%E5%90%88-watermark.pdf" >}}
+    {{< filetree/file name="2024_综合实验任务书.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/2024_%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E4%BB%BB%E5%8A%A1%E4%B9%A6.pdf" >}}
   {{< filetree/folder name="ljh_version" state="closed" >}}
-    {{< filetree/file name="电机调速实验报告.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/ljh_version/%E7%94%B5%E6%9C%BA%E8%B0%83%E9%80%9F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" >}}
     {{< filetree/file name="综合实验报告模板_18号机.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/ljh_version/%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF_18%E5%8F%B7%E6%9C%BA.pdf" >}}
   {{< /filetree/folder >}}
+    {{< filetree/file name="综合实验模板（修正）.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E6%A8%A1%E6%9D%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%EF%BC%89.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="notes" state="closed" >}}
     {{< filetree/file name="Revision of Auto-Practical.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/Revision%20of%20Auto-Practical.pdf" >}}

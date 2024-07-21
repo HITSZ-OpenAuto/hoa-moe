@@ -18,7 +18,6 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="auto3007"title="过程控制系统">}}
-{{< card link="math3010"title="数学规划">}}
 {{< card link="auto3005"title="机器人学导论">}}
 {{< card link="ee3005"title="DSP的原理与应用">}}
 {{< card link="auto3006"title="机器视觉">}}
