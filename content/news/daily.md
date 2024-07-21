@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-07-21'
-description: 时间跨度：（北京时间）2024-07-20 16时至今
+description: 时间跨度：（北京时间）2024-07-20 17时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,7 +12,11 @@ title: AUTO 更新速递
 
 #### 周日（7.21）
 
-- （16:15）[（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/AUTO3011)：（吴俊达）Initial commit
+- （17:08）[运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011)：（oliver-wu）上线新课程
+
+- （17:06）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（oliver-wu）更新选课指南中《数学规划》的链接
+
+- （16:15）[运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011)：（吴俊达）Initial commit
 
 - （16:11）[数学规划与数值优化](https://github.com/HITSZ-OpenAuto/MATH3010)：（oliver-wu）更新课程名
 
