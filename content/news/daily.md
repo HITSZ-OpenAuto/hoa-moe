@@ -4,13 +4,19 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-07-21'
-description: 时间跨度：（北京时间）2024-07-20 17时至今
+description: 时间跨度：（北京时间）2024-07-21 00时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 #### 周日（7.21）
+
+- （18:25）[体育](https://github.com/HITSZ-OpenAuto/PE100X)：（longlin li）新增网球课程说明 (#6)
+
+- （17:35）[机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006)：（吴俊达）更新README (#5)
+
+- （17:18）[数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009)：（吴俊达）更新2023试题填空解析 (#7)
 
 - （17:08）[运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011)：（oliver-wu）上线新课程
 
