@@ -19,6 +19,11 @@ toc: false
 {{< cards >}}
 {{< card link="auto3007"title="过程控制系统">}}
 {{< card link="auto3005"title="机器人学导论">}}
-{{< card link="ee3005"title="DSP的原理与应用">}}
 {{< card link="auto3006"title="机器视觉">}}
+{{< /cards >}}
+## 归档
+此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了，但原课程资料仍保留，感兴趣的同学可以自行查阅。
+<!--more-->
+{{< cards >}}
+{{< card link="ee3005"title="DSP的原理与应用">}}
 {{< /cards >}}
