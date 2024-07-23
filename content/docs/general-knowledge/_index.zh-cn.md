@@ -8,4 +8,5 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="mooc"title="MOOC">}}
+{{< card link="wocd1008"title="日语I">}}
 {{< /cards >}}
