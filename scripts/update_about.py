@@ -1,7 +1,7 @@
 import requests
 import os
 
-ACCESS_TOKEN = os.getenv('PERSONAL_ACCESS_TOKEN')
+ACCESS_TOKEN = os.getenv('ACCESS_TOKEN')
 ORG_NAME = 'HITSZ-OpenAuto'
 
 def get_repos(org_name, access_token):
@@ -16,6 +16,7 @@ def get_repos(org_name, access_token):
         repos.extend(repo['name'] for repo in data if repo['name'] != '.github' and not repo['private'])
         url = response.links.get('next', {}).get('url')
     
+    print(f'Found {len(repos)} repos in {org_name}')
     return repos
 
 def generate_contributors_url(file_path):
@@ -31,8 +32,8 @@ def update_readme(readme_path, new_url):
 
     with open(readme_path, 'w') as file:
         for line in lines:
-            if line.strip().startswith("<iframe"):
-                file.write(f"<iframe src=\"{new_url}\" width=\"1000\" height=\"300\"></iframe>\n")
+            if line.strip().startswith("![Contributors]"):
+                file.write(f"![Contributors]({new_url})\n")
             else:
                 file.write(line)
 
