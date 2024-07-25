@@ -3,20 +3,20 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-07-24'
-description: 时间跨度：（北京时间）2024-07-23 18时至今
+date: '2024-07-25'
+description: 时间跨度：（北京时间）2024-07-25 00时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
-#### 周三（7.24）
+#### 周四（7.25）
 
-- （18:08）[体育](https://github.com/HITSZ-OpenAuto/PE100X)：（Kowyo）£hei仔🐷：修正关于游泳课考试的情况
+- （18:22）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（吴俊达）Merge pull request #139 from HITSZ-OpenAuto/ow1
 
-- （12:48）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（Kowyo）fix: update update_about.py
+- （18:10）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（oliver-wu）更新选课指南
 
-- （12:37）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（Kowyo）fix: update token name in update_about.py
+- （17:57）[机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019)：（oliver-wu）上线新课程
 
-- （9:22）[.github](https://github.com/HITSZ-OpenAuto/.github)：（GitHub Actions）ci: update README.md
+- （17:55）[机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019)：（吴俊达）Initial commit
 
