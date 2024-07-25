@@ -25,10 +25,10 @@ excludeSearch: false
 | ---- | -------- | ------------  | ---- | ------ | ---- | ---- |
 | 1    | 大三上   | [数学规划与数值优化](https://hoa.moe/docs/junior-autumn/math3010/)     |  2.0  | 32     | 32  |      |
 |  2   |  大三上    | [数字图像处理](https://hoa.moe/docs/junior-autumn/auto3003/)                     | 2.0      | 32         | 24       | 8        |
-|  3    | 大三上       | 模式识别                 | 2.0  | 32     | 24   | 8 |
+|  3    | 大三上       | [模式识别](https://hoa.moe/docs/junior-autumn/auto5024/) | 2.0  | 32     | 24   | 8 |
 | 4   | 大三下   | [过程控制系统](https://hoa.moe/docs/junior-spring/auto3007/) |  2.0  | 32     | 20   | 12   |
 |  5   | 大三下       | [机器人学导论](https://hoa.moe/docs/junior-spring/auto3005/)              | 2.0      | 36         | 28       | 8        |
-|  6    | 大三下        | 运动控制系统                 | 2.0      | 32         | 24       | 8        |
+|  6    | 大三下        | [运动控制系统](https://hoa.moe/docs/junior-spring/auto3011/) | 2.0      | 32         | 24       | 8        |
 |  7    | 大四上        | [凸优化与最优控制](https://hoa.moe/docs/senior-autumn/auto5023/)                 | 2.0      | 32         | 32       |       |
 
 以上7门课至少选择其中2门，即达到学分要求。 
@@ -36,12 +36,12 @@ excludeSearch: false
 ## 拓展选修课
 （点击蓝色的课程名即可跳转对应页面查看详情及下载资料）
 
-| 序号 | 开课学期 | 课程名称          | 学分 | 总学时 | 讲课 | 实验 | 
+| 序号 | 开课学期 | 课程名称          | 学分 | 总学时 | 讲课 | 实验 |
 | ---- | -------- | ---------------- | ---- | ------ | ---- | ---- |
 | 1    | 大二上   | [C++ 语言程序设计](https://hoa.moe/docs/sophomore-autumn/comp2014/) | 2.0  | 32   | 20 | 12  |
 | 2    | 大二下  | [数据结构与算法](https://hoa.moe/docs/sophomore-spring/comp2050/)               | 2.0  | 32   | 24 | 8 |
-|  3   | 大三上       | 机器学习概论    | 2.0      | 32         | 32       |          |
-|  4    | 大三上       | 嵌入式系统    | 2.0      | 32         | 32       |          |
+|  3   | 大三上       | [机器学习概论](https://hoa.moe/docs/junior-autumn/auto3019/) | 2.0      | 32         | 32       |          |
+|  4    | 大三上       | [嵌入式系统](https://hoa.moe/docs/junior-autumn/auto3024/) | 2.0      | 32         | 20      | 12 |
 |  5    | 大三下       | [机器视觉](https://hoa.moe/docs/junior-spring/auto3006/)         | 2.0      | 32         | 24       | 8        |
 |  6    | 大四上       | 人工智能基础            | 2.0  | 32     | 32 |          |
 |  7  | 大四上       | 移动机器人导论  | 2.0      | 32         | 24       | 8        |
