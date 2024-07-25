@@ -58,9 +58,9 @@ excludeSearch: false
 |  序号  |  开课学期  |  课程名称    |  组内必修  or  选修？  |  学分  |  总学时  |  讲课  |  实验  |
 | -------- | ------------ | -------------- | ---------------------------- | -------- | ---------- | -------- | -------- |
 |  1    | 大三下       | [机器人学导论](https://hoa.moe/docs/junior-spring/auto3005/)   | 必修                         | 2.0      | 36         | 28       | 8        |
-|  2    | 大四上       | 运动控制系统   | 选修                         | 2.0      | 32         | 24       | 8        |
+|  2    | 大四上       | [运动控制系统](https://hoa.moe/docs/junior-autumn/auto3011/) | 选修                         | 2.0      | 32         | 24       | 8        |
 |  3    | 大四上       | 移动机器人导论 | 选修 | 2.0      | 32         | 24       | 8        |
-|  4    | 大四上       | 机器学习概论   | 选修 | 2.0      | 32         | 32       |          |
+|  4    | 大四上       | [机器学习概论](https://hoa.moe/docs/junior-autumn/auto3019/) | 选修 | 2.0      | 32         | 32       |          |
 
  **1° 若作为主选修模块：（至少达到6学分）**
 
@@ -77,7 +77,7 @@ excludeSearch: false
 |  1    |  大三上    | [数字图像处理](https://hoa.moe/docs/junior-autumn/auto3003/) | 必修                         | 2.0      | 32         | 24       | 8        |
 |  2    | 大三下       | [机器视觉](https://hoa.moe/docs/junior-spring/auto3006/)     | 选修                         | 2.0      | 32         | 24       | 8        |
 |  3    | 大四上       | 人工智能基础 | 选修                 | 2.0  | 32     | 32 |          |
-|  4    | 大四上       | 模式识别     | 选修                 | 2.0  | 32     | 24   | 8 |
+|  4    | 大四上       | [模式识别](https://hoa.moe/docs/junior-autumn/auto5024/) | 选修                 | 2.0  | 32     | 24   | 8 |
 
 **1° 若作为主选修模块：（至少达到6学分）**
 
@@ -99,9 +99,9 @@ excludeSearch: false
   <tr><td>2</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/math3010/">数学规划</a></td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td></tr>
   <tr><td>3</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3005/">机器人学导论</a></td><td>2.0</td><td>36</td><td>28</td><td>8</td></tr>
   <tr><td>4</td><td>大四上</td><td>先进控制概论</td><td>可选可不选</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
-  <tr><td>5</td><td>大四上</td><td>运动控制系统</td><td rowspan="3">选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
+    <tr><td>5</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-spring/auto3011/">运动控制系统</a></td><td rowspan="3">选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>6</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
-  <tr><td>7</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
+  <tr><td>7</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3019/">机器学习概论</a></td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
 </tbody>
 </table></figure>
 
@@ -117,7 +117,7 @@ excludeSearch: false
   <tr><td>4</td><td>大四上</td><td>先进控制概论</td><td>可选可不选</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
   <tr><td>5</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3006/">机器视觉</a></td><td rowspan="3">选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>6</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
-  <tr><td>7</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
+    <tr><td>7</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto5024/">模式识别</a></td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
 </tbody>
 </table></figure>
 
@@ -130,9 +130,9 @@ excludeSearch: false
   <tr><td>1</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3005/">机器人学导论</a></td><td>必修</td><td>2.0</td><td>36</td><td>28</td><td>8</td></tr>
   <tr><td>2</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3007/">过程控制系统</a></td><td rowspan="2">必修（二选一）</td><td>3.0</td><td>48</td><td>36</td><td>12</td></tr>
   <tr><td>3</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/math3010/">数学规划</a></td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td></tr>
-  <tr><td>4</td><td>大四上</td><td>运动控制系统</td><td rowspan="3">选修至少<u>两门</u></td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
+    <tr><td>4</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-spring/auto3011/">运动控制系统</a></td><td rowspan="3">选修至少<u>两门</u></td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>5</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
-  <tr><td>6</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
+  <tr><td>6</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3019/">机器学习概论</a></td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
   <tr><td>7</td><td>大四上</td><td>先进控制概论</td><td>【注】 </td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
 </tbody>
 </table></figure>
@@ -147,12 +147,12 @@ excludeSearch: false
 <tbody>
   <tr><td>1</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3005/">机器人学导论</a></td><td>必修</td><td>2.0</td><td>36</td><td>28</td><td>8</td></tr>
   <tr><td>2</td><td>大三上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3003/">数字图像处理</a></td><td>必修</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
-  <tr><td>3</td><td>大三下</td><td>运动控制系统</td><td rowspan='3'>选修至少<u>两门</u></td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
+  <tr><td>3</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3011/">运动控制系统</a></td><td rowspan='3'>选修至少<u>两门</u></td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>4</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
-  <tr><td>5</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
+  <tr><td>5</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3019/">机器学习概论</a></td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
   <tr><td>6</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3006/">机器视觉</a></td><td rowspan='3'>选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>7</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
-  <tr><td>8</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
+  <tr><td>8</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto5024/">模式识别</a></td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
 </tbody>
 </table></figure>
 
@@ -167,11 +167,10 @@ excludeSearch: false
   <tr><td>3</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/math3010/">数学规划</a></td><td>3.0</td><td>48</td><td>48</td><td>&nbsp;</td></tr>
   <tr><td>4</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3006/">机器视觉</a></td><td rowspan='3'>选修至少两门</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>5</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
-  <tr><td>6</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
+  <tr><td>6</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto5024/">模式识别</a></td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>7</td><td>大四上</td><td>先进控制概论</td><td>【注】 </td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
 </tbody>
 </table></figure>
-
 【注】如果第2、3门课都选了，就不用选。否则就要选。
 
 **（6）主选修模块：智能检测模块；副选修模块：机器人与智能系统**
@@ -184,12 +183,14 @@ excludeSearch: false
   <tr><td>2</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3005/">机器人学导论</a></td><td>必修</td><td>2.0</td><td>36</td><td>28</td><td>8</td></tr>
   <tr><td>3</td><td>大三下</td><td><a href="https://hoa.moe/docs/junior-spring/auto3006/">机器视觉</a></td><td rowspan='3'>选修至少两门</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>4</td><td>大四上</td><td>人工智能基础</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
-  <tr><td>5</td><td>大四上</td><td>模式识别</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
-  <tr><td>6</td><td>大四上</td><td>运动控制系统</td><td rowspan='3'>选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
+  <tr><td>5</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto5024/">模式识别</a></td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
+  <tr><td>6</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-spring/auto3011/">运动控制系统</a></td><td rowspan='3'>选修至少一门</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
   <tr><td>7</td><td>大四上</td><td>移动机器人导论</td><td>2.0</td><td>32</td><td>24</td><td>8</td></tr>
-  <tr><td>8</td><td>大四上</td><td>机器学习概论</td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
+  <tr><td>8</td><td>大四上</td><td><a href="https://hoa.moe/docs/junior-autumn/auto3019/">机器学习概论</a></td><td>2.0</td><td>32</td><td>32</td><td>&nbsp;</td></tr>
 </tbody>
 </table></figure>
+
+
 
 ## 限选课选课建议
 （欢迎学长学姐补充）
