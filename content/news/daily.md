@@ -12,6 +12,8 @@ title: AUTO 更新速递
 
 #### 周一（7.29）
 
+- （23:33）[（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/WRIT0001)：（longlin li）Update README.md
+
 - （23:27）[（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/WRIT0001)：（longlin li）Update README.md
 
 - （23:22）[（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/WRIT0001)：（longlin li）Initial commit
