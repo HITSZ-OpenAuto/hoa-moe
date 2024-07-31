@@ -9,4 +9,5 @@ toc: false
 {{< cards >}}
 {{< card link="mooc"title="MOOC">}}
 {{< card link="wocd1008"title="日语I">}}
+{{< card link="writ0001"title="写作与沟通">}}
 {{< /cards >}}
