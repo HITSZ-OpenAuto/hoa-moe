@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-07-31'
-description: 时间跨度：（北京时间）2024-07-30 08时至今
+description: 时间跨度：（北京时间）2024-07-31 00时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -17,8 +17,4 @@ title: AUTO 更新速递
 - （8:13）[写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001)：（MaxwellJay256）编辑 tag
 
 - （8:13）[写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001)：（MaxwellJay256）删除无用文件夹
-
-#### 周二（7.30）
-
-- （16:29）[写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001)：（IcyDesert）补充写作与沟通课程介绍
 
