@@ -22,7 +22,7 @@
 ### 克隆本仓库
 
 ```bash
-git clone https://github.com/HITSZ-OpenAuto/hoa.moe.git --recurse-submodules
+git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules
 ```
 
 ### 安装 Hugo 框架

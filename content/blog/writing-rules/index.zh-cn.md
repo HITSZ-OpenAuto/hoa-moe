@@ -51,7 +51,7 @@ excludeSearch: false
 
 #### 关于提交信息（commit message）
 
-1. 确保 commit message 和 PR 的 title 清晰而明确。除非是 [hoa.moe](https://github.com/HITSZ-OpenAuto/hoa.moe) 中代码相关的修改，否则都应该使用全中文以提升可读性和观感。
+1. 确保 commit message 和 PR 的 title 清晰而明确。除非是 [hoa.moe](https://github.com/HITSZ-OpenAuto/hoa-moe) 中代码相关的修改，否则都应该使用全中文以提升可读性和观感。
 
 2. 对于上传/修改/删除文件，写清楚上传了什么文件或是对已有的文件进行了什么修改。
 
