@@ -42,7 +42,7 @@ sudo snap install hugo
 ### Run the development server
 
 ```bash
-cd hoa.moe
+cd hoa-moe
 hugo server
 ```
 
