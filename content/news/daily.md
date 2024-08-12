@@ -13,4 +13,3 @@ title: AUTO 更新速递
 #### 周五（8.9）
 
 - （23:58）[hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe)：（github-actions[bot]）Weekly Report (#146)
-
