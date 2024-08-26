@@ -10,6 +10,14 @@ toc: false
 {{< cards >}}
 {{< card link="auto3014"title="自动化前沿专题">}}
 {{< /cards >}}
+## 限选
+[21级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-21/)
+<br>
+[22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
+<!--more-->
+{{< cards >}}
+{{< card link="auto5024"title="模式识别">}}
+{{< /cards >}}
 ## 研究生阶段课程
 此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。
 <!--more-->
