@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
-最近由 Kowyo 更新于 2024.5.20，更新内容：Trigger Build
+最近由 IcyDesert 更新于 2024.8.27，更新内容：新增课程答案：人工智能时代的身份、代理、平等和安全，英美音乐与文化，生命科学导论 (#6)
 
 
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-red)
@@ -65,6 +65,10 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 ## 资料下载
 
 {{< filetree/container >}}
+  {{< filetree/folder name="人工智能时代的身份、代理、平等和安全" state="closed" >}}
+    {{< filetree/file name="人工智能时代的身份、代理、平等和安全.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8.pdf" >}}
+    {{< filetree/file name="人工智能期末答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.docx" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="全球化与世界空间" state="closed" >}}
     {{< filetree/file name="全球化与世界空间.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E5%85%A8%E7%90%83%E5%8C%96%E4%B8%8E%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4/%E5%85%A8%E7%90%83%E5%8C%96%E4%B8%8E%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4.docx" >}}
   {{< /filetree/folder >}}
@@ -100,6 +104,9 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
   {{< /filetree/folder >}}
   {{< filetree/folder name="职业发展英语" state="closed" >}}
     {{< filetree/file name="职English.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E8%8B%B1%E8%AF%AD/%E8%81%8CEnglish.docx" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="英美音乐与文化" state="closed" >}}
+    {{< filetree/file name="英美音乐与文化期末答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="设计的人因与文化" state="closed" >}}
     {{< filetree/file name="设计的人因与文化.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%BA%E5%9B%A0%E4%B8%8E%E6%96%87%E5%8C%96/%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%BA%E5%9B%A0%E4%B8%8E%E6%96%87%E5%8C%96.docx" >}}
