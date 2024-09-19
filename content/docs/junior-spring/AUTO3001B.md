@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
-最近由 oliver-wu 更新于 2024.7.1，更新内容：新增一个实验报告版本、一份复习笔记
+最近由 吴俊达 更新于 2024.9.18，更新内容：更新2024自动控制理论期末试题 (#3)
 
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)
@@ -89,6 +89,7 @@ math: true
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
+    {{< filetree/file name="2024 自动控制理论B试题回忆版(V1.0).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BAB%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
     {{< filetree/file name="自控B-校正.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf" >}}
     {{< filetree/file name="自控理论b考试回忆.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf" >}}
     {{< filetree/file name="补考前复习题-参考解答.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf" >}}
