@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
-最近由 IcyDesert 更新于 2024.8.27，更新内容：新增课程答案：人工智能时代的身份、代理、平等和安全，英美音乐与文化，生命科学导论 (#6)
+最近由 oldkingOK 更新于 2024.9.23，更新内容：添加《劳动教育概论》MOOC 章节测试的答案
 
 
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-red)

@@ -9,7 +9,6 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="phys1002"title="大学物理实验">}}
-{{< card link="auto2006"title="控制理论中的代数基础">}}
 {{< card link="geip1016"title="中国近现代史纲要">}}
 {{< card link="phys1001a"title="大学物理">}}
 {{< card link="lang1006"title="大学英语">}}
