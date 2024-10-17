@@ -5,22 +5,20 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
-最近由 Maxwell Jay 更新于 2024.10.14，更新内容：添加参考书链接、排版 README (#14)
+最近由 吴俊达 更新于 2024.10.17，更新内容：fix typos in README.md (#15)
 
-**new: 步进电机试题答案更新，更新一份课内实验报告版本**
 
-文档编写者：[Oliver Wu](https://github.com/OliverWu515)（撰写有关21级部分）
-
-![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
+![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
 
 ![Static Badge](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90（21,22级）-gold)
 ![Static Badge](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-10%25-wheat)
 ![Static Badge](https://img.shields.io/badge/实验-25%25-wheat)
 ![Static Badge](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-65%25-wheat)
 
-![Static Badge](https://img.shields.io/badge/总学时48-wheat) ![Static Badge](https://img.shields.io/badge/讲课学时-40-wheat) ![Static Badge](https://img.shields.io/badge/实验-2学时*4-wheat)
+![Static Badge](https://img.shields.io/badge/总学时48-wheat) ![Static Badge](https://img.shields.io/badge/讲课-40-wheat) ![Static Badge](https://img.shields.io/badge/实验-2学时*4-wheat)
 
-该课程有配套的课程设计：[(必修)自动控制实践A课程设计](https://hoa.moe/docs/junior-autumn/auto3016/)），独立设课，1 学分，40 学时。
+该课程有配套的课程设计（2024 年秋季学期起，改名为“实验”）：[自动控制实践 A 实验](https://hoa.moe/docs/junior-autumn/auto3016/)，独立设课，1.5 学分，40 学时。
 
 ## 教材
 
@@ -50,6 +48,7 @@ math: true
 
 关于伺服电机和步进电机，可以参考以下书目：
 - [日]坂本正文著，王自强译，步进电机应用技术，科学出版社 2010 年版。（翻译有些错误，凑合着看）
+  - 此书已放到校内网盘。
 - （一些奇怪的论坛里的 pdf，找到后放上来）
 
 ### 电力电子技术
@@ -58,13 +57,17 @@ math: true
 - （西安交通大学）王兆安等，电力电子技术（第 5 版），机械工业出版社。
 - Erickson，Fundamental of power electronics（3rd ed.)，Springer。
 - [傅旻帆个人主页 - Bilibili](https://space.bilibili.com/519909115)
-- [西瓜粥西瓜粥个人主页 - Bilibili)](https://space.bilibili.com/287344644)
+- [西瓜粥西瓜粥个人主页 - Bilibili](https://space.bilibili.com/287344644)
 
 （请大家量力而行，学有余力再去看拓展提高的内容！）
 
 ## 学时安排
 
-<h4>学时安排表（21级）</h4>   <!--标题-->
+<h4>学时安排表（21级）</h4> 
+
+> 文/ [Oliver Wu](https://github.com/OliverWu515)，2024.2
+
+<!--标题-->
 <table border="1" cellspacing="10">
 <tr>
   <th align="center">授课教师</th>
@@ -199,11 +202,11 @@ math: true
 
 ## 关于考试
 
-> by [Oliver Wu](https://github.com/OliverWu515)，2024.2
+> 文/ [Oliver Wu](https://github.com/OliverWu515)，2024.2
 
 - 题量较大，但是含有大量往年题。对于做过往年题的同学来说，完卷并不困难，甚至有较多时间检查。
 - 有少数题目不太严谨，不要因为这个影响答题。
-- 仅做往年题而不理解概念的后果，就是对于往年题之外的题目无从下手。所以这门课虽说挂科率不低，但考高分的也少。
+- 仅做往年题而不理解概念的后果，就是对于往年题之外的题目无从下手。所以这门课虽说挂科率不高，但考高分的也少。
 - 所以，往年题只供大家参考，只靠通过刷往年考试题来获取高分或者保证不挂科是**不可取的**。而且往年题有许多题目并无答案，需要理解并且与同学讨论来得出答案。**希望大家认真复习，把基本概念、方法掌握扎实。**
 
 ## 资料下载
