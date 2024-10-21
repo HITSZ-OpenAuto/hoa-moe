@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
-最近由 吴俊达 更新于 2024.6.30，更新内容：更新2023试题考点回忆版
+最近由 Kowyo 更新于 2024.10.21，更新内容：Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#2)
 
 
 <div align="left">
