@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A/edit/main/README.md"
 math: true
 ---
-最近由 psp_dada 更新于 2024.7.12，更新内容：add new notes
+最近由 Kowyo 更新于 2024.10.21，更新内容：Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#4)
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

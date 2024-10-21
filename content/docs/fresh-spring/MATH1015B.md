@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
-最近由 IcyDesert 更新于 2024.7.20，更新内容：上传 2024 春期末试题和答案，并补充难度情况；更正 README.md 中笔误 (#5)
+最近由 Kowyo 更新于 2024.10.21，更新内容：Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#6)
 
 
 <!--

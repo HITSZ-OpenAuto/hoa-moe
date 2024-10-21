@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
-最近由 吴俊达 更新于 2024.10.17，更新内容：fix typos in README.md (#15)
+最近由 Kowyo 更新于 2024.10.21，更新内容：Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#16)
 
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)

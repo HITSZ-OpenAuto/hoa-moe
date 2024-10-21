@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
-最近由 Kowyo 更新于 2024.7.16，更新内容：更改文字描述
+最近由 Kowyo 更新于 2024.10.21，更新内容：Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#2)
 
 
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
