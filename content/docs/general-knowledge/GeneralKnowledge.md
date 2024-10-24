@@ -5,8 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md"
 math: true
 ---
-<p class='hx-text-gray-700'>最近更新时间 2024.10.10 ‖ 更新者 Hye ‖ <i>Update tag.txt (#2)</i></p> 
-
+{{< update-info update_time="2024.10.10" author="Hye" message="Update tag.txt (#2)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

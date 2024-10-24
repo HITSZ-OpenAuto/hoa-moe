@@ -5,8 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A/edit/main/README.md"
 math: true
 ---
-<p class='hx-text-gray-700'>最近更新时间 2024.10.21 ‖ 更新者 Kowyo ‖ <i>Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#4)</i></p> 
-
+{{< update-info update_time="2024.7.12" author="psp_dada" message="add new notes" >}}
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
 2. 请根据课程的具体内容增删仓库的子文件夹。子文件夹建议使用小写英文，并且添加 README.md。

@@ -5,8 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
-<p class='hx-text-gray-700'>最近更新时间 2024.10.21 ‖ 更新者 Kowyo ‖ <i>Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#2)</i></p> 
-
+{{< update-info update_time="2024.6.30" author="吴俊达" message="更新2023试题考点回忆版" >}}
 
 <div align="left">
 <figure>

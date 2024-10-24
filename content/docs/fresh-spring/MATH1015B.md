@@ -5,8 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
-<p class='hx-text-gray-700'>最近更新时间 2024.10.21 ‖ 更新者 Kowyo ‖ <i>Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#6)</i></p> 
-
+{{< update-info update_time="2024.7.20" author="IcyDesert" message="上传 2024 春期末试题和答案，并补充难度情况；更正 README.md 中笔误 (#5)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
