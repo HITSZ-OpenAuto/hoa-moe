@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
-<p class='hx-text-gray-700'>最近更新时间 2024.10.21 ‖ 更新者 Kowyo ‖ <i>Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#8)</i></p> 
+<p class='hx-text-gray-700'>最近更新时间 2024.9.23 ‖ 更新者 oldkingOK ‖ <i>添加《劳动教育概论》MOOC 章节测试的答案</i></p> 
 
 
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-red)

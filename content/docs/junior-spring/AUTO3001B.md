@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
-<p class='hx-text-gray-700'>最近更新时间 2024.10.21 ‖ 更新者 Kowyo ‖ <i>Replace hoa.moe with hoa-moe in .github/workflows/trigger-workflow.yml (#6)</i></p> 
+<p class='hx-text-gray-700'>最近更新时间 2024.10.11 ‖ 更新者 abigzhe ‖ <i>增加了一份模拟试题和一个新版本笔记 (#5)</i></p> 
 
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)
