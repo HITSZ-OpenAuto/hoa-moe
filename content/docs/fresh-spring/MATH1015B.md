@@ -5,7 +5,8 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
-{{< update-info update_time='2024.7.20' author='IcyDesert' message='上传 2024 春期末试题和答案，并补充难度情况；更正 README.md 中笔误 (#5)' >}}
+{{< update-info update_time="2024.7.20" author="IcyDesert" message="上传 2024 春期末试题和答案，并补充难度情况；更正 README.md 中笔误 (#5)" >}}
+
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
 2. 请根据课程的具体内容增删仓库的子文件夹。子文件夹建议使用小写英文，并且添加 README.md。

@@ -5,7 +5,8 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
-{{< update-info update_time='2024.10.17' author='吴俊达' message='fix typos in README.md (#15)' >}}
+{{< update-info update_time="2024.10.17" author="吴俊达" message="fix typos in README.md (#15)" >}}
+
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
 ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
 
