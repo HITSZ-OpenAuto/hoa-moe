@@ -24,14 +24,14 @@ def get_latest_commit(owner, repo):
         commits = response.json()
 
         for commit in commits:
-            message = commit[0]['commit']['message']
+            message = commit['commit']['message']
             # Skip commits with messages starting with "Replace"
-            if message.startswith("Replace"):
+            if message.startswith("Replace") or message.startswith("Add"):
                 continue
 
             # If the commit does not start with "Replace", process it
-            commit_info['author'] = commit[0]['commit']['author']['name']
-            commit_info['date'] = datetime.datetime.strptime(commit[0]['commit']['author']['date'],
+            commit_info['author'] = commit['commit']['author']['name']
+            commit_info['date'] = datetime.datetime.strptime(commit['commit']['author']['date'],
                                                              "%Y-%m-%dT%H:%M:%SZ") + datetime.timedelta(hours=8)  # UTC-8
             commit_info['message'] = message
             return commit_info  # Return the first valid commit
