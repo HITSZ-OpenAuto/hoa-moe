@@ -5,9 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
-<p class='hx-text-gray-700'>最近更新时间 2024.7.18 ‖ 更新者 Peng Shangpin ‖ <i>add new note (#5)</i></p> 
-
-
+{{< update-info update_time='2024.7.18' author='Peng Shangpin' message='add new note (#5)' >}}
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)
 
 ![Static Badge](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)  ![Static Badge](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-20%25-wheat)  ![Static Badge](https://img.shields.io/badge/期中考试-30%25-wheat)  ![Static Badge](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)

@@ -5,9 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
-<p class='hx-text-gray-700'>最近更新时间 2024.6.30 ‖ 更新者 吴俊达 ‖ <i>更新2023试题考点回忆版</i></p> 
-
-
+{{< update-info update_time='2024.6.30' author='吴俊达' message='更新2023试题考点回忆版' >}}
 <div align="left">
 <figure>
   <img alt="考试课" src="https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red" >
