@@ -5,7 +5,7 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md"
 math: true
 ---
-最近由 Hye 更新于 2024.10.10，更新内容：Update tag.txt (#2)
+<p class='hx-text-gray-700'>最近更新时间 2024.10.10 ‖ 更新者 Hye ‖ <i>Update tag.txt (#2)</i></p> 
 
 
 <!--
