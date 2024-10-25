@@ -14,11 +14,16 @@ math: true
 5. 可以在 GitHub 页面的 About/Topics 中为课程添加话题名称。
 -->
 
+<div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
+
 ![考试课](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
 
 ![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![作业30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
 ![期末考试70%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
+
+
+</div>
 
 **注意！从2024春季学期开始，《大学物理》课程安排有所调整，但仅更改了某些模块的讲授顺序，总体内容不变，因此将原“大学物理IA”、“大学物理IB”栏目合并为“大学物理”栏目。**
 鉴于部分资料中仍有“大学物理IA”与“大学物理IB”字样，为了避免新旧课程混淆，下面列出原《大学物理IA》、《大学物理IB》课程和现在《大学物理XA》、《大学物理XB》（计算机与电子通信、自动化与电气工程、机器人与智能装备等大类开设）以及《大学物理IA》、《大学物理IB》（材料、土木、化学等大类开设）的对照表。**大家对照下表查找资料。** 例如，原先“大学物理IB”的笔记里，有关“振动与波动”的部分，就可供“大学物理XA"的同学所用。
