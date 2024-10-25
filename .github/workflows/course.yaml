@@ -1,12 +1,12 @@
-name: 'Build Documentation'
+name: "Build Documentation"
 
 on:
   push:
     paths:
-      - 'scripts/**'
-      - '.github/workflows/course.yaml'
+      - "scripts/**"
+      - ".github/workflows/course.yaml"
   schedule:
-    - cron: '0 16 */2 * *'
+    - cron: "0 16 */2 * *"
   workflow_dispatch:
 
 concurrency:
@@ -20,7 +20,7 @@ jobs:
       contents: write
       id-token: write
 
-    steps:  
+    steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -31,13 +31,13 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v5
         with:
-            python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install python dependencies
         run: pip install -r scripts/requirements.txt
 
       - name: Get all repositories in the organization
-        uses : austenstone/get-org-repos@v3.1
+        uses: austenstone/get-org-repos@v3.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           org: "HITSZ-OpenAuto"
@@ -74,7 +74,7 @@ jobs:
               touch "${SEMESTER}-${CATEGORY}.txt"
             done
           done
-          
+
           echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
           cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
           cat repos.txt
@@ -146,7 +146,7 @@ jobs:
                   continue
                   ;;   
               esac
-      
+
               echo $semester
 
               CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
@@ -254,6 +254,10 @@ jobs:
 
               python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
+
+              echo '--------wrap badges---------'
+              python scripts/wrap_badges.py "./content/docs/${semester}/${line}.md"
+              echo '--------wrap finished---------'
               
               if [ ${CATEGORY} = "限选" ]
               then
@@ -280,7 +284,7 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
             done
           done
-      
+
       - name: Build Semester Pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
@@ -309,6 +313,6 @@ jobs:
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'content'
+          add: "content"
           default_author: github_actions
-          message: 'ci: update course pages'
+          message: "ci: update course pages"
