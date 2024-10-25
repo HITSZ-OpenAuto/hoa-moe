@@ -15,7 +15,7 @@ def wrap_badges_with_div(content, div_classes="img-div hx-mt-4 hx-flex-row hx-ju
     processed_lines = []
     
     # badge行的正则表达式
-    badge_pattern = r'!\[Static Badge\]\(https://img\.shields\.io/badge/.*?\)'
+    badge_pattern = r'\(https://img\.shields\.io/badge/.*?\)'
     
     i = 0
     while i < len(lines):
