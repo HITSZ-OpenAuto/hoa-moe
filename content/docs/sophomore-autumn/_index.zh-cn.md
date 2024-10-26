@@ -17,9 +17,7 @@ toc: false
 {{< card link="pe100x"title="体育">}}
 {{< /cards >}}
 ## 限选
-[21级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-21/)
-<br>
-[22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
+[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
 <!--more-->
 {{< cards >}}
 {{< card link="comp2014"title="C++语言程序设计">}}

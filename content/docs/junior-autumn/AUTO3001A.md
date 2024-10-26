@@ -5,7 +5,8 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
-{{< update-info update_time="2024.6.30" author="吴俊达" message="更新2023试题考点回忆版" >}}
+
+{{< update-info update_time="2024年6月30日" author="吴俊达" message="更新2023试题考点回忆版" >}}
 
 <div align="left">
 <figure>

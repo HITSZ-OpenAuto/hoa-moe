@@ -5,7 +5,8 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
-{{< update-info update_time="2024.7.21" author="吴俊达" message="更新README，更新实验报告版本，更新2024考试题 (#4)" >}}
+
+{{< update-info update_time="2024年7月21日" author="吴俊达" message="更新README，更新实验报告版本，更新2024考试题 (#4)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -20,7 +21,6 @@ math: true
 ![Static Badge](https://img.shields.io/badge/总学时-64-wheat)
 ![Static Badge](https://img.shields.io/badge/授课-48-wheat)
 ![Static Badge](https://img.shields.io/badge/实验-16-wheat)
-
 
 </div>
 

@@ -5,7 +5,8 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
-{{< update-info update_time="2024.9.23" author="oldkingOK" message="添加《劳动教育概论》MOOC 章节测试的答案" >}}
+
+{{< update-info update_time="2024年9月23日" author="oldkingOK" message="添加《劳动教育概论》MOOC 章节测试的答案" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -14,7 +15,6 @@ math: true
 
 ![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![因课而异 请见具体课程说明](https://img.shields.io/badge/%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82%20%E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E-wheat)
-
 
 </div>
 
