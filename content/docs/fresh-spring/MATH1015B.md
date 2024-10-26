@@ -5,7 +5,8 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
-{{< update-info update_time="2024.7.20" author="IcyDesert" message="上传 2024 春期末试题和答案，并补充难度情况；更正 README.md 中笔误 (#5)" >}}
+
+{{< update-info update_time="2024年7月20日" author="IcyDesert" message="上传 2024 春期末试题和答案，并补充难度情况；更正 README.md 中笔误 (#5)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -24,7 +25,6 @@ math: true
 ![作业20%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-20%25-wheat)
 ![期中考试30%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-30%25-wheat)
 ![期末考试50%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
-
 
 </div>
 

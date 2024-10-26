@@ -11,9 +11,7 @@ toc: false
 {{< card link="auto3014"title="自动化前沿专题">}}
 {{< /cards >}}
 ## 限选
-[21级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-21/)
-<br>
-[22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
+[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
 <!--more-->
 {{< cards >}}
 {{< card link="auto5024"title="模式识别">}}

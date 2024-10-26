@@ -5,7 +5,8 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
-{{< update-info update_time="2024.5.30" author="Sieroy" message="新增一个项目分享 (#5)" >}}
+
+{{< update-info update_time="2024年5月30日" author="Sieroy" message="新增一个项目分享 (#5)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -22,7 +23,6 @@ math: true
 
 ![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![大作业100%](https://img.shields.io/badge/大作业-100%25-wheat)
-
 
 </div>
 

@@ -2,10 +2,6 @@
 {{- $author := .Get "author" -}}
 {{- $message := .Get "message" -}}
 
-<div class='hx-text-gray-700 hx-flex hx-justify-start hx-items-center hx-my-2 hx-text-sm dark:hx-text-gray-400 hx-transition-colors hx-border-gray-500 hx-text-gray-900 dark:hx-border-gray-200/30 dark:hx-text-gray-200 hx-rounded-md'>
-    <div class="hx-my-0 hx-whitespace-nowrap hx-text-ellipsis hx-overflow-hidde hover:hx-text-gray-900 dark:hover:hx-text-gray-100">最近更新时间 {{ $update_time | markdownify }}</div>
-    <div class="hx-mx-1">||</div>
-    <div class="hx-my-0 hx-whitespace-nowrap hx-text-ellipsis hx-overflow-hidde hover:hx-text-gray-900 dark:hover:hx-text-gray-100">更新者 {{ $author | markdownify }}</div>
-    <div class="hx-mx-1">||</div>
-    <div class="hx-my-0 hx-whitespace-nowrap hx-text-ellipsis hx-overflow-hidden hover:hx-text-gray-900 dark:hover:hx-text-gray-100">{{ $message | markdownify }}</div>
+<div class="hx-mt-4 hx-text-gray-500 hx-text-sm hx-flex hx-items-center hx-flex-wrap hx-gap-y-2 hx-text-ellipsis">
+    <span>最近由 {{$author}} 于{{ $update_time }}更新：{{ $message | markdownify }}</span>
 </div>
