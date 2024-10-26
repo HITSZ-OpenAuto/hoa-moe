@@ -41,7 +41,7 @@ def wrap_badges_with_div(content, div_classes="img-div hx-mt-4 hx-flex-row hx-ju
                 # 添加div包装
                 processed_lines.append(f'<div class="{div_classes}">\n')
                 processed_lines.extend(badge_block)
-                processed_lines.append('\n</div>\n')
+                processed_lines.append('</div>\n')
         else:
             processed_lines.append(lines[i])
             i += 1
