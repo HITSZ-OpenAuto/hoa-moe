@@ -191,9 +191,7 @@ jobs:
                 if [ ${CATEGORY} = "限选" ]
                 then
                   echo "## ${CATEGORY}" > "${semester}-${category}.txt"
-                  echo "[21级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-21/)" >> "${semester}-${category}.txt"
-                  echo "<br>" >> "${semester}-${category}.txt"
-                  echo "[22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)" >> "${semester}-${category}.txt"
+                  echo "[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)" >> "${semester}-${category}.txt"
                 fi
                 # if [ ${CATEGORY} = "跨专业选修" ]
                 # then
@@ -252,18 +250,9 @@ jobs:
               echo "math: true" >> "./content/docs/${semester}/${line}.md"
               echo '---' >> "./content/docs/${semester}/${line}.md"
 
+              echo >> "./content/docs/${semester}/${line}.md"
               python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
-              
-              if [ ${CATEGORY} = "限选" ]
-              then
-                MODULE=`cat "tag_${line}.txt" | grep -E "^module:..*$" | sed -E 's/^module:.(.*)$/\1/'`
-                echo "该课程属于专业限选课程。21级和22级的限选课学分要求不同。" >> "./content/docs/${semester}/${line}.md"
-                echo '<br>' >> "./content/docs/${semester}/${line}.md"
-                echo "如果你是21级学生，请查阅[21级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-21/)。" >> "./content/docs/${semester}/${line}.md"
-                echo '<br>' >> "./content/docs/${semester}/${line}.md"
-                echo "如果你是22级学生，请查阅[22级限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)。" >> "./content/docs/${semester}/${line}.md"
-              fi
               
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
               tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
