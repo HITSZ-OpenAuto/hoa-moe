@@ -5,7 +5,8 @@ toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md"
 math: true
 ---
-{{< update-info update_time="2024.10.10" author="Hye" message="Update tag.txt (#2)" >}}
+
+{{< update-info update_time="2024年10月10日" author="Hye" message="Update tag.txt (#2)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -23,7 +24,6 @@ math: true
 ![学分-因课而异 请见具体课程说明](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82%20%E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E-moccasin)
 
 ![成绩构成-因课而异 请见具体课程说明](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82%20%E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E-moccasin)
-
 
 </div>
 
