@@ -191,6 +191,7 @@ def main():
         with open('content/news/weekly/_index.zh-cn.md', 'w', encoding="utf-8") as file:
             yaml_front_matter = yaml.dump({
                 "title": "AUTO 周报",
+                "date": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d"),
                 "description": f"AUTO 周报是由 ChatGPT 每周五发布的一份简报，最近更新于 {display_start_time.date()}。"
             }, allow_unicode=True)
             file.write(f'---\n{yaml_front_matter}---\n')
