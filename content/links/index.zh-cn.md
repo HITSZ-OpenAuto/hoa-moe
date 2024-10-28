@@ -32,8 +32,9 @@ sidebar:
 ## 个人博客
 
 {{< cards >}}
-  {{< card link="https://www.longlin.tech/" title="longlin的个人小站" >}}
-  {{< card link="https://longbin.tech" title="Longbin's Tech-Blog" >}}  
+  {{< card link="https://www.longlin.tech/" title="longlin 的个人小站" >}}
+  {{< card link="https://longbin.tech" title="Longbin's Tech-Blog" >}}
+  {{< card link="https://oliverwu.top" title="Oliver Wu 的个人主页" >}}
 {{< /cards >}}
 
 {{< callout type="info" >}}
