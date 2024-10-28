@@ -45,9 +45,16 @@
 
     </div>
     {{ if $image }}
-    <div class="hx-py-3 float-right">
+    <!-- <div class="hx-py-3 hx-hidden md:hx-block md:float-right">
         <img src={{ $image }} width="400" alt="Logo"/><br/>
-    </div>
+    </div> -->
+    <a href="/news/1st-anniversary/">
+        <div class="hx-flex hx-justify-center hx-items-center">
+            <div style="border-radius: 5%; overflow: hidden; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);" class="hx-overflow-hidden hx-shadow-2xl hx-rounded-md">
+              <img src="images/anniversary/happy-birthday-skeb.jpg" alt="alt text" width="550"/>
+            </div>
+        </div>
+    </a>
     {{- end -}}
 </div>
 
