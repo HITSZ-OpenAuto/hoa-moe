@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024年6月30日" author="吴俊达" message="更新2023试题考点回忆版" >}}
+{{< update-info update_time="2024年10月30日" author="psp_dada" message="重新上传了 slides/2023课件合订本.pdf" >}}
 
 <div align="left">
 <figure>
