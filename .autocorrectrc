@@ -28,7 +28,7 @@ context:
   # Enable or disable to format codeblock in Markdown or AsciiDoc etc.
   codeblock: 1
 textRules:
-  "知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议": 0
+  "知识共享署名-非商业性使用-相同方式共享": 0
   "ROS2": 0
 spellcheck:
   words:
