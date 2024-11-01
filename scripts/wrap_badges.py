@@ -20,24 +20,13 @@ def wrap_badges_with_div(content, div_classes="img-div hx-mt-4 hx-flex-row hx-ju
     i = 0
     while i < len(lines):
         # 如果当前行已经在div中，直接添加
-        if '<div class="img-div' in lines[i] and '<!-- autocorrect-disable -->' in lines[i-2]:
+        if '<div class="img-div' in lines[i]:
             while i < len(lines) and '</div>' not in lines[i]:
                 processed_lines.append(lines[i])
                 i += 1
             if i < len(lines):
                 processed_lines.append(lines[i])  # 添加结束的</div>
             i += 1
-            continue
-        elif '<div class="img-div' in lines[i]:
-            # add a comment to prevent autocorrection
-            processed_lines.append('<!-- autocorrect-disable -->\n')
-            while i < len(lines) and '</div>' not in lines[i]:
-                processed_lines.append(lines[i])
-                i += 1
-            if i < len(lines):
-                processed_lines.append(lines[i])  # 添加结束的</div>
-            i += 1
-            processed_lines.append('\n<!-- autocorrect-enable -->\n')
             continue
             
         # 检查是否是badge行
