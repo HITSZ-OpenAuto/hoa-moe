@@ -299,6 +299,10 @@ jobs:
         run: |
           sh wrap.sh
 
+      - name: Show changes
+        run: |
+          cat content/docs/fresh-autumn/COMP2021.md
+
       - name: AutoCorrect
         uses: huacnlee/autocorrect-action@v2
         with:

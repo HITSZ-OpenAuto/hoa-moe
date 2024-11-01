@@ -8,6 +8,8 @@ math: true
 
 {{< update-info update_time="2024 年 9 月 23 日" author="oldkingOK" message="添加《劳动教育概论》MOOC 章节测试的答案" >}}
 
+<!-- autocorrect-disable -->
+
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-red)
@@ -17,6 +19,9 @@ math: true
 ![因课而异 请见具体课程说明](https://img.shields.io/badge/%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82%20%E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E-wheat)
 
 </div>
+
+<!-- autocorrect-enable -->
+
 
 本文件夹下目录采用 答案 + README.md 的形式，README.md 则是描述该门课程的相关说明
 
