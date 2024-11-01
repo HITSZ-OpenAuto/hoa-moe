@@ -16,8 +16,6 @@ math: true
 5. 可以在 GitHub 页面的 About/Topics 中为课程添加话题名称。
 -->
 
-<!-- autocorrect-disable -->
-
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
 ![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
@@ -27,9 +25,6 @@ math: true
 ![大作业 100%](https://img.shields.io/badge/大作业 -100%25-wheat)
 
 </div>
-
-<!-- autocorrect-enable -->
-
 
 ## 课程介绍（摘自教学大纲）
 本课程设计是在学生完成[高级语言程序设计](https://hoa.moe/docs/fresh-autumn/comp2021/)课程学习后进行的。

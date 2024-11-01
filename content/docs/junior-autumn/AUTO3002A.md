@@ -8,8 +8,6 @@ math: true
 
 {{< update-info update_time="2024 年 10 月 17 日" author="吴俊达" message="fix typos in README.md (#15)" >}}
 
-<!-- autocorrect-disable -->
-
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
@@ -23,9 +21,6 @@ math: true
 ![Static Badge](https://img.shields.io/badge/总学时 48-wheat) ![Static Badge](https://img.shields.io/badge/讲课 -40-wheat) ![Static Badge](https://img.shields.io/badge/实验 -2 学时*4-wheat)
 
 </div>
-
-<!-- autocorrect-enable -->
-
 
 该课程有配套的课程设计（2024 年秋季学期起，改名为“实验”）：[自动控制实践 A 实验](https://hoa.moe/docs/junior-autumn/auto3016/)，独立设课，1.5 学分，40 学时。
 

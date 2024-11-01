@@ -8,8 +8,6 @@ math: true
 
 {{< update-info update_time="2024 年 7 月 21 日" author="吴俊达" message="更新 README，更新实验报告版本，更新 2024 考试题 (#4)" >}}
 
-<!-- autocorrect-disable -->
-
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（19~21 级）-6-moccasin)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（22 级）-4-moccasin)
@@ -25,9 +23,6 @@ math: true
 ![Static Badge](https://img.shields.io/badge/实验 -16-wheat)
 
 </div>
-
-<!-- autocorrect-enable -->
-
 
 自 22 级开始，本课程原有的 STM32 理论部分和基础实验、调速实验部分均被纳入大三上的拓展选修课[《嵌入式系统》](https://hoa.moe/docs/junior-spring/auto3024/)中。有关资料也已经转移，请移步查看。综合实验报告仍予保留。
 

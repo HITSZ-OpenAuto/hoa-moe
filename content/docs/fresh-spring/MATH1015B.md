@@ -16,8 +16,6 @@ math: true
 5. 可以在 GitHub 页面的 About/Topics 中为课程添加话题名称。
 -->
 
-<!-- autocorrect-disable -->
-
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
 ![考试课](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
@@ -29,9 +27,6 @@ math: true
 ![期末考试 50%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
 
 </div>
-
-<!-- autocorrect-enable -->
-
 
 ## 授课教师
 - 包革军

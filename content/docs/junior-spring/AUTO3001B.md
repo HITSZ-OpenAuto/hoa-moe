@@ -8,16 +8,11 @@ math: true
 
 {{< update-info update_time="2024 年 10 月 11 日" author="abigzhe" message="增加了一份模拟试题和一个新版本笔记 (#5)" >}}
 
-<!-- autocorrect-disable -->
-
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)
 
 </div>
-
-<!-- autocorrect-enable -->
-
 
 <div align="left">
 <figure>
