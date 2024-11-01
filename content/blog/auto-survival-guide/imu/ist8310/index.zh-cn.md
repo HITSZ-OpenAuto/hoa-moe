@@ -1,28 +1,28 @@
 ---
-title: 磁力计数据读取--以IST8310为例
+title: 磁力计数据读取--以 IST8310 为例
 date: 2022-12-03
 authors:
   - name: Minghang Li
     link: https://github.com/lmh12138
     image: https://github.com/lmh12138.png
-description: 这里以博世传感器公司产出的BMI088型号的IMU为例
+description: 这里以博世传感器公司产出的 BMI088 型号的 IMU 为例
 excludeSearch: false
 math: true
 ---
 
-> 这里以iSentek公司产出的IST8310型号的磁力计为例，尺寸为 3.0 *3.0* 1.0mm，支持快速 I2C 通信，可达 400kHz，14 位磁场数据，测量范围可达1600uT(x,y-axis)和 2500uT(z-axis)， 最高 200Hz 输出频率
+> 这里以 iSentek 公司产出的 IST8310 型号的磁力计为例，尺寸为 3.0 *3.0* 1.0mm，支持快速 I2C 通信，可达 400kHz，14 位磁场数据，测量范围可达 1600uT(x,y-axis) 和 2500uT(z-axis)，最高 200Hz 输出频率
 >
-> IST8310的数据手册附在文件夹里面，可以自行阅读
+> IST8310 的数据手册附在文件夹里面，可以自行阅读
 >
-> 同时这里的磁力计是安装在大疆公司出产的RoboMaster开发板C型，单片机芯片是STM32F407IGH6，其外围电路已经设计好，只需要读取磁力计数据即可。
+> 同时这里的磁力计是安装在大疆公司出产的 RoboMaster 开发板 C 型，单片机芯片是 STM32F407IGH6，其外围电路已经设计好，只需要读取磁力计数据即可。
 >
-> 本篇不会介绍SPI、I2C等嵌入式通信协议，需要有一定嵌入式开发基础的同学来看（可以去看底层中介绍的STM32开发视频）
+> 本篇不会介绍 SPI、I2C 等嵌入式通信协议，需要有一定嵌入式开发基础的同学来看（可以去看底层中介绍的 STM32 开发视频）
 >
 > 文末附代码
 
 ## 零、数据手册分析
 
-第一章讲了IST8310的特性，I2C通信，最高支持400kHz通信速率，14位或者16位自适应数据输出等特性
+第一章讲了 IST8310 的特性，I2C 通信，最高支持 400kHz 通信速率，14 位或者 16 位自适应数据输出等特性
 
 ![image-20221203143646334](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_45_56_7b57dc46de2c0df92e3c6e2834090e6b.png)
 
@@ -52,21 +52,21 @@ math: true
 
 ![image-20221203165849045](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_47_36_a512864f9a89d5c414c277a5fb3f4361.png)
 
-## 一、CubeMX配置
+## 一、CubeMX 配置
 
-点开I2C配置选项， 下图是配好的：
+点开 I2C 配置选项，下图是配好的：
 
 ![image-20221203165955297](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_47_43_7f875afb73fef98a090324fdff56d29f.png)
 
-观察IST8310的数据手册，发现其支持最大400kHz的I2C通信速率，也就是快速I2C模式，所以第一行I2C Speed Mode我们选Fast Mode
+观察 IST8310 的数据手册，发现其支持最大 400kHz 的 I2C 通信速率，也就是快速 I2C 模式，所以第一行 I2C Speed Mode 我们选 Fast Mode
 
 ![image-20221203170120553](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_47_51_6f5500cbb2b3d40ab923e41aa41cc77d.png)
 
-同时不要忘记了在C板中I2C3的两个IO口分别是PA8和PC9（一般来说都是这两个）
+同时不要忘记了在 C 板中 I2C3 的两个 IO 口分别是 PA8 和 PC9（一般来说都是这两个）
 
 ![image-20221203170657996](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_47_58_419c6a92d707ad6d6520b67d0a9058b5.png)
 
-之后观察大疆和IST8310的数据手册，发现控制IST8310重启的是PG6的GPIO口，低电平为重启，所以我们将其设置为高电平上拉输出模式
+之后观察大疆和 IST8310 的数据手册，发现控制 IST8310 重启的是 PG6 的 GPIO 口，低电平为重启，所以我们将其设置为高电平上拉输出模式
 
 ![image-20221203170402663](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_48_4_0ab146aa0575b26ce86a33907e7e10ab.png)
 
@@ -76,13 +76,13 @@ math: true
 
 ![image-20221203170602068](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_48_19_4617ef0cf0b026a785287c1d8f916dd7.png)
 
-因为我们读取IST8310的程序运行在1kHz的freertos线程中，无需使用中断方式，所以我们不配置中断口
+因为我们读取 IST8310 的程序运行在 1kHz 的 freertos 线程中，无需使用中断方式，所以我们不配置中断口
 
 ## 二、数据读取
 
 总代码附在文末，这里放一些核心函数
 
-IST8310初始化：
+IST8310 初始化：
 
 ```C
 void IST8310_INIT(ist8310_data_t* ist8310_data) {
@@ -142,7 +142,7 @@ void WriteMultiDataFromIST8310(uint8_t addr, uint8_t* data, uint8_t len) {
 }
 ```
 
-这里会发现一个比较有意思的事情，就是这里的地址都左移了一位，是因为根据I2C协议，[7:0]的一个字节的数据，前七位是地址，后一位是代表读或者写的位，这样子就需要把地址左移
+这里会发现一个比较有意思的事情，就是这里的地址都左移了一位，是因为根据 I2C 协议，[7:0]的一个字节的数据，前七位是地址，后一位是代表读或者写的位，这样子就需要把地址左移
 
 读取磁力计数据：
 
@@ -160,7 +160,7 @@ void ReadIST8310Data(ist8310_raw_data_t* meg_data) {
 }
 ```
 
-这里乘了一个系数MAG_SEN，它的值是0.3，是将读取到的数据转化为单位为uT的磁场值
+这里乘了一个系数 MAG_SEN，它的值是 0.3，是将读取到的数据转化为单位为 uT 的磁场值
 
 下面就是源码，把`IST8310_INIT()`函数放在程序开始的地方，然后剩下的读取函数放在不断执行的线程里，就可以得到磁力计数据了
 
