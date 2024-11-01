@@ -76,7 +76,7 @@ tags:
 
 按下 <font face='黑体' color=#DEB887 size=4>SHIFT+STO</font>，则会显示所有变量的赋值，此时再按任意有变量标记（<font face='黑体' color=#DC143C size=4>ABCDEFMxy</font>）的按键，则会在表达式中输入该字母；
 
-也可通过 <font face='黑体' color=#DC143C size=4>ALPHA+ 任意有变量标记（ABCDEFMxy）的按键</font> 输入该字母。
+也可通过 <font face='黑体' color=#DC143C size=4>ALPHA+任意有变量标记（ABCDEFMxy）的按键</font> 输入该字母。
 
 **e.g.**
 
@@ -233,11 +233,11 @@ x<sup>2</sup> 或者 <font face='黑体' color=#DEB887 size=4>SHIFT+x<sup>2</sup
 
 DEC 表示十进制，HEX 表示十六进制，BIN 表示二进制，OCT 表示八进制。
 
-​在十六进制（HEX）模式下，按下 (-)、°'"、x<sup>-1</sup>、sin、cos、tan 会分别输入 A、B、C、D、E、F。
+​在十六进制（HEX）模式下，按下(-)、°'"、x<sup>-1</sup>、sin、cos、tan 会分别输入 A、B、C、D、E、F。
 
 ## 4. 设置简介
 
-​<font face='黑体' color=#DEB887 size=4>SHIFT+ 菜单 (设置)</font>
+​<font face='黑体' color=#DEB887 size=4>SHIFT+菜单(设置)</font>
 即可进入设置，设置一般默认即可，也可以按需调整。
 <font face='黑体' color=#DEB887 size=4>SHIFT+9(复位)</font>
 可将所有设置数据重置为默认值。
@@ -303,7 +303,7 @@ DEC 表示十进制，HEX 表示十六进制，BIN 表示二进制，OCT 表示�
 2. 输入含参表达式，通过前述 CALC 功能求出参量取不同值时的结果；
 3. 结果与常量足够接近时，参量的值即可视为近似解。
 
-该技巧相当于手动迭代求解代数方程的数值解，每次迭代只需 3 次按键操作（CALC, 数值，=），若能熟练掌握，求近似数值解的速度可以比前述 solve 功能快。
+该技巧相当于手动迭代求解代数方程的数值解，每次迭代只需 3 次按键操作（CALC, 数值, =），若能熟练掌握，求近似数值解的速度可以比前述 solve 功能快。
 
 ​**e.g.**
 
@@ -320,4 +320,4 @@ DEC 表示十进制，HEX 表示十六进制，BIN 表示二进制，OCT 表示�
 - [CASIO fx-991CN X 说明书 - CASIO](https://support.casio.com/cn/manual/manualresult.php?cid=004009101&keyword=)
 - [师生资料下载 - CASIO](https://www.casio.com.cn/support/calculators/content/download/shishengziliao/)
 
-如果想了解各路大神在 991 上整出来的花活，可以参考 [fx-991cnx 计算器：利用 ROP 漏洞执行任意代码 - 知乎](https://zhuanlan.zhihu.com/p/618704031)。
+如果想了解各路大神在 991 上整出来的花活，可以参考 [fx-991cnx计算器:利用ROP漏洞执行任意代码 - 知乎](https://zhuanlan.zhihu.com/p/618704031)。
