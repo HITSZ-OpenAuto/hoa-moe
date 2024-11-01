@@ -1,12 +1,12 @@
 ---
-title: （必修）创新训练课A
+title: （必修）创新训练课 A
 weight: 37
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024年7月16日" author="Kowyo" message="更改文字描述" >}}
+{{< update-info update_time="2024 年 7 月 16 日" author="Kowyo" message="更改文字描述" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -35,5 +35,5 @@ math: true
 《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
 
 {{< callout type="" >}}
-  © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  © 版权声明：[知识共享署名 - 非商业性使用 - 相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}

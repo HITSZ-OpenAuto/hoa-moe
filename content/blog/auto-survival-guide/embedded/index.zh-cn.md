@@ -10,7 +10,7 @@ excludeSearch: false
 math: true
 ---
 
-## 负一、Windows下环境配置
+## 负一、Windows 下环境配置
 
 https://www.bilibili.com/video/BV1214y1j7Vw  
 
@@ -24,11 +24,11 @@ https://www.bilibili.com/video/BV1VT411N7dK
 
 https://www.bilibili.com/video/BV1814y177UB  
 
-### 1.2 GPIO的基本功能
+### 1.2 GPIO 的基本功能
 
 https://www.bilibili.com/video/BV1rd4y1172K  
 
-### 1.3 中断与EXTI
+### 1.3 中断与 EXTI
 
 https://www.bilibili.com/video/BV1t84y1z7QU  
 
@@ -38,7 +38,7 @@ https://www.bilibili.com/video/BV1t84y1z7QU
 
 https://www.bilibili.com/video/BV1Ee4y1e7tn  
 
-### 2.2 通用定时器与PWM
+### 2.2 通用定时器与 PWM
 
 https://www.bilibili.com/video/BV1fG411L7XH  
 
@@ -48,13 +48,13 @@ https://www.bilibili.com/video/BV1fG411L7XH
 
 https://www.bilibili.com/video/BV1JW4y1E7Ep  
 
-### 3.2 DMA与空闲中断
+### 3.2 DMA 与空闲中断
 
 https://www.bilibili.com/video/BV198411e7F8  
 
 ## 四、CAN（一种总线）
 
-### 4.1 CAN总线基础
+### 4.1 CAN 总线基础
 
 https://www.bilibili.com/video/BV1GP411A78u  
 

@@ -12,7 +12,7 @@ toc: false
 {{< card link="geip1016"title="中国近现代史纲要">}}
 {{< card link="phys1001a"title="大学物理">}}
 {{< card link="lang1006"title="大学英语">}}
-{{< card link="math1015b"title="微积分B">}}
+{{< card link="math1015b"title="微积分 B">}}
 {{< card link="ee1013"title="电路与电子学">}}
 {{< card link="pe100x"title="体育">}}
 {{< /cards >}}
@@ -20,6 +20,6 @@ toc: false
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了，但原课程资料仍保留，感兴趣的同学可以自行查阅。
 <!--more-->
 {{< cards >}}
-{{< card link="ee1012a"title="电路实验IA">}}
-{{< card link="ee1011a"title="电路IA">}}
+{{< card link="ee1012a"title="电路实验 IA">}}
+{{< card link="ee1011a"title="电路 IA">}}
 {{< /cards >}}
