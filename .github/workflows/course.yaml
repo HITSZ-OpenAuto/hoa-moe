@@ -257,6 +257,10 @@ jobs:
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
               tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
 
+              echo '--------wrap badges---------'
+              python scripts/wrap_badges.py "./content/docs/${semester}/${line}.md"
+              echo '--------wrap finished---------'
+
               echo >> "./content/docs/${semester}/${line}.md"
               echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
@@ -294,15 +298,6 @@ jobs:
           NEWS_TYPE: daily
         run: |
           python scripts/gen_news.py
-
-      - name: Wrap badges
-        run: |
-          sh wrap.sh
-
-      - name: AutoCorrect
-        uses: huacnlee/autocorrect-action@v2
-        with:
-          args: --fix
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
