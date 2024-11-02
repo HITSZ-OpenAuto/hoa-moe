@@ -6,21 +6,21 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024年9月23日" author="oldkingOK" message="添加《劳动教育概论》MOOC 章节测试的答案" >}}
+{{< update-info update_time="2024 年 9 月 23 日" author="oldkingOK" message="添加《劳动教育概论》MOOC 章节测试的答案" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
-![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-red)
-![学分](https://img.shields.io/badge/MOOC%E9%9A%B6%E5%B1%9E%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86%20%E6%97%A0%E7%89%B9%E6%AE%8A%E5%AD%A6%E5%88%86%E8%A6%81%E6%B1%82-moccasin)
+![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-red)
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/MOOC%E9%9A%B6%E5%B1%9E%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86%20%E6%97%A0%E7%89%B9%E6%AE%8A%E5%AD%A6%E5%88%86%E8%A6%81%E6%B1%82-moccasin)
 
-![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![因课而异 请见具体课程说明](https://img.shields.io/badge/%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82%20%E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E-wheat)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82 %E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E](https://img.shields.io/badge/%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82%20%E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E-wheat)
 
 </div>
 
-本文件夹下目录采用 答案 + README.md 的形式, README.md 则是描述该门课程的相关说明
+本文件夹下目录采用 答案 + README.md 的形式，README.md 则是描述该门课程的相关说明
 
-**注：资料均来自前人收集整理，不能保证答案100%正确**
+**注：资料均来自前人收集整理，不能保证答案 100% 正确**
 
 MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其他考查课地位相同* ，算入总 GPA 中；只不过因为其不仅不用线下上课，还容易刷高分，因此时常被单拎出来谈论。
 
@@ -61,7 +61,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 > 
 > 反例是，22 级有一位同学，因为忘记刷视频导致 MOOC 挂科，因此不能转专业；此外，忘记参加期末考试也是常见的 MOOC 挂科原因。~~当然不是人人都有转专业资格，但是至少能告诉我们~~ 能做到的还是尽量做到，否则指不定就被学校政策卡了脖子。
 > 
-> 不过，根据 [lmh学长](https://github.com/lmh12138)的描述，挂 MOOC 目前暂不会影响**保研资格**。
+> 不过，根据 [lmh 学长](https://github.com/lmh12138)的描述，挂 MOOC 目前暂不会影响**保研资格**。
 
 > 文 / [IcyDesert](https://github.com/IcyDesert) 2024.5
 
@@ -107,7 +107,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
     {{< filetree/file name="知识产权法律及实务.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="职业发展英语" state="closed" >}}
-    {{< filetree/file name="职English.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E8%8B%B1%E8%AF%AD/%E8%81%8CEnglish.docx" >}}
+    {{< filetree/file name="职 English.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E8%8B%B1%E8%AF%AD/%E8%81%8CEnglish.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="英美音乐与文化" state="closed" >}}
     {{< filetree/file name="英美音乐与文化期末答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.docx" >}}
@@ -122,6 +122,12 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 ## 参与
 
 《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
+
+此外，如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名的费用负担，同时也是对维护者最大的鼓励。你的 ID 和留言将会显示在我们的 [Sponsor](https://hoa.moe/sponsor/) 页面中。
+
+<br>
+<img src="/images/sponsor.webp" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
+<br>
 
 {{< callout type="" >}}
   © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
