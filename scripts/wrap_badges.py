@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
 import re
 import argparse
 from pathlib import Path
+import urllib.parse
 
 def wrap_badges_with_div(content, div_classes="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center"):
     """
@@ -15,29 +15,25 @@ def wrap_badges_with_div(content, div_classes="img-div hx-mt-4 hx-flex-row hx-ju
     processed_lines = []
     
     # badge行的正则表达式
-    badge_pattern = r'\(https://img\.shields\.io/badge/.*?\)'
-    
+    badge_pattern = r'!\[.*?\]\(https://img\.shields\.io/badge/.*?\)'
+
     i = 0
     while i < len(lines):
         # 如果当前行已经在div中，直接添加
-        if '<div class="img-div' in lines[i] and '<!-- autocorrect-disable -->' in lines[i-2]:
+        if '<div class="img-div' in lines[i]:
             while i < len(lines) and '</div>' not in lines[i]:
-                processed_lines.append(lines[i])
+                line = lines[i]
+                # Encode only the Chinese characters in the entire line
+                line = re.sub(
+                    badge_pattern,
+                    lambda m: m.group(0).replace(m.group(0), re.sub(r'([\u4e00-\u9fff]+)', lambda c: urllib.parse.quote(c.group()), m.group(0))),
+                    line
+                )
+                processed_lines.append(line)
                 i += 1
             if i < len(lines):
                 processed_lines.append(lines[i])  # 添加结束的</div>
             i += 1
-            continue
-        elif '<div class="img-div' in lines[i]:
-            # add a comment to prevent autocorrection
-            processed_lines.append('<!-- autocorrect-disable -->\n')
-            while i < len(lines) and '</div>' not in lines[i]:
-                processed_lines.append(lines[i])
-                i += 1
-            if i < len(lines):
-                processed_lines.append(lines[i])  # 添加结束的</div>
-            i += 1
-            processed_lines.append('\n<!-- autocorrect-enable -->\n')
             continue
             
         # 检查是否是badge行
@@ -45,7 +41,14 @@ def wrap_badges_with_div(content, div_classes="img-div hx-mt-4 hx-flex-row hx-ju
             # 寻找连续的badge行
             badge_block = []
             while i < len(lines) and (re.search(badge_pattern, lines[i]) or lines[i].strip() == ''):
-                badge_block.append(lines[i])
+                line = lines[i]
+                # Encode only the Chinese characters in the entire line
+                line = re.sub(
+                    badge_pattern,
+                    lambda m: m.group(0).replace(m.group(0), re.sub(r'([\u4e00-\u9fff]+)', lambda c: urllib.parse.quote(c.group()), m.group(0))),
+                    line
+                )
+                badge_block.append(line)
                 i += 1
                 
             if badge_block:

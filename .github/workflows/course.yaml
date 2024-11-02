@@ -297,16 +297,15 @@ jobs:
 
       - name: Wrap badges
         run: |
-          sh wrap.sh
-
-      - name: Show changes
-        run: |
-          cat content/docs/fresh-autumn/COMP2021.md
+          for file in $(find content/docs -name "*.md")
+          do
+              python scripts/wrap_badges.py $file
+          done
 
       - name: AutoCorrect
         uses: huacnlee/autocorrect-action@v2
         with:
-          args: --fix
+          args: --fix content/
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
