@@ -8,6 +8,6 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="auto2003b"title="创新训练课B">}}
-{{< card link="auto2003a"title="创新训练课A">}}
+{{< card link="auto2003b"title="创新训练课 B">}}
+{{< card link="auto2003a"title="创新训练课 A">}}
 {{< /cards >}}

@@ -1,17 +1,17 @@
 ---
-title: （必修）创新训练课A
+title: （必修）创新训练课 A
 weight: 37
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024年7月16日" author="Kowyo" message="更改文字描述" >}}
+{{< update-info update_time="2024 年 7 月 16 日" author="Kowyo" message="更改文字描述" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
-![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
-![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
+![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
 
 </div>
 
