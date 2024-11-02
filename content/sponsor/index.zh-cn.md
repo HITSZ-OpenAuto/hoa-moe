@@ -10,16 +10,45 @@ sidebar:
 
 以下是我们目前的支出：
 
-{{% details title="域名: $ 13.99 / 年" closed="true" %}}
+{{% details title="域名：128 元/年" closed="true" %}}
 
-用于将域名解析到国内DNS，并且这个短小可爱的域名可以为你输入网址/跟朋友推荐时节省不少时间
+用于将域名解析到国内 DNS，并且这个短小可爱的域名可以为你输入网址/跟朋友推荐时节省不少时间
 
 {{% /details %}}
 
-如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名的费用负担，同时也是对维护者最大的鼓励。我们鼓励选择“向对方展示我的名字”，你的ID和留言将会显示在我们的 [Sponsor](https://hoa.moe/sponsor/) 页面中。受限于赞赏的留言字数限制，如果你有更多想说的，欢迎致信我们的 [📮邮箱](mailto:hi@hoa.moe)。
+如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名的费用负担，同时也是对维护者最大的鼓励。我们鼓励选择“向对方展示我的名字”，你的 ID 和留言将会显示在我们的 [Sponsor](https://hoa.moe/sponsor/) 页面中。受限于赞赏的留言字数限制，如果你有更多想说的，欢迎致信我们的 [📮邮箱](mailto:hi@hoa.moe)。
 
 <br>
 <img src="/images/sponsor.webp" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
+<br>
+
+## 捐助进度
+
+`HITSZ 自动化课程攻略共享计划` 希望达成的生命周期是 10 年（2033 年 11 月），目前收到的捐助可以让本项目的生命延续到 2026 年 7 月：
+
+<br>
+<div style="display: flex; align-items: center; width: 100%;">
+    <div style="flex: 1; background-color: #e5e7eb; border-radius: 9999px; height: 10px; margin-right: 10px;">
+        <div class="progress-bar" style="background-color: #3b82f6; height: 100%; border-radius: 9999px; width: 45%;"></div>
+    </div>
+    <span>2033 年 11 月</span>
+</div>
+
+<style>
+.progress-bar {
+    background-color: #3b82f6;
+    animation: fill 2s forwards;
+}
+
+@keyframes fill {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 27.3%; /* Set to your desired width */
+    }
+}
+</style>
 
 ## 感谢名单
 
@@ -47,7 +76,7 @@ sidebar:
 | 双手插口袋          | 2023.12.30 |                                  |
 | Flying Pig        | 2024.1.1   |                                  |
 | 匿名用户            | 2024.1.2   |                                  |
-| 老年人、咖喱        | 2024.1.3   | 好好好tql                        |
+| 老年人、咖喱        | 2024.1.3   | 好好好 tql                        |
 | 南飞的楸叶          | 2024.2.22  |                                  |
 | Mw_w              | 2024.2.21  |                                  |
 | 陈通                | 2024.2.25  |                                  |
@@ -75,4 +104,5 @@ sidebar:
 | @            | 2024.8.30  | 伟大无需多言                                 |
 | 缘安            | 2024.9.13  | 谢谢！！！！                                |
 | Leo            | 2024.10.9  | 我愿称其为，泥深最优秀的定西                                |
-| 随心            | 2024.10.11  | 大一新生（混子）想搞个openhitsz                                |
+| 随心            | 2024.10.11  | 大一新生（混子）想搞个 openhitsz                                |
+| empty            | 2024.10.31  | 受益匪浅                                |

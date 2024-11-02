@@ -40,15 +40,15 @@ description: OpenAuto，生日快乐！
 
 ### `2023年6月 - 2023年9月`
 
-这段时间的 PR 主要是针对刚刚结课的大一课程补充资料与说明，完善改进了下目录结构。这期间我提了我的[第一个issue](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/issues/40)，促成了 OpenAuto 仓库由个人维护转为组织维护。
+这段时间的 PR 主要是针对刚刚结课的大一课程补充资料与说明，完善改进了下目录结构。这期间我提了我的[第一个 issue](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/issues/40)，促成了 OpenAuto 仓库由个人维护转为组织维护。
 
 ![to-org](to-org.png)
 
 ### `2023年10月`
 
-10月12日，[Maxwell Jay](https://github.com/MaxwellJay256) 发布了 [issue#49](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/issues/49)，面对仓库日益增大的问题，我们开始商讨如何对仓库进行拆分，[大物实验IA](https://github.com/HITSZ-OpenAuto/PHYS1002) 作为第一个被分离出来的仓库，如今已经获得了**57个star**。
+10 月 12 日，[Maxwell Jay](https://github.com/MaxwellJay256) 发布了 [issue#49](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/issues/49)，面对仓库日益增大的问题，我们开始商讨如何对仓库进行拆分，[大物实验 IA](https://github.com/HITSZ-OpenAuto/PHYS1002) 作为第一个被分离出来的仓库，如今已经获得了**57 个 star**。
 
-10月28日，[Longbin](https://github.com/TangLongbin) 学长给所有 OpenAuto 项目的活跃开发者抄送了一封邮件：
+10 月 28 日，[Longbin](https://github.com/TangLongbin) 学长给所有 OpenAuto 项目的活跃开发者抄送了一封邮件：
 
 ![mail](mail.png)
 
@@ -58,35 +58,35 @@ description: OpenAuto，生日快乐！
 
 计划已经启动，接下来便是技术选型和开发了。
 
-11月6日，在 [Longbin](https://github.com/TangLongbin) 学长搭建的 Jekyll 网站基础上，[Mither](https://github.com/kowyo) 用更现代的 Hugo 框架重新构建了一版前端，同时采用了一直用到现在的 [Hextra](https://imfing.github.io/hextra/) 主题。我在当天贡献了新项目的第一个 commit：
+11 月 6 日，在 [Longbin](https://github.com/TangLongbin) 学长搭建的 Jekyll 网站基础上，[Mither](https://github.com/kowyo) 用更现代的 Hugo 框架重新构建了一版前端，同时采用了一直用到现在的 [Hextra](https://imfing.github.io/hextra/) 主题。我在当天贡献了新项目的第一个 commit：
 
 ![first-commit](first-commit.png)
 
 至此，我们项目的整体流程已经明晰————抓取各仓库的 markdown 文档后再使用 Hugo 在前端进行页面渲染。
 
-11月7日-9日，我在原 action 基础上进行了修改，实现了自动抓取组织下所有匹配的课程仓库的脚本，同时借助 tag.txt 对课程文档进行分类。（[PR](https://github.com/HITSZ-OpenAuto/hoa-moe/pull/3)）
+11 月 7 日 -9 日，我在原 action 基础上进行了修改，实现了自动抓取组织下所有匹配的课程仓库的脚本，同时借助 tag.txt 对课程文档进行分类。（[PR](https://github.com/HITSZ-OpenAuto/hoa-moe/pull/3)）
 
-主要功能实现后，剩下的便是搬运仓库和一些CSS上修修补补的工作了。当时还尝试了一些有意思的动画，不过由于不太合适所以最终还是被 discard 。
+主要功能实现后，剩下的便是搬运仓库和一些 CSS 上修修补补的工作了。当时还尝试了一些有意思的动画，不过由于不太合适所以最终还是被 discard。
 
 ![prs-in-nov](prs-in-nov.png)
 
-整个11月我们的 QQ WorkGroup 可谓热火朝天，几乎每天都有人贡献新 feature，网站的迭代速度非常快。
+整个 11 月我们的 QQ WorkGroup 可谓热火朝天，几乎每天都有人贡献新 feature，网站的迭代速度非常快。
 
 ### `2023年12月`
 
-12月1日，整个新项目基本成型。同天，正式告别老仓库（[PR#54](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/pull/54)）
+12 月 1 日，整个新项目基本成型。同天，正式告别老仓库（[PR#54](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/pull/54)）
 
-12月2日，OpenAuto 2.0 正式官宣🎉
+12 月 2 日，OpenAuto 2.0 正式官宣🎉
 
 ![openauto2](openauto2.png)
 
-发布当天，我们的fo数就涨到了 50 人，也有热心同学对我们进行了打赏赞助。
+发布当天，我们的 fo 数就涨到了 50 人，也有热心同学对我们进行了打赏赞助。
 
-2023年剩下的时间，我们主要为网站新增了 博客 与 友链 界面，自此，OpenAuto 的功能在资料下载基础上又向外拓展了不少。我也在此时写了一篇[贡献帮助文档](https://hoa.moe/blog/writing-rules/)（[PR](https://hoa.moe/blog/writing-rules/)），这份贡献指南后面还经过了几次改版，不过都是后话了。
+2023 年剩下的时间，我们主要为网站新增了 博客 与 友链 界面，自此，OpenAuto 的功能在资料下载基础上又向外拓展了不少。我也在此时写了一篇[贡献帮助文档](https://hoa.moe/blog/writing-rules/)（[PR](https://hoa.moe/blog/writing-rules/)），这份贡献指南后面还经过了几次改版，不过都是后话了。
 
 ### `2024年`
 
-除了一些日常维护工作，我们也在思考如何改进我们的网站————新文档、新博客、VTuber logo、License展示、AI新闻周报、RSS订阅……
+除了一些日常维护工作，我们也在思考如何改进我们的网站————新文档、新博客、VTuber logo、License 展示、AI 新闻周报、RSS 订阅……
 
 相信 HOA 会越做越好！（我们可能会倒闭，但绝不会变质
 

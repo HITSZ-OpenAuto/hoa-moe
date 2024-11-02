@@ -39,10 +39,10 @@ excludeSearch: false
 
    > 文 / [IcyDesert](https://github.com/IcyDesert), 2024.5
 
-3. 记得写清楚 commit 信息和 PR 的标题 。例如，不要只写「增加/修改/删除一些内容」，而要明确写清：「增加**xx教师的信息及评价**」、「更新**课程大纲**」、「增加**课程建议**」、「修改**学分学时安排**」等。
+3. 记得写清楚 commit 信息和 PR 的标题。例如，不要只写「增加/修改/删除一些内容」，而要明确写清：「增加**xx 教师的信息及评价**」、「更新**课程大纲**」、「增加**课程建议**」、「修改**学分学时安排**」等。
    （可参考： 「[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)」和「[向一个项目贡献](https://git-scm.com/book/zh/v2/%E5%88%86%E5%B8%83%E5%BC%8F-Git-%E5%90%91%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%B4%A1%E7%8C%AE)」）
 
-4. 中文排版应按照 「 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 」的规范进行
+4. 中文排版应按照「 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 」的规范进行
 
 ### 上传文件时
 
@@ -66,7 +66,7 @@ tag.txt 记录的是课程类别（category）、课程名称（name）、开课
 - tag.txt 变量说明：
   - category: 必修；限选；跨专业选修；研究生阶段课程；文理通识；归档
   - module: 实践课程体系；控制理论与控制工程；机器人与智能系统；智能检测（注意：仅有限选课有此字段）
-  - semester: 第x学年x季（示例：第一学年秋季 / 第一学年春季）【不同学期用斜杠分开，需保留斜杠前后的空格】
+  - semester: 第 x 学年 x 季（示例：第一学年秋季 / 第一学年春季）【不同学期用斜杠分开，需保留斜杠前后的空格】
 - name: （示例）大学物理实验
 - 提交信息示例：更改课程类别为「归档」，更改课程开课学期为「大三·秋」
 

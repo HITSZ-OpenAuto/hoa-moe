@@ -1,36 +1,36 @@
 ---
-title: IMU数据读取--以BMI088为例
+title: IMU 数据读取--以 BMI088 为例
 date: 2022-11-29
 authors:
   - name: Minghang Li
     link: https://github.com/lmh12138
     image: https://github.com/lmh12138.png
-description: 这里以博世传感器公司产出的BMI088型号的IMU为例
+description: 这里以博世传感器公司产出的 BMI088 型号的 IMU 为例
 excludeSearch: false
 math: true
 ---
 
-> 这里以博世传感器公司产出的BMI088型号的IMU为例，其里面有3轴高精度加速度计和3轴高精度陀螺仪，其他的特性不再介绍
+> 这里以博世传感器公司产出的 BMI088 型号的 IMU 为例，其里面有 3 轴高精度加速度计和 3 轴高精度陀螺仪，其他的特性不再介绍
 >
-> BMI088的数据手册附在文件夹里面，可以自行阅读
+> BMI088 的数据手册附在文件夹里面，可以自行阅读
 >
-> 同时这里的IMU是安装在大疆公司出产的RoboMaster开发板C型，单片机芯片是STM32F407IGH6，其外围电路已经设计好，只需要读取IMU数据即可。
+> 同时这里的 IMU 是安装在大疆公司出产的 RoboMaster 开发板 C 型，单片机芯片是 STM32F407IGH6，其外围电路已经设计好，只需要读取 IMU 数据即可。
 >
-> 本篇不会介绍SPI、I2C等嵌入式通信协议，需要有一定嵌入式开发基础的同学来看（可以去看底层中介绍的STM32开发视频）
+> 本篇不会介绍 SPI、I2C 等嵌入式通信协议，需要有一定嵌入式开发基础的同学来看（可以去看底层中介绍的 STM32 开发视频）
 >
 > 文末附代码
 
 ## 零、数据手册分析
 
-我们打开这款陀螺仪的手册，可以看到，手册的第一章讲述了BMI088的硬件特性，需要多少伏的电压、电流之类的，这一章只有在我们拿到IMU芯片，想把它设计装在自己的电路板上面的时候才会考虑到，其他时候这些硬件特性不是我们需要考虑的范围，也不是本篇要介绍的内容。
+我们打开这款陀螺仪的手册，可以看到，手册的第一章讲述了 BMI088 的硬件特性，需要多少伏的电压、电流之类的，这一章只有在我们拿到 IMU 芯片，想把它设计装在自己的电路板上面的时候才会考虑到，其他时候这些硬件特性不是我们需要考虑的范围，也不是本篇要介绍的内容。
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_33_57_bacffb40a03f401c8d456dd09b24f835.png)
 
-第二章讲述了BMI088的内部结构，抓一些重点，BMI088里面，在加速度计的部分有一个温度传感器可以读取；同时加速度计和陀螺仪均有中断口，可以高速输出数据；加速度计和陀螺仪共用一个输出总线，可以选择SPI总线或者I2C总线；陀螺仪部分有一个控制单元；
+第二章讲述了 BMI088 的内部结构，抓一些重点，BMI088 里面，在加速度计的部分有一个温度传感器可以读取；同时加速度计和陀螺仪均有中断口，可以高速输出数据；加速度计和陀螺仪共用一个输出总线，可以选择 SPI 总线或者 I2C 总线；陀螺仪部分有一个控制单元；
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_34_10_e89725bc9d084d93abc631d5b2aa4912.png)
 
-第三章开始，讲述了怎样快速开始，告诉我们IMU是通过监测PS引脚的电平来决定采用SPI还是I2C通信协议，同时告诉了我们一个重要的信息，BMI088的加速度计上电的时候默认是I2C通信方式，直到它监测到了SPI的片选IO口电平上升变化，同时加速度计默认是挂起模式，即不更新加速度或者温度等数据，但内部的ID号之类的是可以读取的，所以我们初始化的时候，要先将加速度计的片选IO口电平拉起，之后将加速度计的模式从挂起模式设置为正常模式。同时给出了一种快速的初始化过程，先上电，等1ms，然后往ACC_PWR_CTRL寄存器写入4，之后等待50ms
+第三章开始，讲述了怎样快速开始，告诉我们 IMU 是通过监测 PS 引脚的电平来决定采用 SPI 还是 I2C 通信协议，同时告诉了我们一个重要的信息，BMI088 的加速度计上电的时候默认是 I2C 通信方式，直到它监测到了 SPI 的片选 IO 口电平上升变化，同时加速度计默认是挂起模式，即不更新加速度或者温度等数据，但内部的 ID 号之类的是可以读取的，所以我们初始化的时候，要先将加速度计的片选 IO 口电平拉起，之后将加速度计的模式从挂起模式设置为正常模式。同时给出了一种快速的初始化过程，先上电，等 1ms，然后往 ACC_PWR_CTRL 寄存器写入 4，之后等待 50ms
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_34_20_10bc01fee984460c84678a1f884e62fd.png)
 
@@ -38,19 +38,19 @@ math: true
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_34_31_e4ad09c6fa504f4e875ffdfaa0c0e66f.png)
 
-第五章开始，列出了BMI088的加速度计和陀螺仪的寄存器表，这也是读取的时候需要参考的部分，这里不过多讲解
+第五章开始，列出了 BMI088 的加速度计和陀螺仪的寄存器表，这也是读取的时候需要参考的部分，这里不过多讲解
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_34_40_ce681335f2ae460682700cc621783b86.png)
 
-第六章开始，讲述了如何使用SPI或者I2C与BMI088进行数据通信，这一章比较重要，是我们读取的基础
+第六章开始，讲述了如何使用 SPI 或者 I2C 与 BMI088 进行数据通信，这一章比较重要，是我们读取的基础
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_34_51_230bb88267ef48278c081aa75610b8de.png)
 
-第七章是BMI088的引脚图
+第七章是 BMI088 的引脚图
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_34_58_0a994cdea18f417ab1385beadc7acf16.png)
 
-第八章是BMI088的设计参考图，以及需要参考的电路设计参数
+第八章是 BMI088 的设计参考图，以及需要参考的电路设计参数
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_35_7_e82f067510dc4139ae0062632eb7b723.png)
 
@@ -58,71 +58,71 @@ math: true
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_35_13_c135362d7279407f8ca82d63d932c833.png)
 
-## 一、CubeMX配置
+## 一、CubeMX 配置
 
-由于这里是使用RoboMaster开发板C型（以下简称“C板”），我们需要看用户手册确定C板上面的IMU是怎么设计的
+由于这里是使用 RoboMaster 开发板 C 型（以下简称“C 板”），我们需要看用户手册确定 C 板上面的 IMU 是怎么设计的
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_35_23_0358c812d83f4f448b1991a4e0ce9391.png)
 
-可以看到，在芯片中，BMI088的PS引脚是被接到了GND上面，也就是说，C板上面的BMI088默认使用SPI通信方式进行通信，同时使用的是C板的SPI1总线。现在我们需要确定Cube中SPI配置的几个参数，就是下面这几个（这个图是我配置好的图，可以直接抄）
+可以看到，在芯片中，BMI088 的 PS 引脚是被接到了 GND 上面，也就是说，C 板上面的 BMI088 默认使用 SPI 通信方式进行通信，同时使用的是 C 板的 SPI1 总线。现在我们需要确定 Cube 中 SPI 配置的几个参数，就是下面这几个（这个图是我配置好的图，可以直接抄）
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_35_27_307a95ec87bd443b8ee7b0cd54b3d9e4.png)
 
-首先是Mode，没有特别说明的话，都选择全双工SPI通信，就是图上这个Full-Duplex Master
+首先是 Mode，没有特别说明的话，都选择全双工 SPI 通信，就是图上这个 Full-Duplex Master
 
-然后是Hardware NSS Signal，这个是硬件片选的意思，我们这里采用软件写CS电平的方式，因为加速度计和陀螺仪共用一条SPI总线，我们需要通过片选来确定此时读取哪个模块，所以这个地方选择Disable
+然后是 Hardware NSS Signal，这个是硬件片选的意思，我们这里采用软件写 CS 电平的方式，因为加速度计和陀螺仪共用一条 SPI 总线，我们需要通过片选来确定此时读取哪个模块，所以这个地方选择 Disable
 
-下方的Frame Format，没有特别说明都选择Motorola格式
+下方的 Frame Format，没有特别说明都选择 Motorola 格式
 
-再下方的Data Size，没有特别说明都选择8Bits
+再下方的 Data Size，没有特别说明都选择 8Bits
 
-然后是First Bit，也就是大小端的问题，关于大小端是什么可以自行百度，这里不再赘述。同样查询数据手册发现
+然后是 First Bit，也就是大小端的问题，关于大小端是什么可以自行百度，这里不再赘述。同样查询数据手册发现
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_35_34_74bdc99635dd41a786d61e6c59e24052.png)
 
-这里的值的第一位是bit7，也就是MSB端，所以可以断定我们的First Bit是MSB first
+这里的值的第一位是 bit7，也就是 MSB 端，所以可以断定我们的 First Bit 是 MSB first
 
-然后就到了时钟配置的预分频系数Prescaler这里，这里注意到是要跟你C板的时钟配置相关联的，放出我的C板时钟配置
+然后就到了时钟配置的预分频系数 Prescaler 这里，这里注意到是要跟你 C 板的时钟配置相关联的，放出我的 C 板时钟配置
 
 ![image-20230118113902205](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_39_2_image-20230118113902205.png)
 
-其中，C板（F406芯片）的SPI1总线是挂载在APB1时钟上的，也就是说这个时候SPI1的初始时钟是84MHz，我们再来看数据手册中关于SPI的时钟要求
+其中，C 板（F406 芯片）的 SPI1 总线是挂载在 APB1 时钟上的，也就是说这个时候 SPI1 的初始时钟是 84MHz，我们再来看数据手册中关于 SPI 的时钟要求
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_41_48_41c78cd88f32424eb03cc7b4fa731d1e.png)
 
-可以发现，BMI088的SPI时钟要求最大通信频率为10MHz，所以我们默认的Prescaler=2的是肯定不能用的，因为
+可以发现，BMI088 的 SPI 时钟要求最大通信频率为 10MHz，所以我们默认的 Prescaler=2 的是肯定不能用的，因为
 
 `SPI时钟频率 = APB1时钟频率 / 预分频系数`
 
-所以在APB1时钟频率为84MHz的情况下，我们需要起码预分频系数要大于8，所以我选择了Prescaler=16
+所以在 APB1 时钟频率为 84MHz 的情况下，我们需要起码预分频系数要大于 8，所以我选择了 Prescaler=16
 
-下一个是CPOL和CPHA，这两个一般是同时配置的，关于这两个参数代表的含义这里也不再赘述，可以自行百度。我们继续查询数据手册：
+下一个是 CPOL 和 CPHA，这两个一般是同时配置的，关于这两个参数代表的含义这里也不再赘述，可以自行百度。我们继续查询数据手册：
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_41_55_2f8283434bf349d88a070d29204b6eb9.png)
 
-手册上写的很清楚了，BMI088的SPI通信支持‘00’和‘11’两种模式，在Cube里面，CPOL=0和CPOL=Low是一个意思，CPHA=0和CPHA=1 edge也是一个意思，所以我们可以同时选择'CPOL=Low,CPHA=1 edge'或者‘CPOL=High,CPHA=2 edge'，效果是一样的
+手册上写的很清楚了，BMI088 的 SPI 通信支持‘00’和‘11’两种模式，在 Cube 里面，CPOL=0 和 CPOL=Low 是一个意思，CPHA=0 和 CPHA=1 edge 也是一个意思，所以我们可以同时选择'CPOL=Low,CPHA=1 edge'或者‘CPOL=High,CPHA=2 edge'，效果是一样的
 
-至于再下面的两个参数，CRC和NSS，按照默认就好了，即不需要CRC和软件片选
+至于再下面的两个参数，CRC 和 NSS，按照默认就好了，即不需要 CRC 和软件片选
 
-配置完了这些参数，还需要注意一点，就是C板上面SPI的端口有可能和Cube上面默认生成的端口不一致，我们需要额外确认一下
+配置完了这些参数，还需要注意一点，就是 C 板上面 SPI 的端口有可能和 Cube 上面默认生成的端口不一致，我们需要额外确认一下
 
-先观察C板的SPI端口，打开C板原理图：
+先观察 C 板的 SPI 端口，打开 C 板原理图：
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_42_1_cd3508bec777470fa48cce8a87dd4152.png)
 
-首先负责片选的CS口是不会被默认添加的，我们需要手动添加。观察得到，加速度计的CS口是PA4，陀螺仪的片选口是PB0，添加这两个GPIO口。同时观察BMI088数据手册得到，片选口拉低电平有效，所以把这两个GPIO口的电平选择默认高电平
+首先负责片选的 CS 口是不会被默认添加的，我们需要手动添加。观察得到，加速度计的 CS 口是 PA4，陀螺仪的片选口是 PB0，添加这两个 GPIO 口。同时观察 BMI088 数据手册得到，片选口拉低电平有效，所以把这两个 GPIO 口的电平选择默认高电平
 
-其次观察SPI的部分，检查SPI1_MOSI端口是否是PA7，SPI1_CLK端口是否是PB3，SP1_MISO端口是否是PB4，正确的配置如下
+其次观察 SPI 的部分，检查 SPI1_MOSI 端口是否是 PA7，SPI1_CLK 端口是否是 PB3，SP1_MISO 端口是否是 PB4，正确的配置如下
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_42_7_d102f9c380634c3fb1a3ecc72ec22c98.png)
 
-到此，我们的SPI部分就配置好了，用CubeMX生成代码即可
+到此，我们的 SPI 部分就配置好了，用 CubeMX 生成代码即可
 
 ## 二、代码编写
 
 代码编写的第一部分，先写一些比较基础的宏定义和变量类型，便于以后用
 
-SPI端口定义：
+SPI 端口定义：
 
 ```c
 #define BMI088_SPI hspi1
@@ -132,7 +132,7 @@ SPI端口定义：
 #define BMI088_GYRO_GPIOp GPIO_PIN_0
 ```
 
-BMI088用到的数据结构体定义
+BMI088 用到的数据结构体定义
 
 ```c
 typedef struct acc_raw_data_t {
@@ -173,7 +173,7 @@ typedef struct bmi088_data_t {
 } bmi088_data_t;
 ```
 
-BMI088的寄存器表
+BMI088 的寄存器表
 
 ```C
 /*-----加速度计寄存器表-----*/
@@ -299,11 +299,11 @@ BMI088的寄存器表
 #define GYRO_SELF_TEST_ON 0x01
 ```
 
-然后观察BMI088数据手册中的陀螺仪通信部分
+然后观察 BMI088 数据手册中的陀螺仪通信部分
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_42_19_1b79849b3d6c4088b2d41fc959fb037c.png)
 
-得知，想要往陀螺仪中写入数据，需要先片选陀螺仪，第一个发送字节的bit0为0，bit1-7为地址，然后第二个发送字节为值
+得知，想要往陀螺仪中写入数据，需要先片选陀螺仪，第一个发送字节的 bit0 为 0，bit1-7 为地址，然后第二个发送字节为值
 
 所以我们可以得到以下代码
 
@@ -323,7 +323,7 @@ void WriteDataToGyro(uint8_t addr, uint8_t data) {
 }
 ```
 
-同时，如果想要读取陀螺仪的数据，如果是单个数据的话，就需要第一个发送字节为的bit0为1，bit1-7为地址，第二个字节就是我们读取的数据。如果是读取多个数据的话，可以使用burst-read模式，即发送一次地址，然后连续读取即可，地址会自动自增。所以我们又可以得到以下代码
+同时，如果想要读取陀螺仪的数据，如果是单个数据的话，就需要第一个发送字节为的 bit0 为 1，bit1-7 为地址，第二个字节就是我们读取的数据。如果是读取多个数据的话，可以使用 burst-read 模式，即发送一次地址，然后连续读取即可，地址会自动自增。所以我们又可以得到以下代码
 
 ```C
 void ReadSingleDataFromGyro(uint8_t addr, uint8_t *data) {
@@ -357,7 +357,7 @@ void ReadMultiDataFromGyro(uint8_t addr, uint8_t len, uint8_t *data) {
 
 这样陀螺仪数据的基础读写函数就写完了
 
-之后我们观察BMI088数据手册中的加速度计通信部分
+之后我们观察 BMI088 数据手册中的加速度计通信部分
 
 ![请添加图片描述](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_11_42_31_3139df502e234187a7ae3ed277fb2ef0.png)
 
