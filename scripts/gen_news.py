@@ -172,9 +172,10 @@ def main():
         markdown_report = create_markdown_report(filtered_commits, org_course_name, NEWS_TYPE)
         final_report = f'---\n{yaml_front_matter}---\n\n'
         if NEWS_TYPE == "weekly":
-            generate_image()
+            generate_image(os.environ.get("OPENAI_API_KEY"))
             shutil.move("generated_image.png", f'content/news/weekly/weekly-{display_start_time.date()}/generated_image.png')
-            final_report += f'![AI Image of the Week](generated_image.png)\n\n'
+            shutil.move("generated_image_cropped.png", f'content/news/weekly/weekly-{display_start_time.date()}/generated_image_cliped.png')
+            final_report += f'![AI Image of the Week](generated_image_cropped.png)\n\n'
             summary = generate_summary(markdown_report)
             if summary:
                 final_report += f'## ✨AI 摘要\n\n{summary}\n\n'
