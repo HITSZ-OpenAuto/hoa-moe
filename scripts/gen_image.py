@@ -28,4 +28,5 @@ def generate_image(api_key):
 
     img = Image.open("generated_image.png")
     img = img.crop((0, 0, img.width, img.height // 2))
-    img.save("generated_image.png")
+    img.save("generated_image_cropped.png")
+    
