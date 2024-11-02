@@ -10,7 +10,7 @@ sidebar:
 
 以下是我们目前的支出：
 
-{{% details title="域名：$ 13.99 / 年" closed="true" %}}
+{{% details title="域名：128 元/年" closed="true" %}}
 
 用于将域名解析到国内 DNS，并且这个短小可爱的域名可以为你输入网址/跟朋友推荐时节省不少时间
 
@@ -20,6 +20,35 @@ sidebar:
 
 <br>
 <img src="/images/sponsor.webp" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
+<br>
+
+## 捐助进度
+
+`HITSZ 自动化课程攻略共享计划` 希望达成的生命周期是 10 年（2033 年 11 月），目前收到的捐助可以让本项目的生命延续到 2026 年 7 月：
+
+<br>
+<div style="display: flex; align-items: center; width: 100%;">
+    <div style="flex: 1; background-color: #e5e7eb; border-radius: 9999px; height: 10px; margin-right: 10px;">
+        <div class="progress-bar" style="background-color: #3b82f6; height: 100%; border-radius: 9999px; width: 45%;"></div>
+    </div>
+    <span>2033 年 11 月</span>
+</div>
+
+<style>
+.progress-bar {
+    background-color: #3b82f6;
+    animation: fill 2s forwards;
+}
+
+@keyframes fill {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 27.3%; /* Set to your desired width */
+    }
+}
+</style>
 
 ## 感谢名单
 
@@ -76,3 +105,4 @@ sidebar:
 | 缘安            | 2024.9.13  | 谢谢！！！！                                |
 | Leo            | 2024.10.9  | 我愿称其为，泥深最优秀的定西                                |
 | 随心            | 2024.10.11  | 大一新生（混子）想搞个 openhitsz                                |
+| empty            | 2024.10.31  | 受益匪浅                                |
