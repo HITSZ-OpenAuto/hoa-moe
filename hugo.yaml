@@ -90,7 +90,7 @@ menu:
       weight: 5
 
 params:
-  description: 由 HITSZ OpenAuto 维护, 为 HITSZ 学子提供课程攻略共享服务
+  description: 由 HITSZ OpenAuto 维护，为 HITSZ 学子提供课程攻略共享服务
 
   navbar:
     displayTitle: true

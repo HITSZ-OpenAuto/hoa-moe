@@ -169,7 +169,7 @@ label.openIndex::after{
   #switchIndex:checked ~ .sidebar-container ul {
     visibility: hidden;
   }
-  /* 索引显示时(default) */
+  /* 索引显示时 (default) */
   #switchIndex:not(:checked) ~ label.openIndex {
     transform: translateX(4rem);
   }
@@ -256,7 +256,7 @@ label.openIndex::after{
     visibility: hidden;
   }
 
-  /* 目录显示时(default) */
+  /* 目录显示时 (default) */
   #switchToc:not(:checked) ~ label.openToc {
     transform: translateX(-12rem);
   }
