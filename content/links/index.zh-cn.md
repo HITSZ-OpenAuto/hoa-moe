@@ -20,13 +20,13 @@ sidebar:
   {{< card link="https://github.com/HITSZ-OpenCS/HITSZ-OpenCS" title="哈尔滨工业大学（深圳）计算机专业课程攻略" >}}
   {{< card link="https://github.com/DseidLi/HITSZ-OpenDS" title="哈尔滨工业大学（深圳）大数据专业课程攻略" >}}
   {{< card link="https://n92uuvwhvl.feishu.cn/drive/folder/fldcng8q1brFQ9wjrGzs4i6UWNg" title="哈工大深圳网盘计划（飞书）" >}}
-  {{< card link="https://hitsz.flowus.cn/" title="HITSZ计科手册" >}}
+  {{< card link="https://hitsz.flowus.cn/" title="HITSZ 计科手册" >}}
   {{< card link="https://open.osa.moe/" title="Alist 网盘" >}}
   {{< card link="https://doby.tech" title="一键导入课程表" >}}
   {{< card link="http://219.223.238.14:88/ve/" title="课程回放" >}}
   {{< card link="https://missing.criwits.top/" title="《你缺失的那门计算机课》" >}}
-  {{< card link="http://mirrors.osa.moe/" title="OSA开源软件镜像站" >}}
-  {{< card link="http://hsica.org/" title="HSICA飞跃手册" >}}
+  {{< card link="http://mirrors.osa.moe/" title="OSA 开源软件镜像站" >}}
+  {{< card link="http://hsica.org/" title="HSICA 飞跃手册" >}}
 {{< /cards >}}
 
 ## 个人博客

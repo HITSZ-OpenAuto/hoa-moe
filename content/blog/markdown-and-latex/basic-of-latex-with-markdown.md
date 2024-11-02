@@ -18,35 +18,35 @@ math: true
 
 关于 Markdown 的标题、段落、字体等样式的设置，请看[这里](../getting-started-with-markdown-in-typora)。
 
-本文介绍如何在 Markdown 文档中使用 LaTeX 输入公式，也可做 LaTeX 速查手册之用。本文档按照以下顺序排列：公式样式（如分数、上下标等）- [希腊字母](#19希腊字母)、特殊字符- 字体及文字颜色格式 - 其他不常用命令。可先翻阅右侧的目录以大致了解文档结构。
+本文介绍如何在 Markdown 文档中使用 LaTeX 输入公式，也可做 LaTeX 速查手册之用。本文档按照以下顺序排列：公式样式（如分数、上下标等）- [希腊字母](#19希腊字母)、特殊字符 - 字体及文字颜色格式 - 其他不常用命令。可先翻阅右侧的目录以大致了解文档结构。
 
 本文不作过多文字性描述，更多时候只提供 Typora 中可以简单实现的 LaTeX 示例代码。读者只需要在 Typora 中输入对应的代码，即可看到实时预览的效果。（所有的代码块都可以复制！将鼠标移至代码块上，会发现右上角出现复制图标，点击图标即可复制！）
 
 **本文档目前尚在修改中，日后会加入更多的文字说明。**
 
-读者若想进一步了解LaTeX这种排版方式并用它来编辑更多文档，可以参考以下内容：（这个将来或许也会写成一篇单独的文档）
+读者若想进一步了解 LaTeX 这种排版方式并用它来编辑更多文档，可以参考以下内容：（这个将来或许也会写成一篇单独的文档）
 
-- 语法介绍：[一份不太简短的LaTeX2e介绍](https://ctan.org/tex-archive/info/lshort/chinese)与[一份其实很短的 LaTeX 入门文档](https://liam.page/2014/09/08/latex-introduction/)。
+- 语法介绍：[一份不太简短的 LaTeX2e 介绍](https://ctan.org/tex-archive/info/lshort/chinese)与[一份其实很短的 LaTeX 入门文档](https://liam.page/2014/09/08/latex-introduction/)。
 - 环境配置：请看[这里](../latex-setup)。
 
 ## 1、公式的插入
 
 ### ①行中公式
 
-**对于Typora，在设置-Markdown-Markdown扩展语法中勾选“行内公式”就可以使用这个语法了。**
+**对于 Typora，在设置-Markdown-Markdown 扩展语法中勾选“行内公式”就可以使用这个语法了。**
 
-代码:
+代码：
 
 ```markdown
 $x=0$
 ```
 
-效果:
+效果：
 $x=0$
 
 ### ②独立公式
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -54,14 +54,14 @@ x=0
 $$
 ```
 
-效果:
+效果：
 $$
 x=0
 $$
 
 ## 2、上下标
 
-代码:
+代码：
 
 ```markdown
 $x^{y^z}=(1+e^x)^{-2xy^w}$
@@ -71,7 +71,7 @@ $x_1=x_2+2$
 $\underset{6}\bigotimes$
 ```
 
-效果:
+效果：
 
 $x^{y^z}=(1+e^x)^{-2xy^w}$
 
@@ -81,18 +81,18 @@ $\underset{6}\bigotimes$
 
 ## 3、分数
 
-代码:
+代码：
 
 ```markdown
 $\frac{a}{b}\quad\dfrac{a}{b}\quad {a\over b}$
 ```
 
-效果:
+效果：
 $\frac{a}{b}\quad\dfrac{a}{b}\quad {a\over b}$
 
 ## 4、括号和分隔符
 
-代码:
+代码：
 
 ```latex
 $\langle\quad\rangle\quad\lceil\quad\rceil\quad\lfloor\quad\rfloor\quad\lbrace\quad\rbrace\quad\lVert\quad\rVert$
@@ -100,7 +100,7 @@ $f(x,y,z)=3y^2z\left(3+\dfrac{7x+5}{1+y^2}\right)$
 $\left.\dfrac{\mathrm{d}u}{\mathrm{d}x}\right|_{x=0}$
 ```
 
-效果:
+效果：
 
 $\langle\quad\rangle\quad\lceil\quad\rceil\quad\lfloor\quad\rfloor\quad\lbrace\quad\rbrace\quad\lVert\quad\rVert$
 
@@ -116,9 +116,9 @@ $\left.\dfrac{\mathrm{d}u}{\mathrm{d}x}\right|_{x=0}$​
 
 ## 5、大括号和行标
 
-说明:  使用`\left`和`\right`来创建自动匹配高度的`()`、`[]`、`{}`、`.`。在每个公式末尾使用`\tag{行标}`来实现行标。
+说明：使用`\left`和`\right`来创建自动匹配高度的`()`、`[]`、`{}`、`.`。在每个公式末尾使用`\tag{行标}`来实现行标。
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -132,14 +132,14 @@ f\left(
 $$
 ```
 
-效果:
+效果：
 $$
 f\left(\left[\dfrac{1+\{x,y\}}{\left(\dfrac{x}{y}+\dfrac{y}{x}\right)(u+1)}+a\right]^{\dfrac{3}{2}}\right)\tag{1}
 $$
 
-说明:如果你想将行内显示的分隔符也变大,也可以使用`\middle`命令
+说明：如果你想将行内显示的分隔符也变大，也可以使用`\middle`命令
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -147,20 +147,20 @@ $$
 $$
 ```
 
-效果:
+效果：
 $$
 \left\langle q\middle\|\dfrac{\dfrac{x}{y}}{\dfrac{u}{v}}\middle|p\right\rangle
 $$
 
 ## 6、开方
 
-代码:
+代码：
 
 ```markdown
 $\sqrt{2}\quad\sqrt[3]{2}$
 ```
 
-效果:
+效果：
 $\sqrt{2}\quad\sqrt[3]{2}$
 
 ## 7、省略号与多点
@@ -171,12 +171,12 @@ $\sqrt{2}\quad\sqrt[3]{2}$
 $\cdots\quad\ldots\quad\vdots\quad\ddots$
 ```
 
-效果:
+效果：
 $\cdots\quad\ldots\quad\vdots\quad\ddots$
 
 ## 8、矢量和均值
 
-代码:
+代码：
 
 ```markdown
 $
@@ -191,12 +191,12 @@ $
 $
 ```
 
-效果:
+效果：
 $\overrightarrow{E(\vec{r})}\quad\overleftarrow{E(\vec{r})}\quad\overleftrightarrow{E(\vec{r})}\quad\underrightarrow{E(\vec{r})}\quad\underleftarrow{E(\vec{r})}\quad\underleftrightarrow{E(\vec{r})}\quad\overline{v}=\bar{v}\quad\underline{v}$
 
 ## 9、积分
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -204,20 +204,20 @@ $$
 $$
 ```
 
-效果:
+效果：
 $$
 \iint\limits_D\left(\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}\right){\rm d}x{\rm d}y=\oint\limits_LP{\rm d}x+Q{\rm d}y
 $$
 
 ## 10、极限
 
-代码:
+代码：
 
 ```markdown
 $\lim\limits_{n\to\infin}(1+\dfrac{1}{n})^n=e$
 ```
 
-效果:
+效果：
 $\lim\limits_{n\to\infin}(1+\dfrac{1}{n})^n=e$
 
 ## 11、累加、累乘及交集、并集
@@ -231,7 +231,7 @@ $
 $
 ```
 
-效果:
+效果：
 $\sum\limits_{i=1}^n\dfrac{1}{n^2}\quad \quad\prod\limits_{i=1}^n\dfrac{1}{n^2}\quad \quad\bigcup\limits_{i=1}^n\dfrac{1}{n^2}\quad \quad\bigcap\limits_{i=1}^n\dfrac{1}{n^2}$
 
 ## 12、上加帽、上加点、上加波浪（带帽符号）
@@ -256,7 +256,7 @@ $\sum\limits_{i=1}^n\dfrac{1}{n^2}\quad \quad\prod\limits_{i=1}^n\dfrac{1}{n^2}\
 
 ### ①无框矩阵
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -272,15 +272,15 @@ $$
 
 ### ②边框矩阵
 
-说明:  在开头将`matrix`替换为`pmatrix`、`bmatrix`、`Bmatrix`、`vmatrix`、`Vmatrix`。
+说明：在开头将`matrix`替换为`pmatrix`、`bmatrix`、`Bmatrix`、`vmatrix`、`Vmatrix`。
 
 ![eachtypeofmatrix](matrix.png)
 
 ### ③带分割线的矩阵
 
-说明:  可以使用`cc|c`来在一个三列矩阵中插入分割线。
+说明：可以使用`cc|c`来在一个三列矩阵中插入分割线。
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -298,9 +298,9 @@ $$
 
 ## 15、方程式序列
 
-说明:  可以使用`\begin{align}...\end{align}`来创建一列整齐且默认右对齐的方程式序列。请注意`{align}`是**自动编号**的，使用`{align*}`来声明停止自动编号，也可以使用`\notag`来取消特定行的自动编号。在需要的时候，你可以使用`\begin{equation}...\end{equation}`来强制表达式自动编号。
+说明：可以使用`\begin{align}...\end{align}`来创建一列整齐且默认右对齐的方程式序列。请注意`{align}`是**自动编号**的，使用`{align*}`来声明停止自动编号，也可以使用`\notag`来取消特定行的自动编号。在需要的时候，你可以使用`\begin{equation}...\end{equation}`来强制表达式自动编号。
 
-代码:
+代码：
 $$
 \begin{align}
 f(x)&=1+1\\
@@ -346,13 +346,13 @@ $$
 
 你可以使用`\label{标签}`来创建一个标签，就如上面的方程式序列中展示的那样，之后使用`\eqref{标签}`引用你想引用的公式。如果不想要括号，可以输入`\ref{标签}`。
 
-公式1和2的不同列之间存在间隔，如果你不想要，可以通过将`align`替换为`alignat{1}`来去除列间隔。
+公式 1 和 2 的不同列之间存在间隔，如果你不想要，可以通过将`align`替换为`alignat{1}`来去除列间隔。
 
 ## 16、条件表达式
 
-说明:  使用`\begin{cases}`来创造一组默认左对齐的条件表达式,在每一行插入`&`来指定需要对齐的内容,并在每一行结尾处使用`\\`,以`\end{cases}`结尾。
+说明：使用`\begin{cases}`来创造一组默认左对齐的条件表达式，在每一行插入`&`来指定需要对齐的内容，并在每一行结尾处使用`\\`,以`\end{cases}`结尾。
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -367,9 +367,9 @@ $$
 
 ## 17、配置行高
 
-说明:  可以使用`\\[2ex]`语句替代该行末尾的`\\`来让编译器适配 , 其中`[ex]`指一个"X-Height" , 即x字母高度 , 也可以使用`[3ex]`或`[4ex]`等。
+说明：可以使用`\\[2ex]`语句替代该行末尾的`\\`来让编译器适配 , 其中`[ex]`指一个"X-Height" , 即 x 字母高度 , 也可以使用`[3ex]`或`[4ex]`等。
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -394,9 +394,9 @@ $$
 
 ## 18、数组与表格
 
-说明:  数组与表格均以`\begin{array}`开头,并在其后定义列数及每一列的文本对齐方式,`c` `l` `r`分别代表居中、左对齐及右对齐。若要插入垂直分割线，在定义中插入`|`，若要插入水平分割线，在定义中加入`\hline`。
+说明：数组与表格均以`\begin{array}`开头，并在其后定义列数及每一列的文本对齐方式，`c` `l` `r`分别代表居中、左对齐及右对齐。若要插入垂直分割线，在定义中插入`|`，若要插入水平分割线，在定义中加入`\hline`。
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -429,13 +429,13 @@ $$
 
 ## 20、注释文字
 
-代码:
+代码：
 
 ```markdown
-$\text{文字abcd}abcd1234$
+$\text{文字 abcd}abcd1234$
 ```
 
-效果：$\text{文字abcd}abcd1234$
+效果：$\text{文字 abcd}abcd1234$
 
 ## 21、特殊字符
 
@@ -532,7 +532,7 @@ ${\LARGE A}{\Large A}{\large A}A{\small A}$
 ## 23、文字颜色
 
 * 适用新旧浏览器
-  代码:
+  代码：
 
 ```markdown
 $\color{颜色}{文字}$
@@ -548,10 +548,10 @@ $\color{颜色}{文字}$
 | fuchsia | $\color{fuchsia}{color}$ |        |                         |        |                         |
 
 * 适用新版浏览器
-  代码:
+  代码：
 
 ```markdown
-$\color{#rgb}{文字}$    (注:其中r、g、b可以输入0~9和a~f来分别表示红色、绿色和蓝色的纯度)
+$\color{#rgb}{文字}$    (注：其中 r、g、b 可以输入 0~9 和 a~f 来分别表示红色、绿色和蓝色的纯度)
 ```
 
 | 输入 | 输出                  | 输入 | 输出                  | 输入 | 输出                  | 输入 | 输出                  |
@@ -575,9 +575,9 @@ $\color{#rgb}{文字}$    (注:其中r、g、b可以输入0~9和a~f来分别表�
 
 ## 24、删除线
 
-说明:  使用`\require{cancel}`声明，再使用`\cancel{字符}`、`\bcancel{字符}`、`\xcancel{字符}`、`\cancelto{字符}{字符}`来实现各种**片段删除线**效果。
+说明：使用`\require{cancel}`声明，再使用`\cancel{字符}`、`\bcancel{字符}`、`\xcancel{字符}`、`\cancelto{字符}{字符}`来实现各种**片段删除线**效果。
 
-代码:
+代码：
 
 ```markdown
 $$
@@ -594,9 +594,9 @@ $$
 
 ![delete-line-one](delete-line-one.png)
 
-说明:  使用`\require{enclose}`来允许**整段删除线**的显示，再使用`\enclose{删除线效果}{字符}`来使用各种整段删除线效果。其中，删除线效果有`horizontalstrike`、`verticalstrike`、`updiagonalstrike`和`downdiagonalstrike`,可以叠加使用。
+说明：使用`\require{enclose}`来允许**整段删除线**的显示，再使用`\enclose{删除线效果}{字符}`来使用各种整段删除线效果。其中，删除线效果有`horizontalstrike`、`verticalstrike`、`updiagonalstrike`和`downdiagonalstrike`,可以叠加使用。
 
-代码:
+代码：
 
 ```markdown
 $$
