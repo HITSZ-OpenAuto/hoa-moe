@@ -123,12 +123,6 @@ math: true
 
 《HITSZ 自动化课程攻略共享计划》是所有同学都可以参与编写的，如果你有好的笔记或者资料，欢迎前往我们的 [GitHub](https://github.com/HITSZ-OpenAuto) 进行参与，也可以发邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe) 联系我们，我们会在收到的第一时间进行答复。
 
-此外，如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名的费用负担，同时也是对维护者最大的鼓励。你的 ID 和留言将会显示在我们的 [Sponsor](https://hoa.moe/sponsor/) 页面中。
-
-<br>
-<img src="/images/sponsor.webp" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
-<br>
-
 {{< callout type="" >}}
   © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
