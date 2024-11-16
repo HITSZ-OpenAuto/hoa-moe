@@ -70,10 +70,6 @@ jobs:
               if [ -z "$next_page" ]; then
                 break
               fi
-
-              if [ "$page" -eq 2 ]; then
-                break
-              fi
               
               # 如果有下一页，增加页码
               page=$((page + 1))
@@ -124,7 +120,7 @@ jobs:
           counter_cross=300
           counter_general=400
           counter_legacy=1000
-          for line in $(echo '${{ env.repos_array }}' | jq -r '.[]'); do
+          for line in $(echo '${{ env.repos_array }}' | jq -r '.[]');
           do
             echo '-------------------------------------------------'
             echo ${line}
