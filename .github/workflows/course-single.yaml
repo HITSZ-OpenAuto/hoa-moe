@@ -46,8 +46,9 @@ jobs:
           if [ -z "$REPO_NAME" ]; then
             REPO_NAME="NOT_ASSIGNED"
           fi
-          echo "Before output: REPO_NAME=$REPO_NAME"
-          echo "repo_name=$REPO_NAME" >> $GITHUB_OUTPUT
+          echo "Before output: repo_name=$REPO_NAME"
+          echo "repo_name=$REPO_NAME" >> "$GITHUB_OUTPUT"
+          echo $GITHUB_OUTPUT
 
       - name: first check
         run: |
