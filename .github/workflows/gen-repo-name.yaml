@@ -27,7 +27,8 @@ jobs:
         run: |
           # 将 JSON 数组解析为单个值的列表
           repos=$(echo "${{ env.repos_array }}" | jq -r '.[]')
-          # 遍历数组并打印每个值
-          for repo in $repos; do
-            echo $repo 
-          done
+          echo repos
+          # # 遍历数组并打印每个值
+          # for repo in $repos; do
+          #   echo $repo 
+          # done
