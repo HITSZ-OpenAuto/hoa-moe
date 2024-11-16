@@ -46,7 +46,7 @@ jobs:
           if [ -z "$REPO_NAME" ]; then
             REPO_NAME="NOT_ASSIGNED"
           fi
-          echo "repo_name=${{ github.event.inputs.repo_name }}" >> $GITHUB_OUTPUT
+          echo "repo_name=$REPO_NAME" >> $GITHUB_OUTPUT
 
       - name: first check
         run: |
