@@ -46,6 +46,7 @@ jobs:
 
           # 清空输出文件，确保每次运行时是从空文件开始
           > "$output_file"
+          
 
           # 循环直到获取所有页面的仓库名
           while true; do
@@ -57,11 +58,10 @@ jobs:
               # 将响应内容追加到文件中
               echo "$response" >> "$output_file"
               
-              # 检查是否还有下一页
-              # 检查响应头中的 Link 是否包含 "rel=\"next\""，来判断是否有下一页
-              next_page=$(curl -s -I -H "Authorization: token $token" \
+              # 检查响应头中的 Link 是否包含 'rel="next"'，来判断是否有下一页
+              next_page=$(curl -s -I -H "Authorization: ${{ secrets.GITHUB_TOKEN }}" \
                               -H "Accept: application/vnd.github.v3+json" \
-                              "https://api.github.com/orgs/$org/repos?type=public&per_page=$per_page&page=$page" \
+                              "https://api.github.com/orgs/$org/repos?type=public&per_page=50&page=$page" \
                               | grep -i 'rel="next"')
               
               if [ -z "$next_page" ]; then
