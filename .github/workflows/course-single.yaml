@@ -118,7 +118,14 @@ jobs:
         run: |
           echo 'Checked. Start building.'
           line="${{ steps.extract.outputs.repo_name }}"
+          first_time=1  # 1 表示 true，0 表示 false
+          
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
+          curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
+          python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          cp result.txt result_time.txt
+          python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          cp result.txt result_links.txt
 
           Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
           Semesters=${Semesters#*: }
@@ -136,22 +143,21 @@ jobs:
 
             echo >> "./content/docs/${semester}/${line}.md"
             python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-            cat result.txt >> "./content/docs/${semester}/${line}.md"
-            
-            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
+            cat result_time.txt >> "./content/docs/${semester}/${line}.md"
+            if [ "$first_time" -eq 1 ]; then
+              curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
+              first_time=0
             head -n +8 "temp1.md" >> "./content/docs/${semester}/${line}.md"
-            
-            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
             tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
 
             echo >> "./content/docs/${semester}/${line}.md"
             echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-            cat result.txt >> "./content/docs/${semester}/${line}.md"
+            cat result_links.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
             echo "如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/${line}'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。" >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
+            
             cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
             python scripts/wrap_badges.py "./content/docs/${semester}/${line}.md"
