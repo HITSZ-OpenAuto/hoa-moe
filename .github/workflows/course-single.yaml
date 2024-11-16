@@ -1,4 +1,4 @@
-name: "Build Single Course Page"
+name: Build Single Course Page
 
 on:
   workflow_dispatch:
