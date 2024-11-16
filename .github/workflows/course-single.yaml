@@ -40,19 +40,20 @@ jobs:
       id-token: write
     
     steps:
-      - name: Get Parameters
-        id: extract
-        run: |
-          REPO="${{ github.event.inputs.repo_name }}"
-          if [ -z "$REPO" ]; then
-            REPO="NOT_ASSIGNED"
-          fi
-          echo "repo_name=$REPO" >> "$GITHUB_OUTPUT"
+      # - name: Get Parameters
+      #   id: extract
+      #   run: |
+      #     REPO="${{ github.event.inputs.repo_name }}"
+      #     if [ -z "$REPO" ]; then
+      #       REPO="NOT_ASSIGNED"
+      #     fi
+      #     echo "repo_name=$REPO" >> "$GITHUB_OUTPUT"
 
       - name: first check
         run: |
           echo 'first check: file existence'
-          line="${{ steps.extract.outputs.repo_name }}"
+          # line="${{ steps.extract.outputs.repo_name }}"
+          line="${{ github.event.inputs.repo_name }}"
           echo '-------------------------------------------------'
           echo ${line}
           curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
@@ -117,7 +118,8 @@ jobs:
       - name: Build single course page
         run: |
           echo 'Checked. Start building.'
-          line="${{ steps.extract.outputs.repo_name }}"
+          # line="${{ steps.extract.outputs.repo_name }}"
+          line="${{ github.event.inputs.repo_name }}"
           first_time=1  # 1 表示 true，0 表示 false
           
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
