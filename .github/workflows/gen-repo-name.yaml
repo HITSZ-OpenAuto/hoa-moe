@@ -21,8 +21,13 @@ jobs:
         run: |
           # 使用 jq 解析 JSON 并将仓库名称提取为数组
           repos=$(jq -r '.[].name' repos.json | jq -R -s -c 'split("\n")[:-1]')
-          echo "repos_array=[$repos]" >> $GITHUB_ENV  # 将数组保存到环境变量
+          echo "repos_array=$repos" >> $GITHUB_ENV  # 将数组保存到环境变量
 
       - name: 使用解析后的仓库数组
         run: |
-          echo "已获取仓库列表：${{ env.repos_array }}"
+          # 将 JSON 数组解析为单个值的列表
+          repos=$(echo "${{ env.repos_array }}" | jq -r '.[]')
+          # 遍历数组并打印每个值
+          for repo in $repos; do
+            echo $repo 
+          done
