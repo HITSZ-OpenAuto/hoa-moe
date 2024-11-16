@@ -9,8 +9,8 @@ on:
     inputs:
       repo_name:
         description: 'Name of the course'
-        required: true
-        default: 'Auto'
+        required: false
+        default: 'NOT_ASSIGNED'
 
 # concurrency:
 #   group: ${{ github.workflow }}
