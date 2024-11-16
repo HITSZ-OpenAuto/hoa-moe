@@ -43,11 +43,11 @@ jobs:
       - name: Get Parameters
         id: extract
         run: |
-          REPO_NAME="${{ github.event.inputs.repo_name }}"
-          if [ -z "$REPO_NAME" ]; then
-            REPO_NAME="NOT_ASSIGNED"
+          REPO="${{ github.event.inputs.repo_name }}"
+          if [ -z "$REPO" ]; then
+            REPO="NOT_ASSIGNED"
           fi
-          echo "repo_name=$REPO_NAME" >> "$GITHUB_OUTPUT"
+          echo "repo_name=$REPO" >> "$GITHUB_OUTPUT"
 
       - name: first check
         run: |
