@@ -122,6 +122,12 @@ jobs:
           counter_legacy=1000
           for line in $(echo '${{ env.repos_array }}' | jq -r '.[]');
           do
+            set +e
+            echo "$line" | grep -qE "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$"
+            set -e
+            if [ $? -eq 1 ]; then
+              continue
+            fi
             echo '-------------------------------------------------'
             echo ${line}
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
