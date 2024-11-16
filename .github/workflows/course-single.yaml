@@ -52,7 +52,7 @@ jobs:
       - name: first check
         run: |
           echo 'first check: file existence'
-          line=${{ steps.extract.outputs.repo_name }}
+          line="${{ steps.extract.outputs.repo_name }}"
           echo '-------------------------------------------------'
           echo ${line}
           curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
@@ -80,7 +80,7 @@ jobs:
 
           for match_semester in "${semesters[@]}"
           do
-            semester=$(echo '${{ vars.my_dict }}' | jq -r '.${match_semester}')
+            semester="$(echo '${{ vars.my_dict }}' | jq -r '.${match_semester}')"
             if [ -z "$semester" ]; then
               continue
             else
@@ -117,7 +117,7 @@ jobs:
       - name: Build single course page
         run: |
           echo 'Checked. Start building.'
-          line=${{ steps.extract.outputs.repo_name }}
+          line="${{ steps.extract.outputs.repo_name }}"
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
 
           Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
@@ -127,7 +127,7 @@ jobs:
 
           for match_semester in "${semesters[@]}"
           do
-            semester=$(echo '${{ vars.my_dict }}' | jq -r '.${match_semester}')
+            semester="$(echo '${{ vars.my_dict }}' | jq -r '.${match_semester}')"
             if [ -z "$semester" ]; then
               continue
             else
