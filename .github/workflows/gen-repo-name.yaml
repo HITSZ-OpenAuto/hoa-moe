@@ -1,6 +1,8 @@
 name: 获取公开仓库列表
 
 on:
+  push:
+  
   workflow_dispatch:  # 手动触发
 
 jobs:
