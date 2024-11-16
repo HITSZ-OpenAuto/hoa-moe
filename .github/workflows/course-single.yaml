@@ -1,4 +1,4 @@
-name: Build Single Course Page
+name: "Build Single Course Page"
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       course_name:
         description: 'Name of the course'
         required: true
-        # default: 'AUTO1000'  # Default value, in case no input is provided
+        default: 'AUTO'  # Default value, in case no input is provided
 
 jobs:
   example_job:
