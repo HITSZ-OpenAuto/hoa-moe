@@ -44,26 +44,22 @@ jobs:
         run: |
           echo "repo_name=${{ github.event.inputs.repo_name }}" >> $GITHUB_OUTPUT
 
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-
-      - name: Setup python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install python dependencies
-        run: pip install -r scripts/requirements.txt
-
-      - name: Build single course page
+      - name: first check
         run: |
+          echo 'first check: file existence'
           line=${{ steps.extract.outputs.repo_name }}
           echo '-------------------------------------------------'
           echo ${line}
+          curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
+          if [ $? -ne 0 ]; then
+            echo "Error: tag file not found or connection failed"
+            # curl -X POST \
+            #   -H "Accept: application/vnd.github.v3+json" \
+            #   -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+            #   https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/course.yaml/dispatches \
+            #   -d '{"ref":"main"}'
+            exit 1
+          fi
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
           
           echo '-----tag.txt-----'
@@ -85,14 +81,10 @@ jobs:
             else
               echo $semester 
             fi
-
-            echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-            cat result.txt >> "./content/docs/${semester}/${line}.md"
             
-            curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}/main/README.md"
+            curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
             if [ $? -ne 0 ]; then
-              echo "Error: File not found or connection failed"
+              echo "Error: Course pages have not been created yet. "
               # curl -X POST \
               #   -H "Accept: application/vnd.github.v3+json" \
               #   -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
@@ -100,8 +92,48 @@ jobs:
               #   -d '{"ref":"main"}'
               exit 1
             fi
+          done
+      
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build single course page
+        run: |
+          echo 'Checked. Start building.'
+          line=${{ steps.extract.outputs.repo_name }}
+          curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
+
+          Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
+          Semesters=${Semesters#*: }
+
+          IFS=' / ' read -r -a semesters <<< "$Semesters"
+
+          for match_semester in "${semesters[@]}"
+          do
+            semester=$(echo '${{ vars.my_dict }}' | jq -r '.${match_semester}')
+            if [ -z "$semester" ]; then
+              continue
+            else
+              echo $semester 
+            fi
+
+            echo >> "./content/docs/${semester}/${line}.md"
+            python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            cat result.txt >> "./content/docs/${semester}/${line}.md"
             
-            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}/main/README.md" -o "temp1.md"
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
             head -n +8 "temp1.md" >> "./content/docs/${semester}/${line}.md"
             
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
