@@ -9,8 +9,9 @@ on:
         default: 'AUTO'  # Default value, in case no input is provided
 
 jobs:
-  example_job:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Print course name
-        run: echo "Course name: ${{ github.event.inputs.course_name }}"
+        run: |
+        echo "Course name: ${{ github.event.inputs.course_name }}"
