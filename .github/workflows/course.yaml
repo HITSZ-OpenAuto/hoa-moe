@@ -62,7 +62,9 @@ jobs:
                               -H "Accept: application/vnd.github.v3+json" \
                               "https://api.github.com/orgs/HITSZ-OpenAuto/repos?type=public&per_page=50&page=$page")
 
+              set +e
               next_page=$(echo -e "$header" | grep -i 'rel="next"')
+              set -e
               
               echo $next_page
               if [ -z "$next_page" ]; then
