@@ -1,6 +1,8 @@
 name: Build Single Course Page
 
 on:
+  push:
+
   workflow_dispatch:
     inputs:
       course_name:
@@ -14,4 +16,4 @@ jobs:
     steps:
       - name: Print course name
         run: |
-        echo "Course name: ${{ github.event.inputs.course_name }}"
+          echo "Course name: ${{ github.event.inputs.course_name }}"
