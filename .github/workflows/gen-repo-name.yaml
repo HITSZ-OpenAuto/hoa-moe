@@ -25,6 +25,6 @@ jobs:
       - name: 使用解析后的仓库数组
         run: |
           # 遍历数组并打印每个值
-          for item in $(echo "${{ env.repos_array }}" | jq -r '.[]'); do
+          for item in $(echo '${{ env.repos_array }}' | jq -r '.[]'); do
             echo "$item" 
           done
