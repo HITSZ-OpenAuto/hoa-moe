@@ -58,14 +58,22 @@ jobs:
               echo "$response" >> "$output_file"
               
               # 检查响应头中的 Link 是否包含 'rel="next"'，来判断是否有下一页
-              next_page=$(curl -s -I -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              curl -I -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                               -H "Accept: application/vnd.github.v3+json" \
-                              "https://api.github.com/orgs/HITSZ-OpenAuto/repos?type=public&per_page=50&page=2" \
-                              | grep -i 'rel="next"')
+                              "https://api.github.com/orgs/HITSZ-OpenAuto/repos?type=public&per_page=50&page=$page"
+
+              # next_page=$(curl -s -I -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              #                 -H "Accept: application/vnd.github.v3+json" \
+              #                 "https://api.github.com/orgs/HITSZ-OpenAuto/repos?type=public&per_page=50&page=2" \
+              #                 | grep -i 'rel="next"')
               
-              echo "$next_page"
-              if [ -z "$next_page" ]; then
-                break
+              # echo "$next_page"
+              # if [ -z "$next_page" ]; then
+              #   break
+              # fi
+
+              if ["$page" -eq 2]; then
+                exit 3
               fi
               
               # 如果有下一页，增加页码
