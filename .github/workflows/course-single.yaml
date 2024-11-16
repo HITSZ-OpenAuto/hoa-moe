@@ -1,19 +1,141 @@
-name: Build Single Course Page
+name: "Build single course page"
 
 on:
   push:
-
+    # paths:
+    #   - "scripts/**"
+    #   - ".github/workflows/course.yaml"
   workflow_dispatch:
     inputs:
-      course_name:
+      repo_name:
         description: 'Name of the course'
         required: true
-        default: 'AUTO'  # Default value, in case no input is provided
+        default: 'Auto'
+
+# concurrency:
+#   group: ${{ github.workflow }}
+#   cancel-in-progress: true
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    env:
+      my_dict: >-
+        {
+          "第一学年秋季": "fresh-autumn",
+          "第一学年春季": "fresh-spring",
+          "第一学年夏季": "fresh-summer",
+          "第二学年秋季": "sophomore-autumn",
+          "第二学年春季": "sophomore-spring",
+          "第二学年夏季": "sophomore-summer",
+          "第三学年秋季": "junior-autumn",
+          "第三学年春季": "junior-spring",
+          "第三学年夏季": "junior-summer",
+          "第四学年秋季": "senior-autumn",
+          "第四学年春季": "senior-spring",
+          "第四学年夏季": "senior-summer"
+        }
+    permissions:
+      contents: write
+      id-token: write
+    
     steps:
-      - name: Print course name
+      - name: Get Parameters
         run: |
-          echo "Course name: ${{ github.event.inputs.course_name }}"
+          echo "repo_name=${{ github.event.inputs.repo_name }}" >> $GITHUB_OUTPUT
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build single course page
+        run: |
+          line=${{ steps.extract.outputs.repo_name }}
+          echo '-------------------------------------------------'
+          echo ${line}
+          curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
+          
+          echo '-----tag.txt-----'
+          cat "tag_${line}.txt"
+          echo " "
+          echo '-----------------'
+
+          Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
+          Semesters=${Semesters#*: }
+          echo ${Semesters}
+
+          IFS=' / ' read -r -a semesters <<< "$Semesters"
+
+          for match_semester in "${semesters[@]}"
+          do
+            semester=$(echo '${{ vars.my_dict }}' | jq -r '.${match_semester}')
+            if [ -z "$semester" ]; then
+              continue
+            else
+              echo $semester 
+            fi
+
+            echo >> "./content/docs/${semester}/${line}.md"
+            python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            cat result.txt >> "./content/docs/${semester}/${line}.md"
+            
+            curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}/main/README.md"
+            if [ $? -ne 0 ]; then
+              echo "Error: File not found or connection failed"
+              # curl -X POST \
+              #   -H "Accept: application/vnd.github.v3+json" \
+              #   -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+              #   https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/course.yaml/dispatches \
+              #   -d '{"ref":"main"}'
+              exit 1
+            fi
+            
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}/main/README.md" -o "temp1.md"
+            head -n +8 "temp1.md" >> "./content/docs/${semester}/${line}.md"
+            
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
+            tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
+
+            echo >> "./content/docs/${semester}/${line}.md"
+            echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
+            echo >> "./content/docs/${semester}/${line}.md"
+            python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            cat result.txt >> "./content/docs/${semester}/${line}.md"
+            echo >> "./content/docs/${semester}/${line}.md"
+            echo "如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/${line}'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。" >> "./content/docs/${semester}/${line}.md"
+            echo >> "./content/docs/${semester}/${line}.md"
+            cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
+            echo >> "./content/docs/${semester}/${line}.md"
+            python scripts/wrap_badges.py "./content/docs/${semester}/${line}.md"
+          done
+
+      - name: Generate daily report
+        env:
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          ORG_NAME: HITSZ-OpenAuto
+          NEWS_TYPE: daily
+        run: |
+          python scripts/gen_news.py
+
+      - name: AutoCorrect
+        uses: huacnlee/autocorrect-action@v2
+        with:
+          args: --fix content/
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "content"
+          default_author: github_actions
+          message: "ci: update course pages"
