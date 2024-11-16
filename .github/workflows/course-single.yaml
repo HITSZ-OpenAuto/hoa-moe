@@ -57,11 +57,6 @@ jobs:
           curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
           if [ $? -ne 0 ]; then
             echo "Error: tag file not found or connection failed"
-            # curl -X POST \
-            #   -H "Accept: application/vnd.github.v3+json" \
-            #   -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
-            #   https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/course.yaml/dispatches \
-            #   -d '{"ref":"main"}'
             exit 1
           fi
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
@@ -89,11 +84,11 @@ jobs:
             curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
             if [ $? -ne 0 ]; then
               echo "Error: Course pages have not been created yet. "
-              # curl -X POST \
-              #   -H "Accept: application/vnd.github.v3+json" \
-              #   -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
-              #   https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/course.yaml/dispatches \
-              #   -d '{"ref":"main"}'
+              curl -X POST \
+                -H "Accept: application/vnd.github.v3+json" \
+                -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+                https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/course.yaml/dispatches \
+                -d '{"ref":"main"}'
               exit 1
             fi
           done
@@ -146,6 +141,7 @@ jobs:
             if [ "$first_time" -eq 1 ]; then
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
               first_time=0
+            fi
             head -n +8 "temp1.md" >> "./content/docs/${semester}/${line}.md"
             tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
 
