@@ -114,6 +114,7 @@ jobs:
 
       - name: Build course pages
         run: |
+          # 建立课程页面
           counter_man=0
           counter_dis=100
           counter_graduate=200
@@ -125,6 +126,7 @@ jobs:
             set +e
             echo "$line" | grep -qE '^([A-Z]{2,4}[0-9]{3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$'
             set -e
+            echo $?
             if [ $? -eq 1 ]; then
               continue
             fi
