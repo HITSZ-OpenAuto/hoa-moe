@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-11-17'
-description: 北京时间 2024-11-16 12 时至今
+description: 北京时间 2024-11-16 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 #### 周日 (11.17)
+
+- Kowyo 在 [课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：ci: update trigger workflow
+
+- Hye 在 [课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：改为通过留言板征集课程评价 (#3)
 
 - 吴俊达 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：Update README.md
 
