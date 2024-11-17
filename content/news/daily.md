@@ -4,13 +4,15 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-11-17'
-description: 北京时间 2024-11-16 11 时至今
+description: 北京时间 2024-11-16 12 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 #### 周日 (11.17)
+
+- 吴俊达 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：Update README.md
 
 - 吴俊达 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更新一个实验报告版本；下架一份有误的实验报告 (#8)
 
