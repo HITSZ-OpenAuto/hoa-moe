@@ -6,7 +6,7 @@ on:
       - "scripts/**"
       - ".github/workflows/course.yaml"
   schedule:
-    - cron: "0 16 */2 * *"
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -28,15 +28,15 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      - name: Setup python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install python dependencies
+      - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Get public repositories in the organization
+      - name: Fetch public repositories in the organization
         run: |
           # 起始页
           page=1
@@ -75,7 +75,7 @@ jobs:
               page=$((page + 1))
           done
 
-          echo "所有公有仓库已保存到 $output_file"
+          echo "All public repositories have been saved to $output_file"
 
       - name: Parse the repo names and save as env vars
         id: parse_repos
@@ -83,7 +83,7 @@ jobs:
           repos=$(jq -r '.[].name' repos.json | jq -R -s -c 'split("\n")[:-1]')
           echo "repos_array=$repos" >> $GITHUB_ENV
 
-      - name: Bulid directory
+      - name: Bulid directory pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
           semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春' '跨专业选修' '文理通识与MOOC')
@@ -310,7 +310,7 @@ jobs:
             done
           done
 
-      - name: Build Semester Pages
+      - name: Build semester pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
           category_arr='mandatory distributional-selective cross-major-selective graduate-course general-knowledge legacy'
@@ -342,7 +342,7 @@ jobs:
               python scripts/wrap_badges.py $file
           done
 
-      - name: AutoCorrect
+      - name: Auto correct
         uses: huacnlee/autocorrect-action@v2
         with:
           args: --fix content/
