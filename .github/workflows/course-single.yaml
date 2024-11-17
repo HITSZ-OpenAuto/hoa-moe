@@ -114,11 +114,13 @@ jobs:
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
           python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          cat result.txt
+          # cat result.txt
           cp result.txt result_time.txt
+          cat result_time.txt
           python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          cat result.txt
+          # cat result.txt
           cp result.txt result_links.txt
+          cat result_links.txt
 
           Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
           Semesters=${Semesters#*: }
@@ -140,9 +142,9 @@ jobs:
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
               first_time=0
             fi
-            head -n +8 "temp1.md" >> "./content/docs/${semester}/${line}.md"
+            head -n 7 "temp1.md" >> "./content/docs/${semester}/${line}.md"
 
-            cat result_time.txt
+            echo >> "./content/docs/${semester}/${line}.md"
             cat result_time.txt >> "./content/docs/${semester}/${line}.md"
 
             tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
