@@ -35,7 +35,7 @@ jobs:
           line="${{ steps.extract.outputs.repo_name }}"
           echo '-------------------------------------------------'
           echo ${line}
-          curl -sf "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
+          curl -sf -o /dev/null "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
           if [ $? -ne 0 ]; then
             echo "Error: tag file not found or connection failed"
             exit 1
@@ -96,9 +96,24 @@ jobs:
                   ;;   
               esac
 
+            CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
+
+            # 针对文理通识和跨专业选修做的适配
+            case ${CATEGORY} in
+              '跨专业选修')
+                semester='cross-specialty'
+                ;;
+              '文理通识')
+                semester='general-knowledge'
+                ;;
+              *)
+                echo "No match special categories"
+                ;;   
+            esac
+
             echo $semester
             
-            curl -sf "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
+            curl -sf -o /dev/null "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
             if [ $? -ne 0 ]; then
               echo "Error: Course pages have not been created yet. "
               curl -X POST \
@@ -185,7 +200,20 @@ jobs:
                   ;;   
               esac
 
-            echo $semester
+            CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
+
+            # 针对文理通识和跨专业选修做的适配
+            case ${CATEGORY} in
+              '跨专业选修')
+                semester='cross-specialty'
+                ;;
+              '文理通识')
+                semester='general-knowledge'
+                ;;
+              *)
+                echo "No match special categories"
+                ;;   
+            esac
             
             if [ "$first_time" -eq 1 ]; then
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
