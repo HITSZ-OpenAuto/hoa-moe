@@ -15,8 +15,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-22.04
-    env:
-      my_dict: '{"第一学年秋季":"fresh-autumn","第一学年春季":"fresh-spring","第一学年夏季":"fresh-summer","第二学年秋季":"sophomore-autumn","第二学年春季":"sophomore-spring","第二学年夏季":"sophomore-summer","第三学年秋季":"junior-autumn","第三学年春季":"junior-spring","第三学年夏季":"junior-summer","第四学年秋季":"senior-autumn","第四学年春季":"senior-spring","第四学年夏季":"senior-summer"}'
     permissions:
       contents: write
       id-token: write
@@ -57,12 +55,47 @@ jobs:
 
           for match_semester in "${semesters[@]}"
           do
-            semester="$(echo '${{ env.my_dict }}' | jq -r '."${match_semester}"')"
-            if [ -z "$semester" ]; then
-              continue
-            else
-              echo $semester 
-            fi
+            case ${match_semester} in
+                '第一学年秋季')
+                  semester='fresh-autumn'
+                  ;;
+                '第一学年春季')
+                  semester='fresh-spring'
+                  ;;
+                '第一学年夏季')
+                  semester='fresh-summer'
+                  ;;
+                '第二学年秋季')
+                  semester='sophomore-autumn'
+                  ;;
+                '第二学年春季')
+                  semester='sophomore-spring'
+                  ;;
+                '第二学年夏季')
+                  semester='sophomore-summer'
+                  ;;
+                '第三学年秋季')
+                  semester='junior-autumn'
+                  ;;
+                '第三学年春季')
+                  semester='junior-spring'
+                  ;;
+                '第三学年夏季')
+                  semester='junior-summer'
+                  ;;
+                '第四学年秋季')
+                  semester='senior-autumn'
+                  ;;
+                '第四学年春季')
+                  semester='senior-spring'
+                  ;;
+                *)
+                  echo "No match semester"
+                  continue
+                  ;;   
+              esac
+
+            echo $semester
             
             curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
             if [ $? -ne 0 ]; then
@@ -111,12 +144,47 @@ jobs:
 
           for match_semester in "${semesters[@]}"
           do
-            semester="$(echo '${{ env.my_dict }}' | jq -r '."${match_semester}"')"
-            if [ -z "$semester" ]; then
-              continue
-            else
-              echo $semester 
-            fi
+            case ${match_semester} in
+                '第一学年秋季')
+                  semester='fresh-autumn'
+                  ;;
+                '第一学年春季')
+                  semester='fresh-spring'
+                  ;;
+                '第一学年夏季')
+                  semester='fresh-summer'
+                  ;;
+                '第二学年秋季')
+                  semester='sophomore-autumn'
+                  ;;
+                '第二学年春季')
+                  semester='sophomore-spring'
+                  ;;
+                '第二学年夏季')
+                  semester='sophomore-summer'
+                  ;;
+                '第三学年秋季')
+                  semester='junior-autumn'
+                  ;;
+                '第三学年春季')
+                  semester='junior-spring'
+                  ;;
+                '第三学年夏季')
+                  semester='junior-summer'
+                  ;;
+                '第四学年秋季')
+                  semester='senior-autumn'
+                  ;;
+                '第四学年春季')
+                  semester='senior-spring'
+                  ;;
+                *)
+                  echo "No match semester"
+                  continue
+                  ;;   
+              esac
+
+            echo $semester
             
             if [ "$first_time" -eq 1 ]; then
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
