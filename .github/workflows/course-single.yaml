@@ -114,13 +114,9 @@ jobs:
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
           python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          # cat result.txt
           cp result.txt result_time.txt
-          # cat result_time.txt
           python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          # cat result.txt
           cp result.txt result_links.txt
-          # cat result_links.txt
 
           Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
           Semesters=${Semesters#*: }
@@ -135,14 +131,12 @@ jobs:
             else
               echo $semester 
             fi
-
-            echo >> "./content/docs/${semester}/${line}.md"
             
             if [ "$first_time" -eq 1 ]; then
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
               first_time=0
             fi
-            head -n 7 "temp1.md" >> "./content/docs/${semester}/${line}.md"
+            head -n 7 "temp1.md" > "./content/docs/${semester}/${line}.md"
 
             echo >> "./content/docs/${semester}/${line}.md"
             cat result_time.txt >> "./content/docs/${semester}/${line}.md"
@@ -159,7 +153,7 @@ jobs:
             
             cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/wrap_badges.py "content/docs/${semester}/${line}.md"
+            # python scripts/wrap_badges.py "content/docs/${semester}/${line}.md"
           done
 
       - name: Generate daily report
@@ -174,6 +168,13 @@ jobs:
         uses: huacnlee/autocorrect-action@v2
         with:
           args: --fix content/
+      
+      - name: Wrap badges
+        run: |
+          for file in $(find content/docs -name "*.md")
+          do
+              python scripts/wrap_badges.py $file
+          done
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
