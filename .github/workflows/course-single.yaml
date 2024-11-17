@@ -1,4 +1,4 @@
-name: "Build single course page"
+name: "Build Single Course Page"
 
 on:
   workflow_dispatch:
@@ -133,7 +133,6 @@ jobs:
             fi
 
             echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
             
             if [ "$first_time" -eq 1 ]; then
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
