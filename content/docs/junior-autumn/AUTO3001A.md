@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 11 月 17 日" author="Kowyo" message="ci: update workflow to enable single page build (#4)" >}}
+{{< update-info update_time="2024 年 10 月 30 日" author="psp_dada" message="重新上传了 slides/2023课件合订本.pdf" >}}
 
 <div align="left">
 <figure>
