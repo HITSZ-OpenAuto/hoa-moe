@@ -116,11 +116,11 @@ jobs:
           python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           # cat result.txt
           cp result.txt result_time.txt
-          cat result_time.txt
+          # cat result_time.txt
           python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           # cat result.txt
           cp result.txt result_links.txt
-          cat result_links.txt
+          # cat result_links.txt
 
           Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
           Semesters=${Semesters#*: }
@@ -159,7 +159,7 @@ jobs:
             
             cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/wrap_badges.py "./content/docs/${semester}/${line}.md"
+            python scripts/wrap_badges.py "content/docs/${semester}/${line}.md"
           done
 
       - name: Generate daily report
