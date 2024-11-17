@@ -71,7 +71,7 @@ jobs:
 
           for match_semester in "${semesters[@]}"
           do
-            semester="$(echo '${{ vars.my_dict }}' | jq -r '."${match_semester}"')"
+            semester="$(echo '${{ env.my_dict }}' | jq -r '."${match_semester}"')"
             if [ -z "$semester" ]; then
               continue
             else
@@ -125,7 +125,7 @@ jobs:
 
           for match_semester in "${semesters[@]}"
           do
-            semester="$(echo '${{ vars.my_dict }}' | jq -r '."${match_semester}"')"
+            semester="$(echo '${{ env.my_dict }}' | jq -r '."${match_semester}"')"
             if [ -z "$semester" ]; then
               continue
             else
@@ -153,7 +153,7 @@ jobs:
             
             cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            # python scripts/wrap_badges.py "content/docs/${semester}/${line}.md"
+            python scripts/wrap_badges.py "content/docs/${semester}/${line}.md"
           done
 
       - name: Generate daily report
@@ -168,13 +168,6 @@ jobs:
         uses: huacnlee/autocorrect-action@v2
         with:
           args: --fix content/
-      
-      - name: Wrap badges
-        run: |
-          for file in $(find content/docs -name "*.md")
-          do
-              python scripts/wrap_badges.py $file
-          done
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
