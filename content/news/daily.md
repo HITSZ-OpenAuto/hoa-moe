@@ -4,13 +4,15 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-11-17'
-description: 北京时间 2024-11-16 05 时至今
+description: 北京时间 2024-11-16 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 #### 周日 (11.17)
+
+- oliver-wu 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：更新报告 2
 
 - Kowyo 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：ci: update workflow to enable single page build (#1)
 
