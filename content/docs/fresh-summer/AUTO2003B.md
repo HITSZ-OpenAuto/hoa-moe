@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 11 月 17 日" author="Kowyo" message="ci: update workflow to enable single page build (#7)" >}}
+{{< update-info update_time="2024 年 5 月 30 日" author="Sieroy" message="新增一个项目分享 (#5)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

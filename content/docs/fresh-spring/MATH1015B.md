@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 11 月 17 日" author="Kowyo" message="ci: update workflow to enable single page build (#7)" >}}
+{{< update-info update_time="2024 年 7 月 20 日" author="IcyDesert" message="上传 2024 春期末试题和答案，并补充难度情况；更正 README.md 中笔误 (#5)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
