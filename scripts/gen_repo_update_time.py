@@ -26,7 +26,7 @@ def get_latest_commit(owner, repo):
         for commit in commits:
             message = commit['commit']['message']
             # Skip commits with messages starting with English letters
-            if message[0].isalpha():
+            if message.startswith("Replace") or message.startswith("Add") or message.startswith("ci"):
                 continue
 
             # If the commit does not start with English letters, process it
