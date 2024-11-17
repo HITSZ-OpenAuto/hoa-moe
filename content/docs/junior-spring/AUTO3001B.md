@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 10 月 11 日" author="abigzhe" message="增加了一份模拟试题和一个新版本笔记 (#5)" >}}
+{{< update-info update_time="2024 年 11 月 17 日" author="Kowyo" message="ci: update workflow to enable single page build (#7)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
