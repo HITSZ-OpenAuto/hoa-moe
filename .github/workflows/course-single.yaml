@@ -35,13 +35,14 @@ jobs:
           line="${{ steps.extract.outputs.repo_name }}"
           echo '-------------------------------------------------'
           echo ${line}
-          curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
+          curl -sf "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
           if [ $? -ne 0 ]; then
             echo "Error: tag file not found or connection failed"
             exit 1
           fi
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
           
+          echo " "
           echo '-----tag.txt-----'
           cat "tag_${line}.txt"
           echo " "
@@ -97,7 +98,7 @@ jobs:
 
             echo $semester
             
-            curl -f "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
+            curl -sf "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
             if [ $? -ne 0 ]; then
               echo "Error: Course pages have not been created yet. "
               curl -X POST \
