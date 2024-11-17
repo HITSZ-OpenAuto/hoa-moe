@@ -1,9 +1,6 @@
 name: "Build single course page"
 
 on:
-  push:
-    paths:
-      - "scripts/**"
   workflow_dispatch:
     inputs:
       repo_name:
