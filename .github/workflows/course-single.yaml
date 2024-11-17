@@ -39,7 +39,7 @@ jobs:
       id-token: write
     
     steps:
-      - name: Get Parameters
+      - name: Get parameters
         id: extract
         run: |
           REPO="${{ github.event.inputs.repo_name }}"
@@ -48,7 +48,7 @@ jobs:
           fi
           echo "repo_name=$REPO" >> "$GITHUB_OUTPUT"
 
-      - name: first check
+      - name: First check
         run: |
           echo 'first check: file existence'
           line="${{ steps.extract.outputs.repo_name }}"
@@ -100,12 +100,12 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      - name: Setup python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install python dependencies
+      - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
       - name: Build single course page
@@ -166,7 +166,7 @@ jobs:
         run: |
           python scripts/gen_news.py
 
-      - name: AutoCorrect
+      - name: Auto correct
         uses: huacnlee/autocorrect-action@v2
         with:
           args: --fix content/
