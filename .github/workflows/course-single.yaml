@@ -134,12 +134,16 @@ jobs:
 
             echo >> "./content/docs/${semester}/${line}.md"
             python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-            cat result_time.txt >> "./content/docs/${semester}/${line}.md"
+            
             if [ "$first_time" -eq 1 ]; then
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
               first_time=0
             fi
             head -n +8 "temp1.md" >> "./content/docs/${semester}/${line}.md"
+
+            cat result_time.txt
+            cat result_time.txt >> "./content/docs/${semester}/${line}.md"
+
             tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
 
             echo >> "./content/docs/${semester}/${line}.md"
