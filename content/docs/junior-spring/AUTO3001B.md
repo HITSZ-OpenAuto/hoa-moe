@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 10 月 11 日" author="abigzhe" message="增加了一份模拟试题和一个新版本笔记 (#5)" >}}
+{{< update-info update_time="2024 年 11 月 17 日" author="吴俊达" message="更新一个实验报告版本；下架一份有误的实验报告 (#8)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -102,7 +102,6 @@ math: true
   {{< /filetree/folder >}}
   {{< filetree/folder name="labs" state="closed" >}}
   {{< filetree/folder name="2022_LMH" state="closed" >}}
-    {{< filetree/file name="上机 1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E4%B8%8A%E6%9C%BA1.pdf" >}}
     {{< filetree/file name="上机 2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E4%B8%8A%E6%9C%BA2.pdf" >}}
     {{< filetree/file name="实验 1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E5%AE%9E%E9%AA%8C1.pdf" >}}
     {{< filetree/file name="实验 2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E5%AE%9E%E9%AA%8C2.pdf" >}}
@@ -117,6 +116,7 @@ math: true
     {{< filetree/file name="实验 1 磁悬浮根轨迹校正报告-watermark.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E5%AE%9E%E9%AA%8C1%20%E7%A3%81%E6%82%AC%E6%B5%AE%E6%A0%B9%E8%BD%A8%E8%BF%B9%E6%A0%A1%E6%AD%A3%E6%8A%A5%E5%91%8A-watermark.pdf" >}}
     {{< filetree/file name="实验 2 直线一级电机倒立摆-watermark.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E5%AE%9E%E9%AA%8C2%20%E7%9B%B4%E7%BA%BF%E4%B8%80%E7%BA%A7%E7%94%B5%E6%9C%BA%E5%80%92%E7%AB%8B%E6%91%86-watermark.pdf" >}}
   {{< /filetree/folder >}}
+    {{< filetree/file name="2024_WJD_上机一.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2024_WJD_%E4%B8%8A%E6%9C%BA%E4%B8%80.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="notes" state="closed" >}}
     {{< filetree/file name="2024 复习 (习题来自课件和作业)_Abigzhe.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2024%E5%A4%8D%E4%B9%A0%28%E4%B9%A0%E9%A2%98%E6%9D%A5%E8%87%AA%E8%AF%BE%E4%BB%B6%E5%92%8C%E4%BD%9C%E4%B8%9A%29_Abigzhe.pdf" >}}
