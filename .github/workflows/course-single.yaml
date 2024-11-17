@@ -71,7 +71,7 @@ jobs:
 
           for match_semester in "${semesters[@]}"
           do
-            semester="$(echo '${{ env.my_dict }}' | jq -r '."${match_semester}"')"
+            semester="$(echo '${{ env.my_dict }}' | tr -d '\n' | jq -r '."${match_semester}"')"
             if [ -z "$semester" ]; then
               continue
             else
@@ -125,7 +125,7 @@ jobs:
 
           for match_semester in "${semesters[@]}"
           do
-            semester="$(echo '${{ env.my_dict }}' | jq -r '."${match_semester}"')"
+            semester="$(echo '${{ env.my_dict }}' | tr -d '\n' | jq -r '."${match_semester}"')"
             if [ -z "$semester" ]; then
               continue
             else
