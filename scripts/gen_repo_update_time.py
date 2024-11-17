@@ -25,11 +25,11 @@ def get_latest_commit(owner, repo):
 
         for commit in commits:
             message = commit['commit']['message']
-            # Skip commits with messages starting with "Replace"
-            if message.startswith("Replace") or message.startswith("Add"):
+            # Skip commits with messages starting with English letters
+            if message[0].isalpha():
                 continue
 
-            # If the commit does not start with "Replace", process it
+            # If the commit does not start with English letters, process it
             commit_info['author'] = commit['commit']['author']['name']
             commit_info['date'] = datetime.datetime.strptime(commit['commit']['author']['date'],
                                                              "%Y-%m-%dT%H:%M:%SZ") + datetime.timedelta(hours=8)  # UTC-8
