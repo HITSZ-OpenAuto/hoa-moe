@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       repo_name:
-        description: 'Name of the course'
+        description: 'Name of the repository'
         required: true
         default: 'NOT_ASSIGNED'
 
@@ -31,16 +31,18 @@ jobs:
 
       - name: First check
         run: |
-          echo 'first check: file existence'
+          echo 'First check: file existence'
           line="${{ steps.extract.outputs.repo_name }}"
           echo '-------------------------------------------------'
           echo ${line}
-          curl -sf -o /dev/null "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt"
+          set +e
+          curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
           if [ $? -ne 0 ]; then
             echo "Error: tag file not found or connection failed"
+            set -e
             exit 1
           fi
-          curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
+          set -e
           
           echo " "
           echo '-----tag.txt-----'
@@ -113,6 +115,8 @@ jobs:
 
             echo $semester
             
+            # Ensure the if statement can be executed
+            set +e
             curl -sf -o /dev/null "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
             if [ $? -ne 0 ]; then
               echo "Error: Course pages have not been created yet. "
@@ -121,8 +125,10 @@ jobs:
                 -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
                 https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/course.yaml/dispatches \
                 -d '{"ref":"main"}'
+              set -e
               exit 1
             fi
+            set -e
           done
       
       - name: Checkout
