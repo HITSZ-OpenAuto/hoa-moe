@@ -3,12 +3,16 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-11-17'
-description: 北京时间 2024-11-16 16 时至今
+date: '2024-11-18'
+description: 北京时间 2024-11-17 04 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
+
+#### 周一 (11.18)
+
+- GitHub Actions 在 [.github](https://github.com/HITSZ-OpenAuto/.github) 中提交了信息：ci: update README.md
 
 #### 周日 (11.17)
 
@@ -147,12 +151,4 @@ title: AUTO 更新速递
 - Kowyo 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：ci: update workflow to enable single page build (#34)
 
 - GitHub Actions 在 [.github](https://github.com/HITSZ-OpenAuto/.github) 中提交了信息：ci: update README.md
-
-#### 周六 (11.16)
-
-- oliver-wu 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：test new trigger workflow
-
-- oliver-wu 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：test new trigger workflow
-
-- oliver-wu 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：update word version
 
