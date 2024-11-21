@@ -6,7 +6,7 @@ on:
       - "scripts/**"
       - ".github/workflows/course.yaml"
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -334,6 +334,12 @@ jobs:
           NEWS_TYPE: daily
         run: |
           python scripts/gen_news.py
+
+      - name: Fetch opened PRs and issues
+        env:
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          python scripts/fetch_opened_prs_and_issues.py
 
       - name: Wrap badges
         run: |
