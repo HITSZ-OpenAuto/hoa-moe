@@ -29,7 +29,6 @@ context:
   codeblock: 1
 textRules:
   "知识共享署名-非商业性使用-相同方式共享": 0
-  "ROS2": 0
 spellcheck:
   words:
     # Please do not add a general English word (eg. apple, python) here.
