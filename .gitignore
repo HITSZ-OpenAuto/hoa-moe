@@ -18,8 +18,11 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 
-# # Ignore Mac system files
+# Ignore Mac system files
 *.DS_Store
 
 .idea/*
 */.idea/
+
+# Ignore .env
+scripts/.env

@@ -132,16 +132,17 @@ def create_markdown_report(filtered_commits, org_course_name, news_type):
     """Create the markdown report from filtered commits."""
     filtered_commits.sort(key=lambda a: a['date'], reverse=True)
     markdown_report = ""
+    markdown_report += f'## 更新内容\n\n'
     prev_date = None
 
     for commit in filtered_commits:
-        if commit["author"] == "github-actions":
+        if commit["author"] == "github-actions" or commit["author"] == "actions-user":
             continue
 
         date = commit['date']
         title = org_course_name.get(commit['repo_name'], commit['repo_name'])
         if prev_date != date.date():
-            markdown_report += f'#### {chinese_weekday(date)}({date.month}.{date.day})\n\n'
+            markdown_report += f'### {chinese_weekday(date)}({date.month}.{date.day})\n\n'
             prev_date = date.date()
 
         markdown_report += f'- {commit["author"]} 在 [{title}](https://github.com/{ORG_NAME}/{commit["repo_name"]}) 中提交了信息： {commit["message"].splitlines()[0]}\n\n'
