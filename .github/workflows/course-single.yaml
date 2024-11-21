@@ -253,6 +253,12 @@ jobs:
         run: |
           python scripts/gen_news.py
 
+      - name: Fetch opened PRs and issues
+        env:
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          python scripts/fetch_opened_prs_and_issues.py
+
       - name: Auto correct
         uses: huacnlee/autocorrect-action@v2
         with:
