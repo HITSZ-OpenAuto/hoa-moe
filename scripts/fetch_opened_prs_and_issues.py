@@ -80,7 +80,7 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
         content = f.read()
         f.seek(0)
         # Keep content before "## 议题" and overwrite the rest
-        if "## Issues" in content:
+        if "## 待解决的 Issues" in content:
             f.write(content.split("## 待解决的 Issues")[0])
         else:
             f.write(content)
