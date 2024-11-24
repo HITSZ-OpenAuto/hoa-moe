@@ -37,7 +37,7 @@ sidebar:
 <style>
 .progress-bar {
     background-color: #3b82f6;
-    animation: fill 2s forwards;
+    animation: fill 5s forwards;
 }
 
 @keyframes fill {
@@ -45,7 +45,7 @@ sidebar:
         width: 0%;
     }
     to {
-        width: 27.3%; /* Set to your desired width */
+        width: 29.8%; /* Set to your desired width */
     }
 }
 </style>
@@ -108,4 +108,5 @@ sidebar:
 | empty            | 2024.10.31  | 受益匪浅                                |
 | 匡            | 2024.11.1  | 以及很不错啦！                                |
 | Stephen            | 2024.11.1  | 希望网站办得越来越好 (¯▽¯)👍                                |
-| 匿名            | 2024.11.16  | 很感谢你们辛苦做的网站，对我帮助很大                                |
+| 匿名            | 2024.11.16  | 很感谢你们辛苦做的网站，对我帮助很大         |
+| Olo            | 2024.11.24  | 感谢 伟大无需多言        |
