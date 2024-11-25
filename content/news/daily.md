@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-11-22'
-description: 北京时间 2024-11-21 00 时至今
+date: '2024-11-25'
+description: 北京时间 2024-11-24 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,13 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (11.22)
+### 周一 (11.25)
 
-- 345ljh 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：添加课设报告和答辩 PPT (#8)
+- 345ljh 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：添加实验代码 (#2)
 
 ## 待解决的 Issues
+- **标签**: bug
+
 
 ### [《教学日历》无对应文件夹](https://github.com/HITSZ-OpenAuto/EE1013/issues/3)
 - **仓库**: EE1013
@@ -43,8 +45,5 @@ title: AUTO 更新速递
 - **标签**: enhancement
 
 ## 待合并的 Pull Requests
-### [add lab](https://github.com/HITSZ-OpenAuto/AUTO3012/pull/2)
-- **仓库**: AUTO3012
-- **创建于**: 2024-11-19T13:33:34Z
-- **作者**: 345ljh
+暂无打开的 Pull Requests
 
