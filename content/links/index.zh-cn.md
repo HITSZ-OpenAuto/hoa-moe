@@ -27,6 +27,7 @@ sidebar:
   {{< card link="https://missing.criwits.top/" title="《你缺失的那门计算机课》" >}}
   {{< card link="http://mirrors.osa.moe/" title="OSA 开源软件镜像站" >}}
   {{< card link="http://hsica.org/" title="HSICA 飞跃手册" >}}
+  {{< card link="https://man.naosi.org/" title="大工生存手册" >}}
 {{< /cards >}}
 
 ## 个人博客
