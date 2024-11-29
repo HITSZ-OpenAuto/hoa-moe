@@ -1,58 +1,84 @@
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {{ if hugo.IsProduction -}}
-      <meta name="robots" content="index, follow" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ if hugo.IsProduction -}}
+    <meta name="robots" content="index, follow" />
+  {{ else -}}
+    <meta name="robots" content="noindex, nofollow" />
+  {{ end -}}
+  {{ partialCached "favicons.html" . -}}
+  <title>
+    {{- if .IsHome -}}
+      {{ .Site.Title -}}
     {{ else -}}
-      <meta name="robots" content="noindex, nofollow" />
+      {{ with .Title }}{{ . }} – {{ end -}}
+      {{ .Site.Title -}}
     {{ end -}}
-    {{ partialCached "favicons.html" . }}
-    <title>
-      {{- if .IsHome -}}
-        {{ .Site.Title -}}
-      {{ else -}}
-        {{ with .Title }}{{ . }} – {{ end -}}
-        {{ .Site.Title -}}
-      {{ end -}}
-    </title>
-    <meta name="description" content="{{ partial "utils/page-description.html" . }}" />
-  
-    {{ partial "opengraph.html" . }}
-    {{ template "_internal/schema.html" . -}}
-    {{ template "_internal/twitter_cards.html" . -}}
-  
-    {{ partialCached "head-css.html" . }}
-  
-  
-    <!-- Google Analytics -->
-    {{- if and (eq hugo.Environment "production") .Site.Config.Services.GoogleAnalytics.ID }}
-      <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
-      {{ partial "google-analytics.html" . }}
-    {{- end }}
-    
-    <!-- Umami Cloud -->
-    <script async src="https://analytics.eu.umami.is/script.js" data-website-id="8f9fd64f-34e7-410c-a26c-786fd11a1780"></script>
-  
-    <script>
-      /* Initialize light/dark mode */
-      const defaultTheme = '{{ site.Params.theme.default | default `system`}}';
-  
-      const setDarkTheme = () => {
-        document.documentElement.classList.add("dark");
-        document.documentElement.style.colorScheme = "dark";
+  </title>
+  <meta name="description" content="{{ partial "utils/page-description.html" . }}" />
+
+  {{- with .Params.canonical -}}
+    <link rel="canonical" href="{{ . }}" itemprop="url" />
+  {{- else -}}
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+  {{- end -}}
+
+  {{- partial "opengraph.html" . -}}
+  {{- template "_internal/schema.html" . -}}
+  {{- template "_internal/twitter_cards.html" . -}}
+
+  {{- partialCached "head-css.html" . -}}
+
+
+<!-- Google Analytics -->
+{{- if and (eq hugo.Environment "production") .Site.Config.Services.GoogleAnalytics.ID }}
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+  {{ partial "google-analytics.html" . }}
+{{- end }}
+
+  <script>
+    /* Initialize light/dark mode */
+    const defaultTheme = '{{ site.Params.theme.default | default `system`}}';
+
+    const setDarkTheme = () => {
+      document.documentElement.classList.add("dark");
+      document.documentElement.style.colorScheme = "dark";
+      sessionStorage.setItem("color-theme", "dark");
+    }
+    const setLightTheme = () => {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.style.colorScheme = "light";
+      sessionStorage.setItem("color-theme", "light");
+    }
+
+    if (sessionStorage.getItem("color-theme")) {
+      const storedTheme = sessionStorage.getItem("color-theme");
+      if (storedTheme === "dark") {
+        setDarkTheme();
+      } else {
+        setLightTheme();
       }
-      const setLightTheme = () => {
-        document.documentElement.classList.remove("dark");
-        document.documentElement.style.colorScheme = "light";
-      }
-  
-      defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
-      if (defaultTheme === "system") {
+    } else {
+      if (defaultTheme === "dark") {
+        setDarkTheme();
+      } else if (defaultTheme === "light") {
+        setLightTheme();
+      } else if (defaultTheme === "system") {
+        // Check system preference if set to "system"
         window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
       }
+    }
 
-    </script>
-  
-    {{ partial "custom/head-end.html" . }}
-  </head>
-  
+    // if ("color-theme" in sessionStorage) {
+    //   sessionStorage.getItem("color-theme") === "dark" ? setDarkTheme() : setLightTheme();
+    // } else {
+    //   defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
+    //   if (defaultTheme === "system") {
+    //     window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
+    //   }
+    // }
+    
+  </script>
+
+  {{ partial "custom/head-end.html" . }}
+</head>
