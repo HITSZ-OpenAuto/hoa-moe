@@ -45,5 +45,4 @@ title: AUTO 更新速递
 - **标签**: enhancement
 
 ## 待合并的 Pull Requests
-暂无打开的 Pull Requests
 
