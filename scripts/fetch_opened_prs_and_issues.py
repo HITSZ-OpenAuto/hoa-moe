@@ -79,48 +79,48 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
     with open(f'content/news/daily.md', 'r+') as f:
         content = f.read()
         f.seek(0)
-        # Keep content before "## 议题" and overwrite the rest
+        # Keep content before "## 待解决的 Issues" and overwrite the rest
         if "## 待解决的 Issues" in content:
             f.write(content.split("## 待解决的 Issues")[0])
         else:
             f.write(content)
-        f.write("## 待解决的 Issues\n")
+        f.write("## 待解决的 Issues\n\n")
         f.truncate()
         if not issues:
             f.write("暂无待解决的 Issues\n\n")
         else:
             for issue in issues:
                 if issue['repository']['name'] != 'hoa-moe':
-                    f.write(f"### [{issue['title']}]({issue['url']})\n")
+                    f.write(f"### [{issue['title']}]({issue['url']})\n\n")
                     f.write(f"- **仓库**: {issue['repository']['name']}\n")
                     f.write(f"- **创建于**: {issue['createdAt']}\n")
                     f.write(f"- **作者**: {issue['author']['login']}\n")
-                    
-                # Labels (if any)
-                if issue['labels']:
-                    label_list = ', '.join([label['name'] for label in issue['labels']])
-                    f.write(f"- **标签**: {label_list}\n")
-                
-                f.write("\n")
+
+                    # Labels (if any)
+                    if issue['labels']:
+                        label_list = ', '.join([label['name'] for label in issue['labels']])
+                        f.write(f"- **标签**: {label_list}\n")
+
+                    f.write("\n")
         
         # Pull Requests section
-        f.write("## 待合并的 Pull Requests\n")
+        f.write("## 待合并的 Pull Requests\n\n")
         if not prs:
-            f.write("暂无打开的 Pull Requests\n\n")
+            f.write("暂无打开的 Pull Requests\n")
         else:
             for pr in prs:
                 if pr['repository']['name'] != 'hoa-moe':
-                    f.write(f"### [{pr['title']}]({pr['url']})\n")
+                    f.write(f"### [{pr['title']}]({pr['url']})\n\n")
                     f.write(f"- **仓库**: {pr['repository']['name']}\n")
                     f.write(f"- **创建于**: {pr['createdAt']}\n")
                     f.write(f"- **作者**: {pr['author']['login']}\n")
-                    
-                # Labels (if any)
-                if pr['labels']:
-                    label_list = ', '.join([label['name'] for label in pr['labels']])
-                    f.write(f"- **标签**: {label_list}\n")
+
+                    # Labels (if any)
+                    if issue['labels']:
+                        label_list = ', '.join([label['name'] for label in issue['labels']])
+                        f.write(f"- **标签**: {label_list}\n")
                 
-                f.write("\n")
+                    f.write("\n")
     
     print(f"Report updated: content/news/daily.md")
 
