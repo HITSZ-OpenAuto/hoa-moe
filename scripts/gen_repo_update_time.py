@@ -13,30 +13,40 @@ def get_http_session():
     session.mount('https://', adapter)
     return session
 
-
-# Function to get the latest commit
 def get_latest_commit(owner, repo):
     commits_url = f'https://api.github.com/repos/{owner}/{repo}/commits'
     params = {'since': '2000-01-01T00:00:01Z',
-              'per_page': 1}
-    response = session.get(commits_url, headers=headers, params=params)
+              'per_page': 10}  # Fetch more than one commit
+    response = requests.get(commits_url, headers=headers, params=params)
     commit_info = dict()
+
     if response.status_code == 200:
-        commit = response.json()
-        commit_info['author'] = commit[0]['commit']['author']['name']
-        commit_info['date'] = datetime.datetime.strptime(commit[0]['commit']['author']['date'],
-                                                         "%Y-%m-%dT%H:%M:%SZ") + datetime.timedelta(hours=8)  # UTC-8
-        commit_info['message'] = commit[0]['commit']['message']
+        commits = response.json()
+
+        for commit in commits:
+            message = commit['commit']['message']
+            # Skip commits with messages starting with English letters
+            if message.startswith("Replace") or message.startswith("Add") or message.startswith("ci"):
+                continue
+
+            # If the commit does not start with English letters, process it
+            commit_info['author'] = commit['commit']['author']['name']
+            commit_info['date'] = datetime.datetime.strptime(commit['commit']['author']['date'],
+                                                             "%Y-%m-%dT%H:%M:%SZ") + datetime.timedelta(hours=8)  # UTC-8
+            commit_info['message'] = message
+            return commit_info  # Return the first valid commit
+
     else:
         print(f'Failed to fetch commits for {repo}: {response.status_code}')
-    return commit_info
+    
+    return commit_info  # Return empty if no valid commit was found
 
 
 def save_latest_update(commit_info):
     datetime_object = commit_info['date']
-    yymmdd = f'{datetime_object.year}.{datetime_object.month}.{datetime_object.day}'
+    yymmdd = f'{datetime_object.year} 年 {datetime_object.month} 月 {datetime_object.day} 日'
     message_line = commit_info["message"].split('\n')
-    result_content = "最近由 " + commit_info['author'] + " 更新于 " + yymmdd + "，更新内容：" + message_line[0]  + "\n\n"
+    result_content = f"""{{{{< update-info update_time="{yymmdd}" author="{commit_info['author']}" message="{message_line[0]}" >}}}}\n"""
     with open('result.txt', 'w') as file:
         file.write(result_content)
 

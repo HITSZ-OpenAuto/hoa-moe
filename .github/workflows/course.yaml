@@ -1,12 +1,12 @@
-name: 'Build Documentation'
+name: "Build Documentation"
 
 on:
   push:
     paths:
-      - 'scripts/**'
-      - '.github/workflows/course.yaml'
+      - "scripts/**"
+      - ".github/workflows/course.yaml"
   schedule:
-    - cron: '0 16 */2 * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -20,7 +20,7 @@ jobs:
       contents: write
       id-token: write
 
-    steps:  
+    steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -28,29 +28,62 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      - name: Setup python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-            python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Install python dependencies
+      - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Get all repositories in the organization
-        uses : austenstone/get-org-repos@v3.1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          org: "HITSZ-OpenAuto"
-          delimiter: "\n"
-        id: get-org-repos
+      - name: Fetch public repositories in the organization
+        run: |
+          # 起始页
+          page=1
+          
+          # 用于保存输出的 JSON 文件
+          output_file="repos.json"
 
-      - name: Turn to array
-        id: modified_files_list
-        uses: lucaspinheirogit/list-from-string-array-action@v1.4.3
-        with:
-          stringArray: ${{ steps.get-org-repos.outputs.repos }}
+          # 清空输出文件，确保每次运行时是从空文件开始
+          > "$output_file"
+          
+          # 循环直到获取所有页面的仓库名
+          while true; do
+              # 发起请求，获取当前页的仓库
+              response=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                              -H "Accept: application/vnd.github.v3+json" \
+                              "https://api.github.com/orgs/HITSZ-OpenAuto/repos?type=public&per_page=50&page=$page")
+              
+              # 将响应内容追加到文件中
+              echo "$response" >> "$output_file"
+              
+              # 检查响应头中的 Link 是否包含 rel="next"，来判断是否有下一页
+              header=$(curl -s -I -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                              -H "Accept: application/vnd.github.v3+json" \
+                              "https://api.github.com/orgs/HITSZ-OpenAuto/repos?type=public&per_page=50&page=$page")
 
-      - name: Bulid directory
+              set +e
+              next_page=$(echo -e "$header" | grep -i 'rel="next"')
+              set -e
+              
+              echo $next_page
+              if [ -z "$next_page" ]; then
+                break
+              fi
+              
+              # 如果有下一页，增加页码
+              page=$((page + 1))
+          done
+
+          echo "All public repositories have been saved to $output_file"
+
+      - name: Parse the repo names and save as env vars
+        id: parse_repos
+        run: |
+          repos=$(jq -r '.[].name' repos.json | jq -R -s -c 'split("\n")[:-1]')
+          echo "repos_array=$repos" >> $GITHUB_ENV
+
+      - name: Bulid directory pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
           semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春' '跨专业选修' '文理通识与MOOC')
@@ -74,21 +107,28 @@ jobs:
               touch "${SEMESTER}-${CATEGORY}.txt"
             done
           done
-          
-          echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
-          cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
-          cat repos.txt
+
+          # echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
+          # cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
+          # cat repos.txt
 
       - name: Build course pages
         run: |
+          # 建立课程页面
           counter_man=0
           counter_dis=100
           counter_graduate=200
           counter_cross=300
           counter_general=400
           counter_legacy=1000
-          for line in $(cat repos.txt)
+          for line in $(echo '${{ env.repos_array }}' | jq -r '.[]');
           do
+            set +e
+            echo "$line" | grep -qE '^([A-Z]{2,4}[0-9]{3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$'
+            if [ $? -eq 1 ]; then
+              continue
+            fi
+            set -e
             echo '-------------------------------------------------'
             echo ${line}
             curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
@@ -146,7 +186,7 @@ jobs:
                   continue
                   ;;   
               esac
-      
+
               echo $semester
 
               CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
@@ -191,7 +231,7 @@ jobs:
                 if [ ${CATEGORY} = "限选" ]
                 then
                   echo "## ${CATEGORY}" > "${semester}-${category}.txt"
-                  echo "[查看限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)" >> "${semester}-${category}.txt"
+                  echo "[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)" >> "${semester}-${category}.txt"
                 fi
                 # if [ ${CATEGORY} = "跨专业选修" ]
                 # then
@@ -250,16 +290,9 @@ jobs:
               echo "math: true" >> "./content/docs/${semester}/${line}.md"
               echo '---' >> "./content/docs/${semester}/${line}.md"
 
+              echo >> "./content/docs/${semester}/${line}.md"
               python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
-              
-              if [ ${CATEGORY} = "限选" ]
-              then
-                MODULE=`cat "tag_${line}.txt" | grep -E "^module:..*$" | sed -E 's/^module:.(.*)$/\1/'`
-                echo "该课程属于限选课程的${MODULE}模块。" >> "./content/docs/${semester}/${line}.md"
-                echo '<br>' >> "./content/docs/${semester}/${line}.md"
-                echo "什么是${MODULE}模块？请查阅[限选课选课指南](https://hoa.moe/blog/selecting-distributive-lessons/)。" >> "./content/docs/${semester}/${line}.md"
-              fi
               
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
               tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
@@ -276,8 +309,8 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
             done
           done
-      
-      - name: Build Semester Pages
+
+      - name: Build semester pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
           category_arr='mandatory distributional-selective cross-major-selective graduate-course general-knowledge legacy'
@@ -302,9 +335,27 @@ jobs:
         run: |
           python scripts/gen_news.py
 
+      - name: Fetch opened PRs and issues
+        env:
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          python scripts/fetch_opened_prs_and_issues.py
+
+      - name: Wrap badges
+        run: |
+          for file in $(find content/docs -name "*.md")
+          do
+              python scripts/wrap_badges.py $file
+          done
+
+      - name: Auto correct
+        uses: huacnlee/autocorrect-action@v2
+        with:
+          args: --fix content/
+
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'content'
+          add: "content"
           default_author: github_actions
-          message: 'ci: update course pages'
+          message: "ci: update course pages"

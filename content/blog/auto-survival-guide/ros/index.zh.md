@@ -14,7 +14,7 @@ math: true
 
 https://www.bilibili.com/video/BV1Ci4y1L7ZZ  
 
-- 如何解决 rosdep init 与 rosdep update 失败的问题：[rosdep问题解决](./%E8%A7%A3%E5%86%B3rosdep%20init%E4%B8%8Erosdep%20update%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98.md)
+- 如何解决 rosdep init 与 rosdep update 失败的问题：[rosdep 问题解决](./%E8%A7%A3%E5%86%B3rosdep%20init%E4%B8%8Erosdep%20update%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98.md)
 
 ## 解决 rosdep init 与 rosdep update 失败的问题
 
@@ -27,13 +27,13 @@ sudo rosdep init
 rosdep update
 ```
 
-`rosdep`能帮助我们安装ROS包所需要的依赖，然而执行的时候，通常会出现：
+`rosdep`能帮助我们安装 ROS 包所需要的依赖，然而执行的时候，通常会出现：
 
 ![image-20230118170105143](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_17_1_5_image-20230118170105143.png)
 
-这个问题来源是大陆的DNS污染，我们首先要手动更改域名解析：
+这个问题来源是大陆的 DNS 污染，我们首先要手动更改域名解析：
 
-打开https://site.ip138.com/ ，输入`raw.githubusercontent.com`，查询其IP地址：
+打开 https://site.ip138.com/ ，输入`raw.githubusercontent.com`，查询其 IP 地址：
 
 ![image-20230118171754504](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_17_17_54_image-20230118171754504.png)
 
@@ -59,7 +59,7 @@ rosdep init
 
 如果还是访问不了的话，那我们手动进行`rosdep init`的操作：
 
-用电脑访问https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list ,可看到如下界面：
+用电脑访问 https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list ,可看到如下界面：
 
 ![image-20230118170300075](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_18_6_17_18_17_3_0_image-20230118170300075.png)
 
@@ -106,7 +106,7 @@ rosdep update
 sudo vim /usr/lib/python2.7/dist-packages/rosdistro/__init__.py
 ```
 
-在第68行的`https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml`前面加上`https://ghproxy.com/`
+在第 68 行的`https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml`前面加上`https://ghproxy.com/`
 
 ![image-20230118174655958](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_18_6_17_18_17_46_56_image-20230118174655958.png)
 
@@ -116,7 +116,7 @@ sudo vim /usr/lib/python2.7/dist-packages/rosdistro/__init__.py
 sudo vim /usr/lib/python2.7/dist-packages/rosdep2/gbpdistro_support.py
 ```
 
-在第34行的`https://raw.githubusercontent.com/ros/rosdistro/`前面加上`https://ghproxy.com/`
+在第 34 行的`https://raw.githubusercontent.com/ros/rosdistro/`前面加上`https://ghproxy.com/`
 
 ![image-20230118175214266](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_18_6_18_18_17_52_14_image-20230118175214266.png)
 
@@ -126,11 +126,11 @@ sudo vim /usr/lib/python2.7/dist-packages/rosdep2/gbpdistro_support.py
 sudo vim /usr/lib/python2.7/dist-packages/rosdep2/sources_list.py
 ```
 
-在第64行的`https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list`前面加上`https://ghproxy.com/`
+在第 64 行的`https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list`前面加上`https://ghproxy.com/`
 
 ![image-20230118175357488](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_17_53_57_image-20230118175357488.png)
 
-同一个文件，在第301行中添加：`url="https://ghproxy.com/"+url`
+同一个文件，在第 301 行中添加：`url="https://ghproxy.com/"+url`
 
 ![image-20230118174829167](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_18_6_19_18_18_1_15_18_17_48_29_image-20230118174829167.png)
 
@@ -140,7 +140,7 @@ sudo vim /usr/lib/python2.7/dist-packages/rosdep2/sources_list.py
 sudo vim /usr/lib/python2.7/dist-packages/rosdep2/rep3.py
 ```
 
-在第36行的`https://raw.githubusercontent.com/ros/rosdistro/master/releases/targets.yaml`前面加上`https://ghproxy.com/`
+在第 36 行的`https://raw.githubusercontent.com/ros/rosdistro/master/releases/targets.yaml`前面加上`https://ghproxy.com/`
 
 ![image-20230118175630420](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_17_56_30_image-20230118175630420.png)
 
@@ -150,11 +150,11 @@ sudo vim /usr/lib/python2.7/dist-packages/rosdep2/rep3.py
 sudo vim /usr/lib/python2.7/dist-packages/rosdistro/manifest_provider/github.py
 ```
 
-在第68行的`https://raw.githubusercontent.com/%s/%s/package.xml`前面加上`https://ghproxy.com/`
+在第 68 行的`https://raw.githubusercontent.com/%s/%s/package.xml`前面加上`https://ghproxy.com/`
 
 ![image-20230118175827618](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_18_6_19_18_17_58_27_image-20230118175827618.png)
 
-同一个文件，在第119行的`https://raw.githubusercontent.com/%s/%s/%s`前面加上`https://ghproxy.com/`
+同一个文件，在第 119 行的`https://raw.githubusercontent.com/%s/%s/%s`前面加上`https://ghproxy.com/`
 
 ![image-20230118175927888](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_17_59_27_image-20230118175927888.png)
 

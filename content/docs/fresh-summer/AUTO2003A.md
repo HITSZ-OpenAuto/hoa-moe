@@ -1,15 +1,19 @@
 ---
-title: （必修）创新训练课A
-weight: 36
+title: （必修）创新训练课 A
+weight: 37
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
-最近由 Kowyo 更新于 2024.6.1，更新内容：测试 GitHub Actions
 
+{{< update-info update_time="2024 年 7 月 16 日" author="Kowyo" message="更改文字描述" >}}
 
-![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
-![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
+<div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
+
+![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
+
+</div>
 
 ## Awesome HITSZ 大一立项
 
@@ -19,7 +23,7 @@ math: true
 - [Bike-Computer](https://github.com/MaxwellJay256/Bike-Computer) - 基于 ESP-32 和 esp-idf v4.4 的 自行车 GPS 码表
 - [stockanalysis-freshman-year-project](https://github.com/efJerryYang/stockanalysis-freshman-year-project) - 基于机器学习的股票预测和分析
 
-如果你发现了有意思的大一立项项目，或者想分享自己的大一立项项目，欢迎开立 Pull Request 来增加新內容。
+如果你发现了有意思的大一立项项目，或者想分享自己的大一立项项目，欢迎创建 Pull Request 来增加新內容。
 
 ## 资料下载
 

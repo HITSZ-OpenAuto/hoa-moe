@@ -25,13 +25,17 @@ sidebar:
   {{< card link="https://doby.tech" title="一键导入课程表" >}}
   {{< card link="http://219.223.238.14:88/ve/" title="课程回放" >}}
   {{< card link="https://missing.criwits.top/" title="《你缺失的那门计算机课》" >}}
+  {{< card link="http://mirrors.osa.moe/" title="OSA 开源软件镜像站" >}}
+  {{< card link="http://hsica.org/" title="HSICA 飞跃手册" >}}
+  {{< card link="https://man.naosi.org/" title="大工生存手册" >}}
 {{< /cards >}}
 
 ## 个人博客
 
 {{< cards >}}
-  {{< card link="https://www.longlin.tech/" title="longlin的个人小站" >}}
-  {{< card link="https://longbin.tech" title="Longbin's Tech-Blog" >}}  
+  {{< card link="https://www.longlin.tech/" title="longlin 的个人小站" >}}
+  {{< card link="https://longbin.tech" title="Longbin's Tech-Blog" >}}
+  {{< card link="https://oliverwu.top" title="Oliver Wu 的个人主页" >}}
 {{< /cards >}}
 
 {{< callout type="info" >}}

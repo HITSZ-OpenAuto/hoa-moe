@@ -90,7 +90,7 @@ menu:
       weight: 5
 
 params:
-  description: 由 HITSZ OpenAuto 维护, 为 HITSZ 学子提供课程攻略共享服务
+  description: 由 HITSZ OpenAuto 维护，为 HITSZ 学子提供课程攻略共享服务
 
   navbar:
     displayTitle: true
@@ -135,7 +135,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/HITSZ-OpenAuto/hoa.moe/edit/main/content/"
+    base: "https://github.com/HITSZ-OpenAuto/hoa-moe/edit/main/content/"
     
   blog:
     list:
@@ -154,7 +154,7 @@ params:
 
     # https://giscus.app/
     giscus:
-      repo: HITSZ-OpenAuto/hoa.moe
+      repo: HITSZ-OpenAuto/hoa-moe
       repoId: R_kgDOKmcukw
       category: General
       categoryId: DIC_kwDOKmcuk84Cdqlf

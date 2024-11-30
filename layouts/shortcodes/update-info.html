@@ -1,0 +1,7 @@
+{{- $update_time := .Get "update_time" -}}
+{{- $author := .Get "author" -}}
+{{- $message := .Get "message" -}}
+
+<div class="hx-mt-4 hx-text-gray-500 hx-text-sm hx-flex hx-items-center hx-flex-wrap hx-gap-y-2 hx-text-ellipsis">
+    <span>最近由 {{$author}} 于 {{ $update_time }}更新：{{ $message | markdownify }}</span>
+</div>

@@ -21,7 +21,7 @@
 ### Clone the repository
 
 ```bash
-git clone https://github.com/HITSZ-OpenAuto/hoa.moe.git --recurse-submodules
+git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules
 ```
 
 ### Install Hugo
@@ -42,7 +42,7 @@ sudo snap install hugo
 ### Run the development server
 
 ```bash
-cd hoa.moe
+cd hoa-moe
 hugo server
 ```
 
