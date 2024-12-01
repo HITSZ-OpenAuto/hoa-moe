@@ -9,7 +9,16 @@
    * https://github.com/giscus/giscus/issues/336#issuecomment-1214366281
   */
   function getGiscusTheme() {
-    return localStorage.getItem("color-theme");
+     if (sessionStorage.getItem("color-theme")) {
+      return sessionStorage.getItem("color-theme");
+     } 
+     else {
+      if (document.documentElement.classList.contains("dark")) {
+        return "dark";
+      } else {
+        return "light";
+      }
+    }
   }
 
   function setGiscusTheme() {
@@ -37,7 +46,7 @@
       "data-reactions-enabled": "{{ (string .reactionsEnabled) |  default 1 }}",
       "data-emit-metadata": "{{ (string .emitMetadata) | default 0 }}",
       "data-input-position": "{{ .inputPosition | default `top` }}",
-      "data-theme": "auto",
+      "data-theme": `${getGiscusTheme()}`,
       "data-lang": "{{ .lang | default $lang }}",
       "crossorigin": "anonymous",
       "async": "",
