@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 5 月 30 日" author="Sieroy" message="新增一个项目分享 (#5)" >}}
+{{< update-info update_time="2024 年 12 月 3 日" author="longlin li" message="docs: change link style" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -103,22 +103,13 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 这里有一些往年的项目，仅供参考。同时欢迎同学通过 PR 到本仓库分享自己的项目！
 
-#### [MaxwellJay256/MetroTicketingSystem](https://github.com/MaxwellJay256/MetroTicketingSystem)
+- [MaxwellJay256/MetroTicketingSystem](https://github.com/MaxwellJay256/MetroTicketingSystem) 模拟地铁售票系统，有二进制成品和 demo。
 
-模拟地铁售票系统，有二进制成品和 demo。
+- [chenxijun/KingdomCard](https://github.com/chenxijun/KingdomCard) 三国杀游戏。项目整体采用 C/S 架构，能实现局域网内联机。前端使用 Qt6 作为 UI 框架，后端采用 Modern C++ 进行编写。
 
-#### [chenxijun/KingdomCard](https://github.com/chenxijun/KingdomCard)
+- [novemberinnorth/Simulate_Shenzhen_Subway_Ticketing_System](https://github.com/novemberinnorth/Simulate_Shenzhen_Subway_Ticketing_System) 使用 C++ Qt6 实现图形化的模拟深圳地铁自动售票系统。
 
-三国杀游戏。项目整体采用 C/S 架构，能实现局域网内联机。
-前端使用 Qt6 作为 UI 框架，后端采用 Modern C++ 进行编写。
-
-#### [novemberinnorth/Simulate_Shenzhen_Subway_Ticketing_System](https://github.com/novemberinnorth/Simulate_Shenzhen_Subway_Ticketing_System)
-
-使用 C++ Qt6 实现图形化的模拟深圳地铁自动售票系统。
-
-#### [Sieroy/Musnake](https://github.com/Sieroy/Musnake)
-
-使用 SDL2 实现图形界面的、融合轻量音游玩法的贪吃蛇游戏。使用 C++ 编写，编写时代码水平比较弱，望见谅。附有可玩 demo，试运行前建议设置显卡全局 FPS 限制以降低消耗。
+- [Sieroy/Musnake](https://github.com/Sieroy/Musnake) 使用 SDL2 实现图形界面的、融合轻量音游玩法的贪吃蛇游戏。使用 C++ 编写，编写时代码水平比较弱，望见谅。附有可玩 demo，试运行前建议设置显卡全局 FPS 限制以降低消耗。
 
 ## 资料下载
 

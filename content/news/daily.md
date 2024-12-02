@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-02'
-description: 北京时间 2024-12-01 13 时至今
+description: 北京时间 2024-12-01 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周二 (12.3)
+
+- longlin li 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：docs: change link style
 
 ### 周一 (12.2)
 
