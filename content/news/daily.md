@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-11-26'
-description: 北京时间 2024-11-25 00 时至今
+date: '2024-12-02'
+description: 北京时间 2024-12-01 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (11.25)
+### 周一 (12.2)
 
-- 345ljh 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：添加实验代码 (#2)
+- IcyDesert 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：Merge pull request #7 from HITSZ-OpenAuto/icydesert
+
+- IcyDesert 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：补充 2024 秋期中考试情况，上传试卷、答案
 
 ## 待解决的 Issues
 
