@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 10 月 17 日" author="吴俊达" message="fix typos in README.md (#15)" >}}
+{{< update-info update_time="2024 年 12 月 4 日" author="Kowyo" message="上传课后习题相关的资料 (#18)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -18,11 +18,14 @@ math: true
 ![Static Badge](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-25%25-wheat)
 ![Static Badge](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-65%25-wheat)
 
-![Static Badge](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B648-wheat) ![Static Badge](https://img.shields.io/badge/%E8%AE%B2%E8%AF%BE-40-wheat) ![Static Badge](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-2%E5%AD%A6%E6%97%B6*4-wheat)
+![Static Badge](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-48-wheat) ![Static Badge](https://img.shields.io/badge/%E8%AE%B2%E8%AF%BE-40-wheat) ![Static Badge](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-2%E5%AD%A6%E6%97%B6*4-wheat)
 
 </div>
 
 该课程有配套的课程设计（2024 年秋季学期起，改名为“实验”）：[自动控制实践 A 实验](https://hoa.moe/docs/junior-autumn/auto3016/)，独立设课，1.5 学分，40 学时。
+
+assignments 文件夹下的《自动控制元件及线路课后题答案（百度文库）》与《自动控制元件习题资料》系从网上下载，部分习题与老师布置的课后作业相同，
+但是答案不一定正确，仅供参考。有些题目可作补充。
 
 ## 教材
 
@@ -200,9 +203,9 @@ math: true
   - 授课风格：稍显含糊，车轱辘话较多；课件内容较丰富，有别学校课件截下来的内容，不过画质较差，而且比较乱，不适合直接做笔记。
   - 听课建议：基本忠于 PPT（不会自由发挥），由于车轱辘话较多，知识讲解得比较抽象，上课不易听懂，课后要多花时间。
 - 李建刚
-  - 授课风格：语速很快（因为学时有限、内容又多，到后面会快到起飞）、逻辑较清晰（到后面由于速度快变得不清晰）、答疑有耐心、板书不好看、语气词较多（到后程由于速度极快，
-    语气词的数量甚至会超过传递信息的词）、课件较美观（但是由于摘选自外校课件，有时会出现符号的冲突或逻辑不连贯）。
-  - 听课建议：因为上课节奏较快，上课只求听懂大概即可，但课后务必整理笔记！！！
+  - 授课风格：语速很快（因为学时有限、内容又多，到后面会快到起飞）、逻辑较清晰（到后面由于速度快变得不清晰）、答疑有耐心、板书不好看、语气词较多（到后程语速极快，
+    但信噪比极低）、课件较美观（但是由于摘选自外校课件，有较多符号的冲突，时有逻辑不连贯）。
+  - 听课建议：因为上课节奏较快，上课只求听懂大概即可（更有可能是听不懂），但课后务必（参考前人资料）整理笔记！！！
 
 ## 关于考试
 
@@ -217,9 +220,13 @@ math: true
 
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
+    {{< filetree/file name="2023 自动控制后半程作业答案 (1).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2023%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%90%8E%E5%8D%8A%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%20%281%29.pdf" >}}
     {{< filetree/file name="ACPP_HW1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW1.pdf" >}}
     {{< filetree/file name="ACPP_HW2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW2.pdf" >}}
     {{< filetree/file name="ACPP_HW3.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW3.pdf" >}}
+    {{< filetree/file name="异步电机部分作业.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E9%83%A8%E5%88%86%E4%BD%9C%E4%B8%9A.pdf" >}}
+    {{< filetree/file name="自动控制元件习题资料.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E4%B9%A0%E9%A2%98%E8%B5%84%E6%96%99.pdf" >}}
+    {{< filetree/file name="自动控制元件及线路课后题答案（百度文库）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88%EF%BC%88%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%EF%BC%89.pdf" >}}
     {{< filetree/file name="自动控制元件教材课后题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E6%95%99%E6%9D%90%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="自控实践作业 3.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A3.pdf" >}}
   {{< /filetree/folder >}}
