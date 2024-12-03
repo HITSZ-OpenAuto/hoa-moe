@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-03'
-description: 北京时间 2024-12-02 00 时至今
+description: 北京时间 2024-12-02 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周三 (12.4)
+
+- Kowyo 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：上传课后习题相关的资料 (#18)
 
 ### 周二 (12.3)
 
@@ -36,12 +40,6 @@ title: AUTO 更新速递
 - **创建于**: 2024-05-12T13:23:05Z
 - **作者**: MaxwellJay256
 - **标签**: documentation
-
-### [Suggestion: purchase the slide and add to the repo](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/1)
-
-- **仓库**: AUTO3002A
-- **创建于**: 2023-12-04T13:40:38Z
-- **作者**: kowyo
 
 ## 待合并的 Pull Requests
 
