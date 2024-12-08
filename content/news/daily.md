@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-04'
-description: 北京时间 2024-12-03 00 时至今
+date: '2024-12-08'
+description: 北京时间 2024-12-07 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (12.4)
+### 周日 (12.8)
 
-- Kowyo 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：上传课后习题相关的资料 (#18)
+- 吴俊达 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：更新补习材料
 
 ## 待解决的 Issues
 
