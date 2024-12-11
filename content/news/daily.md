@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-11'
-description: 北京时间 2024-12-10 00 时至今
+description: 北京时间 2024-12-10 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周三 (12.11)
+
+- 吴俊达 在 [数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：更新趣题解析 (#11)
 
 ### 周二 (12.10)
 
