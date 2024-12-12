@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-11'
-description: 北京时间 2024-12-10 06 时至今
+date: '2024-12-12'
+description: 北京时间 2024-12-11 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周三 (12.11)
 
 - 吴俊达 在 [数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：更新趣题解析 (#11)
-
-### 周二 (12.10)
-
-- 吴俊达 在 [数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：更新 2024 数电试题解析；更新趣题解答及仿真文件；更新 README (#10)
 
 ## 待解决的 Issues
 
