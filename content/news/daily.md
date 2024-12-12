@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-12'
-description: 北京时间 2024-12-11 00 时至今
+description: 北京时间 2024-12-11 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周四 (12.12)
+
+- 吴俊达 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：更新笔记中的一些 bug (#19)
 
 ### 周三 (12.11)
 
