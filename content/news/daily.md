@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-12'
-description: 北京时间 2024-12-11 15 时至今
+date: '2024-12-13'
+description: 北京时间 2024-12-12 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周四 (12.12)
 
 - 吴俊达 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：更新笔记中的一些 bug (#19)
-
-### 周三 (12.11)
-
-- 吴俊达 在 [数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：更新趣题解析 (#11)
 
 ## 待解决的 Issues
 
