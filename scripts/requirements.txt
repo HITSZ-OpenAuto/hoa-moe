@@ -1,4 +1,4 @@
-certifi==2024.8.30
+certifi==2024.12.14
 openai==1.57.0
 PyYAML==6.0.2
 Requests==2.32.3
