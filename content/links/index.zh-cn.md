@@ -28,6 +28,7 @@ sidebar:
   {{< card link="http://mirrors.osa.moe/" title="OSA 开源软件镜像站" >}}
   {{< card link="http://hsica.org/" title="HSICA 飞跃手册" >}}
   {{< card link="https://man.naosi.org/" title="大工生存手册" >}}
+  {{< card link="https://scuteee.com/" title="SCUTEEE" >}}
 {{< /cards >}}
 
 ## 个人博客
