@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-17'
-description: 北京时间 2024-12-16 14 时至今
+description: 北京时间 2024-12-16 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (12.17)
+
+- zhuqi000 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：增加了一个新版本笔记 (#9)
 
 - WDGaster703 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传 2024 年概率论回忆试题及答案
 
@@ -33,10 +35,4 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [增加了一个新版本笔记](https://github.com/HITSZ-OpenAuto/MATH1005/pull/9)
-
-- **仓库**: MATH1005
-- **创建于**: 2024-12-16T12:14:26Z
-- **作者**: zhuqi000
-- **标签**: enhancement
-
+暂无打开的 Pull Requests
