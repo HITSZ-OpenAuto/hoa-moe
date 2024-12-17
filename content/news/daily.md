@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-16'
-description: 北京时间 2024-12-15 12 时至今
+date: '2024-12-17'
+description: 北京时间 2024-12-16 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (12.15)
+### 周二 (12.17)
 
-- 吴俊达 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：修订第五次课课件 (#7)
+- WDGaster703 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传 2024 年概率论回忆试题及答案
 
 ## 待解决的 Issues
 
