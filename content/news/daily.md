@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (12.18)
 
+- WDGaster703 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改成绩构成
+
 - WDGaster703 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：将学时安排表格进行分行处理
 
 - WDGaster703 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：添加模电和数电部分学时安排表，添加电路部分网课链接
