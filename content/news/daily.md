@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-18'
-description: 北京时间 2024-12-17 07 时至今
+description: 北京时间 2024-12-17 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周三 (12.18)
+
+- WDGaster703 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：添加模电和数电部分学时安排表，添加电路部分网课链接
 
 - Kowyo 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：修复错误的《嵌入式系统》链接，更新课程描述
 
