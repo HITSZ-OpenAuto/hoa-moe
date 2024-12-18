@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-17'
-description: 北京时间 2024-12-16 15 时至今
+date: '2024-12-18'
+description: 北京时间 2024-12-17 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -35,4 +35,10 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无打开的 Pull Requests
+### [Update README.md](https://github.com/HITSZ-OpenAuto/EE1013/pull/8)
+
+- **仓库**: EE1013
+- **创建于**: 2024-12-17T15:29:47Z
+- **作者**: WDGaster703
+- **标签**: enhancement
+
