@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-19'
-description: 北京时间 2024-12-18 00 时至今
+description: 北京时间 2024-12-18 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周四 (12.19)
+
+- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Initial commit
 
 ### 周三 (12.18)
 
@@ -35,4 +39,10 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无打开的 Pull Requests
+### [补充课程基本信息和实验内容](https://github.com/HITSZ-OpenAuto/EE1014/pull/5)
+
+- **仓库**: EE1014
+- **创建于**: 2024-12-19T14:22:59Z
+- **作者**: WDGaster703
+- **标签**: enhancement
+
