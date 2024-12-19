@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 7 月 21 日" author="吴俊达" message="更新 README，更新实验报告版本，更新 2024 考试题 (#4)" >}}
+{{< update-info update_time="2024 年 12 月 18 日" author="Kowyo" message="修复错误的《嵌入式系统》链接，更新课程描述" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -24,7 +24,9 @@ math: true
 
 </div>
 
-自 22 级开始，本课程原有的 STM32 理论部分和基础实验、调速实验部分均被纳入大三上的拓展选修课[《嵌入式系统》](https://hoa.moe/docs/junior-spring/auto3024/)中。有关资料也已经转移，请移步查看。综合实验报告仍予保留。
+自 22 级开始，本课程原有的 STM32 理论部分和基础实验、调速实验部分均被纳入大三上的拓展选修课[《嵌入式系统》](https://hoa.moe/docs/junior-autumn/auto3024/)中。有关资料也已经转移，请移步查看。综合实验报告仍予保留。
+
+注意，该课程为哈工大本部/深圳的考研复试课程。
 
 ## 教材及参考书
 
@@ -33,12 +35,13 @@ math: true
 ## 授课教师
 
 - 理论课：董广忠
-  - 授课风格：通过加入密度极高的无意义衬词以及含糊其辞的表述，成功达到让人听不懂的效果。
+  - 授课风格：通过加入密度极高的无意义衬词以及含糊其辞的表述，成功达到让人听不懂的效果。答疑态度十分一般。
   - 听课建议：不考勤。上课会提示重点，建议课后倍速听回放。课件在教师主页，不在 qq 群发放。
     
 > 文/[Oliver Wu](https://github.com/oliverwu515)
   
 - 实验课：王彬彬、刘瑞
+  - 如遇到问题，建议自行 Google。
 
 ## 关于考试
 
