@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (12.19)
 
+- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Update README.md
+
 - WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充课程基本信息 (#1)
 
 - WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Initial commit
