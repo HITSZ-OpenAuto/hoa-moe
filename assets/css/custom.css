@@ -28,7 +28,7 @@ a.animated {
   margin-bottom: 0rem; /* mb-1 */
   position: relative;
   text-decoration: none; /* 移除默认下划线 */
-  padding-bottom: 0.25rem; /* 为伪元素腾出空间 */
+  padding-bottom: 0.5rem; /* 为伪元素腾出空间 */
   display: inline-block;
 }
 
@@ -40,6 +40,8 @@ a.animated::after {
   position: absolute;
   left: 0;
   bottom: 0;
+  margin-top: 2px;
+  border-radius: 0.25rem; /* 4px */
   background-color: var(--animate-color);
   transform: scaleX(0);
   transform-origin: left;
@@ -47,6 +49,10 @@ a.animated::after {
 }
 
 a.animated:hover::after {
+  transform: scaleX(1);
+}
+
+a.animated-active::after {
   transform: scaleX(1);
 }
 
