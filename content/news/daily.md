@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-20'
-description: 北京时间 2024-12-19 02 时至今
+description: 北京时间 2024-12-19 05 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周五 (12.20)
+
+- WDGaster703 在 [（示例）电路 IB](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：补充课程基本信息和实验内容 (#5)
 
 - psp_dada 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：修改试题命名 (#8)
 
@@ -63,12 +65,5 @@ title: AUTO 更新速递
 - **仓库**: AUTO2005
 - **创建于**: 2024-12-19T16:33:41Z
 - **作者**: pspdada
-- **标签**: enhancement
-
-### [补充课程基本信息和实验内容](https://github.com/HITSZ-OpenAuto/EE1014/pull/5)
-
-- **仓库**: EE1014
-- **创建于**: 2024-12-19T14:22:59Z
-- **作者**: WDGaster703
 - **标签**: enhancement
 
