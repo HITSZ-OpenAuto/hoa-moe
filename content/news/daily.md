@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (12.20)
 
+- WDGaster703 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改课程标题
+
 - WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：Initial commit
 
 - WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：Initial commit
