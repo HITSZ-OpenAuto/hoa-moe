@@ -4,13 +4,19 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-20'
-description: 北京时间 2024-12-19 00 时至今
+description: 北京时间 2024-12-19 02 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周五 (12.20)
+
+- psp_dada 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：修改试题命名 (#8)
+
+- GitHub Actions 在 [.github](https://github.com/HITSZ-OpenAuto/.github) 中提交了信息：ci: update README.md
 
 ### 周四 (12.19)
 
@@ -35,13 +41,6 @@ title: AUTO 更新速递
 
 - **仓库**: MATH1005
 - **创建于**: 2024-12-19T17:45:16Z
-- **作者**: pspdada
-- **标签**: enhancement
-
-### [修改试题命名](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/8)
-
-- **仓库**: AUTO3002B
-- **创建于**: 2024-12-19T17:29:43Z
 - **作者**: pspdada
 - **标签**: enhancement
 

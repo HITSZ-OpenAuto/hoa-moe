@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 18 日" author="Kowyo" message="修复错误的《嵌入式系统》链接，更新课程描述" >}}
+{{< update-info update_time="2024 年 12 月 20 日" author="psp_dada" message="修改试题命名 (#8)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -67,9 +67,11 @@ math: true
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
-    {{< filetree/file name="2024 自动控制实践 B 试题回忆版 (V1.0).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
-    {{< filetree/file name="《黄瑞宁漏出》.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E3%80%8A%E9%BB%84%E7%91%9E%E5%AE%81%E6%BC%8F%E5%87%BA%E3%80%8B.pdf" >}}
-    {{< filetree/file name="本部 2020 答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A82020%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< filetree/file name="2021 自控实践 B 试题与答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/2021%20%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< filetree/file name="2024 自控实践 B 试题回忆版 (V1.0).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/2024%20%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
+  {{< filetree/folder name="本部 - 往年题" state="closed" >}}
+    {{< filetree/file name="哈尔滨工业大学 2020 试题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A62020%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
+  {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="labs" state="closed" >}}
     {{< filetree/file name="2024_wjd_综合-watermark.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/2024_wjd_%E7%BB%BC%E5%90%88-watermark.pdf" >}}
