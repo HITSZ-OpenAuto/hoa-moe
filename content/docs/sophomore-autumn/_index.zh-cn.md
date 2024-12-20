@@ -15,6 +15,7 @@ toc: false
 {{< card link="phys1001a"title="大学物理">}}
 {{< card link="lang1006"title="大学英语">}}
 {{< card link="pe100x"title="体育">}}
+{{< card link="ee2004"title="高等电路与电子分析">}}
 {{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
