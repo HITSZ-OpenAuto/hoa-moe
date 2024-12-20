@@ -15,6 +15,7 @@ toc: false
 {{< card link="math1015b"title="微积分 B">}}
 {{< card link="ee1013"title="电路与电子学">}}
 {{< card link="pe100x"title="体育">}}
+{{< card link="ee1014"title="电路与电子技术实验">}}
 {{< /cards >}}
 ## 归档
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了，但原课程资料仍保留，感兴趣的同学可以自行查阅。
