@@ -61,6 +61,10 @@ a.animated-active:hover::after {
   background-color: var(--animate-hover-color);
 }
 
+a.hextra-feature-card:hover {
+  transition: transform 100ms ease-in-out;
+  transform: scale(1.02);
+}
 
 :root {
   --background-color: #dbe6ef;
@@ -330,4 +334,17 @@ label.openIndex::after{
 .img-div > p > img {
   margin-left: 2px;
   margin-right: 2px;
+}
+
+.header-icon:hover {
+  animation: spin 400ms linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
