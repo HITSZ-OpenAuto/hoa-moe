@@ -6,7 +6,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 7 月 12 日" author="psp_dada" message="add new notes" >}}
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
 2. 请根据课程的具体内容增删仓库的子文件夹。子文件夹建议使用小写英文，并且添加 README.md。
@@ -78,44 +77,6 @@ math: true
   - 24 年 IB 期末考试考了薛定谔方程的推导过程，课上老师讲过，但我根本没复习这部分内容（
 ## 资料下载
 
-{{< filetree/container >}}
-  {{< filetree/folder name="exams" state="closed" >}}
-    {{< filetree/file name="2020 物理 1A.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2020%E7%89%A9%E7%90%861A.pdf" >}}
-    {{< filetree/file name="2023 年春大学物理ⅠA 期末考试试题（回忆版）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2023%E5%B9%B4%E6%98%A5%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E2%85%A0A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
-    {{< filetree/file name="大学物理 IA 期中考试 参考答案及评分标准.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%20%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%E5%8F%8A%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf" >}}
-    {{< filetree/file name="大学物理 IA 期中考试试题（打印）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%EF%BC%88%E6%89%93%E5%8D%B0%EF%BC%89.pdf" >}}
-    {{< filetree/file name="大学物理 IB 往年题 1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E5%BE%80%E5%B9%B4%E9%A2%981.pdf" >}}
-    {{< filetree/file name="大学物理 IB 往年题 2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E5%BE%80%E5%B9%B4%E9%A2%982.pdf" >}}
-    {{< filetree/file name="大物 IB 期末复习试题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E5%A4%A7%E7%89%A9IB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%95%E9%A2%98.pdf" >}}
-    {{< filetree/file name="大物 IB 期末复习试题解析 202303 修.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E5%A4%A7%E7%89%A9IB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%90202303%E4%BF%AE.pdf" >}}
-  {{< filetree/folder name="清华题库试题" state="closed" >}}
-    {{< filetree/file name="光学练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E5%85%89%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf" >}}
-    {{< filetree/file name="刚体练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E5%88%9A%E4%BD%93%E7%BB%83%E4%B9%A0.pdf" >}}
-    {{< filetree/file name="力学（质点动力学、运动学、功与能量）练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E5%8A%9B%E5%AD%A6%EF%BC%88%E8%B4%A8%E7%82%B9%E5%8A%A8%E5%8A%9B%E5%AD%A6%E3%80%81%E8%BF%90%E5%8A%A8%E5%AD%A6%E3%80%81%E5%8A%9F%E4%B8%8E%E8%83%BD%E9%87%8F%EF%BC%89%E7%BB%83%E4%B9%A0.pdf" >}}
-    {{< filetree/file name="机械振动练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E6%9C%BA%E6%A2%B0%E6%8C%AF%E5%8A%A8%E7%BB%83%E4%B9%A0.pdf" >}}
-    {{< filetree/file name="机械波练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E6%9C%BA%E6%A2%B0%E6%B3%A2%E7%BB%83%E4%B9%A0.pdf" >}}
-    {{< filetree/file name="热学练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E7%83%AD%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf" >}}
-    {{< filetree/file name="电学练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E7%94%B5%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf" >}}
-    {{< filetree/file name="相对论练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%BB%83%E4%B9%A0.pdf" >}}
-    {{< filetree/file name="磁学练习.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E9%A2%98%E5%BA%93%E8%AF%95%E9%A2%98/%E7%A3%81%E5%AD%A6%E7%BB%83%E4%B9%A0.pdf" >}}
-  {{< /filetree/folder >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="materials" state="closed" >}}
-    {{< filetree/file name="物理学第六版习题分析与解答.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/materials/%E7%89%A9%E7%90%86%E5%AD%A6%E7%AC%AC%E5%85%AD%E7%89%88%E4%B9%A0%E9%A2%98%E5%88%86%E6%9E%90%E4%B8%8E%E8%A7%A3%E7%AD%94.pdf" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="notes" state="closed" >}}
-  {{< filetree/folder name="2023_Empty" state="closed" >}}
-    {{< filetree/file name="2023_Empty_大学物理 IB（光学）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_Empty/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E5%85%89%E5%AD%A6%EF%BC%89.pdf" >}}
-    {{< filetree/file name="2023_Empty_大学物理 IB（振动与波）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_Empty/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E6%8C%AF%E5%8A%A8%E4%B8%8E%E6%B3%A2%EF%BC%89.pdf" >}}
-    {{< filetree/file name="2023_Empty_大学物理 IB（热学与量子物理）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_Empty/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E7%83%AD%E5%AD%A6%E4%B8%8E%E9%87%8F%E5%AD%90%E7%89%A9%E7%90%86%EF%BC%89.pdf" >}}
-    {{< filetree/file name="2023_Empty_大学物理 IB（考前必看）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_Empty/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E8%80%83%E5%89%8D%E5%BF%85%E7%9C%8B%EF%BC%89.pdf" >}}
-  {{< /filetree/folder >}}
-    {{< filetree/file name="2023_zsa_大学物理 IB 笔记.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_zsa_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%E7%AC%94%E8%AE%B0.pdf" >}}
-    {{< filetree/file name="2024_psp_大学物理笔记.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2024_psp_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0.pdf" >}}
-    {{< filetree/file name="Sora 的大学物理补天攻略.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/Sora%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%A1%A5%E5%A4%A9%E6%94%BB%E7%95%A5.pdf" >}}
-    {{< filetree/file name="笔记和课后习题（含考研真题）详解.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3.pdf" >}}
-  {{< /filetree/folder >}}
-{{< /filetree/container >}}
 
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/PHYS1001A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
