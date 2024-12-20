@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 12 日" author="吴俊达" message="更新笔记中的一些 bug (#19)" >}}
+{{< update-info update_time="2024 年 12 月 20 日" author="psp_dada" message="上传试题详解 (#20)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -24,12 +24,13 @@ math: true
 
 该课程有配套的课程设计（2024 年秋季学期起，改名为“实验”）：[自动控制实践 A 实验](https://hoa.moe/docs/junior-autumn/auto3016/)，独立设课，1.5 学分，40 学时。
 
-assignments 文件夹下的《自动控制元件及线路课后题答案（百度文库）》与《自动控制元件习题资料》系从网上下载，部分习题与老师布置的课后作业相同，
-但是答案不一定正确，仅供参考。有些题目可作补充。
+assignments 文件夹下的《自动控制元件及线路课后题答案（百度文库）》与《自动控制元件习题资料》系从网上下载，部分习题与老师布置的课后作业相同，但是答案不一定正确，仅供参考。有些题目可作补充。
 
 ## 教材
 
 梅晓榕主编，自动控制元件及线路（第五版），科学出版社。
+
+### 习题答案
 
 - [《自动控制元件》复习笔记及习题答案 - Bilibili](https://www.bilibili.com/read/cv19892484/)
 - [《自动控制元件》期末总结及课后习题答案 - Bilibili](https://www.bilibili.com/read/cv22652100)
@@ -37,6 +38,7 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
 ## 参考书
 
 本课程涵盖三部分内容：
+
 1. 电机驱动与拖动
 2. 简单的电力电子技术（PWM）
 3. 传感与测量元件
@@ -46,6 +48,7 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
 ### 电机学
 
 传统电机学教材，可以看里面的直流电机、变压器、异步电机和同步电机：
+
 - （哈尔滨理工大学）戈宝军，梁艳萍，温嘉斌，电机学（第三版），中国电力出版社。
 
   配套网课：[电机学（哈尔滨理工大学）- Bilibili](https://www.bilibili.com/video/BV1cx411Z76w)
@@ -54,11 +57,13 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
 - （大连理工大学）孙建忠、刘凤春等编，电机与拖动（第 4 版），机械工业出版社。
 
 关于伺服电机和步进电机，可以参考以下书目：
+
 - [日]坂本正文著，王自强译，步进电机应用技术，科学出版社 2010 年版。（翻译有些错误，凑合着看）
   - 此书已放到校内网盘。
 - （一些奇怪的论坛里的 pdf，找到后放上来）
 
 ### 电力电子技术
+
 本门课对电力电子技术要求很低。如果大家想拓展 ~~(学电气的专业课)~~ ，可以参考：
 
 - （西安交通大学）王兆安等，电力电子技术（第 5 版），机械工业出版社。
@@ -70,7 +75,7 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
 
 ## 学时安排
 
-<h4>学时安排表（21 级）</h4> 
+<h4>学时安排表（21 级）</h4>
 
 > 文/ [Oliver Wu](https://github.com/OliverWu515)，2024.2
 
@@ -186,8 +191,6 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
 </tr>
 </table>
 
-
-
 <!--在表格 td 中，有两个属性控制居中显示
 	align——表示左右居中——left，center，right
 	valign——控制上下居中——left，center，right
@@ -216,22 +219,41 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
 - 仅做往年题而不理解概念的后果，就是对于往年题之外的题目无从下手。所以这门课虽说挂科率不高，但考高分的也少。
 - 所以，往年题只供大家参考，只靠通过刷往年考试题来获取高分或者保证不挂科是**不可取的**。而且往年题有许多题目并无答案，需要理解并且与同学讨论来得出答案。**希望大家认真复习，把基本概念、方法掌握扎实。**
 
+> by [psp_dada](https://github.com/pspdada), 2024.12
+
+对于自控实践 A 这门课的考试，最重要的是清楚地知道**我们是自动化专业而不是电气专业**，由于电气专业同步上电机学，和我们的部分内容有相关性，并且是同时考试，导致部分同学因为看到电气同学的复习内容而对我们的考试过于担忧，这不仅是 22 级的现象，21 级也有类似现象。通过分析近两年的考题便可发现我们的考试内容重点和电气的电机学有很大不同，因此不要盲目焦虑。
+
+24 年的考试相比 23 年，后面的计算题和综合题（就是大一点的计算题）几乎没有变化，但是每道题和往年相比都有细微的差别，导致实际上每道题都需要经过自己的思考。因此**仅仅背题而不理解知识点是完全不够的**，因此我上传了往年题以及章节题目的详解，希望其中的思考过程可以帮助大家更好地理解知识点。
+
+此外，前面的选择题、填空题、简答题的比重有所上升，所包含的知识点范围也很广，复习的面面俱到确实难度较大。推荐同学们可以参考 notes 文件夹下 wjd 学长的笔记，他对每个出现的知识点都有仔细地思考和详尽的解释，对于复习有很大的帮助。
+
 ## 资料下载
 
 {{< filetree/container >}}
   {{< filetree/folder name="assignments" state="closed" >}}
-    {{< filetree/file name="2023 自动控制后半程作业答案 (1).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2023%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%90%8E%E5%8D%8A%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%20%281%29.pdf" >}}
-    {{< filetree/file name="ACPP_HW1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW1.pdf" >}}
-    {{< filetree/file name="ACPP_HW2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW2.pdf" >}}
-    {{< filetree/file name="ACPP_HW3.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/ACPP_HW3.pdf" >}}
-    {{< filetree/file name="异步电机部分作业.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E9%83%A8%E5%88%86%E4%BD%9C%E4%B8%9A.pdf" >}}
+  {{< filetree/folder name="2022" state="closed" >}}
+    {{< filetree/file name="ACPP_HW1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2022/ACPP_HW1.pdf" >}}
+    {{< filetree/file name="ACPP_HW2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2022/ACPP_HW2.pdf" >}}
+    {{< filetree/file name="ACPP_HW3.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2022/ACPP_HW3.pdf" >}}
+    {{< filetree/file name="作业 3.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2022/%E4%BD%9C%E4%B8%9A3.pdf" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="2023" state="closed" >}}
+    {{< filetree/file name="后半程作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2023/%E5%90%8E%E5%8D%8A%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< filetree/file name="异步电机部分作业.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2023/%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E9%83%A8%E5%88%86%E4%BD%9C%E4%B8%9A.pdf" >}}
+  {{< /filetree/folder >}}
     {{< filetree/file name="自动控制元件习题资料.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E4%B9%A0%E9%A2%98%E8%B5%84%E6%96%99.pdf" >}}
     {{< filetree/file name="自动控制元件及线路课后题答案（百度文库）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88%EF%BC%88%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%EF%BC%89.pdf" >}}
     {{< filetree/file name="自动控制元件教材课后题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E6%95%99%E6%9D%90%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< filetree/file name="自控实践作业 3.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A3.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
     {{< filetree/file name="2023 自动控制实践 A 试题回忆版 (V1.0).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
+    {{< filetree/file name="2023 自动控制实践 A 试题回忆版参考答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
+  {{< filetree/folder name="本部 - 往年题" state="closed" >}}
+    {{< filetree/file name="自动控制元件 2012 期末试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62012%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< filetree/file name="自动控制元件 2019 秋期末试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62019%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< filetree/file name="自动控制元件 2020 秋期末试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62020%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< filetree/file name="自动控制实践历年考题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="本部 - 试题汇编" state="closed" >}}
     {{< filetree/file name="1 绪论相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/1%20%E7%BB%AA%E8%AE%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< filetree/file name="1 绪论相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/1%20%E7%BB%AA%E8%AE%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
@@ -240,7 +262,7 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
     {{< filetree/file name="13 异步电机相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/13%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< filetree/file name="13 异步电机相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/13%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
     {{< filetree/file name="14 小功率同步电机相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/14%20%E5%B0%8F%E5%8A%9F%E7%8E%87%E5%90%8C%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
-    {{< filetree/file name="15 步进电机相关试题 - 答案 (更新).docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88%28%E6%9B%B4%E6%96%B0%29.docx" >}}
+    {{< filetree/file name="15 步进电机相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< filetree/file name="15 步进电机相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/15%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
     {{< filetree/file name="16 无刷直流电机相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/16%20%E6%97%A0%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< filetree/file name="16 无刷直流电机相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/16%20%E6%97%A0%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
@@ -252,15 +274,11 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
     {{< filetree/file name="3 直流电机的原理与基本结构相关例题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/3%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98.docx" >}}
     {{< filetree/file name="4 直流电机的特性与控制方法相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/4%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E7%89%B9%E6%80%A7%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%96%B9%E6%B3%95%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< filetree/file name="4 直流电机的特性与控制方法相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/4%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E7%89%B9%E6%80%A7%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%96%B9%E6%B3%95%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
-    {{< filetree/file name="5 直流电机的动特性与选择相关试题 - 答案 (V1.1).docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88%28V1.1%29.docx" >}}
+    {{< filetree/file name="5 直流电机的动特性与选择相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< filetree/file name="5 直流电机的动特性与选择相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
     {{< filetree/file name="9 功率放大器相关试题 - 答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< filetree/file name="9 功率放大器相关试题.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
   {{< /filetree/folder >}}
-    {{< filetree/file name="自动控制元件 2012 期末试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62012%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< filetree/file name="自动控制元件 2019 秋期末试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62019%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< filetree/file name="自动控制元件 2020 秋期末试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62020%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< filetree/file name="自动控制实践历年考题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="labs" state="closed" >}}
   {{< filetree/folder name="2023" state="closed" >}}

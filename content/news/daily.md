@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (12.20)
 
+- psp_dada 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：上传试题详解 (#20)
+
 - psp_dada 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：更新学习建议 (#10)
 
 - WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充开课学期和名称
@@ -50,13 +52,6 @@ title: AUTO 更新速递
 - **标签**: documentation
 
 ## 待合并的 Pull Requests
-
-### [上传试题详解](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/20)
-
-- **仓库**: AUTO3002A
-- **创建于**: 2024-12-19T17:11:17Z
-- **作者**: pspdada
-- **标签**: enhancement
 
 ### [上传作业笔记以及试题详解](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/8)
 
