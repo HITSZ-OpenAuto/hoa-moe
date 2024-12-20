@@ -6,7 +6,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2024 年 11 月 17 日" author="Hye" message="改为通过留言板征集课程评价 (#3)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 

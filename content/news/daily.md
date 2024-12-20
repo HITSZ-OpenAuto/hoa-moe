@@ -54,13 +54,6 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [Basic update needed](https://github.com/HITSZ-OpenAuto/EE1014/issues/1)
-
-- **仓库**: EE1014
-- **创建于**: 2024-05-12T13:23:05Z
-- **作者**: MaxwellJay256
-- **标签**: documentation
-
 ## 待合并的 Pull Requests
 
 暂无打开的 Pull Requests
