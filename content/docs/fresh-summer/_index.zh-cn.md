@@ -10,4 +10,5 @@ toc: false
 {{< cards >}}
 {{< card link="auto2003b"title="创新训练课 B">}}
 {{< card link="auto2003a"title="创新训练课 A">}}
+{{< card link="engg1003"title="工程训练（电子工艺实习）">}}
 {{< /cards >}}
