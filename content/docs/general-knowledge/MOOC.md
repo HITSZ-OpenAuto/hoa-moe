@@ -69,6 +69,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 ## 资料下载
 
 {{< filetree/container >}}
+  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/README.md" >}}
   {{< filetree/folder name="人工智能时代的身份、代理、平等和安全" state="closed" >}}
     {{< filetree/file name="人工智能时代的身份、代理、平等和安全.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8.pdf" >}}
     {{< filetree/file name="人工智能期末答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.docx" >}}
@@ -92,6 +93,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
     {{< filetree/file name="成功求职六步走.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%88%90%E5%8A%9F%E6%B1%82%E8%81%8C%E5%85%AD%E6%AD%A5%E8%B5%B0/%E6%88%90%E5%8A%9F%E6%B1%82%E8%81%8C%E5%85%AD%E6%AD%A5%E8%B5%B0.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="新科学家英语" state="closed" >}}
+    {{< filetree/file name="新科学家英语.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%96%B0%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8B%B1%E8%AF%AD/%E6%96%B0%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8B%B1%E8%AF%AD.md" >}}
     {{< filetree/file name="新科学家英语：演讲与写作.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%96%B0%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8B%B1%E8%AF%AD/%E6%96%B0%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8B%B1%E8%AF%AD%EF%BC%9A%E6%BC%94%E8%AE%B2%E4%B8%8E%E5%86%99%E4%BD%9C.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="智慧树中国红色文化精神" state="closed" >}}
@@ -100,10 +102,14 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
   {{< filetree/folder name="智慧树关爱生命" state="closed" >}}
     {{< filetree/file name="智慧树关爱生命---自救与急救技能章节习题及答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD---%E8%87%AA%E6%95%91%E4%B8%8E%E6%80%A5%E6%95%91%E6%8A%80%E8%83%BD%E7%AB%A0%E8%8A%82%E4%B9%A0%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88.docx" >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="智慧树劳动教育概论" state="closed" >}}
+    {{< filetree/file name="劳动教育概论 - 单元测试答案.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E6%A6%82%E8%AE%BA/%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E6%A6%82%E8%AE%BA-%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E7%AD%94%E6%A1%88.md" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="游戏化思维" state="closed" >}}
     {{< filetree/file name="游戏化思维参考答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="知识产权法律及实务" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1/README.md" >}}
     {{< filetree/file name="知识产权法律及实务.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1.docx" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="职业发展英语" state="closed" >}}

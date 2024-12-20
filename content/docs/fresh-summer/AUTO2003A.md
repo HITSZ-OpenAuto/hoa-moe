@@ -27,6 +27,9 @@ math: true
 
 ## 资料下载
 
+{{< filetree/container >}}
+  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003A/raw/main/README.md" >}}
+{{< /filetree/container >}}
 
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO2003A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 

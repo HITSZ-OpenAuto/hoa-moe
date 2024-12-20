@@ -91,7 +91,9 @@ math: true
 ## 资料下载
 
 {{< filetree/container >}}
+  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/README.md" >}}
   {{< filetree/folder name="assignments" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/README.md" >}}
     {{< filetree/file name="书后期中考题答案.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E4%B9%A6%E5%90%8E%E6%9C%9F%E4%B8%AD%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88.zip" >}}
     {{< filetree/file name="第二章习题答案.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.zip" >}}
     {{< filetree/file name="第五章习题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E7%AC%AC%E4%BA%94%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
@@ -100,6 +102,7 @@ math: true
     {{< filetree/file name="高数第三章习题答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E9%AB%98%E6%95%B0%E7%AC%AC%E4%B8%89%E7%AB%A0%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/README.md" >}}
   {{< filetree/folder name="2017 年试题" state="closed" >}}
     {{< filetree/file name="高数 -2017 秋 - 期中 - 深圳 - 答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="高数 -2017 秋 - 期中 - 深圳 - 试卷.doc" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc" >}}
@@ -170,7 +173,12 @@ math: true
     {{< filetree/file name="微积分 (上) 模拟试题 (期中 8+ 期末 8)（本部）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/%E6%A8%A1%E6%8B%9F%E9%A2%98/%E5%BE%AE%E7%A7%AF%E5%88%86%28%E4%B8%8A%29%E6%A8%A1%E6%8B%9F%E8%AF%95%E9%A2%98%28%E6%9C%9F%E4%B8%AD8%2B%E6%9C%9F%E6%9C%AB8%29%EF%BC%88%E6%9C%AC%E9%83%A8%EF%BC%89.pdf" >}}
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="materials" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/materials/README.md" >}}
+  {{< /filetree/folder >}}
   {{< filetree/folder name="notes" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/README.md" >}}
+    {{< filetree/file name="高等数学笔记-psp.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-psp.pdf" >}}
   {{< filetree/folder name="笔记 - 本部" state="closed" >}}
     {{< filetree/file name="[HIT 笔记]微积分笔记--任姿颖.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B0-%E6%9C%AC%E9%83%A8/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0--%E4%BB%BB%E5%A7%BF%E9%A2%96.pdf" >}}
     {{< filetree/file name="[HIT 笔记]微积分笔记--王怡玮.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B0-%E6%9C%AC%E9%83%A8/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0--%E7%8E%8B%E6%80%A1%E7%8E%AE.pdf" >}}
@@ -180,26 +188,29 @@ math: true
     {{< filetree/file name="工数下知识点精要（内容）排版.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B0-%E6%9C%AC%E9%83%A8/%E5%B7%A5%E6%95%B0%E4%B8%8B%E7%9F%A5%E8%AF%86%E7%82%B9%E7%B2%BE%E8%A6%81%EF%BC%88%E5%86%85%E5%AE%B9%EF%BC%89%20%E6%8E%92%E7%89%88.pdf" >}}
     {{< filetree/file name="知识点_高等数学 (crop).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B0-%E6%9C%AC%E9%83%A8/%E7%9F%A5%E8%AF%86%E7%82%B9_%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%28crop%29.pdf" >}}
   {{< filetree/folder name="高数公式总结" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B0-%E6%9C%AC%E9%83%A8/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/README.md" >}}
     {{< filetree/file name="高数公式总结 1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B0-%E6%9C%AC%E9%83%A8/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%931.pdf" >}}
     {{< filetree/file name="高数公式总结 2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B0-%E6%9C%AC%E9%83%A8/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%932.pdf" >}}
     {{< filetree/file name="高数公式总结 3.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B0-%E6%9C%AC%E9%83%A8/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%933.pdf" >}}
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="笔记 1" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B01/README.md" >}}
     {{< filetree/file name="趣题集_01_函数与极限.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B01/%E8%B6%A3%E9%A2%98%E9%9B%86_01_%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90.pdf" >}}
     {{< filetree/file name="趣题集_03_微分中值定理.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B01/%E8%B6%A3%E9%A2%98%E9%9B%86_03_%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86.pdf" >}}
     {{< filetree/file name="趣题集_04_不定积分.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B01/%E8%B6%A3%E9%A2%98%E9%9B%86_04_%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86.pdf" >}}
     {{< filetree/file name="趣题集_05_定积分.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B01/%E8%B6%A3%E9%A2%98%E9%9B%86_05_%E5%AE%9A%E7%A7%AF%E5%88%86.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="笔记 2" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B02/README.md" >}}
     {{< filetree/file name="一元函数极限求解方法与技巧.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B02/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E6%B1%82%E8%A7%A3%E6%96%B9%E6%B3%95%E4%B8%8E%E6%8A%80%E5%B7%A7.pdf" >}}
     {{< filetree/file name="不定积分求解思维总结.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B02/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E8%A7%A3%E6%80%9D%E7%BB%B4%E6%80%BB%E7%BB%93.pdf" >}}
     {{< filetree/file name="中值证明题总结.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B02/%E4%B8%AD%E5%80%BC%E8%AF%81%E6%98%8E%E9%A2%98%E6%80%BB%E7%BB%93.pdf" >}}
     {{< filetree/file name="高等数学（上册）常用公式.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E7%AC%94%E8%AE%B02/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8A%E5%86%8C%EF%BC%89%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F.pdf" >}}
   {{< /filetree/folder >}}
-    {{< filetree/file name="高等数学笔记-psp.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-psp.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/README.md" >}}
     {{< filetree/file name="不定积分习题课答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B9%A0%E9%A2%98%E8%AF%BE%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="定积分习题课（带笔迹的答案）.pptx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B9%A0%E9%A2%98%E8%AF%BE%EF%BC%88%E5%B8%A6%E7%AC%94%E8%BF%B9%E7%9A%84%E7%AD%94%E6%A1%88%EF%BC%89.pptx" >}}
   {{< filetree/folder name="课件版本 1" state="closed" >}}
