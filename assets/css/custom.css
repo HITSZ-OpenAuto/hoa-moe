@@ -25,23 +25,23 @@ img {
 }
 
 a.animated {
-  margin-bottom: 0rem; /* mb-1 */
+  margin-bottom: 0px; 
   position: relative;
   text-decoration: none; /* 移除默认下划线 */
-  padding-bottom: 0.325rem; /* 为伪元素腾出空间 */
+  padding-bottom: 5px; /* 为伪元素腾出空间 */
   display: inline-block;
 }
 
 a.animated::after {
   content: '';
   width: 100%;
-  height: 0.325rem; /* h-2 */
+  height: 5px; 
   display: block;
   position: absolute;
   left: 0;
   bottom: 0;
   margin-top: 1px;
-  border-radius: 0.25rem; /* 4px */
+  border-radius: 4px; 
   background-color: var(--animate-color);
   transform: scaleX(0);
   transform-origin: left;
