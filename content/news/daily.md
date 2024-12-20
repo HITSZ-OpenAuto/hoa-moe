@@ -14,7 +14,9 @@ title: AUTO 更新速递
 
 ### 周五 (12.20)
 
-- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充开课学期和名称
+- psp_dada 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：更新学习建议 (#10)
+
+- WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充开课学期和名称
 
 - WDGaster703 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：补充开课学期
 
@@ -32,11 +34,11 @@ title: AUTO 更新速递
 
 ### 周四 (12.19)
 
-- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Update README.md
+- WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Update README.md
 
-- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充课程基本信息 (#1)
+- WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充课程基本信息 (#1)
 
-- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Initial commit
+- WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
@@ -48,13 +50,6 @@ title: AUTO 更新速递
 - **标签**: documentation
 
 ## 待合并的 Pull Requests
-
-### [更新学习建议](https://github.com/HITSZ-OpenAuto/MATH1005/pull/10)
-
-- **仓库**: MATH1005
-- **创建于**: 2024-12-19T17:45:16Z
-- **作者**: pspdada
-- **标签**: enhancement
 
 ### [上传试题详解](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/20)
 
