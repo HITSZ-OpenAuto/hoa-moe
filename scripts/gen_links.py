@@ -104,9 +104,9 @@ def generate_folder_shortcode(directory: str, content: Dict, owner: str, repo: s
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate download links of files from a GitHub repository.")
-    parser.add_argument("--owner", help="GitHub repository owner", default="HITSZ-OpenAuto")
-    parser.add_argument("--repo", help="GitHub repository name")
-    parser.add_argument("--token", help="GitHub token")
+    parser.add_argument("owner", help="GitHub repository owner", default="HITSZ-OpenAuto")
+    parser.add_argument("repo", help="GitHub repository name")
+    parser.add_argument("token", help="GitHub token")
 
     args = parser.parse_args()
     
