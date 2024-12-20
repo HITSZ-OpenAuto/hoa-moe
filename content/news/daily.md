@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (12.20)
 
+- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充开课学期和名称
+
 - WDGaster703 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：补充开课学期
 
 - WDGaster703 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改课程标题
