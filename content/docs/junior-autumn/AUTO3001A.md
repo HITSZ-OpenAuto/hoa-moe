@@ -39,7 +39,9 @@ math: true
 ## 资料下载
 
 {{< filetree/container >}}
+  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/README.md" >}}
   {{< filetree/folder name="assignments" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/README.md" >}}
   {{< filetree/folder name="2019_作业答案" state="closed" >}}
     {{< filetree/file name="自控理论 A—作业 10 及答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2019_%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E2%80%94%E4%BD%9C%E4%B8%9A10%E5%8F%8A%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="自控理论 A—作业 11 及答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2019_%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E2%80%94%E4%BD%9C%E4%B8%9A11%E5%8F%8A%E7%AD%94%E6%A1%88.pdf" >}}
@@ -111,12 +113,14 @@ math: true
   {{< filetree/folder name="exams" state="closed" >}}
     {{< filetree/file name="19 秋自控 C 考卷【期末】（含答案）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/19%E7%A7%8B%E8%87%AA%E6%8E%A7C%E8%80%83%E5%8D%B7%E3%80%90%E6%9C%9F%E6%9C%AB%E3%80%91%EF%BC%88%E5%90%AB%E7%AD%94%E6%A1%88%EF%BC%89.pdf" >}}
     {{< filetree/file name="2023 自动控制原理 A 试题考点回忆版.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2023%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86A%E8%AF%95%E9%A2%98%E8%80%83%E7%82%B9%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/README.md" >}}
     {{< filetree/file name="[网盘计划]自动控制原理.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86.pdf" >}}
     {{< filetree/file name="自控 A 期末考试 A 试题--2019.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%87%AA%E6%8E%A7A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98--2019.pdf" >}}
     {{< filetree/file name="自控 A 期末考试 A 试题--2019–带答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%87%AA%E6%8E%A7A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98--2019%E2%80%93%E5%B8%A6%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="自控理论 A—2019 期中考试答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E2%80%942019%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E7%AD%94%E6%A1%88.pdf" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="labs" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/README.md" >}}
   {{< filetree/folder name="2019_FWI_Version" state="closed" >}}
     {{< filetree/file name="自控 A 上机 1.报告.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2019_FWI_Version/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA1.%E6%8A%A5%E5%91%8A.pdf" >}}
     {{< filetree/file name="自控 A 上机 2 报告.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2019_FWI_Version/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA2%E6%8A%A5%E5%91%8A.pdf" >}}
@@ -131,10 +135,12 @@ math: true
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="notes" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/README.md" >}}
     {{< filetree/file name="自控原理_by_Spar Océsel_2023.apkg" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86_by_Spar%20Oce%CC%81sel_2023.apkg" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}
     {{< filetree/file name="2023 课件合订本.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2023%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/README.md" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
