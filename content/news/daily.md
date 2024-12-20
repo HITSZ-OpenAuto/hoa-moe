@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-20'
-description: 北京时间 2024-12-19 09 时至今
+description: 北京时间 2024-12-19 10 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,10 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周五 (12.20)
+
+- WDGaster703 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：补充课程基本信息
+
+- WDGaster703 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：补充开课学期和名称
 
 - WDGaster703 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：课程基本信息补充
 
@@ -34,7 +38,7 @@ title: AUTO 更新速递
 
 - WDGaster703 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改课程标题
 
-- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：Initial commit
+- WDGaster703 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：Initial commit
 
 - WDGaster703 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：Initial commit
 
