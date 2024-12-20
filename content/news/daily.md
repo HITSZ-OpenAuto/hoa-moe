@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (12.20)
 
+- WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：修改成绩构成
+
+- psp_dada 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：上传作业笔记以及试题详解 (#11)
+
 - psp_dada 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：上传试题详解 (#20)
 
 - psp_dada 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：更新学习建议 (#10)
@@ -57,13 +61,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3004
 - **创建于**: 2024-12-19T16:39:06Z
-- **作者**: pspdada
-- **标签**: enhancement
-
-### [上传作业笔记以及试题详解](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/11)
-
-- **仓库**: AUTO2005
-- **创建于**: 2024-12-19T16:33:41Z
 - **作者**: pspdada
 - **标签**: enhancement
 
