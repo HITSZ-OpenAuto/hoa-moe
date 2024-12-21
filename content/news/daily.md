@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-21'
-description: 北京时间 2024-12-20 03 时至今
+description: 北京时间 2024-12-20 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (12.21)
+
+- 吴俊达 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：上传实验报告和考试 A4 纸 (#4)
 
 - Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：chore: update format
 
