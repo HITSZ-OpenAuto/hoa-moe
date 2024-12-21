@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (12.21)
 
+- Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：chore: update format
+
 - longlin li 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：用 awesome-mooc 仓库链接替换原单一推荐链接 (#10)
 
 - GitHub Actions 在 [.github](https://github.com/HITSZ-OpenAuto/.github) 中提交了信息：ci: update README.md
