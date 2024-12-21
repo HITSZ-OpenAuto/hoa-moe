@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 9 月 23 日" author="oldkingOK" message="添加《劳动教育概论》MOOC 章节测试的答案" >}}
+{{< update-info update_time="2024 年 12 月 21 日" author="longlin li" message="用 awesome-mooc 仓库链接替换原单一推荐链接 (#10)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -49,6 +49,8 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 可见，我们推荐的选课方式 ~~并不关注具体课程而~~ 其实是看平台。
 
 ### 上课和测试（平时测试、期末）
+
+刷课脚本汇总仓库：[longlin/awesome-mooc-script](https://github.com/longlin10086/awesome-mooc-script)
 
 刷课脚本推荐：
 

@@ -4,13 +4,19 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-21'
-description: 北京时间 2024-12-20 00 时至今
+description: 北京时间 2024-12-20 03 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周六 (12.21)
+
+- longlin li 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：用 awesome-mooc 仓库链接替换原单一推荐链接 (#10)
+
+- GitHub Actions 在 [.github](https://github.com/HITSZ-OpenAuto/.github) 中提交了信息：ci: update README.md
 
 ### 周五 (12.20)
 
