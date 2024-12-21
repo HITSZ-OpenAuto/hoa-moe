@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-20'
-description: 北京时间 2024-12-19 12 时至今
+date: '2024-12-21'
+description: 北京时间 2024-12-20 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -47,14 +47,6 @@ title: AUTO 更新速递
 - psp_dada 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：修改试题命名 (#8)
 
 - GitHub Actions 在 [.github](https://github.com/HITSZ-OpenAuto/.github) 中提交了信息：ci: update README.md
-
-### 周四 (12.19)
-
-- WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Update README.md
-
-- WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充课程基本信息 (#1)
-
-- WDGaster703 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
