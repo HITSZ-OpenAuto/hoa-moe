@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-22'
-description: 北京时间 2024-12-21 04 时至今
+description: 北京时间 2024-12-21 07 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周日 (12.22)
+
+- psp_dada 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：上传 2024 年回忆题目 (#21)
 
 ### 周六 (12.21)
 
@@ -24,4 +28,10 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无打开的 Pull Requests
+### [上传 24 年回忆版试题](https://github.com/HITSZ-OpenAuto/AUTO3003/pull/9)
+
+- **仓库**: AUTO3003
+- **创建于**: 2024-12-22T07:12:36Z
+- **作者**: pspdada
+- **标签**: enhancement
+
