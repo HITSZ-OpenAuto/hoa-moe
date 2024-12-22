@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-22'
-description: 北京时间 2024-12-21 00 时至今
+description: 北京时间 2024-12-21 04 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -19,8 +19,6 @@ title: AUTO 更新速递
 - Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：chore: update format
 
 - longlin li 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：用 awesome-mooc 仓库链接替换原单一推荐链接 (#10)
-
-- GitHub Actions 在 [.github](https://github.com/HITSZ-OpenAuto/.github) 中提交了信息：ci: update README.md
 
 ## 待解决的 Issues
 
