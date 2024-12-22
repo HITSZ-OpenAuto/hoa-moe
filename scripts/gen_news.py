@@ -109,7 +109,7 @@ def fetch_commits_from_repos(repos, start_time):
         commits = get_filtered_commits(ORG_NAME, repo['name'], start_time)
         contain_manual = any(commit['commit']['author']['name'] != "github-actions" for commit in commits)
 
-        if commits and repo['name'] != "hoa-moe":
+        if commits and repo['name'] != "hoa-moe" and repo['name'] != ".github":
             for commit in commits:
                 filtered_commits.append({
                     'author': commit['commit']['author']['name'],
