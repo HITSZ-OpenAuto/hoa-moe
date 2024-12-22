@@ -177,11 +177,11 @@ def main():
             shutil.move("generated_image.png", f'content/news/weekly/weekly-{display_start_time.date()}/generated_image.png')
             shutil.move("generated_image_cropped.png", f'content/news/weekly/weekly-{display_start_time.date()}/generated_image_cropped.png')
             final_report += f'![AI Image of the Week](generated_image_cropped.png)\n\n'
-            summary = generate_summary(markdown_report)
-            if summary:
-                final_report += f'## ✨AI 摘要\n\n{summary}\n\n'
-            else:
-                final_report += f'{markdown_report}'
+            # summary = generate_summary(markdown_report)
+            # if summary:
+            #     final_report += f'## ✨AI 摘要\n\n{summary}\n\n'
+            # else:
+            final_report += f'{markdown_report}'
 
             # update content/news/weekly/_index.zh-cn.md description
             with open('content/news/weekly/_index.zh-cn.md', 'w', encoding="utf-8") as file:
