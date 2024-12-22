@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 20 日" author="psp_dada" message="上传试题详解 (#20)" >}}
+{{< update-info update_time="2024 年 12 月 22 日" author="psp_dada" message="上传 2024 年回忆题目 (#21)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -248,8 +248,9 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
-    {{< filetree/file name="2023 自动控制实践 A 试题回忆版 (V1.0).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
-    {{< filetree/file name="2023 自动控制实践 A 试题回忆版参考答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="2023 秋自动控制实践 A 试题回忆版 (V1.0).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
+    {{< filetree/file name="2023 秋自动控制实践 A 试题回忆版参考答案.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
+    {{< filetree/file name="2024 秋自动控制实践 A 试题回忆版.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2024%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/README.md" >}}
   {{< filetree/folder name="本部 - 往年题" state="closed" >}}
     {{< filetree/file name="自动控制元件 2012 期末试卷.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B62012%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
