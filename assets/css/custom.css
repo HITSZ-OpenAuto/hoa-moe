@@ -45,20 +45,17 @@ a.animated::after {
 }
 
 a.animated:hover::after {
-  width: 100%; /* Full width on hover */
+  width: 100%;
 }
 
 a.animated-active::after {
-  width: 100%; /* Full width for active state */
-}
-
-a.animated-active::after {
+  width: 100%;
   background-color: var(--animate-hover-color);
 }
 
 a.hextra-feature-card:hover {
   transition: transform 100ms ease-in-out;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 :root {
@@ -88,4 +85,13 @@ a.hextra-feature-card:hover {
 .img-div > p > img {
   margin-left: 2px;
   margin-right: 2px;
+}
+
+.header-icon {
+  filter: opacity(50%);
+  transition: filter 200ms ease-in-out;
+}
+
+.header-icon:hover {
+  filter: none;
 }
