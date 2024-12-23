@@ -58,3 +58,6 @@ title: AUTO 更新速递
 
 暂无待合并的 Pull Requests
 
+## 访问数据
+<br />
+<iframe src="https://stats.hoa.moe?hideui=1" width="100%" height="800px"></iframe>
