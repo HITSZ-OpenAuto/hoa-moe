@@ -285,27 +285,6 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="labs" state="closed" >}}
-  {{< filetree/folder name="2023" state="closed" >}}
-  {{< filetree/folder name="LJH_2023" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/LJH_2023/README.md" >}}
-    {{< filetree/file name="实验一 - 电机 PWM 控制与驱动电路.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/LJH_2023/%E5%AE%9E%E9%AA%8C%E4%B8%80-%E7%94%B5%E6%9C%BAPWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF.pdf" >}}
-    {{< filetree/file name="实验三 - 交流伺服电机特性.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/LJH_2023/%E5%AE%9E%E9%AA%8C%E4%B8%89-%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7.pdf" >}}
-    {{< filetree/file name="实验二 - 步进电机特性.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/LJH_2023/%E5%AE%9E%E9%AA%8C%E4%BA%8C-%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7.pdf" >}}
-    {{< filetree/file name="实验四 - 传感与测量反馈元件特性.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/LJH_2023/%E5%AE%9E%E9%AA%8C%E5%9B%9B-%E4%BC%A0%E6%84%9F%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7.pdf" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="WJD_2023" state="closed" >}}
-    {{< filetree/file name="210320621-吴俊达 - 交流伺服电机特性实验.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/WJD_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx" >}}
-    {{< filetree/file name="210320621-吴俊达 - 传感与测量反馈元件特性实验.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/WJD_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E4%BC%A0%E6%84%9F%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx" >}}
-    {{< filetree/file name="210320621-吴俊达 - 步进电机特性实验.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/WJD_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.docx" >}}
-    {{< filetree/file name="210320621-吴俊达 - 电机 PWM 控制与驱动电路实验.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/WJD_2023/210320621-%E5%90%B4%E4%BF%8A%E8%BE%BE-%E7%94%B5%E6%9C%BAPWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C.docx" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="instruction" state="closed" >}}
-    {{< filetree/file name="交流伺服电机特性实验指导书.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/instruction/%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf" >}}
-    {{< filetree/file name="传感与测量反馈元件特性实验 2023.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/instruction/%E4%BC%A0%E6%84%9F%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C2023.pdf" >}}
-    {{< filetree/file name="步进电机特性实验.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/instruction/%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.pdf" >}}
-    {{< filetree/file name="电机 PWM 控制与驱动电路实验指导书.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/instruction/%E7%94%B5%E6%9C%BAPWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf" >}}
-  {{< /filetree/folder >}}
-  {{< /filetree/folder >}}
   {{< filetree/folder name="LMH_2021" state="closed" >}}
     {{< filetree/file name="实验报告 - 实验 1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C1.pdf" >}}
     {{< filetree/file name="实验报告 - 实验 2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C2.pdf" >}}
@@ -317,14 +296,6 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
     {{< filetree/file name="自控实践_by_Spar Océsel_2023.apkg" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5_by_Spar%20Oc%C3%A9sel_2023.apkg" >}}
   {{< filetree/folder name="LMH_VERSION_2021" state="closed" >}}
     {{< filetree/file name="自控实践笔记.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/LMH_VERSION_2021/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="WJD_VERSION_2023" state="closed" >}}
-    {{< filetree/file name="自动控制实践 A_ 1. 磁路、直流电机 (V1.2.1).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.2.1%29.pdf" >}}
-    {{< filetree/file name="自动控制实践 A_ 2.1 电力电子技术概述.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.1%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.pdf" >}}
-    {{< filetree/file name="自动控制实践 A_ 2.2 PWM.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.2%20PWM.pdf" >}}
-    {{< filetree/file name="自动控制实践 A_ 3. 变压器 (V1.1).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%203.%20%E5%8F%98%E5%8E%8B%E5%99%A8%28V1.1%29.pdf" >}}
-    {{< filetree/file name="自动控制实践 A_ 4. 步进电机 (V1.1).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.1%29.pdf" >}}
-    {{< filetree/file name="自动控制实践 A_ 5. 交流绕组、异步电机 (V1.0.1).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%205.%20%E4%BA%A4%E6%B5%81%E7%BB%95%E7%BB%84%E3%80%81%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%28V1.0.1%29.pdf" >}}
   {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}
