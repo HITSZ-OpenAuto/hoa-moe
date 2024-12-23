@@ -86,10 +86,13 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
             f.write(content)
         f.write("## 待解决的 Issues\n\n")
         f.truncate()
-        if not issue in [i for i in issues if i['repository']['name'] != 'hoa-moe']:
+        
+        filtered_issues = [i for i in issues if i['repository']['name'] != 'hoa-moe']
+        
+        if not filtered_issues:
             f.write("暂无待解决的 Issues\n\n")
         else:
-            for issue in [i for i in issues if i['repository']['name'] != 'hoa-moe']:
+            for issue in filtered_issues:
                 f.write(f"### [{issue['title']}]({issue['url']})\n\n")
                 f.write(f"- **仓库**: {issue['repository']['name']}\n")
                 f.write(f"- **创建于**: {issue['createdAt']}\n")
@@ -102,20 +105,21 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
 
                 f.write("\n")
         
-        # Pull Requests section
         f.write("## 待合并的 Pull Requests\n\n")
-        if not pr in [p for p in prs if p['repository']['name'] != 'hoa-moe']:
+        
+        filtered_prs = [p for p in prs if p['repository']['name'] != 'hoa-moe']
+        
+        if not filtered_prs:
             f.write("暂无待合并的 Pull Requests\n\n")
         else:
-            for pr in [p for p in prs if p['repository']['name'] != 'hoa-moe']:
+            for pr in filtered_prs:
                 f.write(f"### [{pr['title']}]({pr['url']})\n\n")
                 f.write(f"- **仓库**: {pr['repository']['name']}\n")
                 f.write(f"- **创建于**: {pr['createdAt']}\n")
                 f.write(f"- **作者**: {pr['author']['login']}\n")
 
-                # Labels (if any)
-                if issue['labels']:
-                    label_list = ', '.join([label['name'] for label in issue['labels']])
+                if pr['labels']:
+                    label_list = ', '.join([label['name'] for label in pr['labels']])
                     f.write(f"- **标签**: {label_list}\n")
             
                 f.write("\n")
