@@ -46,10 +46,6 @@ title: AUTO 更新速递
 
 - psp_dada 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：上传 2024 年回忆题目 (#21)
 
-## 访问数据
-<br />
-<iframe src="https://stats.hoa.moe?hideui=1" width="100%" height="800px"></iframe>
-
 ## 待解决的 Issues
 
 ### [若干问题](https://github.com/HITSZ-OpenAuto/PE100X/issues/10)
