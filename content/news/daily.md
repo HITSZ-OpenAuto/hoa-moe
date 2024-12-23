@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (12.23)
 
+- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：补充课程基本信息
+
 - WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：Initial commit
 
 - longlin li 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：添加课程描述与课程资料 (#1)
