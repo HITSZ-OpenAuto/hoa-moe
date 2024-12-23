@@ -14,11 +14,13 @@ title: AUTO 更新速递
 
 ### 周一 (12.23)
 
-- WDGaster703 在 [系统与控制](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：Update tag.txt
+- WDGaster703 在 [模拟电子技术实验](https://github.com/HITSZ-OpenAuto/EE1008) 中提交了信息：修改课程类别为归档
 
-- WDGaster703 在 [系统与控制](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：补充课程基本信息
+- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：Update tag.txt
 
-- WDGaster703 在 [系统与控制](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：Initial commit
+- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：补充课程基本信息
+
+- WDGaster703 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：Initial commit
 
 - longlin li 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：添加课程描述与课程资料 (#1)
 
@@ -31,6 +33,20 @@ title: AUTO 更新速递
 ## 待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [修改课程类别为归档](https://github.com/HITSZ-OpenAuto/EE1009/pull/12)
+
+- **仓库**: EE1009
+- **创建于**: 2024-12-23T05:22:05Z
+- **作者**: WDGaster703
+- **标签**: enhancement
+
+### [Update tag.txt](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/13)
+
+- **仓库**: AUTO2005
+- **创建于**: 2024-12-23T05:19:41Z
+- **作者**: WDGaster703
+- **标签**: enhancement
 
 ### [增加 23 级信号的学时修改](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/12)
 
