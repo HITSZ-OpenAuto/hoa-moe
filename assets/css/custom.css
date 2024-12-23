@@ -25,54 +25,48 @@ img {
 }
 
 a.animated {
-  margin-bottom: 0px; 
   position: relative;
-  text-decoration: none; /* 移除默认下划线 */
-  padding-bottom: 5px; /* 为伪元素腾出空间 */
+  text-decoration: none;
+  padding-bottom: 5px;
   display: inline-block;
 }
 
 a.animated::after {
   content: '';
-  width: 100%;
-  height: 5px; 
+  width: 0%;
+  height: 5px;
   display: block;
   position: absolute;
   left: 0;
   bottom: 0;
-  margin-top: 1px;
-  border-radius: 4px; 
+  border-radius: 4px;
   background-color: var(--animate-color);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 200ms ease-in-out;
+  transition: width 200ms ease-in-out;
 }
 
 a.animated:hover::after {
-  transform: scaleX(1);
+  width: 100%; /* Full width on hover */
 }
 
 a.animated-active::after {
-  transform: scaleX(1);
+  width: 100%; /* Full width for active state */
 }
 
-a.animated-active:hover::after {
-  transition: background-color 300ms ease-in-out;
+a.animated-active::after {
   background-color: var(--animate-hover-color);
 }
 
 a.hextra-feature-card:hover {
   transition: transform 100ms ease-in-out;
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 :root {
   --background-color: #dbe6ef;
-  --label-height: 2rem;
   --text-color: rgba(107, 114, 128, 1);
   --text-hover-color: rgba(20, 20, 20, 1);
-  --animate-color: hsl(212deg 100% calc(50% + calc(calc(100% - 50%) / 50) * 44) / 1);
-  --animate-hover-color: hsl(212deg 100% 88%);
+  --animate-color: hsl(212deg 100% 94%);
+  --animate-hover-color: hsl(212deg 100% 80%);
 }
 
 .dark {
@@ -80,247 +74,7 @@ a.hextra-feature-card:hover {
   --text-hover-color: rgba(250, 250, 250, 1);
   --text-color: rgba(107, 114, 128, 1);
   --animate-color: rgba(0, 138, 230, 72%);
-  --animate-hover-color: rgba(0, 138, 230, 100%)
-}
-
-@media (max-width: 767px) {
-  .sidebar-container {
-    @apply fixed pt-[calc(var(--navbar-height))] top-0 w-full bottom-0 z-[15] overscroll-contain bg-white dark:bg-dark;
-    transition: transform 0.8s cubic-bezier(0.52, 0.16, 0.04, 1);
-    will-change: transform, opacity;
-    contain: layout style;
-    backface-visibility: hidden;
-  }
-  label.openIndex {
-    display: none;
-  }
-  .hextra-toc {
-    display: none;
-  }
-}
-
-#switchIndex {
-  /* 隐藏多选框 */
-  display: none;
-}
-#switchToc {
-  /* 隐藏多选框 */
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .sidebar-container {
-    /*   padding-top: calc(var(--label-height)); */
-    transition: width 0.8s cubic-bezier(0.52, 0.16, 0.04, 1),
-      opacity 0.3s 0.5s ease;
-  }
-  /* .hextra-toc{ 
-  padding-top: calc(var(--label-height));
-  transition: transform 0.8s cubic-bezier(0.52, 0.16, 0.04, 1);
-} */
-  .hextra-toc {
-    padding-top: calc(var(--label-height));
-    transition: width 0.8s cubic-bezier(0.52, 0.16, 0.04, 1),
-      opacity 0.3s 0.5s ease;
-  }
-  /* index */
-  label.openIndex {
-    /* 开关按钮 */
-    position: fixed;
-    z-index: 15;
-    width: 6rem;
-    left: 0;
-    height: 1.5rem;
-    /* transition:0.3s linear; */
-    margin: 5px;
-    font-weight: 600;
-    /* border-radius: 0.375rem; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-    --tw-text-opacity: 1;
-    transition: all 0.8s cubic-bezier(0.52, 0.16, 0.04, 1);
-  }
-  label.openIndex:hover {
-    filter: drop-shadow(0 0 10px #1e90ff);
-    background-color: var(--background-color);
-    background-size: 400%;
-    /* transition: all 1s .25s; */
-    background-position: 400%;
-    color: var(--text-hover-color);
-  }
-  label.openIndex::before,
-  label.openIndex::after {
-    /* 利用伪类画出菜单图标 */
-    content: "";
-    /* width:100%;  don't add this*/
-    /* height: 20% don't add this*/
-    position: absolute;
-    /* left:20px; */
-    background: rgba(100, 100, 100, 0.01);
-    font-weight: 600;
-    text-align: center;
-    cursor: pointer;
-    color: var(--text-color);
-  }
-  label.openIndex::before {
-    width: 6rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    content: "隐藏索引 <";
-  }
-  label.openIndex::after {
-    width: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    content: ">";
-  }
-  /*
-label.openIndex::before{
-    top:20%;
-}
-label.openIndex::after{
-    top:60%;
-}
-#switchIndex:checked ~ label.openIndex::before{ 变更按钮外型 取消注释后请自行增加此处注释！
-    top:50%;
-    transform:translateY(-50%) rotate(45deg);
-}
-#switchIndex:checked ~ label.openIndex::after{
-    top:50%;
-    transform:translateY(-50%) rotate(-45deg);
-}
-*/
-
-  /* 索引隐藏时 */
-  #switchIndex:checked ~ label.openIndex::before {
-    display: none;
-  }
-  #switchIndex:checked ~ label.openIndex {
-    transform: translateX(0);
-  }
-  #switchIndex:checked ~ aside {
-    width: 0;
-    opacity: 0;
-  }
-  #switchIndex:checked ~ .sidebar-container div,
-  #switchIndex:checked ~ .sidebar-container ul {
-    visibility: hidden;
-  }
-  /* 索引显示时 (default) */
-  #switchIndex:not(:checked) ~ label.openIndex {
-    transform: translateX(4rem);
-  }
-  #switchIndex:not(:checked) ~ label.openIndex::after {
-    display: none;
-  }
-  #switchIndex:not(:checked) ~ aside {
-    opacity: 1;
-  }
-  #switchIndex:not(:checked) ~ .sidebar-container div,
-  #switchIndex:not(:checked) ~ .sidebar-container ul {
-    /* transition: visibility 1.5s ease; */
-    visibility: visible;
-  }
-
-  /* toc */
-  label.openToc {
-    /* 开关按钮 */
-    position: fixed;
-    z-index: 15;
-    width: 6rem;
-    left: calc(100vw);
-    height: 1.5rem;
-    /* transition:0.3s linear; */
-    margin: 5px;
-    font-weight: 600;
-    /* border-radius: 0.375rem; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-    --tw-text-opacity: 1;
-    transition: all 0.8s cubic-bezier(0.52, 0.16, 0.04, 1);
-  }
-  label.openToc:hover {
-    filter: drop-shadow(0 0 10px #1e90ff);
-    background-color: var(--background-color);
-    background-size: 400%;
-    /* transition: all 1s .25s; */
-    background-position: 400%;
-    color: var(--text-hover-color);
-  }
-  label.openToc::before,
-  label.openToc::after {
-    /* 利用伪类画出菜单图标 */
-    content: "";
-    width: 100%;
-    /* height:20%; */
-    position: absolute;
-    background: rgba(100, 100, 100, 0.01);
-    /* transition: all 0.5s linear; */
-    font-weight: 600;
-    text-align: center;
-    cursor: pointer;
-    color: var(--text-color);
-  }
-  label.openToc::before {
-    width: 6rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    content: "隐藏目录 >";
-    padding-left: 0.5rem;
-  }
-  label.openToc::after {
-    width: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    content: "<";
-  }
-  /* 目录隐藏时 */
-  #switchToc:checked ~ label.openToc {
-    transform: translateX(-2rem);
-  }
-  #switchToc:checked ~ label.openToc::before {
-    display: none;
-  }
-  #switchToc:checked ~ divn {
-    width: 0;
-    opacity: 0;
-  }
-  #switchToc:checked ~ divn div,
-  #switchToc:checked ~ divn ul {
-    /* transition: visibility 1.5s ease; */
-    visibility: hidden;
-  }
-
-  /* 目录显示时 (default) */
-  #switchToc:not(:checked) ~ label.openToc {
-    transform: translateX(-12rem);
-  }
-  #switchToc:not(:checked) ~ label.openToc::after {
-    display: none;
-  }
-  #switchToc:not(:checked) ~ divn {
-    opacity: 1;
-  }
-  #switchToc:not(:checked) ~ divn div,
-  #switchToc:not(:checked) ~ divn ul {
-    /* transition: visibility 1.5s ease; */
-    visibility: visible;
-  }
-}
-.sidebar-container {
-  li > div {
-    @apply h-0;
-  }
-  li.open > div {
-    @apply h-auto pt-1;
-  }
-  li.open > a > span > svg > path {
-    @apply rotate-90;
-  }
+  --animate-hover-color: rgba(0, 138, 230, 100%);
 }
 
 .grid-col-span-2 {
@@ -334,17 +88,4 @@ label.openIndex::after{
 .img-div > p > img {
   margin-left: 2px;
   margin-right: 2px;
-}
-
-.header-icon:hover {
-  animation: spin 400ms linear;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
