@@ -9,7 +9,6 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="auto3002a"title="自动控制实践 A">}}
-{{< card link="auto2005"title="信号分析与处理">}}
 {{< card link="auto3004"title="系统建模与仿真">}}
 {{< card link="auto3016"title="自动控制实践 A 实验">}}
 {{< card link="auto3001a"title="自动控制理论 A">}}

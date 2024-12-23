@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (12.23)
 
+- WDGaster703 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：Update tag.txt (#13)
+
 - WDGaster703 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：增加 23 级信号的学时修改 (#12)
 
 - WDGaster703 在 [数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：修改课程类别为归档 (#12)
@@ -47,11 +49,4 @@ title: AUTO 更新速递
 ## 待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [Update tag.txt](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/13)
-
-- **仓库**: AUTO2005
-- **创建于**: 2024-12-23T05:19:41Z
-- **作者**: WDGaster703
-- **标签**: enhancement
 
