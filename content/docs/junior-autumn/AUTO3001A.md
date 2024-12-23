@@ -1,6 +1,6 @@
 ---
 title: （必修）自动控制理论 A
-weight: 26
+weight: 24
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
