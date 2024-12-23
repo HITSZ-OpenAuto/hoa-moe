@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (12.23)
 
+- WDGaster703 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：增加开设学期（第三学期）
+
 - WDGaster703 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG1006) 中提交了信息：Update tag.txt
 
 - WDGaster703 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：修改课程类别为归档

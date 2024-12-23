@@ -8,6 +8,7 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
+{{< card link="pe100x"title="体育">}}
 {{< card link="auto3001b"title="自动控制理论 B">}}
 {{< card link="auto3002b"title="自动控制实践 B">}}
 {{< /cards >}}
