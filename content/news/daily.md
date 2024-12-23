@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-23'
-description: 北京时间 2024-12-22 06 时至今
+description: 北京时间 2024-12-22 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -47,6 +47,12 @@ title: AUTO 更新速递
 - psp_dada 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：上传 2024 年回忆题目 (#21)
 
 ## 待解决的 Issues
+
+### [若干问题](https://github.com/HITSZ-OpenAuto/PE100X/issues/10)
+
+- **仓库**: PE100X
+- **创建于**: 2024-12-23T06:31:02Z
+- **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
 
