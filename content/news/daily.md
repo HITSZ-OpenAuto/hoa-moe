@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周一 (12.23)
 
+- WDGaster703 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG1006) 中提交了信息：Update tag.txt
+
+- WDGaster703 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：修改课程类别为归档
+
 - WDGaster703 在 [数字电子技术实验](https://github.com/HITSZ-OpenAuto/EE1010) 中提交了信息：修改课程类别为归档
 
 - WDGaster703 在 [模拟电子技术实验](https://github.com/HITSZ-OpenAuto/EE1008) 中提交了信息：修改课程类别为归档
