@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (12.24)
 
+- 吴俊达 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：Update README.md
+
 - fffish12333 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：简单介绍运动控制系统的课程内容 (#3)
 
 - 吴俊达 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001A) 中提交了信息：更新过时的文档与考试说明；上传若干本部试题 (#6)
