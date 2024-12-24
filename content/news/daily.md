@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-24'
-description: 北京时间 2024-12-23 06 时至今
+description: 北京时间 2024-12-23 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (12.24)
+
+- Hye 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：上传 2024 春《过程控制系统》考卷回忆版及对应复习要点 (#9)
 
 - 吴俊达 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：Update README.md
 
@@ -49,6 +51,12 @@ title: AUTO 更新速递
 - longlin li 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：添加课程描述与课程资料 (#1)
 
 ## 待解决的 Issues
+
+### [因课程代号变更带来的仓库名修改](https://github.com/HITSZ-OpenAuto/MATH3010/issues/4)
+
+- **仓库**: MATH3010
+- **创建于**: 2024-12-24T10:16:56Z
+- **作者**: OliverWu515
 
 ### [若干问题](https://github.com/HITSZ-OpenAuto/PE100X/issues/10)
 
