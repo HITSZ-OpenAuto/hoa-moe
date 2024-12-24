@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-24'
-description: 北京时间 2024-12-23 05 时至今
+description: 北京时间 2024-12-23 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (12.24)
+
+- fffish12333 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：简单介绍运动控制系统的课程内容 (#3)
 
 - 吴俊达 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001A) 中提交了信息：更新过时的文档与考试说明；上传若干本部试题 (#6)
 
