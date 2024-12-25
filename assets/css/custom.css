@@ -53,9 +53,14 @@ a.animated-active::after {
   background-color: var(--animate-hover-color);
 }
 
+a.hextra-feature-card {
+  box-shadow: 2px 4px 12px #00000014;
+}
+
 a.hextra-feature-card:hover {
   transition: transform 100ms ease-in-out;
-  transform: scale(1.02);
+  transform:scale3d(1.01, 1.01, 1.01);
+  box-shadow: 2px 4px 16px #0003;
 }
 
 :root {
