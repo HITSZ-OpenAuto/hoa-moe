@@ -58,7 +58,7 @@ a.hextra-feature-card {
 }
 
 a.hextra-feature-card:hover {
-  transition: transform 100ms ease-in-out;
+  transition: transform 400ms ease-in-out;
   transform:scale3d(1.01, 1.01, 1.01);
   box-shadow: 2px 4px 16px #0003;
 }
@@ -94,7 +94,7 @@ a.hextra-feature-card:hover {
 
 .header-icon {
   filter: opacity(50%);
-  transition: filter 200ms ease-in-out;
+  transition: filter 400ms ease-in-out;
 }
 
 .header-icon:hover {
