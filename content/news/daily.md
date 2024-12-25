@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-25'
-description: 北京时间 2024-12-24 10 时至今
+description: 北京时间 2024-12-24 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周三 (12.25)
+
+- longlin li 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：Update README.md
 
 - WDGaster703 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：补充选题唐宋的内容
 
