@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-29'
-description: 北京时间 2024-12-28 09 时至今
+description: 北京时间 2024-12-28 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (12.29)
+
+- psp_dada 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：更新学习建议 (#5)
 
 - 吴俊达 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：更新 README.md
 
@@ -32,9 +34,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [更新学习建议](https://github.com/HITSZ-OpenAuto/AUTO5024/pull/5)
-
-- **仓库**: AUTO5024
-- **创建于**: 2024-12-27T17:15:48Z
-- **作者**: pspdada
+暂无待合并的 Pull Requests
 
