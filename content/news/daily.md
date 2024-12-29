@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-28'
-description: 北京时间 2024-12-27 09 时至今
+date: '2024-12-29'
+description: 北京时间 2024-12-28 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,15 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (12.27)
+### 周日 (12.29)
 
-- psp_dada 在 [系统建模与仿真](https://github.com/HITSZ-OpenAuto/AUTO3004) 中提交了信息：更新 24 秋考试说明 (#9)
-
-- psp_dada 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：更新 24 秋考试说明 (#22)
-
-- psp_dada 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：Update README.md (#14)
-
-- IcyDesert 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：补充批判性思维的考勤情况及作业安排
+- 吴俊达 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：更新 README.md
 
 ## 待解决的 Issues
 
