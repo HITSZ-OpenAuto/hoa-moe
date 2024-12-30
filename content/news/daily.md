@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2024-12-30'
-description: 北京时间 2024-12-29 00 时至今
+description: 北京时间 2024-12-29 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周一 (12.30)
+
+- WDGaster703 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：修改开课学期
 
 ### 周日 (12.29)
 
