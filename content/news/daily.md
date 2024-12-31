@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-30'
-description: 北京时间 2024-12-29 06 时至今
+date: '2024-12-31'
+description: 北京时间 2024-12-30 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -15,12 +15,6 @@ title: AUTO 更新速递
 ### 周一 (12.30)
 
 - WDGaster703 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：修改开课学期
-
-### 周日 (12.29)
-
-- psp_dada 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：更新学习建议 (#5)
-
-- 吴俊达 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：更新 README.md
 
 ## 待解决的 Issues
 
