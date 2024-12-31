@@ -1,6 +1,6 @@
 ---
 title: （文理通识）课程评价
-weight: 404
+weight: 405
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md"
 math: true
