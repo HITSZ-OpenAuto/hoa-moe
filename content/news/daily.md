@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (1.3)
 
+- W·D·Gaster 在 [生物学导论](https://github.com/HITSZ-OpenAuto/BIO1001C) 中提交了信息：Update tag.txt
+
+- W·D·Gaster 在 [生物学导论](https://github.com/HITSZ-OpenAuto/BIO1001C) 中提交了信息：Initial commit
+
 - W·D·Gaster 在 [水力学](https://github.com/HITSZ-OpenAuto/ENVR3033C) 中提交了信息：添加水力学作业和测验部分官方答案 (#1)
 
 - W·D·Gaster 在 [水力学](https://github.com/HITSZ-OpenAuto/ENVR3033C) 中提交了信息：Update README.md
