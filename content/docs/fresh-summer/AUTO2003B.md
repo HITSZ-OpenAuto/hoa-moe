@@ -6,7 +6,34 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 3 日" author="longlin li" message="docs: change link style" >}}
+{{< filetree/container >}}
+  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/README.md" >}}
+  {{< filetree/folder name="assignments" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/assignments/README.md" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="exams" state="closed" >}}
+    {{< filetree/file name="2021 级近现代史期末试题 (自收集，待补全).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/exams/2021%E7%BA%A7%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%20%28%E8%87%AA%E6%94%B6%E9%9B%86%2C%E5%BE%85%E8%A1%A5%E5%85%A8%29.pdf" >}}
+    {{< filetree/file name="2023 年春中国近现代史纲要期末考试回忆版试题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/exams/2023%E5%B9%B4%E6%98%A5%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E7%89%88%E8%AF%95%E9%A2%98.pdf" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/exams/README.md" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="labs" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/labs/README.md" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="materials" state="closed" >}}
+    {{< filetree/file name="2023 近代史复习资料 v1.2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/2023%20%E8%BF%91%E4%BB%A3%E5%8F%B2%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99v1.2.pdf" >}}
+    {{< filetree/file name="2023 级近代史串讲原文 v1.3_串讲课转录组.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/2023%E7%BA%A7%E8%BF%91%E4%BB%A3%E5%8F%B2%E4%B8%B2%E8%AE%B2%E5%8E%9F%E6%96%87v1.3_%E4%B8%B2%E8%AE%B2%E8%AF%BE%E8%BD%AC%E5%BD%95%E7%BB%84.pdf" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/README.md" >}}
+    {{< filetree/file name="中国近现代史纲要 2023.5.7 串讲全文.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%812023.5.7%E4%B8%B2%E8%AE%B2%E5%85%A8%E6%96%87.pdf" >}}
+    {{< filetree/file name="考研近代史考点.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/%E8%80%83%E7%A0%94%E8%BF%91%E4%BB%A3%E5%8F%B2%E8%80%83%E7%82%B9.pdf" >}}
+    {{< filetree/file name="近现代史题目.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E9%A2%98%E7%9B%AE.docx" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="notes" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/notes/README.md" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="slides" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/slides/README.md" >}}
+  {{< /filetree/folder >}}
+{{< /filetree/container >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -114,33 +141,31 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 ## 资料下载
 
 {{< filetree/container >}}
-  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/README.md" >}}
-  {{< filetree/folder name="course_design" state="closed" >}}
-    {{< filetree/file name="创新训练课 B 报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
-    {{< filetree/file name="答辩 PPT_吴坤远.pptx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E7%AD%94%E8%BE%A9PPT_%E5%90%B4%E5%9D%A4%E8%BF%9C.pptx" >}}
-  {{< filetree/folder name="地铁站示例" state="closed" >}}
-    {{< filetree/file name="Qt-创新训练题目 3.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/Qt-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E9%A2%98%E7%9B%AE3.zip" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/README.md" >}}
-    {{< filetree/file name="项目展示答辩.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BA%E7%AD%94%E8%BE%A9.zip" >}}
-    {{< filetree/file name="黄继凡 - 创新训练课 B 报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%BB%84%E7%BB%A7%E5%87%A1-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
+  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/README.md" >}}
+  {{< filetree/folder name="assignments" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/assignments/README.md" >}}
   {{< /filetree/folder >}}
+  {{< filetree/folder name="exams" state="closed" >}}
+    {{< filetree/file name="2021 级近现代史期末试题 (自收集，待补全).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/exams/2021%E7%BA%A7%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%20%28%E8%87%AA%E6%94%B6%E9%9B%86%2C%E5%BE%85%E8%A1%A5%E5%85%A8%29.pdf" >}}
+    {{< filetree/file name="2023 年春中国近现代史纲要期末考试回忆版试题.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/exams/2023%E5%B9%B4%E6%98%A5%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E7%89%88%E8%AF%95%E9%A2%98.pdf" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/exams/README.md" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="labs" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/labs/README.md" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/labs/README.md" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="materials" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/materials/README.md" >}}
+    {{< filetree/file name="2023 近代史复习资料 v1.2.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/2023%20%E8%BF%91%E4%BB%A3%E5%8F%B2%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99v1.2.pdf" >}}
+    {{< filetree/file name="2023 级近代史串讲原文 v1.3_串讲课转录组.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/2023%E7%BA%A7%E8%BF%91%E4%BB%A3%E5%8F%B2%E4%B8%B2%E8%AE%B2%E5%8E%9F%E6%96%87v1.3_%E4%B8%B2%E8%AE%B2%E8%AF%BE%E8%BD%AC%E5%BD%95%E7%BB%84.pdf" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/README.md" >}}
+    {{< filetree/file name="中国近现代史纲要 2023.5.7 串讲全文.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%812023.5.7%E4%B8%B2%E8%AE%B2%E5%85%A8%E6%96%87.pdf" >}}
+    {{< filetree/file name="考研近代史考点.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/%E8%80%83%E7%A0%94%E8%BF%91%E4%BB%A3%E5%8F%B2%E8%80%83%E7%82%B9.pdf" >}}
+    {{< filetree/file name="近现代史题目.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/materials/%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E9%A2%98%E7%9B%AE.docx" >}}
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="notes" state="closed" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/notes/README.md" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="slides" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/README.md" >}}
-    {{< filetree/file name="第 1 章 高级语言程序设计.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC1%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf" >}}
-    {{< filetree/file name="第 2 章 可行性研究.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC2%E7%AB%A0%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6.pdf" >}}
-    {{< filetree/file name="第 3 章 需求分析.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%20%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.pdf" >}}
-    {{< filetree/file name="第 4 章 总体设计.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC4%E7%AB%A0%20%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1.pdf" >}}
-    {{< filetree/file name="第 5 章 详细设计 1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC5%E7%AB%A0%20%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A11.pdf" >}}
-    {{< filetree/file name="第 6 章 实现.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC6%E7%AB%A0%20%E5%AE%9E%E7%8E%B0.pdf" >}}
-    {{< filetree/file name="第 7 章 维护.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC7%E7%AB%A0%20%E7%BB%B4%E6%8A%A4.pdf" >}}
-    {{< filetree/file name="课程设计题目.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
+    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1016/raw/main/slides/README.md" >}}
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
