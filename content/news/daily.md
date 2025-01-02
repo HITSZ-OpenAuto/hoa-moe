@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (1.2)
 
+- W·D·Gaster 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：Update README.md
+
 - W·D·Gaster 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：修改开课学期
 
 ## 待解决的 Issues
