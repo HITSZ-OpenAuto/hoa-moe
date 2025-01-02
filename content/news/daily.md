@@ -14,7 +14,13 @@ title: AUTO 更新速递
 
 ### 周四 (1.2)
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Initial commit
+- longlin li 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：Update tag.txt
+
+- W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Update tag.txt
+
+- longlin li 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：Update tag.txt
+
+- W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Initial commit
 
 - W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：补充胡莹老师的内容和 24 秋考试相关 (#11)
 
