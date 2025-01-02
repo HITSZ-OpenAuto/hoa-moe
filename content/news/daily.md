@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.3)
 
+- W·D·Gaster 在 [水力学](https://github.com/HITSZ-OpenAuto/ENVR3033C) 中提交了信息：添加水力学作业和测验部分官方答案 (#1)
+
 - W·D·Gaster 在 [水力学](https://github.com/HITSZ-OpenAuto/ENVR3033C) 中提交了信息：Update README.md
 
 - W·D·Gaster 在 [水力学](https://github.com/HITSZ-OpenAuto/ENVR3033C) 中提交了信息：Update README.md
