@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.3)
 
+- W·D·Gaster 在 [生物学导论](https://github.com/HITSZ-OpenAuto/BIO1001C) 中提交了信息：Update README.md
+
 - W·D·Gaster 在 [生物学导论](https://github.com/HITSZ-OpenAuto/BIO1001C) 中提交了信息：Update tag.txt
 
 - W·D·Gaster 在 [生物学导论](https://github.com/HITSZ-OpenAuto/BIO1001C) 中提交了信息：Initial commit
