@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/ENVR3033C/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 3 日" author="W·D·Gaster" message="Update README.md" >}}
+{{< update-info update_time="2025 年 1 月 3 日" author="W·D·Gaster" message="添加水力学作业和测验部分官方答案 (#1)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -48,6 +48,14 @@ math: true
   {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/README.md" >}}
   {{< filetree/folder name="assignments" state="closed" >}}
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/assignments/README.md" >}}
+  {{< filetree/folder name="水力学作业与测验部分官方答案" state="closed" >}}
+    {{< filetree/file name="ENVR3033C《水力学》20240411 (1).doc" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/assignments/%E6%B0%B4%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%8E%E6%B5%8B%E9%AA%8C%E9%83%A8%E5%88%86%E5%AE%98%E6%96%B9%E7%AD%94%E6%A1%88/ENVR3033C%E3%80%8A%E6%B0%B4%E5%8A%9B%E5%AD%A6%E3%80%8B20240411%20%281%29.doc" >}}
+    {{< filetree/file name="操作 1_文丘里综合型实验.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/assignments/%E6%B0%B4%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%8E%E6%B5%8B%E9%AA%8C%E9%83%A8%E5%88%86%E5%AE%98%E6%96%B9%E7%AD%94%E6%A1%88/%E6%93%8D%E4%BD%9C1_%E6%96%87%E4%B8%98%E9%87%8C%E7%BB%BC%E5%90%88%E5%9E%8B%E5%AE%9E%E9%AA%8C.pdf" >}}
+    {{< filetree/file name="操作 3_动量定律综合实验.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/assignments/%E6%B0%B4%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%8E%E6%B5%8B%E9%AA%8C%E9%83%A8%E5%88%86%E5%AE%98%E6%96%B9%E7%AD%94%E6%A1%88/%E6%93%8D%E4%BD%9C3_%E5%8A%A8%E9%87%8F%E5%AE%9A%E5%BE%8B%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C.pdf" >}}
+    {{< filetree/file name="第 2 章作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/assignments/%E6%B0%B4%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%8E%E6%B5%8B%E9%AA%8C%E9%83%A8%E5%88%86%E5%AE%98%E6%96%B9%E7%AD%94%E6%A1%88/%E7%AC%AC2%E7%AB%A0%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< filetree/file name="第 3 次测验答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/assignments/%E6%B0%B4%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%8E%E6%B5%8B%E9%AA%8C%E9%83%A8%E5%88%86%E5%AE%98%E6%96%B9%E7%AD%94%E6%A1%88/%E7%AC%AC3%E6%AC%A1%E6%B5%8B%E9%AA%8C%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< filetree/file name="第 4 章作业答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/assignments/%E6%B0%B4%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%8E%E6%B5%8B%E9%AA%8C%E9%83%A8%E5%88%86%E5%AE%98%E6%96%B9%E7%AD%94%E6%A1%88/%E7%AC%AC4%E7%AB%A0%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+  {{< /filetree/folder >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ENVR3033C/raw/main/exams/README.md" >}}
