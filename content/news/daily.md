@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-02'
-description: 北京时间 2025-01-01 11 时至今
+description: 北京时间 2025-01-01 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周四 (1.2)
+
+- W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：补充 24 秋马原串讲相关材料 (#12)
 
 - W·D·Gaster 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：添加实验指导书和软件部分 PPT 及示例代码 (#1)
 
@@ -35,12 +37,6 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
-
-### [补充 24 秋马原串讲相关材料](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/12)
-
-- **仓库**: GEIP1011
-- **创建于**: 2025-01-02T11:08:08Z
-- **作者**: WDGaster703
 
 ### [补充胡莹老师的内容和 24 秋考试相关](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/11)
 
