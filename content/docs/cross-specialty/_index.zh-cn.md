@@ -8,4 +8,6 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="chem1012"title="大学化学 III">}}
+{{< card link="econ2005f"title="经济学原理">}}
+{{< card link="spst1004"title="普通天文学">}}
 {{< /cards >}}
