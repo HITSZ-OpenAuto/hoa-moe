@@ -23,20 +23,21 @@ math: true
 ![%E8%B7%A8%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE](https://img.shields.io/badge/%E8%B7%A8%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE-lightskyblue)
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+![%E4%BD%9C%E4%B8%9A30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
+![%E5%AE%9E%E9%AA%8C20%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-20%25-wheat)
+![%E8%AF%BE%E5%A0%82%E6%B5%8B%E9%AA%8C50%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B5%8B%E9%AA%8C-50%25-wheat)
 
+
+![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-32-wheat)
+![%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%97%B68](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%97%B6-8-wheat)
 
 </div>
 
 ## 授课教师
 
 - 刘彤宙
-  - 授课风格：
-  - 听课建议：
+  - 老师授课挺好的，但是课本身难度较高
   - 点名和小测会提前通知，小测开卷
-
-## 关于考试
 
 ## 学习建议
 
