@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2024-12-31'
-description: 北京时间 2024-12-30 00 时至今
+date: '2025-01-02'
+description: 北京时间 2025-01-01 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (12.30)
+### 周四 (1.2)
 
-- WDGaster703 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：修改开课学期
+- W·D·Gaster 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：修改开课学期
 
 ## 待解决的 Issues
 
@@ -32,5 +32,15 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [补充 24 秋马原串讲相关材料](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/12)
+
+- **仓库**: GEIP1011
+- **创建于**: 2025-01-02T11:08:08Z
+- **作者**: WDGaster703
+
+### [补充胡莹老师的内容和 24 秋考试相关](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/11)
+
+- **仓库**: GEIP1011
+- **创建于**: 2025-01-02T07:49:31Z
+- **作者**: WDGaster703
 
