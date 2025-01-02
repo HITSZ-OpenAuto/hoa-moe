@@ -26,9 +26,9 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [因课程代号变更带来的仓库名修改](https://github.com/HITSZ-OpenAuto/MATH3010/issues/4)
+### [因课程代号变更带来的仓库名修改](https://github.com/HITSZ-OpenAuto/AUTO3028/issues/4)
 
-- **仓库**: MATH3010
+- **仓库**: AUTO3028
 - **创建于**: 2024-12-24T10:16:56Z
 - **作者**: OliverWu515
 
