@@ -1,8 +1,8 @@
 ---
-title: （研究生阶段课程）凸优化与最优控制
-weight: 202
+title: （跨专业选修）氢能与燃料电池
+weight: 307
 toc: true
-editURL: "https://github.com/HITSZ-OpenAuto/AUTO5023/edit/main/README.md"
+editURL: "https://github.com/HITSZ-OpenAuto/ENER3026F/edit/main/README.md"
 math: true
 ---
 
@@ -35,29 +35,38 @@ math: true
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
+<!--
+1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
+2. 请根据课程的具体内容增删仓库的子文件夹。子文件夹建议使用小写英文，并且添加 README.md。
+3. 关于课程的描述可以不止以下几个方面，酌情增删。
+4. hoa.moe 生成本课程对应页面后，请将页面链接复制到 GitHub 仓库的 About/Website 中。
+5. 可以在 GitHub 页面的 About/Topics 中为课程添加话题名称。
+-->
+
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
+![%E8%80%83%E8%AF%95%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
 ![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
+![%E8%B7%A8%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE](https://img.shields.io/badge/%E8%B7%A8%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE-lightskyblue)
+![%E5%AE%9E%E9%AA%8C](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-purple)
+![%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86](https://img.shields.io/badge/%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86-orange)
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E9%9A%8F%E5%A0%82%E6%B5%8B%E9%AA%8C10%](https://img.shields.io/badge/%E9%9A%8F%E5%A0%82%E6%B5%8B%E9%AA%8C-10%25-wheat)
-![%E4%BD%9C%E4%B8%9A20%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-20%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9570%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
+![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
 
 
 </div>
 
 ## 授课教师
 
-- 李衍杰
+- （教师名）
   - 授课风格：
   - 听课建议：
   - ……
 
 ## 关于考试
-
-允许携带一张 A4 纸。
 
 ## 学习建议
 
@@ -92,7 +101,7 @@ math: true
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO5023'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
+如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/ENER3026F'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 
