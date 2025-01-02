@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-02'
-description: 北京时间 2025-01-01 14 时至今
+description: 北京时间 2025-01-01 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周五 (1.3)
+
+- W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：上传期末试题和作业 (#1)
 
 ### 周四 (1.2)
 
@@ -48,5 +52,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [新增一份笔记](https://github.com/HITSZ-OpenAuto/MATH1004/pull/8)
+
+- **仓库**: MATH1004
+- **创建于**: 2025-01-02T15:47:24Z
+- **作者**: zhuqi000
 
