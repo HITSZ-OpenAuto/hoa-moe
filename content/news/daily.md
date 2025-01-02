@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-02'
-description: 北京时间 2025-01-01 17 时至今
+description: 北京时间 2025-01-01 18 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,9 +14,13 @@ title: AUTO 更新速递
 
 ### 周五 (1.3)
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ENER3026F) 中提交了信息：Update tag.txt
+- W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：修改成绩构成，修改课程描述
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ENER3026F) 中提交了信息：Initial commit
+- W·D·Gaster 在 [氢能与燃料电池](https://github.com/HITSZ-OpenAuto/ENER3026F) 中提交了信息：Update README.md
+
+- W·D·Gaster 在 [氢能与燃料电池](https://github.com/HITSZ-OpenAuto/ENER3026F) 中提交了信息：Update tag.txt
+
+- W·D·Gaster 在 [氢能与燃料电池](https://github.com/HITSZ-OpenAuto/ENER3026F) 中提交了信息：Initial commit
 
 - W·D·Gaster 在 [生物学导论](https://github.com/HITSZ-OpenAuto/BIO1001C) 中提交了信息：Update README.md
 
