@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (1.2)
 
+- W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：补充胡莹老师的内容和 24 秋考试相关 (#11)
+
 - W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：补充 24 秋马原串讲相关材料 (#12)
 
 - W·D·Gaster 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：添加实验指导书和软件部分 PPT 及示例代码 (#1)
@@ -38,9 +40,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [补充胡莹老师的内容和 24 秋考试相关](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/11)
-
-- **仓库**: GEIP1011
-- **创建于**: 2025-01-02T07:49:31Z
-- **作者**: WDGaster703
+暂无待合并的 Pull Requests
 
