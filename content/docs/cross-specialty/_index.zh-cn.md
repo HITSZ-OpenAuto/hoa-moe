@@ -12,4 +12,5 @@ toc: false
 {{< card link="spst1004"title="普通天文学">}}
 {{< card link="emec1016"title="智慧低碳能源发电技术导论">}}
 {{< card link="envr3033c"title="水力学">}}
+{{< card link="bio1001c"title="生物学导论">}}
 {{< /cards >}}
