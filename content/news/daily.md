@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-02'
-description: 北京时间 2025-01-01 13 时至今
+description: 北京时间 2025-01-01 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周四 (1.2)
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Initial commit
 
 - W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：补充胡莹老师的内容和 24 秋考试相关 (#11)
 
@@ -25,12 +27,6 @@ title: AUTO 更新速递
 - W·D·Gaster 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：修改开课学期
 
 ## 待解决的 Issues
-
-### [因课程代号变更带来的仓库名修改](https://github.com/HITSZ-OpenAuto/AUTO3028/issues/4)
-
-- **仓库**: AUTO3028
-- **创建于**: 2024-12-24T10:16:56Z
-- **作者**: OliverWu515
 
 ### [若干问题](https://github.com/HITSZ-OpenAuto/PE100X/issues/10)
 
