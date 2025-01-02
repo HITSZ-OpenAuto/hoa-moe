@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (1.2)
 
+- W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Update README.md
+
 - longlin li 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：Update tag.txt
 
 - longlin li 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：Update tag.txt
