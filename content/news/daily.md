@@ -16,6 +16,8 @@ title: AUTO 更新速递
 
 - W·D·Gaster 在 [水力学](https://github.com/HITSZ-OpenAuto/ENVR3033C) 中提交了信息：Update README.md
 
+- W·D·Gaster 在 [水力学](https://github.com/HITSZ-OpenAuto/ENVR3033C) 中提交了信息：Update README.md
+
 - W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Update README.md
 
 - W·D·Gaster 在 [智慧低碳能源发电技术导论](https://github.com/HITSZ-OpenAuto/EMEC1016) 中提交了信息：Update README.md
