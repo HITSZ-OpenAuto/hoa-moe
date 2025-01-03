@@ -1,6 +1,6 @@
 ---
 title: 文理通识与 MOOC
-weight: 14
+weight: 16
 comments: false
 toc: false
 ---
