@@ -10,8 +10,4 @@ toc: false
 {{< card link="chem1012"title="大学化学 III">}}
 {{< card link="econ2005f"title="经济学原理">}}
 {{< card link="spst1004"title="普通天文学">}}
-{{< card link="emec1016"title="智慧低碳能源发电技术导论">}}
-{{< card link="envr3033c"title="水力学">}}
-{{< card link="bio1001c"title="生物学导论">}}
-{{< card link="ener3026f"title="氢能与燃料电池">}}
 {{< /cards >}}
