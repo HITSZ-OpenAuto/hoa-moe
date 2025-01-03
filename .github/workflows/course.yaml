@@ -109,7 +109,7 @@ jobs:
           done
 
           # echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
-          # cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
+          # cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC|GeneralKnowledge|CrossSpecialty).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
           # cat repos.txt
 
       - name: Build course pages
@@ -124,7 +124,7 @@ jobs:
           for line in $(echo '${{ env.repos_array }}' | jq -r '.[]');
           do
             set +e
-            echo "$line" | grep -qE '^([A-Z]{2,4}[0-9]{3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$'
+            echo "$line" | grep -qE '^([A-Z]{2,4}[0-9]{3}([0-9]|X){1}|MOOC|GeneralKnowledge|CrossSpecialty).*$'
             if [ $? -eq 1 ]; then
               continue
             fi
