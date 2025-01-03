@@ -92,6 +92,12 @@ jobs:
                 '第四学年春季')
                   semester='senior-spring'
                   ;;
+                '研究生秋季')
+                  semester='graduate-autumn'
+                  ;;
+                '研究生春季')
+                  semester='graduate-spring'
+                  ;;
                 *)
                   echo "No match semester"
                   continue
@@ -199,6 +205,12 @@ jobs:
                   ;;
                 '第四学年春季')
                   semester='senior-spring'
+                  ;;
+                '研究生秋季')
+                  semester='graduate-autumn'
+                  ;;
+                '研究生春季')
+                  semester='graduate-spring'
                   ;;
                 *)
                   echo "No match semester"
