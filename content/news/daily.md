@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-03'
-description: 北京时间 2025-01-02 08 时至今
+description: 北京时间 2025-01-02 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周五 (1.3)
+
+- W·D·Gaster 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：修改成绩构成
 
 - W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：修改学时安排
 
@@ -24,11 +26,11 @@ title: AUTO 更新速递
 
 - W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：Initial commit
 
-- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：Update tag.txt
+- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update tag.txt
 
-- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：补充氢能与燃料电池、生物学导论、智慧低碳能源技术导论、深空探测、水力学相关评价
+- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：补充氢能与燃料电池、生物学导论、智慧低碳能源技术导论、深空探测、水力学相关评价
 
-- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：Initial commit
+- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Initial commit
 
 - W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：修改成绩构成，修改课程描述
 
