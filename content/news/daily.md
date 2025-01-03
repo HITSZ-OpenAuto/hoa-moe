@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-03'
-description: 北京时间 2025-01-02 13 时至今
+description: 北京时间 2025-01-02 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -75,6 +75,12 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [更新文档与 2024 年考试资料](https://github.com/HITSZ-OpenAuto/MATH4004/pull/2)
+
+- **仓库**: MATH4004
+- **创建于**: 2025-01-03T14:45:37Z
+- **作者**: OliverWu515
 
 ### [新增一份笔记](https://github.com/HITSZ-OpenAuto/MATH1004/pull/8)
 
