@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.3)
 
+- W·D·Gaster 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：补充预习和实验报告提交相关内容，修改部分内容表述
+
 - W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：补充课程相关内容
 
 - W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：Update tag.txt
