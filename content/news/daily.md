@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.3)
 
+- W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：上传期末试题和作业 (#2)
+
 - W·D·Gaster 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：修改成绩构成
 
 - W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：修改学时安排
