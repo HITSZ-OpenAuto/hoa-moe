@@ -14,7 +14,9 @@ title: AUTO 更新速递
 
 ### 周五 (1.3)
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：Initial commit
+- W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：Update tag.txt
+
+- W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：Initial commit
 
 - W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：Update tag.txt
 
