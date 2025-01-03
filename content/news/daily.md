@@ -14,9 +14,13 @@ title: AUTO 更新速递
 
 ### 周五 (1.3)
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：补充氢能与燃料电池、生物学导论、智慧低碳能源技术导论、深空探测、水力学相关评价
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：Initial commit
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：Initial commit
+- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：Update tag.txt
+
+- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：补充氢能与燃料电池、生物学导论、智慧低碳能源技术导论、深空探测、水力学相关评价
+
+- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/-) 中提交了信息：Initial commit
 
 - W·D·Gaster 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：修改成绩构成，修改课程描述
 
