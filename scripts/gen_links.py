@@ -12,6 +12,7 @@ import time
 from aiohttp import ClientTimeout
 from tenacity import retry, stop_after_attempt, wait_exponential
 
+
 # Cache for API responses
 @lru_cache(maxsize=1000)
 def cache_path(path: str) -> str:
