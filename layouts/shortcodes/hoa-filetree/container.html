@@ -1,0 +1,24 @@
+{{- $driveURL := .Get "driveURL" | default "https://open.osa.moe/openauto" -}}
+{{- $cloud := resources.Get "icons/cloud.png" -}}
+{{- $downloads := resources.Get "icons/downloads.png" -}}
+
+<div class="hx-w-full hx-flex hx-flex-col hx-mt-4 not-prose">
+    <div class="hx-flex hx-justify-end hx-items-center hx-gap-2">
+        <button class="hx-mb-2 hx-border hx-rounded-md hx-px-3 hx-py-1 hx-font-bold dark:hx-border-[#262626] hx-bg-[#f6f8fa] dark:hx-bg-[--animate-color] hx-text-sm hover:hx-shadow-sm">
+            <a href="{{ $driveURL }}" target="_blank">
+            <img src="{{ $cloud.RelPermalink }}" alt="cloud" class="hx-w-4" />
+            内网网盘
+            </a>
+        </button>
+        <button class="hoa-filetree-download hx-mb-2 hx-border hx-rounded-md hx-px-3 hx-py-1 hx-font-bold dark:hx-border-[#262626] hx-bg-[#f6f8fa] dark:hx-bg-[--animate-color] hx-text-sm hover:hx-shadow-sm">
+            <img src="{{ $downloads.RelPermalink }}" alt="downloads" class="hx-w-3" />
+            批量下载
+        </button>
+    </div>
+    <div class="hx-w-full hx-rounded-sm">
+        {{ partial "hoa-filetree/header.html" . }}
+        <ul class="hoa-filetree-container hx-w-full hx-my-0">
+            {{- .Inner -}}
+        </ul>
+    </div>
+</div>

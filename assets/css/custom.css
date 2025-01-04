@@ -108,3 +108,15 @@ a.hextra-feature-card:hover {
 .header-icon:hover {
   filter: none;
 }
+
+.hoa-filetree-file:has(input:checked) {
+  background-color: rgb(243 244 246 / var(--tw-text-opacity, 1));
+}
+
+.hoa-filetree-folder:has(input:checked) {
+  background-color: rgb(243 244 246 / var(--tw-text-opacity, 1));
+}
+
+/* .filetree-header {
+  background-color: #f6f8fa;
+} */
