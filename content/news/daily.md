@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-04'
-description: 北京时间 2025-01-03 09 时至今
+description: 北京时间 2025-01-03 10 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (1.4)
+
+- W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001A) 中提交了信息：上传 24 秋 XB 试题及答案，上传 24 秋本部阶段训练题 (#7)
 
 - W·D·Gaster 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充体育基础班相关内容
 
