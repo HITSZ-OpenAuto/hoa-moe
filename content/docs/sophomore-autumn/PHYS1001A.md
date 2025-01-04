@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 24 日" author="吴俊达" message="更新过时的文档与考试说明；上传若干本部试题 (#6)" >}}
+{{< update-info update_time="2025 年 1 月 4 日" author="W·D·Gaster" message="补充林国平老师相关内容、补充 24 秋考试情况、补充大物 XA 和 XB 学习建议 (#8)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -35,17 +35,36 @@ math: true
 - 教师 1：马永辉
   - 授课风格：PPT，偶尔板书。
   - 2023 年期末考试前公布了班上学生的平时成绩，除了个别不交作业的，大多数人都是 29 或 30 分。
-  - 是否需要认真听讲做笔记
   - 听课建议
 - 教师 2：王永杰
   - 授课风格：PPT，很少板书。
   - PPT 念得比较细致，解释得其实也很清楚。但是因为语调没有什么变化所以听起来比较容易犯困。
+- 教师 3：林国平
+  - 授课风格：PPT，几乎不用板书
+  - 上课几乎是照着 PPT 念的，而且语调没有太大的起伏，很容易昏昏欲睡。
+  - PPT 做的很细致，而且乐于回答学生问题（实际上他的水平很高）。鉴于 23 级开始和本部联考，他的消息是最灵通的，他的班级最早了解本部相关消息的。
+  - 听课建议：不用听课，直接看他的 PPT 即可。习题课可以听一听，课后有问题直接找他询问即可。
 
 ## 关于考试
 
 **从 2024 年春季开始，深圳校区的大学物理与本部联考。** 请注意本部试题结构上与之前的区别，本仓库将持续更新来自本部的试题资料，也欢迎各位贡献最新的试题。
 
+> by [@Gaster](https://github.com/WDGaster703/)，2025.1
+ 
+2024 年春季学期和本部联考后，大物考试难度大幅上升，平均分保守估计降低了 15 分左右（以往 90 进不去前 50% 的现在 80 就能进 40%）。
+2024 春季学期大物 XA 期末试卷结构为 10 题选择 + 10 题填空 + 6 题大题，而 2024 秋季学期大物 XB 期末试卷结构为 10 题填空 + 1 题推导证明 + 7 题计算 + 1 题设计与应用。
+2024 秋大物 XB 考试考到了很多很偏的知识点，如不同偏振态的光线经过玻片后偏振态的改变，推导证明题直接默写热力学第二定律两种等价形式的证明，卷子大背诵且和物理思维毫无关系，鉴于本部期中考全是热学，上课花了大量时间的热学只考了 2 题填空和推导证明题，量子物理和光学考了很多。
+对 24 秋大物 XB 试卷的吐槽，我相信 23 级学生有很多想说的，欢迎补充（
+
 ## 学习建议
+
+> by [@Gaster](https://github.com/WDGaster703)，2025.1
+
+大物虽然在和本部联考后大改，但是总体上还是大背诵，两学期大物要对物理学的各个领域都有一个入门级的学习，自然有很多公式定义定理要记忆（<br>
+大物 XA 中力学和电磁学思维量较大，力学需要正确进行受力分析，电磁场需要正确找到各个电磁量和力学量的关系，在高中基础上引入了微积分，这也是大物 XA 的难点所在。<br>
+大物 XB 思维量则小得多，一个直观感受是没有积分计算，只有简单的加减乘除，但是大物 XB 内容较散，光学、热学、量子物理各部分各成体系，并无很强的相关性。并且由于振动与波动、狭义相对论部分内容移至大物 XA 部分教学，本部加入了大量的原本不要求的内容和拓展应用内容，导致原本零碎的课程更加零碎。<br>
+虽然大物是大背诵，但由于和本部联考后难度大幅上升，我不推荐突击学习的，不论是大物 XA 还是大物 XB，都需要理解课本定理和推导的过程，在做习题的时候需要理解答案的推导过程，否则，面对期末考的大计算和大背诵还是很难对付的。<br>
+资料中清华题库和上交试题在难度上和哈工大的试卷难度都不相同，如果遇到难度过高的题目不要死磕，难度以课后习题和往年题为参考。
 
 > 此内容为原先大学物理 IB 文档中的内容，现在课程内容调整后，部分内容可能不适用，请各位注意！
 
@@ -75,6 +94,8 @@ math: true
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/assignments/README.md" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
+    {{< filetree/file name="2024 年秋大学物理 XB 回忆版.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2024%20%E5%B9%B4%E7%A7%8B%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%20XB%20%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
+    {{< filetree/file name="2024 年秋大学物理 XB 参考答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2024%20%E5%B9%B4%E7%A7%8B%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%20XB%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/README.md" >}}
     {{< filetree/file name="上交 2004-2015 大物试卷（转自本部网盘计划，有答案）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E4%B8%8A%E4%BA%A42004-2015%E5%A4%A7%E7%89%A9%E8%AF%95%E5%8D%B7%EF%BC%88%E8%BD%AC%E8%87%AA%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%EF%BC%8C%E6%9C%89%E7%AD%94%E6%A1%88%EF%BC%89.pdf" >}}
     {{< filetree/file name="清华大学物理试题库所有习题 (含量子物理，有答案).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%AF%95%E9%A2%98%E5%BA%93%E6%89%80%E6%9C%89%E4%B9%A0%E9%A2%98%28%E5%90%AB%E9%87%8F%E5%AD%90%E7%89%A9%E7%90%86%EF%BC%8C%E6%9C%89%E7%AD%94%E6%A1%88%29.pdf" >}}
@@ -124,6 +145,8 @@ math: true
     {{< filetree/file name="2024_psp_大学物理笔记.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2024_psp_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0.pdf" >}}
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/README.md" >}}
     {{< filetree/file name="Sora 的大学物理补天攻略.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/Sora%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%A1%A5%E5%A4%A9%E6%94%BB%E7%95%A5.pdf" >}}
+    {{< filetree/file name="大学物理 XA 知识点梳理-Gaster.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86XA%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86-Gaster.pdf" >}}
+    {{< filetree/file name="大学物理 XB 知识点梳理-Gaster.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86XB%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86-Gaster.pdf" >}}
     {{< filetree/file name="笔记和课后习题（含考研真题）详解.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3.pdf" >}}
   {{< filetree/folder name="2023_Empty" state="closed" >}}
     {{< filetree/file name="2023_Empty_大学物理 IB（光学）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_Empty/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E5%85%89%E5%AD%A6%EF%BC%89.pdf" >}}

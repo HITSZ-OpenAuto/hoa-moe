@@ -1,6 +1,6 @@
 ---
 title: 跨专业选修
-weight: 13
+weight: 15
 comments: false
 toc: false
 ---
@@ -10,4 +10,5 @@ toc: false
 {{< card link="chem1012"title="大学化学 III">}}
 {{< card link="econ2005f"title="经济学原理">}}
 {{< card link="spst1004"title="普通天文学">}}
+{{< card link="crossspecialty"title="跨专业选修课程体系">}}
 {{< /cards >}}

@@ -85,9 +85,9 @@ jobs:
 
       - name: Bulid directory pages
         run: |
-          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
-          semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春' '跨专业选修' '文理通识与MOOC')
-          category_arr='mandatory distributional-selective cross-major-selective general-knowledge graduate-course legacy'
+          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'graduate-autumn' 'graduate-spring' 'cross-specialty' 'general-knowledge')
+          semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春' '研究生·秋' '研究生·春' '跨专业选修' '文理通识与MOOC')
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course undergraduate-graduate-course selective general-knowledge legacy'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"
@@ -109,7 +109,7 @@ jobs:
           done
 
           # echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
-          # cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
+          # cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC|GeneralKnowledge|CrossSpecialty).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
           # cat repos.txt
 
       - name: Build course pages
@@ -124,7 +124,7 @@ jobs:
           for line in $(echo '${{ env.repos_array }}' | jq -r '.[]');
           do
             set +e
-            echo "$line" | grep -qE '^([A-Z]{2,4}[0-9]{3}([0-9]|X){1}|MOOC|GeneralKnowledge).*$'
+            echo "$line" | grep -qE '^([A-Z]{2,4}[0-9]{3}([0-9]|X){1}|MOOC|GeneralKnowledge|CrossSpecialty).*$'
             if [ $? -eq 1 ]; then
               continue
             fi
@@ -181,6 +181,12 @@ jobs:
                 '第四学年春季')
                   semester='senior-spring'
                   ;;
+                '研究生秋季')
+                  semester='graduate-autumn'
+                  ;;
+                '研究生春季')
+                  semester='graduate-spring'
+                  ;;
                 *)
                   echo "No match semester"
                   continue
@@ -200,6 +206,12 @@ jobs:
                   ;;
                 '研究生阶段课程')
                   category='graduate-course'
+                  ;;
+                '本研共通')
+                  category='undergraduate-graduate-course'
+                  ;;
+                '选修')
+                  category='selective'
                   ;;
                 '跨专业选修')
                   semester='cross-specialty'
@@ -242,6 +254,15 @@ jobs:
                   echo "## ${CATEGORY}" > "${semester}-${category}.txt"
                   echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
                 fi
+                if [ ${CATEGORY} = "本研共通" ]
+                then
+                  echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                  echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
+                fi
+                if [ ${CATEGORY} = "选修" ]
+                then
+                  echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                fi
                 if [ ${CATEGORY} = "归档" ]
                 then
                   echo "## ${CATEGORY}" > "${semester}-${category}.txt"
@@ -269,6 +290,14 @@ jobs:
                 counter_dis=$((${counter_dis}+1));
                 echo "weight: ${counter_dis}" >> "./content/docs/${semester}/${line}.md"
               elif [ ${CATEGORY} = "研究生阶段课程" ]
+              then
+                counter_graduate=$((${counter_graduate}+1));
+                echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "本研共通" ]
+              then
+                counter_graduate=$((${counter_graduate}+1));
+                echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "选修" ]
               then
                 counter_graduate=$((${counter_graduate}+1));
                 echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
@@ -312,8 +341,8 @@ jobs:
 
       - name: Build semester pages
         run: |
-          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'cross-specialty' 'general-knowledge')
-          category_arr='mandatory distributional-selective cross-major-selective graduate-course general-knowledge legacy'
+          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'graduate-autumn' 'graduate-spring' 'cross-specialty' 'general-knowledge')
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course undergraduate-graduate-course selective general-knowledge legacy'
           for((i=0;i<${#semester_arr[@]};i++))
           do
             SEMESTER="${semester_arr[i]}"

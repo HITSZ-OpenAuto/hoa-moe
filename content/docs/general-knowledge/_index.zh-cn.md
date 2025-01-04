@@ -1,6 +1,6 @@
 ---
 title: 文理通识与 MOOC
-weight: 14
+weight: 16
 comments: false
 toc: false
 ---
@@ -11,4 +11,5 @@ toc: false
 {{< card link="wocd1008"title="日语 I">}}
 {{< card link="writ0001"title="写作与沟通">}}
 {{< card link="generalknowledge"title="课程评价">}}
+{{< card link="sein1040"title="中国科技史话">}}
 {{< /cards >}}
