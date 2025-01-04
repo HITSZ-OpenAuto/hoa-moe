@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 7 月 18 日" author="Peng Shangpin" message="add new note (#5)" >}}
+{{< update-info update_time="2025 年 1 月 4 日" author="W·D·Gaster" message="补充袁慧芳和杨国俅的内容 (#8)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
