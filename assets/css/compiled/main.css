@@ -1038,6 +1038,11 @@ video {
 .hx-overscroll-x-contain {
   overscroll-behavior-x: contain;
 }
+.hx-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .hx-text-ellipsis {
   text-overflow: ellipsis;
 }
@@ -1049,6 +1054,12 @@ video {
 }
 .hx-text-nowrap {
   text-wrap: nowrap;
+}
+.hx-text-balance {
+  text-wrap: balance;
+}
+.hx-text-pretty {
+  text-wrap: pretty;
 }
 .hx-break-words {
   overflow-wrap: break-word;
