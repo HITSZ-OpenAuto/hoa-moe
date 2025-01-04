@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-04'
-description: 北京时间 2025-01-03 14 时至今
+description: 北京时间 2025-01-03 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周日 (1.5)
+
+- W·D·Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：补充光强调制法相关的内容
 
 ### 周六 (1.4)
 
