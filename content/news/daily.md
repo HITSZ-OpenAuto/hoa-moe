@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.4)
 
+- OliverWu515 在 [系统辨识](https://github.com/HITSZ-OpenAuto/AUTO5002) 中提交了信息：修改课程类别；增加教师描述
+
 - W·D·Gaster 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：补充严志彬老师的内容
 
 - W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：补充综述内容说明文档内容，补充大学化学 III、普通天文学、经济学原理内容
@@ -55,6 +57,12 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [补充袁慧芳和杨国俅的内容](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/8)
+
+- **仓库**: MATH1015A
+- **创建于**: 2025-01-04T13:20:24Z
+- **作者**: WDGaster703
 
 ### [补充高瑜老师内容](https://github.com/HITSZ-OpenAuto/MATH1005/pull/11)
 
