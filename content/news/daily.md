@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-04'
-description: 北京时间 2025-01-03 03 时至今
+description: 北京时间 2025-01-03 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (1.4)
+
+- 吴俊达 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：更新文档与 2024 年考试资料 (#2)
 
 - Maxwell Jay 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：新增武术（拳）内容；增加综述、健康跑说明 (#11)
 
@@ -40,19 +42,9 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [若干问题](https://github.com/HITSZ-OpenAuto/PE100X/issues/10)
-
-- **仓库**: PE100X
-- **创建于**: 2024-12-23T06:31:02Z
-- **作者**: OliverWu515
+暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [更新文档与 2024 年考试资料](https://github.com/HITSZ-OpenAuto/MATH4004/pull/2)
-
-- **仓库**: MATH4004
-- **创建于**: 2025-01-03T14:45:37Z
-- **作者**: OliverWu515
 
 ### [新增一份笔记](https://github.com/HITSZ-OpenAuto/MATH1004/pull/8)
 
