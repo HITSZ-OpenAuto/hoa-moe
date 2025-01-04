@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.4)
 
+- W·D·Gaster 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充体育基础班相关内容
+
 - 吴俊达 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：更新文档与 2024 年考试资料 (#2)
 
 - Maxwell Jay 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：新增武术（拳）内容；增加综述、健康跑说明 (#11)
