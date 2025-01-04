@@ -181,8 +181,8 @@ async def get_file_last_modified_date(owner, repo, path, token):
             'path': path,
             'per_page': 1  # 只获取最新的提交
         }
-        connector = aiohttp.TCPConnector(ssl=False)
-        async with aiohttp.ClientSession(connector=connector) as session:
+
+        async with aiohttp.ClientSession() as session:
             async with session.get(
                     commits_url,
                     headers=headers,
