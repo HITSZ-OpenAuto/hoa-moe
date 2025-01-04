@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.4)
 
+- W·D·Gaster 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：补充高瑜老师内容 (#11)
+
 - W·D·Gaster 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：补充袁慧芳和杨国俅的内容 (#8)
 
 - OliverWu515 在 [系统辨识](https://github.com/HITSZ-OpenAuto/AUTO5002) 中提交了信息：修改课程类别；增加教师描述
@@ -59,12 +61,6 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [补充高瑜老师内容](https://github.com/HITSZ-OpenAuto/MATH1005/pull/11)
-
-- **仓库**: MATH1005
-- **创建于**: 2025-01-04T13:03:00Z
-- **作者**: WDGaster703
 
 ### [新增一份笔记](https://github.com/HITSZ-OpenAuto/MATH1004/pull/8)
 
