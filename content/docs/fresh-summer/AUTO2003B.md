@@ -113,36 +113,36 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 ## 资料下载
 
-{{< filetree/container >}}
-  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/README.md" >}}
-  {{< filetree/folder name="course_design" state="closed" >}}
-    {{< filetree/file name="创新训练课 B 报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
-    {{< filetree/file name="答辩 PPT_吴坤远.pptx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E7%AD%94%E8%BE%A9PPT_%E5%90%B4%E5%9D%A4%E8%BF%9C.pptx" >}}
-  {{< filetree/folder name="地铁站示例" state="closed" >}}
-    {{< filetree/file name="Qt-创新训练题目 3.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/Qt-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E9%A2%98%E7%9B%AE3.zip" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/README.md" >}}
-    {{< filetree/file name="项目展示答辩.zip" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BA%E7%AD%94%E8%BE%A9.zip" >}}
-    {{< filetree/file name="黄继凡 - 创新训练课 B 报告.docx" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%BB%84%E7%BB%A7%E5%87%A1-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
-  {{< /filetree/folder >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="labs" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/labs/README.md" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="materials" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/materials/README.md" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="slides" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/README.md" >}}
-    {{< filetree/file name="第 1 章 高级语言程序设计.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC1%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf" >}}
-    {{< filetree/file name="第 2 章 可行性研究.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC2%E7%AB%A0%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6.pdf" >}}
-    {{< filetree/file name="第 3 章 需求分析.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%20%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.pdf" >}}
-    {{< filetree/file name="第 4 章 总体设计.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC4%E7%AB%A0%20%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1.pdf" >}}
-    {{< filetree/file name="第 5 章 详细设计 1.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC5%E7%AB%A0%20%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A11.pdf" >}}
-    {{< filetree/file name="第 6 章 实现.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC6%E7%AB%A0%20%E5%AE%9E%E7%8E%B0.pdf" >}}
-    {{< filetree/file name="第 7 章 维护.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC7%E7%AB%A0%20%E7%BB%B4%E6%8A%A4.pdf" >}}
-    {{< filetree/file name="课程设计题目.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
-  {{< /filetree/folder >}}
-{{< /filetree/container >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003B" >}}
+  {{< hoa-filetree/file name="README" type="md" size="6.1 KB" date="2024/12/02" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/README.md" >}}
+  {{< hoa-filetree/folder name="course_design" date="2023/11/29" state="closed" >}}
+    {{< hoa-filetree/file name="创新训练课 B 报告" type="docx" size="1.3 MB" date="2023/11/29" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
+    {{< hoa-filetree/file name="答辩 PPT_吴坤远" type="pptx" size="351.1 KB" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E7%AD%94%E8%BE%A9PPT_%E5%90%B4%E5%9D%A4%E8%BF%9C.pptx" >}}
+  {{< hoa-filetree/folder name="地铁站示例" date="2023/11/29" state="closed" >}}
+    {{< hoa-filetree/file name="Qt-创新训练题目 3" type="zip" size="10.8 MB" date="2023/11/29" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/Qt-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E9%A2%98%E7%9B%AE3.zip" >}}
+    {{< hoa-filetree/file name="README" type="md" size="1 byte" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/README.md" >}}
+    {{< hoa-filetree/file name="项目展示答辩" type="zip" size="24.0 MB" date="2023/11/29" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BA%E7%AD%94%E8%BE%A9.zip" >}}
+    {{< hoa-filetree/file name="黄继凡 - 创新训练课 B 报告" type="docx" size="1.6 MB" date="2023/11/29" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%BB%84%E7%BB%A7%E5%87%A1-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="labs" date="2023/11/29" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="395 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/labs/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="materials" date="2023/11/29" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="55 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/materials/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="slides" date="2023/12/01" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="58 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/README.md" >}}
+    {{< hoa-filetree/file name="第 1 章 高级语言程序设计" type="pdf" size="2.4 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC1%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf" >}}
+    {{< hoa-filetree/file name="第 2 章 可行性研究" type="pdf" size="885.0 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC2%E7%AB%A0%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6.pdf" >}}
+    {{< hoa-filetree/file name="第 3 章 需求分析" type="pdf" size="804.9 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC3%E7%AB%A0%20%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.pdf" >}}
+    {{< hoa-filetree/file name="第 4 章 总体设计" type="pdf" size="188.2 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC4%E7%AB%A0%20%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1.pdf" >}}
+    {{< hoa-filetree/file name="第 5 章 详细设计 1" type="pdf" size="327.5 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC5%E7%AB%A0%20%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A11.pdf" >}}
+    {{< hoa-filetree/file name="第 6 章 实现" type="pdf" size="397.7 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC6%E7%AB%A0%20%E5%AE%9E%E7%8E%B0.pdf" >}}
+    {{< hoa-filetree/file name="第 7 章 维护" type="pdf" size="96.9 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC7%E7%AB%A0%20%E7%BB%B4%E6%8A%A4.pdf" >}}
+    {{< hoa-filetree/file name="课程设计题目" type="pdf" size="582.0 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/container >}}
 
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO2003B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 

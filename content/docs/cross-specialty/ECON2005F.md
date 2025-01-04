@@ -36,27 +36,27 @@ math: true
 
 ## 资料下载
 
-{{< filetree/container >}}
-  {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/README.md" >}}
-  {{< filetree/folder name="assignments" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/assignments/README.md" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="exams" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/exams/README.md" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="labs" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/labs/README.md" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="materials" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/materials/README.md" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="notes" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/notes/README.md" >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="slides" state="closed" >}}
-    {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/slides/README.md" >}}
-  {{< /filetree/folder >}}
-{{< /filetree/container >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/ECON2005F" >}}
+  {{< hoa-filetree/file name="README" type="md" size="948 bytes" date="2023/11/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/README.md" >}}
+  {{< hoa-filetree/folder name="assignments" date="2023/11/24" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="39 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/assignments/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="exams" date="2023/11/24" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="54 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/exams/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="labs" date="2023/11/24" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="395 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/labs/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="materials" date="2023/11/24" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="55 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/materials/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="notes" date="2023/11/24" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="42 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/notes/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="slides" date="2023/11/24" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="58 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/slides/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/container >}}
 
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/ECON2005F'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
