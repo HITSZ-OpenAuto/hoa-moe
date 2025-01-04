@@ -252,12 +252,12 @@ jobs:
                 if [ ${CATEGORY} = "研究生阶段课程" ]
                 then
                   echo "## ${CATEGORY}" > "${semester}-${category}.txt"
-                  echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
+                  echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看[研究生阶段课程选课指南](https://hoa.moe/blog/master-phd-course-selection/)。" >> "${semester}-${category}.txt"
                 fi
                 if [ ${CATEGORY} = "本研共通" ]
                 then
                   echo "## ${CATEGORY}" > "${semester}-${category}.txt"
-                  echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看研究生阶段课程选课指南（尚未完成）。" >> "${semester}-${category}.txt"
+                  echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看[研究生阶段课程选课指南](https://hoa.moe/blog/master-phd-course-selection/)。" >> "${semester}-${category}.txt"
                 fi
                 if [ ${CATEGORY} = "选修" ]
                 then
@@ -266,7 +266,7 @@ jobs:
                 if [ ${CATEGORY} = "归档" ]
                 then
                   echo "## ${CATEGORY}" > "${semester}-${category}.txt"
-                  echo "此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了，但原课程资料仍保留，感兴趣的同学可以自行查阅。" >> "${semester}-${category}.txt"
+                  echo "此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。" >> "${semester}-${category}.txt"
                 fi
                 echo "<!--more-->" >> "${semester}-${category}.txt"
                 echo "{{< cards >}}" >> "${semester}-${category}.txt"
