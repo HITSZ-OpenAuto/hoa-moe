@@ -19,7 +19,7 @@
                 <input type="checkbox" class="hoa-checkbox">
                 <img src="{{ $image.RelPermalink }}" alt="{{ $type }}" class="hx-w-9 hx-h-9 hx-mx-2 hx-min-w-9"/>
                 <span class="hx-flex hx-flex-col hx-font-bold hx-max-w-48 md:hx-max-w-48">
-                    <div class="hx-text-balance hx-relative">{{ $name | markdownify }}</div>
+                    <div class="hx-text-wrap hx-relative">{{ $name | markdownify }}</div>
                     <div class="hx-flex hx-text-nowrap hx-overflow-auto">
                         <span class="before:hx-content-['.'] hx-text-slate-500 hx-text-xs">{{ $type | markdownify }}</span>
                         <span class="before:hx-content-['|'] before:hx-mx-1 hx-text-slate-500 hx-text-xs md:hx-hidden">{{ $size | markdownify }}</span>
