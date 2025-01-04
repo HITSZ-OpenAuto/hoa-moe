@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-04'
-description: 北京时间 2025-01-03 00 时至今
+description: 北京时间 2025-01-03 03 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周六 (1.4)
+
+- Maxwell Jay 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：新增武术（拳）内容；增加综述、健康跑说明 (#11)
 
 ### 周五 (1.3)
 
