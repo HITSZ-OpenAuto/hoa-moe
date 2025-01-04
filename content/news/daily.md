@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-04'
-description: 北京时间 2025-01-03 12 时至今
+description: 北京时间 2025-01-03 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (1.4)
+
+- W·D·Gaster 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：补充严志彬老师的内容
 
 - W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：补充综述内容说明文档内容，补充大学化学 III、普通天文学、经济学原理内容
 
@@ -53,6 +55,12 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [补充高瑜老师内容](https://github.com/HITSZ-OpenAuto/MATH1005/pull/11)
+
+- **仓库**: MATH1005
+- **创建于**: 2025-01-04T13:03:00Z
+- **作者**: WDGaster703
 
 ### [新增一份笔记](https://github.com/HITSZ-OpenAuto/MATH1004/pull/8)
 
