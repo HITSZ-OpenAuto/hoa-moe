@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.4)
 
+- W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：补充综述内容说明文档内容，补充大学化学 III、普通天文学、经济学原理内容
+
 - W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001A) 中提交了信息：补充林国平老师相关内容、补充 24 秋考试情况、补充大物 XA 和 XB 学习建议 (#8)
 
 - W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001A) 中提交了信息：上传 24 秋 XB 试题及答案，上传 24 秋本部阶段训练题 (#7)
