@@ -1,0 +1,48 @@
+{{- $name := .Get "name" -}}
+{{- $size := .Get "size" | default "-" -}}
+{{- $date := .Get "date" | default "1970/01/01" -}}
+
+{{- $state := .Get "state" | default "closed" }}
+
+{{- $closed := resources.Get "icons/folder.png" -}}
+{{- $open := resources.Get "icons/open-folder.png" -}}
+
+<li data-level="0" class="hoa-filetree-folder hx-flex hx-flex-col hx-list-none hx-w-full hover:hx-bg-gray-100 dark:hover:hx-bg-gray-900 hx-duration-100 hx-cursor-pointer">
+    <span class="hx-w-full hx-flex hx-cursor-default hx-py-3 hx-text-sm">
+        
+        <div class="hx-flex hx-w-full hx-items-center hx-justify-between">
+
+            <div class="hx-flex hx-ml-4 hx-w-1/3 hx-items-center hx-justify-start hx-relative">
+                <label class="hx-flex">
+                    <div class="hoa-file-level hx-block hx-flex-shrink-0"></div>
+                    <input type="checkbox" class="">
+                </label>
+
+                    <div data-state="{{ $state }}" class="hoa-image-state data-[state=open]:hx-hidden">
+                        <img src="{{ $closed.RelPermalink }}" alt="folder"  class="hx-w-9 hx-h-9 hx-mx-2 hx-min-w-9"/>
+                    </div>
+                    
+                    <div data-state="{{ $state }}" class="hoa-image-state data-[state=closed]:hx-hidden">
+                        <img src="{{ $open.RelPermalink }}" alt="folder" class="hx-w-9 hx-h-9 hx-mx-2 hx-min-w-9"/>
+                    </div> 
+
+                <span class="hx-flex hx-flex-col hx-font-bold hx-max-w-48">
+                    <div class="hx-text-nowrap hx-text-ellipsis hx-overflow-clip">{{ $name | markdownify }}</div>
+                    <div class="hx-flex hx-text-nowrap hx-overflow-auto">
+                        <span class="hx-text-slate-500 hx-text-xs">文件夹</span>
+                        <span class="before:hx-content-['|'] before:hx-mx-1 hx-text-slate-500 hx-text-xs md:hx-hidden">{{ $date | markdownify }}</span>
+                    </div>
+                </span>
+            </div>
+
+            <span class="hx-mx-2 hx-w-1/5 hx-min-w-1/5 hx-hidden md:hx-block"> - / - </span>
+            <span class="hx-mx-4 hx-w-1/5 hx-min-w-1/5 hx-flex hx-items-center hx-justify-between">
+                <div class="hx-mr-4 hx-hidden md:hx-block">{{ $date | markdownify }}</div>
+            </span>
+        </div>
+    </span>
+    <div class="hx-w-full hx-h-px hx-rounded-md hx-bg-gray-200 dark:hx-bg-gray-800"></div>
+</li>
+<ul data-level="0" data-state="{{ $state }}" class="data-[state=closed]:hx-hidden">
+    {{- .Inner -}}
+</ul>
