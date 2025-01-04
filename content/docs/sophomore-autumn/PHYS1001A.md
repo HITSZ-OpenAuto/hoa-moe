@@ -1,12 +1,12 @@
 ---
 title: （必修）大学物理
-weight: 18
+weight: 17
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/PHYS1001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 24 日" author="吴俊达" message="更新过时的文档与考试说明；上传若干本部试题 (#6)" >}}
+{{< update-info update_time="2025 年 1 月 4 日" author="W·D·Gaster" message="上传 24 秋 XB 试题及答案，上传 24 秋本部阶段训练题 (#7)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -75,6 +75,8 @@ math: true
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/assignments/README.md" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="exams" state="closed" >}}
+    {{< filetree/file name="2024 年秋大学物理 XB 回忆版.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2024%20%E5%B9%B4%E7%A7%8B%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%20XB%20%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
+    {{< filetree/file name="2024 年秋大学物理 XB 参考答案.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/2024%20%E5%B9%B4%E7%A7%8B%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%20XB%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf" >}}
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/README.md" >}}
     {{< filetree/file name="上交 2004-2015 大物试卷（转自本部网盘计划，有答案）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E4%B8%8A%E4%BA%A42004-2015%E5%A4%A7%E7%89%A9%E8%AF%95%E5%8D%B7%EF%BC%88%E8%BD%AC%E8%87%AA%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%EF%BC%8C%E6%9C%89%E7%AD%94%E6%A1%88%EF%BC%89.pdf" >}}
     {{< filetree/file name="清华大学物理试题库所有习题 (含量子物理，有答案).pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/exams/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%AF%95%E9%A2%98%E5%BA%93%E6%89%80%E6%9C%89%E4%B9%A0%E9%A2%98%28%E5%90%AB%E9%87%8F%E5%AD%90%E7%89%A9%E7%90%86%EF%BC%8C%E6%9C%89%E7%AD%94%E6%A1%88%29.pdf" >}}
@@ -124,6 +126,8 @@ math: true
     {{< filetree/file name="2024_psp_大学物理笔记.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2024_psp_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0.pdf" >}}
     {{< filetree/file name="README.md" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/README.md" >}}
     {{< filetree/file name="Sora 的大学物理补天攻略.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/Sora%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%A1%A5%E5%A4%A9%E6%94%BB%E7%95%A5.pdf" >}}
+    {{< filetree/file name="大学物理 XA 知识点梳理-Gaster.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86XA%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86-Gaster.pdf" >}}
+    {{< filetree/file name="大学物理 XB 知识点梳理-Gaster.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86XB%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86-Gaster.pdf" >}}
     {{< filetree/file name="笔记和课后习题（含考研真题）详解.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/%E7%AC%94%E8%AE%B0%E5%92%8C%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98%EF%BC%88%E5%90%AB%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%EF%BC%89%E8%AF%A6%E8%A7%A3.pdf" >}}
   {{< filetree/folder name="2023_Empty" state="closed" >}}
     {{< filetree/file name="2023_Empty_大学物理 IB（光学）.pdf" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/PHYS1001A/raw/main/notes/2023_Empty/2023_Empty_%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86IB%EF%BC%88%E5%85%89%E5%AD%A6%EF%BC%89.pdf" >}}
