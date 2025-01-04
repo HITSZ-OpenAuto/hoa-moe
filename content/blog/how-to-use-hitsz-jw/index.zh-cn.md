@@ -109,8 +109,7 @@ mjw.hitsz.edu.cn. 5m AAAA 2001:250:3c0f:4003:dbdf:ec12::
 > ![sso](images/sso.png)
 > 简单来说，cookie 实际上是通过 sso 服务器获取的，之后与教务系统共享。因此在抢课高峰期被挤出事实上并非 sso 服务器失效，而是教务对 cookie 的验证超时导致的 “session 已失效”假象。
 
-对 sso 有了解之后我们就可以完成登陆。我们使用账号密码忘 sso 网站登陆，持久化获取的 cookie 再请求教务即可。笔者用 `rust` 编写了简单的 demo 对操作进行展示。
-
+对 sso 有了解之后我们就可以完成登陆。我们使用账号密码往 sso 站点请求登陆，持久化所获取的 cookie 再请求教务的 api 即可。笔者使用 `rust` 编写了简单的 demo 对操作进行展示。
 ```rs
 use reqwest::redirect::Policy;
 use reqwest::Client;
