@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-05'
-description: 北京时间 2025-01-04 14 时至今
+description: 北京时间 2025-01-04 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (1.5)
+
+- hanjin 在 [高级语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2021) 中提交了信息：补充 24 级相关说明，新增 2024 回忆试卷 (#6)
 
 - 吴俊达 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：将六大模块改为伸缩模式；添加从教务系统查看学习进度的指引
 
@@ -70,9 +72,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [Hanjin patch 1](https://github.com/HITSZ-OpenAuto/COMP2021/pull/6)
-
-- **仓库**: COMP2021
-- **创建于**: 2025-01-05T10:24:29Z
-- **作者**: syhanjin
+暂无待合并的 Pull Requests
 
