@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周日 (1.5)
 
+- W·D·Gaster 在 [课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：补充文理通识课程基本介绍 (#4)
+
+- zhuqi000 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：新增一份笔记 (#8)
+
 - W·D·Gaster 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：补充考试相关信息
 
 - W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Update tag.txt
@@ -60,15 +64,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [补充文理通识课程基本介绍](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/4)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2025-01-05T08:59:59Z
-- **作者**: WDGaster703
-
-### [新增一份笔记](https://github.com/HITSZ-OpenAuto/MATH1004/pull/8)
-
-- **仓库**: MATH1004
-- **创建于**: 2025-01-02T15:47:24Z
-- **作者**: zhuqi000
+暂无待合并的 Pull Requests
 
