@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-05'
-description: 北京时间 2025-01-04 09 时至今
+description: 北京时间 2025-01-04 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,7 +14,13 @@ title: AUTO 更新速递
 
 ### 周日 (1.5)
 
-- W·D·Gaster 在 [课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：补充文理通识课程基本介绍 (#4)
+- 吴俊达 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：将六大模块改为伸缩模式；添加从教务系统查看学习进度的指引
+
+- W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：补充修读限制、选课方式
+
+- W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：修改名称
+
+- W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：补充文理通识课程基本介绍 (#4)
 
 - zhuqi000 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：新增一份笔记 (#8)
 
@@ -48,9 +54,9 @@ title: AUTO 更新速递
 
 - W·D·Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：补充综述内容说明文档内容，补充大学化学 III、普通天文学、经济学原理内容
 
-- W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001A) 中提交了信息：补充林国平老师相关内容、补充 24 秋考试情况、补充大物 XA 和 XB 学习建议 (#8)
+- W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：补充林国平老师相关内容、补充 24 秋考试情况、补充大物 XA 和 XB 学习建议 (#8)
 
-- W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001A) 中提交了信息：上传 24 秋 XB 试题及答案，上传 24 秋本部阶段训练题 (#7)
+- W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：上传 24 秋 XB 试题及答案，上传 24 秋本部阶段训练题 (#7)
 
 - W·D·Gaster 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充体育基础班相关内容
 
@@ -64,5 +70,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [Hanjin patch 1](https://github.com/HITSZ-OpenAuto/COMP2021/pull/6)
+
+- **仓库**: COMP2021
+- **创建于**: 2025-01-05T10:24:29Z
+- **作者**: syhanjin
 
