@@ -6,7 +6,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2024 年 11 月 17 日" author="Hye" message="改为通过留言板征集课程评价 (#3)" >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/WRIT0001" >}}
+  {{< hoa-filetree/file name="README" type="md" size="7.3 KB" date="2024/12/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/WRIT0001/raw/main/README.md" >}}
+{{< /hoa-filetree/container >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -42,23 +44,8 @@ math: true
 
 ## 资料下载
 
-{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/GeneralKnowledge" >}}
-  {{< hoa-filetree/file name="README" type="md" size="1.2 KB" date="2024/11/17" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/README.md" >}}
-  {{< hoa-filetree/folder name="assignments" date="2024/10/09" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="39 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/assignments/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="exams" date="2024/10/09" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="54 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/exams/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="labs" date="2024/10/09" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="395 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/labs/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="notes" date="2024/10/09" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="42 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/notes/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="slides" date="2024/10/09" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="58 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/slides/README.md" >}}
-  {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/WRIT0001" >}}
+  {{< hoa-filetree/file name="README" type="md" size="7.3 KB" date="2024/12/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/WRIT0001/raw/main/README.md" >}}
 {{< /hoa-filetree/container >}}
 
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/GeneralKnowledge'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。

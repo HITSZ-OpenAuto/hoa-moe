@@ -6,7 +6,9 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 4 日" author="W·D·Gaster" message="补充综述内容说明文档内容，补充大学化学 III、普通天文学、经济学原理内容" >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/WRIT0001" >}}
+  {{< hoa-filetree/file name="README" type="md" size="7.3 KB" date="2024/12/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/WRIT0001/raw/main/README.md" >}}
+{{< /hoa-filetree/container >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -188,23 +190,8 @@ math: true
 
 ## 资料下载
 
-{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/CrossSpecialty" >}}
-  {{< hoa-filetree/file name="README" type="md" size="8.0 KB" date="2025/01/04" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/README.md" >}}
-  {{< hoa-filetree/folder name="assignments" date="2025/01/03" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="39 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/assignments/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="exams" date="2025/01/03" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="54 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="labs" date="2025/01/03" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="395 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/labs/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="notes" date="2025/01/03" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="42 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/notes/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="slides" date="2025/01/03" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="58 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/slides/README.md" >}}
-  {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/WRIT0001" >}}
+  {{< hoa-filetree/file name="README" type="md" size="7.3 KB" date="2024/12/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/WRIT0001/raw/main/README.md" >}}
 {{< /hoa-filetree/container >}}
 
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/CrossSpecialty'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
