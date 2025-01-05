@@ -28,7 +28,7 @@ math: true
 ## 资料下载
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003A" >}}
-  {{< hoa-filetree/file name="README" type="md" size="779 bytes" date="2024/07/16" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003A/raw/main/README.md" >}}
+  {{< hoa-filetree/file name="README" type="md" size="779 bytes" date="Unknown" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003A/raw/main/README.md" >}}
 {{< /hoa-filetree/container >}}
 
 如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO2003A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
