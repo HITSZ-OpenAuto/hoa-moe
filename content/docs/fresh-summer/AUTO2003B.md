@@ -113,6 +113,12 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 ## 资料下载
 
+如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
+
+{{< callout type="info" >}}
+  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）正在维护优化中。具体时间为 2024 年 1 月 5 日 23:59 至 2024 年 1 月 10 日 23:59。
+{{< /callout >}}
+
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003B" >}}
   {{< hoa-filetree/file name="README" type="md" size="6.1 KB" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/README.md" >}}
   {{< hoa-filetree/folder name="course_design" date="" state="closed" >}}
@@ -183,8 +189,6 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
     {{< hoa-filetree/file name="课程设计题目" type="pdf" size="582.0 KB" date="2023/11/29" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE.pdf" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
-
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO2003B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 

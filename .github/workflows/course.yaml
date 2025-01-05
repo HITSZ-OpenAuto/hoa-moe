@@ -332,6 +332,8 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
               echo "**注意：1.6 0:00 ~ 1.10 23:59 由于 OSA 服务器需要进行磁盘阵列的迁移，校内网盘服务暂时不可用。**" >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
+              cat scripts/netdisk_notice.txt >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
               python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"

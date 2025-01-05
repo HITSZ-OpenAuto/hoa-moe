@@ -231,6 +231,12 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
 
 ## 资料下载
 
+如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
+
+{{< callout type="info" >}}
+  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）正在维护优化中。具体时间为 2024 年 1 月 5 日 23:59 至 2024 年 1 月 10 日 23:59。
+{{< /callout >}}
+
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3002A" >}}
   {{< hoa-filetree/file name="README" type="md" size="11.2 KB" date="2024/12/20" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/README.md" >}}
   {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
@@ -321,20 +327,18 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
     {{< hoa-filetree/file name="自控实践笔记" type="pdf" size="46.2 MB" date="2023/10/29" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/LMH_VERSION_2021/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="WJD_VERSION_2023" date="" state="closed" >}}
-    {{< hoa-filetree/file name="自动控制实践 A_ 1. 磁路、直流电机 (V1.2.1)" type="pdf" size="14.5 MB" date="2024/12/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.2.1%29.pdf" >}}
-    {{< hoa-filetree/file name="自动控制实践 A_ 2.1 电力电子技术概述" type="pdf" size="619.7 KB" date="2024/01/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.1%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.pdf" >}}
-    {{< hoa-filetree/file name="自动控制实践 A_ 2.2 PWM" type="pdf" size="4.5 MB" date="2024/01/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.2%20PWM.pdf" >}}
-    {{< hoa-filetree/file name="自动控制实践 A_ 3. 变压器 (V1.1)" type="pdf" size="5.2 MB" date="2024/01/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%203.%20%E5%8F%98%E5%8E%8B%E5%99%A8%28V1.1%29.pdf" >}}
-    {{< hoa-filetree/file name="自动控制实践 A_ 4. 步进电机 (V1.1)" type="pdf" size="10.7 MB" date="2024/01/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.1%29.pdf" >}}
-    {{< hoa-filetree/file name="自动控制实践 A_ 5. 交流绕组、异步电机 (V1.0.1)" type="pdf" size="22.5 MB" date="2024/12/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%205.%20%E4%BA%A4%E6%B5%81%E7%BB%95%E7%BB%84%E3%80%81%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%28V1.0.1%29.pdf" >}}
+    {{< hoa-filetree/file name="自动控制实践 A_ 1. 磁路、直流电机 (V1.2.1)" type="pdf" size="14.5 MB" date="2023/12/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.2.1%29.pdf" >}}
+    {{< hoa-filetree/file name="自动控制实践 A_ 2.1 电力电子技术概述" type="pdf" size="619.7 KB" date="2023/12/24" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.1%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.pdf" >}}
+    {{< hoa-filetree/file name="自动控制实践 A_ 2.2 PWM" type="pdf" size="4.5 MB" date="2023/12/24" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%202.2%20PWM.pdf" >}}
+    {{< hoa-filetree/file name="自动控制实践 A_ 3. 变压器 (V1.1)" type="pdf" size="5.2 MB" date="2023/12/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%203.%20%E5%8F%98%E5%8E%8B%E5%99%A8%28V1.1%29.pdf" >}}
+    {{< hoa-filetree/file name="自动控制实践 A_ 4. 步进电机 (V1.1)" type="pdf" size="10.7 MB" date="2023/12/19" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.1%29.pdf" >}}
+    {{< hoa-filetree/file name="自动控制实践 A_ 5. 交流绕组、异步电机 (V1.0.1)" type="pdf" size="22.5 MB" date="2023/12/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%205.%20%E4%BA%A4%E6%B5%81%E7%BB%95%E7%BB%84%E3%80%81%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%28V1.0.1%29.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
     {{< hoa-filetree/file name="README" type="md" size="60 bytes" date="2023/10/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/README.md" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
-
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO3002A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 

@@ -56,6 +56,12 @@ math: true
 
 ## 资料下载
 
+如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
+
+{{< callout type="info" >}}
+  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）正在维护优化中。具体时间为 2024 年 1 月 5 日 23:59 至 2024 年 1 月 10 日 23:59。
+{{< /callout >}}
+
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3002B" >}}
   {{< hoa-filetree/file name="README" type="md" size="2.1 KB" date="2024/05/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/README.md" >}}
   {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
@@ -93,8 +99,6 @@ math: true
     {{< hoa-filetree/file name="自控实践复习整理 byAb1g2he" type="pdf" size="3.4 MB" date="2024/07/16" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86byAb1g2he.pdf" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
-
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/AUTO3002B'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 
