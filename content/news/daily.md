@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周日 (1.5)
 
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Initial commit
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Update README.md
+
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Initial commit
 
 - W·D·Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：上传光强调制法测光速实验报告 (#35)
