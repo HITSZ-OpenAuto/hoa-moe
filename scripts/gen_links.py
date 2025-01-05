@@ -32,61 +32,107 @@ class GitHubAPIClient:
                 return await response.json()
             raise Exception(f"Failed to fetch {url}: {response.status}")
 
+    async def get_file_date_rest_api(self, session: aiohttp.ClientSession, path: str) -> str:
+        """使用 REST API 获取单个文件的最后提交日期"""
+        try:
+            commits_url = f'https://api.github.com/repos/{self.owner}/{self.repo}/commits'
+            params = {
+                'path': path,
+                'per_page': 1
+            }
+
+            # connector = aiohttp.TCPConnector(ssl=False)
+            async with aiohttp.ClientSession() as session:
+                async with session.get(
+                        commits_url,
+                        headers=self.headers,
+                        params=params,
+                        timeout=ClientTimeout(total=30)
+                ) as response:
+                    if response.status == 200:
+                        commits_data = await response.json()
+                        if commits_data and len(commits_data) > 0:
+                            commit_date = commits_data[0]['commit']['committer']['date']
+                            dt = datetime.fromisoformat(commit_date.replace('Z', '+00:00'))
+                            return dt.strftime('%Y/%m/%d')
+                    return "Unknown"
+        except Exception as e:
+            print(f"REST API fallback failed for {path}: {e}")
+            return "Unknown"
+
     async def get_commits_batch(self, session: aiohttp.ClientSession, paths: List[str]) -> Dict[str, str]:
         """批量获取多个文件的提交信息"""
         results = {}
-        # 构建GraphQL查询
-        query = """
-        query($owner: String!, $repo: String!, $paths: [String!]!) {
-          repository(owner: $owner, name: $repo) {
-            objects: object(expression: "HEAD") {
-              ... on Tree {
-                entries {
-                  path
-                  object {
-                    ... on Blob {
-                      history(first: 1) {
-                        nodes {
-                          committedDate
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-        """
 
-        variables = {
-            "owner": self.owner,
-            "repo": self.repo,
-            "paths": paths
-        }
+        # 构建批量查询
+        queries = []
+        for i, path in enumerate(paths):
+            queries.append(f"""
+            file_{i}: repository(owner: "{self.owner}", name: "{self.repo}") {{
+                object(expression: "HEAD") {{
+                    ... on Commit {{
+                        blame(path: "{path}") {{
+                            ranges {{
+                                commit {{
+                                    committedDate
+                                }}
+                            }}
+                        }}
+                    }}
+                }}
+            }}
+            """)
+
+        # 合并所有查询
+        query = "query {\n" + "\n".join(queries) + "\n}"
 
         url = "https://api.github.com/graphql"
-        async with session.post(url, headers=self.headers, json={"query": query, "variables": variables}) as response:
-            if response.status == 200:
-                data = await response.json()
-                entries = data.get("data", {}).get("repository", {}).get("objects", {}).get("entries", [])
-                for entry in entries:
-                    path = entry["path"]
-                    history = entry.get("object", {}).get("history", {}).get("nodes", [])
-                    if history:
-                        date = history[0]["committedDate"]
-                        dt = datetime.fromisoformat(date.replace('Z', '+00:00'))
-                        results[path] = dt.strftime('%Y/%m/%d')
-            return results
+        try:
+            async with session.post(url, headers=self.headers, json={"query": query}) as response:
+                if response.status == 200:
+                    data = await response.json()
+
+                    # 处理返回的数据
+                    for i, path in enumerate(paths):
+                        try:
+                            file_data = data.get("data", {}).get(f"file_{i}", {})
+                            blame_data = (file_data.get("object", {})
+                                          .get("blame", {})
+                                          .get("ranges", [{}])[0]
+                                          .get("commit", {})
+                                          .get("committedDate"))
+
+                            if blame_data:
+                                dt = datetime.fromisoformat(blame_data.replace('Z', '+00:00'))
+                                results[path] = dt.strftime('%Y/%m/%d')
+                            else:
+                                # GraphQL 查询失败，尝试 REST API
+                                print(f"GraphQL query returned no data for {path}, trying REST API...")
+                                results[path] = await self.get_file_date_rest_api(session, path)
+                        except (KeyError, IndexError) as e:
+                            print(f"Error processing path {path} with GraphQL, trying REST API: {e}")
+                            results[path] = await self.get_file_date_rest_api(session, path)
+                else:
+                    print(f"GraphQL query failed with status: {response.status}, falling back to REST API")
+                    # GraphQL 整体失败，对所有文件使用 REST API
+                    for path in paths:
+                        results[path] = await self.get_file_date_rest_api(session, path)
+        except Exception as e:
+            print(f"Failed to execute GraphQL query: {e}, falling back to REST API")
+            # 发生异常，对所有文件使用 REST API
+            for path in paths:
+                results[path] = await self.get_file_date_rest_api(session, path)
+
+        return results
 
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
     async def list_files_in_repo(self, session: aiohttp.ClientSession, path='') -> List[Dict]:
 
-        # Create a TCPConnector with verify_ssl=False
+        # # Create a TCPConnector with verify_ssl=False
         # connector = aiohttp.TCPConnector(ssl=False)
-
-        # Create a new session with the connector if one isn't provided
-        # if not session:
+        # 
+        # # Create a new session with the connector if one isn't provided
+        # # if not session:
         # session = aiohttp.ClientSession(connector=connector)
 
         paths = []
