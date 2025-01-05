@@ -247,11 +247,9 @@ jobs:
             echo >> "./content/docs/${semester}/${line}.md"
             echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            cat scripts/temp_notice.txt >> "./content/docs/${semester}/${line}.md"
+            cat scripts/netdisk_notice.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
             cat result_links.txt >> "./content/docs/${semester}/${line}.md"
-            echo >> "./content/docs/${semester}/${line}.md"
-            echo "如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/${line}'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。" >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
             
             cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
