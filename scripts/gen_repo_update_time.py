@@ -47,7 +47,7 @@ def save_latest_update(commit_info):
     yymmdd = f'{datetime_object.year} 年 {datetime_object.month} 月 {datetime_object.day} 日'
     message_line = commit_info["message"].split('\n')
     result_content = f"""{{{{< update-info update_time="{yymmdd}" author="{commit_info['author']}" message="{message_line[0]}" >}}}}\n"""
-    with open('result.txt', 'w') as file:
+    with open('result_update_time.txt', 'w') as file:
         file.write(result_content)
 
 
