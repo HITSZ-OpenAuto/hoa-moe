@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-05'
-description: 北京时间 2025-01-04 04 时至今
+description: 北京时间 2025-01-04 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,17 +14,19 @@ title: AUTO 更新速递
 
 ### 周日 (1.5)
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Update tag.txt
+- W·D·Gaster 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：补充考试相关信息
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Update tag.txt
+- W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Update tag.txt
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Update README.md
+- W·D·Gaster 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Update tag.txt
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Initial commit
+- W·D·Gaster 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Update README.md
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Update README.md
+- W·D·Gaster 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Initial commit
 
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Initial commit
+- W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Update README.md
+
+- W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Initial commit
 
 - W·D·Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：上传光强调制法测光速实验报告 (#35)
 
@@ -57,6 +59,12 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [补充文理通识课程基本介绍](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/4)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2025-01-05T08:59:59Z
+- **作者**: WDGaster703
 
 ### [新增一份笔记](https://github.com/HITSZ-OpenAuto/MATH1004/pull/8)
 
