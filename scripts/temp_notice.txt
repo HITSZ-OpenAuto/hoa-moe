@@ -1,0 +1,3 @@
+{{< callout type="info" >}}
+  内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）正在维护优化中。具体时间为 2024 年 1 月 5 日 23:59 至 2024 年 1 月 10 日 23:59。
+{{< /callout >}}
