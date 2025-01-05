@@ -98,6 +98,12 @@ math: true
 
 ## 资料下载
 
+如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
+
+{{< callout type="info" >}}
+  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）正在维护优化中。具体时间为 2024 年 1 月 5 日 23:59 至 2024 年 1 月 10 日 23:59。
+{{< /callout >}}
+
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MATH1015A" >}}
   {{< hoa-filetree/file name="README" type="md" size="7.8 KB" date="2024/03/02" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/README.md" >}}
   {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
@@ -272,8 +278,6 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
-
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MATH1015A'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 

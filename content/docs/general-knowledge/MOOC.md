@@ -71,6 +71,12 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 
 ## 资料下载
 
+如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
+
+{{< callout type="info" >}}
+  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）正在维护优化中。具体时间为 2024 年 1 月 5 日 23:59 至 2024 年 1 月 10 日 23:59。
+{{< /callout >}}
+
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MOOC" >}}
   {{< hoa-filetree/file name="README" type="md" size="3.7 KB" date="2024/05/10" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/README.md" >}}
   {{< hoa-filetree/folder name="人工智能时代的身份、代理、平等和安全" date="" state="closed" >}}
@@ -125,8 +131,6 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
     {{< hoa-filetree/file name="设计的人因与文化" type="docx" size="13.0 KB" date="2024/05/11" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%BA%E5%9B%A0%E4%B8%8E%E6%96%87%E5%8C%96/%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BA%BA%E5%9B%A0%E4%B8%8E%E6%96%87%E5%8C%96.docx" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
-
-如果你是校内学生，可移步至 <a href='https://open.osa.moe/openauto/MOOC'>open.osa.moe</a> 查看本门课程的电子书、课件和实验软件等。
 
 ## 参与
 
