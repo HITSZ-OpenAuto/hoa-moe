@@ -13,4 +13,6 @@ toc: false
 {{< card link="lang1006"title="大学英语">}}
 {{< card link="math1015a"title="微积分 A">}}
 {{< card link="pe100x"title="体育">}}
+{{< card link="geip1015"title="思想道德与法治">}}
+{{< card link="geip1017"title="习近平新时代中国特色社会主义思想概论">}}
 {{< /cards >}}
