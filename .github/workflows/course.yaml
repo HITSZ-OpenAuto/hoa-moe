@@ -329,6 +329,8 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
               echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
+              cat scripts/temp_notice.txt >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
               python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
               cat result.txt >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
