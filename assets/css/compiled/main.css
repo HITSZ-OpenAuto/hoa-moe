@@ -929,6 +929,9 @@ video {
 .hx-max-w-52 {
   max-width: 13rem;
 }
+.hx-flex-shrink-0 {
+  flex-shrink: 0;
+}
 .hx-shrink-0 {
   flex-shrink: 0;
 }
@@ -1051,6 +1054,9 @@ video {
 }
 .hx-whitespace-nowrap {
   white-space: nowrap;
+}
+.hx-text-wrap {
+  text-wrap: wrap;
 }
 .hx-text-nowrap {
   text-wrap: nowrap;
