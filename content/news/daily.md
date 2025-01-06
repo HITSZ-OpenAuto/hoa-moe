@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-06'
-description: 北京时间 2025-01-05 01 时至今
+description: 北京时间 2025-01-05 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周一 (1.6)
+
+- W·D·Gaster 在 [高级语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2021) 中提交了信息：修改学分
 
 ### 周日 (1.5)
 
