@@ -4,13 +4,19 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-06'
-description: 北京时间 2025-01-05 10 时至今
+description: 北京时间 2025-01-05 18 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周二 (1.7)
+
+- alanlu0107 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：添加 24 级秋季学期思想道德与法治期末试题与 24 级复习提纲 (#1)
+
+- alanlu0107 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：24 级复习包与期末回忆 (#1)
 
 ### 周一 (1.6)
 
@@ -66,5 +72,27 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [24 级大学英语 A 期末回忆与参考答案](https://github.com/HITSZ-OpenAuto/LANG100X/pull/4)
+
+- **仓库**: LANG100X
+- **创建于**: 2025-01-06T17:14:27Z
+- **作者**: alanlu0107
+
+### [补充网课推荐、速通注意事项](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/9)
+
+- **仓库**: PHYS1001
+- **创建于**: 2025-01-06T14:47:46Z
+- **作者**: IcyDesert
+
+### [上传 2024 年期中期末试题、新增老师介绍](https://github.com/HITSZ-OpenAuto/MATH1002/pull/9)
+
+- **仓库**: MATH1002
+- **创建于**: 2025-01-06T14:11:53Z
+- **作者**: syhanjin
+
+### [上传 2024 年期中试题答案、期末试题](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/9)
+
+- **仓库**: MATH1015A
+- **创建于**: 2025-01-06T14:07:18Z
+- **作者**: syhanjin
 
