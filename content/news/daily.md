@@ -14,7 +14,9 @@ title: AUTO 更新速递
 
 ### 周一 (1.6)
 
-- W·D·Gaster 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG1006) 中提交了信息：补充上课内容和期末考试内容，修改成绩构成
+- W·D·Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：补充 24 级三门课课程安排和授课老师（修改了一些笔误）
+
+- W·D·Gaster 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：补充上课内容和期末考试内容，修改成绩构成
 
 - W·D·Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：补充 25 春季学期三门课程的学时安排和授课老师
 
