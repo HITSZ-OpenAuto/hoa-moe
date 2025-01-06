@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.7)
 
+- IcyDesert 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：补充网课推荐、速通注意事项 (#9)
+
 - alanlu0107 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：添加 24 级秋季学期思想道德与法治期末试题与 24 级复习提纲 (#1)
 
 - alanlu0107 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：24 级复习包与期末回忆 (#1)
@@ -77,12 +79,6 @@ title: AUTO 更新速递
 - **仓库**: LANG100X
 - **创建于**: 2025-01-06T17:14:27Z
 - **作者**: alanlu0107
-
-### [补充网课推荐、速通注意事项](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/9)
-
-- **仓库**: PHYS1001
-- **创建于**: 2025-01-06T14:47:46Z
-- **作者**: IcyDesert
 
 ### [上传 2024 年期中期末试题、新增老师介绍](https://github.com/HITSZ-OpenAuto/MATH1002/pull/9)
 
