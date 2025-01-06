@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-06'
-description: 北京时间 2025-01-05 06 时至今
+description: 北京时间 2025-01-05 07 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周一 (1.6)
+
+- W·D·Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：补充 24 级学时安排
 
 - W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：上传 22 和 23 期末试题回忆版
 
