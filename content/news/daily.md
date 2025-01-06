@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-06'
-description: 北京时间 2025-01-05 07 时至今
+description: 北京时间 2025-01-05 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,10 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周一 (1.6)
+
+- W·D·Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：补充 25 春季学期三门课程的学时安排和授课老师
+
+- W·D·Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：更新 2025 春季学期课程大纲和授课老师
 
 - W·D·Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：补充 24 级学时安排
 
