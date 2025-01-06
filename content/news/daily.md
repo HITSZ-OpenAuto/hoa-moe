@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (1.6)
 
+- W·D·Gaster 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：补充 24 级成绩构成
+
 - W·D·Gaster 在 [高级语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2021) 中提交了信息：修改学分
 
 ### 周日 (1.5)
