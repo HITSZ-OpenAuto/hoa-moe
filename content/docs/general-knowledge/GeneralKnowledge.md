@@ -1,5 +1,5 @@
 ---
-title: （文理通识）文理通识课程体系
+title: 文理通识课程体系
 weight: 404
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md"

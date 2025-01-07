@@ -1,5 +1,5 @@
 ---
-title: （跨专业选修）经济学原理
+title: 经济学原理
 weight: 302
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
