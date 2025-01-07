@@ -1,5 +1,5 @@
 ---
-title: （跨专业选修）跨专业选修课程体系
+title: 跨专业选修课程体系
 weight: 304
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
