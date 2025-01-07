@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-07'
-description: 北京时间 2025-01-06 08 时至今
+description: 北京时间 2025-01-06 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (1.7)
+
+- W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：上传校区首批必修核心课程名单
 
 - W·D·Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充资料查询
 
@@ -49,6 +51,12 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [上传 24 秋马原期末](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/13)
+
+- **仓库**: GEIP1011
+- **创建于**: 2025-01-07T09:15:17Z
+- **作者**: WDGaster703
 
 ### [24 级大学英语 A 期末回忆与参考答案](https://github.com/HITSZ-OpenAuto/LANG100X/pull/4)
 
