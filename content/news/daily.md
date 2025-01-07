@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-07'
-description: 北京时间 2025-01-06 11 时至今
+description: 北京时间 2025-01-06 12 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (1.7)
+
+- W·D·Gaster 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：补充 22、23、24 考试风格
 
 - hanjin 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：上传 2024 年期中期末试题、新增老师介绍 (#9)
 
