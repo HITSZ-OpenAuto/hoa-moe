@@ -280,7 +280,11 @@ jobs:
               echo '----------------------'
 
               echo '---' > "./content/docs/${semester}/${line}.md"
-              echo "title: （${CATEGORY}）$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+              if [ ${CATEGORY} = "跨专业选修" ] || [ ${CATEGORY} = "文理通识" ]; then
+                echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+              else
+                echo "title: （${CATEGORY}）$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+              fi
               if [ ${CATEGORY} = "必修" ]
               then
                 counter_man=$((${counter_man}+1));
