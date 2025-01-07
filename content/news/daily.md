@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-07'
-description: 北京时间 2025-01-06 09 时至今
+description: 北京时间 2025-01-06 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (1.7)
+
+- hanjin 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：上传 2024 年期中期末试题、新增老师介绍 (#9)
 
 - OliverWu515 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：补充考试说明与项目文档
 
@@ -65,12 +67,6 @@ title: AUTO 更新速递
 - **仓库**: LANG100X
 - **创建于**: 2025-01-06T17:14:27Z
 - **作者**: alanlu0107
-
-### [上传 2024 年期中期末试题、新增老师介绍](https://github.com/HITSZ-OpenAuto/MATH1002/pull/9)
-
-- **仓库**: MATH1002
-- **创建于**: 2025-01-06T14:11:53Z
-- **作者**: syhanjin
 
 ### [上传 2024 年期中试题答案、期末试题](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/9)
 
