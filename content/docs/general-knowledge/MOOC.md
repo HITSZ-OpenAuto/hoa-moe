@@ -1,5 +1,5 @@
 ---
-title: （文理通识）MOOC
+title: MOOC
 weight: 401
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
