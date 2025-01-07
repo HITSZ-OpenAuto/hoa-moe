@@ -13,7 +13,7 @@ toc: false
 {{< card link="math1004"title="概率论与数理统计">}}
 {{< card link="geip1011"title="马克思主义基本原理">}}
 {{< card link="phys1001"title="大学物理">}}
-{{< card link="lang1006"title="大学英语">}}
+{{< card link="lang100x"title="大学英语">}}
 {{< card link="pe100x"title="体育">}}
 {{< card link="ee2004"title="高等电路与电子分析">}}
 {{< /cards >}}
