@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.7)
 
+- W·D·Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充资料查询
+
 - W·D·Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充 24 秋学时安排和授课老师
 
 - IcyDesert 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：补充网课推荐、速通注意事项 (#9)
