@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.7)
 
+- OliverWu515 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：补充考试说明与项目文档
+
 - W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：上传校区首批必修核心课程名单
 
 - W·D·Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：补充资料查询
