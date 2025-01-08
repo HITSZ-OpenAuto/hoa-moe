@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-08'
-description: 北京时间 2025-01-07 00 时至今
+description: 北京时间 2025-01-07 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周三 (1.8)
+
+- hanjin 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：修正 24 期末试卷几处错误 (#11)
 
 ### 周二 (1.7)
 
@@ -31,12 +35,6 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [修正 24 期末试卷最后一题错误](https://github.com/HITSZ-OpenAuto/MATH1002/pull/10)
-
-- **仓库**: MATH1002
-- **创建于**: 2025-01-07T15:15:48Z
-- **作者**: syhanjin
 
 ### [上传 24 秋马原期末](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/13)
 
