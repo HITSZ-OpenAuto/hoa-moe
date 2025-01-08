@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-08'
-description: 北京时间 2025-01-07 11 时至今
+description: 北京时间 2025-01-07 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -40,9 +40,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [上传 24 秋马原期末](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/13)
-
-- **仓库**: GEIP1011
-- **创建于**: 2025-01-07T09:15:17Z
-- **作者**: WDGaster703
+暂无待合并的 Pull Requests
 
