@@ -4,13 +4,21 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-08'
-description: 北京时间 2025-01-07 08 时至今
+description: 北京时间 2025-01-07 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周三 (1.8)
+
+- hanjin 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：上传 2024 年期中试题答案、期末试题 (#9)
+
+- alanlu0107 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：24 级大学英语 A 期末回忆与参考答案 (#4)
+
+- hanjin 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：修正 24 期末试卷几处错误 (#11)
 
 ### 周二 (1.7)
 
@@ -32,27 +40,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [修正 24 期末试卷几处错误](https://github.com/HITSZ-OpenAuto/MATH1002/pull/11)
-
-- **仓库**: MATH1002
-- **创建于**: 2025-01-08T05:13:16Z
-- **作者**: syhanjin
-
 ### [上传 24 秋马原期末](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/13)
 
 - **仓库**: GEIP1011
 - **创建于**: 2025-01-07T09:15:17Z
 - **作者**: WDGaster703
-
-### [24 级大学英语 A 期末回忆与参考答案](https://github.com/HITSZ-OpenAuto/LANG100X/pull/4)
-
-- **仓库**: LANG100X
-- **创建于**: 2025-01-06T17:14:27Z
-- **作者**: alanlu0107
-
-### [上传 2024 年期中试题答案、期末试题](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/9)
-
-- **仓库**: MATH1015A
-- **创建于**: 2025-01-06T14:07:18Z
-- **作者**: syhanjin
 
