@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 4 日" author="W·D·Gaster" message="补充袁慧芳和杨国俅的内容 (#8)" >}}
+{{< update-info update_time="2025 年 1 月 8 日" author="hanjin" message="上传 2024 年期中试题答案、期末试题 (#9)" >}}
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
@@ -177,6 +177,11 @@ math: true
     {{< hoa-filetree/file name="2023_微积分 A_期中_回忆版试卷" type="pdf" size="187.6 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2023%E5%B9%B4%E8%AF%95%E9%A2%98/2023_%E5%BE%AE%E7%A7%AF%E5%88%86A_%E6%9C%9F%E4%B8%AD_%E5%9B%9E%E5%BF%86%E7%89%88%E8%AF%95%E5%8D%B7.pdf" >}}
     {{< hoa-filetree/file name="2023_微积分 A_期末_参考答案" type="pdf" size="238.8 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2023%E5%B9%B4%E8%AF%95%E9%A2%98/2023_%E5%BE%AE%E7%A7%AF%E5%88%86A_%E6%9C%9F%E6%9C%AB_%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2023_微积分 A_期末_回忆版试卷" type="pdf" size="205.2 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2023%E5%B9%B4%E8%AF%95%E9%A2%98/2023_%E5%BE%AE%E7%A7%AF%E5%88%86A_%E6%9C%9F%E6%9C%AB_%E5%9B%9E%E5%BF%86%E7%89%88%E8%AF%95%E5%8D%B7.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="2024 年试题" date="" state="closed" >}}
+    {{< hoa-filetree/file name="2024 年秋季学期高数期末考试（回忆版）" type="pdf" size="209.9 KB" date="2025/01/08" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2024%E5%B9%B4%E8%AF%95%E9%A2%98/2024%E5%B9%B4%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E9%AB%98%E6%95%B0%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
+    {{< hoa-filetree/file name="24 秋季学期高数期中考试（回忆版）" type="pdf" size="232.9 KB" date="2025/01/08" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2024%E5%B9%B4%E8%AF%95%E9%A2%98/24%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E9%AB%98%E6%95%B0%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
+    {{< hoa-filetree/file name="24 秋季学期高数期中考试（回忆版）解析" type="pdf" size="515.7 KB" date="2025/01/08" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2024%E5%B9%B4%E8%AF%95%E9%A2%98/24%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E9%AB%98%E6%95%B0%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89%E8%A7%A3%E6%9E%90.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="习题集 - 本部" date="" state="closed" >}}
     {{< hoa-filetree/file name="1_2021 第一次习题课题目及参考答案" type="pdf" size="333.4 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/%E4%B9%A0%E9%A2%98%E9%9B%86-%E6%9C%AC%E9%83%A8/1_2021%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B9%A0%E9%A2%98%E8%AF%BE%E9%A2%98%E7%9B%AE%E5%8F%8A%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf" >}}
