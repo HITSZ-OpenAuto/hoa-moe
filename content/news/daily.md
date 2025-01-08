@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-08'
-description: 北京时间 2025-01-07 16 时至今
+description: 北京时间 2025-01-07 18 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周四 (1.9)
+
+- W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：上传 24 马原期末回忆版试题 (#14)
 
 ### 周三 (1.8)
 
