@@ -20,7 +20,7 @@ class GitHubAPIClient:
         self.repo = repo
         self.token = token
         self.headers = {
-            'Authorization': f'token {token}',
+            'Authorization': f'Bearer {token}',
             'Accept': 'application/vnd.github.v3+json'
         }
         self.commit_cache = {}
