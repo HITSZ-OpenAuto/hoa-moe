@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-10'
-description: 北京时间 2025-01-09 03 时至今
+description: 北京时间 2025-01-09 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -22,5 +22,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [补充 24 年大一何嘉勇老师班级体侧项目](https://github.com/HITSZ-OpenAuto/PE100X/pull/12)
+
+- **仓库**: PE100X
+- **创建于**: 2025-01-10T06:13:38Z
+- **作者**: syhanjin
 
