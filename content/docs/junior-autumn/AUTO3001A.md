@@ -127,18 +127,6 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
     {{< hoa-filetree/file name="README" type="md" size="91 bytes" date="2024/03/02" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/README.md" >}}
-  {{< hoa-filetree/folder name="2019_FWI_Version" date="" state="closed" >}}
-    {{< hoa-filetree/file name="自控 A 上机 1.报告" type="pdf" size="816.4 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2019_FWI_Version/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA1.%E6%8A%A5%E5%91%8A.pdf" >}}
-    {{< hoa-filetree/file name="自控 A 上机 2 报告" type="pdf" size="1.9 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2019_FWI_Version/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA2%E6%8A%A5%E5%91%8A.pdf" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="2021" date="" state="closed" >}}
-    {{< hoa-filetree/file name="实验 1 报告" type="pdf" size="13.6 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E5%AE%9E%E9%AA%8C1%E6%8A%A5%E5%91%8A.pdf" >}}
-    {{< hoa-filetree/file name="实验 2 系统的稳定性分析 (连续 + 离散) 实验报告 2020" type="pdf" size="7.8 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E5%AE%9E%E9%AA%8C2%20%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%88%86%E6%9E%90%28%E8%BF%9E%E7%BB%AD%2B%E7%A6%BB%E6%95%A3%29%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2020.pdf" >}}
-    {{< hoa-filetree/file name="实验 3 线性系统的根轨迹分析实验报告 2020" type="pdf" size="7.5 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E5%AE%9E%E9%AA%8C3%20%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%B9%E8%BD%A8%E8%BF%B9%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2020.pdf" >}}
-    {{< hoa-filetree/file name="实验 4 系统频域特性测试与分析实验报告更正版" type="pdf" size="4.0 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E5%AE%9E%E9%AA%8C4%20%E7%B3%BB%E7%BB%9F%E9%A2%91%E5%9F%9F%E7%89%B9%E6%80%A7%E6%B5%8B%E8%AF%95%E4%B8%8E%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%9B%B4%E6%AD%A3%E7%89%88.pdf" >}}
-    {{< hoa-filetree/file name="第一次上机报告 - 刘宇明" type="docx" size="339.3 KB" date="2024/03/02" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A-%E5%88%98%E5%AE%87%E6%98%8E.docx" >}}
-    {{< hoa-filetree/file name="自控上机 2" type="docx" size="1.5 MB" date="2024/03/02" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E8%87%AA%E6%8E%A7%E4%B8%8A%E6%9C%BA2.docx" >}}
-  {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
     {{< hoa-filetree/file name="README" type="md" size="18 bytes" date="2024/03/02" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/README.md" >}}
