@@ -67,29 +67,14 @@ math: true
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3001B" >}}
   {{< hoa-filetree/file name="README" type="md" size="2.5 KB" date="2024/05/15" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/README.md" >}}
-  {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2024_WJD_上机一" type="pdf" size="419.8 KB" date="2024/11/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2024_WJD_%E4%B8%8A%E6%9C%BA%E4%B8%80.pdf" >}}
-    {{< hoa-filetree/file name="README" type="md" size="28 bytes" date="2024/05/15" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/README.md" >}}
-  {{< hoa-filetree/folder name="2022_LMH" date="" state="closed" >}}
-    {{< hoa-filetree/file name="上机 2" type="pdf" size="1.3 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E4%B8%8A%E6%9C%BA2.pdf" >}}
-    {{< hoa-filetree/file name="实验 1" type="pdf" size="5.5 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E5%AE%9E%E9%AA%8C1.pdf" >}}
-    {{< hoa-filetree/file name="实验 2" type="pdf" size="846.5 KB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2022_LMH/%E5%AE%9E%E9%AA%8C2.pdf" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="2023_FWI" date="" state="closed" >}}
-    {{< hoa-filetree/file name="自动控制原理 B-上机 2" type="pdf" size="1.8 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_FWI/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B-%E4%B8%8A%E6%9C%BA2.pdf" >}}
-    {{< hoa-filetree/file name="自动控制原理 B 第一次实验" type="pdf" size="771.5 KB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_FWI/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86B%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C.pdf" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="2023_Tintin" date="" state="closed" >}}
-    {{< hoa-filetree/file name="上机实验 1 线性系统的频率校正设计实验报告-watermark" type="pdf" size="806.4 KB" date="2024/07/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1%20%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%A2%91%E7%8E%87%E6%A0%A1%E6%AD%A3%E8%AE%BE%E8%AE%A1%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-watermark.pdf" >}}
-    {{< hoa-filetree/file name="上机实验二 相平面分析报告-watermark" type="pdf" size="3.6 MB" date="2024/07/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C%E4%BA%8C%20%E7%9B%B8%E5%B9%B3%E9%9D%A2%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A-watermark.pdf" >}}
-    {{< hoa-filetree/file name="实验 1 磁悬浮根轨迹校正报告-watermark" type="pdf" size="526.8 KB" date="2024/07/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E5%AE%9E%E9%AA%8C1%20%E7%A3%81%E6%82%AC%E6%B5%AE%E6%A0%B9%E8%BD%A8%E8%BF%B9%E6%A0%A1%E6%AD%A3%E6%8A%A5%E5%91%8A-watermark.pdf" >}}
-    {{< hoa-filetree/file name="实验 2 直线一级电机倒立摆-watermark" type="pdf" size="1.1 MB" date="2024/07/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2023_Tintin/%E5%AE%9E%E9%AA%8C2%20%E7%9B%B4%E7%BA%BF%E4%B8%80%E7%BA%A7%E7%94%B5%E6%9C%BA%E5%80%92%E7%AB%8B%E6%91%86-watermark.pdf" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2024 复习 (习题来自课件和作业)_Abigzhe" type="pdf" size="18.1 MB" date="2024/10/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2024%E5%A4%8D%E4%B9%A0%28%E4%B9%A0%E9%A2%98%E6%9D%A5%E8%87%AA%E8%AF%BE%E4%BB%B6%E5%92%8C%E4%BD%9C%E4%B8%9A%29_Abigzhe.pdf" >}}
-    {{< hoa-filetree/file name="README" type="md" size="28 bytes" date="2024/05/15" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/README.md" >}}
-    {{< hoa-filetree/file name="自控 B_Tintin" type="pdf" size="12.4 MB" date="2024/07/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/%E8%87%AA%E6%8E%A7B_Tintin.pdf" >}}
+  {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
+    {{< hoa-filetree/file name="2024 自动控制理论 B 试题回忆版 (V1.0)" type="pdf" size="367.1 KB" date="2024/09/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BAB%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
+    {{< hoa-filetree/file name="2024 自组模拟试卷（习题来自课件和作业）_Abigzhe" type="zip" size="1.7 MB" date="2024/10/11" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2024%E8%87%AA%E7%BB%84%E6%A8%A1%E6%8B%9F%E8%AF%95%E5%8D%B7%EF%BC%88%E4%B9%A0%E9%A2%98%E6%9D%A5%E8%87%AA%E8%AF%BE%E4%BB%B6%E5%92%8C%E4%BD%9C%E4%B8%9A%EF%BC%89_Abigzhe.zip" >}}
+    {{< hoa-filetree/file name="README" type="md" size="57 bytes" date="2024/05/15" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/README.md" >}}
+    {{< hoa-filetree/file name="自控 B-校正" type="pdf" size="10.1 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf" >}}
+    {{< hoa-filetree/file name="自控理论 b 考试回忆" type="pdf" size="2.0 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf" >}}
+    {{< hoa-filetree/file name="补考前复习题 - 参考解答" type="pdf" size="2.5 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf" >}}
+    {{< hoa-filetree/file name="补考前复习题" type="pdf" size="5.8 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
