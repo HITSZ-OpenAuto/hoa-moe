@@ -85,7 +85,7 @@ jobs:
 
       - name: Generate card.txt for each repo
         run: |
-          python scripts/gen_links_new.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          python scripts/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Bulid directory pages
         run: |
