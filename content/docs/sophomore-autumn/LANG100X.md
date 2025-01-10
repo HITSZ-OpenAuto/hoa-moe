@@ -1,12 +1,12 @@
 ---
 title: （必修）大学英语
-weight: 21
+weight: 19
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 8 日" author="alanlu0107" message="24 级大学英语 A 期末回忆与参考答案 (#4)" >}}
+{{< update-info update_time="2025 年 1 月 10 日" author="IcyDesert" message="添加景怡老师的上课情况" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -43,6 +43,15 @@ math: true
   - 大一春季学期的大学英语 B（LANG1007）为论文教学课，教材是学术英语（理工），训练英文论文阅读能力
   - 大二秋季学期的大学英语 C（LANG1008）为英语提高训练，涉及听说读写四个方面内容。
 
+## 授课教师
+
+- 景怡
+  - 上课会分享自己的留学与学术经历，如果认真听，可以学到不少干货
+  - 有签到，均在雨课堂进行；有签到二维码、课上小测两种形式
+  - 上课按照座位表坐，老师也会随机点人回答问题
+  - ~~漂亮~~
+> 文 / [IcyDesert](https://github.com/IcyDesert), 2025.1
+
 ## 关于考试
 每学期的期末考试由原来的听说和读写专项考察改为统一与大一秋季学期英语分班考试一致的试卷，试卷结构为 25 题四级听力 + 10 题雅思听力（1 篇文章）+ 2 篇四级阅读 + 1 篇雅思阅读 + 1 篇短文填词 + 1 篇雅思大作文（议论文）。
 
@@ -61,7 +70,7 @@ math: true
 {{< /callout >}}
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/LANG100X" >}}
-  {{< hoa-filetree/file name="README" type="md" size="2.4 KB" date="2025/01/06" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/README.md" >}}
+  {{< hoa-filetree/file name="README" type="md" size="2.7 KB" date="2025/01/06" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/README.md" >}}
   {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
     {{< hoa-filetree/file name="README" type="md" size="39 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/assignments/README.md" >}}
   {{< /hoa-filetree/folder >}}
