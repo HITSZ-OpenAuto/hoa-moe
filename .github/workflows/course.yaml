@@ -83,6 +83,10 @@ jobs:
           repos=$(jq -r '.[].name' repos.json | jq -R -s -c 'split("\n")[:-1]')
           echo "repos_array=$repos" >> $GITHUB_ENV
 
+      - name: Generate card.txt for each repo
+        run: |
+          python scripts/gen_links_new.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
       - name: Bulid directory pages
         run: |
           semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'graduate-autumn' 'graduate-spring' 'cross-specialty' 'general-knowledge')
@@ -335,8 +339,9 @@ jobs:
               echo >> "./content/docs/${semester}/${line}.md"
               cat scripts/netdisk_notice.txt >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
-              python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-              cat result.txt >> "./content/docs/${semester}/${line}.md"
+
+              cat "${line}_cards.txt" >> "./content/docs/${semester}/${line}.md"
+
               echo >> "./content/docs/${semester}/${line}.md"
               cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
               echo >> "./content/docs/${semester}/${line}.md"
