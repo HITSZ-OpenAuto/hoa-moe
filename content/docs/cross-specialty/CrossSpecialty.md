@@ -196,21 +196,6 @@ math: true
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/CrossSpecialty" >}}
   {{< hoa-filetree/file name="README" type="md" size="8.0 KB" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/README.md" >}}
-  {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="39 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/assignments/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="54 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="395 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/labs/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="42 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/notes/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="58 bytes" date="2025/01/03" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/slides/README.md" >}}
-  {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
