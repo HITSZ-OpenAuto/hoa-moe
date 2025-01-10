@@ -110,10 +110,6 @@ math: true
     {{< hoa-filetree/file name="自动控制原理 A 第九次作业答案" type="pdf" size="528.8 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2022_FWI_Version/9/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86A%E7%AC%AC%E4%B9%9D%E6%AC%A1%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="自控作业 -9" type="pdf" size="295.9 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2022_FWI_Version/9/%E8%87%AA%E6%8E%A7%E4%BD%9C%E4%B8%9A-9.pdf" >}}
   {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="标准答案" date="" state="closed" >}}
-    {{< hoa-filetree/file name="自控原理 A 作业 1-6 答案" type="pdf" size="268.7 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2022_FWI_Version/%E6%A0%87%E5%87%86%E7%AD%94%E6%A1%88/%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86A%E4%BD%9C%E4%B8%9A1-6%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="自控理论 A 作业 11 答案" type="pdf" size="1.7 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2022_FWI_Version/%E6%A0%87%E5%87%86%E7%AD%94%E6%A1%88/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E4%BD%9C%E4%B8%9A11%E7%AD%94%E6%A1%88.pdf" >}}
-  {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
