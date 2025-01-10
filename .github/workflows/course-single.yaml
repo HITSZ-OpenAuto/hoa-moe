@@ -27,12 +27,12 @@ jobs:
           if [ -z "$REPO" ]; then
             REPO="NOT_ASSIGNED"
           fi
-          echo "repo_name=$REPO" >> "$GITHUB_OUTPUT"
+          echo "repo_name=$REPO" >> $GITHUB_ENV
 
       - name: First check
         run: |
           echo 'First check: file existence'
-          line="${{ steps.extract.outputs.repo_name }}"
+          line="${{ env.repo_name }}"
           echo '-------------------------------------------------'
           echo ${line}
           set +e
@@ -155,15 +155,15 @@ jobs:
       - name: Build single course page
         run: |
           echo 'Checked. Start building.'
-          line="${{ steps.extract.outputs.repo_name }}"
+          line="${{ env.repo_name }}"
           first_time=1
           
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
           python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           cp result_update_time.txt result_time.txt
-          python scripts/gen_links.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          cp result.txt result_links.txt
+          python scripts/gen_links.py HITSZ-OpenAuto ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          # cp result.txt result_links.txt
 
           Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
           Semesters=${Semesters#*: }
@@ -249,7 +249,7 @@ jobs:
             echo >> "./content/docs/${semester}/${line}.md"
             cat scripts/netdisk_notice.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            cat result_links.txt >> "./content/docs/${semester}/${line}.md"
+            cat "${line}_cards.txt" >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
             
             cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"

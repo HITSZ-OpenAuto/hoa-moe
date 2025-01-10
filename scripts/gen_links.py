@@ -3,6 +3,7 @@ import aiohttp
 import argparse
 import urllib.parse
 import os
+import json
 import re
 from datetime import datetime
 from fs import filesize
@@ -130,7 +131,7 @@ class GitHubAPIClient:
 
         # # Create a TCPConnector with verify_ssl=False
         # connector = aiohttp.TCPConnector(ssl=False)
-        # 
+        #
         # # Create a new session with the connector if one isn't provided
         # # if not session:
         # session = aiohttp.ClientSession(connector=connector)
@@ -182,11 +183,11 @@ class GitHubAPIClient:
             paths = await self.list_files_in_repo(session)
             end_time = time.time()
 
-            print(f"Retrieved {len(paths)} files in {end_time - start_time:.2f} seconds")
+            print(f"{self.repo} Retrieved {len(paths)} files in {end_time - start_time:.2f} seconds")
 
             if paths:
                 result_content = await self.create_hugo_shortcode(paths)
-                with open('result.txt', 'w', encoding="utf-8") as file:
+                with open(f'{self.repo}_cards.txt', 'w', encoding="utf-8") as file:
                     file.write(result_content)
 
     async def create_hugo_shortcode(self, file_paths: List[Dict[str, str]]) -> str:
@@ -274,14 +275,37 @@ def match_suffix_icon(suffix: str) -> str:
     return f"icons/{suffix}.png"
 
 
+async def process_multiple_repos(owner: str, repos: List[str], token: str) -> None:
+    # Create clients for all repos
+    clients = [GitHubAPIClient(owner, repo, token) for repo in repos]
+
+    # Run all clients concurrently
+    await asyncio.gather(*(client.save_files_list() for client in clients))
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate download links of files from a GitHub repository.")
     parser.add_argument("owner", help="GitHub repository owner", default="HITSZ-OpenAuto")
-    parser.add_argument("repo", help="GitHub repository name")
+    # parser.add_argument("repo", help="GitHub repository name")
     parser.add_argument("token", help="GitHub token")
-    
+
     args = parser.parse_args()
 
-    client = GitHubAPIClient(args.owner, args.repo, args.token)
-    asyncio.run(client.save_files_list())
+    # Get repos array from environment variable
+    repos_json = os.environ.get('repos_array')
 
+    if not repos_json:
+        repos_json = os.environ.get('repos_name')
+
+    if not repos_json:
+        raise ValueError("Environment variable REPO_array not found")
+
+    repos = json.loads(repos_json)
+
+    # Run the async process for all repos
+    start_time = time.perf_counter()
+    asyncio.run(process_multiple_repos(args.owner, repos, args.token))
+
+    end_time = time.perf_counter()
+    execution_time = end_time - start_time
+    print(f"Exec: {execution_time:.2f} s")
