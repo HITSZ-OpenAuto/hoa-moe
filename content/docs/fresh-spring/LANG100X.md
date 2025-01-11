@@ -92,7 +92,7 @@ math: true
     {{< hoa-filetree/file name="README" type="md" size="42 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/notes/README.md" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="58 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/slides/README.md" >}}
+    {{< hoa-filetree/file name="README" type="md" size="58 bytes" date="Unknown" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/slides/README.md" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 

@@ -93,6 +93,15 @@ math: true
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/GeneralKnowledge" >}}
   {{< hoa-filetree/file name="README" type="md" size="5.0 KB" date="2024/10/10" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/README.md" >}}
+  {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="39 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/assignments/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="54 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/exams/README.md" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
+    {{< hoa-filetree/file name="README" type="md" size="395 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/labs/README.md" >}}
+  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
     {{< hoa-filetree/file name="README" type="md" size="42 bytes" date="2024/10/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/notes/README.md" >}}
     {{< hoa-filetree/file name="深圳校区首批文理通识核心课建设立项名单" type="xlsx" size="13.6 KB" date="2025/01/07" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/notes/%E6%B7%B1%E5%9C%B3%E6%A0%A1%E5%8C%BA%E9%A6%96%E6%89%B9%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86%E6%A0%B8%E5%BF%83%E8%AF%BE%E5%BB%BA%E8%AE%BE%E7%AB%8B%E9%A1%B9%E5%90%8D%E5%8D%95.xlsx" >}}

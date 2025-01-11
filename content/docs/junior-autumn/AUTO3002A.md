@@ -292,6 +292,22 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
     {{< hoa-filetree/file name="9 功率放大器相关试题" type="docx" size="45.7 KB" date="2023/12/17" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
+  {{< hoa-filetree/folder name="2023" date="" state="closed" >}}
+  {{< hoa-filetree/folder name="instruction" date="" state="closed" >}}
+    {{< hoa-filetree/file name="交流伺服电机特性实验指导书" type="pdf" size="7.4 MB" date="2023/12/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/instruction/%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf" >}}
+    {{< hoa-filetree/file name="传感与测量反馈元件特性实验 2023" type="pdf" size="4.4 MB" date="2023/12/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/instruction/%E4%BC%A0%E6%84%9F%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C2023.pdf" >}}
+    {{< hoa-filetree/file name="步进电机特性实验" type="pdf" size="3.6 MB" date="2023/12/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/instruction/%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%89%B9%E6%80%A7%E5%AE%9E%E9%AA%8C.pdf" >}}
+    {{< hoa-filetree/file name="电机 PWM 控制与驱动电路实验指导书" type="pdf" size="7.8 MB" date="2023/12/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2023/instruction/%E7%94%B5%E6%9C%BAPWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="LMH_2021" date="" state="closed" >}}
+    {{< hoa-filetree/file name="实验报告 - 实验 1" type="pdf" size="4.5 MB" date="2024/02/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C1.pdf" >}}
+    {{< hoa-filetree/file name="实验报告 - 实验 2" type="pdf" size="6.0 MB" date="2024/02/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C2.pdf" >}}
+    {{< hoa-filetree/file name="实验报告 - 实验 3" type="pdf" size="7.6 MB" date="2024/02/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C3.pdf" >}}
+    {{< hoa-filetree/file name="实验报告 - 实验 4" type="pdf" size="6.2 MB" date="2024/02/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/LMH_2021/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E5%AE%9E%E9%AA%8C4.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
     {{< hoa-filetree/file name="自控实践_by_Spar Océsel_2023" type="apkg" size="2.3 MB" date="2024/01/06" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5_by_Spar%20Oc%C3%A9sel_2023.apkg" >}}
   {{< hoa-filetree/folder name="LMH_VERSION_2021" date="" state="closed" >}}
@@ -305,9 +321,6 @@ assignments 文件夹下的《自动控制元件及线路课后题答案（百�
     {{< hoa-filetree/file name="自动控制实践 A_ 4. 步进电机 (V1.1)" type="pdf" size="10.7 MB" date="2024/01/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%204.%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%28V1.1%29.pdf" >}}
     {{< hoa-filetree/file name="自动控制实践 A_ 5. 交流绕组、异步电机 (V1.0.1)" type="pdf" size="22.5 MB" date="2024/12/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/WJD_VERSION_2023/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%205.%20%E4%BA%A4%E6%B5%81%E7%BB%95%E7%BB%84%E3%80%81%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%28V1.0.1%29.pdf" >}}
   {{< /hoa-filetree/folder >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="60 bytes" date="2023/10/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/README.md" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
