@@ -67,15 +67,6 @@ math: true
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3001B" >}}
   {{< hoa-filetree/file name="README" type="md" size="2.5 KB" date="2024/05/15" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/README.md" >}}
-  {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2024 自动控制理论 B 试题回忆版 (V1.0)" type="pdf" size="367.1 KB" date="2024/09/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BAB%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
-    {{< hoa-filetree/file name="2024 自组模拟试卷（习题来自课件和作业）_Abigzhe" type="zip" size="1.7 MB" date="2024/10/11" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2024%E8%87%AA%E7%BB%84%E6%A8%A1%E6%8B%9F%E8%AF%95%E5%8D%B7%EF%BC%88%E4%B9%A0%E9%A2%98%E6%9D%A5%E8%87%AA%E8%AF%BE%E4%BB%B6%E5%92%8C%E4%BD%9C%E4%B8%9A%EF%BC%89_Abigzhe.zip" >}}
-    {{< hoa-filetree/file name="README" type="md" size="57 bytes" date="2024/05/15" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/README.md" >}}
-    {{< hoa-filetree/file name="自控 B-校正" type="pdf" size="10.1 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf" >}}
-    {{< hoa-filetree/file name="自控理论 b 考试回忆" type="pdf" size="2.0 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf" >}}
-    {{< hoa-filetree/file name="补考前复习题 - 参考解答" type="pdf" size="2.5 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf" >}}
-    {{< hoa-filetree/file name="补考前复习题" type="pdf" size="5.8 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
-  {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
