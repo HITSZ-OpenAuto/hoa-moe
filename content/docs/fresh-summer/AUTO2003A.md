@@ -34,7 +34,6 @@ math: true
 {{< /callout >}}
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003A" >}}
-  {{< hoa-filetree/file name="README" type="md" size="779 bytes" date="2024/04/06" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003A/raw/main/README.md" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与

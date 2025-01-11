@@ -43,25 +43,6 @@ math: true
 {{< /callout >}}
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/ECON2005F" >}}
-  {{< hoa-filetree/file name="README" type="md" size="948 bytes" date="2023/11/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/README.md" >}}
-  {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="39 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/assignments/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="54 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/exams/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="395 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/labs/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="materials" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="55 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/materials/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="42 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/notes/README.md" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
-    {{< hoa-filetree/file name="README" type="md" size="58 bytes" date="2023/11/24" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/slides/README.md" >}}
-  {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
