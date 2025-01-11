@@ -192,7 +192,7 @@ class GitHubAPIClient:
                 file.write(result_content)
 
     async def create_hugo_shortcode(self, file_paths: List[Dict[str, str]]) -> str:
-        result = f'{{{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/{self.repo}" >}}}}\n'
+        result = f'{{{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/{self.repo}" repoURL="https://github.com/HITSZ-OpenAuto/{self.repo}" >}}}}\n'
         organized_paths = self.organize_paths(file_paths)
 
         if organized_paths:

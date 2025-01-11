@@ -48,6 +48,25 @@ img {
   }
 }
 
+a.hoa-inline-link {
+  --tw-text-opacity: 1;
+  color: hsl(
+    var(--primary-hue) var(--primary-saturation) 45% / var(--tw-text-opacity)
+  );
+  /* color: #0b346e; */
+  text-decoration-line: solid;
+  text-decoration-thickness: from-font;
+  text-underline-position: from-font;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--background-color);
+
+  &:hover {
+    text-decoration-color: hsl(
+      var(--primary-hue) var(--primary-saturation) 45% / var(--tw-text-opacity)
+    );
+  }
+}
+
 a.animated {
   position: relative;
   text-decoration: none;
@@ -117,6 +136,4 @@ a.hextra-feature-card:hover {
   background-color: rgb(243 244 246 / var(--tw-text-opacity, 1));
 }
 
-/* .filetree-header {
-  background-color: #f6f8fa;
-} */
+
