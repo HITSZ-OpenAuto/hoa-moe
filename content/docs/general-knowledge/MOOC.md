@@ -77,7 +77,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
   注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）正在维护优化中。具体时间为 2025 年 1 月 5 日 23:59 至 2025 年 1 月 10 日 23:59。
 {{< /callout >}}
 
-{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MOOC" >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MOOC" repoURL="https://github.com/HITSZ-OpenAuto/MOOC" >}}
   {{< hoa-filetree/folder name="人工智能时代的身份、代理、平等和安全" date="" state="closed" >}}
     {{< hoa-filetree/file name="人工智能时代的身份、代理、平等和安全" type="pdf" size="69.0 KB" date="2024/08/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8.pdf" >}}
     {{< hoa-filetree/file name="人工智能期末答案" type="docx" size="930.8 KB" date="2024/08/27" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.docx" >}}
@@ -109,6 +109,9 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="智慧树关爱生命" date="" state="closed" >}}
     {{< hoa-filetree/file name="智慧树关爱生命---自救与急救技能章节习题及答案" type="docx" size="28.7 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD---%E8%87%AA%E6%95%91%E4%B8%8E%E6%80%A5%E6%95%91%E6%8A%80%E8%83%BD%E7%AB%A0%E8%8A%82%E4%B9%A0%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88.docx" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="智慧树劳动教育概论" date="" state="closed" >}}
+    {{< hoa-filetree/file name="劳动教育概论 - 单元测试答案" type="md" size="8.8 KB" date="2024/09/23" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E6%A6%82%E8%AE%BA/%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E6%A6%82%E8%AE%BA-%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E7%AD%94%E6%A1%88.md" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="游戏化思维" date="" state="closed" >}}
     {{< hoa-filetree/file name="游戏化思维参考答案" type="docx" size="85.4 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
