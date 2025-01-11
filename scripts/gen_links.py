@@ -186,26 +186,27 @@ class GitHubAPIClient:
 
             print(f"{self.repo} Retrieved {len(paths)} files in {end_time - start_time:.2f} seconds")
 
-            if paths:
-                result_content = await self.create_hugo_shortcode(paths)
-                with open(f'{self.repo}_cards.txt', 'w', encoding="utf-8") as file:
-                    file.write(result_content)
+            
+            result_content = await self.create_hugo_shortcode(paths)
+            with open(f'{self.repo}_cards.txt', 'w', encoding="utf-8") as file:
+                file.write(result_content)
 
     async def create_hugo_shortcode(self, file_paths: List[Dict[str, str]]) -> str:
         result = f'{{{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/{self.repo}" >}}}}\n'
         organized_paths = self.organize_paths(file_paths)
 
-        for directory, content in organized_paths.items():
-            if isinstance(content, list) and is_human_readable_size(content[0]):
-                prefix = f'https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main'
-                full_path = f'{prefix}/{directory}'
-
-                name, suffix = directory.rsplit('.', 1)
-                icon = match_suffix_icon(suffix)
-                result += f'  {{{{< hoa-filetree/file name="{name}" type="{suffix}" size="{content[0]}" date="{content[1]}" icon="{icon}" url="{full_path}" >}}}}\n'
-            else:
-                folder_content = await self.generate_folder_content(directory, content)
-                result += folder_content
+        if organized_paths:
+            for directory, content in organized_paths.items():
+                if isinstance(content, list) and is_human_readable_size(content[0]):
+                    prefix = f'https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main'
+                    full_path = f'{prefix}/{directory}'
+    
+                    name, suffix = directory.rsplit('.', 1)
+                    icon = match_suffix_icon(suffix)
+                    result += f'  {{{{< hoa-filetree/file name="{name}" type="{suffix}" size="{content[0]}" date="{content[1]}" icon="{icon}" url="{full_path}" >}}}}\n'
+                else:
+                    folder_content = await self.generate_folder_content(directory, content)
+                    result += folder_content
 
         result += "{{< /hoa-filetree/container >}}\n"
         return result
