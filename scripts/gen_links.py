@@ -295,10 +295,10 @@ if __name__ == "__main__":
     repos_json = os.environ.get('repos_array')
 
     if not repos_json:
-        repos_json = os.environ.get('repos_name')
+        repos_json = os.environ.get('repo_name')
 
     if not repos_json:
-        raise ValueError("Environment variable REPO_array not found")
+        raise ValueError("Environment variable repo not found")
 
     repos = json.loads(repos_json)
 
