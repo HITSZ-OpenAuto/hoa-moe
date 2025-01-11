@@ -121,6 +121,56 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003B" >}}
   {{< hoa-filetree/file name="README" type="md" size="6.1 KB" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/README.md" >}}
+  {{< hoa-filetree/folder name="course_design" date="" state="closed" >}}
+    {{< hoa-filetree/file name="创新训练课 B 报告" type="docx" size="1.3 MB" date="2023/11/29" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
+    {{< hoa-filetree/file name="答辩 PPT_吴坤远" type="pptx" size="351.1 KB" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E7%AD%94%E8%BE%A9PPT_%E5%90%B4%E5%9D%A4%E8%BF%9C.pptx" >}}
+  {{< hoa-filetree/folder name="fish_game" date="" state="closed" >}}
+    {{< hoa-filetree/file name="bg" type="jpg" size="355.8 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/bg.jpg" >}}
+    {{< hoa-filetree/file name="bg2" type="jpg" size="888.0 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/bg2.jpg" >}}
+    {{< hoa-filetree/file name="fish1_l" type="jpg" size="946 bytes" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish1_l.jpg" >}}
+    {{< hoa-filetree/file name="fish1_r" type="jpg" size="1.2 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish1_r.jpg" >}}
+    {{< hoa-filetree/file name="fish1bg_l" type="jpg" size="888 bytes" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish1bg_l.jpg" >}}
+    {{< hoa-filetree/file name="fish1bg_r" type="jpg" size="890 bytes" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish1bg_r.jpg" >}}
+    {{< hoa-filetree/file name="fish2_l" type="jpg" size="2.8 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish2_l.jpg" >}}
+    {{< hoa-filetree/file name="fish2_r" type="jpg" size="3.8 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish2_r.jpg" >}}
+    {{< hoa-filetree/file name="fish2bg_l" type="jpg" size="1.8 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish2bg_l.jpg" >}}
+    {{< hoa-filetree/file name="fish2bg_r" type="jpg" size="2.1 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish2bg_r.jpg" >}}
+    {{< hoa-filetree/file name="fish3_l" type="jpg" size="7.1 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish3_l.jpg" >}}
+    {{< hoa-filetree/file name="fish3_r" type="jpg" size="4.7 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish3_r.jpg" >}}
+    {{< hoa-filetree/file name="fish3bg_l" type="jpg" size="2.9 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish3bg_l.jpg" >}}
+    {{< hoa-filetree/file name="fish3bg_r" type="jpg" size="2.8 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish3bg_r.jpg" >}}
+    {{< hoa-filetree/file name="fish4_l" type="jpg" size="11.1 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish4_l.jpg" >}}
+    {{< hoa-filetree/file name="fish4_r" type="jpg" size="6.7 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish4_r.jpg" >}}
+    {{< hoa-filetree/file name="fish4bg_l" type="jpg" size="5.0 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish4bg_l.jpg" >}}
+    {{< hoa-filetree/file name="fish4bg_r" type="jpg" size="4.7 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/fish4bg_r.jpg" >}}
+    {{< hoa-filetree/file name="hippocampus_l" type="jpg" size="3.1 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/hippocampus_l.jpg" >}}
+    {{< hoa-filetree/file name="hippocampus_r" type="jpg" size="4.1 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/hippocampus_r.jpg" >}}
+    {{< hoa-filetree/file name="hippocampusbg_l" type="jpg" size="2.2 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/hippocampusbg_l.jpg" >}}
+    {{< hoa-filetree/file name="hippocampusbg_r" type="jpg" size="2.2 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/hippocampusbg_r.jpg" >}}
+    {{< hoa-filetree/file name="intro" type="jpg" size="15.4 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/intro.jpg" >}}
+    {{< hoa-filetree/file name="intro0" type="jpg" size="35.9 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/intro0.jpg" >}}
+    {{< hoa-filetree/file name="intro1" type="jpg" size="17.2 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/intro1.jpg" >}}
+    {{< hoa-filetree/file name="intro2" type="jpg" size="10.8 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/intro2.jpg" >}}
+    {{< hoa-filetree/file name="player1_l" type="jpg" size="30.8 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/player1_l.jpg" >}}
+    {{< hoa-filetree/file name="player1_r" type="jpg" size="24.6 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/player1_r.jpg" >}}
+    {{< hoa-filetree/file name="player1bg_l" type="jpg" size="12.6 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/player1bg_l.jpg" >}}
+    {{< hoa-filetree/file name="player1bg_r" type="jpg" size="12.5 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/player1bg_r.jpg" >}}
+    {{< hoa-filetree/file name="player2_l" type="jpg" size="2.4 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/player2_l.jpg" >}}
+    {{< hoa-filetree/file name="player2_r" type="jpg" size="2.3 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/player2_r.jpg" >}}
+    {{< hoa-filetree/file name="player2bg_l" type="jpg" size="1.4 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/player2bg_l.jpg" >}}
+    {{< hoa-filetree/file name="player2bg_r" type="jpg" size="1.4 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/player2bg_r.jpg" >}}
+    {{< hoa-filetree/file name="shark_l" type="jpg" size="17.2 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/shark_l.jpg" >}}
+    {{< hoa-filetree/file name="shark_r" type="jpg" size="24.7 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/shark_r.jpg" >}}
+    {{< hoa-filetree/file name="sharkbg_l" type="jpg" size="10.7 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/sharkbg_l.jpg" >}}
+    {{< hoa-filetree/file name="sharkbg_r" type="jpg" size="11.2 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/sharkbg_r.jpg" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="地铁站示例" date="" state="closed" >}}
+    {{< hoa-filetree/file name="Qt-创新训练题目 3" type="zip" size="10.8 MB" date="2023/11/29" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/Qt-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E9%A2%98%E7%9B%AE3.zip" >}}
+    {{< hoa-filetree/file name="README" type="md" size="1 byte" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/README.md" >}}
+    {{< hoa-filetree/file name="项目展示答辩" type="zip" size="24.0 MB" date="2023/11/29" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BA%E7%AD%94%E8%BE%A9.zip" >}}
+    {{< hoa-filetree/file name="黄继凡 - 创新训练课 B 报告" type="docx" size="1.6 MB" date="2023/11/29" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%BB%84%E7%BB%A7%E5%87%A1-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
     {{< hoa-filetree/file name="README" type="md" size="395 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/labs/README.md" >}}
   {{< /hoa-filetree/folder >}}
