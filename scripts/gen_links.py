@@ -146,11 +146,12 @@ class GitHubAPIClient:
 
             for content in contents:
                 if content['type'] == 'file':
-                    if any(content['path'].endswith(ext) for ext in ('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc',
-                                                                     '.ipynb', '.pptx', '.apkg', '.mp4', '.csv',
-                                                                     '.xlsx',
-                                                                     'png', 'jpg', 'jpeg', 'gif', 'webp',
-                                                                     '.md')):
+                    if (any(content['path'].endswith(ext) for ext in ('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc',
+                                                                      '.ipynb', '.pptx', '.apkg', '.mp4', '.csv',
+                                                                      '.xlsx',
+                                                                      'png', 'jpg', 'jpeg', 'gif', 'webp',
+                                                                      '.md')) and
+                            not content['path'].endswith('README.md')):
                         files_to_process.append({
                             'path': content['path'],
                             'size': filesize.traditional(int(content['size']))
