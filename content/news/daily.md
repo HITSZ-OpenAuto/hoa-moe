@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-11'
-description: 北京时间 2025-01-10 00 时至今
+description: 北京时间 2025-01-10 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周六 (1.11)
+
+- hanjin 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充 24 年大一何嘉勇老师班级体测项目 (#12)
 
 ### 周五 (1.10)
 
@@ -22,9 +26,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [补充 24 年大一何嘉勇老师班级体侧项目](https://github.com/HITSZ-OpenAuto/PE100X/pull/12)
-
-- **仓库**: PE100X
-- **创建于**: 2025-01-10T06:13:38Z
-- **作者**: syhanjin
+暂无待合并的 Pull Requests
 
