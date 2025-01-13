@@ -88,6 +88,11 @@ math: true
     {{< hoa-filetree/file name="综合实验报告模板_18 号机" type="pdf" size="1.7 MB" date="2024/07/04" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/ljh_version/%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF_18%E5%8F%B7%E6%9C%BA.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
+    {{< hoa-filetree/file name="Revision of Auto-Practical" type="pdf" size="9.4 MB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/Revision%20of%20Auto-Practical.pdf" >}}
+    {{< hoa-filetree/file name="自控实践 B 复习_Tintin" type="pdf" size="6.4 MB" date="2024/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E5%A4%8D%E4%B9%A0_Tintin.pdf" >}}
+    {{< hoa-filetree/file name="自控实践复习整理 byAb1g2he" type="pdf" size="3.4 MB" date="2024/07/16" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86byAb1g2he.pdf" >}}
+  {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
