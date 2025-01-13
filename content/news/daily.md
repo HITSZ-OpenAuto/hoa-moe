@@ -22,5 +22,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [添加新报告](https://github.com/HITSZ-OpenAuto/AUTO3016/pull/12)
+
+- **仓库**: AUTO3016
+- **创建于**: 2025-01-13T07:44:33Z
+- **作者**: pspdada
 
