@@ -85,6 +85,9 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
   {{< hoa-filetree/folder name="全球化与世界空间" date="" state="closed" >}}
     {{< hoa-filetree/file name="全球化与世界空间" type="docx" size="13.3 KB" date="2024/05/11" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E5%85%A8%E7%90%83%E5%8C%96%E4%B8%8E%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4/%E5%85%A8%E7%90%83%E5%8C%96%E4%B8%8E%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4.docx" >}}
   {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="创造性思维与创新方法" date="" state="closed" >}}
+    {{< hoa-filetree/file name="创造性思维与创新方法" type="docx" size="18.1 KB" date="2024/05/11" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E5%88%9B%E9%80%A0%E6%80%A7%E6%80%9D%E7%BB%B4%E4%B8%8E%E5%88%9B%E6%96%B0%E6%96%B9%E6%B3%95/%E5%88%9B%E9%80%A0%E6%80%A7%E6%80%9D%E7%BB%B4%E4%B8%8E%E5%88%9B%E6%96%B0%E6%96%B9%E6%B3%95.docx" >}}
+  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="国际交流英语" date="" state="closed" >}}
     {{< hoa-filetree/file name="国交流答案" type="docx" size="52.3 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E5%9B%BD%E9%99%85%E4%BA%A4%E6%B5%81%E8%8B%B1%E8%AF%AD/%E5%9B%BD%E4%BA%A4%E6%B5%81%E7%AD%94%E6%A1%88.docx" >}}
   {{< /hoa-filetree/folder >}}
