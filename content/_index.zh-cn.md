@@ -32,7 +32,7 @@ layout: hextra-home
     image="/images/github.webp"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-    link="<https://github.com/HITSZ-OpenAuto>"
+    link="https://github.com/HITSZ-OpenAuto"
   >}}
   {{< hextra/feature-card
     title="技术博客分享"

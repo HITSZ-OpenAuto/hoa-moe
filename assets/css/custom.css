@@ -6,6 +6,7 @@
   --text-hover-color: rgba(20, 20, 20, 1);
   --animate-color: hsl(212deg 100% 94%);
   --animate-hover-color: hsl(212deg 100% 80%);
+  --hoa-filetree-checked-color: rgb(243 244 246 / var(--tw-text-opacity, 1));
 }
 
 .dark {
@@ -14,6 +15,7 @@
   --text-color: rgba(107, 114, 128, 1);
   --animate-color: rgba(0, 138, 230, 72%);
   --animate-hover-color: rgba(0, 138, 230, 100%);
+  --hoa-filetree-checked-color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 
 img {
@@ -129,11 +131,11 @@ a.hextra-feature-card:hover {
 }
 
 .hoa-filetree-file:has(input:checked) {
-  background-color: rgb(243 244 246 / var(--tw-text-opacity, 1));
+  background-color: var(--hoa-filetree-checked-color);
 }
 
 .hoa-filetree-folder:has(input:checked) {
-  background-color: rgb(243 244 246 / var(--tw-text-opacity, 1));
+  background-color: var(--hoa-filetree-checked-color);
 }
 
 
