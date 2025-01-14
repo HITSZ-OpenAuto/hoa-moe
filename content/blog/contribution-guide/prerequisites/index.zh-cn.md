@@ -1,5 +1,5 @@
 ---
-title: 预备知识
+title: 0. 预备知识
 date: 2025-01-10
 description: 在 GitHub 上贡献的一些预备知识讲解
 authors:
