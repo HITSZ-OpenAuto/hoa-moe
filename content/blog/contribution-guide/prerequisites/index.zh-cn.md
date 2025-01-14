@@ -7,11 +7,13 @@ authors:
     link: https://github.com/IcyDesert
     image: https://github.com/IcyDesert.png
 excludeSearch: false
+cascade:
+  type: blog
 ---
 
 <!-- 带 * 号表示选修。 -->
 
-本系列文章并不教学 Git，我们专注于操作而不详解原理；如有学习需要请移步互联网，也可以查阅开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
+本系列文章重点介绍 Git 的实际操作方法，不深入探讨其底层原理和实现机制；如有学习需要请移步互联网，也可以查阅 HITSZ 开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
 
 ## 稳定连接到 GitHub
 
@@ -21,10 +23,10 @@ excludeSearch: false
 
 ## `本地`和`远程`
 
-一般来说，**本地（local）**文件指的是你的电脑磁盘上的文件，而 **远程（remote）**文件指的是存储在服务器上的数据文件。
+一般来说，**本地（local）** 文件指的是你的电脑磁盘上的文件，而 **远程（remote）** 文件指的是存储在服务器上的数据文件。
 
-在 HOA 的语境下，`本地文件`指的是你存在自己电脑上、想要提交到我们的仓库里的文件，而 `远程仓库`则是我们在 GitHub 上的 [各个仓库](https://github.com/HITSZ-OpenAuto)。
-所谓的贡献文件，实际上就是通过 GitHub 提供的方法，将`本地文件`提交到`远程仓库`的过程。
+在 HOA 的语境下，`本地文件`指的是你保存在自己电脑上、想要提交到我们的`远程仓库`里的文件，而 `远程仓库`则是我们在 GitHub 上的 [各个仓库](https://github.com/HITSZ-OpenAuto)。
+所谓的贡献文件，实际上就是通过 GitHub 提供的方法将`本地文件`提交到`远程仓库`的过程。
 
 <!-- ## *GitHub Codespaces
 

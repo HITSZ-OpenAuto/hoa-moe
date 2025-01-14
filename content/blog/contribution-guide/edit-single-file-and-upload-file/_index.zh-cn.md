@@ -7,6 +7,8 @@ authors:
     link: https://github.com/IcyDesert
     image: https://github.com/IcyDesert.png
 excludeSearch: false
+cascade:
+  type: blog
 ---
 
 ## 单文档修改：以课程文档为例
