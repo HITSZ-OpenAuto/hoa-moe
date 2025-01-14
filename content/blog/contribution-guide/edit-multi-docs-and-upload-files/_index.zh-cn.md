@@ -10,7 +10,7 @@ excludeSearch: false
 ---
 我们介绍的正规方法需要一些 Git 基础，这是 GitHub 界面功能不足导致的必然后果。
 
-如果你没有 Git 相关知识，可以查看开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
+如果你没有 Git 相关知识，可以查看本校开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
 
 ## Git 本地编辑
 
@@ -27,7 +27,7 @@ excludeSearch: false
 
 ### commit & push
 
-确认所有改进都完成后，我们就可以把本地文件推送到远程仓库了；这时候，远程仓库还是你自己的，而非 HOA 的。（从自己的远程仓库，通过 *Pull Request*，才能把内容推送到 HOA 的远程仓库）
+确认所有改进都完成后，我们就可以把本地文件推送到远程仓库了；这时候，远程仓库还是你自己的，而非 HOA 的。（从自己的远程仓库，通过*Pull Request*，才能把内容推送到 HOA 的远程仓库）
 
 在命令行中，一行一行地执行命令。
 ```bash
