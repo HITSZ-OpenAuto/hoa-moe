@@ -15,6 +15,7 @@ excludeSearch: false
 ## Git 本地编辑
 
 ### git clone
+
 首先将仓库 Fork 到自己名下，
 ![](./img/fork-repo-actively.png)
 然后进入自己的仓库，找到仓库链接、复制下来，
@@ -22,12 +23,13 @@ excludeSearch: false
 在命令行运行
 `git clone <你刚刚复制的仓库链接>`
 这样，**仓库就已经成为你的本地文件**；在本地，你就可以随心所欲地进行各种修改，包括文档修改和文件上传。
-> 还记得本地的概念吗？本地文件 指的是你存在自己电脑上、想要提交到我们的仓库里的文件。
+> 还记得`本地`的概念吗？`本地文件`指的是你存在自己电脑上、想要提交到我们的仓库里的文件。
 
 ### commit & push
-确认所有改进都完成以后，我们就可以把本地文件推送到远程仓库了；这时候，远程仓库还不是 HOA 的，而是你自己的。
 
-在命令行中，一行一行地执行命令
+确认所有改进都完成后，我们就可以把本地文件推送到远程仓库了；这时候，远程仓库还是你自己的，而非 HOA 的。（从自己的远程仓库，通过 *Pull Request*，才能把内容推送到 HOA 的远程仓库）
+
+在命令行中，一行一行地执行命令。
 ```bash
 git add .                           # 将当前目录下所有修改部分提交至暂存区
 git commit -m "commit message"      # 提交 commit message，需要遵守公约
@@ -46,4 +48,5 @@ fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': Open
 {{< /callout >}}
 
 ### 发起 Pull Request
+
 参考单文档的情况即可。
