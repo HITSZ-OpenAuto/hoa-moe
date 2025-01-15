@@ -8,9 +8,9 @@ authors:
     image: https://github.com/IcyDesert.png
 excludeSearch: false
 ---
-我们介绍的正规方法需要一些 Git 基础，这是 GitHub 界面功能不足导致的必然后果。
+我们介绍的正规方法需要一些 Git 基础，这是 GitHub 界面功能不足导致的。
 
-如果你没有 Git 相关知识，可以查看本校开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
+如果你没有 Git 相关知识，可以查看 HITSZ 开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
 
 ## Git 本地编辑
 
@@ -22,14 +22,14 @@ excludeSearch: false
 ![](./img/find-git-clone-url.png)
 在命令行运行
 `git clone <你刚刚复制的仓库链接>`
-这样，**仓库就已经成为你的本地文件**；在本地，你就可以随心所欲地进行各种修改，包括文档修改和文件上传。
+这样，**仓库就已经成为你的`本地文件`**；在本地，你就可以随心所欲地进行各种修改，包括文档修改和文件上传。
 > 还记得`本地`的概念吗？`本地文件`指的是你存在自己电脑上、想要提交到我们的仓库里的文件。
 
 ### commit & push
 
-确认所有改进都完成后，我们就可以把本地文件推送到远程仓库了；这时候，远程仓库还是你自己的，而非 HOA 的。（从自己的远程仓库，通过*Pull Request*，才能把内容推送到 HOA 的远程仓库）
+确认所有改进都完成后，我们就可以把`本地文件`推送到`远程仓库`了；这时候，`远程仓库`还是你自己的，而非 HOA 的。（从自己的`远程仓库`，通过*Pull Request*，才能把内容推送到 HOA 的`远程仓库`）
 
-在命令行中，一行一行地执行命令。
+在命令行中，逐行执行以下命令：
 ```bash
 git add .                           # 将当前目录下所有修改部分提交至暂存区
 git commit -m "commit message"      # 提交 commit message，需要遵守公约
@@ -49,4 +49,4 @@ fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': Open
 
 ### 发起 Pull Request
 
-参考单文档的情况即可。
+参考 [单文档的情况](../edit-multi-docs-and-upload-files/index.zh-cn.md) 即可。
