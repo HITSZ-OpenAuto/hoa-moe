@@ -49,4 +49,4 @@ fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': Open
 
 ### 发起 Pull Request
 
-参考 [单文档的情况](../edit-multi-docs-and-upload-files/index.zh-cn.md) 即可。
+参考 [单文档的情况](/blog/contribution-guide/edit-single-file-and-upload-file/#发起-pull-request-1) 即可。
