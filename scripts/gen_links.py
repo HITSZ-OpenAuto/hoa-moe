@@ -12,7 +12,9 @@ from typing import List, Dict, Optional
 import time
 from aiohttp import ClientTimeout
 from tenacity import retry, stop_after_attempt, wait_exponential
+from filetrees import FileTreeManager, CourseData, create_course_data
 
+file_tree_manager = FileTreeManager()
 
 class GitHubAPIClient:
     def __init__(self, owner: str, repo: str, token: str):
@@ -25,6 +27,7 @@ class GitHubAPIClient:
         }
         self.commit_cache = {}
         self.batch_size = 100  # GitHub API allows up to 100 items per page
+        self.has_commit_error = False
 
     async def fetch_content(self, session: aiohttp.ClientSession, url: str) -> Dict:
         timeout = ClientTimeout(total=30)
@@ -32,6 +35,30 @@ class GitHubAPIClient:
             if response.status == 200:
                 return await response.json()
             raise Exception(f"Failed to fetch {url}: {response.status}")
+
+    async def get_repo_commit_sha(self) -> Optional[str]:
+        try:
+            commits_url = f'https://api.github.com/repos/{self.owner}/{self.repo}/commits'
+
+            # connector = aiohttp.TCPConnector(ssl=False)
+            async with aiohttp.ClientSession() as session:
+                async with session.get(
+                        commits_url,
+                        headers=self.headers,
+                        timeout=ClientTimeout(total=30)
+                ) as response:
+                    if response.status == 200:
+                        commits_data = await response.json()
+                        if commits_data and len(commits_data) > 0:
+                            commit_sha = commits_data[0]['sha']
+                            return commit_sha
+                        else:
+                            self.has_commit_error = True
+                            return None
+        except Exception as e:
+            self.has_commit_error = True
+            print(f"{self.repo} REST API query commit sha failed: {e}")
+            return None
 
     async def get_file_date_rest_api(self, session: aiohttp.ClientSession, path: str) -> str:
         """使用 REST API 获取单个文件的最后提交日期"""
@@ -56,9 +83,11 @@ class GitHubAPIClient:
                             commit_date = commits_data[0]['commit']['committer']['date']
                             dt = datetime.fromisoformat(commit_date.replace('Z', '+00:00'))
                             return dt.strftime('%Y/%m/%d')
+                    self.has_commit_error = True
                     return "Unknown"
         except Exception as e:
-            print(f"REST API fallback failed for {path}: {e}")
+            self.has_commit_error = True
+            print(f"{self.repo} REST API fallback failed for {path}: {e}")
             return "Unknown"
 
     async def get_commits_batch(self, session: aiohttp.ClientSession, paths: List[str]) -> Dict[str, str]:
@@ -148,15 +177,16 @@ class GitHubAPIClient:
                 if content['type'] == 'file':
                     if (any(content['path'].endswith(ext) for ext in ('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc',
                                                                       '.ipynb', '.pptx', '.apkg', '.mp4', '.csv',
-                                                                      '.xlsx',
+                                                                      '.xlsx', 'txt',
                                                                       'png', 'jpg', 'jpeg', 'gif', 'webp',
                                                                       '.md')) and
-                            not content['path'].endswith('README.md')):
+                            not (content['path'].endswith('README.md') or content['path'].endswith('tag.txt') or
+                                 content['path'].endswith('LICENSE'))):
                         files_to_process.append({
                             'path': content['path'],
                             'size': filesize.traditional(int(content['size']))
                         })
-                elif content['type'] == 'dir':
+                elif content['type'] == 'dir' and not (content['path'].endswith(".github")):
                     directories.append(content['path'])
 
             # 批量获取文件的最后修改日期
@@ -174,11 +204,28 @@ class GitHubAPIClient:
                     paths.extend(result)
 
         except Exception as e:
-            print(f"Error processing {url}: {str(e)}")
+            self.has_commit_error = True
+            print(f"{self.repo} Error processing {url}: {str(e)}")
 
         return paths
 
-    async def save_files_list(self):
+    async def judge_filetree_cache(self):
+        try:
+            commit_sha = await self.get_repo_commit_sha()
+
+            if file_tree_data := file_tree_manager.search(self.repo):
+                if commit_sha == file_tree_data['last_commit_sha']:
+                    pass
+                else:
+                    result_content = await self.save_files_list()
+                    file_tree_manager.update(self.repo, create_course_data(result_content, commit_sha, self.has_commit_error))
+            else:
+                result_content = await self.save_files_list()
+                file_tree_manager.add(self.repo, create_course_data(result_content, commit_sha, self.has_commit_error))
+        except Exception as e:
+            print(f"File tree cache error: {str(e)}")
+
+    async def save_files_list(self) -> str:
         async with aiohttp.ClientSession() as session:
             start_time = time.time()
             paths = await self.list_files_in_repo(session)
@@ -186,10 +233,10 @@ class GitHubAPIClient:
 
             print(f"{self.repo} Retrieved {len(paths)} files in {end_time - start_time:.2f} seconds")
 
-            
             result_content = await self.create_hugo_shortcode(paths)
-            with open(f'{self.repo}_cards.txt', 'w', encoding="utf-8") as file:
-                file.write(result_content)
+            return result_content
+            # with open(f'{self.repo}_cards.txt', 'w', encoding="utf-8") as file:
+            #     file.write(result_content)
 
     async def create_hugo_shortcode(self, file_paths: List[Dict[str, str]]) -> str:
         result = f'{{{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/{self.repo}" repoURL="https://github.com/HITSZ-OpenAuto/{self.repo}" >}}}}\n'
@@ -200,7 +247,7 @@ class GitHubAPIClient:
                 if isinstance(content, list) and is_human_readable_size(content[0]):
                     prefix = f'https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main'
                     full_path = f'{prefix}/{directory}'
-    
+
                     name, suffix = directory.rsplit('.', 1)
                     icon = match_suffix_icon(suffix)
                     result += f'  {{{{< hoa-filetree/file name="{name}" type="{suffix}" size="{content[0]}" date="{content[1]}" icon="{icon}" url="{full_path}" >}}}}\n'
@@ -282,7 +329,7 @@ async def process_multiple_repos(owner: str, repos: List[str], token: str) -> No
     clients = [GitHubAPIClient(owner, repo, token) for repo in repos]
 
     # Run all clients concurrently
-    await asyncio.gather(*(client.save_files_list() for client in clients))
+    await asyncio.gather(*(client.judge_filetree_cache() for client in clients))
 
 
 if __name__ == "__main__":
@@ -290,18 +337,18 @@ if __name__ == "__main__":
     parser.add_argument("owner", help="GitHub repository owner", default="HITSZ-OpenAuto")
     # parser.add_argument("repo", help="GitHub repository name")
     parser.add_argument("token", help="GitHub token")
-
+    
     args = parser.parse_args()
 
     # Get repos array from environment variable
     repos_json = os.environ.get('repos_array')
-
+    
     if not repos_json:
         repos_json = os.environ.get('repo_name')
-
+    
     if not repos_json:
         raise ValueError("Environment variable repo not found")
-
+    
     repos = json.loads(repos_json)
 
     # Run the async process for all repos
@@ -309,5 +356,7 @@ if __name__ == "__main__":
     asyncio.run(process_multiple_repos(args.owner, repos, args.token))
 
     end_time = time.perf_counter()
+    file_tree_manager.save()
+    file_tree_manager.export_card_files()
     execution_time = end_time - start_time
     print(f"Exec: {execution_time:.2f} s")
