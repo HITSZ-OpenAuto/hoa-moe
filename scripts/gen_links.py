@@ -182,7 +182,6 @@ class GitHubAPIClient:
                                                                       '.md')) and
                             not (content['path'].endswith('README.md') or content['path'].endswith('tag.txt') or
                                  content['path'].endswith('LICENSE'))):
-                        print(content['path'])
                         files_to_process.append({
                             'path': content['path'],
                             'size': filesize.traditional(int(content['size']))
