@@ -42,7 +42,7 @@ math: true
   注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）由于机房停电不可用，预计 2025 年 1 月 13 日 起可正常使用。
 {{< /callout >}}
 
-{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/ECON2005F" repoURL="https://github.com/HITSZ-OpenAuto/ECON2005F" >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/ECON2005F" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
