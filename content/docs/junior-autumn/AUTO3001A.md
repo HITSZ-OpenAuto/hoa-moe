@@ -45,30 +45,6 @@ math: true
 {{< /callout >}}
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3001A" repoURL="https://github.com/HITSZ-OpenAuto/AUTO3001A" >}}
-  {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期末考试 A 试题" type="pdf" size="527.3 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98.pdf" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期末考试 A 试题与答案" type="pdf" size="5.0 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="2023 自动控制原理 A 试题考点回忆版" type="pdf" size="98.9 KB" date="2024/06/30" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2023%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86A%E8%AF%95%E9%A2%98%E8%80%83%E7%82%B9%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
-  {{< hoa-filetree/folder name="本部试题" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期中考试答案" type="pdf" size="467.6 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理" type="pdf" size="25.8 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86.pdf" >}}
-    {{< hoa-filetree/file name="哈工大 2019 自控原理 C 试题与答案" type="pdf" size="754.7 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98/%E5%93%88%E5%B7%A5%E5%A4%A72019%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86C%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="详解" date="" state="closed" >}}
-  {{< hoa-filetree/folder name="psp" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期中考试答案" type="pdf" size="1.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期末考试 A 试题" type="pdf" size="2.6 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -10-18" type="pdf" size="5.4 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-10-18.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -19-24" type="pdf" size="2.8 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-19-24.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -3-9" type="pdf" size="3.0 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-3-9.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -61-67" type="pdf" size="1.0 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-61-67.pdf" >}}
-    {{< hoa-filetree/file name="哈工大 2019 自控原理 C 试题与答案" type="pdf" size="1.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%E5%93%88%E5%B7%A5%E5%A4%A72019%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86C%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< /hoa-filetree/folder >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-    {{< hoa-filetree/file name="自控原理_by_Spar Océsel_2023" type="apkg" size="1.1 MB" date="2024/03/02" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86_by_Spar%20Oce%CC%81sel_2023.apkg" >}}
-  {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
