@@ -32,12 +32,12 @@ def create_course_data(card_string: str, last_commit_sha: str, has_error: bool =
 class FileTreeManager:
     def __init__(self):
         """Initialize FileTreeManager and load data from file"""
-        with open('filetrees.json', 'r') as file:
+        with open('scripts/filetrees.json', 'r') as file:
             self.file_trees = json.load(file)
 
     def save(self) -> None:
         """Save the current state to file"""
-        with open('filetrees.json', 'w') as file:
+        with open('scripts/filetrees.json', 'w') as file:
             json.dump(self.file_trees, file)
 
     def search(self, course_name: str) -> Optional[CourseData]:
