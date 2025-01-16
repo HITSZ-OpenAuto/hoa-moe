@@ -37,8 +37,8 @@ class FileTreeManager:
 
     def save(self) -> None:
         """Save the current state to file"""
-        with open('scripts/filetrees.json', 'w') as file:
-            json.dump(self.file_trees, file)
+        with open('scripts/filetrees.json', 'w', encoding="utf-8") as file:
+            file.write(json.dumps(self.file_trees))
 
     def search(self, course_name: str) -> Optional[CourseData]:
         """
