@@ -5,8 +5,7 @@ on:
     paths:
       - "scripts/**"
       - ".github/workflows/course.yaml"
-    paths-ignore:
-      - 'scripts/filetrees.json'
+      - '!scripts/filetrees.json'
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
