@@ -63,6 +63,15 @@ math: true
 {{< /callout >}}
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3002B" repoURL="https://github.com/HITSZ-OpenAuto/AUTO3002B" >}}
+  {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
+  {{< hoa-filetree/folder name="LL_Version" date="" state="closed" >}}
+    {{< hoa-filetree/file name="HW1" type="pdf" size="63.1 KB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/assignments/LL_Version/HW1.pdf" >}}
+    {{< hoa-filetree/file name="HW2" type="pdf" size="632.6 KB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/assignments/LL_Version/HW2.pdf" >}}
+    {{< hoa-filetree/file name="HW3" type="pdf" size="84.1 KB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/assignments/LL_Version/HW3.pdf" >}}
+    {{< hoa-filetree/file name="HW4" type="pdf" size="118.8 KB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/assignments/LL_Version/HW4.pdf" >}}
+    {{< hoa-filetree/file name="HW5" type="pdf" size="221.2 KB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/assignments/LL_Version/HW5.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
     {{< hoa-filetree/file name="2021 自控实践 B 试题与答案" type="pdf" size="689.7 KB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/2021%20%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2024 自控实践 B 试题回忆版 (V1.0)" type="pdf" size="652.8 KB" date="2024/07/21" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/2024%20%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
