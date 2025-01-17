@@ -30,7 +30,7 @@ class WatchedVariable {
 let hasChecked = new WatchedVariable(0);
 hasChecked.onChange((newValue, oldValue) => {
     const container = document.querySelector(".hoa-filetree-container");
-    const links = container.querySelectorAll('a');
+    const links = container.querySelectorAll('a:not(.hoa-filetree-contribute-hint a)');
 
     Array.from(links).forEach((link) => {
         link.style.display = newValue > 0 ? 'none' : '';
