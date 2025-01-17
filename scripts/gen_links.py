@@ -348,7 +348,7 @@ if __name__ == "__main__":
     
     if not repos_json:
         repos_json = os.environ.get('repo_name')
-        repos = ''.join(str(c) for c in repos_json)
+        repos = [''.join(str(c) for c in repos_json)]
     else:
         repos = json.loads(repos_json)
     
