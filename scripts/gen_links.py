@@ -210,6 +210,8 @@ class GitHubAPIClient:
         return paths
 
     async def judge_filetree_cache(self):
+        if self.repo == "hoa-moe" or self.repo == ".github" or self.repo == "HITSZ-OpenAuto":
+            return
         try:
             commit_sha = await self.get_repo_commit_sha()
 
