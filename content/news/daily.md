@@ -30,11 +30,11 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [Update pull_request_template.md](https://github.com/HITSZ-OpenAuto/.github/pull/10)
+### [更新《参与指南》链接](https://github.com/HITSZ-OpenAuto/.github/pull/11)
 
 - **仓库**: .github
-- **创建于**: 2025-01-16T17:19:04Z
-- **作者**: pspdada
+- **创建于**: 2025-01-17T10:47:24Z
+- **作者**: kowyo
 
 ### [上传实验相关内容](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/6)
 
