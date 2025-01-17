@@ -1,4 +1,4 @@
 ---
-title: HITSZ OpenAuto 贡献指南
+title: 参与指南
 date: 2025-01-10
 ---
