@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (1.18)
+
+- Origami404 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：OpenCS 内容合并 (#10)
+
 ### 周五 (1.17)
 
 - Origami404 在 [高级语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2021) 中提交了信息：OpenCS 内容合并 (#7)
@@ -52,12 +56,6 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1015
 - **创建于**: 2025-01-17T14:40:58Z
-- **作者**: Origami404
-
-### [OpenCS 内容合并](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/10)
-
-- **仓库**: MATH1015A
-- **创建于**: 2025-01-17T14:40:14Z
 - **作者**: Origami404
 
 ### [OpenCS 内容合并](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/15)
