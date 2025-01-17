@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 14 日" author="psp_dada" message="上传 24 作业详解 (#5)" >}}
+{{< update-info update_time="2025 年 1 月 17 日" author="psp_dada" message="上传实验相关内容 (#6)" >}}
 
 <div align="left">
 <figure>
