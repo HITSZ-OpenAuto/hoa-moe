@@ -50,7 +50,7 @@ Open `http://localhost:1313` in your browser.
 
 ## Contributing
 
-If you would like to contribute to the document, please refer to our [contribution guidelines](https://hoa.moe/blog/writing-rules/). We also welcome code contributions, especially those addressing existing issues.
+If you would like to contribute to the document, please refer to our [contribution guidelines](https://hoa.moe/blog/contribution-guide/). We also welcome code contributions, especially those addressing existing issues.
 
 ## License
 
