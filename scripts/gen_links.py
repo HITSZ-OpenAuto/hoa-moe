@@ -342,14 +342,17 @@ if __name__ == "__main__":
 
     # Get repos array from environment variable
     repos_json = os.environ.get('repos_array')
+    repos = None
     
     if not repos_json:
         repos_json = os.environ.get('repo_name')
+        repos = repos_json
+    else:
+        repos = json.loads(repos_json)
     
     if not repos_json:
         raise ValueError("Environment variable repo not found")
     
-    repos = json.loads(repos_json)
 
     # Run the async process for all repos
     start_time = time.perf_counter()
