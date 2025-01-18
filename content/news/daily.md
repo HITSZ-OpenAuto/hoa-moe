@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-18'
-description: 北京时间 2025-01-17 00 时至今
+description: 北京时间 2025-01-17 04 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (1.18)
+
+- Origami404 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：OpenCS 内容合并 (#15)
 
 - Origami404 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：OpenCS 内容合并 (#10)
 
@@ -24,9 +26,25 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-暂无待解决的 Issues
+### [AUTO3002A](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/24)
+
+- **仓库**: AUTO3002A
+- **创建于**: 2025-01-18T01:52:27Z
+- **作者**: OliverWu515
+
+### [AUTO3001A](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/9)
+
+- **仓库**: AUTO3001A
+- **创建于**: 2025-01-18T01:50:06Z
+- **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [更新一个实验报告版本；重命名文件夹及整理文件](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/7)
+
+- **仓库**: AUTO3001A
+- **创建于**: 2025-01-18T01:34:09Z
+- **作者**: OliverWu515
 
 ### [OpenCS 内容合并](https://github.com/HITSZ-OpenAuto/GEIP1018/pull/6)
 
@@ -56,11 +74,5 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1015
 - **创建于**: 2025-01-17T14:40:58Z
-- **作者**: Origami404
-
-### [OpenCS 内容合并](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/15)
-
-- **仓库**: GEIP1011
-- **创建于**: 2025-01-17T14:38:43Z
 - **作者**: Origami404
 
