@@ -58,10 +58,6 @@ math: true
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
-{{< callout type="info" >}}
-  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）由于机房停电不可用，预计 2025 年 1 月 13 日 起可正常使用。
-{{< /callout >}}
-
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3002B" repoURL="https://github.com/HITSZ-OpenAuto/AUTO3002B" >}}
   {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
   {{< hoa-filetree/folder name="LL_Version" date="" state="closed" >}}
