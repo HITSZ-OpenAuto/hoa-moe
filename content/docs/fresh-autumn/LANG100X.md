@@ -65,10 +65,6 @@ math: true
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
-{{< callout type="info" >}}
-  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）由于机房停电不可用，预计 2025 年 1 月 13 日 起可正常使用。
-{{< /callout >}}
-
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/LANG100X" repoURL="https://github.com/HITSZ-OpenAuto/LANG100X" >}}
   {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
     {{< hoa-filetree/file name="2021 哈工大（深圳）新生入学英语试题" type="docx" size="127.1 KB" date="2024/04/21" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/exams/2021%E5%93%88%E5%B7%A5%E5%A4%A7%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89%E6%96%B0%E7%94%9F%E5%85%A5%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%95%E9%A2%98.docx" >}}
