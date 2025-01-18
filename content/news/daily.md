@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-18'
-description: 北京时间 2025-01-17 11 时至今
+description: 北京时间 2025-01-17 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (1.18)
+
+- W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：调整文件位置 (#3)
 
 - 吴俊达 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：增加一个实验报告版本 (#25)
 
@@ -40,37 +42,17 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [AUTO3001A](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/9)
 
-### [AUTO3016](https://github.com/HITSZ-OpenAuto/AUTO3016/issues/14)
-
-- **仓库**: AUTO3016
-- **创建于**: 2025-01-18T09:48:41Z
+- **仓库**: AUTO3001A
+- **创建于**: 2025-01-18T01:50:06Z
 - **作者**: OliverWu515
-
-### [AUTO3002A](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/24)
-
-- **仓库**: AUTO3002A
-- **创建于**: 2025-01-18T01:52:27Z
-- **作者**: OliverWu515
-
-
 
 ## 待合并的 Pull Requests
 
+### [更新一个实验报告版本；重命名文件夹及整理文件](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/7)
 
-### [增加一个实验报告版本，修订部分命名](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/25)
-
-- **仓库**: AUTO3002A
-- **创建于**: 2025-01-18T09:50:18Z
+- **仓库**: AUTO3001A
+- **创建于**: 2025-01-18T01:34:09Z
 - **作者**: OliverWu515
-
-
-
-### [更新 2022 实验报告版本；更新 README](https://github.com/HITSZ-OpenAuto/AUTO3016/pull/13)
-
-- **仓库**: AUTO3016
-- **创建于**: 2025-01-18T09:42:13Z
-- **作者**: OliverWu515
-
-
 
