@@ -34,6 +34,7 @@ jobs:
           
       - name: Execute Python script
         env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/about/update_about.py
 
