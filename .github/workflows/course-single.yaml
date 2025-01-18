@@ -153,6 +153,8 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Build single course page
+        env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
         run: |
           echo 'Checked. Start building.'
           line="${{ env.repo_name }}"
@@ -259,6 +261,7 @@ jobs:
 
       - name: Generate daily report
         env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
@@ -267,6 +270,7 @@ jobs:
 
       - name: Fetch opened PRs and issues
         env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           python scripts/courses/fetch_opened_prs_and_issues.py
