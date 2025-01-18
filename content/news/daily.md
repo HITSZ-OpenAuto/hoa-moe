@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (1.19)
 
+- W·D·Gaster 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：修改文档名称 (#8)
+
 - W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：修改未统一的文档命名 (#16)
 
 - OliverWu515 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：将文件扩展名改回 md；修改原先的作业
@@ -87,10 +89,4 @@ title: AUTO 更新速递
 - **仓库**: AUTO5001
 - **创建于**: 2025-01-18T20:26:57Z
 - **作者**: OliverWu515
-
-### [修改不统一的文件名称](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/8)
-
-- **仓库**: GEIP1016
-- **创建于**: 2025-01-18T14:56:34Z
-- **作者**: WDGaster703
 
