@@ -5,7 +5,7 @@ on:
     - cron: '0 0 * * *'
   push:
     paths:
-      - 'scripts/update_about.py'
+      - 'scripts/about/update_about.py'
 
   workflow_dispatch:
 
@@ -35,7 +35,7 @@ jobs:
       - name: Execute Python script
         env:
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/update_about.py
+        run: python scripts/about/update_about.py
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
