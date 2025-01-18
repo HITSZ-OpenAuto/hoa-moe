@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-18'
-description: 北京时间 2025-01-17 21 时至今
+description: 北京时间 2025-01-17 22 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (1.19)
+
+- W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：修改未统一的文档命名 (#16)
 
 - OliverWu515 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：将文件扩展名改回 md；修改原先的作业
 
@@ -85,12 +87,6 @@ title: AUTO 更新速递
 - **仓库**: AUTO5001
 - **创建于**: 2025-01-18T20:26:57Z
 - **作者**: OliverWu515
-
-### [修改未统一的文档命名](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/16)
-
-- **仓库**: GEIP1011
-- **创建于**: 2025-01-18T15:20:30Z
-- **作者**: WDGaster703
 
 ### [修改不统一的文件名称](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/8)
 
