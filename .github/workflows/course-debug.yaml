@@ -1,7 +1,7 @@
 name: "Build Documentation - Debug"
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [ main ]
 
 concurrency:
@@ -83,7 +83,7 @@ jobs:
         env:
           PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
         run: |
-          python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.GITHUB_TOKEN }}
 
       - name: Bulid directory pages
         run: |
@@ -328,7 +328,7 @@ jobs:
               echo '---' >> "./content/docs/${semester}/${line}.md"
 
               echo >> "./content/docs/${semester}/${line}.md"
-              python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+              python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.GITHUB_TOKEN }}
               cat result_update_time.txt >> "./content/docs/${semester}/${line}.md"
               
               curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
