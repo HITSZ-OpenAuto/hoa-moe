@@ -33,6 +33,7 @@ jobs:
 
     - name: Generate weekly report
       env:
+        PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
         TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         ORG_NAME: HITSZ-OpenAuto
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Add your OpenAI API key as a secret
