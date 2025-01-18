@@ -160,9 +160,9 @@ jobs:
           
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
           curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
-          python scripts/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           cp result_update_time.txt result_time.txt
-          python scripts/gen_links.py HITSZ-OpenAuto ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          python scripts/courses/gen_links.py HITSZ-OpenAuto ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           # cp result.txt result_links.txt
 
           Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
@@ -247,14 +247,14 @@ jobs:
             echo >> "./content/docs/${semester}/${line}.md"
             echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            cat scripts/netdisk_notice.txt >> "./content/docs/${semester}/${line}.md"
+            cat scripts/infos/netdisk_notice.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
             cat "${line}_cards.txt" >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
             
-            cat scripts/sponsor.txt >> "./content/docs/${semester}/${line}.md"
+            cat scripts/infos/sponsor.txt >> "./content/docs/${semester}/${line}.md"
             echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/wrap_badges.py "content/docs/${semester}/${line}.md"
+            python scripts/courses/wrap_badges.py "content/docs/${semester}/${line}.md"
           done
 
       - name: Generate daily report
@@ -263,13 +263,13 @@ jobs:
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
         run: |
-          python scripts/gen_news.py
+          python scripts/news/gen_news.py
 
       - name: Fetch opened PRs and issues
         env:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          python scripts/fetch_opened_prs_and_issues.py
+          python scripts/courses/fetch_opened_prs_and_issues.py
 
       - name: Auto correct
         uses: huacnlee/autocorrect-action@v2
