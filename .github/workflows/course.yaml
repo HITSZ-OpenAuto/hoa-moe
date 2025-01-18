@@ -85,6 +85,8 @@ jobs:
           echo "repos_array=$repos" >> $GITHUB_ENV
 
       - name: Generate card.txt for each repo
+        env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
         run: |
           python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
@@ -118,6 +120,8 @@ jobs:
           # cat repos.txt
 
       - name: Build course pages
+        env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
         run: |
           # 建立课程页面
           counter_man=0
@@ -368,6 +372,7 @@ jobs:
 
       - name: Generate daily report
         env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
@@ -376,11 +381,14 @@ jobs:
 
       - name: Fetch opened PRs and issues
         env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           python scripts/courses/fetch_opened_prs_and_issues.py
 
       - name: Wrap badges
+        env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
         run: |
           for file in $(find content/docs -name "*.md")
           do
