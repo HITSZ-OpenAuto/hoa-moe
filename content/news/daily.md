@@ -40,17 +40,37 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [AUTO3001A](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/9)
 
-- **仓库**: AUTO3001A
-- **创建于**: 2025-01-18T01:50:06Z
+### [AUTO3016](https://github.com/HITSZ-OpenAuto/AUTO3016/issues/14)
+
+- **仓库**: AUTO3016
+- **创建于**: 2025-01-18T09:48:41Z
 - **作者**: OliverWu515
+
+### [AUTO3002A](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/24)
+
+- **仓库**: AUTO3002A
+- **创建于**: 2025-01-18T01:52:27Z
+- **作者**: OliverWu515
+
+
 
 ## 待合并的 Pull Requests
 
-### [更新一个实验报告版本；重命名文件夹及整理文件](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/7)
 
-- **仓库**: AUTO3001A
-- **创建于**: 2025-01-18T01:34:09Z
+### [增加一个实验报告版本，修订部分命名](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/25)
+
+- **仓库**: AUTO3002A
+- **创建于**: 2025-01-18T09:50:18Z
 - **作者**: OliverWu515
+
+
+
+### [更新 2022 实验报告版本；更新 README](https://github.com/HITSZ-OpenAuto/AUTO3016/pull/13)
+
+- **仓库**: AUTO3016
+- **创建于**: 2025-01-18T09:42:13Z
+- **作者**: OliverWu515
+
+
 
