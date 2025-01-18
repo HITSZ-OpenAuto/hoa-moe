@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-18'
-description: 北京时间 2025-01-17 19 时至今
+description: 北京时间 2025-01-17 21 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (1.19)
+
+- OliverWu515 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：将文件扩展名改回 md；修改原先的作业
 
 - OliverWu515 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：更改开课学期
 
@@ -52,6 +54,18 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [AUTO5001](https://github.com/HITSZ-OpenAuto/AUTO5001/issues/4)
+
+- **仓库**: AUTO5001
+- **创建于**: 2025-01-18T21:51:16Z
+- **作者**: OliverWu515
+
+### [AUTO3007](https://github.com/HITSZ-OpenAuto/AUTO3007/issues/11)
+
+- **仓库**: AUTO3007
+- **创建于**: 2025-01-18T21:07:37Z
+- **作者**: OliverWu515
+
 ### [AUTO3001A](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/9)
 
 - **仓库**: AUTO3001A
@@ -59,6 +73,18 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [整理资料（修改文件名；删除不具有参考价值的资料）](https://github.com/HITSZ-OpenAuto/AUTO3007/pull/10)
+
+- **仓库**: AUTO3007
+- **创建于**: 2025-01-18T21:06:34Z
+- **作者**: OliverWu515
+
+### [更新课程说明；更新 2024 秋考试试题](https://github.com/HITSZ-OpenAuto/AUTO5001/pull/3)
+
+- **仓库**: AUTO5001
+- **创建于**: 2025-01-18T20:26:57Z
+- **作者**: OliverWu515
 
 ### [修改未统一的文档命名](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/16)
 
