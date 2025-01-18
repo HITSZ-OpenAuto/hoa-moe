@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-18'
-description: 北京时间 2025-01-17 10 时至今
+description: 北京时间 2025-01-17 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (1.18)
+
+- 吴俊达 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：增加一个实验报告版本 (#25)
 
 - 吴俊达 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：更新 2022 实验报告版本；更新 README (#13)
 
@@ -38,12 +40,6 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [AUTO3002A](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/24)
-
-- **仓库**: AUTO3002A
-- **创建于**: 2025-01-18T01:52:27Z
-- **作者**: OliverWu515
-
 ### [AUTO3001A](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/9)
 
 - **仓库**: AUTO3001A
@@ -51,12 +47,6 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
-
-### [增加一个实验报告版本，修订部分命名](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/25)
-
-- **仓库**: AUTO3002A
-- **创建于**: 2025-01-18T09:50:18Z
-- **作者**: OliverWu515
 
 ### [更新一个实验报告版本；重命名文件夹及整理文件](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/7)
 
