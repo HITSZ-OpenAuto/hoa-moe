@@ -85,10 +85,6 @@ math: true
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
-{{< callout type="info" >}}
-  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）由于机房停电不可用，预计 2025 年 1 月 13 日 起可正常使用。
-{{< /callout >}}
-
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MATH1015B" repoURL="https://github.com/HITSZ-OpenAuto/MATH1015B" >}}
   {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
     {{< hoa-filetree/file name="1_第七章微分方程作业答案（7.6-7.9）" type="pdf" size="205.2 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf" >}}

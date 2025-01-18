@@ -100,10 +100,6 @@ math: true
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
-{{< callout type="info" >}}
-  注意，内网网盘（[open.osa.moe](https://open.osa.moe/openauto)）由于机房停电不可用，预计 2025 年 1 月 13 日 起可正常使用。
-{{< /callout >}}
-
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MATH1015A" repoURL="https://github.com/HITSZ-OpenAuto/MATH1015A" >}}
   {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
     {{< hoa-filetree/file name="书后期中考题答案" type="zip" size="3.5 MB" date="2024/03/02" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/assignments/%E4%B9%A6%E5%90%8E%E6%9C%9F%E4%B8%AD%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88.zip" >}}
