@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-18'
-description: 北京时间 2025-01-17 14 时至今
+description: 北京时间 2025-01-17 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (1.18)
+
+- W·D·Gaster 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：修改不统一的文件命名和分类 (#2)
 
 - W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：调整文件位置 (#3)
 
@@ -49,6 +51,18 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [修改未统一的文档命名](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/16)
+
+- **仓库**: GEIP1011
+- **创建于**: 2025-01-18T15:20:30Z
+- **作者**: WDGaster703
+
+### [修改不统一的文件名称](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/8)
+
+- **仓库**: GEIP1016
+- **创建于**: 2025-01-18T14:56:34Z
+- **作者**: WDGaster703
 
 ### [更新一个实验报告版本；重命名文件夹及整理文件](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/7)
 
