@@ -5,11 +5,6 @@ comments: false
 toc: false
 ---
 探索以下各节以查找相关资料
-## 必修
-<!--more-->
-{{< cards >}}
-{{< card link="auto3022"title="自动化前沿专题">}}
-{{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
 <!--more-->
