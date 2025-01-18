@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.18)
 
+- 吴俊达 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：更新 2022 实验报告版本；更新 README (#13)
+
 - Origami404 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：OpenCS 内容合并 (#2)
 
 - Origami404 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：OpenCS 内容合并 (#9)
@@ -62,15 +64,12 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-18T09:50:18Z
 - **作者**: OliverWu515
 
+
 ### [更新 2022 实验报告版本；更新 README](https://github.com/HITSZ-OpenAuto/AUTO3016/pull/13)
 
 - **仓库**: AUTO3016
 - **创建于**: 2025-01-18T09:42:13Z
 - **作者**: OliverWu515
 
-### [更新一个实验报告版本；重命名文件夹及整理文件](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/7)
 
-- **仓库**: AUTO3001A
-- **创建于**: 2025-01-18T01:34:09Z
-- **作者**: OliverWu515
 
