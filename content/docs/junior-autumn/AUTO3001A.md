@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 17 日" author="psp_dada" message="上传实验相关内容 (#6)" >}}
+{{< update-info update_time="2025 年 1 月 19 日" author="吴俊达" message="更新一个实验报告版本；重命名文件夹及整理文件 (#7)" >}}
 
 <div align="left">
 <figure>
@@ -139,38 +139,76 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期末考试 A 试题" type="pdf" size="527.3 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98.pdf" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期末考试 A 试题与答案" type="pdf" size="5.0 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2023 自动控制原理 A 试题考点回忆版" type="pdf" size="98.9 KB" date="2024/06/30" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2023%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86A%E8%AF%95%E9%A2%98%E8%80%83%E7%82%B9%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
-  {{< hoa-filetree/folder name="本部试题" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期中考试答案" type="pdf" size="467.6 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理" type="pdf" size="25.8 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86.pdf" >}}
-    {{< hoa-filetree/file name="哈工大 2019 自控原理 C 试题与答案" type="pdf" size="754.7 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98/%E5%93%88%E5%B7%A5%E5%A4%A72019%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86C%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
+  {{< hoa-filetree/folder name="2019_哈深试题" date="" state="closed" >}}
+    {{< hoa-filetree/file name="2019 秋自控理论 A 期中考试答案" type="pdf" size="467.6 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019_%E5%93%88%E6%B7%B1%E8%AF%95%E9%A2%98/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< hoa-filetree/file name="2019 秋自控理论 A 期末考试 A 试题" type="pdf" size="527.3 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019_%E5%93%88%E6%B7%B1%E8%AF%95%E9%A2%98/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98.pdf" >}}
+  {{< hoa-filetree/folder name="详解-psp" date="" state="closed" >}}
+    {{< hoa-filetree/file name="2019 秋自控理论 A 期中考试答案 (含批注)" type="pdf" size="1.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019_%E5%93%88%E6%B7%B1%E8%AF%95%E9%A2%98/%E8%AF%A6%E8%A7%A3-psp/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E7%AD%94%E6%A1%88%28%E5%90%AB%E6%89%B9%E6%B3%A8%29.pdf" >}}
+    {{< hoa-filetree/file name="2019 秋自控理论 A 期末考试 A 试题解答" type="pdf" size="2.6 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019_%E5%93%88%E6%B7%B1%E8%AF%95%E9%A2%98/%E8%AF%A6%E8%A7%A3-psp/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98%E8%A7%A3%E7%AD%94.pdf" >}}
   {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="详解" date="" state="closed" >}}
-  {{< hoa-filetree/folder name="psp" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期中考试答案" type="pdf" size="1.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="2019 秋自控理论 A 期末考试 A 试题" type="pdf" size="2.6 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/2019%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95A%E8%AF%95%E9%A2%98.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -10-18" type="pdf" size="5.4 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-10-18.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -19-24" type="pdf" size="2.8 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-19-24.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -3-9" type="pdf" size="3.0 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-3-9.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -61-67" type="pdf" size="1.0 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-61-67.pdf" >}}
-    {{< hoa-filetree/file name="哈工大 2019 自控原理 C 试题与答案" type="pdf" size="1.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E8%AF%A6%E8%A7%A3/psp/%E5%93%88%E5%B7%A5%E5%A4%A72019%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86C%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="2019_本部试题" date="" state="closed" >}}
+    {{< hoa-filetree/file name="哈工大 2019 自控原理 C 试题与答案" type="pdf" size="754.7 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019_%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98/%E5%93%88%E5%B7%A5%E5%A4%A72019%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86C%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
+  {{< hoa-filetree/folder name="详解-psp" date="" state="closed" >}}
+    {{< hoa-filetree/file name="哈工大 2019 自控原理 C 试题与答案 (含批注)" type="pdf" size="1.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2019_%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98/%E8%AF%A6%E8%A7%A3-psp/%E5%93%88%E5%B7%A5%E5%A4%A72019%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86C%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88%28%E5%90%AB%E6%89%B9%E6%B3%A8%29.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="2022 以前_本部试题合集" date="" state="closed" >}}
+    {{< hoa-filetree/file name="[网盘计划]自动控制原理" type="pdf" size="25.8 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2022%E4%BB%A5%E5%89%8D_%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98%E5%90%88%E9%9B%86/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86.pdf" >}}
+  {{< hoa-filetree/folder name="详解-psp" date="" state="closed" >}}
+    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -10-18" type="pdf" size="5.4 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2022%E4%BB%A5%E5%89%8D_%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98%E5%90%88%E9%9B%86/%E8%AF%A6%E8%A7%A3-psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-10-18.pdf" >}}
+    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -19-24" type="pdf" size="2.8 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2022%E4%BB%A5%E5%89%8D_%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98%E5%90%88%E9%9B%86/%E8%AF%A6%E8%A7%A3-psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-19-24.pdf" >}}
+    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -3-9" type="pdf" size="3.0 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2022%E4%BB%A5%E5%89%8D_%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98%E5%90%88%E9%9B%86/%E8%AF%A6%E8%A7%A3-psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-3-9.pdf" >}}
+    {{< hoa-filetree/file name="[网盘计划]自动控制原理 -61-67" type="pdf" size="1.0 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/2022%E4%BB%A5%E5%89%8D_%E6%9C%AC%E9%83%A8%E8%AF%95%E9%A2%98%E5%90%88%E9%9B%86/%E8%AF%A6%E8%A7%A3-psp/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86-61-67.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
-  {{< hoa-filetree/folder name="2019_FWI_Version" date="" state="closed" >}}
-    {{< hoa-filetree/file name="自控 A 上机 1 报告" type="pdf" size="816.4 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2019_FWI_Version/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA1%E6%8A%A5%E5%91%8A.pdf" >}}
-    {{< hoa-filetree/file name="自控 A 上机 2 报告" type="pdf" size="1.9 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2019_FWI_Version/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA2%E6%8A%A5%E5%91%8A.pdf" >}}
+  {{< hoa-filetree/folder name="2021_lmh(仅实物实验)" date="" state="closed" >}}
+    {{< hoa-filetree/file name="实验 1 报告" type="pdf" size="13.6 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021_lmh%28%E4%BB%85%E5%AE%9E%E7%89%A9%E5%AE%9E%E9%AA%8C%29/%E5%AE%9E%E9%AA%8C1%E6%8A%A5%E5%91%8A.pdf" >}}
+    {{< hoa-filetree/file name="实验 2 系统的稳定性分析 (连续 + 离散) 实验报告 2020" type="pdf" size="7.8 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021_lmh%28%E4%BB%85%E5%AE%9E%E7%89%A9%E5%AE%9E%E9%AA%8C%29/%E5%AE%9E%E9%AA%8C2%20%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%88%86%E6%9E%90%28%E8%BF%9E%E7%BB%AD%2B%E7%A6%BB%E6%95%A3%29%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2020.pdf" >}}
+    {{< hoa-filetree/file name="实验 3 线性系统的根轨迹分析实验报告 2020" type="pdf" size="7.5 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021_lmh%28%E4%BB%85%E5%AE%9E%E7%89%A9%E5%AE%9E%E9%AA%8C%29/%E5%AE%9E%E9%AA%8C3%20%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%B9%E8%BD%A8%E8%BF%B9%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2020.pdf" >}}
+    {{< hoa-filetree/file name="实验 4 系统频域特性测试与分析实验报告更正版" type="pdf" size="4.0 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021_lmh%28%E4%BB%85%E5%AE%9E%E7%89%A9%E5%AE%9E%E9%AA%8C%29/%E5%AE%9E%E9%AA%8C4%20%E7%B3%BB%E7%BB%9F%E9%A2%91%E5%9F%9F%E7%89%B9%E6%80%A7%E6%B5%8B%E8%AF%95%E4%B8%8E%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%9B%B4%E6%AD%A3%E7%89%88.pdf" >}}
   {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="2021" date="" state="closed" >}}
-    {{< hoa-filetree/file name="实验 1 报告" type="pdf" size="13.6 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E5%AE%9E%E9%AA%8C1%E6%8A%A5%E5%91%8A.pdf" >}}
-    {{< hoa-filetree/file name="实验 2 系统的稳定性分析 (连续 + 离散) 实验报告 2020" type="pdf" size="7.8 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E5%AE%9E%E9%AA%8C2%20%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%88%86%E6%9E%90%28%E8%BF%9E%E7%BB%AD%2B%E7%A6%BB%E6%95%A3%29%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2020.pdf" >}}
-    {{< hoa-filetree/file name="实验 3 线性系统的根轨迹分析实验报告 2020" type="pdf" size="7.5 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E5%AE%9E%E9%AA%8C3%20%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%B9%E8%BD%A8%E8%BF%B9%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2020.pdf" >}}
-    {{< hoa-filetree/file name="实验 4 系统频域特性测试与分析实验报告更正版" type="pdf" size="4.0 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E5%AE%9E%E9%AA%8C4%20%E7%B3%BB%E7%BB%9F%E9%A2%91%E5%9F%9F%E7%89%B9%E6%80%A7%E6%B5%8B%E8%AF%95%E4%B8%8E%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%9B%B4%E6%AD%A3%E7%89%88.pdf" >}}
-    {{< hoa-filetree/file name="第一次上机报告 - 刘宇明" type="docx" size="339.3 KB" date="2024/03/02" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A-%E5%88%98%E5%AE%87%E6%98%8E.docx" >}}
-    {{< hoa-filetree/file name="自控上机 2" type="docx" size="1.5 MB" date="2024/03/02" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021/%E8%87%AA%E6%8E%A7%E4%B8%8A%E6%9C%BA2.docx" >}}
+  {{< hoa-filetree/folder name="2021_lym(仅上机实验)" date="" state="closed" >}}
+    {{< hoa-filetree/file name="第一次上机报告 - 刘宇明" type="docx" size="339.3 KB" date="2024/03/02" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021_lym%28%E4%BB%85%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C%29/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A-%E5%88%98%E5%AE%87%E6%98%8E.docx" >}}
+    {{< hoa-filetree/file name="自控上机 2" type="docx" size="1.5 MB" date="2024/03/02" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2021_lym%28%E4%BB%85%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C%29/%E8%87%AA%E6%8E%A7%E4%B8%8A%E6%9C%BA2.docx" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="2022_FWI" date="" state="closed" >}}
+    {{< hoa-filetree/file name="自控 A 上机 1 报告" type="pdf" size="816.4 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_FWI/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA1%E6%8A%A5%E5%91%8A.pdf" >}}
+    {{< hoa-filetree/file name="自控 A 上机 2 报告" type="pdf" size="1.9 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_FWI/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA2%E6%8A%A5%E5%91%8A.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="2022_Tintin" date="" state="closed" >}}
+  {{< hoa-filetree/folder name="上机 1" date="" state="closed" >}}
+    {{< hoa-filetree/file name="第一次上机" type="docx" size="590.8 KB" date="2025/01/18" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E4%B8%8A%E6%9C%BA1/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%9C%BA.docx" >}}
+    {{< hoa-filetree/file name="自控 A 上机 1.一二阶系统时域分析" type="docx" size="8.5 MB" date="2025/01/18" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E4%B8%8A%E6%9C%BA1/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA1.%E4%B8%80%E4%BA%8C%E9%98%B6%E7%B3%BB%E7%BB%9F%E6%97%B6%E5%9F%9F%E5%88%86%E6%9E%90.docx" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="上机 2" date="" state="closed" >}}
+    {{< hoa-filetree/file name="图片" type="zip" size="265.2 KB" date="2025/01/18" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E4%B8%8A%E6%9C%BA2/%E5%9B%BE%E7%89%87.zip" >}}
+    {{< hoa-filetree/file name="自控 A 上机 2.一根轨迹分析和 Bode 图分析" type="pdf" size="2.2 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E4%B8%8A%E6%9C%BA2/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA2.%E4%B8%80%E6%A0%B9%E8%BD%A8%E8%BF%B9%E5%88%86%E6%9E%90%E5%92%8CBode%E5%9B%BE%E5%88%86%E6%9E%90.pdf" >}}
+    {{< hoa-filetree/file name="自控 A 上机 2.报告" type="docx" size="1.4 MB" date="2025/01/18" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E4%B8%8A%E6%9C%BA2/%E8%87%AA%E6%8E%A7A%E4%B8%8A%E6%9C%BA2.%E6%8A%A5%E5%91%8A.docx" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="实验 1" date="" state="closed" >}}
+    {{< hoa-filetree/file name="图片" type="zip" size="166.5 KB" date="2025/01/18" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C1/%E5%9B%BE%E7%89%87.zip" >}}
+    {{< hoa-filetree/file name="实验 1 典型系统的时域响应实验报告 2022" type="docx" size="501.7 KB" date="2025/01/18" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C1/%E5%AE%9E%E9%AA%8C1%20%E5%85%B8%E5%9E%8B%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%97%B6%E5%9F%9F%E5%93%8D%E5%BA%94%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2022.docx" >}}
+    {{< hoa-filetree/file name="实验 1 典型系统的时域响应实验指导书 2022" type="docx" size="3.8 MB" date="2025/01/18" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C1/%E5%AE%9E%E9%AA%8C1%20%E5%85%B8%E5%9E%8B%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%97%B6%E5%9F%9F%E5%93%8D%E5%BA%94%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A62022.docx" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="实验 2" date="" state="closed" >}}
+    {{< hoa-filetree/file name="图片" type="zip" size="107.3 KB" date="2025/01/18" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C2/%E5%9B%BE%E7%89%87.zip" >}}
+    {{< hoa-filetree/file name="实验 2 系统的稳定性分析 (连续 + 离散) 实验报告 2022" type="docx" size="506.3 KB" date="2025/01/18" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C2/%E5%AE%9E%E9%AA%8C2%20%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%88%86%E6%9E%90%28%E8%BF%9E%E7%BB%AD%2B%E7%A6%BB%E6%95%A3%29%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2022.docx" >}}
+    {{< hoa-filetree/file name="实验 2 系统的稳定性分析 (连续 + 离散) 实验指导书 2022" type="pdf" size="5.1 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C2/%E5%AE%9E%E9%AA%8C2%20%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%88%86%E6%9E%90%28%E8%BF%9E%E7%BB%AD%2B%E7%A6%BB%E6%95%A3%29%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A62022.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="实验 3" date="" state="closed" >}}
+    {{< hoa-filetree/file name="图片" type="zip" size="241.9 KB" date="2025/01/18" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C3/%E5%9B%BE%E7%89%87.zip" >}}
+    {{< hoa-filetree/file name="实验 3 线性系统的根轨迹分析实验报告 2022" type="docx" size="716.0 KB" date="2025/01/18" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C3/%E5%AE%9E%E9%AA%8C3%20%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%B9%E8%BD%A8%E8%BF%B9%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2022.docx" >}}
+    {{< hoa-filetree/file name="实验 3 线性系统的根轨迹分析实验指导书" type="pdf" size="1.1 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C3/%E5%AE%9E%E9%AA%8C3%20%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A0%B9%E8%BD%A8%E8%BF%B9%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf" >}}
+    {{< hoa-filetree/file name="实验 3：驱动器速度模式修改方法" type="pdf" size="504.3 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C3/%E5%AE%9E%E9%AA%8C3%EF%BC%9A%E9%A9%B1%E5%8A%A8%E5%99%A8%E9%80%9F%E5%BA%A6%E6%A8%A1%E5%BC%8F%E4%BF%AE%E6%94%B9%E6%96%B9%E6%B3%95.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="实验 4" date="" state="closed" >}}
+    {{< hoa-filetree/file name="实验 4 系统频域特性测试与分析" type="pdf" size="1.0 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C4/%E5%AE%9E%E9%AA%8C4%20%E7%B3%BB%E7%BB%9F%E9%A2%91%E5%9F%9F%E7%89%B9%E6%80%A7%E6%B5%8B%E8%AF%95%E4%B8%8E%E5%88%86%E6%9E%90.pdf" >}}
+    {{< hoa-filetree/file name="实验 4 系统频域特性测试与分析实验报告 2022" type="docx" size="404.7 KB" date="2025/01/18" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/labs/2022_Tintin/%E5%AE%9E%E9%AA%8C4/%E5%AE%9E%E9%AA%8C4%20%E7%B3%BB%E7%BB%9F%E9%A2%91%E5%9F%9F%E7%89%B9%E6%80%A7%E6%B5%8B%E8%AF%95%E4%B8%8E%E5%88%86%E6%9E%90%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A2022.docx" >}}
+  {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="2024-psp" date="" state="closed" >}}
   {{< hoa-filetree/folder name="上机实验" date="" state="closed" >}}
@@ -190,7 +228,8 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-    {{< hoa-filetree/file name="自控原理_by_Spar Océsel_2023" type="apkg" size="1.1 MB" date="2024/03/02" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86_by_Spar%20Oce%CC%81sel_2023.apkg" >}}
+    {{< hoa-filetree/file name="2022_自控原理 A 笔记" type="pdf" size="74.8 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/2022_%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86A%E7%AC%94%E8%AE%B0.pdf" >}}
+    {{< hoa-filetree/file name="2023_Spar Océsel_自控原理" type="apkg" size="1.1 MB" date="2025/01/18" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/2023_Spar%20Oce%CC%81sel_%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86.apkg" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
     {{< hoa-filetree/file name="2023 课件合订本" type="pdf" size="134 bytes" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2023%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
