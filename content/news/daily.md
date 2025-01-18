@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-18'
-description: 北京时间 2025-01-17 15 时至今
+description: 北京时间 2025-01-17 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周日 (1.19)
+
+- 吴俊达 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新一个实验报告版本；重命名文件夹及整理文件 (#7)
 
 ### 周六 (1.18)
 
@@ -63,10 +67,4 @@ title: AUTO 更新速递
 - **仓库**: GEIP1016
 - **创建于**: 2025-01-18T14:56:34Z
 - **作者**: WDGaster703
-
-### [更新一个实验报告版本；重命名文件夹及整理文件](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/7)
-
-- **仓库**: AUTO3001A
-- **创建于**: 2025-01-18T01:34:09Z
-- **作者**: OliverWu515
 
