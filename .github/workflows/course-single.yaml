@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       repo_name:
-        description: 'Name of the repository'
+        description: "Name of the repository"
         required: true
-        default: 'NOT_ASSIGNED'
+        default: "NOT_ASSIGNED"
 
 # concurrency:
 #   group: ${{ github.workflow }}
@@ -18,7 +18,10 @@ jobs:
     permissions:
       contents: write
       id-token: write
-    
+
+    env:
+      PYTHONPATH: /home/runner/work/my-hoa-moe/my-hoa-moe
+
     steps:
       - name: Get parameters
         id: extract
@@ -29,120 +32,24 @@ jobs:
           fi
           echo "repo_name=$REPO" >> $GITHUB_ENV
 
-      - name: First check
-        run: |
-          echo 'First check: file existence'
-          line="${{ env.repo_name }}"
-          echo '-------------------------------------------------'
-          echo ${line}
-          set +e
-          curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
-          if [ $? -ne 0 ]; then
-            echo "Error: tag file not found or connection failed"
-            set -e
-            exit 1
-          fi
-          set -e
-          
-          echo " "
-          echo '-----tag.txt-----'
-          cat "tag_${line}.txt"
-          echo " "
-          echo '-----------------'
-
-          Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
-          Semesters=${Semesters#*: }
-          echo ${Semesters}
-
-          IFS=' / ' read -r -a semesters <<< "$Semesters"
-
-          for match_semester in "${semesters[@]}"
-          do
-            case ${match_semester} in
-                '第一学年秋季')
-                  semester='fresh-autumn'
-                  ;;
-                '第一学年春季')
-                  semester='fresh-spring'
-                  ;;
-                '第一学年夏季')
-                  semester='fresh-summer'
-                  ;;
-                '第二学年秋季')
-                  semester='sophomore-autumn'
-                  ;;
-                '第二学年春季')
-                  semester='sophomore-spring'
-                  ;;
-                '第二学年夏季')
-                  semester='sophomore-summer'
-                  ;;
-                '第三学年秋季')
-                  semester='junior-autumn'
-                  ;;
-                '第三学年春季')
-                  semester='junior-spring'
-                  ;;
-                '第三学年夏季')
-                  semester='junior-summer'
-                  ;;
-                '第四学年秋季')
-                  semester='senior-autumn'
-                  ;;
-                '第四学年春季')
-                  semester='senior-spring'
-                  ;;
-                '研究生秋季')
-                  semester='graduate-autumn'
-                  ;;
-                '研究生春季')
-                  semester='graduate-spring'
-                  ;;
-                *)
-                  echo "No match semester"
-                  continue
-                  ;;   
-              esac
-
-            CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
-
-            # 针对文理通识和跨专业选修做的适配
-            case ${CATEGORY} in
-              '跨专业选修')
-                semester='cross-specialty'
-                ;;
-              '文理通识')
-                semester='general-knowledge'
-                ;;
-              *)
-                echo "No match special categories"
-                ;;   
-            esac
-
-            echo $semester
-            
-            # Ensure the if statement can be executed
-            set +e
-            curl -sf -o /dev/null "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md"
-            if [ $? -ne 0 ]; then
-              echo "Error: Course pages have not been created yet. "
-              curl -X POST \
-                -H "Accept: application/vnd.github.v3+json" \
-                -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
-                https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/course.yaml/dispatches \
-                -d '{"ref":"main"}'
-              set -e
-              exit 1
-            fi
-            set -e
-          done
-      
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          # token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Set execute permissions
+        run: find . \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
+
+      - name: First check
+        env:
+          REPO_NAME: ${{ env.repo_name }}
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: ./scripts/workflows/check_before_build_single_course_page.sh
+
+      - name: Set execute permissions
+        run: find . \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -150,130 +57,27 @@ jobs:
           python-version: "3.11"
 
       - name: Install Python dependencies
-        run: pip install -r scripts/requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
 
       - name: Build single course page
         env:
-          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
-        run: |
-          echo 'Checked. Start building.'
-          line="${{ env.repo_name }}"
-          first_time=1
-          
-          curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
-          curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
-          python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          cp result_update_time.txt result_time.txt
-          python scripts/courses/gen_links.py HITSZ-OpenAuto ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          # cp result.txt result_links.txt
-
-          Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
-          Semesters=${Semesters#*: }
-
-          IFS=' / ' read -r -a semesters <<< "$Semesters"
-
-          for match_semester in "${semesters[@]}"
-          do
-            case ${match_semester} in
-                '第一学年秋季')
-                  semester='fresh-autumn'
-                  ;;
-                '第一学年春季')
-                  semester='fresh-spring'
-                  ;;
-                '第一学年夏季')
-                  semester='fresh-summer'
-                  ;;
-                '第二学年秋季')
-                  semester='sophomore-autumn'
-                  ;;
-                '第二学年春季')
-                  semester='sophomore-spring'
-                  ;;
-                '第二学年夏季')
-                  semester='sophomore-summer'
-                  ;;
-                '第三学年秋季')
-                  semester='junior-autumn'
-                  ;;
-                '第三学年春季')
-                  semester='junior-spring'
-                  ;;
-                '第三学年夏季')
-                  semester='junior-summer'
-                  ;;
-                '第四学年秋季')
-                  semester='senior-autumn'
-                  ;;
-                '第四学年春季')
-                  semester='senior-spring'
-                  ;;
-                '研究生秋季')
-                  semester='graduate-autumn'
-                  ;;
-                '研究生春季')
-                  semester='graduate-spring'
-                  ;;
-                *)
-                  echo "No match semester"
-                  continue
-                  ;;   
-              esac
-
-            CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
-
-            # 针对文理通识和跨专业选修做的适配
-            case ${CATEGORY} in
-              '跨专业选修')
-                semester='cross-specialty'
-                ;;
-              '文理通识')
-                semester='general-knowledge'
-                ;;
-              *)
-                echo "No match special categories"
-                ;;   
-            esac
-            
-            if [ "$first_time" -eq 1 ]; then
-              curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
-              first_time=0
-            fi
-            head -n 7 "temp1.md" > "./content/docs/${semester}/${line}.md"
-
-            echo >> "./content/docs/${semester}/${line}.md"
-            cat result_time.txt >> "./content/docs/${semester}/${line}.md"
-
-            tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
-
-            echo >> "./content/docs/${semester}/${line}.md"
-            echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
-            echo >> "./content/docs/${semester}/${line}.md"
-            cat scripts/infos/netdisk_notice.txt >> "./content/docs/${semester}/${line}.md"
-            echo >> "./content/docs/${semester}/${line}.md"
-            cat "${line}_cards.txt" >> "./content/docs/${semester}/${line}.md"
-            echo >> "./content/docs/${semester}/${line}.md"
-            
-            cat scripts/infos/sponsor.txt >> "./content/docs/${semester}/${line}.md"
-            echo >> "./content/docs/${semester}/${line}.md"
-            python scripts/courses/wrap_badges.py "content/docs/${semester}/${line}.md"
-          done
+          REPO_NAME: ${{ env.repo_name }}
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: ./scripts/workflows/build_single_course_page.sh
 
       - name: Generate daily report
         env:
-          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
-        run: |
-          python scripts/news/gen_news.py
+        run: python scripts/news/gen_news.py
 
       - name: Fetch opened PRs and issues
         env:
-          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: |
-          python scripts/courses/fetch_opened_prs_and_issues.py
+        run: python scripts/courses/fetch_opened_prs_and_issues.py
 
       - name: Auto correct
         uses: huacnlee/autocorrect-action@v2
@@ -284,6 +88,6 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: "content"
-          pull: '--rebase --autostash'
+          pull: "--rebase --autostash"
           default_author: github_actions
           message: "ci: update course pages"
