@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 4 日" author="W·D·Gaster" message="补充严志彬老师的内容" >}}
+{{< update-info update_time="2025 年 1 月 18 日" author="Origami404" message="OpenCS 内容合并 (#8)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -76,6 +76,10 @@ math: true
 由于 微积分 B 和 微积分 A 的学习是一脉贯通的，因此可以移步 [微积分 A](https://hoa.moe/docs/fresh-autumn/math1015a/) 仓库观看详细的学习指导
 
 > 文/[psp_dada](https://github.com/pspdada) 2024.7.18
+
+作业按章提交，题量较多，但时间也比较充足，建议每上完一次课就按时复习并完成相应作业题，不要等到 ddl 再写，会来不及，而且及时写作业可以巩固当前刚学习的新知识。
+
+> 文/[Wei HE](https://github.com/hewei2001) 2020
 
 ## 资料下载
 
@@ -148,6 +152,19 @@ math: true
     {{< hoa-filetree/file name="知识点_高等数学 (crop)" type="pdf" size="6.4 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E7%9F%A5%E8%AF%86%E7%82%B9_%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%28crop%29.pdf" >}}
     {{< hoa-filetree/file name="高等数学笔记-psp" type="pdf" size="68.4 MB" date="2024/07/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-psp.pdf" >}}
     {{< hoa-filetree/file name="高等数学（下册）易遗忘知识点" type="pdf" size="504.6 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9.pdf" >}}
+  {{< hoa-filetree/folder name="2019_C6H5NO2" date="" state="closed" >}}
+    {{< hoa-filetree/file name="杂项" type="pdf" size="181.7 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_C6H5NO2/%E6%9D%82%E9%A1%B9.pdf" >}}
+    {{< hoa-filetree/file name="趣题集_09_多元函数微分学" type="pdf" size="208.9 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_C6H5NO2/%E8%B6%A3%E9%A2%98%E9%9B%86_09_%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6.pdf" >}}
+    {{< hoa-filetree/file name="趣题集_10_多元函数积分学" type="pdf" size="144.4 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_C6H5NO2/%E8%B6%A3%E9%A2%98%E9%9B%86_10_%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="2019_xyfJASON" date="" state="closed" >}}
+    {{< hoa-filetree/file name="多元函数微分学知识梳理" type="pdf" size="2.3 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86.pdf" >}}
+    {{< hoa-filetree/file name="多元函数微分学难点总结" type="pdf" size="2.4 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E9%9A%BE%E7%82%B9%E6%80%BB%E7%BB%93.pdf" >}}
+    {{< hoa-filetree/file name="多元积分的计算法" type="pdf" size="4.0 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E7%9A%84%E8%AE%A1%E7%AE%97%E6%B3%95.pdf" >}}
+    {{< hoa-filetree/file name="微分方程总结" type="pdf" size="1.8 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E6%80%BB%E7%BB%93.pdf" >}}
+    {{< hoa-filetree/file name="无穷级数题型概览" type="pdf" size="1.5 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0%E9%A2%98%E5%9E%8B%E6%A6%82%E8%A7%88.pdf" >}}
+    {{< hoa-filetree/file name="高等数学（下册）易遗忘知识点" type="pdf" size="547.6 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9.pdf" >}}
+  {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
