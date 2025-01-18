@@ -1,0 +1,380 @@
+name: "Build Documentation - Debug"
+
+on:
+  pull_request:
+    branches: [ main ]
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch public repositories in the organization
+        run: |
+          # 起始页
+          page=1
+          
+          # 用于保存输出的 JSON 文件
+          output_file="repos.json"
+
+          # 清空输出文件，确保每次运行时是从空文件开始
+          > "$output_file"
+          
+          # 循环直到获取所有页面的仓库名
+          while true; do
+              # 发起请求，获取当前页的仓库
+              response=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                              -H "Accept: application/vnd.github.v3+json" \
+                              "https://api.github.com/orgs/HITSZ-OpenAuto/repos?type=public&per_page=50&page=$page")
+              
+              # 将响应内容追加到文件中
+              echo "$response" >> "$output_file"
+              
+              # 检查响应头中的 Link 是否包含 rel="next"，来判断是否有下一页
+              header=$(curl -s -I -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                              -H "Accept: application/vnd.github.v3+json" \
+                              "https://api.github.com/orgs/HITSZ-OpenAuto/repos?type=public&per_page=50&page=$page")
+
+              set +e
+              next_page=$(echo -e "$header" | grep -i 'rel="next"')
+              set -e
+              
+              echo $next_page
+              if [ -z "$next_page" ]; then
+                break
+              fi
+              
+              # 如果有下一页，增加页码
+              page=$((page + 1))
+          done
+
+          echo "All public repositories have been saved to $output_file"
+
+      - name: Parse the repo names and save as env vars
+        id: parse_repos
+        run: |
+          repos=$(jq -r '.[].name' repos.json | jq -R -s -c 'split("\n")[:-1]')
+          echo "repos_array=$repos" >> $GITHUB_ENV
+
+      - name: Generate card.txt for each repo
+        env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
+        run: |
+          python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Bulid directory pages
+        run: |
+          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'graduate-autumn' 'graduate-spring' 'cross-specialty' 'general-knowledge')
+          semester_name=('大一·秋' '大一·春' '大一·夏' '大二·秋' '大二·春' '大二·夏' '大三·秋' '大三·春' '大三·夏' '大四·秋' '大四·春' '研究生·秋' '研究生·春' '跨专业选修' '文理通识与MOOC')
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course undergraduate-graduate-course selective general-knowledge legacy'
+          for((i=0;i<${#semester_arr[@]};i++))
+          do
+            SEMESTER="${semester_arr[i]}"
+            OUT="${semester_name[i]}"
+            echo "Creating a folder for a new semester"
+            mkdir -p "./content/docs/${SEMESTER}"
+            echo "./content/docs/${SEMESTER}"
+            echo '---' > "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo "title: ${OUT}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo "weight: $((${i}+2))" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'comments: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo 'toc: false' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo '---' >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            echo "探索以下各节以查找相关资料" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+            for CATEGORY in $category_arr
+            do
+              touch "${SEMESTER}-${CATEGORY}.txt"
+            done
+          done
+
+          # echo "${{ steps.modified_files_list.outputs.stringList }}" > tmp.txt
+          # cat tmp.txt | grep -E "^-.(([A-Z]){2,4}([0-9]){3}([0-9]|X){1}|MOOC|GeneralKnowledge|CrossSpecialty).*$" | sed -E 's/^..(.*)$/\1/' > repos.txt
+          # cat repos.txt
+
+      - name: Build course pages
+        env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
+        run: |
+          # 建立课程页面
+          counter_man=0
+          counter_dis=100
+          counter_graduate=200
+          counter_cross=300
+          counter_general=400
+          counter_legacy=1000
+          for line in $(echo '${{ env.repos_array }}' | jq -r '.[]');
+          do
+            set +e
+            echo "$line" | grep -qE '^([A-Z]{2,4}[0-9]{3}([0-9]|X){1}|MOOC|GeneralKnowledge|CrossSpecialty).*$'
+            if [ $? -eq 1 ]; then
+              continue
+            fi
+            set -e
+            echo '-------------------------------------------------'
+            echo ${line}
+            curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
+            
+            echo '-----tag.txt-----'
+            cat "tag_${line}.txt"
+            echo " "
+            echo '-----------------'
+
+
+            Semesters=`cat "tag_${line}.txt" | grep -E "^semester:..*$"`
+            Semesters=${Semesters#*: }
+            echo ${Semesters}
+
+            IFS=' / ' read -r -a semesters <<< "$Semesters"
+
+            for match_semester in "${semesters[@]}"
+            do
+              case ${match_semester} in
+                '第一学年秋季')
+                  semester='fresh-autumn'
+                  ;;
+                '第一学年春季')
+                  semester='fresh-spring'
+                  ;;
+                '第一学年夏季')
+                  semester='fresh-summer'
+                  ;;
+                '第二学年秋季')
+                  semester='sophomore-autumn'
+                  ;;
+                '第二学年春季')
+                  semester='sophomore-spring'
+                  ;;
+                '第二学年夏季')
+                  semester='sophomore-summer'
+                  ;;
+                '第三学年秋季')
+                  semester='junior-autumn'
+                  ;;
+                '第三学年春季')
+                  semester='junior-spring'
+                  ;;
+                '第三学年夏季')
+                  semester='junior-summer'
+                  ;;
+                '第四学年秋季')
+                  semester='senior-autumn'
+                  ;;
+                '第四学年春季')
+                  semester='senior-spring'
+                  ;;
+                '研究生秋季')
+                  semester='graduate-autumn'
+                  ;;
+                '研究生春季')
+                  semester='graduate-spring'
+                  ;;
+                *)
+                  echo "No match semester"
+                  continue
+                  ;;   
+              esac
+
+              echo $semester
+
+              CATEGORY=`cat "tag_${line}.txt" | grep -E "^category:..*$" | sed -E 's/^category:.(.*)$/\1/'`
+
+              case ${CATEGORY} in
+              '必修')
+                  category='mandatory'
+                  ;;
+                '限选')
+                  category='distributional-selective'
+                  ;;
+                '研究生阶段课程')
+                  category='graduate-course'
+                  ;;
+                '本研共通')
+                  category='undergraduate-graduate-course'
+                  ;;
+                '选修')
+                  category='selective'
+                  ;;
+                '跨专业选修')
+                  semester='cross-specialty'
+                  category='cross-major-selective'
+                  ;;
+                '文理通识')
+                  semester='general-knowledge'
+                  category='general-knowledge'
+                  ;;
+                '归档')
+                  category='legacy'
+                  ;;
+                *)
+                  echo "No match category"
+                  continue
+                  ;;   
+              esac
+
+              echo $category
+
+              cat "tag_${line}.txt" | grep -E "^name:..*$" | sed -E 's/^name:.(.*)$/\1/' > "name_${line}.txt"
+
+              if test ! -s "${semester}-${category}.txt"
+              then
+                if [ ${CATEGORY} = "必修" ]
+                then
+                  echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                fi
+                if [ ${CATEGORY} = "限选" ]
+                then
+                  echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                  echo "[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)" >> "${semester}-${category}.txt"
+                fi
+                # if [ ${CATEGORY} = "跨专业选修" ]
+                # then
+                #   echo "[查看跨专业选修课选课指南](https://hoa.moe/blog/selecting-cross-major-lessons/)" >> "${semester}-${category}.txt"
+                # fi
+                if [ ${CATEGORY} = "研究生阶段课程" ]
+                then
+                  echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                  echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看[研究生阶段课程选课指南](https://hoa.moe/blog/master-phd-course-selection/)。" >> "${semester}-${category}.txt"
+                fi
+                if [ ${CATEGORY} = "本研共通" ]
+                then
+                  echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                  echo "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看[研究生阶段课程选课指南](https://hoa.moe/blog/master-phd-course-selection/)。" >> "${semester}-${category}.txt"
+                fi
+                if [ ${CATEGORY} = "选修" ]
+                then
+                  echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                fi
+                if [ ${CATEGORY} = "归档" ]
+                then
+                  echo "## ${CATEGORY}" > "${semester}-${category}.txt"
+                  echo "此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。" >> "${semester}-${category}.txt"
+                fi
+                echo "<!--more-->" >> "${semester}-${category}.txt"
+                echo "{{< cards >}}" >> "${semester}-${category}.txt"
+              fi
+              
+              echo -n "{{< card link=\"${line}\"" | tr [:upper:] [:lower:] >> "${semester}-${category}.txt"
+              echo "title=\"$(cat "name_${line}.txt")\">}}" >> "${semester}-${category}.txt"
+
+              echo '------index.txt-------'
+              cat "${semester}-${category}.txt"
+              echo '----------------------'
+
+              echo '---' > "./content/docs/${semester}/${line}.md"
+              if [ ${CATEGORY} = "跨专业选修" ] || [ ${CATEGORY} = "文理通识" ]; then
+                echo "title: $(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+              else
+                echo "title: （${CATEGORY}）$(cat "name_${line}.txt")" >> "./content/docs/${semester}/${line}.md"
+              fi
+              if [ ${CATEGORY} = "必修" ]
+              then
+                counter_man=$((${counter_man}+1));
+                echo "weight: ${counter_man}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "限选" ]
+              then
+                counter_dis=$((${counter_dis}+1));
+                echo "weight: ${counter_dis}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "研究生阶段课程" ]
+              then
+                counter_graduate=$((${counter_graduate}+1));
+                echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "本研共通" ]
+              then
+                counter_graduate=$((${counter_graduate}+1));
+                echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "选修" ]
+              then
+                counter_graduate=$((${counter_graduate}+1));
+                echo "weight: ${counter_graduate}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "跨专业选修" ]
+              then
+                counter_cross=$((${counter_cross}+1));
+                echo "weight: ${counter_cross}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "文理通识" ]
+              then
+                counter_general=$((${counter_general}+1));
+                echo "weight: ${counter_general}" >> "./content/docs/${semester}/${line}.md"
+              elif [ ${CATEGORY} = "归档" ]
+              then
+                counter_legacy=$((${counter_legacy}+1));
+                echo "weight: ${counter_legacy}" >> "./content/docs/${semester}/${line}.md"
+              fi
+              echo 'toc: true' >> "./content/docs/${semester}/${line}.md"
+              echo "editURL: \"https://github.com/HITSZ-OpenAuto/${line}/edit/main/README.md\"" >> "./content/docs/${semester}/${line}.md"
+              echo "math: true" >> "./content/docs/${semester}/${line}.md"
+              echo '---' >> "./content/docs/${semester}/${line}.md"
+
+              echo >> "./content/docs/${semester}/${line}.md"
+              python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+              cat result_update_time.txt >> "./content/docs/${semester}/${line}.md"
+              
+              curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
+              tail -n +2 "temp.md" >> "./content/docs/${semester}/${line}.md"
+
+              echo >> "./content/docs/${semester}/${line}.md"
+              echo "## 资料下载" >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
+              cat scripts/infos/netdisk_notice.txt >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
+
+              cat "${line}_cards.txt" >> "./content/docs/${semester}/${line}.md"
+
+              echo >> "./content/docs/${semester}/${line}.md"
+              cat scripts/infos/sponsor.txt >> "./content/docs/${semester}/${line}.md"
+              echo >> "./content/docs/${semester}/${line}.md"
+            done
+          done
+
+      - name: Build semester pages
+        run: |
+          semester_arr=('fresh-autumn' 'fresh-spring' 'fresh-summer' 'sophomore-autumn' 'sophomore-spring' 'sophomore-summer' 'junior-autumn' 'junior-spring' 'junior-summer' 'senior-autumn' 'senior-spring' 'graduate-autumn' 'graduate-spring' 'cross-specialty' 'general-knowledge')
+          category_arr='mandatory distributional-selective cross-major-selective graduate-course undergraduate-graduate-course selective general-knowledge legacy'
+          for((i=0;i<${#semester_arr[@]};i++))
+          do
+            SEMESTER="${semester_arr[i]}"
+            for CATEGORY in $category_arr
+            do
+              if test -s "${SEMESTER}-${CATEGORY}.txt"
+              then
+                echo "$(cat "${SEMESTER}-${CATEGORY}.txt")" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+                echo "{{< /cards >}}" >> "./content/docs/${SEMESTER}/_index.zh-cn.md"
+              fi
+            done
+          done
+
+      - name: Wrap badges
+        env:
+          PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
+        run: |
+          for file in $(find content/docs -name "*.md")
+          do
+              python scripts/courses/wrap_badges.py $file
+          done
+
+      - name: Auto correct
+        uses: huacnlee/autocorrect-action@v2
+        with:
+          args: --fix content/
+
