@@ -14,7 +14,9 @@ title: AUTO 更新速递
 
 ### 周日 (1.19)
 
-- OliverWu515 在 [自动化前沿专题](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：新增课程信息与报告模板
+- OliverWu515 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：更改开课学期
+
+- OliverWu515 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：新增课程信息与报告模板
 
 - 吴俊达 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新一个实验报告版本；重命名文件夹及整理文件 (#7)
 
