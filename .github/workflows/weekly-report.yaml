@@ -16,7 +16,7 @@ jobs:
       pull-requests: write
 
     env:
-      PYTHONPATH: /home/runner/work/my-hoa-moe/my-hoa-moe
+      PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
 
     steps:
       - name: Checkout
