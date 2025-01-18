@@ -48,9 +48,6 @@ jobs:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: ./scripts/workflows/check_before_build_single_course_page.sh
 
-      - name: Set execute permissions
-        run: find . \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
