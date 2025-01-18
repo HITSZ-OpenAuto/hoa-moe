@@ -12,7 +12,7 @@ from typing import List, Dict, Optional
 import time
 from aiohttp import ClientTimeout
 from tenacity import retry, stop_after_attempt, wait_exponential
-from filetrees import FileTreeManager, CourseData, create_course_data
+from scripts.filetrees import FileTreeManager, CourseData, create_course_data
 
 file_tree_manager = FileTreeManager()
 
