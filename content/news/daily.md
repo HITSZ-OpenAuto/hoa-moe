@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.18)
 
+- Origami404 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：OpenCS 内容合并 (#7)
+
 - Origami404 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：OpenCS 内容合并 (#15)
 
 - Origami404 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：OpenCS 内容合并 (#10)
@@ -62,12 +64,6 @@ title: AUTO 更新速递
 
 - **仓库**: MATH1015B
 - **创建于**: 2025-01-17T14:41:40Z
-- **作者**: Origami404
-
-### [OpenCS 内容合并](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/7)
-
-- **仓库**: GEIP1016
-- **创建于**: 2025-01-17T14:41:24Z
 - **作者**: Origami404
 
 ### [OpenCS 内容合并](https://github.com/HITSZ-OpenAuto/GEIP1015/pull/2)
