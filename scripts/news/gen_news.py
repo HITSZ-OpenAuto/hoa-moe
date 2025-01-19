@@ -12,9 +12,17 @@ from gen_image import generate_image
 import shutil
 
 # Load environment variables
-TOKEN = os.environ.get('TOKEN')
-ORG_NAME = os.environ.get('ORG_NAME')
-NEWS_TYPE = os.environ.get('NEWS_TYPE')
+TOKEN = os.environ.get("TOKEN")
+ORG_NAME = os.environ.get("ORG_NAME")
+NEWS_TYPE = os.environ.get("NEWS_TYPE")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+
+for key in [TOKEN, ORG_NAME, NEWS_TYPE]:
+    if not key:
+        raise ValueError("Please set the environment variables: TOKEN, ORG_NAME, NEWS_TYPE")
+
+if NEWS_TYPE == "weekly" and not OPENAI_API_KEY:  # OpenAI API key is not necessary for daily report
+    raise ValueError("Please set the environment variable: OPENAI_API_KEY")
 
 # Set SSL certificates path
 os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
@@ -38,7 +46,7 @@ headers = {'Authorization': f'token {TOKEN}'}
 def generate_summary(report_text):
     """Generate a summary using OpenAI's API."""
     print("Generating AI summary...")
-    openai.api_key = os.environ.get("OPENAI_API_KEY")
+    openai.api_key = OPENAI_API_KEY
     openai.base_url = "https://aihubmix.com/v1/"
     prompt = f"Generate a summary for the weekly commit report in Chinese:\n\n{report_text}\n\n---\n\nSummary:"
     try:
@@ -173,7 +181,7 @@ def main():
         markdown_report = create_markdown_report(filtered_commits, org_course_name, NEWS_TYPE)
         final_report = f'---\n{yaml_front_matter}---\n\n'
         if NEWS_TYPE == "weekly":
-            generate_image(os.environ.get("OPENAI_API_KEY"))
+            generate_image(OPENAI_API_KEY)
             shutil.move("generated_image.png", f'content/news/weekly/weekly-{display_start_time.date()}/generated_image.png')
             shutil.move("generated_image_cropped.png", f'content/news/weekly/weekly-{display_start_time.date()}/generated_image_cropped.png')
             final_report += f'![AI Image of the Week](generated_image_cropped.png)\n\n'
