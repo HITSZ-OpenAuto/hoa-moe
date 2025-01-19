@@ -96,7 +96,7 @@ for match_semester in "${semesters[@]}"; do
         curl -X POST \
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token $TOKEN" \
-            https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/documentation.yaml/dispatches \
+            https://api.github.com/repos/HITSZ-OpenAuto/hoa-moe/actions/workflows/course.yaml/dispatches \
             -d '{"ref":"main"}'
         set -e
         exit 1
