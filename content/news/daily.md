@@ -64,6 +64,60 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [AUTO3012](https://github.com/HITSZ-OpenAuto/AUTO3012/issues/3)
+
+- **仓库**: AUTO3012
+- **创建于**: 2025-01-19T13:16:51Z
+- **作者**: MaxwellJay256
+
+### [AUTO3022(原 AUTO3014)](https://github.com/HITSZ-OpenAuto/AUTO3022/issues/4)
+
+- **仓库**: AUTO3022
+- **创建于**: 2025-01-19T13:16:47Z
+- **作者**: MaxwellJay256
+
+### [AUTO3011](https://github.com/HITSZ-OpenAuto/AUTO3011/issues/4)
+
+- **仓库**: AUTO3011
+- **创建于**: 2025-01-19T13:16:38Z
+- **作者**: MaxwellJay256
+
+### [AUTO3006](https://github.com/HITSZ-OpenAuto/AUTO3006/issues/8)
+
+- **仓库**: AUTO3006
+- **创建于**: 2025-01-19T13:16:34Z
+- **作者**: MaxwellJay256
+
+### [AUTO3005](https://github.com/HITSZ-OpenAuto/AUTO3005/issues/11)
+
+- **仓库**: AUTO3005
+- **创建于**: 2025-01-19T13:16:30Z
+- **作者**: MaxwellJay256
+
+### [AUTO3004](https://github.com/HITSZ-OpenAuto/AUTO3004/issues/10)
+
+- **仓库**: AUTO3004
+- **创建于**: 2025-01-19T13:16:25Z
+- **作者**: MaxwellJay256
+
+### [AUTO3003](https://github.com/HITSZ-OpenAuto/AUTO3003/issues/10)
+
+- **仓库**: AUTO3003
+- **创建于**: 2025-01-19T13:16:19Z
+- **作者**: MaxwellJay256
+
+### [AUTO3024](https://github.com/HITSZ-OpenAuto/AUTO3024/issues/2)
+
+- **仓库**: AUTO3024
+- **创建于**: 2025-01-19T13:16:13Z
+- **作者**: MaxwellJay256
+
+### [AUTO3001B](https://github.com/HITSZ-OpenAuto/AUTO3001B/issues/9)
+
+- **仓库**: AUTO3001B
+- **创建于**: 2025-01-19T13:16:05Z
+- **作者**: MaxwellJay256
+
 ### [思政课](https://github.com/HITSZ-OpenAuto/GEIP1011/issues/19)
 
 - **仓库**: GEIP1011
