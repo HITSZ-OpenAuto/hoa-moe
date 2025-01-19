@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+import re
 import subprocess
 import time
 from argparse import ArgumentParser
@@ -121,7 +122,8 @@ async def process_repo(client: GitHubAPIClient) -> None:
         log += "-----tag.txt-----\n" + f"{tag_content}\n" + "-----------------\n"
 
         semesters_line: str = [line for line in tag_content.split("\n") if line.startswith("semester:")][0]
-        semesters: list[str] = semesters_line.split(": ")[1].split(" / ")
+        semesters_line = semesters_line.split(": ")[1]
+        semesters: list[str] = re.split(r"\s*/\s*", semesters_line)  # 以 / 分割多个学期
         log += str(semesters) + "\n"
 
         for match_semester in semesters:
