@@ -180,8 +180,7 @@ class GitHubAPIClient:
                                                                       '.xlsx', 'txt',
                                                                       'png', 'jpg', 'jpeg', 'gif', 'webp',
                                                                       '.md')) and
-                            not (content['path'].endswith('README.md') or content['path'].endswith('tag.txt') or
-                                 content['path'].endswith('LICENSE'))):
+                            not (content['path'].endswith('tag.txt') or content['path'].endswith('LICENSE'))):
                         files_to_process.append({
                             'path': content['path'],
                             'size': filesize.traditional(int(content['size']))
