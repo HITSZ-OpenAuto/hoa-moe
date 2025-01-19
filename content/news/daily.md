@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-19'
-description: 北京时间 2025-01-18 00 时至今
+description: 北京时间 2025-01-18 02 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (1.19)
+
+- W·D·Gaster 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：修改格式
 
 - OliverWu515 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：新增实验原本任务文件以资对照
 
@@ -52,6 +54,18 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [微积分](https://github.com/HITSZ-OpenAuto/GEIP1011/issues/18)
+
+- **仓库**: GEIP1011
+- **创建于**: 2025-01-19T01:33:51Z
+- **作者**: WDGaster703
+
+### [思政类课程（道法 + 习概 + 史纲 + 马原 + 毛概）](https://github.com/HITSZ-OpenAuto/GEIP1011/issues/17)
+
+- **仓库**: GEIP1011
+- **创建于**: 2025-01-19T01:33:19Z
+- **作者**: WDGaster703
+
 ### [原有的 clone_repos.py 是否有必要保留？](https://github.com/HITSZ-OpenAuto/repos-management/issues/2)
 
 - **仓库**: repos-management
@@ -77,6 +91,12 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [补充教材](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/11)
+
+- **仓库**: MATH1015A
+- **创建于**: 2025-01-19T02:16:08Z
+- **作者**: WDGaster703
 
 ### [整理资料（修改文件名；删除不具有参考价值的资料）](https://github.com/HITSZ-OpenAuto/AUTO3007/pull/10)
 
