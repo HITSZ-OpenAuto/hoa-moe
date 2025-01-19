@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-19'
-description: 北京时间 2025-01-18 13 时至今
+description: 北京时间 2025-01-18 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,10 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (1.19)
+
+- 吴俊达 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Update tag.txt
+
+- 吴俊达 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Update tag.txt
 
 - 吴俊达 在 [线性系统理论](https://github.com/HITSZ-OpenAuto/AUTO5001) 中提交了信息：更新课程说明；更新 2024 秋考试试题 (#3)
 
