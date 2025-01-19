@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-01-18'
-description: 北京时间 2025-01-17 22 时至今
+date: '2025-01-19'
+description: 北京时间 2025-01-18 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (1.19)
+
+- OliverWu515 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：新增实验原本任务文件以资对照
 
 - W·D·Gaster 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：修改文档名称 (#8)
 
@@ -48,15 +50,13 @@ title: AUTO 更新速递
 
 - Origami404 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：OpenCS 内容合并 (#15)
 
-- Origami404 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：OpenCS 内容合并 (#10)
-
-### 周五 (1.17)
-
-- Origami404 在 [高级语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2021) 中提交了信息：OpenCS 内容合并 (#7)
-
-- psp_dada 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：上传实验相关内容 (#6)
-
 ## 待解决的 Issues
+
+### [原有的 clone_repos.py 是否有必要保留？](https://github.com/HITSZ-OpenAuto/repos-management/issues/2)
+
+- **仓库**: repos-management
+- **创建于**: 2025-01-18T22:18:04Z
+- **作者**: OliverWu515
 
 ### [AUTO5001](https://github.com/HITSZ-OpenAuto/AUTO5001/issues/4)
 
