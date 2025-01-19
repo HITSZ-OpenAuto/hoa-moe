@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (1.19)
 
+- W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：修改授课老师
+
 - W·D·Gaster 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：修改格式
 
 - OliverWu515 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：新增实验原本任务文件以资对照
