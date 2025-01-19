@@ -8,5 +8,5 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="engg1002"title="工程训练（金工实习）">}}
+{{< card link="engg1002" title="工程训练（金工实习）" >}}
 {{< /cards >}}

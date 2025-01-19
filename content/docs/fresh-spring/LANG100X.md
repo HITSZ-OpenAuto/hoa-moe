@@ -1,12 +1,13 @@
 ---
 title: （必修）大学英语
-weight: 20
+weight: 56
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 10 日" author="IcyDesert" message="添加景怡老师的上课情况" >}}
+{{< update-info update_time="2025 年 1 月 19 日" author="W·D·Gaster" message="添加韩烨和毕鑫的评价" >}}
+
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -52,8 +53,21 @@ math: true
   - ~~漂亮~~
 > 文 / [IcyDesert](https://github.com/IcyDesert), 2025.1
 
+- 韩烨
+  - 上课按座位表坐，且有较多互动
+  - 课后作业很多，每周完成口语 + 听力 + 阅读 + 可能的写作，需要花费不少时间，而且平时分中的作业部分严格按平台成绩打分
+  - 但是老师的英语水平确实很高，和她交流能学到一些英语知识
+
+- 毕鑫 (Lotus)
+  - 上课座位任意，不点名，回答问题一般以传话筒形式，即使点名点到没来的也不会扣分
+  - 有一次 pre（大一下），分享你们组感兴趣的一篇学术文章
+  - 老师上课节奏很慢，而且~~口音好听~~
+> 文 / [Gaster](https://github.com/WDGaster703), 2025.1
+
 ## 关于考试
-每学期的期末考试由原来的听说和读写专项考察改为统一与大一秋季学期英语分班考试一致的试卷，试卷结构为 25 题四级听力 + 10 题雅思听力（1 篇文章）+ 2 篇四级阅读 + 1 篇雅思阅读 + 1 篇短文填词 + 1 篇雅思大作文（议论文）。
+
+自 23 级起，每学期的期末考试由原来的听说和读写专项考察改为统一与大一秋季学期英语分班考试一致的试卷，试卷结构为：25 题四级听力 + 10 题雅思听力（1 篇文章）+ 2 篇四级阅读 + 1 篇雅思阅读 + 1 篇短文填词 + 1 篇雅思大作文（议论文）。
+> 文 / [Gaster](https://github.com/WDGaster703), 2024.12
 
 如果你想了解四、六级考试，可以查看我们的博客 [《四、六级备考指北》](https://hoa.moe/blog/cet-intro/)
 

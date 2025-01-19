@@ -1,12 +1,13 @@
 ---
 title: （必修）微积分 A
-weight: 25
+weight: 60
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
 
 {{< update-info update_time="2025 年 1 月 18 日" author="Origami404" message="OpenCS 内容合并 (#10)" >}}
+
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
