@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "scripts/**"
-      - ".github/workflows/documentation.yaml"
+      - ".github/workflows/course.yaml"
       - "!scripts/filetrees/filetrees.json"
   schedule:
     - cron: "0 0 * * *" # Set the workflow to run at 00:00 UTC+0 every day (8 AM Beijing time)
