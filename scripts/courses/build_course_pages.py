@@ -113,7 +113,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
     """Process a single repository."""
 
     # Log message
-    log = "-" * 20
+    log = "-" * 50 + "\n"
     log += f"Processing {client.repo}\n"
     try:
         tag_content: str = await client.fetch_file_content("tag.txt")
@@ -214,7 +214,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
         print(f"Error processing repo {client.repo}: {e}")
     finally:
         print(log)
-        print("-" * 20)
+        print("-" * 50)
 
 
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
