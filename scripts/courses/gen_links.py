@@ -1,19 +1,18 @@
-import argparse
 import asyncio
-import json
-import os
-import re
-import time
-import urllib.parse
-from datetime import datetime
-from typing import Dict, List, Optional
-
 import aiohttp
-from aiohttp import ClientTimeout
+import argparse
+import urllib.parse
+import os
+import json
+import re
+from datetime import datetime
 from fs import filesize
+from functools import lru_cache
+from typing import List, Dict, Optional
+import time
+from aiohttp import ClientTimeout
 from tenacity import retry, stop_after_attempt, wait_exponential
-
-from scripts.filetrees import FileTreeManager, create_course_data
+from scripts.filetrees import FileTreeManager, CourseData, create_course_data
 
 file_tree_manager = FileTreeManager()
 

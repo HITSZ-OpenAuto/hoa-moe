@@ -1,5 +1,5 @@
-import requests
 from openai import OpenAI
+import requests
 from PIL import Image
 
 

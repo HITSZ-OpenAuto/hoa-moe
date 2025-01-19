@@ -24,16 +24,6 @@
 git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules --depth=1
 ```
 
-提示：
-
-`--recurse-submodules` 是必要的，因为我们在这个仓库中使用了一些子模块。如果你忘记在克隆时使用这个选项，可以运行以下命令来修复：
-
-```bash
-git submodule update --init --recursive
-```
-
-`--depth=1` 是可选的，它可以减少下载的仓库大小。如果你只是想在本地构建网站或对这个仓库做出贡献，这样做会更方便。
-
 ### 安装 Hugo 框架
 
 请安装 Hugo 的拓展版本。
@@ -56,7 +46,7 @@ cd hoa.moe
 hugo server
 ```
 
-现在，你可以在浏览器里访问 `http://localhost:xxxx` （端口号见终端中的输出）查看网站的本地运行版本进行网站开发。
+查看终端中显示的 URL 以访问你的网站。按下 `Ctrl + C` 可停止 Hugo 的开发服务器。
 
 ## 如何贡献
 

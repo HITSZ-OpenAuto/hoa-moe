@@ -1,7 +1,7 @@
-import argparse
 import re
-import urllib.parse
+import argparse
 from pathlib import Path
+import urllib.parse
 
 
 def wrap_badges_with_div(content, div_classes="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center"):

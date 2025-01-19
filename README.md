@@ -24,16 +24,6 @@
 git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules --depth=1
 ```
 
-Tip:
-
-`--recurse-submodules` is necessary since we use some submodules in this repository. If you forgot to clone with , you can run the following commands to fix it.
-
-```bash
-git submodule update --init --recursive
-```
-
-`--depth=1` is optional and can reduce the size of the repository you download. This is more convenient if you only want to build the website locally or contribute to this repository.
-
 ### Install Hugo
 
 You need to install Hugo extended version to build the website.
@@ -56,7 +46,7 @@ cd hoa-moe
 hugo server
 ```
 
-Now, you can open `http://localhost:xxxx` (replace xxxx with the port number shown in the terminal output) in your browser to view the locally running version of the website for development.
+View your site at the URL displayed in your terminal. Press `Ctrl + C` to stop Hugo’s development server.
 
 ## Contributing
 

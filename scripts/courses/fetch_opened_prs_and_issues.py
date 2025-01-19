@@ -1,7 +1,6 @@
+import subprocess
 import json
 import os
-import subprocess
-
 # from dotenv import load_dotenv
 
 # load_dotenv()
@@ -85,7 +84,7 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
     prs = get_org_pull_requests(org_name, pat)
 
     # Generate markdown report
-    with open("content/news/daily.md", "r+") as f:
+    with open(f"content/news/daily.md", "r+") as f:
         content = f.read()
         f.seek(0)
         # Keep content before "## 待解决的 Issues" and overwrite the rest
@@ -133,7 +132,7 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
 
                 f.write("\n")
 
-    print("Report updated: content/news/daily.md")
+    print(f"Report updated: content/news/daily.md")
 
 
 def main():

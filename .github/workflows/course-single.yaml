@@ -37,7 +37,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          # token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Set execute permissions
         run: find . \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
