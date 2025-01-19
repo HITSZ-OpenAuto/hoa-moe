@@ -1,5 +1,5 @@
 import json
-from typing import Optional, TypedDict
+from typing import Dict, TypedDict, Optional
 
 
 class CourseData(TypedDict):
@@ -32,12 +32,12 @@ def create_course_data(card_string: str, last_commit_sha: str, has_error: bool =
 class FileTreeManager:
     def __init__(self):
         """Initialize FileTreeManager and load data from file"""
-        with open("scripts/filetrees/filetrees.json", "r") as file:
+        with open('scripts/filetrees/filetrees.json', 'r') as file:
             self.file_trees = json.load(file)
 
     def save(self) -> None:
         """Save the current state to file"""
-        with open("scripts/filetrees/filetrees.json", "w", encoding="utf-8") as file:
+        with open('scripts/filetrees/filetrees.json', 'w', encoding="utf-8") as file:
             file.write(json.dumps(self.file_trees))
 
     def search(self, course_name: str) -> Optional[CourseData]:
@@ -108,5 +108,6 @@ class FileTreeManager:
         """
         for course_name, course_data in self.file_trees.items():
             file_name = f"{course_name}_cards.txt"
-            with open(file_name, "w") as file:
+            with open(file_name, 'w') as file:
                 file.write(course_data["card_string"])
+
