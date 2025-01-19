@@ -112,7 +112,9 @@ class GitHubAPIClient:
 async def process_repo(client: GitHubAPIClient) -> None:
     """Process a single repository."""
 
-    log = f"Processing {client.repo}\n"  # Log message
+    # Log message
+    log = "-" * 20
+    log += f"Processing {client.repo}\n"
     try:
         tag_content: str = await client.fetch_file_content("tag.txt")
 
@@ -128,7 +130,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 log += "No match semester\n"
                 raise ValueError(f"No match semester: {match_semester}")
 
-            log += semester + "\n"
+            log += f"Matched semester: {semester}\n"
 
             category_line: str = [line for line in tag_content.split("\n") if line.startswith("category:")][0]
             category_raw: str = category_line.split(": ")[1]
@@ -138,7 +140,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 log += "No match category\n"
                 continue
 
-            log += category + "\n"
+            log += f"Matched category: {category}\n"
 
             name_line: str = [line for line in tag_content.split("\n") if line.startswith("name:")][0]
             name: str = name_line.split(": ")[1]
@@ -212,10 +214,12 @@ async def process_repo(client: GitHubAPIClient) -> None:
         print(f"Error processing repo {client.repo}: {e}")
     finally:
         print(log)
+        print("-" * 20)
 
 
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
-    sorted_repos = sorted(repos)  # 排序，用于在并行的情况下保证输出的顺序
+    repos = [repo for repo in repos if repo not in [".github", "hoa-moe", "HITSZ-OpenAuto"]]
+    sorted_repos = sorted(repos)  # 排序，用于在并行的情况下保证构建网页时的顺序
 
     clients = [GitHubAPIClient(owner, repo, token, index) for index, repo in enumerate(sorted_repos)]
     tasks: list[asyncio.Task] = []
@@ -228,7 +232,7 @@ async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
     await asyncio.gather(*tasks)
 
     for client in clients:
-        client.update_semester_category_file()  # 更新学期类别文件，最后执行以固定顺序
+        client.update_semester_category_file()  # 最后执行更新学期类别文件，以固定构建网页时的顺序
         await client.close_session()
 
 
