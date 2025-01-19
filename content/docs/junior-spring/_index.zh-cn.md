@@ -8,7 +8,6 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="auto3022"title="自动化领域专家系列讲座">}}
 {{< card link="pe100x"title="体育">}}
 {{< card link="auto3001b"title="自动控制理论 B">}}
 {{< card link="auto3002b"title="自动控制实践 B">}}
