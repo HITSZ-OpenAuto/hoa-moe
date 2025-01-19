@@ -4,9 +4,9 @@ line="$REPO_NAME"
 first_time=1
 
 curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/tag.txt" -o "tag_${line}.txt"
-curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "temp.md"
+curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/${line}/main/README.md" -o "readme_${line}.md"
 python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto "${line}" "$TOKEN"
-cp result_update_time_"${line}".txt result_time.txt
+cp "result_update_time_${line}.txt" result_time.txt
 python scripts/courses/gen_links.py HITSZ-OpenAuto "$TOKEN"
 # cp result.txt result_links.txt
 
@@ -78,16 +78,17 @@ for match_semester in "${semesters[@]}"; do
     esac
 
     if [ "$first_time" -eq 1 ]; then
-        curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp1.md"
+        curl "https://raw.githubusercontent.com/HITSZ-OpenAuto/hoa-moe/main/content/docs/${semester}/${line}.md" -o "temp_${line}.md"
         first_time=0
     fi
 
-    head -n 7 "temp1.md" >"./content/docs/${semester}/${line}.md"
+    head -n 7 "temp_${line}.md" >"./content/docs/${semester}/${line}.md"
+    rm "temp_${line}.md"
 
     {
         echo
         cat result_time.txt
-        tail -n +2 "temp.md"
+        tail -n +2 "readme_${line}.md"
         echo
         echo "## 资料下载"
         echo

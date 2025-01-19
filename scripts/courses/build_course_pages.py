@@ -97,6 +97,8 @@ class GitHubAPIClient:
 
         url = f"https://raw.githubusercontent.com/{self.owner}/{self.repo}/main/{path}"
         async with self.session.get(url) as response:
+            if response.status != 200:
+                raise Exception(f"Failed to fetch file content from {url}, status code: {response.status}")
             return await response.text()
 
     def update_semester_category_file(self):
@@ -124,7 +126,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
             semester = semester_mapping.get(match_semester.strip())
             if not semester:
                 log += "No match semester\n"
-                continue
+                raise ValueError(f"No match semester: {match_semester}")
 
             log += semester + "\n"
 
@@ -143,12 +145,14 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
             semester_category_filename: str = f"{semester}-{category}.txt"
             if not os.path.exists(semester_category_filename) or os.stat(semester_category_filename).st_size == 0:
+                c: str = f"## {category_raw.strip()}\n"
+                if extra_info:
+                    c += f"{extra_info}\n"
+                c += "<!--more-->\n" + "{{< cards >}}\n"
+
                 with open(semester_category_filename, "w") as f:
-                    f.write(f"## {category_raw.strip()}\n")
-                    if extra_info:
-                        f.write(f"{extra_info}\n")
-                    f.write("<!--more-->\n")
-                    f.write("{{< cards >}}\n")
+                    f.write(c)
+                del c
 
             # 保存更新学期类别文件所需的字段，以便在处理完所有 repo 后更新
             client.semester_category_filename = semester_category_filename
@@ -177,7 +181,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 + "---\n\n"
             )
 
-            ### python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            # python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
             subprocess.run(
                 [
                     "python",
@@ -204,9 +208,9 @@ async def process_repo(client: GitHubAPIClient) -> None:
             with open(repo_md_filename, "w", encoding="utf-8") as f:
                 f.write(s)
 
-            print(log)
     except Exception as e:
         print(f"Error processing repo {client.repo}: {e}")
+    finally:
         print(log)
 
 

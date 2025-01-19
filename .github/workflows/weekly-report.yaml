@@ -27,7 +27,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set execute permissions
-        run: find . \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
+        run: find ./scripts \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
 
       - name: Set up Python
         uses: actions/setup-python@v5

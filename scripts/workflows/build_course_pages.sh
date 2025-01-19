@@ -1,5 +1,7 @@
 #!/bin/bash
 # 建立课程页面
+# 被弃用，使用实现并行化的 scripts/courses/build_course_pages.py 代替
+
 counter_man=0
 counter_dis=100
 counter_graduate=200
@@ -164,27 +166,27 @@ for line in $(echo "$REPOS_ARRAY" | jq -r '.[]'); do
         case "${CATEGORY}" in
         "必修")
             counter_man=$((counter_man + 1))
-            echo "weight: $counter_man" >>"./content/docs/${semester}/${line}.md"
+            echo "weight: ${counter_man}" >>"./content/docs/${semester}/${line}.md"
             ;;
         "限选")
             counter_dis=$((counter_dis + 1))
-            echo "weight: $counter_dis" >>"./content/docs/${semester}/${line}.md"
+            echo "weight: ${counter_dis}" >>"./content/docs/${semester}/${line}.md"
             ;;
         "研究生阶段课程" | "本研共通" | "选修")
             counter_graduate=$((counter_graduate + 1))
-            echo "weight: $counter_graduate" >>"./content/docs/${semester}/${line}.md"
+            echo "weight: ${counter_graduate}" >>"./content/docs/${semester}/${line}.md"
             ;;
         "跨专业选修")
             counter_cross=$((counter_cross + 1))
-            echo "weight: $counter_cross" >>"./content/docs/${semester}/${line}.md"
+            echo "weight: ${counter_cross}" >>"./content/docs/${semester}/${line}.md"
             ;;
         "文理通识")
             counter_general=$((counter_general + 1))
-            echo "weight: $counter_general" >>"./content/docs/${semester}/${line}.md"
+            echo "weight: ${counter_general}" >>"./content/docs/${semester}/${line}.md"
             ;;
         "归档")
             counter_legacy=$((counter_legacy + 1))
-            echo "weight: $counter_legacy" >>"./content/docs/${semester}/${line}.md"
+            echo "weight: ${counter_legacy}" >>"./content/docs/${semester}/${line}.md"
             ;;
         esac
 
@@ -196,7 +198,7 @@ for line in $(echo "$REPOS_ARRAY" | jq -r '.[]'); do
             echo
         } >>"./content/docs/${semester}/${line}.md"
 
-        python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto "${line}" "$TOKEN"
+        python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto "${line}" "${TOKEN}"
 
         {
             cat result_update_time_"${line}".txt

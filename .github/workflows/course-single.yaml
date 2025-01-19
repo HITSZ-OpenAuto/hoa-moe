@@ -40,7 +40,7 @@ jobs:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Set execute permissions
-        run: find . \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
+        run: find ./scripts \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
 
       - name: First check
         env:
