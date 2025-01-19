@@ -28,7 +28,6 @@ toc: false
 {{< card link="chem1012" title="大学化学 III" >}}
 {{< card link="crossspecialty" title="跨专业选修课程体系" >}}
 {{< card link="econ2005f" title="经济学原理" >}}
-{{< card link="spst1004" title="普通天文学" >}}
 {{< /cards >}}
 ## 文理通识
 <!--more-->
