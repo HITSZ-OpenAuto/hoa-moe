@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (1.19)
 
+- 吴俊达 在 [线性系统理论](https://github.com/HITSZ-OpenAuto/AUTO5001) 中提交了信息：更新课程说明；更新 2024 秋考试试题 (#3)
+
 - W·D·Gaster 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：添加韩烨和毕鑫的评价
 
 - W·D·Gaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：重命名部分文件 f
@@ -63,18 +65,6 @@ title: AUTO 更新速递
 - Origami404 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：OpenCS 内容合并 (#15)
 
 ## 待解决的 Issues
-
-### [AUTO3012](https://github.com/HITSZ-OpenAuto/AUTO3012/issues/3)
-
-- **仓库**: AUTO3012
-- **创建于**: 2025-01-19T13:16:51Z
-- **作者**: MaxwellJay256
-
-### [AUTO3022(原 AUTO3014)](https://github.com/HITSZ-OpenAuto/AUTO3022/issues/4)
-
-- **仓库**: AUTO3022
-- **创建于**: 2025-01-19T13:16:47Z
-- **作者**: MaxwellJay256
 
 ### [AUTO3011](https://github.com/HITSZ-OpenAuto/AUTO3011/issues/4)
 
@@ -190,12 +180,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-18T22:18:04Z
 - **作者**: OliverWu515
 
-### [AUTO5001](https://github.com/HITSZ-OpenAuto/AUTO5001/issues/4)
-
-- **仓库**: AUTO5001
-- **创建于**: 2025-01-18T21:51:16Z
-- **作者**: OliverWu515
-
 ### [AUTO3007](https://github.com/HITSZ-OpenAuto/AUTO3007/issues/11)
 
 - **仓库**: AUTO3007
@@ -209,6 +193,12 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [delete: 删除学期信息](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/2)
+
+- **仓库**: WRIT0001
+- **创建于**: 2025-01-19T13:44:42Z
+- **作者**: longlin10086
 
 ### [修改落款格式，将课程内容单列使之更清晰](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/16)
 
@@ -280,11 +270,5 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3007
 - **创建于**: 2025-01-18T21:06:34Z
-- **作者**: OliverWu515
-
-### [更新课程说明；更新 2024 秋考试试题](https://github.com/HITSZ-OpenAuto/AUTO5001/pull/3)
-
-- **仓库**: AUTO5001
-- **创建于**: 2025-01-18T20:26:57Z
 - **作者**: OliverWu515
 
