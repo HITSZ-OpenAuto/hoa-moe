@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周日 (1.19)
 
+- 吴俊达 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：整理资料（修改文件名；删除不具有参考价值的资料） (#10)
+
+- longlin li 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：delete: 删除学期信息 (#2)
+
 - 吴俊达 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Update tag.txt
 
 - 吴俊达 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Update tag.txt
@@ -184,12 +188,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-18T22:18:04Z
 - **作者**: OliverWu515
 
-### [AUTO3007](https://github.com/HITSZ-OpenAuto/AUTO3007/issues/11)
-
-- **仓库**: AUTO3007
-- **创建于**: 2025-01-18T21:07:37Z
-- **作者**: OliverWu515
-
 ### [AUTO3001A](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/9)
 
 - **仓库**: AUTO3001A
@@ -197,12 +195,6 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
-
-### [delete: 删除学期信息](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/2)
-
-- **仓库**: WRIT0001
-- **创建于**: 2025-01-19T13:44:42Z
-- **作者**: longlin10086
 
 ### [修改落款格式，将课程内容单列使之更清晰](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/16)
 
@@ -269,10 +261,4 @@ title: AUTO 更新速递
 - **仓库**: MATH1015A
 - **创建于**: 2025-01-19T02:16:08Z
 - **作者**: WDGaster703
-
-### [整理资料（修改文件名；删除不具有参考价值的资料）](https://github.com/HITSZ-OpenAuto/AUTO3007/pull/10)
-
-- **仓库**: AUTO3007
-- **创建于**: 2025-01-18T21:06:34Z
-- **作者**: OliverWu515
 
