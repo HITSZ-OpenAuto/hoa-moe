@@ -3,7 +3,6 @@ name: "Build Documentation - Debug"
 on:
   pull_request:
     branches: [main]
-  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}
@@ -53,13 +52,13 @@ jobs:
           echo "repos_array=$repos" >> $GITHUB_ENV
 
       - name: Generate card.txt for each repo
-        run: python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.GITHUB_TOKEN }}
 
       - name: Bulid directory pages
         run: ./scripts/workflows/build_directory_pages.sh
 
       - name: Build course pages
-        run: python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build semester pages
         run: ./scripts/workflows/build_semester_pages.sh
