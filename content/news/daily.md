@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (1.19)
 
+- W·D·Gaster 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：添加韩烨和毕鑫的评价
+
 - W·D·Gaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：重命名部分文件 f
 
 - W·D·Gaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：重命名部分文件
