@@ -22,8 +22,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4 # checkout the repository content to github runner
-        # with:
-        #   token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Set execute permissions
         run: find . \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;

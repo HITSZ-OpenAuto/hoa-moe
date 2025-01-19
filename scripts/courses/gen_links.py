@@ -16,13 +16,15 @@ from scripts.filetrees import FileTreeManager, CourseData, create_course_data
 
 file_tree_manager = FileTreeManager()
 
-
 class GitHubAPIClient:
     def __init__(self, owner: str, repo: str, token: str):
         self.owner = owner
         self.repo = repo
         self.token = token
-        self.headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github.v3+json"}
+        self.headers = {
+            'Authorization': f'Bearer {token}',
+            'Accept': 'application/vnd.github.v3+json'
+        }
         self.commit_cache = {}
         self.batch_size = 100  # GitHub API allows up to 100 items per page
         self.has_commit_error = False
@@ -36,15 +38,19 @@ class GitHubAPIClient:
 
     async def get_repo_commit_sha(self) -> Optional[str]:
         try:
-            commits_url = f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
+            commits_url = f'https://api.github.com/repos/{self.owner}/{self.repo}/commits'
 
             # connector = aiohttp.TCPConnector(ssl=False)
             async with aiohttp.ClientSession() as session:
-                async with session.get(commits_url, headers=self.headers, timeout=ClientTimeout(total=30)) as response:
+                async with session.get(
+                        commits_url,
+                        headers=self.headers,
+                        timeout=ClientTimeout(total=30)
+                ) as response:
                     if response.status == 200:
                         commits_data = await response.json()
                         if commits_data and len(commits_data) > 0:
-                            commit_sha = commits_data[0]["sha"]
+                            commit_sha = commits_data[0]['sha']
                             return commit_sha
                         else:
                             self.has_commit_error = True
@@ -57,20 +63,26 @@ class GitHubAPIClient:
     async def get_file_date_rest_api(self, session: aiohttp.ClientSession, path: str) -> str:
         """使用 REST API 获取单个文件的最后提交日期"""
         try:
-            commits_url = f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
-            params = {"path": path, "per_page": 1}
+            commits_url = f'https://api.github.com/repos/{self.owner}/{self.repo}/commits'
+            params = {
+                'path': path,
+                'per_page': 1
+            }
 
             # connector = aiohttp.TCPConnector(ssl=False)
             async with aiohttp.ClientSession() as session:
                 async with session.get(
-                    commits_url, headers=self.headers, params=params, timeout=ClientTimeout(total=30)
+                        commits_url,
+                        headers=self.headers,
+                        params=params,
+                        timeout=ClientTimeout(total=30)
                 ) as response:
                     if response.status == 200:
                         commits_data = await response.json()
                         if commits_data and len(commits_data) > 0:
-                            commit_date = commits_data[0]["commit"]["committer"]["date"]
-                            dt = datetime.fromisoformat(commit_date.replace("Z", "+00:00"))
-                            return dt.strftime("%Y/%m/%d")
+                            commit_date = commits_data[0]['commit']['committer']['date']
+                            dt = datetime.fromisoformat(commit_date.replace('Z', '+00:00'))
+                            return dt.strftime('%Y/%m/%d')
                     self.has_commit_error = True
                     return "Unknown"
         except Exception as e:
@@ -114,17 +126,15 @@ class GitHubAPIClient:
                     for i, path in enumerate(paths):
                         try:
                             file_data = data.get("data", {}).get(f"file_{i}", {})
-                            blame_data = (
-                                file_data.get("object", {})
-                                .get("blame", {})
-                                .get("ranges", [{}])[0]
-                                .get("commit", {})
-                                .get("committedDate")
-                            )
+                            blame_data = (file_data.get("object", {})
+                                          .get("blame", {})
+                                          .get("ranges", [{}])[0]
+                                          .get("commit", {})
+                                          .get("committedDate"))
 
                             if blame_data:
-                                dt = datetime.fromisoformat(blame_data.replace("Z", "+00:00"))
-                                results[path] = dt.strftime("%Y/%m/%d")
+                                dt = datetime.fromisoformat(blame_data.replace('Z', '+00:00'))
+                                results[path] = dt.strftime('%Y/%m/%d')
                             else:
                                 # GraphQL 查询失败，尝试 REST API
                                 print(f"GraphQL query returned no data for {path}, trying REST API...")
@@ -146,7 +156,8 @@ class GitHubAPIClient:
         return results
 
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
-    async def list_files_in_repo(self, session: aiohttp.ClientSession, path="") -> List[Dict]:
+    async def list_files_in_repo(self, session: aiohttp.ClientSession, path='') -> List[Dict]:
+
         # # Create a TCPConnector with verify_ssl=False
         # connector = aiohttp.TCPConnector(ssl=False)
         #
@@ -155,7 +166,7 @@ class GitHubAPIClient:
         # session = aiohttp.ClientSession(connector=connector)
 
         paths = []
-        url = f"https://api.github.com/repos/{self.owner}/{self.repo}/contents/{path}"
+        url = f'https://api.github.com/repos/{self.owner}/{self.repo}/contents/{path}'
 
         try:
             contents = await self.fetch_content(session, url)
@@ -163,46 +174,26 @@ class GitHubAPIClient:
             files_to_process = []
 
             for content in contents:
-                if content["type"] == "file":
-                    if any(
-                        content["path"].endswith(ext)
-                        for ext in (
-                            ".pdf",
-                            ".zip",
-                            ".rar",
-                            ".7z",
-                            ".docx",
-                            ".doc",
-                            ".ipynb",
-                            ".pptx",
-                            ".apkg",
-                            ".mp4",
-                            ".csv",
-                            ".xlsx",
-                            "txt",
-                            "png",
-                            "jpg",
-                            "jpeg",
-                            "gif",
-                            "webp",
-                            ".md",
-                        )
-                    ) and not (
-                        content["path"].endswith("README.md")
-                        or content["path"].endswith("tag.txt")
-                        or content["path"].endswith("LICENSE")
-                    ):
-                        files_to_process.append(
-                            {"path": content["path"], "size": filesize.traditional(int(content["size"]))}
-                        )
-                elif content["type"] == "dir" and not (content["path"].endswith(".github")):
-                    directories.append(content["path"])
+                if content['type'] == 'file':
+                    if (any(content['path'].endswith(ext) for ext in ('.pdf', '.zip', '.rar', '.7z', '.docx', '.doc',
+                                                                      '.ipynb', '.pptx', '.apkg', '.mp4', '.csv',
+                                                                      '.xlsx', 'txt',
+                                                                      'png', 'jpg', 'jpeg', 'gif', 'webp',
+                                                                      '.md')) and
+                            not (content['path'].endswith('README.md') or content['path'].endswith('tag.txt') or
+                                 content['path'].endswith('LICENSE'))):
+                        files_to_process.append({
+                            'path': content['path'],
+                            'size': filesize.traditional(int(content['size']))
+                        })
+                elif content['type'] == 'dir' and not (content['path'].endswith(".github")):
+                    directories.append(content['path'])
 
             # 批量获取文件的最后修改日期
             if files_to_process:
-                file_dates = await self.get_commits_batch(session, [f["path"] for f in files_to_process])
+                file_dates = await self.get_commits_batch(session, [f['path'] for f in files_to_process])
                 for file in files_to_process:
-                    file["date"] = file_dates.get(file["path"], "Unknown")
+                    file['date'] = file_dates.get(file['path'], 'Unknown')
                 paths.extend(files_to_process)
 
             # 处理目录
@@ -225,13 +216,11 @@ class GitHubAPIClient:
             commit_sha = await self.get_repo_commit_sha()
 
             if file_tree_data := file_tree_manager.search(self.repo):
-                if commit_sha == file_tree_data["last_commit_sha"]:
+                if commit_sha == file_tree_data['last_commit_sha']:
                     pass
                 else:
                     result_content = await self.save_files_list()
-                    file_tree_manager.update(
-                        self.repo, create_course_data(result_content, commit_sha, self.has_commit_error)
-                    )
+                    file_tree_manager.update(self.repo, create_course_data(result_content, commit_sha, self.has_commit_error))
             else:
                 result_content = await self.save_files_list()
                 file_tree_manager.add(self.repo, create_course_data(result_content, commit_sha, self.has_commit_error))
@@ -258,10 +247,10 @@ class GitHubAPIClient:
         if organized_paths:
             for directory, content in organized_paths.items():
                 if isinstance(content, list) and is_human_readable_size(content[0]):
-                    prefix = f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
-                    full_path = f"{prefix}/{directory}"
+                    prefix = f'https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main'
+                    full_path = f'{prefix}/{directory}'
 
-                    name, suffix = directory.rsplit(".", 1)
+                    name, suffix = directory.rsplit('.', 1)
                     icon = match_suffix_icon(suffix)
                     result += f'  {{{{< hoa-filetree/file name="{name}" type="{suffix}" size="{content[0]}" date="{content[1]}" icon="{icon}" url="{full_path}" >}}}}\n'
                 else:
@@ -276,10 +265,10 @@ class GitHubAPIClient:
         organized_paths = {}
         for path_dict in file_paths:
             current_dict = organized_paths
-            path = path_dict["path"]
-            for component in path.split("/")[:-1]:
+            path = path_dict['path']
+            for component in path.split('/')[:-1]:
                 current_dict = current_dict.setdefault(component, {})
-            current_dict[path.split("/")[-1]] = [path_dict["size"], path_dict["date"]]
+            current_dict[path.split('/')[-1]] = [path_dict['size'], path_dict['date']]
         return organized_paths
 
     async def generate_folder_content(self, directory: str, content: Dict) -> str:
@@ -287,27 +276,27 @@ class GitHubAPIClient:
 
         for name, value in content.items():
             if isinstance(value, list) and is_human_readable_size(value[0]):
-                file_path = f"{directory}/{name}"
-                encoded_path = urllib.parse.quote(file_path, safe="/")
-                prefix = f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
-                full_path = f"{prefix}/{encoded_path}"
-                name, suffix = name.rsplit(".", 1)
+                file_path = f'{directory}/{name}'
+                encoded_path = urllib.parse.quote(file_path, safe='/')
+                prefix = f'https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main'
+                full_path = f'{prefix}/{encoded_path}'
+                name, suffix = name.rsplit('.', 1)
                 icon = match_suffix_icon(suffix)
                 result += f'    {{{{< hoa-filetree/file name="{name}" type="{suffix}" size="{value[0]}" date="{value[1]}" icon="{icon}" url="{full_path}" >}}}}\n'
             elif isinstance(value, dict):
-                result += await self.generate_folder_content(f"{directory}/{name}", value)
-        result += "  {{< /hoa-filetree/folder >}}\n"
+                result += await self.generate_folder_content(f'{directory}/{name}', value)
+        result += '  {{< /hoa-filetree/folder >}}\n'
         return result
 
 
 def is_human_readable_size(size_str: str) -> bool:
-    pattern = r"""(?x)
+    pattern = r'''(?x)
         ^
         (\d{1,10}|\d{1,10}\.\d{1,2})
         \s*
         (byte|bytes|[KMGTPE]B|B)
         $
-    """
+    '''
     if not size_str:
         return False
 
@@ -323,9 +312,9 @@ def is_human_readable_size(size_str: str) -> bool:
 
 
 def match_suffix_icon(suffix: str) -> str:
-    image = ["png", "jpg", "jpeg", "gif", "bmp", "psd", "tif", "tiff"]
-    doc = ["doc", "docx"]
-    icons = ["docx", "pdf", "image", "ppt", "txt", "zip"]
+    image = ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'psd', 'tif', 'tiff']
+    doc = ['doc', 'docx']
+    icons = ['docx', 'pdf', 'image', 'ppt', 'txt', 'zip']
 
     if suffix in image:
         suffix = "image"
@@ -350,21 +339,22 @@ if __name__ == "__main__":
     parser.add_argument("owner", help="GitHub repository owner", default="HITSZ-OpenAuto")
     # parser.add_argument("repo", help="GitHub repository name")
     parser.add_argument("token", help="GitHub token")
-
+    
     args = parser.parse_args()
 
     # Get repos array from environment variable
-    repos_json = os.environ.get("repos_array")
+    repos_json = os.environ.get('repos_array')
     repos = None
-
+    
     if not repos_json:
-        repos_json = os.environ.get("repo_name")
-        repos = ["".join(str(c) for c in repos_json)]
+        repos_json = os.environ.get('repo_name')
+        repos = [''.join(str(c) for c in repos_json)]
     else:
         repos = json.loads(repos_json)
-
+    
     if not repos_json:
         raise ValueError("Environment variable repo not found")
+    
 
     # Run the async process for all repos
     start_time = time.perf_counter()
