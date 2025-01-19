@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (1.19)
 
+- W·D·Gaster 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：补充教材
+
 - W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：修改授课老师
 
 - W·D·Gaster 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：修改格式
@@ -93,6 +95,12 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [修改部分文件命名和文件夹归属，添加教材](https://github.com/HITSZ-OpenAuto/MATH1004/pull/10)
+
+- **仓库**: MATH1004
+- **创建于**: 2025-01-19T02:56:56Z
+- **作者**: WDGaster703
 
 ### [补充教材](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/11)
 
