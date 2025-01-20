@@ -10,7 +10,7 @@ import aiohttp
 
 # Constants def
 weights = {
-    "counter_man": 0,
+    "counter_man": 1,  # The available weight of the template starts from 1
     "counter_dis": 100,
     "counter_graduate": 200,
     "counter_cross": 300,
@@ -79,7 +79,7 @@ class GitHubAPIClient:
         self.index = index
         self.session = None
         # For update semester-category file
-        self.semester_category_filename: str | None = None
+        self.semester_category_filenames: list[str] = []
         self.name: str | None = None
 
     async def init_session(self):
@@ -103,11 +103,12 @@ class GitHubAPIClient:
             return await response.text()
 
     def update_semester_category_file(self):
-        if not self.semester_category_filename or not self.name:
+        if not self.semester_category_filenames or not self.name:
             return
-        with open(self.semester_category_filename, "a+", encoding="utf-8") as f:
-            card_link = f'{{{{< card link="{self.repo.lower()}" title="{self.name}" >}}}}\n'
-            f.write(card_link)
+        for filename in self.semester_category_filenames:
+            with open(filename, "a+", encoding="utf-8") as f:
+                card_link = f'{{{{< card link="{self.repo.lower()}" title="{self.name}" >}}}}\n'
+                f.write(card_link)
 
 
 async def process_repo(client: GitHubAPIClient) -> None:
@@ -119,47 +120,55 @@ async def process_repo(client: GitHubAPIClient) -> None:
     try:
         tag_content: str = await client.fetch_file_content("tag.txt")
 
-        log += "-----tag.txt-----\n" + f"{tag_content}\n" + "-----------------\n"
+        log += "-----tag.txt-----\n" + f"{tag_content}" + "-----------------\n"
 
-        semesters_line: str = [line for line in tag_content.split("\n") if line.startswith("semester:")][0]
-        semesters_line = semesters_line.split(": ")[1]
-        semesters: list[str] = re.split(r"\s*/\s*", semesters_line)  # 以 / 分割多个学期
-        log += str(semesters) + "\n"
+        semesters_match = re.search(r"semester:\s*(.*)", tag_content)
+        if semesters_match:
+            semesters_line = semesters_match.group(1)
+            semesters: list[str] = re.split(r"\s*/\s*", semesters_line)  # 以 / 分割多个学期
+            log += str(semesters) + "\n"
+        else:
+            log += "No semester provided\n"
+            raise ValueError("No semester provided")
 
-        for match_semester in semesters:
-            semester = semester_mapping.get(match_semester.strip())
-            if not semester:
-                log += "No match semester\n"
-                raise ValueError(f"No match semester: {match_semester}")
-
-            log += f"Matched semester: {semester}\n"
-
-            category_line: str = [line for line in tag_content.split("\n") if line.startswith("category:")][0]
-            category_raw: str = category_line.split(": ")[1]
-
-            category, extra_info = category_mapping.get(category_raw.strip(), (None, None))
-            if not category:
-                log += "No match category\n"
-                continue
-
+        category_match = re.search(r"category:\s*(.*)", tag_content)
+        if category_match:
+            category_raw = category_match.group(1)
+            category, extra_info = category_mapping.get(category_raw.strip())
             log += f"Matched category: {category}\n"
+        else:
+            log += "No match category\n"
+            raise ValueError(f"No match category: {category_raw}")
 
-            name_line: str = [line for line in tag_content.split("\n") if line.startswith("name:")][0]
-            name: str = name_line.split(": ")[1]
+        name_match = re.search(r"name:\s*(.*)", tag_content)
+        if name_match:
+            name = name_match.group(1)
+            log += f"Matched name: {name}\n"
+        else:
+            log += "No match name\n"
+            raise ValueError("No match name")
 
-            semester_category_filename: str = f"{semester}-{category}.txt"
+        for semester in semesters:
+            semester_en = semester_mapping.get(semester.strip())
+            if not semester_en:
+                log += "No match semester\n"
+                raise ValueError(f"No match semester: {semester}")
+
+            log += f"Matched semester: {semester_en}\n"
+
+            semester_category_filename: str = f"{semester_en}-{category}.txt"
             if not os.path.exists(semester_category_filename) or os.stat(semester_category_filename).st_size == 0:
                 c: str = f"## {category_raw.strip()}\n"
                 if extra_info:
                     c += f"{extra_info}\n"
                 c += "<!--more-->\n" + "{{< cards >}}\n"
 
-                with open(semester_category_filename, "w") as f:
+                with open(semester_category_filename, "w", encoding="utf-8") as f:
                     f.write(c)
                 del c
 
             # 保存更新学期类别文件所需的字段，以便在处理完所有 repo 后更新
-            client.semester_category_filename = semester_category_filename
+            client.semester_category_filenames.append(semester_category_filename)
             client.name = name
 
             readme_content: str = await client.fetch_file_content("README.md")
@@ -208,13 +217,14 @@ async def process_repo(client: GitHubAPIClient) -> None:
             with open("scripts/infos/sponsor.txt", "r", encoding="utf-8") as sponsor_file:
                 s += sponsor_file.read() + "\n"
 
-            repo_md_filename = f"./content/docs/{semester}/{client.repo}.md"
+            repo_md_filename = f"./content/docs/{semester_en}/{client.repo}.md"
             with open(repo_md_filename, "w", encoding="utf-8") as f:
                 f.write(s)
 
     except Exception as e:
         print(f"Error processing repo {client.repo}: {e}")
     finally:
+        log = "\n".join([line for line in log.split("\n") if line.strip() != ""])  # 移除 log 中所有空行
         print(log)
         print("-" * 50)
 
