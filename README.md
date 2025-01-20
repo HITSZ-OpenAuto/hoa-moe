@@ -21,7 +21,7 @@
 ### Clone the repository
 
 ```bash
-git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules
+git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules --depth=1
 ```
 
 ### Install Hugo
@@ -46,7 +46,7 @@ cd hoa-moe
 hugo server
 ```
 
-Open `http://localhost:1313` in your browser.
+View your site at the URL displayed in your terminal. Press `Ctrl + C` to stop Hugo’s development server.
 
 ## Contributing
 
