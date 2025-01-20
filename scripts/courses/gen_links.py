@@ -180,7 +180,8 @@ class GitHubAPIClient:
                                                                       '.xlsx', 'txt',
                                                                       'png', 'jpg', 'jpeg', 'gif', 'webp',
                                                                       '.md')) and
-                            not (content['path'].endswith('tag.txt') or content['path'].endswith('LICENSE'))):
+                            not (content['path'].endswith('README.md') or content['path'].endswith('tag.txt') or
+                                 content['path'].endswith('LICENSE'))):
                         files_to_process.append({
                             'path': content['path'],
                             'size': filesize.traditional(int(content['size']))
@@ -209,7 +210,7 @@ class GitHubAPIClient:
         return paths
 
     async def judge_filetree_cache(self):
-        if self.repo == "hoa-moe" or self.repo == ".github" or self.repo == "HITSZ-OpenAuto":
+        if self.repo in ["hoa-moe", ".github", "HITSZ-OpenAuto"]:
             return
         try:
             commit_sha = await self.get_repo_commit_sha()
