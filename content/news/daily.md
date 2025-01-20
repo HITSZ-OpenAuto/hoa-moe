@@ -4,13 +4,19 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-20'
-description: 北京时间 2025-01-19 00 时至今
+description: 北京时间 2025-01-19 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周一 (1.20)
+
+- W·D·Gaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Merge pull request #15 from WDGaster703/main
+
+- WDGaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：修复 psp 的笔记，删除 readme，修改文档落款格式
 
 ### 周日 (1.19)
 
@@ -39,6 +45,13 @@ title: AUTO 更新速递
 - OliverWu515 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：新增实验原本任务文件以资对照
 
 ## 待解决的 Issues
+
+### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
+
+- **仓库**: MATH1002
+- **创建于**: 2025-01-20T07:32:37Z
+- **作者**: MaxwellJay256
+- **标签**: help wanted
 
 ### [AUTO3011](https://github.com/HITSZ-OpenAuto/AUTO3011/issues/4)
 
@@ -110,12 +123,6 @@ title: AUTO 更新速递
 
 - **仓库**: EE2005
 - **创建于**: 2025-01-19T03:55:04Z
-- **作者**: WDGaster703
-
-### [小车课](https://github.com/HITSZ-OpenAuto/AUTO1001/issues/13)
-
-- **仓库**: AUTO1001
-- **创建于**: 2025-01-19T03:54:25Z
 - **作者**: WDGaster703
 
 ### [C 语言](https://github.com/HITSZ-OpenAuto/COMP2021/issues/9)
