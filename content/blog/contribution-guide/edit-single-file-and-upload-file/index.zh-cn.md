@@ -69,7 +69,7 @@ GitHub 提供的功能实际上支持多文件上传，但这些文件必须上�
 ![](./img/files-upload-button.png)
 
 {{< callout type="info" >}}
-注意，填写 commit message 仍然需要遵守 [公约](#公约)
+注意，请确保所上传的文件不是 [公约](#公约) 中所述「**不宜上传文件**」；填写 commit message 仍然需要遵守公约。
 
 {{< /callout >}}
 
