@@ -13,6 +13,7 @@ toc: false
 {{< card link="auto2006" title="控制理论中的代数基础" >}}
 {{< card link="ee2005" title="系统与控制" >}}
 {{< card link="geip1018" title="毛泽东思想和中国特色社会主义理论体系概论" >}}
+{{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
