@@ -1,12 +1,13 @@
 ---
 title: 跨专业选修课程体系
-weight: 304
+weight: 332
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
 {{< update-info update_time="2025 年 1 月 4 日" author="W·D·Gaster" message="补充综述内容说明文档内容，补充大学化学 III、普通天文学、经济学原理内容" >}}
+
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
