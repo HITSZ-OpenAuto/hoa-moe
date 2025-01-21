@@ -84,3 +84,4 @@ jobs:
             pull: "--rebase --autostash"
             default_author: github_actions
             message: "ci: update course pages"
+            new_branch: new-action-debug-branch
