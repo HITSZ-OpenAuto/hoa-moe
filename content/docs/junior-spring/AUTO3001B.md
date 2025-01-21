@@ -1,12 +1,13 @@
 ---
 title: （必修）自动控制理论 B
-weight: 35
+weight: 7
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
 {{< update-info update_time="2024 年 11 月 17 日" author="吴俊达" message="Update README.md" >}}
+
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 

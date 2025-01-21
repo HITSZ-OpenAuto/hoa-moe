@@ -1,12 +1,13 @@
 ---
 title: （必修）微积分 B
-weight: 22
+weight: 62
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
 {{< update-info update_time="2025 年 1 月 19 日" author="W·D·Gaster" message="补充教材" >}}
+
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

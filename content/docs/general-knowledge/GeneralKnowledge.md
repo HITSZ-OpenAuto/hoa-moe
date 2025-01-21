@@ -1,12 +1,13 @@
 ---
 title: 文理通识课程体系
-weight: 404
+weight: 455
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md"
 math: true
 ---
 
 {{< update-info update_time="2025 年 1 月 7 日" author="W·D·Gaster" message="上传校区首批必修核心课程名单" >}}
+
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
