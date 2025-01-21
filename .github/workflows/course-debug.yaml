@@ -4,6 +4,10 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: write
+  pull-requests: write
+
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
@@ -84,4 +88,3 @@ jobs:
             pull: "--rebase --autostash"
             default_author: github_actions
             message: "ci: update course pages"
-            new_branch: new-action-debug-branch
