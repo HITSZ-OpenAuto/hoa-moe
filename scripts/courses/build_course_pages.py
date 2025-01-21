@@ -43,6 +43,9 @@ semester_mapping = {
     "第四学年春季": "senior-spring",
     "研究生秋季": "graduate-autumn",
     "研究生春季": "graduate-spring",
+    # Special cases
+    "跨专业选修": "cross-specialty",
+    "文理通识": "general-knowledge",
 }
 
 category_mapping: dict[str] = {
@@ -122,15 +125,6 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
         log += "-----tag.txt-----\n" + f"{tag_content}" + "-----------------\n"
 
-        semesters_match = re.search(r"semester:\s*(.*)", tag_content)
-        if semesters_match:
-            semesters_line = semesters_match.group(1)
-            semesters: list[str] = re.split(r"\s*/\s*", semesters_line)  # 以 / 分割多个学期
-            log += str(semesters) + "\n"
-        else:
-            log += "No semester provided\n"
-            raise ValueError("No semester provided")
-
         category_match = re.search(r"category:\s*(.*)", tag_content)
         if category_match:
             category_raw = category_match.group(1)
@@ -140,10 +134,24 @@ async def process_repo(client: GitHubAPIClient) -> None:
             log += "No match category\n"
             raise ValueError(f"No match category: {category_raw}")
 
+        if category_raw in ["跨专业选修", "文理通识"]:
+            # special cases
+            semesters = [category_raw]
+            log += f"Matched semester: {semesters}\n"
+        else:
+            semesters_match = re.search(r"semester:\s*(.*)", tag_content)
+            if semesters_match:
+                semesters_line = semesters_match.group(1)
+                semesters: list[str] = re.split(r"\s*/\s*", semesters_line)  # 以 / 分割多个学期
+                log += f"Matched semester: {semesters}\n"
+            else:
+                log += "No semester provided\n"
+                raise ValueError("No semester provided")
+
         name_match = re.search(r"name:\s*(.*)", tag_content)
         if name_match:
-            name = name_match.group(1)
-            log += f"Matched name: {name}\n"
+            course_name = name_match.group(1)
+            log += f"Matched name: {course_name}\n"
         else:
             log += "No match name\n"
             raise ValueError("No match name")
@@ -169,7 +177,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
             # 保存更新学期类别文件所需的字段，以便在处理完所有 repo 后更新
             client.semester_category_filenames.append(semester_category_filename)
-            client.name = name
+            client.name = course_name
 
             readme_content: str = await client.fetch_file_content("README.md")
             # 跳过第一行
@@ -181,9 +189,9 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
             s += "---\n"
             if category != "cross-major-selective" and category != "general-knowledge":
-                s += f"title: （{category_raw.strip()}）{name}\n"
+                s += f"title: （{category_raw.strip()}）{course_name}\n"
             else:
-                s += f"title: {name}\n"
+                s += f"title: {course_name}\n"
 
             counter_key = counters.get(category)
             s += (
