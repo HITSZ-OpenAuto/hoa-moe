@@ -23,8 +23,7 @@ jobs:
       PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
 
     steps:
-      - name: Checkout for internal PR
-        if: github.event.pull_request.head.repo.full_name == github.repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
@@ -32,16 +31,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Checkout for fork PR
-        if: github.event.pull_request.head.repo.full_name != github.repository
-        uses: actions/checkout@v4
-        with:
-            repository: ${{ github.event.pull_request.head.repo.full_name }}
-            ref: ${{ github.event.pull_request.head.ref }}
-            submodules: recursive
-            fetch-depth: 0
-            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Set execute permissions
         run: find ./scripts \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
@@ -91,11 +80,3 @@ jobs:
         uses: huacnlee/autocorrect-action@v2
         with:
           args: --fix content/
-
-      - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-            add: '["content", "scripts/filetrees/filetrees.json"]'
-            pull: "--rebase --autostash"
-            default_author: github_actions
-            message: "ci: update course pages"
