@@ -13,6 +13,7 @@ toc: false
 {{< card link="lang100x" title="大学英语" >}}
 {{< card link="math1004" title="概率论与数理统计" >}}
 {{< card link="math1005" title="复变函数与积分变换" >}}
+{{< card link="pe100x" title="体育" >}}
 {{< card link="phys1001" title="大学物理" >}}
 {{< card link="phys1002" title="大学物理实验" >}}
 {{< /cards >}}
@@ -21,18 +22,6 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="comp2014" title="C++ 语言程序设计" >}}
-{{< /cards >}}
-## 跨专业选修
-<!--more-->
-{{< cards >}}
-{{< card link="chem1012" title="大学化学 III" >}}
-{{< card link="crossspecialty" title="跨专业选修课程体系" >}}
-{{< card link="econ2005f" title="经济学原理" >}}
-{{< /cards >}}
-## 文理通识
-<!--more-->
-{{< cards >}}
-{{< card link="sein1040" title="中国科技史话" >}}
 {{< /cards >}}
 ## 归档
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。
