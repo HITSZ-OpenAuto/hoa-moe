@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.head_ref }}
           submodules: recursive
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -82,4 +82,3 @@ jobs:
             add: '["content", "scripts/filetrees/filetrees.json"]'
             default_author: github_actions
             message: "ci: update course pages"
-            new_branch: debug-branch
