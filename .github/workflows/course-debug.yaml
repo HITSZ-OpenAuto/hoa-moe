@@ -75,3 +75,11 @@ jobs:
         uses: huacnlee/autocorrect-action@v2
         with:
           args: --fix content/
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+            add: '["content", "scripts/filetrees/filetrees.json"]'
+            pull: "--rebase --autostash"
+            default_author: github_actions
+            message: "ci: update course pages"
