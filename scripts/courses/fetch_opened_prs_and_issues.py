@@ -64,11 +64,12 @@ def get_org_pull_requests(org_name, pat=None):
     ]
     return run_gh_command(command, pat)
 
-def fetch_opened_prs_and_issues(org_name, pat=None):
+def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
     """
     Generate a markdown report of open issues and pull requests.
     
     :param org_name: GitHub organization name
+    :param public_repos: public repositories of the org
     :param pat: Personal Access Token (optional)
     """
     # Get issues and PRs
@@ -87,7 +88,9 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
         f.write("## 待解决的 Issues\n\n")
         f.truncate()
         
-        filtered_issues = [i for i in issues if i['repository']['name'] != 'hoa-moe' and not i['repository']['private']]
+        filtered_issues = [i for i in issues 
+                           if i['repository']['name'] != 'hoa-moe' 
+                           and i['repository']['name'] in public_repos]
         
         if not filtered_issues:
             f.write("暂无待解决的 Issues\n\n")
@@ -107,7 +110,9 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
         
         f.write("## 待合并的 Pull Requests\n\n")
         
-        filtered_prs = [p for p in prs if p['repository']['name'] != 'hoa-moe' and not i['repository']['private']]
+        filtered_prs = [p for p in prs 
+                        if p['repository']['name'] != 'hoa-moe' 
+                        and p['repository']['name'] in public_repos]
         
         if not filtered_prs:
             f.write("暂无待合并的 Pull Requests\n\n")
@@ -130,8 +135,10 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
 def main():
     org_name = 'HITSZ-OpenAuto'
     pat = os.getenv('TOKEN')
+    repos_json = os.environ.get("repos_array")
+    public_repos = json.loads(repos_json) if repos_json else []
     
-    fetch_opened_prs_and_issues(org_name, pat)
+    fetch_opened_prs_and_issues(org_name, public_repos, pat)
 
 if __name__ == '__main__':
     main()
