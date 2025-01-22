@@ -67,7 +67,7 @@ Arduino IDE 是 Arduino 官方的集成开发环境，用于编写、编译和�
 
 也许你会在电路系列的实验课里听到 OrCAD Capture、PSpice、Cadence、Allegro 等名词，但它们的关系到底是什么？
 
-1. 软件的开发商叫 [Cadence](https://www.cadence.com/zh_CN/home.html)。所以教学大纲等文件中诸如 “使用 Cadence 完成电路仿真” 的表达是不准确的。
+1. 软件的开发商叫 [Cadence](https://www.cadence.com/zh_CN/home.html)。所以教学大纲等文件中诸如“使用 Cadence 完成电路仿真”的表达是不准确的。
 2. Cadence 的产品包括
   [OrCAD](https://www.cadence.com/zh_CN/home/tools/pcb-design-and-analysis/orcad/orcad-capture.html),
   [Allegro](https://www.cadence.com/zh_CN/home/tools/pcb-design-and-analysis/allegro-x-design-platform.html)
@@ -75,7 +75,7 @@ Arduino IDE 是 Arduino 官方的集成开发环境，用于编写、编译和�
 3. OrCAD 和 Allegro 都是绘制原理图和设计 PCB 的 EDA 软件。Allegro 更适合企业场景。
 4. PSpice 用于电路系统的模拟和混合信号仿真。
 
-Cadence 产品线的更多历史可以阅读吴川斌的这篇博客：[不要用阿狸狗画PCB，不专业！用Cadence！](https://www.mr-wu.cn/difference-between-cadence-allegro-and-orcad/)
+Cadence 产品线的更多历史可以阅读吴川斌的这篇博客：[不要用阿狸狗画 PCB，不专业！用 Cadence！](https://www.mr-wu.cn/difference-between-cadence-allegro-and-orcad/)
 
 Cadence 在一众 EDA 软件中的地位类似 Adobe 之于设计软件，其功能强大而复杂。
 
