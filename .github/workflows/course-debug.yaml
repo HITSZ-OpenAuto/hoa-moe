@@ -70,14 +70,14 @@ jobs:
 
       - name: Generate daily report
         env:
-          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
         run: python scripts/news/gen_news.py
 
       - name: Fetch opened PRs and issues
         env:
-          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/courses/fetch_opened_prs_and_issues.py
 
       - name: Wrap badges
