@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 19 日" author="吴俊达" message="更新一个实验报告版本；重命名文件夹及整理文件 (#7)" >}}
+{{< update-info update_time="2025 年 1 月 22 日" author="IcyDesert" message="删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位" >}}
 
 
 <div align="left">
