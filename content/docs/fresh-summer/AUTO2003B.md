@@ -1,12 +1,13 @@
 ---
 title: （必修）创新训练课 B
-weight: 16
+weight: 3
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
 {{< update-info update_time="2024 年 12 月 3 日" author="longlin li" message="docs: change link style" >}}
+
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

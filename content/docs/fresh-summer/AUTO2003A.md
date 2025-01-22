@@ -1,12 +1,13 @@
 ---
 title: （必修）创新训练课 A
-weight: 34
+weight: 2
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
 
 {{< update-info update_time="2024 年 7 月 16 日" author="Kowyo" message="更改文字描述" >}}
+
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 

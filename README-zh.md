@@ -6,7 +6,6 @@
 
 <p align="center">本网站使用 <a href="https://gohugo.io/">Hugo</a> 框架和 <a href="https://imfing.github.io/hextra/">Hextra</a> 主题进行构建，由 <a href="https://github.com/HITSZ-OpenAuto">HITSZ OpenAuto</a>团队管理维护。</p>
 
-
 ![showcase](static/images/showcase.webp)
 
 ## 网站特点
@@ -22,7 +21,7 @@
 ### 克隆本仓库
 
 ```bash
-git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules
+git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules --depth=1
 ```
 
 ### 安装 Hugo 框架
@@ -47,7 +46,7 @@ cd hoa.moe
 hugo server
 ```
 
-现在，你可以在浏览器里访问 `http://localhost:1313` 查看网站的本地运行版本进行网站开发。
+查看终端中显示的 URL 以访问你的网站。按下 `Ctrl + C` 可停止 Hugo 的开发服务器。
 
 ## 如何贡献
 

@@ -1,12 +1,13 @@
 ---
 title: （必修）自动控制实践 A
-weight: 3
+weight: 8
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
 {{< update-info update_time="2025 年 1 月 18 日" author="吴俊达" message="增加一个实验报告版本 (#25)" >}}
+
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 

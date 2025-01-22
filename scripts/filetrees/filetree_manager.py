@@ -108,6 +108,13 @@ class FileTreeManager:
         """
         for course_name, course_data in self.file_trees.items():
             file_name = f"{course_name}_cards.txt"
+
+            log = f"""{course_name}\n
+{course_data["card_string"]}\n
+            """ + '-'*40
+            print(log)
+            
             with open(file_name, 'w') as file:
                 file.write(course_data["card_string"])
+            
 
