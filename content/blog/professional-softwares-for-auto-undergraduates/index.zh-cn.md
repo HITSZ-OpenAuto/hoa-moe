@@ -26,7 +26,7 @@ tags:
 读者可以参考这篇文章，在开课前提前寻找相应的资源并安装，以及做出要不要卸载的决定。
 
 > [!NOTE]
-> Visual Studio, Visual Studio Code, Jetbrains 等泛用的文本编辑器不在本文的讨论范围。
+> Visual Studio, Visual Studio Code, Jetbrains 系列等泛用的开发工具不在本文的讨论范围。
 
 > [!WARNING]
 > 本文只列举必修课程会使用的软件，不作其他推荐。
@@ -43,7 +43,7 @@ tags:
 - 可能用到的课程
   - 自动化认识与实践（如果有的话）
 - 官网：[Arduino IDE](https://www.arduino.cc/en/software)
-- [x] 免费
+- 免费
 
 Arduino IDE 是 Arduino 官方的集成开发环境，用于编写、编译和上传代码到 Arduino 单片机开发板。
 
@@ -59,7 +59,7 @@ Arduino IDE 是 Arduino 官方的集成开发环境，用于编写、编译和�
   - 机械制图
   - 金工实习
 - 官网：[AutoCAD](https://www.autodesk.com.cn/products/autocad/overview)
-- [ ] 免费，但是可以申请学生许可证，参见我们的另一篇博客：[你的学生邮箱能薅到哪些羊毛？](https://hoa.moe/blog/privileges-with-edu-email/)
+- 收费，但是可以申请学生许可证，参见我们的另一篇博客：[你的学生邮箱能薅到哪些羊毛？](https://hoa.moe/blog/privileges-with-edu-email/)
 
 著名的 CAD 软件，用于绘制 2D 和 3D 工程图，但简易程度不如 SolidWorks。
 
@@ -111,7 +111,7 @@ PSpice 并不能独立运行，你必须在 OrCAD Capture 中绘制电路原理�
 - 可能用到的课程
   - 高级语言程序设计
 - 官网：[Code::Blocks](http://www.codeblocks.org/) | 民间的汉化版：[codeblocks-cn](https://anbangli.github.io/codeblocks-cn/)
-- [x] 免费
+- 免费开源
 
 虽然 CodeBlocks 在今天已经显得非常过时，但它开箱即用，不需要自己配置开发环境，因此它仍是学校里 C 语言课程的指定工具。
 
@@ -122,11 +122,11 @@ PSpice 并不能独立运行，你必须在 OrCAD Capture 中绘制电路原理�
 ![嘉立创 EDA](images/jlceda.png "嘉立创 EDA 软件截图（源：自己截的）")
 
 - 可能用到的课程
-  - 自动控制实践
+  - 自动控制实践实验
   - 电子工艺实习
   - 需要设计 PCB 的竞赛
 - 官网：[嘉立创 EDA](https://lceda.cn/)
-- [x] 免费
+- 免费
 
 国产的 PCB 设计软件，使用方便，很适合初学者。
 
@@ -144,7 +144,7 @@ PSpice 并不能独立运行，你必须在 OrCAD Capture 中绘制电路原理�
   - 自动控制实践实验
   - 系统建模与仿真
 - 官网：[MATLAB - MathWorks](https://ww2.mathworks.cn/products/matlab.html)
-- [ ] 免费
+- 收费
 
 MATLAB 是一个用于算法开发、数据可视化、数据分析以及数值计算的高级技术计算语言和交互式环境。
 它还带有 Simulink 等工具箱，用于建模、仿真和分析动态系统。
@@ -153,7 +153,7 @@ MATLAB 是一个用于算法开发、数据可视化、数据分析以及数值�
 MATLAB 每年会发行 2 个版本，例如 2023 年有 R2023a 和 R2023b。
 
 学校的计算机房安装有被美国制裁前的 MATLAB R2015b。
-如果你自己使用较新版本的 MATLAB，可能出现个别 API 和 2015 年不兼容的情况。
+如果你在个人电脑上使用较新版本的 MATLAB，可能出现个别 API 和 2015 年不兼容的情况。
 
 学校机房中也装有国产的 [MWorks](https://www.tongyuan.cc/product/MWorks)，功能与 MATLAB 类似。
 
@@ -165,7 +165,7 @@ MATLAB 每年会发行 2 个版本，例如 2023 年有 R2023a 和 R2023b。
   - 数字电子技术实验 / 电路与电子技术实验
   - 自动控制实践实验
 - 官网：[Multisim - NI](https://www.ni.com/zh-cn/shop/product/multisim.html)
-- [ ] 免费
+- 收费
 
 Multisim 是美国 National Instrments 开发的电子电路仿真软件。
 学校里一般用它来仿真数字电路。
@@ -177,7 +177,7 @@ Multisim 是美国 National Instrments 开发的电子电路仿真软件。
 - 可能用到的课程
   - 自动控制实践实验
 - 官网：[Proteus - Labcenter Electronics](https://www.labcenter.com/)
-- [ ] 免费
+- 收费
 
 Proteus 也属于 EDA 软件，但它的特点在于一个软件集成了原理图、PCB 设计和仿真三个功能，以及支持 Arduino 和 51 单片机的仿真。
 
@@ -195,7 +195,7 @@ L298N 的仿真电路，然而 Multisim 中没有 L298N 的仿真模型，不得
   - 金工实习
   - 需要设计机械的竞赛
 - 官网：[SolidWorks](https://www.solidworks.com/)
-- [ ] 免费
+- 收费
 
 SolidWorks 是基于特征的三维实体建模软件，也是我们学校自动化、机械等专业，以及各大小机器人竞赛队伍的必备工具。
 
@@ -213,7 +213,7 @@ SolidWorks 每年会出一个版本，但其实 2015 年后的 SolidWorks 大同
 - 可能用到的课程
   - 数字电子技术实验 / 电路与电子技术实验 / 数字逻辑设计
 - 官网：[Vivado 概述 - AMD](https://www.amd.com/zh-cn/products/software/adaptive-socs-and-fpgas/vivado.html)
-- [x] 免费（标准版），OSA 网盘中有历史版本安装包。
+- 免费（标准版），OSA 网盘中有历史版本安装包。
 
 Vivado 是 Xilinx 公司的 FPGA 开发工具，用于设计、仿真和综合 FPGA 电路。
 2022 年 Xilinx 被 AMD 收购，Vivado 也被整合到 AMD 的工具链中。
