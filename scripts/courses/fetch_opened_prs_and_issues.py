@@ -87,7 +87,7 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
         f.write("## 待解决的 Issues\n\n")
         f.truncate()
         
-        filtered_issues = [i for i in issues if i['repository']['name'] != 'hoa-moe']
+        filtered_issues = [i for i in issues if i['repository']['name'] != 'hoa-moe' and not i['repository']['private']]
         
         if not filtered_issues:
             f.write("暂无待解决的 Issues\n\n")
@@ -107,7 +107,7 @@ def fetch_opened_prs_and_issues(org_name, pat=None):
         
         f.write("## 待合并的 Pull Requests\n\n")
         
-        filtered_prs = [p for p in prs if p['repository']['name'] != 'hoa-moe']
+        filtered_prs = [p for p in prs if p['repository']['name'] != 'hoa-moe' and not i['repository']['private']]
         
         if not filtered_prs:
             f.write("暂无待合并的 Pull Requests\n\n")
