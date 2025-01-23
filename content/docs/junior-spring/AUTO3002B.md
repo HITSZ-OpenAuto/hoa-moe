@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 20 日" author="psp_dada" message="修改试题命名 (#8)" >}}
+{{< update-info update_time="2025 年 1 月 23 日" author="IcyDesert" message="删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#9)" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
