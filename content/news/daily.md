@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-23'
-description: 北京时间 2025-01-22 03 时至今
+description: 北京时间 2025-01-22 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,30 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周四 (1.23)
+
+- longlin li 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Update trigger-workflow.yml (#13)
+
+- IcyDesert 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#12)
+
+- IcyDesert 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
+
+- IcyDesert 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
+
+- IcyDesert 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
+
+- IcyDesert 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#9)
+
+- IcyDesert 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
+
+- IcyDesert 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
+
+- IcyDesert 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
+
+- IcyDesert 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
+
+- IcyDesert 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
+
+- W·D·Gaster 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：修改文档落款格式，删除不明确的老师说明 (#9)
 
 - W·D·Gaster 在 [模拟电子技术基础](https://github.com/HITSZ-OpenAuto/EE1007) 中提交了信息：上传误删的哈工大 10-16 试题 (#13)
 
@@ -115,6 +139,36 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位](https://github.com/HITSZ-OpenAuto/AUTO3005/pull/12)
+
+- **仓库**: AUTO3005
+- **创建于**: 2025-01-23T11:33:15Z
+- **作者**: IcyDesert
+
+### [删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/10)
+
+- **仓库**: AUTO3001B
+- **创建于**: 2025-01-23T10:23:20Z
+- **作者**: IcyDesert
+
+### [删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位](https://github.com/HITSZ-OpenAuto/MECH2010/pull/5)
+
+- **仓库**: MECH2010
+- **创建于**: 2025-01-23T10:15:41Z
+- **作者**: IcyDesert
+
+### [删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位](https://github.com/HITSZ-OpenAuto/AUTO3003/pull/11)
+
+- **仓库**: AUTO3003
+- **创建于**: 2025-01-23T09:58:14Z
+- **作者**: IcyDesert
+
+### [更新文件命名；更新实验报告、作业版本（其中代码已做处理）](https://github.com/HITSZ-OpenAuto/AUTO3006/pull/9)
+
+- **仓库**: AUTO3006
+- **创建于**: 2025-01-23T07:14:56Z
+- **作者**: OliverWu515
+
 ### [更新一个实验报告版本；根据同学们的反馈更新课程描述](https://github.com/HITSZ-OpenAuto/AUTO3024/pull/3)
 
 - **仓库**: AUTO3024
@@ -127,18 +181,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-22T05:46:11Z
 - **作者**: guoyuchen2004
 
-### [fix: update trigger-workflow](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/13)
-
-- **仓库**: MATH1015A
-- **创建于**: 2025-01-21T07:13:50Z
-- **作者**: longlin10086
-
-### [Update README.md](https://github.com/HITSZ-OpenAuto/MATH1004/pull/12)
-
-- **仓库**: MATH1004
-- **创建于**: 2025-01-20T14:08:22Z
-- **作者**: guoyuchen2004
-
 ### [Update README.md](https://github.com/HITSZ-OpenAuto/MATH1005/pull/14)
 
 - **仓库**: MATH1005
@@ -149,12 +191,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO2005
 - **创建于**: 2025-01-19T08:25:25Z
-- **作者**: WDGaster703
-
-### [修改文档落款格式，删除不明确的老师说明](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/9)
-
-- **仓库**: GEIP1016
-- **创建于**: 2025-01-19T08:15:25Z
 - **作者**: WDGaster703
 
 ### [修改 readme 格式，修改部分文件命名](https://github.com/HITSZ-OpenAuto/EE1011B/pull/12)

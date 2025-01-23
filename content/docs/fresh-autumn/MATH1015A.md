@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 21 日" author="W·D·Gaster" message="补充教材 (#11)" >}}
+{{< update-info update_time="2025 年 1 月 23 日" author="longlin li" message="Update trigger-workflow.yml (#13)" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
