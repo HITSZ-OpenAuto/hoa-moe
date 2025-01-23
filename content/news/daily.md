@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-23'
-description: 北京时间 2025-01-22 00 时至今
+description: 北京时间 2025-01-22 03 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周四 (1.23)
+
+- W·D·Gaster 在 [模拟电子技术基础](https://github.com/HITSZ-OpenAuto/EE1007) 中提交了信息：上传误删的哈工大 10-16 试题 (#13)
 
 - W·D·Gaster 在 [数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：修改 readme 文档的部分格式，修改部分文件命名 (#14)
 
@@ -99,12 +101,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-19T03:59:26Z
 - **作者**: WDGaster703
 
-### [C 语言](https://github.com/HITSZ-OpenAuto/COMP2021/issues/9)
-
-- **仓库**: COMP2021
-- **创建于**: 2025-01-19T03:52:54Z
-- **作者**: WDGaster703
-
 ### [线代](https://github.com/HITSZ-OpenAuto/MATH1002/issues/12)
 
 - **仓库**: MATH1002
@@ -119,11 +115,11 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [上传误删的哈工大 10-16 试题](https://github.com/HITSZ-OpenAuto/EE1007/pull/13)
+### [更新一个实验报告版本；根据同学们的反馈更新课程描述](https://github.com/HITSZ-OpenAuto/AUTO3024/pull/3)
 
-- **仓库**: EE1007
-- **创建于**: 2025-01-22T16:09:05Z
-- **作者**: WDGaster703
+- **仓库**: AUTO3024
+- **创建于**: 2025-01-23T03:39:14Z
+- **作者**: OliverWu515
 
 ### [Update README.md](https://github.com/HITSZ-OpenAuto/MATH1004/pull/13)
 
