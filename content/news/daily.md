@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-01-22'
-description: 北京时间 2025-01-21 10 时至今
+date: '2025-01-23'
+description: 北京时间 2025-01-22 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,7 +12,17 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周四 (1.23)
+
+- W·D·Gaster 在 [数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：修改 readme 文档的部分格式，修改部分文件命名 (#14)
+
 ### 周三 (1.22)
+
+- W·D·Gaster 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：修改部分文件命名，上传高瑜老师的讲义 (#12)
+
+- IcyDesert 在 [系统建模与仿真](https://github.com/HITSZ-OpenAuto/AUTO3004) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#11)
+
+- IcyDesert 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
 
 - IcyDesert 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#26)
 
@@ -31,26 +41,6 @@ title: AUTO 更新速递
 - IcyDesert 在 [数字电子技术基础](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#15)
 
 - 吴俊达 在 [非线性与自适应控制](https://github.com/HITSZ-OpenAuto/AUTO5005) 中提交了信息：更新非线性与自适应控制笔记和试卷 (#2)
-
-### 周二 (1.21)
-
-- IcyDesert 在 [模拟电子技术基础](https://github.com/HITSZ-OpenAuto/EE1007) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#12)
-
-- IcyDesert 在 [模拟电子技术实验](https://github.com/HITSZ-OpenAuto/EE1008) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- W·D·Gaster 在 [模拟电子技术基础](https://github.com/HITSZ-OpenAuto/EE1007) 中提交了信息：补充谷雨老师的评价，修改 readme 的部分格式，修改部分文件命名
-
-- IcyDesert 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：加入 .gitkeep 作为文件夹占位 (#16)
-
-- IcyDesert 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [系统与控制](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- W·D·Gaster 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：补充教材 (#11)
 
 ## 待解决的 Issues
 
@@ -77,12 +67,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3005
 - **创建于**: 2025-01-19T13:16:30Z
-- **作者**: MaxwellJay256
-
-### [AUTO3004](https://github.com/HITSZ-OpenAuto/AUTO3004/issues/10)
-
-- **仓库**: AUTO3004
-- **创建于**: 2025-01-19T13:16:25Z
 - **作者**: MaxwellJay256
 
 ### [AUTO3003](https://github.com/HITSZ-OpenAuto/AUTO3003/issues/10)
@@ -115,22 +99,10 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-19T03:59:26Z
 - **作者**: WDGaster703
 
-### [自控](https://github.com/HITSZ-OpenAuto/EE2005/issues/1)
-
-- **仓库**: EE2005
-- **创建于**: 2025-01-19T03:55:04Z
-- **作者**: WDGaster703
-
 ### [C 语言](https://github.com/HITSZ-OpenAuto/COMP2021/issues/9)
 
 - **仓库**: COMP2021
 - **创建于**: 2025-01-19T03:52:54Z
-- **作者**: WDGaster703
-
-### [复变](https://github.com/HITSZ-OpenAuto/MATH1005/issues/13)
-
-- **仓库**: MATH1005
-- **创建于**: 2025-01-19T03:52:46Z
 - **作者**: WDGaster703
 
 ### [线代](https://github.com/HITSZ-OpenAuto/MATH1002/issues/12)
@@ -146,6 +118,12 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [上传误删的哈工大 10-16 试题](https://github.com/HITSZ-OpenAuto/EE1007/pull/13)
+
+- **仓库**: EE1007
+- **创建于**: 2025-01-22T16:09:05Z
+- **作者**: WDGaster703
 
 ### [Update README.md](https://github.com/HITSZ-OpenAuto/MATH1004/pull/13)
 
@@ -183,12 +161,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-19T08:15:25Z
 - **作者**: WDGaster703
 
-### [修改 readme 文档的部分格式，修改部分文件命名](https://github.com/HITSZ-OpenAuto/EE1009/pull/14)
-
-- **仓库**: EE1009
-- **创建于**: 2025-01-19T08:13:06Z
-- **作者**: WDGaster703
-
 ### [修改 readme 格式，修改部分文件命名](https://github.com/HITSZ-OpenAuto/EE1011B/pull/12)
 
 - **仓库**: EE1011B
@@ -211,12 +183,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2021
 - **创建于**: 2025-01-19T03:47:20Z
-- **作者**: WDGaster703
-
-### [修改部分文件命名，上传高瑜老师的讲义](https://github.com/HITSZ-OpenAuto/MATH1005/pull/12)
-
-- **仓库**: MATH1005
-- **创建于**: 2025-01-19T03:26:43Z
 - **作者**: WDGaster703
 
 ### [修改部分文件命名和文件夹归属，添加教材](https://github.com/HITSZ-OpenAuto/MATH1004/pull/10)
