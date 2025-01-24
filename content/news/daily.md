@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-24'
-description: 北京时间 2025-01-23 00 时至今
+description: 北京时间 2025-01-23 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,20 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周五 (1.24)
+
+- W·D·Gaster 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改落款格式，将课程内容单列使之更清晰 (#16)
+
+- W·D·Gaster 在 [高级语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2021) 中提交了信息：添加 23 级作业和实验代码文件，修改部分文件命名，修改 readme 部分的格式问题 (#8)
+
+- 吴俊达 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：更新文件命名；更新实验报告、作业版本（其中代码已做处理） (#9)
+
+- 吴俊达 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：更新一个实验报告版本；根据同学们的反馈更新课程描述 (#3)
+
+- guoyuchen2004 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：Update README.md (#14)
+
+- guoyuchen2004 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md (#13)
+
+- IcyDesert 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#10)
 
 - IcyDesert 在 [机器人学导论](https://github.com/HITSZ-OpenAuto/AUTO3005) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#12)
 
@@ -50,6 +64,12 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [AUTO3019](https://github.com/HITSZ-OpenAuto/AUTO3019/issues/2)
+
+- **仓库**: AUTO3019
+- **创建于**: 2025-01-24T07:56:41Z
+- **作者**: OliverWu515
+
 ### [AUTO5023](https://github.com/HITSZ-OpenAuto/AUTO5023/issues/5)
 
 - **仓库**: AUTO5023
@@ -69,22 +89,10 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-19T13:16:38Z
 - **作者**: MaxwellJay256
 
-### [AUTO3006](https://github.com/HITSZ-OpenAuto/AUTO3006/issues/8)
-
-- **仓库**: AUTO3006
-- **创建于**: 2025-01-19T13:16:34Z
-- **作者**: MaxwellJay256
-
 ### [AUTO3003](https://github.com/HITSZ-OpenAuto/AUTO3003/issues/10)
 
 - **仓库**: AUTO3003
 - **创建于**: 2025-01-19T13:16:19Z
-- **作者**: MaxwellJay256
-
-### [AUTO3024](https://github.com/HITSZ-OpenAuto/AUTO3024/issues/2)
-
-- **仓库**: AUTO3024
-- **创建于**: 2025-01-19T13:16:13Z
 - **作者**: MaxwellJay256
 
 ### [AUTO3001B](https://github.com/HITSZ-OpenAuto/AUTO3001B/issues/9)
@@ -119,53 +127,29 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [删除无用的 readme 文件](https://github.com/HITSZ-OpenAuto/MATH1005/pull/16)
+
+- **仓库**: MATH1005
+- **创建于**: 2025-01-24T07:55:53Z
+- **作者**: WDGaster703
+
+### [更改文件名](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/11)
+
+- **仓库**: AUTO3001B
+- **创建于**: 2025-01-24T07:47:42Z
+- **作者**: OliverWu515
+
 ### [2024 年 DIP 课程文档和资料更新](https://github.com/HITSZ-OpenAuto/AUTO3003/pull/12)
 
 - **仓库**: AUTO3003
 - **创建于**: 2025-01-23T15:36:42Z
 - **作者**: MaxwellJay256
 
-### [删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/10)
-
-- **仓库**: AUTO3001B
-- **创建于**: 2025-01-23T10:23:20Z
-- **作者**: IcyDesert
-
 ### [删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位](https://github.com/HITSZ-OpenAuto/MECH2010/pull/5)
 
 - **仓库**: MECH2010
 - **创建于**: 2025-01-23T10:15:41Z
 - **作者**: IcyDesert
-
-### [更新文件命名；更新实验报告、作业版本（其中代码已做处理）](https://github.com/HITSZ-OpenAuto/AUTO3006/pull/9)
-
-- **仓库**: AUTO3006
-- **创建于**: 2025-01-23T07:14:56Z
-- **作者**: OliverWu515
-
-### [更新一个实验报告版本；根据同学们的反馈更新课程描述](https://github.com/HITSZ-OpenAuto/AUTO3024/pull/3)
-
-- **仓库**: AUTO3024
-- **创建于**: 2025-01-23T03:39:14Z
-- **作者**: OliverWu515
-
-### [Update README.md](https://github.com/HITSZ-OpenAuto/MATH1004/pull/13)
-
-- **仓库**: MATH1004
-- **创建于**: 2025-01-22T05:46:11Z
-- **作者**: guoyuchen2004
-
-### [Update README.md](https://github.com/HITSZ-OpenAuto/MATH1005/pull/14)
-
-- **仓库**: MATH1005
-- **创建于**: 2025-01-20T14:01:12Z
-- **作者**: guoyuchen2004
-
-### [修改落款格式，将课程内容单列使之更清晰](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/16)
-
-- **仓库**: AUTO2005
-- **创建于**: 2025-01-19T08:25:25Z
-- **作者**: WDGaster703
 
 ### [修改 readme 格式，修改部分文件命名](https://github.com/HITSZ-OpenAuto/EE1011B/pull/12)
 
@@ -183,11 +167,5 @@ title: AUTO 更新速递
 
 - **仓库**: PHYS1001
 - **创建于**: 2025-01-19T07:01:56Z
-- **作者**: WDGaster703
-
-### [添加 23 级作业和实验代码文件，修改部分文件命名，修改 readme 部分的格式问题](https://github.com/HITSZ-OpenAuto/COMP2021/pull/8)
-
-- **仓库**: COMP2021
-- **创建于**: 2025-01-19T03:47:20Z
 - **作者**: WDGaster703
 
