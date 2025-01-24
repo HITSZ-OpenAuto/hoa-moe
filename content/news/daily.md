@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-24'
-description: 北京时间 2025-01-23 08 时至今
+description: 北京时间 2025-01-23 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,21 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (1.25)
+
+- 吴俊达 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Update tag.txt
+
 ### 周五 (1.24)
+
+- 吴俊达 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Update tag.txt
+
+- 吴俊达 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：Initial commit
+
+- IcyDesert 在 [机械设计基础](https://github.com/HITSZ-OpenAuto/MECH2010) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#5)
 
 - W·D·Gaster 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改落款格式，将课程内容单列使之更清晰 (#16)
 
-- W·D·Gaster 在 [高级语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2021) 中提交了信息：添加 23 级作业和实验代码文件，修改部分文件命名，修改 readme 部分的格式问题 (#8)
+- W·D·Gaster 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：添加 23 级作业和实验代码文件，修改部分文件命名，修改 readme 部分的格式问题 (#8)
 
 - 吴俊达 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：更新文件命名；更新实验报告、作业版本（其中代码已做处理） (#9)
 
@@ -144,12 +154,6 @@ title: AUTO 更新速递
 - **仓库**: AUTO3003
 - **创建于**: 2025-01-23T15:36:42Z
 - **作者**: MaxwellJay256
-
-### [删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位](https://github.com/HITSZ-OpenAuto/MECH2010/pull/5)
-
-- **仓库**: MECH2010
-- **创建于**: 2025-01-23T10:15:41Z
-- **作者**: IcyDesert
 
 ### [修改 readme 格式，修改部分文件命名](https://github.com/HITSZ-OpenAuto/EE1011B/pull/12)
 
