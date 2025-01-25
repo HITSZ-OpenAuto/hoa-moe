@@ -30,6 +30,7 @@ sidebar:
   {{< card link="https://man.naosi.org/" title="大工生存手册" >}}
   {{< card link="https://scuteee.com/" title="SCUTEEE" >}}
   {{< card link="https://github.com/kowyo/hitsz-connect-verge" title="HITSZ Connect Verge（校外访问校园网）" >}}
+  {{< card link="https://penjc.github.io/CityU/" title="CityU GuideBook" >}}
 {{< /cards >}}
 
 ## 个人博客
