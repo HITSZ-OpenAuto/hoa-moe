@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-01-24'
-description: 北京时间 2025-01-23 16 时至今
+date: '2025-01-25'
+description: 北京时间 2025-01-24 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -37,40 +37,6 @@ title: AUTO 更新速递
 - guoyuchen2004 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md (#13)
 
 - IcyDesert 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#10)
-
-- IcyDesert 在 [机器人学导论](https://github.com/HITSZ-OpenAuto/AUTO3005) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#12)
-
-### 周四 (1.23)
-
-- W·D·Gaster 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：修改部分文件命名和文件夹归属，添加教材 (#10)
-
-- IcyDesert 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#11)
-
-- longlin li 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Update trigger-workflow.yml (#13)
-
-- IcyDesert 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#12)
-
-- IcyDesert 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#9)
-
-- IcyDesert 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- IcyDesert 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位
-
-- W·D·Gaster 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：修改文档落款格式，删除不明确的老师说明 (#9)
-
-- W·D·Gaster 在 [模拟电子技术基础](https://github.com/HITSZ-OpenAuto/EE1007) 中提交了信息：上传误删的哈工大 10-16 试题 (#13)
 
 ## 待解决的 Issues
 
