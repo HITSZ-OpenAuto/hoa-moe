@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-25'
-description: 北京时间 2025-01-24 00 时至今
+description: 北京时间 2025-01-24 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,14 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周六 (1.25)
+
+- Hye 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：更新课程说明；更新 2024 秋考试试题 (#6)
+
+- 吴俊达 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更改文件名 (#11)
+
+- Maxwell Jay 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：2024 年 DIP 课程文档和资料更新 (#12)
+
+- 吴俊达 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：更新 README.md
 
 - 吴俊达 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Update tag.txt
 
@@ -46,12 +54,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-24T07:56:41Z
 - **作者**: OliverWu515
 
-### [AUTO5023](https://github.com/HITSZ-OpenAuto/AUTO5023/issues/5)
-
-- **仓库**: AUTO5023
-- **创建于**: 2025-01-23T16:00:54Z
-- **作者**: OliverWu515
-
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
 - **仓库**: MATH1002
@@ -63,18 +65,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3011
 - **创建于**: 2025-01-19T13:16:38Z
-- **作者**: MaxwellJay256
-
-### [AUTO3003](https://github.com/HITSZ-OpenAuto/AUTO3003/issues/10)
-
-- **仓库**: AUTO3003
-- **创建于**: 2025-01-19T13:16:19Z
-- **作者**: MaxwellJay256
-
-### [AUTO3001B](https://github.com/HITSZ-OpenAuto/AUTO3001B/issues/9)
-
-- **仓库**: AUTO3001B
-- **创建于**: 2025-01-19T13:16:05Z
 - **作者**: MaxwellJay256
 
 ### [微积分](https://github.com/HITSZ-OpenAuto/MATH1015A/issues/12)
@@ -108,18 +98,6 @@ title: AUTO 更新速递
 - **仓库**: MATH1005
 - **创建于**: 2025-01-24T07:55:53Z
 - **作者**: WDGaster703
-
-### [更改文件名](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/11)
-
-- **仓库**: AUTO3001B
-- **创建于**: 2025-01-24T07:47:42Z
-- **作者**: OliverWu515
-
-### [2024 年 DIP 课程文档和资料更新](https://github.com/HITSZ-OpenAuto/AUTO3003/pull/12)
-
-- **仓库**: AUTO3003
-- **创建于**: 2025-01-23T15:36:42Z
-- **作者**: MaxwellJay256
 
 ### [修改 readme 格式，修改部分文件命名](https://github.com/HITSZ-OpenAuto/EE1011B/pull/12)
 
