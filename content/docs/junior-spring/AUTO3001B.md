@@ -6,12 +6,12 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 24 日" author="IcyDesert" message="删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#10)" >}}
+{{< update-info update_time="2025 年 1 月 25 日" author="吴俊达" message="更改文件名 (#11)" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
-![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)
+![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86(2025 %E6%98%A5%E4%B9%8B%E5%89%8D)-5-moccasin)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86(2025 %E6%98%A5%E5%BC%80%E5%A7%8B)-4.5-moccasin)
 
 </div>
 
@@ -106,12 +106,10 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
+    {{< hoa-filetree/file name="2022-补考前复习题 - 参考解答" type="pdf" size="2.5 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2022-%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf" >}}
+    {{< hoa-filetree/file name="2022-补考前复习题" type="pdf" size="5.8 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2022-%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
     {{< hoa-filetree/file name="2024 自动控制理论 B 试题回忆版 (V1.0)" type="pdf" size="367.1 KB" date="2024/09/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BAB%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%28V1.0%29.pdf" >}}
     {{< hoa-filetree/file name="2024 自组模拟试卷（习题来自课件和作业）_Abigzhe" type="zip" size="1.7 MB" date="2024/10/11" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/2024%E8%87%AA%E7%BB%84%E6%A8%A1%E6%8B%9F%E8%AF%95%E5%8D%B7%EF%BC%88%E4%B9%A0%E9%A2%98%E6%9D%A5%E8%87%AA%E8%AF%BE%E4%BB%B6%E5%92%8C%E4%BD%9C%E4%B8%9A%EF%BC%89_Abigzhe.zip" >}}
-    {{< hoa-filetree/file name="自控 B-校正" type="pdf" size="10.1 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf" >}}
-    {{< hoa-filetree/file name="自控理论 b 考试回忆" type="pdf" size="2.0 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf" >}}
-    {{< hoa-filetree/file name="补考前复习题 - 参考解答" type="pdf" size="2.5 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98-%E5%8F%82%E8%80%83%E8%A7%A3%E7%AD%94.pdf" >}}
-    {{< hoa-filetree/file name="补考前复习题" type="pdf" size="5.8 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/exams/%E8%A1%A5%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
     {{< hoa-filetree/file name="2024_WJD_上机一" type="pdf" size="419.8 KB" date="2024/11/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/labs/2024_WJD_%E4%B8%8A%E6%9C%BA%E4%B8%80.pdf" >}}
@@ -132,8 +130,10 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
+    {{< hoa-filetree/file name="2022-自控 B-校正" type="pdf" size="10.1 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2022-%E8%87%AA%E6%8E%A7B-%E6%A0%A1%E6%AD%A3.pdf" >}}
+    {{< hoa-filetree/file name="2022-自控理论 b 考试复习" type="pdf" size="2.0 MB" date="2024/05/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2022-%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAb%E8%80%83%E8%AF%95%E5%A4%8D%E4%B9%A0.pdf" >}}
+    {{< hoa-filetree/file name="2023-自控 B_Tintin" type="pdf" size="12.4 MB" date="2024/07/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2023-%E8%87%AA%E6%8E%A7B_Tintin.pdf" >}}
     {{< hoa-filetree/file name="2024 复习 (习题来自课件和作业)_Abigzhe" type="pdf" size="18.1 MB" date="2024/10/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2024%E5%A4%8D%E4%B9%A0%28%E4%B9%A0%E9%A2%98%E6%9D%A5%E8%87%AA%E8%AF%BE%E4%BB%B6%E5%92%8C%E4%BD%9C%E4%B8%9A%29_Abigzhe.pdf" >}}
-    {{< hoa-filetree/file name="自控 B_Tintin" type="pdf" size="12.4 MB" date="2024/07/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/%E8%87%AA%E6%8E%A7B_Tintin.pdf" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
