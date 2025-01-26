@@ -6,12 +6,12 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 25 日" author="吴俊达" message="更改文件名 (#11)" >}}
+{{< update-info update_time="2025 年 1 月 25 日" author="吴俊达" message="更新显示错误的学分数" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
 
-![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86(2025 %E6%98%A5%E4%B9%8B%E5%89%8D)-5-moccasin)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86(2025 %E6%98%A5%E5%BC%80%E5%A7%8B)-4.5-moccasin)
+![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）-5-moccasin)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E5%BC%80%E5%A7%8B）-4.5-moccasin)
 
 </div>
 
