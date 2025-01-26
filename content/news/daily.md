@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-01-25'
-description: 北京时间 2025-01-24 15 时至今
+date: '2025-01-26'
+description: 北京时间 2025-01-25 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周六 (1.25)
 
+- W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修改部分文件命名，上传 24 秋本部章节练习题，补充大物 II 部分内容，修改学习建议 (#11)
+
+- 吴俊达 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更新显示错误的学分数
+
 - Hye 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：更新课程说明；更新 2024 秋考试试题 (#6)
 
 - 吴俊达 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更改文件名 (#11)
@@ -21,30 +25,6 @@ title: AUTO 更新速递
 - Maxwell Jay 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：2024 年 DIP 课程文档和资料更新 (#12)
 
 - 吴俊达 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：更新 README.md
-
-- 吴俊达 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Update tag.txt
-
-### 周五 (1.24)
-
-- 吴俊达 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Update tag.txt
-
-- 吴俊达 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：Initial commit
-
-- IcyDesert 在 [机械设计基础](https://github.com/HITSZ-OpenAuto/MECH2010) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#5)
-
-- W·D·Gaster 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改落款格式，将课程内容单列使之更清晰 (#16)
-
-- W·D·Gaster 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：添加 23 级作业和实验代码文件，修改部分文件命名，修改 readme 部分的格式问题 (#8)
-
-- 吴俊达 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：更新文件命名；更新实验报告、作业版本（其中代码已做处理） (#9)
-
-- 吴俊达 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：更新一个实验报告版本；根据同学们的反馈更新课程描述 (#3)
-
-- guoyuchen2004 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：Update README.md (#14)
-
-- guoyuchen2004 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md (#13)
-
-- IcyDesert 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#10)
 
 ## 待解决的 Issues
 
@@ -109,11 +89,5 @@ title: AUTO 更新速递
 
 - **仓库**: EE1011A
 - **创建于**: 2025-01-19T07:28:31Z
-- **作者**: WDGaster703
-
-### [修改部分文件命名，上传 24 秋本部章节练习题，补充大物 II 部分内容，修改学习建议](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/11)
-
-- **仓库**: PHYS1001
-- **创建于**: 2025-01-19T07:01:56Z
 - **作者**: WDGaster703
 
