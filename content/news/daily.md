@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-26'
-description: 北京时间 2025-01-25 00 时至今
+description: 北京时间 2025-01-25 03 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -72,6 +72,12 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [更新 2024 秋季情况](https://github.com/HITSZ-OpenAuto/AUTO3019/pull/3)
+
+- **仓库**: AUTO3019
+- **创建于**: 2025-01-26T03:52:28Z
+- **作者**: OliverWu515
 
 ### [删除无用的 readme 文件](https://github.com/HITSZ-OpenAuto/MATH1005/pull/16)
 
