@@ -4,13 +4,21 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-01-26'
-description: 北京时间 2025-01-25 03 时至今
+description: 北京时间 2025-01-25 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周日 (1.26)
+
+- W·D·Gaster 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：删除无用的 readme 文件 (#16)
+
+- W·D·Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件，添加一份笔记 (#2)
+
+- W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#20)
 
 ### 周六 (1.25)
 
@@ -73,17 +81,23 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [以 .gitkeep 文件替代无用的 readme.md 文件，修改文档格式](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/2)
+
+- **仓库**: ENGG1003
+- **创建于**: 2025-01-26T13:45:00Z
+- **作者**: WDGaster703
+
+### [更新课程文档、上传 2024 年期末试题及参考答案](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/10)
+
+- **仓库**: AUTO3001A
+- **创建于**: 2025-01-26T09:12:42Z
+- **作者**: MaxwellJay256
+
 ### [更新 2024 秋季情况](https://github.com/HITSZ-OpenAuto/AUTO3019/pull/3)
 
 - **仓库**: AUTO3019
 - **创建于**: 2025-01-26T03:52:28Z
 - **作者**: OliverWu515
-
-### [删除无用的 readme 文件](https://github.com/HITSZ-OpenAuto/MATH1005/pull/16)
-
-- **仓库**: MATH1005
-- **创建于**: 2025-01-24T07:55:53Z
-- **作者**: WDGaster703
 
 ### [修改 readme 格式，修改部分文件命名](https://github.com/HITSZ-OpenAuto/EE1011B/pull/12)
 
