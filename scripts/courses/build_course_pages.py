@@ -8,20 +8,19 @@ from argparse import ArgumentParser
 
 import aiohttp
 
-# Constants def
+# Constants def, the gap should be larger than the total of repos
 weights = {
     "counter_man": 1,  # The available weight of the template starts from 1
-    "counter_dis": 100,
-    "counter_graduate": 200,
-    "counter_cross": 300,
-    "counter_general": 400,
+    "counter_dis": 200,
+    "counter_graduate": 400,
+    "counter_cross": 600,
+    "counter_general": 800,
     "counter_legacy": 1000,
 }
 
 counters = {
     "mandatory": "counter_man",
     "distributional-selective": "counter_dis",
-    "graduate-course": "counter_graduate",
     "undergraduate-graduate-course": "counter_graduate",
     "selective": "counter_graduate",
     "cross-major-selective": "counter_cross",
@@ -53,10 +52,6 @@ category_mapping: dict[str] = {
     "限选": (
         "distributional-selective",
         "[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)",
-    ),
-    "研究生阶段课程": (
-        "graduate-course",
-        "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看[研究生阶段课程选课指南](https://hoa.moe/blog/master-phd-course-selection/)。",
     ),
     "本研共通": (
         "undergraduate-graduate-course",
