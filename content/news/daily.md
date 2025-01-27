@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-01-26'
-description: 北京时间 2025-01-25 14 时至今
+date: '2025-01-27'
+description: 北京时间 2025-01-26 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,25 +14,15 @@ title: AUTO 更新速递
 
 ### 周日 (1.26)
 
+- W·D·Gaster 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#8)
+
+- W·D·Gaster 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#10)
+
 - W·D·Gaster 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：删除无用的 readme 文件 (#16)
 
 - W·D·Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件，添加一份笔记 (#2)
 
 - W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#20)
-
-### 周六 (1.25)
-
-- W·D·Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修改部分文件命名，上传 24 秋本部章节练习题，补充大物 II 部分内容，修改学习建议 (#11)
-
-- 吴俊达 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更新显示错误的学分数
-
-- Hye 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：更新课程说明；更新 2024 秋考试试题 (#6)
-
-- 吴俊达 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更改文件名 (#11)
-
-- Maxwell Jay 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：2024 年 DIP 课程文档和资料更新 (#12)
-
-- 吴俊达 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：更新 README.md
 
 ## 待解决的 Issues
 
@@ -80,6 +70,12 @@ title: AUTO 更新速递
 - **作者**: OliverWu515
 
 ## 待合并的 Pull Requests
+
+### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/9)
+
+- **仓库**: MATH1015B
+- **创建于**: 2025-01-26T14:54:37Z
+- **作者**: WDGaster703
 
 ### [以 .gitkeep 文件替代无用的 readme.md 文件，修改文档格式](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/2)
 
