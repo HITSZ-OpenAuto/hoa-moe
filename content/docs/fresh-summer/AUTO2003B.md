@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 3 日" author="longlin li" message="docs: change link style" >}}
+{{< update-info update_time="2025 年 1 月 26 日" author="W·D·Gaster" message="以 .gitkeep 文件替代无用的 readme.md 文件 (#8)" >}}
 
 
 <!--
@@ -54,7 +54,7 @@ math: true
 - 本课程与教师基本无关。结题答辩时的老师也是任意分配的。
 
 ## 攻略
-> 文 / [@Maxwell Jay](https://github.com/MaxwellJay256), 2023.12
+> 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2023.12
 
 这应该是自动化学生为数不多的参与软件开发的机会。
 
