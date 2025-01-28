@@ -54,5 +54,24 @@ on:
 
 ![action](action.png)
 
+## 📎其它附属组件
 
+1. HOA 集成了 `giscus` 评论系统，我们可以在仓库的 `Discussions` 界面查看页面评论
 
+![comments](comments.png)
+
+2. HOA 有一个名为 `course-template` 的私有模板仓库，创建新课程仓库时请选择从该模板仓库生成
+
+![template](template.png)
+
+3. 你可以在组织的 `Projects` 界面内新建任务，方便管理当前某项任务的进度
+
+![projects](projects.png)
+
+## 🎉完结撒花
+
+看完本系列教程，相信你对 HOA 的功能开发已有一个完整认识。通过逐步学习和实践，你已经掌握了从基础架构到具体功能实现的全过程。
+
+当然，技术学习是一个持续的过程，本文档介绍的内容只是一个起点。希望你能够在项目的日常维护中运用这些知识，并在实践中不断探索和创新，发现更多优秀的开发模式和解决方案。让我们携手共建更好的 HOA！
+
+Talk is cheap, show me the code！🚀
