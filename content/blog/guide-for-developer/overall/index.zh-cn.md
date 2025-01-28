@@ -36,7 +36,7 @@ tree -L 1 .
 ├── content         # 存放 md 文件，Hugo 能自动将其中的 markdown 文件转化成相应 HTML 网页
 ├── i18n            # 语言相关配置
 ├── layouts         # 包含自定义的 HTML 框架
-├── public          # Hugo 最终构建出的产物（即网站本体），一般不需要做任何改动
+├── public          # Hugo 最终构建出的产物（即网站本体），一般不需要做任何改动，也不会被同步到 GitHub 远端仓库中
 ├── scripts         # 存放 HOA 后端脚本文件
 ├── static          # 存放网站相关静态文件，如 Logo、缩略图等
 ├── themes          # Hugo 主题模块文件夹

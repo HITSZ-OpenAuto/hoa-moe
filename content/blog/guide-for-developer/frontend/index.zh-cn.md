@@ -30,7 +30,7 @@ tree -L 1 .
 ├── content         # 存放 md 文件，Hugo 能自动将其中的 markdown 文件转化成相应 HTML 网页
 ├── i18n            # 语言相关配置
 ├── layouts         # 包含自定义的 HTML 框架
-├── public          # Hugo 最终构建出的产物（即网站本体），一般不需要做任何改动
+├── public          # Hugo 最终构建出的产物（即网站本体），一般不需要做任何改动，也不会被同步到 GitHub 远端仓库中
 ├── scripts         # 存放 HOA 后端脚本文件
 ├── static          # 存放网站相关静态文件，如 Logo、缩略图等
 ├── themes          # Hugo 主题模块文件夹
@@ -61,11 +61,11 @@ tree -L 1 .
 </html>
 ```
 
-我们的项目，本质也是由最小化 HTML 经扩充而成。CSS 与 JS 的导入、HTML 中 `<head></head>` 和 `<body></body>` 标签的设置同样存在，只不过为了方便管理将其拆成了一个个单独的组件，最后再将组件拼接成一个完整页面。
+本项目的架构源于最基础的 HTML 结构,通过模块化扩展而成。虽然项目中仍然保留了传统 HTML 的核心元素(如 <head>、<body> 标签)以及 CSS 和 JavaScript 的引入机制,但我们采用了组件化的管理方式,将这些元素拆分为独立的模块,最终再组装成完整的页面。具体拆分方式例子如下:
 
-- `<head></head>` -> `layouts/partials/head.html` -> `{{- partial "head.html" . -}}`
-- `<link rel="stylesheet" href="styles.css">` -> `layouts/partials/head-css.html` -> `{{- partialCached "head-css.html" . -}}`
-- `<script src="script.js"></script>` -> `layouts/partials/scripts.html` -> `{{ partial "scripts.html" . }}`
+- 头部标签 `<head>` 被抽取为 `layouts/partials/head.html` 组件,通过 `{{- partial "head.html" . -}}` 引入
+- 样式表引用 `<link rel="stylesheet">` 被抽取为 `layouts/partials/head-css.html` 组件,通过 `{{- partialCached "head-css.html" . -}}` 引入
+- 脚本引用 `<script>` 被抽取为 `layouts/partials/scripts.html` 组件,通过 `{{- partial "scripts.html" . -}}` 引入
 
 我们可以从源码中发现，网页内只导入了 `css/compiled/main.css` 和 `css/custom.css` 两份 CSS 文件，如果你直接在 CSS 对应文件夹下新增一份 `.css` ，写入新 CSS 文件的样式是不会被渲染到网页上的。同理，你也可以看到有哪些 JS 脚本被引入了我们网页。
 
@@ -83,11 +83,11 @@ tree -L 1 .
 
 我们这里主要讨论 `layouts`, `contents` 与 `assets` 几个文件夹。
 
-### `layouts` 与 `themes/layouts` 的关系
+### 原模板样式与自定义样式
 
-在项目根目录外，我们可以在 `themes` 里的主题文件夹内找到很多同名文件夹，这就不得不提一嘴 Hugo 框架的特性了。
+在项目根目录外，我们可以在 `themes` 里的主题文件夹内找到很多同名文件夹，例如 `layouts` 与 `themes/hextra/layouts`，`assets` 与 `themes/hextra/assets`，这就不得不提及 Hugo 框架的特性了。
 
-Hugo 在渲染 Markdown 文件时遵循特定的文件查找优先级：首先在项目根目录下查找同名文件，若未找到，则使用主题内的相应文件。利用这一机制，我们可以通过在根目录下创建与主题目录内相同路径和名称的文件来覆盖原有内容。这种方法使得 `themes` 可以作为 submodule 保持，而在需要修改文件样式时，只需将目标文件复制到项目根目录，并在根目录下的新文件中进行定制化修改。
+Hugo 在渲染 Markdown 文件时遵循特定的文件查找优先级：首先在项目根目录下查找同名文件，若未找到，则使用主题内的相应文件。利用这一机制，我们可以通过在根目录下创建与主题目录内相同路径和名称的文件来覆盖原有内容。这种方法使得 `themes` 可以作为 submodule 保持，而在需要修改样式时，只需将目标样式文件复制到项目根目录，并在根目录下的新文件中进行定制化修改。
 
 ### Hugo 短代码的使用
 
@@ -196,7 +196,7 @@ params:
 │   └── single.html
 ```
 
-先看 `_default/_markup`，这部分内容是针对 Markdown 内的像 blockquote、codeblock 等具体内容的渲染模板；`blog` 和 `docs` 文件夹下的 `list.html` 与 `single.html` 分别对应我们「博客」和「文档」版块内的「列表页面模板」与「单页面模板」；`_default/list.html` 与 `_default/single.html` 则对应那些并没有在 `layouts` 下单独设立文件夹的页面，如 `content/faq` 及 `content/sponsor` 页面。
+`blog` 和 `docs` 文件夹下的 `list.html` 与 `single.html` 分别对应我们「博客」和「文档」版块内的「列表页面模板」与「单页面模板」；`_default/list.html` 与 `_default/single.html` 则对应那些并没有在 `layouts` 下单独设立文件夹的页面，如 `content/faq` 及 `content/sponsor` 页面。此外，`_default/_markup` 这部分内容则是针对 Markdown 内的像 blockquote、codeblock 等具体内容的渲染模板。
 
 总之，Markdown 总是需要能够在 `layouts` 下找到对应模板文件进行渲染，对应模板文件内也可以访问到 md 文件内的 head info 从而为自己所用。
 
@@ -204,7 +204,7 @@ params:
 
 ## 🐛如何在本地调试前端界面
 
-根目录下运行 `hugo server`，你便可以从命令行获得调试时所需的端口号，浏览器内打开即可：
+克隆本仓库代码后，在本地仓库根目录下运行 `hugo server`，你便可以从命令行获得调试时所需的端口号，浏览器内打开即可：
 
 ![port](server.png)
 
@@ -242,5 +242,5 @@ module.exports = {
 
 做完以上步骤后，我们在 `layouts` 下的 html 中写的 TailwindCSS 类才能被编译到 `assets/css/compiled/main.css` 中，从而被完整导入进 `head-css.html`。
 
-如果你想更改组件样式，或添加新组件，则可以在根目录的 `layouts` 文件夹下进行修改了！如果涉及对 `themes` 主题文件夹内文件的修改，请复制一份相同路径到根目录，再在新文件内做修改！
+如果你想更改组件样式，或添加新组件，则可以在根目录的 `layouts` 文件夹下进行修改了！如果涉及对 `themes` 主题文件夹内文件的修改，请按相同路径复制一份到根目录，再在新文件内做修改！
 

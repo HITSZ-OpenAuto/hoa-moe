@@ -65,12 +65,37 @@ prev: /blog/guide-for-developer/maintenance
 
 ## 📄生成课程文档
 
-`build_course_pages.py` 整个脚本的主要目的便是从 GitHub 课程仓库获取课程信息，并生成课程页面。
+`build_course_pages.py` 整个脚本的主要目的便是从 GitHub 课程仓库获取课程信息，并生成课程页面。在 `course.yaml` 中，我们可以看到脚本是通过如下方式被调用的：
+
+```yaml
+jobs:
+  build-documentation:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+      id-token: write
+    env:
+      PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe   
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Build course pages
+        run: python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+```
 
 > [!WARNING]
 > 注意，此处出现代码为方便理解在部分地方做了修改。
 
-我们先从 main 函数入手：
+既已知道脚本的调用方式，我们便可以先从脚本的 main 函数入手：
 
 ```py
 if __name__ == "__main__":
