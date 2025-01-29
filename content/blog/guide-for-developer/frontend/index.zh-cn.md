@@ -61,11 +61,11 @@ tree -L 1 .
 </html>
 ```
 
-本项目的架构源于最基础的 HTML 结构,通过模块化扩展而成。虽然项目中仍然保留了传统 HTML 的核心元素(如 <head>、<body> 标签)以及 CSS 和 JavaScript 的引入机制,但我们采用了组件化的管理方式,将这些元素拆分为独立的模块,最终再组装成完整的页面。具体拆分方式例子如下:
+本项目的架构源于最基础的 HTML 结构，通过模块化扩展而成。虽然项目中仍然保留了传统 HTML 的核心元素 (如 <head>、<body> 标签) 以及 CSS 和 JavaScript 的引入机制，但我们采用了组件化的管理方式，将这些元素拆分为独立的模块，最终再组装成完整的页面。具体拆分方式例子如下：
 
-- 头部标签 `<head>` 被抽取为 `layouts/partials/head.html` 组件,通过 `{{- partial "head.html" . -}}` 引入
-- 样式表引用 `<link rel="stylesheet">` 被抽取为 `layouts/partials/head-css.html` 组件,通过 `{{- partialCached "head-css.html" . -}}` 引入
-- 脚本引用 `<script>` 被抽取为 `layouts/partials/scripts.html` 组件,通过 `{{- partial "scripts.html" . -}}` 引入
+- 头部标签 `<head>` 被抽取为 `layouts/partials/head.html` 组件，通过 `{{- partial "head.html" . -}}` 引入
+- 样式表引用 `<link rel="stylesheet">` 被抽取为 `layouts/partials/head-css.html` 组件，通过 `{{- partialCached "head-css.html" . -}}` 引入
+- 脚本引用 `<script>` 被抽取为 `layouts/partials/scripts.html` 组件，通过 `{{- partial "scripts.html" . -}}` 引入
 
 我们可以从源码中发现，网页内只导入了 `css/compiled/main.css` 和 `css/custom.css` 两份 CSS 文件，如果你直接在 CSS 对应文件夹下新增一份 `.css` ，写入新 CSS 文件的样式是不会被渲染到网页上的。同理，你也可以看到有哪些 JS 脚本被引入了我们网页。
 

@@ -74,4 +74,4 @@ on:
 
 当然，技术学习是一个持续的过程，本文档介绍的内容只是一个起点。希望你能够在项目的日常维护中运用这些知识，并在实践中不断探索和创新，发现更多优秀的开发模式和解决方案。让我们携手共建更好的 HOA！
 
-Talk is cheap, show me the code！🚀
+Talk is cheap, show me the code!🚀
