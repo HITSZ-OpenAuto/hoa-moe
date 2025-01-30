@@ -53,6 +53,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [增加了几份大雾实验报告](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/37)
+
+- **仓库**: PHYS1002
+- **创建于**: 2025-01-29T14:34:35Z
+- **作者**: zhuqi000
+
 ### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/9)
 
 - **仓库**: MATH1015B
