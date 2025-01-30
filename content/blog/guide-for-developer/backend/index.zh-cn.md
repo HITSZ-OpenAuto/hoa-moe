@@ -87,6 +87,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
+      # 获取 OpenAuto 组织下仓库名等步骤已省去，具体内容可自行查看 .github/workflow/course.yaml
+      
       - name: Build course pages
         run: python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 

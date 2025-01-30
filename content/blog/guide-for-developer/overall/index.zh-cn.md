@@ -29,7 +29,7 @@ prev: /blog/guide-for-developer/frontend/
 
 ```sh
 tree -L 1 .
-# OpenAuto 文件树
+# hoa-moe 文件树
 .
 ├── archetypes
 ├── assets          # 包含自定义的 CSS 样式、JS 脚本

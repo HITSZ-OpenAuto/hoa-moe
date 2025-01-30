@@ -23,7 +23,7 @@ prev: /blog/guide-for-developer/backend/
 
 ```sh
 tree -L 1 .
-# OpenAuto 文件树
+# hoa-moe 文件树
 .
 ├── archetypes
 ├── assets          # 包含自定义的 CSS 样式、JS 脚本
@@ -61,7 +61,7 @@ tree -L 1 .
 </html>
 ```
 
-本项目的架构源于最基础的 HTML 结构，通过模块化扩展而成。虽然项目中仍然保留了传统 HTML 的核心元素 (如 <head>、<body> 标签) 以及 CSS 和 JavaScript 的引入机制，但我们采用了组件化的管理方式，将这些元素拆分为独立的模块，最终再组装成完整的页面。具体拆分方式例子如下：
+本项目的架构源于最基础的 HTML 结构，通过模块化扩展而成。虽然项目中仍然保留了传统 HTML 的核心元素 (如 `<head>`、`<body>` 标签) 以及 CSS 和 JavaScript 的引入机制，但我们采用了组件化的管理方式，将这些元素拆分为独立的模块，最终再组装成完整的页面。具体拆分方式例子如下：
 
 - 头部标签 `<head>` 被抽取为 `layouts/partials/head.html` 组件，通过 `{{- partial "head.html" . -}}` 引入
 - 样式表引用 `<link rel="stylesheet">` 被抽取为 `layouts/partials/head-css.html` 组件，通过 `{{- partialCached "head-css.html" . -}}` 引入
@@ -89,6 +89,39 @@ tree -L 1 .
 
 Hugo 在渲染 Markdown 文件时遵循特定的文件查找优先级：首先在项目根目录下查找同名文件，若未找到，则使用主题内的相应文件。利用这一机制，我们可以通过在根目录下创建与主题目录内相同路径和名称的文件来覆盖原有内容。这种方法使得 `themes` 可以作为 submodule 保持，而在需要修改样式时，只需将目标样式文件复制到项目根目录，并在根目录下的新文件中进行定制化修改。
 
+### 从 Markdown 到 HTML 网页
+
+比对 `contents` 和 `layouts` 下的文件树目录，可以发现有很多相似之处，那么，Hugo 是怎么让 Markdown 套用我们编写的模板从而渲染成网页的呢？
+
+```sh
+├── _default
+│   ├── _markup
+│   │   ├── render-blockquote-alert.html
+│   │   ├── render-blockquote-regular.html
+│   │   ├── render-codeblock-mermaid.html
+│   │   ├── render-codeblock.html
+│   │   ├── render-heading.html
+│   │   ├── render-image.html
+│   │   └── render-link.html
+│   ├── baseof.html
+│   ├── list.html
+│   ├── list.rss.xml
+│   ├── single.html
+│   └── wide.html
+├── blog
+│   ├── list.html
+│   └── single.html
+├── docs
+│   ├── list.html
+│   └── single.html
+```
+
+`blog` 和 `docs` 文件夹下的 `list.html` 与 `single.html` 分别对应我们「博客」和「文档」版块内的「列表页面模板」与「单页面模板」；`_default/list.html` 与 `_default/single.html` 则对应那些并没有在 `layouts` 下单独设立文件夹的页面，如 `content/faq` 及 `content/sponsor` 页面。此外，`_default/_markup` 这部分内容则是针对 Markdown 内的像 blockquote、codeblock 等具体内容的渲染模板。
+
+总之，Markdown 总是需要能够在 `layouts` 下找到对应模板文件进行渲染，对应模板文件内也可以访问到 md 文件内的 head info 从而为自己所用。
+
+如果你想更进一步了解，推荐访问 [Hugo 官方 template 文档](https://gohugo.io/templates/) 进行学习。
+
 ### Hugo 短代码的使用
 
 Hugo 的短代码（Shortcodes）是一种强大的模板机制，允许我们在 Markdown 和 HTML 内容中嵌入动态渲染的代码片段。但同时，它有着非常严格的语法要求，多一个少一个空格都不行：
@@ -96,7 +129,7 @@ Hugo 的短代码（Shortcodes）是一种强大的模板机制，允许我们�
 - Markdown 中使用 `{{</* shortcode */>}}` 的形式，调用 `layouts/shortcodes` 内的模板
 - HTML 中使用 `{{- shortcode -}}` 的形式，引入 Hugo 相关语法
 
-我们以一段 HTML 代码为例子做简要语法解释：
+我们以一段 HTML 代码（`themes/hextra/layouts/partials/scripts.html`）为例子做简要语法解释：
 
 ```HTML
 {{- $jsFileTree := resources.Get "js/filetree.js" -}}
@@ -168,39 +201,6 @@ params:
 其它一些变量后缀这里就不做具体讲解了，想要了解的可以自行 Google 查阅官方文档。
 
 我自己之前也写过一篇关于 Hugo 短代码的博客，放在这里：[Hugo ShortCode | 丰富你的 Markdown](https://www.longlin.tech/shortcode/)
-
-### 从 Markdown 到 HTML 网页
-
-比对 `contents` 和 `layouts` 下的文件树目录，可以发现有很多相似之处，那么，Hugo 是怎么让 Markdown 套用我们编写的模板从而渲染成网页的呢？
-
-```sh
-├── _default
-│   ├── _markup
-│   │   ├── render-blockquote-alert.html
-│   │   ├── render-blockquote-regular.html
-│   │   ├── render-codeblock-mermaid.html
-│   │   ├── render-codeblock.html
-│   │   ├── render-heading.html
-│   │   ├── render-image.html
-│   │   └── render-link.html
-│   ├── baseof.html
-│   ├── list.html
-│   ├── list.rss.xml
-│   ├── single.html
-│   └── wide.html
-├── blog
-│   ├── list.html
-│   └── single.html
-├── docs
-│   ├── list.html
-│   └── single.html
-```
-
-`blog` 和 `docs` 文件夹下的 `list.html` 与 `single.html` 分别对应我们「博客」和「文档」版块内的「列表页面模板」与「单页面模板」；`_default/list.html` 与 `_default/single.html` 则对应那些并没有在 `layouts` 下单独设立文件夹的页面，如 `content/faq` 及 `content/sponsor` 页面。此外，`_default/_markup` 这部分内容则是针对 Markdown 内的像 blockquote、codeblock 等具体内容的渲染模板。
-
-总之，Markdown 总是需要能够在 `layouts` 下找到对应模板文件进行渲染，对应模板文件内也可以访问到 md 文件内的 head info 从而为自己所用。
-
-如果你想更进一步了解，推荐访问 [Hugo 官方 template 文档](https://gohugo.io/templates/) 进行学习。
 
 ## 🐛如何在本地调试前端界面
 
