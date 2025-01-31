@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-01-29'
-description: 北京时间 2025-01-28 00 时至今
+date: '2025-01-31'
+description: 北京时间 2025-01-30 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (1.28)
+### 周五 (1.31)
 
-- 吴俊达 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：更新 2024 秋季情况 (#3)
-
-- Maxwell Jay 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新课程文档、上传 2024 年期末试题及参考答案 (#10)
+- zhuqi000 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：增加了几份大雾实验报告 (#37)
 
 ## 待解决的 Issues
 
@@ -52,12 +50,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [增加了几份大雾实验报告](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/37)
-
-- **仓库**: PHYS1002
-- **创建于**: 2025-01-29T14:34:35Z
-- **作者**: zhuqi000
 
 ### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/9)
 
