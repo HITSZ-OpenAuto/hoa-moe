@@ -51,6 +51,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [补充凡友华老师上课情况；补充 24 秋期末考试情况，上传回忆版试卷](https://github.com/HITSZ-OpenAuto/EMEC1002/pull/8)
+
+- **仓库**: EMEC1002
+- **创建于**: 2025-02-01T12:50:02Z
+- **作者**: IcyDesert
+
 ### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/9)
 
 - **仓库**: MATH1015B
