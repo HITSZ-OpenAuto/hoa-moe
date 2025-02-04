@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-03'
-description: 北京时间 2025-02-02 00 时至今
+date: '2025-02-04'
+description: 北京时间 2025-02-03 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (2.2)
+### 周一 (2.3)
 
-- IcyDesert 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：补充凡友华老师上课情况；补充 24 秋期末考试情况，上传回忆版试卷 (#8)
+- 吴俊达 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：更新 WJD 作业（采用新方式编译减小空间占用） (#13)
 
 ## 待解决的 Issues
 
