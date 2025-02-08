@@ -8,7 +8,9 @@ class CourseData(TypedDict):
     has_error: bool
 
 
-def create_course_data(card_string: str, last_commit_sha: str, has_error: bool = False) -> CourseData:
+def create_course_data(
+    card_string: str, last_commit_sha: str, has_error: bool = False
+) -> CourseData:
     """
     create a new course data
     :param card_string: the result of gen_links for each course
@@ -32,12 +34,12 @@ def create_course_data(card_string: str, last_commit_sha: str, has_error: bool =
 class FileTreeManager:
     def __init__(self):
         """Initialize FileTreeManager and load data from file"""
-        with open('scripts/filetrees/filetrees.json', 'r') as file:
+        with open("scripts/filetrees/filetrees.json", "r") as file:
             self.file_trees = json.load(file)
 
     def save(self) -> None:
         """Save the current state to file"""
-        with open('scripts/filetrees/filetrees.json', 'w', encoding="utf-8") as file:
+        with open("scripts/filetrees/filetrees.json", "w", encoding="utf-8") as file:
             file.write(json.dumps(self.file_trees))
 
     def search(self, course_name: str) -> Optional[CourseData]:
@@ -64,11 +66,15 @@ class FileTreeManager:
         if not course_name:
             raise ValueError("Course name cannot be empty")
 
-        if not isinstance(filetree.get("card_string"), str) or not isinstance(filetree.get("last_commit_sha"), str):
+        if not isinstance(filetree.get("card_string"), str) or not isinstance(
+            filetree.get("last_commit_sha"), str
+        ):
             raise ValueError("Invalid filetree format")
 
         if course_name in self.file_trees:
-            raise KeyError(f"Course {course_name} already exists. Use update() to modify existing courses.")
+            raise KeyError(
+                f"Course {course_name} already exists. Use update() to modify existing courses."
+            )
 
         self.file_trees[course_name] = filetree
 
@@ -83,7 +89,9 @@ class FileTreeManager:
         if not course_name:
             raise ValueError("Course name cannot be empty")
 
-        if not isinstance(filetree.get("card_string"), str) or not isinstance(filetree.get("last_commit_sha"), str):
+        if not isinstance(filetree.get("card_string"), str) or not isinstance(
+            filetree.get("last_commit_sha"), str
+        ):
             raise ValueError("Invalid filetree format")
 
         if course_name not in self.file_trees:
@@ -109,12 +117,13 @@ class FileTreeManager:
         for course_name, course_data in self.file_trees.items():
             file_name = f"{course_name}_cards.txt"
 
-            log = f"""{course_name}\n
+            log = (
+                f"""{course_name}\n
 {course_data["card_string"]}\n
-            """ + '-'*40
+            """
+                + "-" * 40
+            )
             print(log)
-            
-            with open(file_name, 'w') as file:
-                file.write(course_data["card_string"])
-            
 
+            with open(file_name, "w") as file:
+                file.write(course_data["card_string"])

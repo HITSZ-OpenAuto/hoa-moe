@@ -17,7 +17,10 @@ def get_http_session():
 
 def get_latest_commit(owner, repo):
     commits_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
-    params = {"since": "2000-01-01T00:00:01Z", "per_page": 10}  # Fetch more than one commit
+    params = {
+        "since": "2000-01-01T00:00:01Z",
+        "per_page": 10,
+    }  # Fetch more than one commit
     response = requests.get(commits_url, headers=headers, params=params)
     commit_info = dict()
 
@@ -27,7 +30,11 @@ def get_latest_commit(owner, repo):
         for commit in commits:
             message = commit["commit"]["message"]
             # Skip commits with messages starting with English letters
-            if message.startswith("Replace") or message.startswith("Add") or message.startswith("ci"):
+            if (
+                message.startswith("Replace")
+                or message.startswith("Add")
+                or message.startswith("ci")
+            ):
                 continue
 
             # If the commit does not start with English letters, process it
@@ -46,15 +53,19 @@ def get_latest_commit(owner, repo):
 
 def save_latest_update(commit_info, repo: str):
     datetime_object = commit_info["date"]
-    yymmdd = f"{datetime_object.year} 年 {datetime_object.month} 月 {datetime_object.day} 日"
+    yymmdd = (
+        f"{datetime_object.year} 年 {datetime_object.month} 月 {datetime_object.day} 日"
+    )
     message_line = commit_info["message"].split("\n")
-    result_content = f"""{{{{< update-info update_time="{yymmdd}" author="{commit_info['author']}" message="{message_line[0]}" >}}}}\n"""
+    result_content = f"""{{{{< update-info update_time="{yymmdd}" author="{commit_info["author"]}" message="{message_line[0]}" >}}}}\n"""
     with open(f"result_update_time_{repo}.txt", "w", encoding="utf-8") as file:
         file.write(result_content)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate download links of files from a GitHub repository.")
+    parser = argparse.ArgumentParser(
+        description="Generate download links of files from a GitHub repository."
+    )
     parser.add_argument("owner", help="GitHub repository owner")
     parser.add_argument("repo", help="GitHub repository name")
     parser.add_argument("token", help="GitHub token")
