@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-03'
-description: 北京时间 2025-02-02 00 时至今
+date: '2025-02-08'
+description: 北京时间 2025-02-07 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (2.2)
+### 周六 (2.8)
 
-- IcyDesert 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：补充凡友华老师上课情况；补充 24 秋期末考试情况，上传回忆版试卷 (#8)
+- W·D·Gaster 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#14)
 
 ## 待解决的 Issues
 
@@ -50,6 +50,42 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/COMP2014/pull/5)
+
+- **仓库**: COMP2014
+- **创建于**: 2025-02-07T12:19:50Z
+- **作者**: WDGaster703
+
+### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/EE1012B/pull/7)
+
+- **仓库**: EE1012B
+- **创建于**: 2025-02-07T12:08:47Z
+- **作者**: WDGaster703
+
+### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/GEIP1017/pull/3)
+
+- **仓库**: GEIP1017
+- **创建于**: 2025-02-07T10:57:10Z
+- **作者**: WDGaster703
+
+### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/GEIP1015/pull/4)
+
+- **仓库**: GEIP1015
+- **创建于**: 2025-02-07T10:46:34Z
+- **作者**: WDGaster703
+
+### [以 .gitkeep 文件替代无用的 readme.md 文件，补充分班和免听相关](https://github.com/HITSZ-OpenAuto/LANG100X/pull/5)
+
+- **仓库**: LANG100X
+- **创建于**: 2025-02-07T08:04:26Z
+- **作者**: WDGaster703
+
+### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/MATH1002/pull/14)
+
+- **仓库**: MATH1002
+- **创建于**: 2025-02-07T07:36:49Z
+- **作者**: WDGaster703
 
 ### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/9)
 
