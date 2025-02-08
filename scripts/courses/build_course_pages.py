@@ -97,7 +97,9 @@ class GitHubAPIClient:
         url = f"https://raw.githubusercontent.com/{self.owner}/{self.repo}/main/{path}"
         async with self.session.get(url) as response:
             if response.status != 200:
-                raise Exception(f"Failed to fetch file content from {url}, status code: {response.status}")
+                raise Exception(
+                    f"Failed to fetch file content from {url}, status code: {response.status}"
+                )
             return await response.text()
 
     def update_semester_category_file(self):
@@ -105,7 +107,9 @@ class GitHubAPIClient:
             return
         for filename in self.semester_category_filenames:
             with open(filename, "a+", encoding="utf-8") as f:
-                card_link = f'{{{{< card link="{self.repo.lower()}" title="{self.name}" >}}}}\n'
+                card_link = (
+                    f'{{{{< card link="{self.repo.lower()}" title="{self.name}" >}}}}\n'
+                )
                 f.write(card_link)
 
 
@@ -137,7 +141,9 @@ async def process_repo(client: GitHubAPIClient) -> None:
             semesters_match = re.search(r"semester:\s*(.*)", tag_content)
             if semesters_match:
                 semesters_line = semesters_match.group(1)
-                semesters: list[str] = re.split(r"\s*/\s*", semesters_line)  # 以 / 分割多个学期
+                semesters: list[str] = re.split(
+                    r"\s*/\s*", semesters_line
+                )  # 以 / 分割多个学期
                 log += f"Matched semester: {semesters}\n"
             else:
                 log += "No semester provided\n"
@@ -160,7 +166,10 @@ async def process_repo(client: GitHubAPIClient) -> None:
             log += f"Matched semester: {semester_en}\n"
 
             semester_category_filename: str = f"{semester_en}-{category}.txt"
-            if not os.path.exists(semester_category_filename) or os.stat(semester_category_filename).st_size == 0:
+            if (
+                not os.path.exists(semester_category_filename)
+                or os.stat(semester_category_filename).st_size == 0
+            ):
                 c: str = f"## {category_raw.strip()}\n"
                 if extra_info:
                     c += f"{extra_info}\n"
@@ -208,16 +217,22 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 ],
                 check=True,
             )
-            with open(f"result_update_time_{client.repo}.txt", "r", encoding="utf-8") as result_file:
+            with open(
+                f"result_update_time_{client.repo}.txt", "r", encoding="utf-8"
+            ) as result_file:
                 s += result_file.read() + "\n"
             os.remove(f"result_update_time_{client.repo}.txt")
 
             s += readme_content + "\n" + "## 资料下载\n\n"
-            with open("scripts/infos/netdisk_notice.txt", "r", encoding="utf-8") as notice_file:
+            with open(
+                "scripts/infos/netdisk_notice.txt", "r", encoding="utf-8"
+            ) as notice_file:
                 s += notice_file.read() + "\n"
             with open(f"{client.repo}_cards.txt", "r", encoding="utf-8") as cards_file:
                 s += cards_file.read() + "\n"
-            with open("scripts/infos/sponsor.txt", "r", encoding="utf-8") as sponsor_file:
+            with open(
+                "scripts/infos/sponsor.txt", "r", encoding="utf-8"
+            ) as sponsor_file:
                 s += sponsor_file.read() + "\n"
 
             repo_md_filename = f"./content/docs/{semester_en}/{client.repo}.md"
@@ -227,16 +242,23 @@ async def process_repo(client: GitHubAPIClient) -> None:
     except Exception as e:
         print(f"Error processing repo {client.repo}: {e}")
     finally:
-        log = "\n".join([line for line in log.split("\n") if line.strip() != ""])  # 移除 log 中所有空行
+        log = "\n".join(
+            [line for line in log.split("\n") if line.strip() != ""]
+        )  # 移除 log 中所有空行
         print(log)
         print("-" * 50)
 
 
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
-    repos = [repo for repo in repos if repo not in [".github", "hoa-moe", "HITSZ-OpenAuto"]]
+    repos = [
+        repo for repo in repos if repo not in [".github", "hoa-moe", "HITSZ-OpenAuto"]
+    ]
     sorted_repos = sorted(repos)  # 排序，用于在并行的情况下保证构建网页时的顺序
 
-    clients = [GitHubAPIClient(owner, repo, token, index) for index, repo in enumerate(sorted_repos)]
+    clients = [
+        GitHubAPIClient(owner, repo, token, index)
+        for index, repo in enumerate(sorted_repos)
+    ]
     tasks: list[asyncio.Task] = []
 
     for client in clients:
@@ -252,8 +274,12 @@ async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
 
 
 if __name__ == "__main__":
-    parser = ArgumentParser(description="Generate course pages from GitHub repositories.")
-    parser.add_argument("owner", help="GitHub repository owner", default="HITSZ-OpenAuto")
+    parser = ArgumentParser(
+        description="Generate course pages from GitHub repositories."
+    )
+    parser.add_argument(
+        "owner", help="GitHub repository owner", default="HITSZ-OpenAuto"
+    )
     parser.add_argument("token", help="GitHub token")
 
     args = parser.parse_args()
