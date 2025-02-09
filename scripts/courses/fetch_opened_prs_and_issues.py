@@ -86,7 +86,7 @@ def UTC2BJT(UTC_time_str):
     """
     UTC_time = datetime.strptime(UTC_time_str, "%Y-%m-%dT%H:%M:%SZ")
     Beijing_time = UTC_time + timedelta(hours=TIME_ZONE)
-    Beijing_time_str = beijing_time.strftime("%Y-%m-%d %H:%M:%S")
+    Beijing_time_str = Beijing_time.strftime("%Y-%m-%d %H:%M:%S")
     return Beijing_time_str
 
 
