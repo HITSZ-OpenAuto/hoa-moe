@@ -1,9 +1,13 @@
 import subprocess
 import json
 import os
+from datetime import datetime, timedelta
+
 # from dotenv import load_dotenv
 
 # load_dotenv()
+
+TIME_ZONE = 8  # Beijing time zone
 
 
 def run_gh_command(command, pat=None):
@@ -74,6 +78,19 @@ def get_org_pull_requests(org_name, pat=None):
     return run_gh_command(command, pat)
 
 
+def UTC2BJT(UTC_time_str):
+    """
+    Convert UTC time(in form of ISO 8601) to Beijing time.
+
+    :param UTC_time_str: UTC time string, in form of ISO 8601
+    :return: Beijing time string, in the form of 1970-01-01 00:00:00
+    """
+    UTC_time = datetime.strptime(UTC_time_str, "%Y-%m-%dT%H:%M:%SZ")
+    Beijing_time = UTC_time + timedelta(hours=TIME_ZONE)
+    Beijing_time_str = Beijing_time.strftime("%Y-%m-%d %H:%M:%S")
+    return Beijing_time_str
+
+
 def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
     """
     Generate a markdown report of open issues and pull requests.
@@ -111,7 +128,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
             for issue in filtered_issues:
                 f.write(f"### [{issue['title']}]({issue['url']})\n\n")
                 f.write(f"- **仓库**: {issue['repository']['name']}\n")
-                f.write(f"- **创建于**: {issue['createdAt']}\n")
+                f.write(f"- **创建于**: {UTC2BJT(issue['createdAt'])}\n")
                 f.write(f"- **作者**: {issue['author']['login']}\n")
 
                 # Labels (if any)
@@ -136,7 +153,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
             for pr in filtered_prs:
                 f.write(f"### [{pr['title']}]({pr['url']})\n\n")
                 f.write(f"- **仓库**: {pr['repository']['name']}\n")
-                f.write(f"- **创建于**: {pr['createdAt']}\n")
+                f.write(f"- **创建于**: {UTC2BJT(pr['createdAt'])}\n")
                 f.write(f"- **作者**: {pr['author']['login']}\n")
 
                 if pr["labels"]:
