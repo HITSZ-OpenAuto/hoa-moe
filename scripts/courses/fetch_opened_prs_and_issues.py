@@ -84,10 +84,10 @@ def UTC2BJT(UTC_time_str):
     :param UTC_time_str: UTC time string, in form of ISO 8601
     :return: Beijing time string, in the form of 1970-01-01 00:00:00
     """
-    utc_time = datetime.strptime(utc_time_str, "%Y-%m-%dT%H:%M:%SZ")
-    beijing_time = utc_time + timedelta(hours=TIME_ZONE)
-    beijing_time_str = beijing_time.strftime("%Y-%m-%d %H:%M:%S")
-    return beijing_time_str
+    UTC_time = datetime.strptime(UTC_time_str, "%Y-%m-%dT%H:%M:%SZ")
+    Beijing_time = UTC_time + timedelta(hours=TIME_ZONE)
+    Beijing_time_str = beijing_time.strftime("%Y-%m-%d %H:%M:%S")
+    return Beijing_time_str
 
 
 def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
