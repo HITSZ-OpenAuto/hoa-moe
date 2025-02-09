@@ -7,7 +7,8 @@ from datetime import datetime, timedelta
 
 # load_dotenv()
 
-TIME_ZONE = 8 # Beijing time zone
+TIME_ZONE = 8  # Beijing time zone
+
 
 def run_gh_command(command, pat=None):
     """
