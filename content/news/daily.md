@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-09'
-description: 北京时间 2025-02-08 04 时至今
+date: '2025-02-10'
+description: 北京时间 2025-02-09 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,17 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周六 (2.8)
+### 周日 (2.9)
 
-- W·D·Gaster 在 [C++ 语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2014) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#5)
-
-- W·D·Gaster 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件；整理文件夹 (#14)
-
-- W·D·Gaster 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#4)
-
-- W·D·Gaster 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#3)
-
-- W·D·Gaster 在 [电路实验 IB](https://github.com/HITSZ-OpenAuto/EE1012B) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#7)
+- W·D·Gaster 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#9)
 
 ## 待解决的 Issues
 
@@ -45,12 +37,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-01-19 12:00:29
 - **作者**: WDGaster703
 
-### [三电](https://github.com/HITSZ-OpenAuto/EE1011A/issues/8)
-
-- **仓库**: EE1011A
-- **创建于**: 2025-01-19 11:59:26
-- **作者**: WDGaster703
-
 ### [线代](https://github.com/HITSZ-OpenAuto/MATH1002/issues/12)
 
 - **仓库**: MATH1002
@@ -63,12 +49,6 @@ title: AUTO 更新速递
 
 - **仓库**: LANG100X
 - **创建于**: 2025-02-07 16:04:26
-- **作者**: WDGaster703
-
-### [以 .gitkeep 文件替代无用的 readme.md 文件](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/9)
-
-- **仓库**: MATH1015B
-- **创建于**: 2025-01-26 22:54:37
 - **作者**: WDGaster703
 
 ### [以 .gitkeep 文件替代无用的 readme.md 文件，修改文档格式](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/2)

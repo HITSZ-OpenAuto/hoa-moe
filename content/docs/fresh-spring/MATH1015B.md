@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 19 日" author="W·D·Gaster" message="补充教材" >}}
+{{< update-info update_time="2025 年 2 月 9 日" author="W·D·Gaster" message="以 .gitkeep 文件替代无用的 readme.md 文件 (#9)" >}}
 
 
 <!--
@@ -35,15 +35,6 @@ math: true
 - 大学数学。工科数学分析下册 / 哈尔滨工业大学数学学院--6 版.--北京：高等教育出版社，2020.5，ISBN：978-7-04-053335-4
 - 工科数学分析学习指导与习题解答下册 / 哈尔滨工业大学数学系分析研究室.--北京：高等教育出版社，2015.12，ISBN：978-7-04-043792-8
 ## 授课教师
-- 包革军
-  - 授课风格：完全不用幻灯片，纯板书，而且板书非常有条理，把他的板书全部抄下来就是一份可读性很好的笔记了（这一点比余君武好）。偶尔会点名。
-  有学生觉得他讲得太慢，但事实上这位老先生总能在最后一刻讲完所有要讲的东西。
-  唯二的问题是板书时常出现笔误、总是拖堂。
-    > “当他在期末最后一节课上向到场的所有学生鞠躬致谢时，我便知道他是我在大一遇到的最有哈工大人气质的教授。”文 / [Maxwell Jay](https://github.com/MaxwellJay256)
-    >
-    > 这两个问题出在这个老师身上我觉得都不是问题了，这并不影响他讲课的连贯性和逻辑性。如果出现笔误可以在课堂上尽早指出来，就不会耗费太多时间。文 / [psp_dada](https://github.com/pspdada) 2024.7.18
-  - 是否需要认真听讲做笔记：如果你愿意听他的课，最好就完全跟着他的思路来。老师会在课上讲很多的例题，如果能把它们都记下来并且课后稍微复习一下，基本上就足够掌握这一部分的内容了（都把例题喂到你嘴里了这还不冲？）。
-  - 听课建议：如果你是挑剔的学生，大多数课都不愿意听老师讲，那么他的课应该是你最后一个选择 skip 的。
 
 - 余君武
   - 授课风格：
@@ -70,6 +61,23 @@ math: true
     - 严老师的习题课并不局限于习题本身，而是跳出习题从更高的思维角度解读题目，对微积分的理解能让你超越课本的。
   > 文 / [Gaster](https://github.com/WDGaster), 2025.1
   
+> [!NOTE]
+> 2025.1 补充：包老师已经不在深圳任教，但是包老师对深圳校区作出很大贡献，仍保留。
+
+- 包革军
+
+  - 授课风格：完全不用幻灯片，纯板书，而且板书非常有条理，把他的板书全部抄下来就是一份可读性很好的笔记了（这一点比余君武好）。偶尔会点名。
+    有学生觉得他讲得太慢，但事实上这位老先生总能在最后一刻讲完所有要讲的东西。
+    唯二的问题是板书时常出现笔误、总是拖堂。
+
+    > “当他在期末最后一节课上向到场的所有学生鞠躬致谢时，我便知道他是我在大一遇到的最有哈工大人气质的教授。”文 / [Maxwell Jay](https://github.com/MaxwellJay256)
+    >
+    > 这两个问题出在这个老师身上我觉得都不是问题了，这并不影响他讲课的连贯性和逻辑性。如果出现笔误可以在课堂上尽早指出来，就不会耗费太多时间。文 / [psp_dada](https://github.com/pspdada) 2024.7.18
+
+  - 是否需要认真听讲做笔记：如果你愿意听他的课，最好就完全跟着他的思路来。老师会在课上讲很多的例题，如果能把它们都记下来并且课后稍微复习一下，基本上就足够掌握这一部分的内容了（都把例题喂到你嘴里了这还不冲？）。
+
+  - 听课建议：如果你是挑剔的学生，大多数课都不愿意听老师讲，那么他的课应该是你最后一个选择 skip 的。
+
 ## 关于考试
 
 - 考试难度：半期考试比较容易，25+ 对于大多数同学是能实现的；期末考试由于曲线曲面积分以及级数的加入，计算量陡增，难度也随之增加，想上 40 分会比较有挑战性，挂科率也是相当高。
@@ -95,10 +103,8 @@ math: true
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MATH1015B" repoURL="https://github.com/HITSZ-OpenAuto/MATH1015B" >}}
   {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
-    {{< hoa-filetree/file name="1_第七章微分方程作业答案（7.6-7.9）" type="pdf" size="205.2 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf" >}}
-    {{< hoa-filetree/file name="1_第九章多元函数微分法及其应用作业答案" type="pdf" size="377.3 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E4%B9%9D%E7%AB%A0%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E6%B3%95%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="1_第十一章曲线积分与曲面积分作业答案" type="pdf" size="352.0 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="1_第十章重积分作业答案" type="pdf" size="258.7 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/1_%E7%AC%AC%E5%8D%81%E7%AB%A0%E9%87%8D%E7%A7%AF%E5%88%86%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< hoa-filetree/file name="第七章微分方程作业答案（7.6-7.9）" type="pdf" size="205.2 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf" >}}
+    {{< hoa-filetree/file name="第九章多元函数微分法及其应用作业答案" type="pdf" size="377.3 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E4%B9%9D%E7%AB%A0%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E6%B3%95%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="第十一章曲线积分与曲面积分作业答案" type="pdf" size="352.0 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="第十二章无穷级数作业答案" type="pdf" size="317.7 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="第十章重积分作业答案" type="pdf" size="258.7 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E5%8D%81%E7%AB%A0%E9%87%8D%E7%A7%AF%E5%88%86%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
@@ -108,25 +114,22 @@ math: true
     {{< hoa-filetree/file name="2017 春高等数学期中试卷" type="doc" size="171.5 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2017%E6%98%A5%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E6%9C%9F%E4%B8%AD%E8%AF%95%E5%8D%B7.doc" >}}
     {{< hoa-filetree/file name="2018 春高数 B 期中答案" type="pdf" size="145.1 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2018%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E4%B8%AD%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2018 春高等数学期中试卷" type="doc" size="167.2 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2018%E6%98%A5%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E6%9C%9F%E4%B8%AD%E8%AF%95%E5%8D%B7.doc" >}}
-    {{< hoa-filetree/file name="2019 春高数期中试卷" type="pdf" size="173.6 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E9%AB%98%E6%95%B0%E6%9C%9F%E4%B8%AD%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< hoa-filetree/file name="2019 春高数期中试题答案" type="pdf" size="338.1 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E9%AB%98%E6%95%B0%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< hoa-filetree/file name="2019 春高数 B 期中试卷" type="pdf" size="173.6 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E4%B8%AD%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< hoa-filetree/file name="2019 春高数 B 期中试卷（二）" type="doc" size="160.1 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E4%B8%AD%E8%AF%95%E5%8D%B7%EF%BC%88%E4%BA%8C%EF%BC%89.doc" >}}
+    {{< hoa-filetree/file name="2019 春高数 B 期中试题答案" type="pdf" size="338.1 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2021 春高数 B 期中试题" type="pdf" size="144.9 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2021%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98.pdf" >}}
     {{< hoa-filetree/file name="2021 春高数 B 期中试题答案" type="pdf" size="180.5 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2021%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2023 春微积分 B 期中试题" type="pdf" size="57.8 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2023%E6%98%A5%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E4%B8%AD%E8%AF%95%E9%A2%98.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="微积分 B 期末试题 + 答案" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2017 春季期末高数试卷" type="doc" size="168.0 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2017%E6%98%A5%E5%AD%A3%E6%9C%9F%E6%9C%AB%E9%AB%98%E6%95%B0%E8%AF%95%E5%8D%B7.doc" >}}
-    {{< hoa-filetree/file name="2018 春高数期末试卷" type="pdf" size="147.6 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2018%E6%98%A5%E9%AB%98%E6%95%B0%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< hoa-filetree/file name="2018 春高数期末试卷答案" type="pdf" size="280.4 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2018%E6%98%A5%E9%AB%98%E6%95%B0%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="2018 春高数期末试题答案" type="docx" size="97.0 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2018%E6%98%A5%E9%AB%98%E6%95%B0%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.docx" >}}
-    {{< hoa-filetree/file name="2019 春季期末试题解答" type="pdf" size="341.4 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E5%AD%A3%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E8%A7%A3%E7%AD%94.pdf" >}}
-    {{< hoa-filetree/file name="2019 春季期末高数试卷" type="doc" size="218.8 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E5%AD%A3%E6%9C%9F%E6%9C%AB%E9%AB%98%E6%95%B0%E8%AF%95%E5%8D%B7.doc" >}}
-    {{< hoa-filetree/file name="2019 春季期末高数试卷" type="pdf" size="152.7 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E5%AD%A3%E6%9C%9F%E6%9C%AB%E9%AB%98%E6%95%B0%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< hoa-filetree/file name="2019 春高数期末试卷答案" type="doc" size="165.0 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E9%AB%98%E6%95%B0%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7%E7%AD%94%E6%A1%88.doc" >}}
-    {{< hoa-filetree/file name="2019 春高等数学期末试卷" type="doc" size="160.1 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.doc" >}}
+    {{< hoa-filetree/file name="2017 春季期末高数 B 试卷" type="doc" size="168.0 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2017%E6%98%A5%E5%AD%A3%E6%9C%9F%E6%9C%AB%E9%AB%98%E6%95%B0B%E8%AF%95%E5%8D%B7.doc" >}}
+    {{< hoa-filetree/file name="2018 春高数 B 期末试卷" type="pdf" size="147.6 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2018%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< hoa-filetree/file name="2018 春高数 B 期末试卷答案" type="pdf" size="280.4 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2018%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< hoa-filetree/file name="2018 春高数 B 期末试题答案" type="docx" size="97.0 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2018%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.docx" >}}
+    {{< hoa-filetree/file name="2019 春季期末高数 B 试卷" type="pdf" size="152.7 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E5%AD%A3%E6%9C%9F%E6%9C%AB%E9%AB%98%E6%95%B0B%E8%AF%95%E5%8D%B7.pdf" >}}
+    {{< hoa-filetree/file name="2019 春季期末高数 B 试题解答" type="pdf" size="341.4 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2019%E6%98%A5%E5%AD%A3%E6%9C%9F%E6%9C%AB%E9%AB%98%E6%95%B0B%E8%AF%95%E9%A2%98%E8%A7%A3%E7%AD%94.pdf" >}}
+    {{< hoa-filetree/file name="2020 春高数 B 期末答案" type="pdf" size="239.2 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2020%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2020 春高数 B 期末试卷" type="pdf" size="150.8 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2020%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< hoa-filetree/file name="2020 春高数期末试卷" type="pdf" size="150.8 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2020%E6%98%A5%E9%AB%98%E6%95%B0%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< hoa-filetree/file name="2020 春高数期末试题答案" type="pdf" size="239.2 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2020%E6%98%A5%E9%AB%98%E6%95%B0%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2021 春高数 B 期末试卷" type="pdf" size="170.4 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2021%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
     {{< hoa-filetree/file name="2021 春高数 B 期末试题答案" type="pdf" size="172.0 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2021%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="2022 春高数 B 期末试题答案" type="pdf" size="187.0 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/exams/%E5%BE%AE%E7%A7%AF%E5%88%86B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%2B%E7%AD%94%E6%A1%88/2022%E6%98%A5%E9%AB%98%E6%95%B0B%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
@@ -145,17 +148,12 @@ math: true
     {{< hoa-filetree/file name="高等数学典型题 - 第二版 - 西安交通大学" type="pdf" size="5.4 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/materials/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%85%B8%E5%9E%8B%E9%A2%98-%E7%AC%AC%E4%BA%8C%E7%89%88-%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-    {{< hoa-filetree/file name="[HIT 笔记]微积分笔记--任姿颖" type="pdf" size="33.3 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0--%E4%BB%BB%E5%A7%BF%E9%A2%96.pdf" >}}
-    {{< hoa-filetree/file name="[HIT 笔记]微积分笔记--王怡玮" type="pdf" size="32.7 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0--%E7%8E%8B%E6%80%A1%E7%8E%AE.pdf" >}}
-    {{< hoa-filetree/file name="[HIT 笔记]微积分讲义" type="pdf" size="4.1 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E8%AE%B2%E4%B9%89.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]微积分 (下) 期中复习笔记" type="pdf" size="35.3 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E5%BE%AE%E7%A7%AF%E5%88%86%28%E4%B8%8B%29%E6%9C%9F%E4%B8%AD%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0.pdf" >}}
-    {{< hoa-filetree/file name="[网盘计划]高等数学 A 知识整理" type="pdf" size="9.1 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86.pdf" >}}
+    {{< hoa-filetree/file name="2022 高等数学笔记-psp" type="pdf" size="68.4 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2022%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-psp.pdf" >}}
     {{< hoa-filetree/file name="二重积分总结及拓展" type="pdf" size="77.2 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86%E6%80%BB%E7%BB%93%E5%8F%8A%E6%8B%93%E5%B1%95.pdf" >}}
     {{< hoa-filetree/file name="多元函数微分学总结与拓展" type="pdf" size="93.7 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E6%80%BB%E7%BB%93%E4%B8%8E%E6%8B%93%E5%B1%95.pdf" >}}
-    {{< hoa-filetree/file name="工数下知识点精要（内容）" type="pdf" size="559.0 KB" date="2024/07/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E5%B7%A5%E6%95%B0%E4%B8%8B%E7%9F%A5%E8%AF%86%E7%82%B9%E7%B2%BE%E8%A6%81%EF%BC%88%E5%86%85%E5%AE%B9%EF%BC%89.pdf" >}}
-    {{< hoa-filetree/file name="知识点_高等数学 (crop)" type="pdf" size="6.4 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E7%9F%A5%E8%AF%86%E7%82%B9_%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%28crop%29.pdf" >}}
-    {{< hoa-filetree/file name="高等数学笔记-psp" type="pdf" size="68.4 MB" date="2024/07/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-psp.pdf" >}}
-    {{< hoa-filetree/file name="高等数学（下册）易遗忘知识点" type="pdf" size="504.6 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9.pdf" >}}
+    {{< hoa-filetree/file name="工数下知识点精要" type="pdf" size="559.0 KB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E5%B7%A5%E6%95%B0%E4%B8%8B%E7%9F%A5%E8%AF%86%E7%82%B9%E7%B2%BE%E8%A6%81.pdf" >}}
+    {{< hoa-filetree/file name="高等数学知识点总结" type="pdf" size="6.4 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.pdf" >}}
+    {{< hoa-filetree/file name="高等数学（下册）易遗忘知识点_xyfJASON" type="pdf" size="504.6 KB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9_xyfJASON.pdf" >}}
   {{< hoa-filetree/folder name="2019_C6H5NO2" date="" state="closed" >}}
     {{< hoa-filetree/file name="杂项" type="pdf" size="181.7 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_C6H5NO2/%E6%9D%82%E9%A1%B9.pdf" >}}
     {{< hoa-filetree/file name="趣题集_09_多元函数微分学" type="pdf" size="208.9 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_C6H5NO2/%E8%B6%A3%E9%A2%98%E9%9B%86_09_%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6.pdf" >}}
@@ -168,6 +166,13 @@ math: true
     {{< hoa-filetree/file name="微分方程总结" type="pdf" size="1.8 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E6%80%BB%E7%BB%93.pdf" >}}
     {{< hoa-filetree/file name="无穷级数题型概览" type="pdf" size="1.5 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0%E9%A2%98%E5%9E%8B%E6%A6%82%E8%A7%88.pdf" >}}
     {{< hoa-filetree/file name="高等数学（下册）易遗忘知识点" type="pdf" size="547.6 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9.pdf" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="网盘计划笔记" date="" state="closed" >}}
+    {{< hoa-filetree/file name="[HIT 笔记]微积分笔记--任姿颖" type="pdf" size="33.3 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%E7%AC%94%E8%AE%B0/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0--%E4%BB%BB%E5%A7%BF%E9%A2%96.pdf" >}}
+    {{< hoa-filetree/file name="[HIT 笔记]微积分笔记--王怡玮" type="pdf" size="32.7 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%E7%AC%94%E8%AE%B0/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0--%E7%8E%8B%E6%80%A1%E7%8E%AE.pdf" >}}
+    {{< hoa-filetree/file name="[HIT 笔记]微积分讲义" type="pdf" size="4.1 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%E7%AC%94%E8%AE%B0/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E8%AE%B2%E4%B9%89.pdf" >}}
+    {{< hoa-filetree/file name="[网盘计划]微积分 (下) 期中复习笔记" type="pdf" size="35.3 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%E7%AC%94%E8%AE%B0/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E5%BE%AE%E7%A7%AF%E5%88%86%28%E4%B8%8B%29%E6%9C%9F%E4%B8%AD%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0.pdf" >}}
+    {{< hoa-filetree/file name="[网盘计划]高等数学 A 知识整理" type="pdf" size="9.1 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%E7%AC%94%E8%AE%B0/%5B%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%5D%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
