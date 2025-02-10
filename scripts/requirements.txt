@@ -6,6 +6,6 @@ tqdm==4.67.1
 urllib3==2.3.0
 pytz==2025.1
 pillow==11.1.0
-aiohttp==3.11.11
+aiohttp==3.11.12
 tenacity==9.0.0
 fs==2.4.16
