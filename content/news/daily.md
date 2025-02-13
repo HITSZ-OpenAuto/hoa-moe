@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-10'
-description: 北京时间 2025-02-09 00 时至今
+date: '2025-02-13'
+description: 北京时间 2025-02-12 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (2.9)
+### 周三 (2.12)
 
-- W·D·Gaster 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件 (#9)
+- W·D·Gaster 在 [电路 IB](https://github.com/HITSZ-OpenAuto/EE1011B) 中提交了信息：修改 readme 格式，修改部分文件命名 (#12)
 
 ## 待解决的 Issues
 
@@ -55,12 +55,6 @@ title: AUTO 更新速递
 
 - **仓库**: ENGG1003
 - **创建于**: 2025-01-26 21:45:00
-- **作者**: WDGaster703
-
-### [修改 readme 格式，修改部分文件命名](https://github.com/HITSZ-OpenAuto/EE1011B/pull/12)
-
-- **仓库**: EE1011B
-- **创建于**: 2025-01-19 15:36:39
 - **作者**: WDGaster703
 
 ### [修改 readme 格式，修改部分文件命名并进行归类](https://github.com/HITSZ-OpenAuto/EE1011A/pull/9)
