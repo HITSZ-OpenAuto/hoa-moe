@@ -15,17 +15,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 
                 try {
                     const controller = new AbortController();
-                    const timeoutId = setTimeout(() => controller.abort(), 2000);
+                    const timeoutId = setTimeout(() => controller.abort(), 4000);
                     
                     const startTime = Date.now();
                     
                     const response = await Promise.race([
                         fetch(link, {
+                            method: 'HEAD',
                             signal: controller.signal,
                             mode: 'no-cors'
+                        }).then(response => {
+                            // console.log(`${link}: ${response.headers}`);
                         }),
                         new Promise((_, reject) => {
-                            setTimeout(() => reject(new Error('Timeout')), 2000);
+                            setTimeout(() => reject(new Error('Timeout')), 4000);
                         })
                     ]);
                     
@@ -33,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     const responseTime = Date.now() - startTime;
                     
                     // 根据响应时间添加对应的类
-                    if (responseTime <= 1000) {
+                    if (responseTime <= 2000) {
                         networkPoint.classList.add('hx-bg-green-500');
-                    } else if (responseTime <= 2000) {
+                    } else if (responseTime < 4000) {
                         networkPoint.classList.add('hx-bg-yellow-500');
                     }
                 } catch (error) {

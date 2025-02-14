@@ -4,6 +4,11 @@
 {{- $logoHeight := .Site.Params.navbar.logo.height | default "20" -}}
 {{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
 
+{{- $zoomPath := resources.Get "icons/switch.svg" -}}
+{{- $zoomDarkPath := resources.Get "icons/switch-dark.svg" -}}
+
+{{- $jsWidthControl := resources.Get "js/width-control.js" -}}
+
 {{- $navWidth := "hx-max-w-[90rem]" -}}
 {{- with .Site.Params.navbar.width -}}
   {{ if eq . "normal" -}}
@@ -47,6 +52,11 @@
             {{- partial "utils/icon.html" (dict "name" .Params.icon "attributes" "height=24") -}}
             <span class="hx-sr-only">{{ or (T .Identifier) .Name | safeHTML }}</span>
           </a>
+          <button class="hoa-width-button hx-p-2 hx-text-current header-icon" >
+            <img class="hx-block dark:hx-hidden" src="{{ $zoomPath.RelPermalink }}" width="20"/>
+            <img class="hx-hidden dark:hx-block" src="{{ $zoomDarkPath.RelPermalink }}" width="20" />
+            <span class="hx-sr-only">{{ or (T .Identifier) .Name | safeHTML }}</span>
+          </button>
         {{- else -}}
           {{- $active := or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) -}}
           {{- $activeClass := cond $active "hx-font-medium animated-active" "hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200" -}}
@@ -70,3 +80,8 @@
     </button>
   </nav>
 </div>
+
+{{- if hugo.IsProduction -}}
+  {{- $jsWidthControl = $jsWidthControl | minify | fingerprint -}}
+{{- end -}}
+<script defer src="{{ $jsWidthControl.RelPermalink }}" integrity="{{ $jsWidthControl.Data.Integrity }}"></script>
