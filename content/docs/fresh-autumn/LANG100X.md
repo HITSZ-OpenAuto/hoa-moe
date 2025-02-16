@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 19 日" author="W·D·Gaster" message="添加韩烨和毕鑫的评价" >}}
+{{< update-info update_time="2025 年 2 月 16 日" author="W·D·Gaster" message="以 .gitkeep 文件替代无用的 readme.md 文件，补充分班和免听相关 (#5)" >}}
 
 
 <!--
@@ -41,8 +41,25 @@ math: true
 
 自 23 级起，大学英语改为三学期：
   - 大一秋季学期的大学英语 A（LANG1006）为听说课，教材是视听说教材，训练英语听说能力
-  - 大一春季学期的大学英语 B（LANG1007）为论文教学课，教材是学术英语（理工），训练英文论文阅读能力
+  - 大一春季学期的大学英语 B（LANG1007）为论文教学课，教材是《学术英语（理工）》，训练英文论文阅读能力
+    - 大学英语 A 和大学英语 B 的 A/B/C 班并无太大差别，老师亦是轮换教学
+    - 作业量与分级无关，而是取决于老师
   - 大二秋季学期的大学英语 C（LANG1008）为英语提高训练，涉及听说读写四个方面内容。
+    - 大学英语 C 的 A 班不需要上课，但 23 级的 A 班需要完成**大量**作业
+    - B 班需要完成 MOOC 课程
+    - C 班需要参与线下课
+
+## 关于分班和免听
+
+- 大学英语 A 的分班由开学考试成绩决定，大学英语 B 的分班由大学英语 A 的期末考试成绩决定，大学英语 C 的分班由大学英语 B 的期末考试成绩决定。
+
+- 每学期分班后卷面成绩位于前 20% 左右的学生可以申请免听之后所有学期的英语。
+
+- 免听的学生的课程成绩完全由期末考试卷面成绩决定，即期末考试占比 100%，无平时成绩，无需参与平时课堂和完成平时作业。
+- 在免听学期的期末考试成绩跌出免听线则失去之后学期的免听资格。
+
+细则还可参考文件 `深圳校区2023级本科生大学英语课程免修免听方案.docx`
+> 文 / [Gaster](https://github.com/WDGaster703/)，2025.2
 
 ## 授课教师
 
@@ -66,13 +83,12 @@ math: true
 
 ## 关于考试
 
-自 23 级起，每学期的期末考试由原来的听说和读写专项考察改为统一与大一秋季学期英语分班考试一致的试卷，试卷结构为：25 题四级听力 + 10 题雅思听力（1 篇文章）+ 2 篇四级阅读 + 1 篇雅思阅读 + 1 篇短文填词 + 1 篇雅思大作文（议论文）。
+自 23 级起，每学期的期末考试与大一秋季学期英语分班考试结构一致，试卷结构为：25 题四级听力 + 10 题雅思听力（1 篇文章）+ 2 篇四级阅读 + 1 篇雅思阅读 + 1 篇短文填词 + 1 篇雅思大作文（议论文）。
 > 文 / [Gaster](https://github.com/WDGaster703), 2024.12
 
 如果你想了解四、六级考试，可以查看我们的博客 [《四、六级备考指北》](https://hoa.moe/blog/cet-intro/)
 
-**新：2014-2021 年大学英语四、六级真题及解析已更新至校内网盘。**
-
+**新：2014-2021 年大学英语四、六级真题及解析已更新至内网网盘，访问途径见下。**
 
 
 ## 资料下载
@@ -92,6 +108,9 @@ math: true
     {{< hoa-filetree/file name="2024 级大学英语 A 期末综合考试试题（回忆版）" type="pdf" size="238.5 KB" date="2025/01/08" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/exams/2024%E7%BA%A7%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%ADA%E6%9C%9F%E6%9C%AB%E7%BB%BC%E5%90%88%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
     {{< hoa-filetree/file name="hitsz 新生入学英语听力" type="rar" size="14.7 MB" date="2024/04/21" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/exams/hitsz%E6%96%B0%E7%94%9F%E5%85%A5%E5%AD%A6%E8%8B%B1%E8%AF%AD%E5%90%AC%E5%8A%9B.rar" >}}
     {{< hoa-filetree/file name="hitsz 新生入学英语复习资料" type="rar" size="1.3 MB" date="2024/04/21" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/exams/hitsz%E6%96%B0%E7%94%9F%E5%85%A5%E5%AD%A6%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99.rar" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="policies" date="" state="closed" >}}
+    {{< hoa-filetree/file name="深圳校区 2023 级本科生大学英语课程免修免听方案" type="docx" size="230.8 KB" date="2025/02/15" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/policies/%E6%B7%B1%E5%9C%B3%E6%A0%A1%E5%8C%BA2023%E7%BA%A7%E6%9C%AC%E7%A7%91%E7%94%9F%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%BE%E7%A8%8B%E5%85%8D%E4%BF%AE%E5%85%8D%E5%90%AC%E6%96%B9%E6%A1%88.docx" >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
