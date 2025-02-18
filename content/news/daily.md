@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-16'
-description: 北京时间 2025-02-15 00 时至今
+date: '2025-02-18'
+description: 北京时间 2025-02-17 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (2.16)
+### 周一 (2.17)
 
-- W·D·Gaster 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件，补充分班和免听相关 (#5)
+- W·D·Gaster 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：修改 readme 格式，修改部分文件命名并进行归类 (#9)
 
 ## 待解决的 Issues
 
@@ -33,9 +33,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [修改 readme 格式，修改部分文件命名并进行归类](https://github.com/HITSZ-OpenAuto/EE1011A/pull/9)
-
-- **仓库**: EE1011A
-- **创建于**: 2025-01-19 15:28:31
-- **作者**: WDGaster703
+暂无待合并的 Pull Requests
 
