@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 7 日" author="W·D·Gaster" message="上传校区首批必修核心课程名单" >}}
+{{< update-info update_time="2025 年 2 月 18 日" author="W·D·Gaster" message="修改 23 级学分要求" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
@@ -59,8 +59,8 @@ math: true
   - 21 级除了**美育类**课程必须线下完成外，其余课程均可以通过线上 MOOC 完成。
 - 22 级毕业要求文理通识不少于 10 学分，其中**英文**课程至少 2 学分、**心理类**课程至少 2 学分、**美育类**课程至少 2 学分、**思政类选择性必修课程**不少于 1 门。
   - 22 级课程均可以通过线上 MOOC 修读完成。
-- 23 级毕业要求文理通识不少于 8 学分，其中**必修核心课程**至少 2 学分、**英文**课程至少 2 学分、**美育类**课程至少 2 学分、**思政类选择性必修课程**不少于 1 门。
-  - 23 级除了**必修核心课程**外，其余课程均可以以 MOOC 线上课程完成。目前校区首批文理通识必修核心课程名单见「notes/深圳校区首批文理通识核心课建设立项名单.excel」
+- 23 级毕业要求文理通识不少于 8 学分，其中**英文**课程至少 2 学分、**美育类**课程至少 2 学分、**思政类选择性必修课程**不少于 1 门。
+  - 23 级课程均可以通过线上 MOOC 修读完成。
 - 24 级毕业要求文理通识不少于 8 学分，其中**英文**课程至少 2 学分、**美育类**课程至少 2 学分、**思政类选择性必修课程**不少于 1 门，《**卓越人才生涯规划**》为文理通识必修课，需大一学年完成。
   - 24 级 MOOC 累计认定学分不超过 2 学分，其余学分需以线下课修读获得。
 
@@ -89,6 +89,9 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/GeneralKnowledge" repoURL="https://github.com/HITSZ-OpenAuto/GeneralKnowledge" >}}
+  {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
+    {{< hoa-filetree/file name="深圳校区首批文理通识核心课建设立项名单" type="xlsx" size="13.6 KB" date="2025/01/07" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/notes/%E6%B7%B1%E5%9C%B3%E6%A0%A1%E5%8C%BA%E9%A6%96%E6%89%B9%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86%E6%A0%B8%E5%BF%83%E8%AF%BE%E5%BB%BA%E8%AE%BE%E7%AB%8B%E9%A1%B9%E5%90%8D%E5%8D%95.xlsx" >}}
+  {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
