@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-18'
-description: 北京时间 2025-02-17 00 时至今
+date: '2025-02-19'
+description: 北京时间 2025-02-18 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (2.17)
+### 周二 (2.18)
 
-- W·D·Gaster 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：修改 readme 格式，修改部分文件命名并进行归类 (#9)
+- W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：修改 23 级学分要求
+
+- W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：删除核心课相关说明
 
 ## 待解决的 Issues
 
