@@ -1,15 +1,23 @@
 ---
 title: 1. 单文档修改和单文件夹上传文件
 date: 2025-01-10
-description: 例如，在 hoa.moe 上看到的`课程描述`页面的修改
+description: 例如，hoa.moe 上 课程描述页面 的修改
 authors:
   - name: IcyDesert
     link: https://github.com/IcyDesert
     image: https://github.com/IcyDesert.png
 excludeSearch: false
+weight: 2
 cascade:
   type: blog
+next: /blog/contribution-guide/prerequisites
+prev: /blog/contribution-guide/edit-multi-docs-and-upload-files
 ---
+
+{{< callout type="info" >}}
+下面介绍的两种情况流程相近，如果有问题可以对照着参考。
+
+{{< /callout >}}
 
 ## 单文档修改：以课程文档为例
 
@@ -42,34 +50,38 @@ cascade:
 
 ### 发起 Pull Request
 
-> Pull Request 是指把*你的仓库里新的内容*合并进*我们已过时的仓库内容*的过程。
+> Pull Request 指把**你的仓库里新的内容**合并进**我们已过时的仓库内容**的过程。
 
-点击按钮，GitHub 会要求你填写 PR 的描述。我们给这份描述添加了一些指引，因此只需要按照指引填写即可。
+点击按钮，GitHub 会要求你填写 PR 的描述。我们给这份描述添加了一些指引，因此只需按照指引填写即可。
 ![](./img/pull-request.png)
-
-{{< callout type="info" >}}
-如果有疑问，可以先看看 [单文件夹上传文件](#单文件夹上传文件) 的教程，因为这两者的流程是一致的
-
-{{< /callout >}}
+完成后点击 `Create pull request` 按钮；我们将对 Pull Request 进行审核，如有问题将指出，还请留意 GitHub 通知。
 
 ## 单文件夹上传文件
 
-GitHub 提供的功能实际上支持多文件上传，但这些文件必须上传到**同一个目标文件夹**，因此称为「单文件夹上传」。
+GitHub 提供的方法实际上支持多文件上传，但这些文件必须上传到**同一个目标文件夹**，因此称为「单文件夹上传」。
 
 使用场景如：上传某课程试卷和/或其答案，同属 exams 文件夹
 
 ### 手动 Fork 仓库
 
 由于我们的仓库设置了文件上传保护，需要手动创建自己的仓库分支。
+
 ![](./img/fork-repo-actively.png)
 
 ### 在自己的仓库上传文件
 
+仓库里的文件夹一般有四个，请对应上传：
+- assignments 作业
+- exams 考试
+- notes 个人笔记
+- slides 来自教师的资料
+
 在自己的仓库总页面，点击你想上传的文件夹，然后点如图按钮；在上传界面拖拽文件即可。这一步支持多文件上传。
+
 ![](./img/files-upload-button.png)
 
 {{< callout type="info" >}}
-注意，请确保所上传的文件不是 [公约](#公约) 中所述「**不宜上传文件**」；填写 commit message 仍然需要遵守公约。
+注意，请确保所上传的文件不是 [公约](#公约) 中所述「**不宜上传文件**」；填写 commit message 仍然需要遵守 [公约](#公约)。
 
 {{< /callout >}}
 
@@ -77,7 +89,7 @@ GitHub 提供的功能实际上支持多文件上传，但这些文件必须上�
 
 再次回到自己的仓库，主界面会发现显眼的标注
 ![](./img/open-pull-request.png)
-然后就是和上文一样的流程。
+然后就是和 [上文](#发起-pull-request) 一样的流程。
 
 ## 公约
 
