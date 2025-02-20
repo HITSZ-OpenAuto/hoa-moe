@@ -35,5 +35,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [补充文理通识课程综述部分](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/5)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2025-02-19 15:53:33
+- **作者**: WDGaster703
 
