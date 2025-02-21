@@ -14,7 +14,7 @@ next: /blog/contribution-guide/edit-multi-docs-and-upload-files
 prev: false
 ---
 
-> 我没看到博客的入口/仓库啊？
+> 我没看到博客仓库/新建博客入口啊？
 
 确实，博客并没有属于自己的仓库。课程信息页面右侧 `在 GitHub 上编辑` 的各课程仓库入口是我们做的特殊处理。
 
@@ -59,8 +59,7 @@ prev: false
 │   │   │   └── ros
 │   │   │       └── index.zh.md
 ```
-（已删去部分行以便观看）
-感觉有点眼花缭乱？别着急，我们自顶向下地看：
+（已删去部分行以便观看）感觉有点眼花缭乱？别着急，我们自顶向下地看：
 
 blog 下的文件夹名是 `auto-survival-guide`，这是博客~~名称~~ 标识符。
 
@@ -70,7 +69,7 @@ blog 下的文件夹名是 `auto-survival-guide`，这是博客~~名称~~ 标识
 
 `embedded math overview ros` 文件夹下各有一个 `index.zh-cn.md`，这就是正文啦！
 
-`imu` 下还有若干文件夹以及一个 `_index.zh-cn.md` 导引文件，说明它又是一个专栏，包含若干文章。
+`imu` 下还有若干文件夹以及一个 `_index.zh-cn.md` 索引文件，说明它又是一个专栏，包含若干文章。
 
 可以结合此文件树的 [渲染结果](https://hoa.moe/blog/auto-survival-guide/) 理解。
 
