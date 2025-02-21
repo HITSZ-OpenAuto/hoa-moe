@@ -1,5 +1,5 @@
 ---
-title: 0x00▓预备知识
+title: 0x00► 预备知识
 date: 2025-02-20
 description: 参与 HOA 社区建设的一些预备知识讲解
 authors:
