@@ -1,5 +1,5 @@
 ---
-title: 0x00. 预备知识
+title: 0x00▓预备知识
 date: 2025-02-20
 description: 参与 HOA 社区建设的一些预备知识讲解
 authors:
@@ -40,9 +40,9 @@ Markdown 是一种**轻量级**标记语言，通过简单易读的纯文本格�
 
 ## `本地`和`远程`
 
-一般来说，**本地（local）** 文件指你的电脑磁盘上的文件，而 **远程（remote）** 文件指存储在服务器上的数据文件。在 HOA 的语境下，`本地文件`指你保存在自己电脑上、想要提交到我们的`远程仓库`里的文件，而 `远程仓库`是我们在 GitHub 上的 [各个仓库](https://github.com/HITSZ-OpenAuto)。
+一般来说，**本地（local）**文件指你的电脑磁盘上的文件，而 **远程（remote）**文件指存储在服务器上的数据文件。在 HOA 的语境下，`本地文件`指你保存在自己电脑上、想要提交到我们的`远程仓库`里的文件，而 `远程仓库`是我们在 GitHub 上的 [各个仓库](https://github.com/HITSZ-OpenAuto)。
 
-所谓提交文件，就是通过 GitHub 提供的方法将`本地文件`提交到`远程仓库`的过程；这些方法就是我们后续指南的介绍重点。当然，如果你只是想修改课程描述页面文字，暂时用不到这些概念。
+提交文件，是通过 GitHub 提供的方法将`本地文件`提交到`远程仓库`的过程；后续指南的介绍重点也将是这些方法。当然，如果你只是想修改课程描述页面文字，暂时用不到这些概念。
 
 ## *GitHub Codespaces
 
@@ -65,7 +65,7 @@ Markdown 是一种**轻量级**标记语言，通过简单易读的纯文本格�
 2. 使用 Git，在一步（commit）中修改完所有`本地文件`
 3. 将`本地文件` push 到`远程仓库`
 
-看似完美，但仍有不足：若一个仓库中有超大文件，将触发 git LFS(**L**arge **F**ile **S**troage) 问题，导致 `git clone` 失败。包括 HOA 的部分仓库在内，GitHub 上的许多仓库都存在这个问题。（参见 [此 issue](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)）
+看似完美，但仍有不足：若一个仓库中有超大文件，将触发 Git LFS(**L**arge **F**ile **S**troage) 问题，导致 `git clone` 失败。包括 HOA 的部分仓库在内，GitHub 上的许多仓库都存在这个问题。（参见 [此 issue](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)）
 
 为此，GitHub 官方推出了一款在线编辑器——
 

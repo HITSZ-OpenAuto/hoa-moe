@@ -1,7 +1,7 @@
 ---
-title: 0x0A. 多文档修改和多文件夹上传文件
+title: 0x0A▓多文档修改和多文件夹上传文件
 date: 2025-02-20
-description: 操作流程比较复杂，如果有 Git 基础其实很好上手
+description: 操作流程略显复杂，如果有 Git 基础其实很好上手
 authors:
   - name: IcyDesert
     link: https://github.com/IcyDesert
