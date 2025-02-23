@@ -1,5 +1,5 @@
 ---
-title: 0x0A► 多文档修改和多文件夹上传文件
+title: 2► 多文档修改和多文件夹上传文件
 date: 2025-02-20
 description: 操作流程略显复杂，如果有 Git 基础其实很好上手
 authors:
@@ -11,7 +11,7 @@ weight: 3
 next: /blog/contribution-guide/edit-single-file-and-upload-file
 prev: /blog/contribution-guide/write-blogs
 ---
-我们介绍的正规方法需要一些 Git 基础，这是 GitHub 界面功能不足导致的。如果你没有 Git 相关知识，可以查看 HITSZ 开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
+下面介绍的两种方法需要一些 Git 基础以便理解，这是 GitHub 界面功能不足导致的。如果你没有 Git 相关知识，可以查看 HITSZ 开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
 
 ## Git 本地编辑
 
@@ -29,7 +29,7 @@ prev: /blog/contribution-guide/write-blogs
 
 ### commit & push
 
-确认所有修改都完成后，我们就可以把`本地文件`推送到`远程仓库`了；这时候，`远程仓库`还是你自己的，而非 HOA 的。（从自己的`远程仓库`，通过*Pull Request*，才能把内容推送到 HOA 的`远程仓库`）
+确认所有修改都完成后，我们就可以把`本地文件`推送到`远程仓库`了；这时候，`远程仓库`还是你自己的，而非 HOA 的。（从自己的`远程仓库`通过 *Pull Request* 才能把内容推送到 HOA 的`远程仓库`）
 
 在命令行中，逐行执行以下命令：
 ```bash
@@ -61,7 +61,7 @@ fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': Open
 然后在**你的仓库**里如图新建 Codespaces，等待页面跳转、加载。可能要等一段时间。
 
 ![](./img/create-codespaces.png)
-*<center>这一步是 Codespaces 应对超大文件的方法。等待的时间里，GitHub 将创建云端虚拟机并把文件通过网络发送上去，如此，文件便成为云端的`本地文件`，从而规避了在`本地磁盘 `clone 时无法处理超大文件的问题。你可以理解为网盘。</center>*
+*<center>这一步是 Codespaces 应对超大文件的方法。等待的时间里，GitHub 将创建云端虚拟机并把文件通过网络发送上去，如此，文件便成为云端（服务器）的`本地文件`，从而规避了`本地磁盘`的 Git LFS 问题。你可以理解为文件放在网盘上。</center>*
 
 ### 开始修改
 

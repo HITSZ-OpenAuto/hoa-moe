@@ -1,5 +1,5 @@
 ---
-title: 0x10► 撰写博客
+title: 3► 撰写博客
 date: 2025-02-20
 description: 博客更偏重于某个具体知识，比课程文档更灵活
 authors:
@@ -18,7 +18,7 @@ prev: false
 
 确实，博客并没有属于自己的仓库。课程信息页面右侧 `在 GitHub 上编辑` 的各课程仓库入口是我们做的特殊处理。
 
-博客文章实际上在我们的主仓库 [hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe) 里，它和课程仓库的主要差别是文件夹排列。比如你现在阅读的这篇文章，相对主仓库的路径就是 `./content/blog/contribution-guide/write-blogs/index.zh-cn.md`。
+博客实际上在我们的主仓库 [hoa-moe](https://github.com/HITSZ-OpenAuto/hoa-moe) 里，它和课程仓库的主要差别是文件夹排列。比如你现在阅读的这篇文章，相对主仓库的路径就是 `./content/blog/contribution-guide/write-blogs/index.zh-cn.md`。
 
 博客是「多文件夹上传文件」的一类特殊情况。因此，你可以选用 Git 本地编辑或 Codespaces 编写；因为仓库并不大，本地编辑或许更好一些。
 

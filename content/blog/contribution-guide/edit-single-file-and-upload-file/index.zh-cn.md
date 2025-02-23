@@ -1,5 +1,5 @@
 ---
-title: 0x01► 单文档修改和单文件夹上传文件
+title: 1► 单文档修改和单文件夹上传文件
 date: 2025-01-10
 description: 例如，hoa.moe 上 课程描述页面 的修改
 authors:
@@ -54,7 +54,7 @@ prev: /blog/contribution-guide/edit-multi-docs-and-upload-files
 
 点击按钮，GitHub 会要求你填写 PR 的描述。我们给这份描述添加了一些指引，因此只需按照指引填写即可。
 ![](./img/pull-request.png)
-完成后点击 `Create pull request` 按钮；我们将对 Pull Request 进行审核，如有问题将指出，还请留意 GitHub 通知。
+填写完成后点击 `Create pull request` 按钮；我们将对 Pull Request 进行审核，如有问题将指出，还请留意 GitHub 和邮箱通知。
 
 ## 单文件夹上传文件
 

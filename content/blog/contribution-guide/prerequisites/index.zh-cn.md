@@ -1,5 +1,5 @@
 ---
-title: 0x00► 预备知识
+title: 0► 预备知识
 date: 2025-02-20
 description: 参与 HOA 社区建设的一些预备知识讲解
 authors:
@@ -14,7 +14,7 @@ next: false
 prev: /blog/contribution-guide/edit-single-file-and-upload-file
 ---
 
-带 * 号表示选修。
+带 * 号表示选修。在后续文章中，我们将默认各位参与者已完成必修知识的学习。
 
 ## *Git
 
@@ -35,14 +35,14 @@ Markdown 是一种**轻量级**标记语言，通过简单易读的纯文本格�
 有多轻量级呢？不消半个小时，你也能学会！你可以在本站文章
 [在 Typora 中快速上手 Markdown](https://hoa.moe/blog/markdown-and-latex/getting-started-with-markdown-in-typora/) 中找到详尽教程（不必安装 Typora），也可以使用 [Markdown 速查表](https://www.markdownguide.org/cheat-sheet/)（英文）。
 
-在编写 Markdown 时，先确定此处所需要的文章结构（如标题/列表），再添加对应的标记即可。
+编写 Markdown 工作流：先确定此处所需要的文章结构（如标题/列表），再添加对应的标记。
 
 
 ## `本地`和`远程`
 
 一般来说，**本地（local）**文件指你的电脑磁盘上的文件，而 **远程（remote）**文件指存储在服务器上的数据文件。在 HOA 的语境下，`本地文件`指你保存在自己电脑上、想要提交到我们的`远程仓库`里的文件，而 `远程仓库`是我们在 GitHub 上的 [各个仓库](https://github.com/HITSZ-OpenAuto)。
 
-提交文件，是通过 GitHub 提供的方法将`本地文件`提交到`远程仓库`的过程；后续指南的介绍重点也将是这些方法。当然，如果你只是想修改课程描述页面文字，暂时用不到这些概念。
+提交文件，是通过 GitHub 提供的方法将`本地文件`提交到`远程仓库`的过程；后续指南的介绍重点也将是这些方法。当然，如果你只是想修改课程描述的文字，暂时用不到这两个概念。
 
 ## *GitHub Codespaces
 
