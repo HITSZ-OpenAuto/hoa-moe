@@ -1,4 +1,7 @@
 ---
-title: 参与指南
-date: 2025-01-10
+title: HITSZ OpenAuto 参与指南
+description: 不同的参与方式将有不同的解决方案，但都很详细！
+date: 2025-02-20
+tags:
+  - 新手必读
 ---
