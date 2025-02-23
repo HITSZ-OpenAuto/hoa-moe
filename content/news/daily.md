@@ -33,5 +33,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2025-02-22 21:15:11
+- **作者**: WDGaster703
 
