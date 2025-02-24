@@ -31,7 +31,7 @@ draft: false
 
 笔者选择通过 SSH 连接服务器，好处是可以使用自己电脑上的 VS Code 或者其他编辑器，并且配合 AI 写代码也方便很多。下面面向不同平台的用户介绍如何使用 HITSZ Connect Verge[^2] 进行服务器访问，如果你是校内学生（已经连接至校园网），可以不使用 HITSZ Connect Verge 代理和 ProxyCommand 参数，直接使用 SSH 连接。
 
-我们的核心思路是：让电脑通过 HITSZ Connect Verge 的 SOCKS5 代理访问服务器。HITSZ Connect Verge 连接后，配置终端或者 VS Code Remote Server 访问连接服务器。[^3]
+我们的核心思路是：让电脑通过 HITSZ Connect Verge 的 SOCKS5 代理访问服务器。HITSZ Connect Verge 连接后，配置终端或者 VS Code Remote Server 访问连接服务器。
 
 ### Windows
 
@@ -80,7 +80,7 @@ Host <ip 地址>
 ## 一些注意事项
 
 - 服务器密码需要在 hpc.hitsz.edu.cn 点击个人头像 -> 重置密码进行修改。
-- 如果所有配置完成后登录时出现报错 “Permission denied, please try again.”，可能不是你的问题，申请其他类型的实例或者到群里问问老师。
+- 如果所有配置完成后登录时出现报错 “Permission denied, please try again.”，可能不是你的问题，申请其他类型的实例或者到群里问问老师。笔者得到的老师的回复是：检查端口，用户密码是否正确，ssh服务状态、ssh配置是否正常，加 `-v` 选项看下调试信息。
 
 ## 写在最后
 
