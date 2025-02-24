@@ -79,7 +79,7 @@ Codespaces 同时具备上述两个方法的优点：
 其界面如下图所示：
 ![Codespaces 和 Visual Studio Code 的界面几乎相同](./img/codespaces_interface.png)
 
-没错，它的界面和 ~~宇宙级编辑器~~ Visual Studio Code 几乎完全一致！ 如果你曾使用过 Visual Studio Code，那么恭喜，你已经学会了大部分 Codespaces 的用法。
+没错，它的界面和 ~~宇宙级编辑器~~ Visual Studio Code 几乎完全一致！如果你曾使用过 Visual Studio Code，那么恭喜，你已经学会了大部分 Codespaces 的用法。
 
 如果你未使用过，界面左侧灰色区是文件管理器，可增、删、改文件，右侧白色区是文件编辑、Markdown 预览区。我们会在用到 Codespaces 时针对性介绍功能。
 
