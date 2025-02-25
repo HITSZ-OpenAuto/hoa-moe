@@ -33,6 +33,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [增加毛成婷教师的信息及评价](https://github.com/HITSZ-OpenAuto/LANG100X/pull/6)
+
+- **仓库**: LANG100X
+- **创建于**: 2025-02-24 22:52:06
+- **作者**: mircecilia
+
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
 - **仓库**: GeneralKnowledge
