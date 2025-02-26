@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 2 月 16 日" author="W·D·Gaster" message="以 .gitkeep 文件替代无用的 readme.md 文件，补充分班和免听相关 (#5)" >}}
+{{< update-info update_time="2025 年 2 月 25 日" author="cecilia" message="增加毛成婷教师的信息及评价 (#6)" >}}
 
 
 <!--
@@ -80,6 +80,13 @@ math: true
   - 有一次 pre（大一下），分享你们组感兴趣的一篇学术文章
   - 老师上课节奏很慢，而且~~口音好听~~
 > 文 / [Gaster](https://github.com/WDGaster703), 2025.1
+
+- 毛成婷
+  - 上课按座位表坐，需要用雨课堂二维码进行签到，一般按座位顺序以传话筒方式回答问题，也有随机抽人但次数比较少，题目不会也没关系，会跳到下一个人，每人一节课只需要回答一个问题（大概吧，起码笔者所在那学期是这样的）
+  - 课后作业还好，每周完成口语或听力或阅读或可能的写作四种任务中的一个，不刷分的话半小时左右就可以完成，平时分中的作业部分严格按平台成绩打分
+  - 不强制要求买书，课堂提供的课件足以进行学习，但要求自带纸质本子用来完成听力任务
+  - 有小组作业，内容为自选方向进行一次英语演讲，要求四人一小组制作 ppt，并轮流或指派人进行课堂演讲，有两节课进行专门评分
+> 文 / [Cecilia](https://github.com/mircecilia), 2025.2
 
 ## 关于考试
 
