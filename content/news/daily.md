@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-02-27'
-description: 北京时间 2025-02-26 00 时至今
+description: 北京时间 2025-02-26 02 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -17,18 +17,6 @@ title: AUTO 更新速递
 - 吴俊达 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 README.md
 
 ## 待解决的 Issues
-
-### [chore: 将每项的描述移到项名前面](https://github.com/HITSZ-OpenAuto/.github/issues/14)
-
-- **仓库**: .github
-- **创建于**: 2025-02-25 22:34:48
-- **作者**: IcyDesert
-
-### [chore: 精简检查清单](https://github.com/HITSZ-OpenAuto/.github/issues/13)
-
-- **仓库**: .github
-- **创建于**: 2025-02-25 22:28:32
-- **作者**: IcyDesert
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
