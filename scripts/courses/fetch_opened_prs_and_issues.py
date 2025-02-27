@@ -118,7 +118,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
         filtered_issues = [
             i
             for i in issues
-            if i["repository"]["name"] != "hoa-moe"
+            if i["repository"]["name"] not in ["hoa-moe", ".github"]
             and i["repository"]["name"] in public_repos
         ]
 
@@ -143,7 +143,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
         filtered_prs = [
             p
             for p in prs
-            if p["repository"]["name"] != "hoa-moe"
+            if p["repository"]["name"] not in ["hoa-moe", ".github"]
             and p["repository"]["name"] in public_repos
         ]
 
