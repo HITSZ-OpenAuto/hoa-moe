@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-19'
-description: 北京时间 2025-02-18 00 时至今
+date: '2025-02-27'
+description: 北京时间 2025-02-26 02 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (2.18)
+### 周三 (2.26)
 
-- W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：修改 23 级学分要求
-
-- W·D·Gaster 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：删除核心课相关说明
+- 吴俊达 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 README.md
 
 ## 待解决的 Issues
 
@@ -35,5 +33,15 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [添加授课内容](https://github.com/HITSZ-OpenAuto/EE2005/pull/3)
+
+- **仓库**: EE2005
+- **创建于**: 2025-02-25 15:48:29
+- **作者**: WDGaster703
+
+### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2025-02-22 21:15:11
+- **作者**: WDGaster703
 
