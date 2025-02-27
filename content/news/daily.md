@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-26'
-description: 北京时间 2025-02-25 00 时至今
+date: '2025-02-27'
+description: 北京时间 2025-02-26 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (2.25)
+### 周三 (2.26)
 
-- cecilia 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：增加毛成婷教师的信息及评价 (#6)
-
-- W·D·Gaster 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：修改文档落款格式
+- 吴俊达 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 README.md
 
 ## 待解决的 Issues
 
