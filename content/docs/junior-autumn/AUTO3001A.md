@@ -6,13 +6,14 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 28 日" author="Maxwell Jay" message="更新课程文档、上传 2024 年期末试题及参考答案 (#10)" >}}
+{{< update-info update_time="2025 年 2 月 26 日" author="吴俊达" message="更新 README.md" >}}
 
 
 <div align="left">
 <figure>
   <img alt="考试课" src="https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red" >
-  <img alt="学分 4.5" src="https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4.5-moccasin">
+  <img alt="学分 4.5（21、22 级）" src="https://img.shields.io/badge/%E5%AD%A6%E5%88%86%ef%bc%8821%e3%80%8122%e7%ba%a7%ef%bc%89-4.5-moccasin">
+  <img alt="学分 2.0（23 级开始）" src="https://img.shields.io/badge/%E5%AD%A6%E5%88%86%ef%bc%8823%e7%ba%a7%e5%bc%80%e5%a7%8b%ef%bc%89-2.0-moccasin">
 </figure>
 </div>
 
@@ -26,6 +27,8 @@ math: true
   <img alt="Static Badge" src="https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat">
 </figure>
 </div>
+
+*注意：本页面资料全部对应 4.5 学分的原课程，新大纲释出后，会及时更新对比表格方便大家取用资料。查找《系统与控制》资料的同学可根据当前授课及作业内容自行选用本仓库资料。*
 
 ## 教材和参考书
 
@@ -62,6 +65,12 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
   - 教学节奏较慢，有一种回到中学课堂的感觉
   - 几乎每节课都会考勤点名，一次点名一个班
 
+> 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2025.1
+
+张宏伟老师上课以吹水为主，对于想快速掌握本课程知识而不想浪费时间的同学，不建议听课。
+
+> 文 / [Oliver Wu](https://github.com/OliverWu515), 2025.2
+
 ## 关于作业
 
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2025.1
@@ -78,6 +87,10 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 因此深圳校区的考试难度我暂时得不出结论。
 
 对考试分数有要求的话，建议找考研题来做。
+
+同上，想多练练手就刷本校考研题。因为我们学校的考试风格与考研题接近。
+
+> 文 / [Oliver Wu](https://github.com/OliverWu515), 2025.2
 
 ## 学习建议
 
