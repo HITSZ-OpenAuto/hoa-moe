@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-02-27'
-description: 北京时间 2025-02-26 02 时至今
+date: '2025-03-02'
+description: 北京时间 2025-03-01 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (2.26)
+### 周六 (3.1)
 
-- 吴俊达 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 README.md
+- W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：修改落款格式 (#21)
 
 ## 待解决的 Issues
 
