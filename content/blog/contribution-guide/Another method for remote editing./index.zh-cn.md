@@ -1,13 +1,39 @@
 ---
+title: <标题>
+date: <日期>
+description: <显示在索引页面的文章简介>
+authors:
+  <!--支持多作者-->
+  - name: <作者名>
+    link: <作者主页>
+    image: <头像>
+  - name: <作者名>
+    link: <作者主页>
+    image: <头像>
+excludeSearch: false
+<!-- 以下为多文章博客使用 -->
+weight: 1 <!--在索引界面的排列顺序，1 表示排在最前面-->
+next: false <!--上一篇，false 表示没有-->
+prev: /blog/contribution-guide/edit-single-file-and-upload-file <!--下一篇，false 表示没有-->
+---
+
+
 title: 远程编辑hoa.moe
+
 date: 2025-03-03
-description: 操作流程更加简单
+
+description: 更加简单的远程操作
+
 authors:
   - name: 潜伏
+  
+  - [仓库原址](https://github.com/capoo-fan/hoa-moe)
+
+  ![](./img/head.png)
+
+  - [作者主页](https://github.com/capoo-fan)
+  
 excludeSearch: false
-weight: 3
-next: /blog/contribution-guide/Another method for remote editing.
-prev: /blog/contribution-guide/write-blogs
 ---
 
 #  前言
@@ -23,13 +49,15 @@ prev: /blog/contribution-guide/write-blogs
 
 ![](./img/github-Repositories.png)
 
-3. 打开GitHub Repositories插件,并登录自己的帐号
+3. 打开GitHub Repositories插件,并登录自己的帐号,打开对应的仓库
    
 ![](./img/teach.png)  
+
+虽然markdown preview enhanced插件在远程仓库中无法使用,但是此时只需要CTRL+SHIFT+V打开vscode内置的markdown预览即可,所以不需要担心预览的问题
 
 4. 编辑完成后,就可以在vsc上进行push,然后就可以回到github帐号下进行pr了
    
 
 # 总结
 
-这个方法是笔者在读[vscode官方文档](https://code.visualstudio.com/docs)时发现出来的方法,很简便且易于操作,在这里分享给大家.同时也推荐大家多读官方文档或者github下面的REAMED.md,往往会有意想不到的收获
+这个方法是笔者在读[vscode官方文档](https://code.visualstudio.com/docs)时发现出来的方法,很简便且易于操作,在这里分享给大家.同时也推荐大家多读官方文档或者github下面的REAMED.md,往往会有意想不到的收获!
