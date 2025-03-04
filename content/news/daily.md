@@ -33,6 +33,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [新增一份笔记](https://github.com/HITSZ-OpenAuto/EE2004/pull/3)
+
+- **仓库**: EE2004
+- **创建于**: 2025-03-03 18:33:24
+- **作者**: zhuqi000
+
 ### [添加授课内容](https://github.com/HITSZ-OpenAuto/EE2005/pull/3)
 
 - **仓库**: EE2005
