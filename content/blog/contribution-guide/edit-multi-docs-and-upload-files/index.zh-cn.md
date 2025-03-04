@@ -24,7 +24,7 @@ prev: /blog/contribution-guide/write-blogs
 ![](./img/fork-repo-actively.png)
 然后进入自己的仓库，找到仓库链接、复制下来，
 ![](./img/find-git-clone-url.png)
-在命令行运行
+打开一个文件夹，在命令行运行
 `git clone <你刚刚复制的仓库链接>`
 这样，**仓库就已经成为你的`本地文件`**；在本地，你就可以随心所欲地进行各种修改，包括文档修改和文件上传。
 
@@ -56,7 +56,7 @@ fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': Open
 
 参考 [单文档的情况](/blog/contribution-guide/edit-single-file-and-upload-file/#发起-pull-request-1) 即可。
 
-## *Codespaces
+## （选修）Codespaces
 
 本方法对体积较大仓库尤为适用。
 
@@ -95,7 +95,7 @@ git push                            # 将本地修改同步到远端仓库
 
 参考 [单文档的情况](/blog/contribution-guide/edit-single-file-and-upload-file/#发起-pull-request-1) 即可。
 
-## *在本地直接编辑远程仓库
+## （选修）在本地直接编辑远程仓库
 
 本方法对体积较大仓库尤为适用。
 
