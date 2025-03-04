@@ -99,7 +99,7 @@ git push                            # 将本地修改同步到远端仓库
 
 本方法对体积较大仓库尤为适用。
 
-为解决 `git clone` 因仓库体积过大而失败的问题，前面已经介绍了一种使用 Codespaces 的方法。除此之外，[潜伏](https://github.com/capoo-fan) 还发现一种依赖一个插件，直接在 **VSCode** 上编辑的方法。使用此方法打开 `hoa-moe` 仓库仅需几秒（魔法状态下）；无需 `本地文件` 即可编辑仓库，并可直接将修改 push 到远程仓库，非常方便。
+为解决 `git clone` 因仓库体积过大而失败的问题，前面已经介绍了一种使用 Codespaces 的方法。除此之外，[潜伏](https://github.com/capoo-fan) 还发现一种依赖一个插件，直接在 **VS Code** 上编辑的方法。使用此方法打开 `hoa-moe` 仓库仅需几秒（魔法状态下）；无需 `本地文件` 即可编辑仓库，并可直接将修改 push 到远程仓库，非常方便。
 
 ### Fork
 
@@ -107,7 +107,7 @@ git push                            # 将本地修改同步到远端仓库
 
 ### 插件安装及登陆
 
-下载并安装 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) 插件。当然，你也可以在 VSCode 的插件市场搜索。
+下载并安装 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) 插件。当然，你也可以在 VS Code 的插件市场搜索。
 
 ![](./img/github-Repositories.png)
 
@@ -117,10 +117,10 @@ git push                            # 将本地修改同步到远端仓库
 
 ### 修改文件
 
-虽然 [Markdown-Preview-Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) 插件在远程仓库中无法使用，但是此时只需要 `Ctrl+Shift+V` 打开 VSCode 内置的 Markdown 预览即可，所以不需要担心没法预览的问题。不过要再次提醒，其 Markdown 预览渲染和 hoa.moe 使用的 Hugo 渲染效果不同，仅供参考。
+虽然 [Markdown-Preview-Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) 插件在远程仓库中无法使用，但是此时只需要 `Ctrl+Shift+V` 打开 VS Code 内置的 Markdown 预览即可，所以不需要担心没法预览的问题。不过要再次提醒，其 Markdown 预览渲染和 hoa.moe 使用的 Hugo 渲染效果不同，仅供参考。
 
 ### push & PR
 
-编辑完成后，就可以直接在 VSCode 上将修改 push 到远端仓库，最后回到 GitHub 远端仓库的网页下提交 PR 了。
+编辑完成后，就可以直接在 VS Code 上将修改 push 到远端仓库，最后回到 GitHub 远端仓库的网页下提交 PR 了。
 
-这个方法是笔者在读 [VSCode官方文档](https://code.visualstudio.com/docs) 时发现的方法，很简便且易于操作，在这里分享给大家。同时也推荐大家多读官方文档或者 GitHub 原作者的 README，往往会有意想不到的收获！
+这个方法是笔者在读 [VS Code官方文档](https://code.visualstudio.com/docs) 时发现的方法，很简便且易于操作，在这里分享给大家。同时也推荐大家多读官方文档或者 GitHub 原作者的 README，往往会有意想不到的收获！
