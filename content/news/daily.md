@@ -35,6 +35,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [规范文件命名，补充绪论和报告更多信息，补充部分仓库不完善的 readme，添加几份实验报告](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/38)
+
+- **仓库**: PHYS1002
+- **创建于**: 2025-03-05 11:17:27
+- **作者**: WDGaster703
+
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
 - **仓库**: GeneralKnowledge
