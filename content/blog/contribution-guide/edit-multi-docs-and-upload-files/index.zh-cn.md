@@ -123,4 +123,4 @@ git push                            # 将本地修改同步到远端仓库
 
 编辑完成后，就可以直接在 VS Code 上将修改 push 到远端仓库，最后回到 GitHub 远端仓库的网页下提交 PR 了。
 
-这个方法是笔者在读 [VS Code官方文档](https://code.visualstudio.com/docs) 时发现的方法，很简便且易于操作，在这里分享给大家。同时也推荐大家多读官方文档或者 GitHub 原作者的 README，往往会有意想不到的收获！
+这个方法是笔者在读 [VS Code 官方文档](https://code.visualstudio.com/docs) 时发现的方法，很简便且易于操作，在这里分享给大家。同时也推荐大家多读官方文档或者 GitHub 原作者的 README，往往会有意想不到的收获！
