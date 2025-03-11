@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 26 日" author="W·D·Gaster" message="以 .gitkeep 文件替代无用的 readme.md 文件 (#8)" >}}
+{{< update-info update_time="2025 年 3 月 10 日" author="psp_dada" message="添加一个 vscode 配置 EasyX 的教程 (#9)" >}}
 
 
 <!--
@@ -82,7 +82,7 @@ math: true
 
 好在目前有不少基于 `C/C++` 的 GUI 开发框架可供选择，学习起来也不困难。
 以下是教学大纲中提到的 4 个。
-1. [EasyX](https://docs.easyx.cn/)：一个基于 `GDI+` 的图形库，比较古老了，使用简单，但是功能有限。
+1. [EasyX](https://docs.easyx.cn/)：一个基于 `GDI+` 的图形库，比较古老了，使用简单，但是功能有限。（若想在 VS Code 配置 EasyX，可参考[此教程](https://github.com/Oliverzsa/visual-studio-code-set-easyx)）
 2. [Qt](https://www.qt.io/)：跨平台的 GUI 开发框架，功能强大，几乎可以做任何事情。并且你校学生证可以申请到 Qt 的教育许可证，解锁完整特性。
 3. [MFC(Microsoft Foundation Classes)](https://learn.microsoft.com/zh-cn/cpp/mfc/mfc-desktop-applications)：一组封装了 C++ 类库的 Windows 编程框架，优点是兼容从 Win95 至今的所有 Windows 操作系统，且运行效率非常高；缺点是开发效率低，并且只能在 Windows 上运行。
 4. [C#](https://learn.microsoft.com/dotnet/csharp/)：微软推出的一种面向对象的编程语言，语法类似于 `C/C++`，但是更加简洁，配合 [UWP](https://learn.microsoft.com/windows/uwp/) 或 [WPF](https://learn.microsoft.com/dotnet/desktop/wpf/) 可以开发出非常现代化的桌面应用程序。
