@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (checkbox.checked) {
                 const link = file.querySelector('.hoa-filetree-download-link');
                 link.click();
-                checkbox.checked = false;
+                checkbox.click();
             }
         });
     });
