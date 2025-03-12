@@ -12,32 +12,28 @@ function triggerDownload(blob, fileName) {
 }
 
 async function downloadFile(url, setProgress) {
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP ERROR! CODE: ${response.status}`);
-        }
-        const contentLength = response.headers.get("Content-Length");
-        const total = parseInt(contentLength) || null;
-        let loaded = 0;
-
-        const reader = response.body.getReader();
-        const chunks = [];
-
-        while (true) {
-            const {done, value} = await reader.read();
-            if (done) break;
-            chunks.push(value);
-            loaded += value.length;
-
-            setProgress(total ? (loaded / total * 100) : 99);
-        }
-        setProgress(100);
-        const blob = new Blob(chunks);
-        triggerDownload(blob, decodeURIComponent(url.split('/').pop()));
-    } catch (err) {
-        console.error(err);
+    const response = await fetch(url);
+    if (!response.ok) {
+        throw new Error(`HTTP ERROR! CODE: ${response.status}`);
     }
+    const contentLength = response.headers.get("Content-Length");
+    const total = parseInt(contentLength) || null;
+    let loaded = 0;
+
+    const reader = response.body.getReader();
+    const chunks = [];
+
+    while (true) {
+        const {done, value} = await reader.read();
+        if (done) break;
+        chunks.push(value);
+        loaded += value.length;
+
+        setProgress(total ? (loaded / total * 100) : 99);
+    }
+    setProgress(100);
+    const blob = new Blob(chunks);
+    triggerDownload(blob, decodeURIComponent(url.split('/').pop()));
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -45,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     downloadButton.addEventListener('click', () => {
         // get all checked file
         const files = document.querySelectorAll('.hoa-filetree-file');
-        Array.from(files).forEach((file, index) => {
+        Array.from(files).forEach((file) => {
             const checkbox = file.querySelector('input');
             if (checkbox.checked) {
                 const link = file.querySelector('.hoa-filetree-download-link');
@@ -73,7 +69,10 @@ document.addEventListener("DOMContentLoaded", function () {
             progressText.innerText = progress.toFixed(0);
         }
         setProgress(0);
-        downloadFile(url, setProgress).then().catch();
+        downloadFile(url, setProgress).then(() => {
+            e.target.style.display = '';
+            progressWrapper.style.display = ``;
+        }).catch();
         console.log(url);
     }));
 
