@@ -57,8 +57,9 @@ document.addEventListener("DOMContentLoaded", function () {
         // get link
         const url = e.target.dataset.url;
         // hide icon and show progress
-        e.target.style.display = 'none';
-        const progressWrapper = e.target.parentElement.querySelector(".hoa-filetree-download-progress-wrap");
+        const linkWrapper = e.target.parentElement;
+        linkWrapper.style.display = 'none';
+        const progressWrapper = linkWrapper.parentElement.querySelector(".hoa-filetree-download-progress-wrap");
         progressWrapper.style.display = `block`;
         const progressCircle = progressWrapper.querySelector(".hoa-filetree-download-progress");
         const progressText = progressWrapper.querySelector(".hoa-filetree-download-progress-text");
@@ -70,8 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         setProgress(0);
         downloadFile(url, setProgress).then(() => {
-            e.target.style.display = '';
-            progressWrapper.style.display = ``;
+            linkWrapper.style.display = '';
+            progressWrapper.style.display = "";
         }).catch();
         console.log(url);
     }));
