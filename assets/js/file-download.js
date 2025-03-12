@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (checkbox.checked) {
                 const link = file.querySelector('.hoa-filetree-download-link');
                 link.click();
+                checkbox.checked = false;
             }
         });
     });
@@ -67,13 +68,18 @@ document.addEventListener("DOMContentLoaded", function () {
             // console.log(progress)
             const deg = progress * 3.6;
             progressCircle.style.background = `conic-gradient(#1677ff 0, #1677ff ${deg}deg, transparent ${deg}deg, transparent 360deg)`;
-            progressText.innerText = progress.toFixed(0);
+            const intProgress = progress.toFixed(0);
+            progressText.innerText = (intProgress < 10) ? (intProgress + '%') : intProgress;
         }
         setProgress(0);
         downloadFile(url, setProgress).then(() => {
             linkWrapper.style.display = '';
             progressWrapper.style.display = "";
-        }).catch();
+        }).catch(() => {
+            alert("下载失败!");
+            linkWrapper.style.display = '';
+            progressWrapper.style.display = "";
+        });
         console.log(url);
     }));
 
