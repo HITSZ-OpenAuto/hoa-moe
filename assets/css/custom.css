@@ -138,6 +138,11 @@ a.hextra-feature-card:hover {
   background-color: var(--hoa-filetree-checked-color);
 }
 
+.hoa-filetree-download-progress {
+  /*-webkit-mask: radial-gradient(circle at center, transparent 0.600rem, #000 0.601rem);*/
+  mask: radial-gradient(circle at center, transparent 0.500rem, #000 0.501rem);
+}
+
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
