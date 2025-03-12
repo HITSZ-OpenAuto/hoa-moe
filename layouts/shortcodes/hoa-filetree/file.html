@@ -8,8 +8,10 @@
 {{/*  {{- $state := .Get "state" | default "open" }}  */}}
 {{- $image := resources.Get $icon -}}
 {{- $downloads := resources.Get "icons/download-file.png" -}}
+{{/*{{- $preview := resources.Get "icons/preview-file.png" -}}*/}}
 
-<li data-level="0" class="hoa-filetree-file hx-group/hover hx-flex hx-flex-col hx-list-none hx-w-full hover:hx-bg-gray-100 dark:hover:hx-bg-gray-900 hx-duration-100 hx-cursor-pointer">
+<li data-level="0"
+    class="hoa-filetree-file hx-group/hover hx-flex hx-flex-col hx-list-none hx-w-full hover:hx-bg-gray-100 dark:hover:hx-bg-gray-900 hx-duration-100 hx-cursor-pointer">
     <span class="hx-w-full hx-flex hx-cursor-default hx-py-3 hx-text-sm">
         
         <label class="hx-flex hx-w-full hx-items-center hx-justify-between">
@@ -31,9 +33,18 @@
             <span class="hx-mx-2 hx-w-1/5 hx-min-w-1/5 hx-hidden md:hx-block">{{ $size | markdownify }}</span>
             <span class="hx-mx-4 hx-w-1/5 hx-min-w-1/5 hx-flex hx-items-center hx-justify-between">
                 <div class="hx-mr-4 hx-hidden md:hx-block">{{ $date | markdownify }}</div>
-                <a class="hoa-filetree-download-link hx-mr-4 hx-hidden group-hover/hover:md:hx-block" href="{{ $url }}" >
-                    <img src="{{ $downloads.RelPermalink }}" alt="downloads" class="hx-w-6 hx-h-6 hx-z-10 hx-min-w-6" />
-                </a>
+                    <img class="hoa-filetree-download-link hx-w-6 hx-h-6 hx-z-10 hx-min-w-6 hx-hidden hx-cursor-pointer group-hover/hover:md:hx-block"
+                         src="{{ $downloads.RelPermalink }}" alt="downloads"
+                         data-url="{{ $url }}">
+                <div class="hoa-filetree-download-progress-wrap hx-relative hx-w-6 hx-h-6 hx-mr-3 hx-rounded-full hx-hidden">
+                    <div class="hoa-filetree-download-progress hx-rounded-full hx-w-full hx-h-full"></div>
+
+                    <span class="hoa-filetree-download-progress-text hx-absolute hx-m-auto hx-top-0 hx-bottom-0 hx-left-0 hx-right-0 hx-flex hx-items-center hx-justify-center"
+                          style="font-size: 0.5rem;">0</span>
+                </div>
+                <!-- <img class="hoa-filetree-preview-link hx-mr-4 hx-hidden hx-w-6 hx-h-6 hx-z-10 hx-min-w-6 hx-cursor-pointer group-hover/hover:md:hx-block"
+                     src="{{ $preview.RelPermalink }}" alt="preview"
+                     data-url="{{ $url }}"> -->
             </span>
         </label>
     </span>
