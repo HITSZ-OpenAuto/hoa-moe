@@ -52,7 +52,7 @@ excludeSearch: false
 
 拓展选修课要求至少选择 4 学分进行修读。因此以上 11 门课至少选择其中 2 门，即达到学分要求。 
 
-## 与22 级限选课的区别
+## 与 22 级限选课的区别
 
 - [C++ 语言程序设计](https://hoa.moe/docs/sophomore-autumn/comp2014/)和[数据结构与算法](https://hoa.moe/docs/sophomore-spring/comp2050/)两门拓展选修课由大二开设移至大三对应学期开设。
 - [数学规划与数值优化](https://hoa.moe/docs/junior-autumn/math3010/)、[数字图像处理](https://hoa.moe/docs/junior-autumn/auto3003/)、[过程控制系统](https://hoa.moe/docs/junior-spring/auto3007/)、类脑智能技术等四门课程的实验学时增加。
