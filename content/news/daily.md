@@ -20,6 +20,12 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [预览网站部署相关 issue](https://github.com/HITSZ-OpenAuto/hoa-previewer/issues/7)
+
+- **仓库**: hoa-previewer
+- **创建于**: 2025-03-21 20:36:06
+- **作者**: longlin10086
+
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
 - **仓库**: MATH1002
@@ -34,6 +40,18 @@ title: AUTO 更新速递
 - **作者**: MaxwellJay256
 
 ## 待合并的 Pull Requests
+
+### [Exp28 碰撞打靶的数据处理/修复了 Exp07 数据处理漏洞](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/41)
+
+- **仓库**: PHYS1002
+- **创建于**: 2025-03-22 03:13:28
+- **作者**: lajilizi
+
+### [Refactor layout and add download button](https://github.com/HITSZ-OpenAuto/hoa-previewer/pull/8)
+
+- **仓库**: hoa-previewer
+- **创建于**: 2025-03-22 01:11:42
+- **作者**: syhanjin
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
