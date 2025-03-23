@@ -1,11 +1,14 @@
 ---
-title: 2► 多文档修改和多文件夹上传文件
+title: 2. 多文档修改和多文件夹上传文件
 date: 2025-02-20
 description: 操作流程略显复杂，如果有 Git 基础其实很好上手
 authors:
   - name: IcyDesert
     link: https://github.com/IcyDesert
     image: https://github.com/IcyDesert.png
+  - name: 潜伏
+    link: https://github.com/capoo-fan
+    image: https://github.com/capoo-fan.png
 excludeSearch: false
 weight: 3
 next: /blog/contribution-guide/edit-single-file-and-upload-file
@@ -21,7 +24,7 @@ prev: /blog/contribution-guide/write-blogs
 ![](./img/fork-repo-actively.png)
 然后进入自己的仓库，找到仓库链接、复制下来，
 ![](./img/find-git-clone-url.png)
-在命令行运行
+打开一个文件夹，在命令行运行
 `git clone <你刚刚复制的仓库链接>`
 这样，**仓库就已经成为你的`本地文件`**；在本地，你就可以随心所欲地进行各种修改，包括文档修改和文件上传。
 
@@ -53,7 +56,9 @@ fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': Open
 
 参考 [单文档的情况](/blog/contribution-guide/edit-single-file-and-upload-file/#发起-pull-request-1) 即可。
 
-## *Codespaces
+## （选修）Codespaces
+
+本方法对体积较大仓库尤为适用。
 
 ### Fork & Create
 第一步仍然是 Fork 仓库到自己名下，如前文所述。
@@ -90,3 +95,32 @@ git push                            # 将本地修改同步到远端仓库
 
 参考 [单文档的情况](/blog/contribution-guide/edit-single-file-and-upload-file/#发起-pull-request-1) 即可。
 
+## （选修）在本地直接编辑远程仓库
+
+本方法对体积较大仓库尤为适用。
+
+为解决 `git clone` 因仓库体积过大而失败的问题，前面已经介绍了一种使用 Codespaces 的方法。除此之外，[潜伏](https://github.com/capoo-fan) 还发现一种依赖一个插件，直接在 **VS Code** 上编辑的方法。使用此方法打开 `hoa-moe` 仓库仅需几秒（魔法状态下）；无需 `本地文件` 即可编辑仓库，并可直接将修改 push 到远程仓库，非常方便。
+
+### Fork
+
+将仓库 fork 到自己的 GitHub 账号下，如前文所述。
+
+### 插件安装及登陆
+
+下载并安装 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) 插件。当然，你也可以在 VS Code 的插件市场搜索。
+
+![](./img/github-Repositories.png)
+
+打开 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) 插件，并登录自己的 GitHub 帐号，打开对应仓库
+
+![](./img/teach.png)
+
+### 修改文件
+
+虽然 [Markdown-Preview-Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) 插件在远程仓库中无法使用，但是此时只需要 `Ctrl+Shift+V` 打开 VS Code 内置的 Markdown 预览即可，所以不需要担心没法预览的问题。不过要再次提醒，其 Markdown 预览渲染和 hoa.moe 使用的 Hugo 渲染效果不同，仅供参考。
+
+### push & PR
+
+编辑完成后，就可以直接在 VS Code 上将修改 push 到远端仓库，最后回到 GitHub 远端仓库的网页下提交 PR 了。
+
+这个方法是笔者在读 [VS Code 官方文档](https://code.visualstudio.com/docs) 时发现的方法，很简便且易于操作，在这里分享给大家。同时也推荐大家多读官方文档或者 GitHub 原作者的 README，往往会有意想不到的收获！

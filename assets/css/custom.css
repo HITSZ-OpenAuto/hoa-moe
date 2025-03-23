@@ -103,9 +103,9 @@ a.hextra-feature-card {
 }
 
 a.hextra-feature-card:hover {
-  transition: transform 400ms ease-in-out;
+  transition: transform 300ms;
   transform:scale3d(1.01, 1.01, 1.01);
-  box-shadow: 2px 4px 16px #0003;
+  box-shadow: 2px 4px 16px #00000029;
 }
 
 .grid-col-span-2 {
@@ -123,7 +123,7 @@ a.hextra-feature-card:hover {
 
 .header-icon {
   filter: opacity(50%);
-  transition: filter 400ms ease-in-out;
+  transition: filter 300ms;
 }
 
 .header-icon:hover {
@@ -136,6 +136,11 @@ a.hextra-feature-card:hover {
 
 .hoa-filetree-folder:has(input:checked) {
   background-color: var(--hoa-filetree-checked-color);
+}
+
+.hoa-filetree-download-progress {
+  /*-webkit-mask: radial-gradient(circle at center, transparent 0.600rem, #000 0.601rem);*/
+  mask: radial-gradient(circle at center, transparent 0.500rem, #000 0.501rem);
 }
 
 

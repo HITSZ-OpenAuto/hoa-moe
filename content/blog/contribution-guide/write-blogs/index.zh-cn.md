@@ -1,5 +1,5 @@
 ---
-title: 3► 撰写博客
+title: 3. 撰写博客
 date: 2025-02-20
 description: 博客更偏重于某个具体知识，比课程文档更灵活
 authors:
