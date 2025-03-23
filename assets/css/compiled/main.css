@@ -541,6 +541,9 @@ video {
 .hx-bottom-0 {
   bottom: 0px;
 }
+.hx-left-0 {
+  left: 0px;
+}
 .hx-left-\[24px\] {
   left: 24px;
 }
@@ -564,9 +567,6 @@ video {
 }
 .hx-top-full {
   top: 100%;
-}
-.hx-left-0 {
-  left: 0px;
 }
 .hx-z-10 {
   z-index: 10;
@@ -663,6 +663,9 @@ video {
 .hx-mr-2 {
   margin-right: 0.5rem;
 }
+.hx-mr-3 {
+  margin-right: 0.75rem;
+}
 .hx-mr-4 {
   margin-right: 1rem;
 }
@@ -695,9 +698,6 @@ video {
 }
 .hx-mt-8 {
   margin-top: 2rem;
-}
-.hx-mr-3 {
-  margin-right: 0.75rem;
 }
 .hx-line-clamp-3 {
   overflow: hidden;
@@ -838,12 +838,6 @@ video {
 .hx-w-screen {
   width: 100vw;
 }
-.hx-w-8 {
-  width: 2rem;
-}
-.hx-w-7 {
-  width: 1.75rem;
-}
 .hx-min-w-0 {
   min-width: 0px;
 }
@@ -882,6 +876,9 @@ video {
 }
 .hx-max-w-screen-xl {
   max-width: 1280px;
+}
+.hx-flex-1 {
+  flex: 1 1 0%;
 }
 .hx-flex-shrink-0 {
   flex-shrink: 0;
@@ -3602,6 +3599,10 @@ body:is(html[class~="dark"] *) {
     top: 4rem;
   }
 
+  .md\:hx-mr-4 {
+    margin-right: 1rem;
+  }
+
   .md\:hx-block {
     display: block;
   }
@@ -3681,6 +3682,13 @@ body:is(html[class~="dark"] *) {
 
   .hx-group\/hover:hover .group-hover\/hover\:md\:hx-block {
     display: block;
+  }
+
+  @media (min-width: 768px) {
+
+    .hx-group\/hover:hover .md\:group-hover\/hover\:md\:hx-block {
+      display: block;
+    }
   }
 }
 @media (min-width: 1024px) {
