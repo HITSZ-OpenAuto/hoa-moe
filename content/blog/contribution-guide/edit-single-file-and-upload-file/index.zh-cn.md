@@ -14,6 +14,9 @@ next: /blog/contribution-guide/prerequisites
 prev: /blog/contribution-guide/edit-multi-docs-and-upload-files
 ---
 
+> [!IMPORTANT]  
+> 本文是系列教程中的一篇，该系列教程始于 [0. 预备知识](/blog/contribution-guide/prerequisites)。若有疑惑，请先阅读该文。
+
 {{< callout type="info" >}}
 下面介绍的两种情况流程相近，如果有问题可以对照着参考。
 
