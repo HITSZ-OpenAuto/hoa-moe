@@ -14,6 +14,10 @@ weight: 3
 next: /blog/contribution-guide/edit-single-file-and-upload-file
 prev: /blog/contribution-guide/write-blogs
 ---
+
+> [!IMPORTANT]  
+> 本文是系列教程中的一篇，该系列教程始于 [0. 预备知识](/blog/contribution-guide/prerequisites)。若有疑惑，请先阅读该文。
+
 下面介绍的两种方法需要一些 Git 基础以便理解，这是 GitHub 界面功能不足导致的。如果你没有 Git 相关知识，可以查看 HITSZ 开源技术协会同学编写的 [Git 教程](https://wiki.osa.moe/guide-for-beginner/git-tutorial/)。
 
 ## Git 本地编辑
