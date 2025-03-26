@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-03-25'
-description: 北京时间 2025-03-24 00 时至今
+date: '2025-03-26'
+description: 北京时间 2025-03-25 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (3.24)
+### 周三 (3.26)
 
-- W·D·Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：补充虚拟实验两个模式说明
-
-- W·D·Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：添加 Suiii 的实验报告 (#42)
+- Huaaaazx 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：add new note
 
 ## 待解决的 Issues
 
