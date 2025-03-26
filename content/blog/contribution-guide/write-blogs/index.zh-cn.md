@@ -14,6 +14,9 @@ next: /blog/contribution-guide/edit-multi-docs-and-upload-files
 prev: false
 ---
 
+> [!IMPORTANT]  
+> 本文是系列教程中的一篇，该系列教程始于 [0. 预备知识](/blog/contribution-guide/prerequisites)。若有疑惑，请先阅读该文。
+
 > 我没看到博客仓库/新建博客入口啊？
 
 确实，博客并没有属于自己的仓库。课程信息页面右侧 `在 GitHub 上编辑` 的各课程仓库入口是我们做的特殊处理。
