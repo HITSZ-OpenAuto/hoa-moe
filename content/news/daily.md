@@ -33,6 +33,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [用新版工图习题答案替换旧版](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/17)
+
+- **仓库**: AUTO1001
+- **创建于**: 2025-04-02 14:30:00
+- **作者**: WDGaster703
+
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
 - **仓库**: GeneralKnowledge
