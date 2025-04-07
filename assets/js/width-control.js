@@ -18,7 +18,11 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     const switchWidth = () => {
-        const newWidth = sessionStorage.getItem("page-width") === "2xl" ? "xl" : "2xl";
+        let currentWidth = sessionStorage.getItem("page-width");
+        if (currentWidth !== "xl" && currentWidth !== "2xl") {
+            currentWidth = "xl";
+        }
+        const newWidth = currentWidth === "2xl" ? "xl" : "2xl";
         sessionStorage.setItem("page-width", newWidth);
         document.documentElement.style.setProperty(
             '--initial-page-width', 
