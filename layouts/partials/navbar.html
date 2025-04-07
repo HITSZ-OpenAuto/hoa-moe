@@ -3,6 +3,7 @@
 {{- $logoWidth := .Site.Params.navbar.logo.width | default "20" -}}
 {{- $logoHeight := .Site.Params.navbar.logo.height | default "20" -}}
 {{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
+{{- $isSingle := eq .Kind "page" -}}
 
 {{- $zoomPath := resources.Get "icons/expand.svg" -}}
 {{- $zoomDarkPath := resources.Get "icons/expand-dark.svg" -}}
@@ -52,11 +53,6 @@
             {{- partial "utils/icon.html" (dict "name" .Params.icon "attributes" "height=24") -}}
             <span class="hx-sr-only">{{ or (T .Identifier) .Name | safeHTML }}</span>
           </a>
-          <button class="hoa-width-button hx-p-2 hx-text-current header-icon hx-hidden md:hx-block" >
-            <img class="hx-block dark:hx-hidden" src="{{ $zoomPath.RelPermalink }}" width="20"/>
-            <img class="hx-hidden dark:hx-block" src="{{ $zoomDarkPath.RelPermalink }}" width="20" />
-            <span class="hx-sr-only">{{ or (T .Identifier) .Name | safeHTML }}</span>
-          </button>
         {{- else -}}
           {{- $active := or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) -}}
           {{- $activeClass := cond $active "hx-font-medium animated-active" "hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200" -}}
@@ -74,6 +70,13 @@
       {{- end -}}
     {{- end -}}
 
+    {{- if $isSingle -}}
+      <button class="hoa-width-button hx-p-2 hx-text-current header-icon hx-hidden md:hx-block" >
+        <img class="hx-block dark:hx-hidden" src="{{ $zoomPath.RelPermalink }}" width="20"/>
+        <img class="hx-hidden dark:hx-block" src="{{ $zoomDarkPath.RelPermalink }}" width="20" />
+        <span class="hx-sr-only">Adjust Width</span>
+      </button>
+    {{- end -}}
 
     <button type="button" aria-label="Menu" class="hamburger-menu -hx-mr-2 hx-rounded hx-p-2 active:hx-bg-gray-400/20 md:hx-hidden">
       {{- partial "utils/icon.html" (dict "name" "hamburger-menu" "attributes" "height=24") -}}
