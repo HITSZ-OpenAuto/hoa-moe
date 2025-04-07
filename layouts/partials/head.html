@@ -72,16 +72,19 @@
       }
     }
 
-    // if ("color-theme" in sessionStorage) {
-    //   sessionStorage.getItem("color-theme") === "dark" ? setDarkTheme() : setLightTheme();
-    // } else {
-    //   defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
-    //   if (defaultTheme === "system") {
-    //     window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
-    //   }
-    // }
-    
+    /* Initialize page width */
+    (function() {
+      const storedWidth = sessionStorage.getItem("page-width") || "xl";
+      document.documentElement.style.setProperty('--initial-page-width', storedWidth === "xl" ? "1280px" : "1536px");
+    })();
   </script>
+
+  <style>
+    .hoa-page {
+      max-width: var(--initial-page-width) !important;
+      transition: max-width 0.5s ease-in-out;
+    }
+  </style>
 
   {{ partial "custom/head-end.html" . }}
 </head>
