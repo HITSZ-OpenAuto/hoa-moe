@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-03-26'
-description: 北京时间 2025-03-25 16 时至今
+date: '2025-03-27'
+description: 北京时间 2025-03-26 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -32,6 +32,12 @@ title: AUTO 更新速递
 - **作者**: MaxwellJay256
 
 ## 待合并的 Pull Requests
+
+### [用新版工图习题答案替换旧版](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/17)
+
+- **仓库**: AUTO1001
+- **创建于**: 2025-04-02 14:30:00
+- **作者**: WDGaster703
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
