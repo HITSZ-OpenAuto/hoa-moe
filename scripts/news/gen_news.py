@@ -59,7 +59,7 @@ def generate_summary(report_text):
     prompt = f"Generate a summary for the weekly commit report in Chinese:\n\n{report_text}\n\n---\n\nSummary:"
     try:
         completion = openai.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-4.1-nano",
             messages=[{"role": "system", "content": prompt}],
         )
         return completion.choices[0].message.content
@@ -240,11 +240,11 @@ def main():
                 f"content/news/weekly/weekly-{display_start_time.date()}/generated_image_cropped.png",
             )
             final_report += f"![AI Image of the Week](generated_image_cropped.png)\n\n"
-            # summary = generate_summary(markdown_report)
-            # if summary:
-            #     final_report += f'## ✨AI 摘要\n\n{summary}\n\n'
-            # else:
-            final_report += f"{markdown_report}"
+            summary = generate_summary(markdown_report)
+            if summary:
+                final_report += f'## ✨AI 摘要\n\n{summary}\n\n'
+            else:
+                final_report += f"{markdown_report}"
 
             # update content/news/weekly/_index.zh-cn.md description
             with open(
