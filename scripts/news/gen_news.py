@@ -242,7 +242,7 @@ def main():
             final_report += f"![AI Image of the Week](generated_image_cropped.png)\n\n"
             summary = generate_summary(markdown_report)
             if summary:
-                final_report += f'## ✨AI 摘要\n\n{summary}\n\n'
+                final_report += f"## ✨AI 摘要\n\n{summary}\n\n"
             else:
                 final_report += f"{markdown_report}"
 
