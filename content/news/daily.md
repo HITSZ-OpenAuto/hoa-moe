@@ -33,6 +33,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [电路实验三四的 python 绘图代码](https://github.com/HITSZ-OpenAuto/EE1014/pull/6)
+
+- **仓库**: EE1014
+- **创建于**: 2025-04-15 22:56:40
+- **作者**: capoo-fan
+
 ### [用新版工图习题答案替换旧版](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/17)
 
 - **仓库**: AUTO1001
