@@ -7,26 +7,26 @@
 {{- $jsFileCheck := resources.Get "js/file-check.js" -}}
 {{- $jsFileDownload := resources.Get "js/file-download.js" -}}
 
-<div class="hx-w-full hx-flex hx-flex-col hx-mt-4 not-prose">
-    <div class="hx-flex hx-justify-end hx-items-center hx-gap-2">
-        <button class="hx-mb-2 hx-border hx-rounded-md hx-px-3 hx-py-1 hx-font-bold dark:hx-border-[#262626] hx-bg-[#f6f8fa] dark:hx-bg-[--animate-color] hx-text-sm hover:hx-shadow-sm">
+<div class="hx:w-full hx:flex hx:flex-col hx:mt-4 not-prose">
+    <div class="hx:flex hx:justify-end hx:items-center hx:gap-2">
+        <button class="hx:mb-2 hx:border hx:rounded-md hx:px-3 hx:py-1 hx:font-bold dark:hx:border-[#262626] hx:bg-[#f6f8fa] dark:hx:bg-[--animate-color] hx:text-sm hover:hx:shadow-sm">
             <a href="{{ $driveURL }}" target="_blank">
-            <img src="{{ $cloud.RelPermalink }}" alt="cloud" class="hx-w-4" />
+            <img src="{{ $cloud.RelPermalink }}" alt="cloud" class="hx:w-4" />
             内网网盘
             </a>
         </button>
-        <button class="hoa-filetree-download hx-mb-2 hx-border hx-rounded-md hx-px-3 hx-py-1 hx-font-bold dark:hx-border-[#262626] hx-bg-[#f6f8fa] dark:hx-bg-[--animate-color] hx-text-sm hover:hx-shadow-sm">
-            <img src="{{ $downloads.RelPermalink }}" alt="downloads" class="hx-w-3" />
+        <button class="hoa-filetree-download hx:mb-2 hx:border hx:rounded-md hx:px-3 hx:py-1 hx:font-bold dark:hx:border-[#262626] hx:bg-[#f6f8fa] dark:hx:bg-[--animate-color] hx:text-sm hover:hx:shadow-sm">
+            <img src="{{ $downloads.RelPermalink }}" alt="downloads" class="hx:w-3" />
             批量下载
         </button>
     </div>
-    <div class="hx-w-full hx-rounded-sm">
+    <div class="hx:w-full hx:rounded-sm">
         {{ partial "hoa-filetree/header.html" . }}
-        <ul class="hoa-filetree-container hx-w-full hx-my-0">
+        <ul class="hoa-filetree-container hx:w-full hx:my-0">
             {{- .Inner -}}
-            <div class="hoa-filetree-contribute-hint hx-w-full hx-h-32 hx-mb-2 hx-border-dashed hx-border-2 dark:hx-border-[#262626] hx-border-t-0 hx-rounded-b-md hx-bg-[#f6f8fa]/[0.4] dark:hx-bg-[#090705]/[0.4] hx-flex hx-flex-col hx-items-center hx-justify-center">
-                <div class="hx-text-lg md:hx-text-xl hx-font-bold hx-text-slate-700 dark:hx-text-slate-300">没有更多相关文件了呢 T^T</div>
-                <div class="hx-text-xs md:hx-text-sm hx-mt-1 hx-text-slate-700 dark:hx-text-slate-300">想参与？来<a href="{{ $repoURL }}" class="hoa-inline-link hx-mx-0.5">课程仓库</a>提交 PR 吧！👉 <a href="https://hoa.moe/blog/contribution-guide/" class="hoa-inline-link hx-mx-0.5">查看《参与指南》</a></div>
+            <div class="hoa-filetree-contribute-hint hx:w-full hx:h-32 hx:mb-2 hx:border-dashed hx:border-2 dark:hx:border-[#262626] hx:border-t-0 hx:rounded-b-md hx:bg-[#f6f8fa]/[0.4] dark:hx:bg-[#090705]/[0.4] hx:flex hx:flex-col hx:items-center hx:justify-center">
+                <div class="hx:text-lg md:hx:text-xl hx:font-bold hx:text-slate-700 dark:hx:text-slate-300">没有更多相关文件了呢 T^T</div>
+                <div class="hx:text-xs md:hx:text-sm hx:mt-1 hx:text-slate-700 dark:hx:text-slate-300">想参与？来<a href="{{ $repoURL }}" class="hoa-inline-link hx:mx-0.5">课程仓库</a>提交 PR 吧！👉 <a href="https://hoa.moe/blog/contribution-guide/" class="hoa-inline-link hx:mx-0.5">查看《参与指南》</a></div>
             </div>
         </ul>
     </div>
