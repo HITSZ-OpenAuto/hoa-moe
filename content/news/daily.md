@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-03-27'
-description: 北京时间 2025-03-26 00 时至今
+date: '2025-04-23'
+description: 北京时间 2025-04-22 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (3.26)
+### 周二 (4.22)
 
-- Huaaaazx 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：add new note
+- 小林在忙毕业设计 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：Merge pull request #6 from capoo-fan/main
+
+- Capoo-King 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：emmmm
 
 ## 待解决的 Issues
 
@@ -32,12 +34,6 @@ title: AUTO 更新速递
 - **作者**: MaxwellJay256
 
 ## 待合并的 Pull Requests
-
-### [电路实验三四的 python 绘图代码](https://github.com/HITSZ-OpenAuto/EE1014/pull/6)
-
-- **仓库**: EE1014
-- **创建于**: 2025-04-15 22:56:40
-- **作者**: capoo-fan
 
 ### [用新版工图习题答案替换旧版](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/17)
 
