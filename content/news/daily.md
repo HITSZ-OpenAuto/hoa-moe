@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-04-23'
-description: 北京时间 2025-04-22 00 时至今
+date: '2025-04-26'
+description: 北京时间 2025-04-25 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (4.22)
+### 周五 (4.25)
 
-- 小林在忙毕业设计 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：Merge pull request #6 from capoo-fan/main
-
-- Capoo-King 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：emmmm
+- Keep0650 在 [毕业设计](https://github.com/HITSZ-OpenAuto/AUTO3099) 中提交了信息：上传了.docx 格式的本科毕业论文格式模板 (#6)
 
 ## 待解决的 Issues
 
