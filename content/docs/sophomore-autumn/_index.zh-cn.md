@@ -14,7 +14,6 @@ toc: false
 {{< card link="math1004" title="概率论与数理统计" >}}
 {{< card link="math1005" title="复变函数与积分变换" >}}
 {{< card link="pe100x" title="体育" >}}
-{{< card link="phys1001" title="大学物理" >}}
 {{< card link="phys1002" title="大学物理实验" >}}
 {{< /cards >}}
 ## 限选
