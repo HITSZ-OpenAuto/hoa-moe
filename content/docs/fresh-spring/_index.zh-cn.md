@@ -14,7 +14,6 @@ toc: false
 {{< card link="lang100x" title="大学英语" >}}
 {{< card link="math1015b" title="微积分 B" >}}
 {{< card link="pe100x" title="体育" >}}
-{{< card link="phys1001" title="大学物理" >}}
 {{< card link="phys1002" title="大学物理实验" >}}
 {{< /cards >}}
 ## 归档

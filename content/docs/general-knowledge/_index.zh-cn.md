@@ -12,5 +12,4 @@ toc: false
 {{< card link="mooc" title="MOOC" >}}
 {{< card link="sein1040" title="中国科技史话" >}}
 {{< card link="wocd1008" title="日语 I" >}}
-{{< card link="writ0001" title="写作与沟通" >}}
 {{< /cards >}}
