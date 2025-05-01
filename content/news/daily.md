@@ -25,12 +25,6 @@ title: AUTO 更新速递
 - **作者**: MaxwellJay256
 - **标签**: help wanted
 
-### [AUTO3011](https://github.com/HITSZ-OpenAuto/AUTO3011/issues/4)
-
-- **仓库**: AUTO3011
-- **创建于**: 2025-01-19 21:16:38
-- **作者**: MaxwellJay256
-
 ## 待合并的 Pull Requests
 
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MATH4001/pull/1)
@@ -205,11 +199,5 @@ title: AUTO 更新速递
 
 - **仓库**: EE1014
 - **创建于**: 2025-04-29 22:24:29
-- **作者**: kowyo
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/PE100X/pull/13)
-
-- **仓库**: PE100X
-- **创建于**: 2025-04-29 22:23:37
 - **作者**: kowyo
 
