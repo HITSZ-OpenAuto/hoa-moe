@@ -26,6 +26,7 @@ toc: false
 <!--more-->
 {{< cards >}}
 {{< card link="ee1007" title="模拟电子技术基础" >}}
+{{< card link="ee1008" title="模拟电子技术实验" >}}
 {{< card link="ee1009" title="数字电子技术基础" >}}
 {{< card link="ee1010" title="数字电子技术实验" >}}
 {{< card link="emec1002" title="理论力学Ⅱ" >}}
