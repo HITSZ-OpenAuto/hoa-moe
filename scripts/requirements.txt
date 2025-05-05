@@ -1,5 +1,5 @@
 certifi==2025.1.31
-openai==1.76.0
+openai==1.77.0
 PyYAML==6.0.2
 Requests==2.32.3
 tqdm==4.67.1
