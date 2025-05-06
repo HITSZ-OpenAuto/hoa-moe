@@ -189,15 +189,3 @@ title: AUTO 更新速递
 - **创建于**: 2025-04-29 22:25:39
 - **作者**: kowyo
 
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/AUTO2003A/pull/4)
-
-- **仓库**: AUTO2003A
-- **创建于**: 2025-04-29 22:25:06
-- **作者**: kowyo
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/EE1014/pull/7)
-
-- **仓库**: EE1014
-- **创建于**: 2025-04-29 22:24:29
-- **作者**: kowyo
-
