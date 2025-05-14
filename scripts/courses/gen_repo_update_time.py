@@ -34,6 +34,7 @@ def get_latest_commit(owner, repo):
                 message.startswith("Replace")
                 or message.startswith("Add")
                 or message.startswith("ci")
+                or message.startswith("Update")
             ):
                 continue
 
