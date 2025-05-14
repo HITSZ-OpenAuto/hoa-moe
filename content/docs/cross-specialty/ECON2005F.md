@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 2 日" author="longlin li" message="Update tag.txt" >}}
+{{< update-info update_time="2023 年 12 月 3 日" author="Longbin Tang" message="Delete License" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
