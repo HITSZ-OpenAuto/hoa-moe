@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-04-26'
-description: 北京时间 2025-04-25 00 时至今
+date: '2025-05-14'
+description: 北京时间 2025-05-13 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,13 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (4.25)
+### 周二 (4.29)
 
-- Keep0650 在 [毕业设计](https://github.com/HITSZ-OpenAuto/AUTO3099) 中提交了信息：上传了.docx 格式的本科毕业论文格式模板 (#6)
+- 小林在忙毕业设计 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：Update trigger workflow to use course.yaml
+
+- 小林在忙毕业设计 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Update trigger workflow to use course.yaml
+
+- 小林在忙毕业设计 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Update trigger workflow to use course.yaml
 
 ## 待解决的 Issues
 
@@ -26,24 +30,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MATH4001/pull/1)
-
-- **仓库**: MATH4001
-- **创建于**: 2025-04-29 22:42:44
-- **作者**: kowyo
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/GEIP1017/pull/4)
-
-- **仓库**: GEIP1017
-- **创建于**: 2025-04-29 22:42:05
-- **作者**: kowyo
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/GEIP1015/pull/5)
-
-- **仓库**: GEIP1015
-- **创建于**: 2025-04-29 22:41:33
-- **作者**: kowyo
 
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/SEIN1040/pull/1)
 
@@ -175,5 +161,23 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3002B
 - **创建于**: 2025-04-29 22:27:06
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/12)
+
+- **仓库**: AUTO3001B
+- **创建于**: 2025-04-29 22:26:33
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/7)
+
+- **仓库**: AUTO5023
+- **创建于**: 2025-04-29 22:25:39
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/AUTO2003A/pull/4)
+
+- **仓库**: AUTO2003A
+- **创建于**: 2025-04-29 22:25:06
 - **作者**: kowyo
 
