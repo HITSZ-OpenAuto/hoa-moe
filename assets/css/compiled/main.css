@@ -736,6 +736,14 @@ video {
   width: 1rem;
   height: 1rem;
 }
+.hx-size-3 {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.hx-size-2 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
 .hx-h-0 {
   height: 0px;
 }
@@ -3675,6 +3683,11 @@ body:is(html[class~="dark"] *) {
 
   .md\:hx-aspect-\[1\.1\/1\] {
     aspect-ratio: 1.1/1;
+  }
+
+  .md\:hx-size-4 {
+    width: 1rem;
+    height: 1rem;
   }
 
   .md\:hx-h-\[calc\(100vh-var\(--navbar-height\)-var\(--menu-height\)\)\] {
