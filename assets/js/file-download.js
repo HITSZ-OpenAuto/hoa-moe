@@ -51,12 +51,25 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
+    const downloadAccelerateInput = document.querySelector('.hoa-filetree-download-accelerate');
+    downloadAccelerateInput.addEventListener('click', (e) => {
+        localStorage.setItem("downloadAccelerate", e.target.checked ? "on" : "off");
+    });
+    if (localStorage.getItem("downloadAccelerate") === "on") {
+        downloadAccelerateInput.checked = true;
+    }
+
     const downloadFileButtons = document.querySelectorAll('.hoa-filetree-download-link');
     downloadFileButtons.forEach(ele => ele.addEventListener('click', (e) => {
         e.stopPropagation();
         e.preventDefault();
         // get link
-        const url = e.target.dataset.url;
+        let url = e.target.dataset.url;
+        const downloadAccelerate = downloadAccelerateInput.checked;
+        if (downloadAccelerate) {
+            url = url.replace("gh.hoa.moe/github.com", "gitea.osa.moe");
+            url = url.replace("/raw/", "/raw/branch/");
+        }
         // hide icon and show progress
         const linkWrapper = e.target.parentElement;
         linkWrapper.style.display = 'none';
