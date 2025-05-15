@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-05-15'
-description: 北京时间 2025-05-14 00 时至今
+description: 北京时间 2025-05-14 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -22,6 +22,8 @@ title: AUTO 更新速递
 
 - 小林在忙毕业设计 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：Update trigger workflow to use course.yaml
 
+- 小林在忙毕业设计 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update trigger workflow to use course.yaml
+
 ## 待解决的 Issues
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
@@ -32,12 +34,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/1)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2025-04-29 22:40:12
-- **作者**: kowyo
 
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/SPST1004/pull/3)
 
@@ -187,5 +183,11 @@ title: AUTO 更新速递
 
 - **仓库**: PE100X
 - **创建于**: 2025-04-29 22:23:37
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/EE1013/pull/9)
+
+- **仓库**: EE1013
+- **创建于**: 2025-04-29 22:22:46
 - **作者**: kowyo
 
