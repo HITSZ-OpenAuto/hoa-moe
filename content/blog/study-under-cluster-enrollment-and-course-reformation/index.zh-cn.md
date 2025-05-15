@@ -5,7 +5,7 @@ authors:
   - name: Gaster
     link: https://github.com/WDGaster703
     image: https://github.com/WDGaster703.png
-describtion: 哈工深学子高校改革下的学习
+description: 哈工深学子高校改革下的学习
 excludeSearch: false
 tags:
   - 大类分流
