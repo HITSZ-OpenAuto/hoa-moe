@@ -19,6 +19,13 @@
             <img src="{{ $downloads.RelPermalink }}" alt="downloads" class="hx-w-3" />
             批量下载
         </button>
+        <label class="hx-mb-2 hx-cursor-pointer">
+            校园网加速
+            <div class="switch">
+                <input type="checkbox" class="hoa-filetree-download-accelerate">
+                <span class="slider round"></span>
+            </div>
+        </label>
     </div>
     <div class="hx-w-full hx-rounded-sm">
         {{ partial "hoa-filetree/header.html" . }}
