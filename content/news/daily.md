@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-05-15'
-description: 北京时间 2025-05-14 01 时至今
+date: '2025-05-16'
+description: 北京时间 2025-05-15 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,14 +13,6 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (4.29)
-
-- 小林在忙毕业设计 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：Update trigger workflow to use course.yaml
-
-- 小林在忙毕业设计 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Update trigger workflow to use course.yaml
-
-- 小林在忙毕业设计 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Update trigger workflow to use course.yaml
-
-- 小林在忙毕业设计 在 [中国科技史话](https://github.com/HITSZ-OpenAuto/SEIN1040) 中提交了信息：Update trigger workflow to use course.yaml
 
 - 小林在忙毕业设计 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update trigger workflow to use course.yaml
 
@@ -189,5 +181,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1013
 - **创建于**: 2025-04-29 22:22:46
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/15)
+
+- **仓库**: MATH1015A
+- **创建于**: 2025-04-29 22:22:13
 - **作者**: kowyo
 
