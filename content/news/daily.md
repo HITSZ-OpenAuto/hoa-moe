@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-05-16'
-description: 北京时间 2025-05-15 09 时至今
+date: '2025-05-17'
+description: 北京时间 2025-05-16 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,8 +13,6 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (4.29)
-
-- 小林在忙毕业设计 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update trigger workflow to use course.yaml
 
 - 小林在忙毕业设计 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Update trigger workflow to use course.yaml
 
