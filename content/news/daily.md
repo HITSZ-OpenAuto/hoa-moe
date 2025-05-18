@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-05-18'
-description: 北京时间 2025-05-17 03 时至今
+description: 北京时间 2025-05-17 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -181,11 +181,5 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3001A
 - **创建于**: 2025-04-29 22:19:39
-- **作者**: kowyo
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/7)
-
-- **仓库**: AUTO5013
-- **创建于**: 2025-04-29 22:18:49
 - **作者**: kowyo
 
