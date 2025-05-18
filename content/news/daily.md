@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-05-17'
-description: 北京时间 2025-05-16 00 时至今
+date: '2025-05-18'
+description: 北京时间 2025-05-17 03 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,9 +14,7 @@ title: AUTO 更新速递
 
 ### 周二 (4.29)
 
-- 小林在忙毕业设计 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Update trigger workflow to use course.yaml
-
-- 小林在忙毕业设计 在 [系统与控制](https://github.com/HITSZ-OpenAuto/EE2005) 中提交了信息：Update trigger workflow to use course.yaml
+- 小林在忙毕业设计 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：Update trigger workflow to use course.yaml
 
 ## 待解决的 Issues
 
@@ -28,12 +26,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/2)
-
-- **仓库**: ENGG1002
-- **创建于**: 2025-04-29 22:37:50
-- **作者**: kowyo
 
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/3)
 
@@ -189,5 +181,11 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3001A
 - **创建于**: 2025-04-29 22:19:39
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/7)
+
+- **仓库**: AUTO5013
+- **创建于**: 2025-04-29 22:18:49
 - **作者**: kowyo
 
