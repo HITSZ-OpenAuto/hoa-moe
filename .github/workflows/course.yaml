@@ -53,7 +53,7 @@ jobs:
           cache-dependency-glob: "**/pyproject.toml"
 
       - name: Install Python dependencies
-        run: uv sync
+        run: cd scripts && uv sync
 
       - name: Fetch public repositories in the organization
         env:
@@ -68,7 +68,7 @@ jobs:
 
       - name: Generate card.txt for each repo
         run: |
-          source .venv/bin/activate  
+          source scripts/.venv/bin/activate  
           python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Bulid directory pages
@@ -76,7 +76,7 @@ jobs:
 
       - name: Build course pages
         run: |
-          source .venv/bin/activate
+          source scripts/.venv/bin/activate
           python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Build semester pages
@@ -88,19 +88,19 @@ jobs:
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
         run: |
-          source .venv/bin/activate
+          source scripts/.venv/bin/activate
           python scripts/news/gen_news.py
 
       - name: Fetch opened PRs and issues
         env:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          source .venv/bin/activate
+          source scripts/.venv/bin/activate
           python scripts/courses/fetch_opened_prs_and_issues.py
 
       - name: Wrap badges
         run: |
-          source .venv/bin/activate
+          source scripts/.venv/bin/activate
           for file in $(find content/docs -name "*.md"); do
             python scripts/courses/wrap_badges.py "$file"
           done
