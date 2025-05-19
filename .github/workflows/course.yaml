@@ -45,10 +45,15 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install uv and restore cache
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.7.5"
+          enable-cache: true
+          cache-dependency-glob: "**/pyproject.toml"
+
       - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
+        run: cd scripts && uv sync
 
       - name: Fetch public repositories in the organization
         env:
@@ -62,13 +67,17 @@ jobs:
           echo "repos_array=$repos" >> $GITHUB_ENV
 
       - name: Generate card.txt for each repo
-        run: python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          source scripts/.venv/bin/activate  
+          python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Bulid directory pages
         run: ./scripts/workflows/build_directory_pages.sh
 
       - name: Build course pages
-        run: python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          source scripts/.venv/bin/activate
+          python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Build semester pages
         run: ./scripts/workflows/build_semester_pages.sh
@@ -78,15 +87,20 @@ jobs:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
-        run: python scripts/news/gen_news.py
+        run: |
+          source scripts/.venv/bin/activate
+          python scripts/news/gen_news.py
 
       - name: Fetch opened PRs and issues
         env:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: python scripts/courses/fetch_opened_prs_and_issues.py
+        run: |
+          source scripts/.venv/bin/activate
+          python scripts/courses/fetch_opened_prs_and_issues.py
 
       - name: Wrap badges
         run: |
+          source scripts/.venv/bin/activate
           for file in $(find content/docs -name "*.md"); do
             python scripts/courses/wrap_badges.py "$file"
           done
