@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-05-21'
-description: 北京时间 2025-05-20 12 时至今
+description: 北京时间 2025-05-20 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周三 (5.21)
+
+- Keep0650 在 [毕业设计](https://github.com/HITSZ-OpenAuto/AUTO3099) 中提交了信息：更新毕业论文模板；修复了若干 bug (#8)
 
 - Kowyo 在 [毕业设计](https://github.com/HITSZ-OpenAuto/AUTO3099) 中提交了信息：Update trigger workflow to use course.yaml (#7)
 
@@ -26,12 +28,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新毕业论文模板；修复了若干 bug](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/8)
-
-- **仓库**: AUTO3099
-- **创建于**: 2025-05-21 20:26:59
-- **作者**: Keep0650
 
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/3)
 
@@ -205,5 +201,11 @@ title: AUTO 更新速递
 
 - **仓库**: MECH2010
 - **创建于**: 2025-04-29 22:16:18
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/10)
+
+- **仓库**: MATH1015B
+- **创建于**: 2025-04-29 22:15:47
 - **作者**: kowyo
 
