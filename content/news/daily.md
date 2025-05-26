@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-05-22'
-description: 北京时间 2025-05-21 00 时至今
+date: '2025-05-26'
+description: 北京时间 2025-05-25 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (5.21)
+### 周日 (5.25)
 
-- Keep0650 在 [毕业设计](https://github.com/HITSZ-OpenAuto/AUTO3099) 中提交了信息：更新毕业论文模板；修复了若干 bug (#8)
-
-- Kowyo 在 [毕业设计](https://github.com/HITSZ-OpenAuto/AUTO3099) 中提交了信息：Update trigger workflow to use course.yaml (#7)
+- psp_dada 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：添加 2025 年考试建议和笔记 (#14)
 
 ## 待解决的 Issues
 
