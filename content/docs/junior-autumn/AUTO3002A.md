@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 22 日" author="IcyDesert" message="删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#26)" >}}
+{{< update-info update_time="2025 年 5 月 27 日" author="AutoFriedRich" message="更新 2024 考试题与答案 (#28)" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
@@ -264,7 +264,8 @@ math: true
   {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
     {{< hoa-filetree/file name="2023 秋自动控制实践 A 试题回忆版" type="pdf" size="551.3 KB" date="2024/01/23" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
     {{< hoa-filetree/file name="2023 秋自动控制实践 A 试题回忆版参考答案" type="docx" size="1.3 MB" date="2024/12/20" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
-    {{< hoa-filetree/file name="2024 秋自动控制实践 A 试题回忆版" type="pdf" size="433.5 KB" date="2024/12/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2024%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
+    {{< hoa-filetree/file name="2024 秋自动控制实践 A 期末试题参考答案 v2.2 版" type="pdf" size="5.4 MB" date="2025/05/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2024%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88v2.2%E7%89%88.pdf" >}}
+    {{< hoa-filetree/file name="2024 秋自控实践期末（回忆 v2.0 版） " type="pdf" size="433.5 KB" date="2024/12/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2024%E7%A7%8B%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E6%9C%9F%E6%9C%AB%EF%BC%88%E5%9B%9E%E5%BF%86v2.0%E7%89%88%EF%BC%89%20.pdf" >}}
   {{< hoa-filetree/folder name="本部 - 往年题" date="" state="closed" >}}
     {{< hoa-filetree/file name="哈工大自动控制元件及线路历年考题" type="pdf" size="4.8 MB" date="2023/10/29" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E5%93%88%E5%B7%A5%E5%A4%A7%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf" >}}
     {{< hoa-filetree/file name="自动控制元件及线路 2012 秋期末试卷" type="pdf" size="1.8 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF2012%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
@@ -378,7 +379,7 @@ math: true
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
     {{< hoa-filetree/file name="自控实践_by_Spar Océsel_2023" type="apkg" size="2.3 MB" date="2024/01/06" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5_by_Spar%20Oc%C3%A9sel_2023.apkg" >}}
   {{< hoa-filetree/folder name="2021_LMH" date="" state="closed" >}}
-    {{< hoa-filetree/file name="自控实践笔记" type="pdf" size="46.2 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/2021_LMH/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf" >}}
+    {{< hoa-filetree/file name="自控实践笔记" type="pdf" size="46.2 MB" date="2023/10/29" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/2021_LMH/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="2023_WJD" date="" state="closed" >}}
     {{< hoa-filetree/file name="自动控制实践 A_ 1. 磁路、直流电机 (V1.2.1)" type="pdf" size="14.5 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/2023_WJD/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A_%201.%20%E7%A3%81%E8%B7%AF%E3%80%81%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%28V1.2.1%29.pdf" >}}

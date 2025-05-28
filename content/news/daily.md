@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-05-26'
-description: 北京时间 2025-05-25 00 时至今
+date: '2025-05-28'
+description: 北京时间 2025-05-27 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,15 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (5.25)
+### 周二 (5.27)
 
-- psp_dada 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：添加 2025 年考试建议和笔记 (#14)
+- W·D·Gaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：用新版工图习题答案替换旧版 (#17)
+
+- AutoFriedRich 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：上传 2024 秋信号分析与处理（自动化专业）期末（回忆 v2.0 版） (#19)
+
+- AutoFriedRich 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：上传 2025 春过程控制系统期末试题（回忆版） (#15)
+
+- AutoFriedRich 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：更新 2024 考试题与答案 (#28)
 
 ## 待解决的 Issues
 
@@ -26,24 +32,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新 2024 考试题](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/28)
-
-- **仓库**: AUTO3002A
-- **创建于**: 2025-05-26 18:41:33
-- **作者**: AutoFriedRich
-
-### [添加 2024 秋信号分析与处理（自动化专业）期末（回忆 v2.0 版）](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/19)
-
-- **仓库**: AUTO2005
-- **创建于**: 2025-05-26 17:47:58
-- **作者**: AutoFriedRich
-
-### [添加 2025 春过程控制系统（回忆版）](https://github.com/HITSZ-OpenAuto/AUTO3007/pull/15)
-
-- **仓库**: AUTO3007
-- **创建于**: 2025-05-26 17:33:33
-- **作者**: AutoFriedRich
 
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/3)
 
@@ -205,5 +193,23 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3022
 - **创建于**: 2025-04-29 22:17:45
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MOOC/pull/11)
+
+- **仓库**: MOOC
+- **创建于**: 2025-04-29 22:17:09
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MECH2010/pull/6)
+
+- **仓库**: MECH2010
+- **创建于**: 2025-04-29 22:16:18
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/10)
+
+- **仓库**: MATH1015B
+- **创建于**: 2025-04-29 22:15:47
 - **作者**: kowyo
 
