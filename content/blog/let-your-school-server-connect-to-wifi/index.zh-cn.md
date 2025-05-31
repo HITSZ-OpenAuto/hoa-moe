@@ -1,7 +1,7 @@
 ---
 title: 新版校园网登录界面如何登录到服务器
 description: instructed by 圈圈四 from HITSZ 开源技术协会
-date: 2025-5-31
+date: 2025-05-31
 authors:
   - name: XII
     link: https://github.com/IAMXII
