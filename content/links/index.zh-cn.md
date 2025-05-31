@@ -29,7 +29,7 @@ sidebar:
   {{< hoa-cards/card link="http://hsica.org/" title="HSICA 飞跃手册" subtitle="校区出国申请案例的文档" image="logos/hsica.png" >}}
   {{< hoa-cards/card link="https://man.naosi.org/" title="大工生存手册" subtitle="大工人的一站式生存指南" image="https://man.naosi.org/favicon.svg" >}}
   {{< hoa-cards/card link="https://scuteee.com/" title="SCUTEEE" subtitle="华南理工电力电子类专业知识库" image="https://scuteee.com/favicon-32x32.png" >}}
-  {{< hoa-cards/card link="https://github.com/kowyo/hitsz-connect-verge" title="HITSZ Connect Verge" subtitle="校外访问校园网" image="https://github.com/fluidicon.png" >}}
+  {{< hoa-cards/card link="https://trust.hitsz.edu.cn" title="安校通" subtitle="校外访问校内资源" image="logos/atrust.png" >}}
   {{< hoa-cards/card link="https://penjc.github.io/CityU/" title="CityU GuideBook" subtitle="A comprehensive platform for CityUHK students" image="https://penjc.github.io/CityU/img/favicon.ico" >}}
 {{< /hoa-cards/cards >}}
 
