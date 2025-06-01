@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-05-28'
-description: 北京时间 2025-05-27 00 时至今
+date: '2025-06-01'
+description: 北京时间 2025-05-31 10 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,15 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (5.27)
+### 周二 (4.29)
 
-- W·D·Gaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：用新版工图习题答案替换旧版 (#17)
-
-- AutoFriedRich 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：上传 2024 秋信号分析与处理（自动化专业）期末（回忆 v2.0 版） (#19)
-
-- AutoFriedRich 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：上传 2025 春过程控制系统期末试题（回忆版） (#15)
-
-- AutoFriedRich 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：更新 2024 考试题与答案 (#28)
+- 小林在忙毕业设计 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update trigger workflow to use course.yaml
 
 ## 待解决的 Issues
 
