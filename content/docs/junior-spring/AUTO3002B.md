@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 23 日" author="IcyDesert" message="删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#9)" >}}
+{{< update-info update_time="2025 年 6 月 4 日" author="LiuShaohang2004" message="添加了一份关于 AUTO3002B—《自动控制实践 B》的笔记 (#11)" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
@@ -87,6 +87,7 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
     {{< hoa-filetree/file name="Revision of Auto-Practical" type="pdf" size="9.4 MB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/Revision%20of%20Auto-Practical.pdf" >}}
+    {{< hoa-filetree/file name="【2025 春季学期】自动控制实践 B 课程总结笔记 -22 级自动化 - 刘劭航-v1.2" type="pdf" size="2.6 MB" date="2025/06/03" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E3%80%902025%E6%98%A5%E5%AD%A3%E5%AD%A6%E6%9C%9F%E3%80%91%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0-22%E7%BA%A7%E8%87%AA%E5%8A%A8%E5%8C%96-%E5%88%98%E5%8A%AD%E8%88%AA-v1.2.pdf" >}}
     {{< hoa-filetree/file name="自控实践 B 复习_Tintin" type="pdf" size="6.4 MB" date="2024/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E5%A4%8D%E4%B9%A0_Tintin.pdf" >}}
     {{< hoa-filetree/file name="自控实践复习整理 byAb1g2he" type="pdf" size="3.4 MB" date="2024/07/16" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86byAb1g2he.pdf" >}}
   {{< /hoa-filetree/folder >}}
