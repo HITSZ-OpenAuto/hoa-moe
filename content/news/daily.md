@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-06-02'
-description: 北京时间 2025-06-01 00 时至今
+date: '2025-06-04'
+description: 北京时间 2025-06-03 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (4.29)
+### 周三 (6.4)
 
-- 小林在忙毕业设计 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update trigger workflow to use course.yaml
+- LiuShaohang2004 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加了一份关于 AUTO3002B—《自动控制实践 B》的笔记 (#11)
 
 ## 待解决的 Issues
 
