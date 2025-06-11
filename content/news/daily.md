@@ -201,9 +201,3 @@ title: AUTO 更新速递
 - **创建于**: 2025-04-29 22:16:18
 - **作者**: kowyo
 
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/10)
-
-- **仓库**: MATH1015B
-- **创建于**: 2025-04-29 22:15:47
-- **作者**: kowyo
-
