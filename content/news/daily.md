@@ -27,6 +27,18 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [添加了一份自控实践 B 的笔记](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/13)
+
+- **仓库**: AUTO3002B
+- **创建于**: 2025-06-12 00:01:34
+- **作者**: novemberinnorth
+
+### [添加个人的试题答案 & 笔记](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/12)
+
+- **仓库**: AUTO3002B
+- **创建于**: 2025-06-11 21:58:27
+- **作者**: pspdada
+
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/3)
 
 - **仓库**: ENGG1003
@@ -187,17 +199,5 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3022
 - **创建于**: 2025-04-29 22:17:45
-- **作者**: kowyo
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MOOC/pull/11)
-
-- **仓库**: MOOC
-- **创建于**: 2025-04-29 22:17:09
-- **作者**: kowyo
-
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MECH2010/pull/6)
-
-- **仓库**: MECH2010
-- **创建于**: 2025-04-29 22:16:18
 - **作者**: kowyo
 
