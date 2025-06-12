@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-06-04'
-description: 北京时间 2025-06-03 00 时至今
+date: '2025-06-12'
+description: 北京时间 2025-06-11 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,13 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (6.4)
+### 周四 (6.12)
 
-- LiuShaohang2004 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加了一份关于 AUTO3002B—《自动控制实践 B》的笔记 (#11)
+- Kowyo 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：Update trigger workflow to use course.yaml (#10)
+
+- novemberinnorth 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加了一份自控实践 B 的笔记 (#13)
+
+- psp_dada 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加新的试题答案与笔记 (#12)
 
 ## 待解决的 Issues
 
@@ -26,18 +30,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [添加了一份自控实践 B 的笔记](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/13)
-
-- **仓库**: AUTO3002B
-- **创建于**: 2025-06-12 00:01:34
-- **作者**: novemberinnorth
-
-### [添加个人的试题答案 & 笔记](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/12)
-
-- **仓库**: AUTO3002B
-- **创建于**: 2025-06-11 21:58:27
-- **作者**: pspdada
 
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/3)
 
@@ -129,12 +121,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-04-29 22:27:46
 - **作者**: kowyo
 
-### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/10)
-
-- **仓库**: AUTO3002B
-- **创建于**: 2025-04-29 22:27:06
-- **作者**: kowyo
-
 ### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/12)
 
 - **仓库**: AUTO3001B
@@ -199,5 +185,23 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3022
 - **创建于**: 2025-04-29 22:17:45
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MOOC/pull/11)
+
+- **仓库**: MOOC
+- **创建于**: 2025-04-29 22:17:09
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MECH2010/pull/6)
+
+- **仓库**: MECH2010
+- **创建于**: 2025-04-29 22:16:18
+- **作者**: kowyo
+
+### [更新触发 hoa-moe 仓库更新的 GitHub Actions workflow](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/10)
+
+- **仓库**: MATH1015B
+- **创建于**: 2025-04-29 22:15:47
 - **作者**: kowyo
 
