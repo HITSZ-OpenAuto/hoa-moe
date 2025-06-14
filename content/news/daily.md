@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-06-13'
-description: 北京时间 2025-06-12 00 时至今
+date: '2025-06-14'
+description: 北京时间 2025-06-13 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,13 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周四 (6.12)
+### 周六 (6.14)
 
-- Kowyo 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：Update trigger workflow to use course.yaml (#10)
-
-- novemberinnorth 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加了一份自控实践 B 的笔记 (#13)
-
-- psp_dada 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加新的试题答案与笔记 (#12)
+- Kowyo 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：Update trigger workflow to use course.yaml (#18)
 
 ## 待解决的 Issues
 
