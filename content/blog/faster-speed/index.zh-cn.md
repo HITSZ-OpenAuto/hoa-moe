@@ -13,7 +13,7 @@ tags: ["运维日志"]
 
 大概从半年前开始，HOA 的维护者社群（HOA Core）就听到了社区关于 HOA 访问速度的反馈，以下是对于我们过去半年相关工作的记录。
 
-## 4 月： GitHub 限制 HTTP 请求头语言
+## 4 月：GitHub 限制 HTTP 请求头语言
 
 4 月 29 日，国内一些 GitHub 用户表示自己在 GitHub 上托管的代理文件受到并发限制，当日，HOA 的 GitHub 代理下载文件服务也受到了影响。经过团队成员的排查，原因是用户的浏览器请求头中含有 lang=zh-cn（也就是说，浏览器请求的页面内容是中文）导致。Core 成员 [@Hye](https://github.com/Co-ding-Man) 同学通过修改我们在 Cloudflare 上部署的 Worker，使其将请求头强制改为 en-US，临时解决了此次问题。
 
