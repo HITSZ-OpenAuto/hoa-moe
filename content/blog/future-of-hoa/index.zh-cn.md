@@ -20,7 +20,7 @@ HOA Core 成员有意重构 hoa 的网站，以接入更多的专业，实现更
 
 我们希望可以看见 23/24 级，甚至是 25 级的同学，可以像[议题 #49](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/issues/49) 那样，对项目的未来提出新的期待，并付诸实践，正是因为有了[议题 #49](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/issues/49)，我们才有今天的网站和影响力。
 
-前段时间知名开源项目 Alist 发生的[事件](https://x.com/DIYgod/status/1932703374283284812)，再次让笔者对开源项目的寿命产生了担心，HITSZ OpenAuto 同样是一个为爱发电的项目，一方面，我们很高兴见到许多同学通过[参与指南](https://hoa.moe/blog/contribution-guide/)参与社区的贡献，但是另一方面，我们的大部分贡献还是来自于初代核心成员的整理和创作。在笔者的目力范围内，这种模式在初代成员离开学校之后将会变得<cite>不可持续[^1]</cite>。
+前段时间知名开源项目 Alist 发生的[事件](https://www.oschina.net/news/354817)，再次让笔者对开源项目的寿命产生了担心，HITSZ OpenAuto 同样是一个为爱发电的项目，一方面，我们很高兴见到许多同学通过[参与指南](https://hoa.moe/blog/contribution-guide/)参与社区的贡献，但是另一方面，我们的大部分贡献还是来自于初代核心成员的整理和创作。在笔者的目力范围内，这种模式在初代成员离开学校之后将会变得<cite>不可持续[^1]</cite>。
 
 [^1]: 直观上，我们收到的[运营捐助](https://hoa.moe/sponsor/)也在 2025 年出现了明显的减少。
 
