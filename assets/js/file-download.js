@@ -57,11 +57,12 @@ document.addEventListener("DOMContentLoaded", function () {
         previewFileButtons.forEach(ele => {
             let url = ele.closest('.hoa-filetree-file').dataset.url;
             const downloadAccelerate = downloadAccelerateInput.checked;
-            if (downloadAccelerate) {
+            const isMSOfficeFile = /\.(docx?|pptx?|xlsx?)$/.test(url);
+            if (downloadAccelerate && !isMSOfficeFile) {
                 url = url.replace("gh.hoa.moe/github.com", "gitea.osa.moe");
                 url = url.replace("/raw/", "/raw/branch/");
             }
-            ele.href = `https://prev.hoa.moe?file=${url}`;
+            ele.href = `https://prev.hoa.moe?file=${encodeURI(url)}`;
         });
     };
     downloadAccelerateInput.addEventListener('click', (e) => {
