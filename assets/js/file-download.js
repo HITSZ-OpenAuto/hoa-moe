@@ -52,19 +52,34 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     const downloadAccelerateInput = document.querySelector('.hoa-filetree-download-accelerate');
+    const updatePreviewLink = () => {
+        const previewFileButtons = document.querySelectorAll('.hoa-filetree-preview-link');
+        previewFileButtons.forEach(ele => {
+            let url = ele.closest('.hoa-filetree-file').dataset.url;
+            const downloadAccelerate = downloadAccelerateInput.checked;
+            const isMSOfficeFile = /\.(docx?|pptx?|xlsx?)$/.test(url);
+            if (downloadAccelerate && !isMSOfficeFile) {
+                url = url.replace("gh.hoa.moe/github.com", "gitea.osa.moe");
+                url = url.replace("/raw/", "/raw/branch/");
+            }
+            ele.href = `https://prev.hoa.moe?file=${encodeURI(url)}`;
+        });
+    };
     downloadAccelerateInput.addEventListener('click', (e) => {
         localStorage.setItem("downloadAccelerate", e.target.checked ? "on" : "off");
+        updatePreviewLink();
     });
     if (localStorage.getItem("downloadAccelerate") === "on") {
         downloadAccelerateInput.checked = true;
     }
+    updatePreviewLink();
 
     const downloadFileButtons = document.querySelectorAll('.hoa-filetree-download-link');
     downloadFileButtons.forEach(ele => ele.addEventListener('click', (e) => {
         e.stopPropagation();
         e.preventDefault();
         // get link
-        let url = e.target.dataset.url;
+        let url = e.target.closest('.hoa-filetree-file').dataset.url;
         const downloadAccelerate = downloadAccelerateInput.checked;
         if (downloadAccelerate) {
             url = url.replace("gh.hoa.moe/github.com", "gitea.osa.moe");
