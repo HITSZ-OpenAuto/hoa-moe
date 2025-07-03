@@ -1,11 +1,11 @@
 ---
-title: 关于 HOA 的未来
+title: HOA 的未来，需要你一起来书写
 authors:
   - name: Kowyo
     link: https://github.com/Kowyo
     image: https://github.com/Kowyo.png
 date: 2025-06-23
-description: HOA 接下来会发生什么
+description: 随着初代成员离校，HOA 邀请 23/24/25 级同学加入核心团队，共同推动网站重构与社区建设。
 draft: false
 excludeSearch: false
 ---
