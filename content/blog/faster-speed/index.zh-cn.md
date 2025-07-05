@@ -30,7 +30,7 @@ reqHdrNew.set('Accept-Language', 'en')  // Set Accept-Language header to 'en'
 
 ![image-20250622194445436](assets/image-20250622194445436.png "目前，该服务可以通过在文件下载区域，打开“⚡️校园网加速”开关来实现")
 
-> 注：文件预览功能由于使用 \<a> 超链接直接写入我们的文件树，还未实现校园网加速功能，欢迎有意向的开发者向我们提交 PR，帮助实现此功能。
+> ~~注：文件预览功能由于使用 \<a> 超链接直接写入我们的文件树，还未实现校园网加速功能，欢迎有意向的开发者向我们提交 PR，帮助实现此功能。~~ 此功能已经由 [@chenx-dust](https://github.com/chenx-dust) 于 [PR #348](https://github.com/HITSZ-OpenAuto/hoa-moe/pull/348) 实现。
 
 ## 6 月：hoa.moe 接入 EdgeOne CDN 加速
 
