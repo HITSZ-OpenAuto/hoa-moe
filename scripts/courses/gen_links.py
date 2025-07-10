@@ -29,8 +29,8 @@ class GitHubAPIClient:
 
     async def task(self):
         """主任务：在线获取工作树信息，生成短代码，持久化"""
-        with aiohttp.ClientSession() as session:
-            worktree = await self.get_worktree_json(self, session)
+        async with aiohttp.ClientSession() as session:
+            worktree = await self.get_worktree_json(session)
             if not worktree:
                 print(f"Worktree for {self.repo} is empty or could not be fetched.")
                 return
@@ -102,7 +102,7 @@ class GitHubAPIClient:
             current_dict[name] = [name, suffix, size, date, icon]
         return organized_paths
 
-    def create_hugo_shortcode(self, worktree_info: List[Dict[str, str]]) -> str:
+    def create_hugo_shortcode(self, worktree_info: List[Dict[str, int | str]]) -> str:
         result = f'{{{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/{self.repo}" repoURL="https://github.com/HITSZ-OpenAuto/{self.repo}" >}}}}\n'
         organized_paths = self.organize_paths(worktree_info)
 
