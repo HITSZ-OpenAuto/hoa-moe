@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 5 月 27 日" author="AutoFriedRich" message="更新 2024 考试题与答案 (#28)" >}}
+{{< update-info update_time="2025 年 6 月 27 日" author="psp_dada" message="重新上传个人的作业和实验报告 (#29)" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
@@ -234,7 +234,8 @@ math: true
 
 > 文 / [psp_dada](https://github.com/pspdada), 2025.1
 
-自控实践 A 的课内实验内容较为简单，可以速通，最后给分的情况比较玄妙。
+自控实践 A 的课内实验内容较为简单，每个实验的内容都很少，可以速通，但是最后给分的情况比较玄妙。
+
 ## 资料下载
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
@@ -248,24 +249,11 @@ math: true
     {{< hoa-filetree/file name="作业 3" type="pdf" size="141.8 KB" date="2023/10/29" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2022/%E4%BD%9C%E4%B8%9A3.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="2023" date="" state="closed" >}}
-    {{< hoa-filetree/file name="后半程作业答案" type="pdf" size="469.2 KB" date="2024/12/03" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2023/%E5%90%8E%E5%8D%8A%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+    {{< hoa-filetree/file name="后半程作业答案" type="pdf" size="426.7 KB" date="2024/12/03" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2023/%E5%90%8E%E5%8D%8A%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="异步电机部分作业" type="pdf" size="43.4 KB" date="2024/12/03" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2023/%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E9%83%A8%E5%88%86%E4%BD%9C%E4%B8%9A.pdf" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="2024" date="" state="closed" >}}
-  {{< hoa-filetree/folder name="psp" date="" state="closed" >}}
-    {{< hoa-filetree/file name="第一章 直流电机" type="pdf" size="2.7 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2024/psp/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA.pdf" >}}
-    {{< hoa-filetree/file name="第三章 异步电机" type="pdf" size="2.2 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2024/psp/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA.pdf" >}}
-    {{< hoa-filetree/file name="第二章 变压器" type="pdf" size="815.2 KB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2024/psp/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%8F%98%E5%8E%8B%E5%99%A8.pdf" >}}
-    {{< hoa-filetree/file name="第五章 步进电机" type="pdf" size="758.9 KB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2024/psp/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA.pdf" >}}
-    {{< hoa-filetree/file name="第六章 无刷直流电机与交流伺服电机" type="pdf" size="942.5 KB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/assignments/2024/psp/%E7%AC%AC%E5%85%AD%E7%AB%A0%20%E6%97%A0%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E4%B8%8E%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA.pdf" >}}
-  {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
-    {{< hoa-filetree/file name="2023 秋自动控制实践 A 试题回忆版" type="pdf" size="551.3 KB" date="2024/01/23" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
-    {{< hoa-filetree/file name="2023 秋自动控制实践 A 试题回忆版参考答案" type="docx" size="1.3 MB" date="2024/12/20" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2023%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
-    {{< hoa-filetree/file name="2024 秋自动控制实践 A 期末试题参考答案 v2.2 版" type="pdf" size="5.4 MB" date="2025/05/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2024%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88v2.2%E7%89%88.pdf" >}}
-    {{< hoa-filetree/file name="2024 秋自控实践期末（回忆 v2.0 版） " type="pdf" size="433.5 KB" date="2024/12/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/2024%E7%A7%8B%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E6%9C%9F%E6%9C%AB%EF%BC%88%E5%9B%9E%E5%BF%86v2.0%E7%89%88%EF%BC%89%20.pdf" >}}
   {{< hoa-filetree/folder name="本部 - 往年题" date="" state="closed" >}}
     {{< hoa-filetree/file name="哈工大自动控制元件及线路历年考题" type="pdf" size="4.8 MB" date="2023/10/29" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E5%93%88%E5%B7%A5%E5%A4%A7%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF%E5%8E%86%E5%B9%B4%E8%80%83%E9%A2%98.pdf" >}}
     {{< hoa-filetree/file name="自动控制元件及线路 2012 秋期末试卷" type="pdf" size="1.8 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E5%BE%80%E5%B9%B4%E9%A2%98/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6%E5%8F%8A%E7%BA%BF%E8%B7%AF2012%E7%A7%8B%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.pdf" >}}
@@ -296,6 +284,12 @@ math: true
     {{< hoa-filetree/file name="5 直流电机的动特性与选择相关试题" type="docx" size="46.7 KB" date="2024/12/20" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/5%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8A%A8%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E6%8B%A9%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
     {{< hoa-filetree/file name="9 功率放大器相关试题 - 答案" type="docx" size="355.9 KB" date="2023/12/17" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98%20-%20%E7%AD%94%E6%A1%88.docx" >}}
     {{< hoa-filetree/file name="9 功率放大器相关试题" type="docx" size="45.7 KB" date="2023/12/17" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%9C%AC%E9%83%A8-%E8%AF%95%E9%A2%98%E6%B1%87%E7%BC%96/9%20%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AF%95%E9%A2%98.docx" >}}
+  {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="深圳" date="" state="closed" >}}
+    {{< hoa-filetree/file name="2023 秋自动控制实践 A 试题回忆版" type="pdf" size="551.3 KB" date="2024/01/23" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%B7%B1%E5%9C%B3/2023%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
+    {{< hoa-filetree/file name="2023 秋自动控制实践 A 试题回忆版参考答案" type="docx" size="1.3 MB" date="2024/12/20" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%B7%B1%E5%9C%B3/2023%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
+    {{< hoa-filetree/file name="2024 秋自动控制实践 A 期末试题参考答案 v2.2 版" type="pdf" size="5.4 MB" date="2025/05/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%B7%B1%E5%9C%B3/2024%E7%A7%8B%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5A%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88v2.2%E7%89%88.pdf" >}}
+    {{< hoa-filetree/file name="2024 秋自控实践期末（回忆 v2.0 版） " type="pdf" size="433.5 KB" date="2024/12/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/exams/%E6%B7%B1%E5%9C%B3/2024%E7%A7%8B%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E6%9C%9F%E6%9C%AB%EF%BC%88%E5%9B%9E%E5%BF%86v2.0%E7%89%88%EF%BC%89%20.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
@@ -365,7 +359,7 @@ math: true
   {{< hoa-filetree/folder name="reports" date="" state="closed" >}}
     {{< hoa-filetree/file name="Lab1 步进电机" type="docx" size="923.3 KB" date="2025/01/13" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2024/psp/reports/Lab1%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA.docx" >}}
     {{< hoa-filetree/file name="Lab2 PWM 控制与驱动电路" type="docx" size="814.7 KB" date="2025/01/13" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2024/psp/reports/Lab2%20PWM%E6%8E%A7%E5%88%B6%E4%B8%8E%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF.docx" >}}
-    {{< hoa-filetree/file name="Lab3 交流伺服" type="docx" size="912.2 KB" date="2025/01/13" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2024/psp/reports/Lab3%20%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D.docx" >}}
+    {{< hoa-filetree/file name="Lab3 交流伺服" type="docx" size="912.3 KB" date="2025/01/13" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2024/psp/reports/Lab3%20%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D.docx" >}}
     {{< hoa-filetree/file name="Lab4 传感与反馈元件特性" type="docx" size="1.5 MB" date="2025/01/13" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/labs/2024/psp/reports/Lab4%20%E4%BC%A0%E6%84%9F%E4%B8%8E%E5%8F%8D%E9%A6%88%E5%85%83%E4%BB%B6%E7%89%B9%E6%80%A7.docx" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
@@ -392,25 +386,20 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
   {{< hoa-filetree/folder name="24-psp-带笔记" date="" state="closed" >}}
-    {{< hoa-filetree/file name="1.1 绪论" type="pdf" size="3.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/1.1%20%E7%BB%AA%E8%AE%BA.pdf" >}}
-    {{< hoa-filetree/file name="1.2 磁路与电气常识" type="pdf" size="2.8 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/1.2%20%E7%A3%81%E8%B7%AF%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B8%B8%E8%AF%86.pdf" >}}
-    {{< hoa-filetree/file name="2.1 直流电机原理与结构" type="pdf" size="4.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/2.1%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%93%E6%9E%84.pdf" >}}
-    {{< hoa-filetree/file name="2.2 直流电机基本方程" type="pdf" size="3.5 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/2.2%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E5%9F%BA%E6%9C%AC%E6%96%B9%E7%A8%8B.pdf" >}}
-    {{< hoa-filetree/file name="2.3 直流电机的选用" type="pdf" size="1.5 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/2.3%20%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E9%80%89%E7%94%A8.pdf" >}}
-    {{< hoa-filetree/file name="3.1 后半程授课内容简介" type="pdf" size="10.8 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/3.1%20%E5%90%8E%E5%8D%8A%E7%A8%8B%E6%8E%88%E8%AF%BE%E5%86%85%E5%AE%B9%E7%AE%80%E4%BB%8B.pdf" >}}
-    {{< hoa-filetree/file name="3.2 步进电机及其控制" type="pdf" size="19.8 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/3.2%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E5%8F%8A%E5%85%B6%E6%8E%A7%E5%88%B6.pdf" >}}
-    {{< hoa-filetree/file name="3.3 交流电机概述" type="pdf" size="7.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/3.3%20%E4%BA%A4%E6%B5%81%E7%94%B5%E6%9C%BA%E6%A6%82%E8%BF%B0.pdf" >}}
-    {{< hoa-filetree/file name="3.4 伺服电机基本原理" type="pdf" size="24.9 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/3.4%20%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86.pdf" >}}
-    {{< hoa-filetree/file name="4.1 电力电子技术概述" type="pdf" size="3.3 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/4.1%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.pdf" >}}
-    {{< hoa-filetree/file name="4.2 脉宽调制驱动技术" type="pdf" size="3.2 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/4.2%20%E8%84%89%E5%AE%BD%E8%B0%83%E5%88%B6%E9%A9%B1%E5%8A%A8%E6%8A%80%E6%9C%AF.pdf" >}}
-    {{< hoa-filetree/file name="4.3 变压器" type="pdf" size="5.7 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/4.3%20%E5%8F%98%E5%8E%8B%E5%99%A8.pdf" >}}
-    {{< hoa-filetree/file name="5.1 测量元件概述" type="pdf" size="10.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/5.1%20%E6%B5%8B%E9%87%8F%E5%85%83%E4%BB%B6%E6%A6%82%E8%BF%B0.pdf" >}}
-    {{< hoa-filetree/file name="5.2 旋转变压器与感应同步器" type="pdf" size="14.0 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/5.2%20%E6%97%8B%E8%BD%AC%E5%8F%98%E5%8E%8B%E5%99%A8%E4%B8%8E%E6%84%9F%E5%BA%94%E5%90%8C%E6%AD%A5%E5%99%A8.pdf" >}}
-    {{< hoa-filetree/file name="5.3 光电编码器与光栅" type="pdf" size="12.1 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/5.3%20%E5%85%89%E7%94%B5%E7%BC%96%E7%A0%81%E5%99%A8%E4%B8%8E%E5%85%89%E6%A0%85.pdf" >}}
-    {{< hoa-filetree/file name="6.1 交流电机的旋转磁场与感应电势" type="pdf" size="12.9 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/6.1%20%E4%BA%A4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E6%97%8B%E8%BD%AC%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%84%9F%E5%BA%94%E7%94%B5%E5%8A%BF.pdf" >}}
-    {{< hoa-filetree/file name="6.2 异步电机的运行分析和等效电路" type="pdf" size="5.4 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/6.2%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9A%84%E8%BF%90%E8%A1%8C%E5%88%86%E6%9E%90%E5%92%8C%E7%AD%89%E6%95%88%E7%94%B5%E8%B7%AF.pdf" >}}
-    {{< hoa-filetree/file name="6.3 异步电机的机械特性和调速运行" type="pdf" size="7.5 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/6.3%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9A%84%E6%9C%BA%E6%A2%B0%E7%89%B9%E6%80%A7%E5%92%8C%E8%B0%83%E9%80%9F%E8%BF%90%E8%A1%8C.pdf" >}}
-    {{< hoa-filetree/file name="6.4 单相异步电机和异步电机参数" type="pdf" size="5.2 MB" date="2025/01/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/6.4%20%E5%8D%95%E7%9B%B8%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E5%92%8C%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E5%8F%82%E6%95%B0.pdf" >}}
+    {{< hoa-filetree/file name="0 绪论与磁路" type="pdf" size="2.2 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/0%20%E7%BB%AA%E8%AE%BA%E4%B8%8E%E7%A3%81%E8%B7%AF.pdf" >}}
+    {{< hoa-filetree/file name="1 有刷直流电机" type="pdf" size="7.4 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/1%20%E6%9C%89%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA.pdf" >}}
+    {{< hoa-filetree/file name="2 电力电子技术与 PWM" type="pdf" size="4.2 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/2%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E4%B8%8EPWM.pdf" >}}
+    {{< hoa-filetree/file name="3 变压器" type="pdf" size="1.5 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/3%20%E5%8F%98%E5%8E%8B%E5%99%A8.pdf" >}}
+    {{< hoa-filetree/file name="4 步进电机" type="pdf" size="15.1 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/4%20%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA.pdf" >}}
+    {{< hoa-filetree/file name="5.1 测量元件概述" type="pdf" size="6.7 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/5.1%20%E6%B5%8B%E9%87%8F%E5%85%83%E4%BB%B6%E6%A6%82%E8%BF%B0.pdf" >}}
+    {{< hoa-filetree/file name="5.2 旋转变压器与感应同步器" type="pdf" size="10.5 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/5.2%20%E6%97%8B%E8%BD%AC%E5%8F%98%E5%8E%8B%E5%99%A8%E4%B8%8E%E6%84%9F%E5%BA%94%E5%90%8C%E6%AD%A5%E5%99%A8.pdf" >}}
+    {{< hoa-filetree/file name="5.3 光电编码器与光栅" type="pdf" size="11.2 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/5.3%20%E5%85%89%E7%94%B5%E7%BC%96%E7%A0%81%E5%99%A8%E4%B8%8E%E5%85%89%E6%A0%85.pdf" >}}
+    {{< hoa-filetree/file name="6 无刷直流电机和交流伺服电机" type="pdf" size="12.5 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/6%20%E6%97%A0%E5%88%B7%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%E5%92%8C%E4%BA%A4%E6%B5%81%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA.pdf" >}}
+    {{< hoa-filetree/file name="7.1 交流电机概述" type="pdf" size="7.6 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/7.1%20%E4%BA%A4%E6%B5%81%E7%94%B5%E6%9C%BA%E6%A6%82%E8%BF%B0.pdf" >}}
+    {{< hoa-filetree/file name="7.2 交流电机的旋转磁场与感应电势" type="pdf" size="10.7 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/7.2%20%E4%BA%A4%E6%B5%81%E7%94%B5%E6%9C%BA%E7%9A%84%E6%97%8B%E8%BD%AC%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%84%9F%E5%BA%94%E7%94%B5%E5%8A%BF.pdf" >}}
+    {{< hoa-filetree/file name="7.3 异步电机的运行分析和等效电路" type="pdf" size="7.0 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/7.3%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9A%84%E8%BF%90%E8%A1%8C%E5%88%86%E6%9E%90%E5%92%8C%E7%AD%89%E6%95%88%E7%94%B5%E8%B7%AF.pdf" >}}
+    {{< hoa-filetree/file name="7.4 异步电机的机械特性和调速运行" type="pdf" size="11.0 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/7.4%20%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E7%9A%84%E6%9C%BA%E6%A2%B0%E7%89%B9%E6%80%A7%E5%92%8C%E8%B0%83%E9%80%9F%E8%BF%90%E8%A1%8C.pdf" >}}
+    {{< hoa-filetree/file name="7.5 单相异步电机和异步电机参数" type="pdf" size="3.1 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/7.5%20%E5%8D%95%E7%9B%B8%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E5%92%8C%E5%BC%82%E6%AD%A5%E7%94%B5%E6%9C%BA%E5%8F%82%E6%95%B0.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
@@ -419,8 +408,9 @@ math: true
 
 HOA Core 成员有意重构 hoa 的网站，以接入更多的专业，实现更好的体验。如果你对资料分享或者网站搭建感兴趣，即使来自其他专业，非常欢迎你[联系](mailto:hi@hoa.moe)/加入我们 Core 团队。这里有我们[初步的重构计划](https://historical-mousepad-286.notion.site/HOA-1f71751ad5fe80978c70d9e32330d7e6)。
 
-同时，HOA Core 初代成员已经毕业，如果你关心 HOA 的未来，请阅读我们的博客了解更多：[《关于 HOA 的未来》](https://hoa.moe/blog/future-of-hoa)。
+同时，HOA Core 初代成员已经毕业，如果你想加入 HOA Core，请阅读我们的博客了解更多：[《HOA 的未来，需要你一起来书写》](https://hoa.moe/news/future-of-hoa)。
 
 {{< callout type="" >}}
   © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
+
