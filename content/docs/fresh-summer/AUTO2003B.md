@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 3 月 10 日" author="psp_dada" message="添加一个 vscode 配置 EasyX 的教程 (#9)" >}}
+{{< update-info update_time="2025 年 6 月 28 日" author="psp_dada" message="更新项目报告 (#11)" >}}
 
 
 <!--
@@ -28,6 +28,7 @@ math: true
 </div>
 
 ## 课程介绍（摘自教学大纲）
+
 本课程设计是在学生完成[高级语言程序设计](https://hoa.moe/docs/fresh-autumn/comp2021/)课程学习后进行的。
 学生通过本课程的实践，能进一步掌握高级语言程序设计基本概念，掌握基本的程序设计方法；
 通过设计一个完整的小型程序，给学生提供独立实践的机会，将课本上的理论知识和实际有机的结合起来，锻炼学生的分析解决实际问题的能力。
@@ -42,6 +43,7 @@ math: true
 夏季学期结束时需提交开题报告；成果最后在大一立项结题的同时验收，需提交结题报告。
 
 2022 级给出的选题有：
+
 - 学院职工管理信息管理系统
 - 学院学生信息管理系统
 - 模拟地铁自动售票系统
@@ -54,6 +56,7 @@ math: true
 - 本课程与教师基本无关。结题答辩时的老师也是任意分配的。
 
 ## 攻略
+
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2023.12
 
 这应该是自动化学生为数不多的参与软件开发的机会。
@@ -82,6 +85,7 @@ math: true
 
 好在目前有不少基于 `C/C++` 的 GUI 开发框架可供选择，学习起来也不困难。
 以下是教学大纲中提到的 4 个。
+
 1. [EasyX](https://docs.easyx.cn/)：一个基于 `GDI+` 的图形库，比较古老了，使用简单，但是功能有限。（若想在 VS Code 配置 EasyX，可参考[此教程](https://github.com/Oliverzsa/visual-studio-code-set-easyx)）
 2. [Qt](https://www.qt.io/)：跨平台的 GUI 开发框架，功能强大，几乎可以做任何事情。并且你校学生证可以申请到 Qt 的教育许可证，解锁完整特性。
 3. [MFC(Microsoft Foundation Classes)](https://learn.microsoft.com/zh-cn/cpp/mfc/mfc-desktop-applications)：一组封装了 C++ 类库的 Windows 编程框架，优点是兼容从 Win95 至今的所有 Windows 操作系统，且运行效率非常高；缺点是开发效率低，并且只能在 Windows 上运行。
@@ -118,8 +122,10 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003B" repoURL="https://github.com/HITSZ-OpenAuto/AUTO2003B" >}}
   {{< hoa-filetree/folder name="course_design" date="" state="closed" >}}
-    {{< hoa-filetree/file name="创新训练课 B 报告" type="docx" size="1.3 MB" date="2023/11/29" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
-    {{< hoa-filetree/file name="答辩 PPT_吴坤远" type="pptx" size="351.1 KB" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E7%AD%94%E8%BE%A9PPT_%E5%90%B4%E5%9D%A4%E8%BF%9C.pptx" >}}
+  {{< hoa-filetree/folder name="WKY" date="" state="closed" >}}
+    {{< hoa-filetree/file name="创新训练课 B 报告" type="docx" size="1.3 MB" date="2023/11/29" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/WKY/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
+    {{< hoa-filetree/file name="答辩 PPT_吴坤远" type="pptx" size="351.1 KB" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/WKY/%E7%AD%94%E8%BE%A9PPT_%E5%90%B4%E5%9D%A4%E8%BF%9C.pptx" >}}
+  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="fish_game" date="" state="closed" >}}
     {{< hoa-filetree/file name="bg" type="jpg" size="355.8 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/bg.jpg" >}}
     {{< hoa-filetree/file name="bg2" type="jpg" size="888.0 KB" date="2023/11/29" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/bg2.jpg" >}}
@@ -163,6 +169,9 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
     {{< hoa-filetree/file name="fish_game.vcxproj.FileListAbsolute" type="txt" size="127 bytes" date="2023/11/29" icon="icons/txt.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/Debug/fish_game.vcxproj.FileListAbsolute.txt" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
+  {{< hoa-filetree/folder name="psp" date="" state="closed" >}}
+    {{< hoa-filetree/file name="创新训练课 B 报告-psp" type="pdf" size="875.1 KB" date="2025/06/28" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/psp/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A-psp.pdf" >}}
+  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="地铁站示例" date="" state="closed" >}}
     {{< hoa-filetree/file name="Qt-创新训练题目 3" type="zip" size="10.8 MB" date="2023/11/29" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/Qt-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E9%A2%98%E7%9B%AE3.zip" >}}
     {{< hoa-filetree/file name="项目展示答辩" type="zip" size="24.0 MB" date="2023/11/29" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BA%E7%AD%94%E8%BE%A9.zip" >}}
@@ -185,8 +194,9 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 
 HOA Core 成员有意重构 hoa 的网站，以接入更多的专业，实现更好的体验。如果你对资料分享或者网站搭建感兴趣，即使来自其他专业，非常欢迎你[联系](mailto:hi@hoa.moe)/加入我们 Core 团队。这里有我们[初步的重构计划](https://historical-mousepad-286.notion.site/HOA-1f71751ad5fe80978c70d9e32330d7e6)。
 
-同时，HOA Core 初代成员已经毕业，如果你关心 HOA 的未来，请阅读我们的博客了解更多：[《关于 HOA 的未来》](https://hoa.moe/blog/future-of-hoa)。
+同时，HOA Core 初代成员已经毕业，如果你想加入 HOA Core，请阅读我们的博客了解更多：[《HOA 的未来，需要你一起来书写》](https://hoa.moe/news/future-of-hoa)。
 
 {{< callout type="" >}}
   © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
+
