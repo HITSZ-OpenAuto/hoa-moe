@@ -7,14 +7,9 @@ import json
 import re
 from datetime import datetime
 from fs import filesize
-from functools import lru_cache
 from typing import List, Dict, Optional
 import time
 from aiohttp import ClientTimeout
-from tenacity import retry, stop_after_attempt, wait_exponential
-from scripts.filetrees import FileTreeManager, CourseData, create_course_data
-
-file_tree_manager = FileTreeManager()
 
 
 class GitHubAPIClient:
@@ -31,14 +26,20 @@ class GitHubAPIClient:
         self.commit_cache = {}
         self.batch_size = 100  # GitHub API allows up to 100 items per page
         self.has_commit_error = False
-    
+
     async def task(self):
+        """主任务：在线获取工作树信息，生成短代码，持久化"""
         with aiohttp.ClientSession() as session:
             worktree = await self.get_worktree_json(self, session)
             if not worktree:
                 print(f"Worktree for {self.repo} is empty or could not be fetched.")
                 return
-        return self.create_hugo_shortcode(worktree)
+
+        shortcode = self.create_hugo_shortcode(worktree)
+
+        file_name = f"{self.repo}_cards.txt"  # 最终会将文件树短代码存到这个文件，并交给 sh 脚本拼接
+        with open(file_name, "w", encoding="utf-8") as f:
+            f.write(shortcode)
 
     async def fetch_content(self, session: aiohttp.ClientSession, url: str) -> Dict:
         timeout = ClientTimeout(total=30)
@@ -70,19 +71,23 @@ class GitHubAPIClient:
             "materials": {
                 "考研近代史考点.pdf": [
                 "考研近代史考点", 
-                "file", 
-                "icons/file.png", 
+                "file",  
                 "40.8 MB", 
-                "2023/11/29"],
+                "2023/11/29",
+                "icons/file.png"],
             }
         }"""
-        exclude_patterns = ['README.md', '.gitkeep', '.github/', '.hoa/', 'LICENSE', 'tag.txt'] # TODO：筛选比较粗糙
+        # TODO：筛选比较粗糙
+        exclude_patterns = ['README.md', '.gitkeep',
+                            '.github/', '.hoa/', 'LICENSE', 'tag.txt']
 
         organized_paths = {}
         for original_path, info in worktree_info.items():
-            if any(pattern in original_path for pattern in exclude_patterns):
-                continue # 跳过不需要的文件或目录
-            size = filesize.format_size(info["size"])
+            if any(pattern in original_path
+                   for pattern in exclude_patterns):
+                continue  # 跳过不需要的文件或目录
+            # 生成一些构建短代码需要的信息
+            size = filesize.traditional(info["size"])
             date = datetime.fromtimestamp(info["time"]).strftime("%Y/%m/%d")
             path_components = original_path.split("/")
             full_name = path_components[-1]
@@ -102,12 +107,12 @@ class GitHubAPIClient:
         organized_paths = self.organize_paths(worktree_info)
 
         if organized_paths:
-            result += self._generate_shortcodes_recursive(organized_paths, "")
+            result += self.generate_shortcodes_recursive(organized_paths, "")
 
         result += "{{< /hoa-filetree/container >}}\n"
         return result
 
-    def _generate_shortcodes_recursive(self, worktree_info: Dict, current_path: str) -> str:
+    def generate_shortcodes_recursive(self, worktree_info: Dict, current_path: str) -> str:
         """递归地生成文件夹和文件的 Hugo 短代码"""
         result = ""
 
@@ -115,7 +120,7 @@ class GitHubAPIClient:
             new_path = f"{current_path}/{name}" if current_path else name
             if isinstance(value, dict):  # 文件夹
                 result += f'{{{{< hoa-filetree/folder name="{name}" date="" state="closed" >}}}}\n'
-                result += self._generate_shortcodes_recursive(
+                result += self.generate_shortcodes_recursive(
                     value, new_path  # 递归
                 )
                 result += f'{{{{< /hoa-filetree/folder >}}}}\n'
@@ -125,29 +130,8 @@ class GitHubAPIClient:
                 prefix = f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
                 full_url = f"{prefix}/{encoded_path}"
                 result += f'{{{{< hoa-filetree/file name="{filename}" type="{suffix}" size="{size}" date="{date}" icon="{icon}" url="{full_url}" >}}}}\n'
+
         return result
-
-
-def is_human_readable_size(size_str: str) -> bool:
-    pattern = r"""(?x)
-        ^
-        (\d{1,10}|\d{1,10}\.\d{1,2})
-        \s*
-        (byte|bytes|[KMGTPE]B|B)
-        $
-    """
-    if not size_str:
-        return False
-
-    match = re.match(pattern, size_str, re.IGNORECASE)
-    if not match:
-        return False
-
-    try:
-        value = float(match.group(1))
-        return value >= 0
-    except ValueError:
-        return False
 
 
 def match_suffix_icon(suffix: str) -> str:
@@ -166,11 +150,10 @@ def match_suffix_icon(suffix: str) -> str:
 
 
 async def process_multiple_repos(owner: str, repos: List[str], token: str) -> None:
-    # Create clients for all repos
+    """处理多个课程仓库，主任务合集"""
     clients = [GitHubAPIClient(owner, repo, token) for repo in repos]
 
-    # Run all clients concurrently
-    await asyncio.gather(*(client.judge_filetree_cache() for client in clients))
+    await asyncio.gather(*(client.task() for client in clients))
 
 
 if __name__ == "__main__":
@@ -201,9 +184,6 @@ if __name__ == "__main__":
     # Run the async process for all repos
     start_time = time.perf_counter()
     asyncio.run(process_multiple_repos(args.owner, repos, args.token))
-
     end_time = time.perf_counter()
-    file_tree_manager.save()
-    file_tree_manager.export_card_files()
     execution_time = end_time - start_time
     print(f"Exec: {execution_time:.2f} s")
