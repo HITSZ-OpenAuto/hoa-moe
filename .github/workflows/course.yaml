@@ -9,11 +9,6 @@ on:
   schedule:
     - cron: "0 0 * * *" # Set the workflow to run at 00:00 UTC+0 every day (8 AM Beijing time)
   workflow_dispatch:
-    inputs:
-      repo_name:
-        description: "Name of the repository"
-        required: true
-        default: "NOT_ASSIGNED"
 
 concurrency:
   group: ${{ github.workflow }}

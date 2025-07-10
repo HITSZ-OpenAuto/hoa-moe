@@ -58,8 +58,6 @@ prev: /blog/guide-for-developer/maintenance
     ├── build_course_pages.sh
     ├── build_directory_pages.sh
     ├── build_semester_pages.sh
-    ├── build_single_course_page.sh
-    ├── check_before_build_single_course_page.sh
     └── fetch_repos.sh
 ```
 
