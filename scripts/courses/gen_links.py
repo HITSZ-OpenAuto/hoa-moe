@@ -25,28 +25,32 @@ class GitHubAPIClient:
         }
         self.commit_cache = {}
         self.batch_size = 100  # GitHub API allows up to 100 items per page
-        self.has_commit_error = False
 
     async def task(self):
         """主任务：在线获取工作树信息，生成短代码，持久化"""
         async with aiohttp.ClientSession() as session:
             worktree = await self.get_worktree_json(session)
+            print(f"Worktree for {self.repo} generated successfully.")
             if not worktree:
                 print(f"Worktree for {self.repo} is empty or could not be fetched.")
                 return
 
         shortcode = self.create_hugo_shortcode(worktree)
 
-        file_name = f"{self.repo}_cards.txt"  # 最终会将文件树短代码存到这个文件，并交给 sh 脚本拼接
+        file_name = f"{self.repo}_cards.txt"  # 最终会将文件树短代码存到这个文件，并交给脚本拼接
         with open(file_name, "w", encoding="utf-8") as f:
             f.write(shortcode)
+        print(f"Shortcode saved to {file_name}.")
+        print("-" * 50)
 
     async def fetch_content(self, session: aiohttp.ClientSession, url: str) -> Dict:
         timeout = ClientTimeout(total=30)
         async with session.get(url, headers=self.headers, timeout=timeout) as response:
             if response.status == 200:
-                return await response.json()
-            raise Exception(f"Failed to fetch {url}: {response.status}")
+                print(f"Fetched {url} successfully.\nNow parsing JSON content.")
+                return await response.json(content_type=None)
+            else:
+                raise Exception(f"Failed to fetch {url}: {response.status}")
 
     async def get_worktree_json(self, session: aiohttp.ClientSession) -> Dict:
         url = f'https://raw.githubusercontent.com/HITSZ-OpenAuto/{self.repo}/refs/heads/worktree/worktree.json'
@@ -71,10 +75,10 @@ class GitHubAPIClient:
             "materials": {
                 "考研近代史考点.pdf": [
                 "考研近代史考点", 
-                "file",  
+                "pdf",  
                 "40.8 MB", 
                 "2023/11/29",
-                "icons/file.png"],
+                "icons/pdf.png"],
             }
         }"""
         # TODO：筛选比较粗糙
@@ -99,7 +103,7 @@ class GitHubAPIClient:
             name, suffix = full_name.rsplit(".", 1)
             icon = match_suffix_icon(suffix)
 
-            current_dict[name] = [name, suffix, size, date, icon]
+            current_dict[original_path] = [name, suffix, size, date, icon]
         return organized_paths
 
     def create_hugo_shortcode(self, worktree_info: List[Dict[str, int | str]]) -> str:
