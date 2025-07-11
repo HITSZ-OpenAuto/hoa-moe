@@ -87,6 +87,8 @@ class GitHubAPIClient:
             ".hoa/",
             "LICENSE",
             "tag.txt",
+            ".tmp",
+            ".json"
         ]
 
         organized_paths = {}
