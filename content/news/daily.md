@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-06-15'
-description: 北京时间 2025-06-14 00 时至今
+date: '2025-07-11'
+description: 北京时间 2025-07-10 04 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周六 (6.14)
+### 周二 (7.8)
 
-- Kowyo 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：Update trigger workflow to use course.yaml (#18)
+- Origami404 在 [机械设计基础](https://github.com/HITSZ-OpenAuto/MECH2010) 中提交了信息：ci: fix permission issue in workflow
+
+- Origami404 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：ci: fix permission issue in workflow
 
 ## 待解决的 Issues
 
@@ -32,18 +34,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [ci: updated worktree.json generation](https://github.com/HITSZ-OpenAuto/MECH2010/pull/9)
-
-- **仓库**: MECH2010
-- **创建于**: 2025-07-08 14:30:44
-- **作者**: Origami404
-
-### [ci: updated worktree.json generation](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/14)
-
-- **仓库**: MATH1015B
-- **创建于**: 2025-07-08 14:30:37
-- **作者**: Origami404
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
