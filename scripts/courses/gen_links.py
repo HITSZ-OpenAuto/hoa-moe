@@ -26,7 +26,7 @@ class GitHubAPIClient:
         self.batch_size = 100  # GitHub API allows up to 100 items per page
 
     async def task(self):
-        """主任务：在线获取工作树信息，生成短代码，持久化"""
+        """Main task: fetch worktree information online, generate shortcodes, and persist them."""
         async with aiohttp.ClientSession() as session:
             worktree = await self.get_worktree_json(session)
             if not worktree:
@@ -37,8 +37,8 @@ class GitHubAPIClient:
         shortcode = self.create_hugo_shortcode(worktree)
 
         file_name = (
-            f"{self.repo}_cards.txt"  # 最终会将文件树短代码存到这个文件，并交给脚本拼接
-        )
+            f"{self.repo}_cards.txt" # File storing the shortcode
+        ) 
         with open(file_name, "w", encoding="utf-8") as f:
             f.write(shortcode)
         print(f"Shortcode saved to {file_name}.")
@@ -63,14 +63,14 @@ class GitHubAPIClient:
 
     @staticmethod
     def organize_paths(worktree_info: Dict[str, Dict[str, int | str]]) -> Dict:
-        """传入工作树信息，返回一个字典，包含文件夹和文件的结构化信息。\n
-        传入工作树信息示例（即 worktree.json，一层深度）：\n
+        """Pass in worktree information, return a Dict containing structured information of folders and files.\n
+        Example of incoming worktree information (i.e., worktree.json, one level deep):\n
         {"materials/考研近代史考点.pdf": {
             "size": 42834145,
             "time": 1701264546,
             "hash": "b31cf9d66b9ec1547b8984df95368ff314612263"
         }}\n
-        返回的字典示例（其深度不确定）：
+        Example of the returned dictionary (uncertain depth):
         {
             "materials": {
                 "materials/考研近代史考点.pdf": [
@@ -81,7 +81,7 @@ class GitHubAPIClient:
                 "icons/pdf.png"],
             }
         }"""
-        # TODO：筛选比较粗糙
+        # TODO: more specific filtering
         exclude_patterns = [
             "README.md",
             ".gitkeep",
@@ -94,8 +94,8 @@ class GitHubAPIClient:
         organized_paths = {}
         for original_path, info in worktree_info.items():
             if any(pattern in original_path for pattern in exclude_patterns):
-                continue  # 跳过不需要的文件或目录
-            # 生成一些构建短代码需要的信息
+                continue  # Skip unnecessary files or directories
+            # Generate information needed to build the shortcode
             size_bytes = info.get("size")
             timestamp = info.get("time")
             if size_bytes is None or timestamp is None:
@@ -109,7 +109,7 @@ class GitHubAPIClient:
 
             for component in path_components[:-1]:
                 current_dict = current_dict.setdefault(component, {})
-            # 对于没有后缀的文件特判，suffix 为空字符串
+            # files without an extension, its suffix will be an empty string
             name, suffix = (
                 full_name.rsplit(".", 1) if "." in full_name else (full_name, "")
             )
@@ -131,24 +131,22 @@ class GitHubAPIClient:
     def generate_shortcodes_recursive(
         self, worktree_info: Dict, current_path: str
     ) -> str:
-        """递归地生成文件夹和文件的 Hugo 短代码"""
+        """Recursively generate Hugo shortcodes for folders and files."""
         result = ""
 
         for name, value in worktree_info.items():
-            if isinstance(value, dict):  # 文件夹
+            if isinstance(value, dict):  # Folder
                 new_path = f"{current_path}/{name}" if current_path else name
                 result += f'{{{{< hoa-filetree/folder name="{name}" date="" state="closed" >}}}}\n'
                 result += self.generate_shortcodes_recursive(
                     value,
-                    new_path,  # 递归
+                    new_path,  # Recurse
                 )
                 result += f"{{{{< /hoa-filetree/folder >}}}}\n"
-            elif isinstance(value, list):  # 文件
+            elif isinstance(value, list):  # File
                 filename, suffix, size, date, icon = value
                 encoded_path = urllib.parse.quote(name, safe="/")
-                prefix = (
-                    f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
-                )
+                prefix = f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
                 full_url = f"{prefix}/{encoded_path}"
                 result += f'{{{{< hoa-filetree/file name="{filename}" type="{suffix}" size="{size}" date="{date}" icon="{icon}" url="{full_url}" >}}}}\n'
 
@@ -171,7 +169,7 @@ def match_suffix_icon(suffix: str) -> str:
 
 
 async def process_multiple_repos(owner: str, repos: List[str], token: str) -> None:
-    """处理多个课程仓库，主任务合集"""
+    """Process multiple course repositories, a collection of main tasks."""
     clients = [GitHubAPIClient(owner, repo, token) for repo in repos]
 
     await asyncio.gather(*(client.task() for client in clients))
