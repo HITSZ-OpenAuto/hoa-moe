@@ -135,8 +135,8 @@ class GitHubAPIClient:
         result = ""
 
         for name, value in worktree_info.items():
-            new_path = f"{current_path}/{name}" if current_path else name
             if isinstance(value, dict):  # 文件夹
+                new_path = f"{current_path}/{name}" if current_path else name
                 result += f'{{{{< hoa-filetree/folder name="{name}" date="" state="closed" >}}}}\n'
                 result += self.generate_shortcodes_recursive(
                     value,
@@ -145,10 +145,8 @@ class GitHubAPIClient:
                 result += f"{{{{< /hoa-filetree/folder >}}}}\n"
             elif isinstance(value, list):  # 文件
                 filename, suffix, size, date, icon = value
-                encoded_path = urllib.parse.quote(new_path, safe="/")
-                prefix = (
-                    f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
-                )
+                encoded_path = urllib.parse.quote(name, safe="/")
+                prefix = f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
                 full_url = f"{prefix}/{encoded_path}"
                 result += f'{{{{< hoa-filetree/file name="{filename}" type="{suffix}" size="{size}" date="{date}" icon="{icon}" url="{full_url}" >}}}}\n'
 
