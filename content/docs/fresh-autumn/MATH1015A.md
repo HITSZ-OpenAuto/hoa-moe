@@ -1,6 +1,6 @@
 ---
 title: （必修）微积分 A
-weight: 61
+weight: 65
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
@@ -134,13 +134,6 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
-  {{< hoa-filetree/folder name="2017 年试题" date="" state="closed" >}}
-    {{< hoa-filetree/file name="高数 -2017 秋 - 期中 - 深圳 - 答案" type="pdf" size="106.6 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="高数 -2017 秋 - 期中 - 深圳 - 试卷" type="doc" size="306.7 KB" date="2024/03/02" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.doc" >}}
-    {{< hoa-filetree/file name="高数 -2017 秋 - 期中 - 深圳 - 试卷" type="pdf" size="166.2 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.pdf" >}}
-    {{< hoa-filetree/file name="高数 -2017 秋 - 期末 - 深圳 - 答案" type="pdf" size="292.2 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E6%9C%AB-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
-    {{< hoa-filetree/file name="高数 -2017 秋 - 期末 - 深圳 - 试卷" type="pdf" size="157.9 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2017%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2017%E7%A7%8B-%E6%9C%9F%E6%9C%AB-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.pdf" >}}
-  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="2018 年试题" date="" state="closed" >}}
     {{< hoa-filetree/file name="高数 -2018 秋 - 期中 - 深圳 - 答案" type="pdf" size="115.8 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2018%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2018%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E7%AD%94%E6%A1%88.pdf" >}}
     {{< hoa-filetree/file name="高数 -2018 秋 - 期中 - 深圳 - 试卷" type="pdf" size="169.1 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/exams/2018%E5%B9%B4%E8%AF%95%E9%A2%98/%E9%AB%98%E6%95%B0-2018%E7%A7%8B-%E6%9C%9F%E4%B8%AD-%E6%B7%B1%E5%9C%B3-%E8%AF%95%E5%8D%B7.pdf" >}}
@@ -210,18 +203,6 @@ math: true
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-  {{< hoa-filetree/folder name="2018_C6H5NO2" date="" state="closed" >}}
-    {{< hoa-filetree/file name="趣题集_01_函数与极限" type="pdf" size="51.4 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2018_C6H5NO2/%E8%B6%A3%E9%A2%98%E9%9B%86_01_%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90.pdf" >}}
-    {{< hoa-filetree/file name="趣题集_03_微分中值定理" type="pdf" size="179.1 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2018_C6H5NO2/%E8%B6%A3%E9%A2%98%E9%9B%86_03_%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86.pdf" >}}
-    {{< hoa-filetree/file name="趣题集_04_不定积分" type="pdf" size="49.1 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2018_C6H5NO2/%E8%B6%A3%E9%A2%98%E9%9B%86_04_%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86.pdf" >}}
-    {{< hoa-filetree/file name="趣题集_05_定积分" type="pdf" size="186.2 KB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2018_C6H5NO2/%E8%B6%A3%E9%A2%98%E9%9B%86_05_%E5%AE%9A%E7%A7%AF%E5%88%86.pdf" >}}
-  {{< /hoa-filetree/folder >}}
-  {{< hoa-filetree/folder name="2019_xyfJASON" date="" state="closed" >}}
-    {{< hoa-filetree/file name="一元函数极限求解方法与技巧" type="pdf" size="5.4 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2019_xyfJASON/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E6%B1%82%E8%A7%A3%E6%96%B9%E6%B3%95%E4%B8%8E%E6%8A%80%E5%B7%A7.pdf" >}}
-    {{< hoa-filetree/file name="不定积分求解思维总结" type="pdf" size="1.3 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2019_xyfJASON/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E8%A7%A3%E6%80%9D%E7%BB%B4%E6%80%BB%E7%BB%93.pdf" >}}
-    {{< hoa-filetree/file name="中值证明题总结" type="pdf" size="3.5 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2019_xyfJASON/%E4%B8%AD%E5%80%BC%E8%AF%81%E6%98%8E%E9%A2%98%E6%80%BB%E7%BB%93.pdf" >}}
-    {{< hoa-filetree/file name="高等数学（上册）常用公式" type="pdf" size="1.0 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2019_xyfJASON/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8A%E5%86%8C%EF%BC%89%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F.pdf" >}}
-  {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="2021_本部网盘计划" date="" state="closed" >}}
     {{< hoa-filetree/file name="[HIT 笔记]微积分笔记--任姿颖" type="pdf" size="33.3 MB" date="2025/01/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0--%E4%BB%BB%E5%A7%BF%E9%A2%96.pdf" >}}
     {{< hoa-filetree/file name="[HIT 笔记]微积分笔记--王怡玮" type="pdf" size="32.7 MB" date="2025/01/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%5BHIT%E7%AC%94%E8%AE%B0%5D%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0--%E7%8E%8B%E6%80%A1%E7%8E%AE.pdf" >}}
@@ -231,9 +212,9 @@ math: true
     {{< hoa-filetree/file name="工数下知识点精要（内容）排版" type="pdf" size="559.0 KB" date="2025/01/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%E5%B7%A5%E6%95%B0%E4%B8%8B%E7%9F%A5%E8%AF%86%E7%82%B9%E7%B2%BE%E8%A6%81%EF%BC%88%E5%86%85%E5%AE%B9%EF%BC%89%20%E6%8E%92%E7%89%88.pdf" >}}
     {{< hoa-filetree/file name="知识点_高等数学 (crop)" type="pdf" size="6.4 MB" date="2025/01/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%E7%9F%A5%E8%AF%86%E7%82%B9_%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%28crop%29.pdf" >}}
   {{< hoa-filetree/folder name="高数公式总结" date="" state="closed" >}}
-    {{< hoa-filetree/file name="高数公式总结 1" type="pdf" size="8.5 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%931.pdf" >}}
-    {{< hoa-filetree/file name="高数公式总结 2" type="pdf" size="21.9 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%932.pdf" >}}
-    {{< hoa-filetree/file name="高数公式总结 3" type="pdf" size="20.5 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%933.pdf" >}}
+    {{< hoa-filetree/file name="高数公式总结 1" type="pdf" size="8.5 MB" date="2025/01/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%931.pdf" >}}
+    {{< hoa-filetree/file name="高数公式总结 2" type="pdf" size="21.9 MB" date="2025/01/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%932.pdf" >}}
+    {{< hoa-filetree/file name="高数公式总结 3" type="pdf" size="20.5 MB" date="2025/01/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2021_%E6%9C%AC%E9%83%A8%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/%E9%AB%98%E6%95%B0%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%933.pdf" >}}
   {{< /hoa-filetree/folder >}}
   {{< /hoa-filetree/folder >}}
   {{< hoa-filetree/folder name="2023_psp" date="" state="closed" >}}
@@ -281,8 +262,9 @@ math: true
 
 HOA Core 成员有意重构 hoa 的网站，以接入更多的专业，实现更好的体验。如果你对资料分享或者网站搭建感兴趣，即使来自其他专业，非常欢迎你[联系](mailto:hi@hoa.moe)/加入我们 Core 团队。这里有我们[初步的重构计划](https://historical-mousepad-286.notion.site/HOA-1f71751ad5fe80978c70d9e32330d7e6)。
 
-同时，HOA Core 初代成员已经毕业，如果你关心 HOA 的未来，请阅读我们的博客了解更多：[《关于 HOA 的未来》](https://hoa.moe/blog/future-of-hoa)。
+同时，HOA Core 初代成员已经毕业，如果你想加入 HOA Core，请阅读我们的博客了解更多：[《HOA 的未来，需要你一起来书写》](https://hoa.moe/news/future-of-hoa)。
 
 {{< callout type="" >}}
   © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
+

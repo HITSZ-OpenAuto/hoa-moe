@@ -1,12 +1,12 @@
 ---
 title: （必修）大学英语
-weight: 57
+weight: 61
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 2 月 25 日" author="cecilia" message="增加毛成婷教师的信息及评价 (#6)" >}}
+{{< update-info update_time="2025 年 7 月 2 日" author="cecilia" message="Merge pull request #8 from mircecilia/patch-1" >}}
 
 
 <!--
@@ -86,7 +86,13 @@ math: true
   - 课后作业还好，每周完成口语或听力或阅读或可能的写作四种任务中的一个，不刷分的话半小时左右就可以完成，平时分中的作业部分严格按平台成绩打分
   - 不强制要求买书，课堂提供的课件足以进行学习，但要求自带纸质本子用来完成听力任务
   - 有小组作业，内容为自选方向进行一次英语演讲，要求四人一小组制作 ppt，并轮流或指派人进行课堂演讲，有两节课进行专门评分
-> 文 / [Cecilia](https://github.com/mircecilia), 2025.2
+
+- 肖雯琪
+  - 上课随便坐，有点名但是内容都较为简单，签到次数非常少，没来不扣分但是来了会有额外加分（不少）
+  - 课后作业非常少，且会开通补交通道
+  - 老师人非常好，会带着大家织香囊~~端午节特色~~
+
+> 文 / [Cecilia](https://github.com/mircecilia), 2025.6
 
 ## 关于考试
 
@@ -125,8 +131,9 @@ math: true
 
 HOA Core 成员有意重构 hoa 的网站，以接入更多的专业，实现更好的体验。如果你对资料分享或者网站搭建感兴趣，即使来自其他专业，非常欢迎你[联系](mailto:hi@hoa.moe)/加入我们 Core 团队。这里有我们[初步的重构计划](https://historical-mousepad-286.notion.site/HOA-1f71751ad5fe80978c70d9e32330d7e6)。
 
-同时，HOA Core 初代成员已经毕业，如果你关心 HOA 的未来，请阅读我们的博客了解更多：[《关于 HOA 的未来》](https://hoa.moe/blog/future-of-hoa)。
+同时，HOA Core 初代成员已经毕业，如果你想加入 HOA Core，请阅读我们的博客了解更多：[《HOA 的未来，需要你一起来书写》](https://hoa.moe/news/future-of-hoa)。
 
 {{< callout type="" >}}
   © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
+
