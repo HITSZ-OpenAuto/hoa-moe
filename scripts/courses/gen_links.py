@@ -11,7 +11,13 @@ from typing import List, Dict, Optional
 import time
 from aiohttp import ClientTimeout
 
-EXCLUDE_REPO = [".github", "hoa-moe", "HITSZ-OpenAuto", "repos-management", "hoa-previewer"]
+EXCLUDE_REPO = [
+    ".github",
+    "hoa-moe",
+    "HITSZ-OpenAuto",
+    "repos-management",
+    "hoa-previewer",
+]
 
 
 class GitHubAPIClient:
