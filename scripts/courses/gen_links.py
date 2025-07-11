@@ -33,11 +33,12 @@ class GitHubAPIClient:
                 print(f"Worktree for {self.repo} is empty or could not be fetched.")
                 return
             print(f"Worktree for {self.repo} generated successfully.")
-            
 
         shortcode = self.create_hugo_shortcode(worktree)
 
-        file_name = f"{self.repo}_cards.txt"  # 最终会将文件树短代码存到这个文件，并交给脚本拼接
+        file_name = (
+            f"{self.repo}_cards.txt"  # 最终会将文件树短代码存到这个文件，并交给脚本拼接
+        )
         with open(file_name, "w", encoding="utf-8") as f:
             f.write(shortcode)
         print(f"Shortcode saved to {file_name}.")
@@ -53,7 +54,7 @@ class GitHubAPIClient:
                 raise Exception(f"Failed to fetch {url}: {response.status}")
 
     async def get_worktree_json(self, session: aiohttp.ClientSession) -> Dict:
-        url = f'https://raw.githubusercontent.com/HITSZ-OpenAuto/{self.repo}/refs/heads/worktree/worktree.json'
+        url = f"https://raw.githubusercontent.com/HITSZ-OpenAuto/{self.repo}/refs/heads/worktree/worktree.json"
         try:
             return await self.fetch_content(session, url)
         except Exception as e:
@@ -73,21 +74,26 @@ class GitHubAPIClient:
         {
             "materials": {
                 "materials/考研近代史考点.pdf": [
-                "考研近代史考点", 
-                "pdf",  
-                "40.8 MB", 
+                "考研近代史考点",
+                "pdf",
+                "40.8 MB",
                 "2023/11/29",
                 "icons/pdf.png"],
             }
         }"""
         # TODO：筛选比较粗糙
-        exclude_patterns = ['README.md', '.gitkeep',
-                            '.github/', '.hoa/', 'LICENSE', 'tag.txt']
+        exclude_patterns = [
+            "README.md",
+            ".gitkeep",
+            ".github/",
+            ".hoa/",
+            "LICENSE",
+            "tag.txt",
+        ]
 
         organized_paths = {}
         for original_path, info in worktree_info.items():
-            if any(pattern in original_path
-                   for pattern in exclude_patterns):
+            if any(pattern in original_path for pattern in exclude_patterns):
                 continue  # 跳过不需要的文件或目录
             # 生成一些构建短代码需要的信息
             size_bytes = info.get("size")
@@ -104,7 +110,9 @@ class GitHubAPIClient:
             for component in path_components[:-1]:
                 current_dict = current_dict.setdefault(component, {})
             # 对于没有后缀的文件特判，suffix 为空字符串
-            name, suffix = full_name.rsplit(".", 1) if "." in full_name else (full_name, "")
+            name, suffix = (
+                full_name.rsplit(".", 1) if "." in full_name else (full_name, "")
+            )
             icon = match_suffix_icon(suffix)
 
             current_dict[original_path] = [name, suffix, size, date, icon]
@@ -120,7 +128,9 @@ class GitHubAPIClient:
         result += "{{< /hoa-filetree/container >}}\n"
         return result
 
-    def generate_shortcodes_recursive(self, worktree_info: Dict, current_path: str) -> str:
+    def generate_shortcodes_recursive(
+        self, worktree_info: Dict, current_path: str
+    ) -> str:
         """递归地生成文件夹和文件的 Hugo 短代码"""
         result = ""
 
@@ -129,13 +139,16 @@ class GitHubAPIClient:
             if isinstance(value, dict):  # 文件夹
                 result += f'{{{{< hoa-filetree/folder name="{name}" date="" state="closed" >}}}}\n'
                 result += self.generate_shortcodes_recursive(
-                    value, new_path  # 递归
+                    value,
+                    new_path,  # 递归
                 )
-                result += f'{{{{< /hoa-filetree/folder >}}}}\n'
+                result += f"{{{{< /hoa-filetree/folder >}}}}\n"
             elif isinstance(value, list):  # 文件
                 filename, suffix, size, date, icon = value
                 encoded_path = urllib.parse.quote(new_path, safe="/")
-                prefix = f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
+                prefix = (
+                    f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
+                )
                 full_url = f"{prefix}/{encoded_path}"
                 result += f'{{{{< hoa-filetree/file name="{filename}" type="{suffix}" size="{size}" date="{date}" icon="{icon}" url="{full_url}" >}}}}\n'
 
