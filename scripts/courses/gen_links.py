@@ -23,17 +23,17 @@ class GitHubAPIClient:
             "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github.v3+json",
         }
-        self.commit_cache = {}
         self.batch_size = 100  # GitHub API allows up to 100 items per page
 
     async def task(self):
         """主任务：在线获取工作树信息，生成短代码，持久化"""
         async with aiohttp.ClientSession() as session:
             worktree = await self.get_worktree_json(session)
-            print(f"Worktree for {self.repo} generated successfully.")
             if not worktree:
                 print(f"Worktree for {self.repo} is empty or could not be fetched.")
                 return
+            print(f"Worktree for {self.repo} generated successfully.")
+            
 
         shortcode = self.create_hugo_shortcode(worktree)
 
@@ -54,12 +54,11 @@ class GitHubAPIClient:
 
     async def get_worktree_json(self, session: aiohttp.ClientSession) -> Dict:
         url = f'https://raw.githubusercontent.com/HITSZ-OpenAuto/{self.repo}/refs/heads/worktree/worktree.json'
-        async with aiohttp.ClientSession() as session:
-            try:
-                return await self.fetch_content(session, url)
-            except Exception as e:
-                print(f"Error fetching worktree.json: {e}")
-                return {}
+        try:
+            return await self.fetch_content(session, url)
+        except Exception as e:
+            print(f"Error fetching worktree.json: {e}")
+            return {}
 
     @staticmethod
     def organize_paths(worktree_info: Dict[str, Dict[str, int | str]]) -> Dict:
@@ -73,7 +72,7 @@ class GitHubAPIClient:
         返回的字典示例（其深度不确定）：
         {
             "materials": {
-                "考研近代史考点.pdf": [
+                "materials/考研近代史考点.pdf": [
                 "考研近代史考点", 
                 "pdf",  
                 "40.8 MB", 
@@ -91,16 +90,21 @@ class GitHubAPIClient:
                    for pattern in exclude_patterns):
                 continue  # 跳过不需要的文件或目录
             # 生成一些构建短代码需要的信息
-            size = filesize.traditional(info["size"])
-            date = datetime.fromtimestamp(info["time"]).strftime("%Y/%m/%d")
+            size_bytes = info.get("size")
+            timestamp = info.get("time")
+            if size_bytes is None or timestamp is None:
+                print(f"Skipping {original_path} due to missing size or time.")
+                continue
+            size = filesize.traditional(size_bytes)
+            date = datetime.fromtimestamp(timestamp).strftime("%Y/%m/%d")
             path_components = original_path.split("/")
             full_name = path_components[-1]
             current_dict = organized_paths
 
             for component in path_components[:-1]:
                 current_dict = current_dict.setdefault(component, {})
-
-            name, suffix = full_name.rsplit(".", 1)
+            # 对于没有后缀的文件特判，suffix 为空字符串
+            name, suffix = full_name.rsplit(".", 1) if "." in full_name else (full_name, "")
             icon = match_suffix_icon(suffix)
 
             current_dict[original_path] = [name, suffix, size, date, icon]
@@ -167,7 +171,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "owner", help="GitHub repository owner", default="HITSZ-OpenAuto"
     )
-    # parser.add_argument("repo", help="GitHub repository name")
     parser.add_argument("token", help="GitHub token")
 
     args = parser.parse_args()
@@ -175,13 +178,11 @@ if __name__ == "__main__":
     # Get repos array from environment variable
     repos_json = os.environ.get("repos_array")
     repos = None
-
     if not repos_json:
         repos_json = os.environ.get("repo_name")
         repos = ["".join(str(c) for c in repos_json)]
     else:
         repos = json.loads(repos_json)
-
     if not repos_json:
         raise ValueError("Environment variable repo not found")
 
