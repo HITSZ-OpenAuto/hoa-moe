@@ -146,7 +146,9 @@ class GitHubAPIClient:
             elif isinstance(value, list):  # 文件
                 filename, suffix, size, date, icon = value
                 encoded_path = urllib.parse.quote(name, safe="/")
-                prefix = f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
+                prefix = (
+                    f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
+                )
                 full_url = f"{prefix}/{encoded_path}"
                 result += f'{{{{< hoa-filetree/file name="{filename}" type="{suffix}" size="{size}" date="{date}" icon="{icon}" url="{full_url}" >}}}}\n'
 
