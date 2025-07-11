@@ -11,6 +11,8 @@ from typing import List, Dict, Optional
 import time
 from aiohttp import ClientTimeout
 
+EXCLUDE_REPO = [".github", "hoa-moe", "HITSZ-OpenAuto", "repos-management", "hoa-previewer"]
+
 
 class GitHubAPIClient:
     """Client for only one GitHub repository."""
@@ -198,6 +200,9 @@ if __name__ == "__main__":
         repos = json.loads(repos_json)
     if not repos_json:
         raise ValueError("Environment variable repo not found")
+
+    # Exclude specific repositories
+    repos = [repo for repo in repos if repo not in EXCLUDE_REPO]
 
     # Run the async process for all repos
     start_time = time.perf_counter()
