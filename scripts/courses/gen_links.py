@@ -88,7 +88,7 @@ class GitHubAPIClient:
             "LICENSE",
             "tag.txt",
             ".tmp",
-            ".json"
+            ".json",
         ]
 
         organized_paths = {}
