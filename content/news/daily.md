@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-07-11'
-description: 北京时间 2025-07-10 04 时至今
+description: 北京时间 2025-07-10 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周五 (7.11)
+
+- IcyDesert 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：更名 2025 夏实验 4 实验代码.c，加后缀
 
 ### 周二 (7.8)
 
