@@ -107,7 +107,7 @@ class GitHubAPIClient:
             path_components = original_path.split("/")
             full_name = path_components[-1]
             if not "." in full_name:
-                continue # Skip files without an extension
+                continue  # Skip files without an extension
             current_dict = organized_paths
 
             for component in path_components[:-1]:

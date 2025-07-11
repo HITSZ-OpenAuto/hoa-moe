@@ -157,7 +157,6 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 {{< hoa-filetree/folder name="fish_game.tlog" date="" state="closed" >}}
 {{< hoa-filetree/file name="CL.command.1" type="tlog" size="2 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/Release/fish_game.tlog/CL.command.1.tlog" >}}
 {{< hoa-filetree/file name="fish_game" type="lastbuildstate" size="156 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/Release/fish_game.tlog/fish_game.lastbuildstate" >}}
-{{< hoa-filetree/file name="unsuccessfulbuild" type="" size="0 bytes" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/Release/fish_game.tlog/unsuccessfulbuild" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/file name="vc142" type="pdb" size="78.0 KB" date="2023/11/29" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/fish_game/Release/vc142.pdb" >}}
 {{< /hoa-filetree/folder >}}
