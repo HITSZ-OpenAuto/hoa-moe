@@ -79,7 +79,8 @@ class GitHubAPIClient:
                 "icons/pdf.png"],
             }
         }"""
-        # TODO: more specific filtering
+
+        # Exclude rules: files contaning these patterns; files without an extension
         exclude_patterns = [
             "README.md",
             ".gitkeep",
@@ -92,6 +93,7 @@ class GitHubAPIClient:
 
         organized_paths = {}
         for original_path, info in worktree_info.items():
+            # TODO: more specific filtering
             if any(pattern in original_path for pattern in exclude_patterns):
                 continue  # Skip unnecessary files or directories
             # Generate information needed to build the shortcode
@@ -104,14 +106,13 @@ class GitHubAPIClient:
             date = datetime.fromtimestamp(timestamp).strftime("%Y/%m/%d")
             path_components = original_path.split("/")
             full_name = path_components[-1]
+            if not "." in full_name:
+                continue # Skip files without an extension
             current_dict = organized_paths
 
             for component in path_components[:-1]:
                 current_dict = current_dict.setdefault(component, {})
-            # files without an extension, its suffix will be an empty string
-            name, suffix = (
-                full_name.rsplit(".", 1) if "." in full_name else (full_name, "")
-            )
+            name, suffix = full_name.rsplit(".", 1)
             icon = match_suffix_icon(suffix)
 
             current_dict[original_path] = [name, suffix, size, date, icon]
