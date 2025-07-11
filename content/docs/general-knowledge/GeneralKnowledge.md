@@ -1,6 +1,6 @@
 ---
 title: 文理通识课程体系
-weight: 855
+weight: 859
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md"
 math: true
@@ -88,17 +88,15 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/GeneralKnowledge" repoURL="https://github.com/HITSZ-OpenAuto/GeneralKnowledge" >}}
-  {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-    {{< hoa-filetree/file name="深圳校区首批文理通识核心课建设立项名单" type="xlsx" size="13.6 KB" date="2025/01/07" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/notes/%E6%B7%B1%E5%9C%B3%E6%A0%A1%E5%8C%BA%E9%A6%96%E6%89%B9%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86%E6%A0%B8%E5%BF%83%E8%AF%BE%E5%BB%BA%E8%AE%BE%E7%AB%8B%E9%A1%B9%E5%90%8D%E5%8D%95.xlsx" >}}
-  {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
 
 HOA Core 成员有意重构 hoa 的网站，以接入更多的专业，实现更好的体验。如果你对资料分享或者网站搭建感兴趣，即使来自其他专业，非常欢迎你[联系](mailto:hi@hoa.moe)/加入我们 Core 团队。这里有我们[初步的重构计划](https://historical-mousepad-286.notion.site/HOA-1f71751ad5fe80978c70d9e32330d7e6)。
 
-同时，HOA Core 初代成员已经毕业，如果你关心 HOA 的未来，请阅读我们的博客了解更多：[《关于 HOA 的未来》](https://hoa.moe/blog/future-of-hoa)。
+同时，HOA Core 初代成员已经毕业，如果你想加入 HOA Core，请阅读我们的博客了解更多：[《HOA 的未来，需要你一起来书写》](https://hoa.moe/news/future-of-hoa)。
 
 {{< callout type="" >}}
   © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
+
