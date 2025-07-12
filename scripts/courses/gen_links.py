@@ -97,6 +97,8 @@ class GitHubAPIClient:
             "LICENSE",
             "tag.txt",
             ".tmp",
+            ".gitignore",
+            ".gitattributes",
         ]
 
         organized_paths = {}

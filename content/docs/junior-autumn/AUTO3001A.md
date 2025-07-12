@@ -169,7 +169,6 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3001A" repoURL="https://github.com/HITSZ-OpenAuto/AUTO3001A" >}}
-{{< hoa-filetree/file name="" type="gitattributes" size="49 bytes" date="2024/03/02" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/.gitattributes" >}}
 {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
 {{< hoa-filetree/folder name="2019" date="" state="closed" >}}
 {{< hoa-filetree/file name="自控理论 A—作业 10 及答案" type="pdf" size="2.3 MB" date="2025/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2019/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E2%80%94%E4%BD%9C%E4%B8%9A10%E5%8F%8A%E7%AD%94%E6%A1%88.pdf" >}}
