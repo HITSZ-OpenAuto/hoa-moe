@@ -66,7 +66,6 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3002B" repoURL="https://github.com/HITSZ-OpenAuto/AUTO3002B" >}}
-{{< hoa-filetree/file name="" type="gitignore" size="15 bytes" date="2024/05/09" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/.gitignore" >}}
 {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
 {{< hoa-filetree/folder name="LL" date="" state="closed" >}}
 {{< hoa-filetree/file name="HW1" type="pdf" size="63.1 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/assignments/LL/HW1.pdf" >}}
