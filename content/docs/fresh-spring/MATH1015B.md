@@ -145,7 +145,6 @@ math: true
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="materials" date="" state="closed" >}}
-{{< hoa-filetree/file name="" type="gitattributes" size="165 bytes" date="2023/12/01" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/materials/.gitattributes" >}}
 {{< hoa-filetree/file name="同济高等数学第七版上册习题全解指南" type="pdf" size="41.0 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/materials/%E5%90%8C%E6%B5%8E%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88%E4%B8%8A%E5%86%8C%E4%B9%A0%E9%A2%98%E5%85%A8%E8%A7%A3%E6%8C%87%E5%8D%97.pdf" >}}
 {{< hoa-filetree/file name="同济高等数学第七版下册习题全解指南" type="pdf" size="45.0 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/materials/%E5%90%8C%E6%B5%8E%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88%E4%B8%8B%E5%86%8C%E4%B9%A0%E9%A2%98%E5%85%A8%E8%A7%A3%E6%8C%87%E5%8D%97.pdf" >}}
 {{< hoa-filetree/file name="工数习题解答 - 哈工大 - 下" type="pdf" size="37.6 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/materials/%E5%B7%A5%E6%95%B0%E4%B9%A0%E9%A2%98%E8%A7%A3%E7%AD%94-%E5%93%88%E5%B7%A5%E5%A4%A7-%E4%B8%8B.pdf" >}}
