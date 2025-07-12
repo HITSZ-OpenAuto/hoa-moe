@@ -7,17 +7,22 @@ import json
 import re
 from datetime import datetime
 from fs import filesize
-from functools import lru_cache
 from typing import List, Dict, Optional
 import time
 from aiohttp import ClientTimeout
-from tenacity import retry, stop_after_attempt, wait_exponential
-from scripts.filetrees import FileTreeManager, CourseData, create_course_data
 
-file_tree_manager = FileTreeManager()
+EXCLUDE_REPO = [
+    ".github",
+    "hoa-moe",
+    "HITSZ-OpenAuto",
+    "repos-management",
+    "hoa-previewer",
+]
 
 
 class GitHubAPIClient:
+    """Client for only one GitHub repository."""
+
     def __init__(self, owner: str, repo: str, token: str):
         self.owner = owner
         self.repo = repo
@@ -26,362 +31,136 @@ class GitHubAPIClient:
             "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github.v3+json",
         }
-        self.commit_cache = {}
         self.batch_size = 100  # GitHub API allows up to 100 items per page
-        self.has_commit_error = False
+
+    async def task(self):
+        """Main task: fetch worktree information online, generate shortcodes, and persist them."""
+        async with aiohttp.ClientSession() as session:
+            worktree = await self.get_worktree_json(session)
+            if not worktree:
+                print(f"Worktree for {self.repo} is empty or could not be fetched.")
+                return
+            print(f"Worktree for {self.repo} generated successfully.")
+
+        shortcode = self.create_hugo_shortcode(worktree)
+
+        file_name = f"{self.repo}_cards.txt"  # File storing the shortcode
+        with open(file_name, "w", encoding="utf-8") as f:
+            f.write(shortcode)
+        print(f"Shortcode saved to {file_name}.")
+        print("-" * 50)
 
     async def fetch_content(self, session: aiohttp.ClientSession, url: str) -> Dict:
         timeout = ClientTimeout(total=30)
         async with session.get(url, headers=self.headers, timeout=timeout) as response:
             if response.status == 200:
-                return await response.json()
-            raise Exception(f"Failed to fetch {url}: {response.status}")
-
-    async def get_repo_commit_sha(self) -> Optional[str]:
-        try:
-            commits_url = (
-                f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
-            )
-
-            # connector = aiohttp.TCPConnector(ssl=False)
-            async with aiohttp.ClientSession() as session:
-                async with session.get(
-                    commits_url, headers=self.headers, timeout=ClientTimeout(total=30)
-                ) as response:
-                    if response.status == 200:
-                        commits_data = await response.json()
-                        if commits_data and len(commits_data) > 0:
-                            commit_sha = commits_data[0]["sha"]
-                            return commit_sha
-                        else:
-                            self.has_commit_error = True
-                            return None
-        except Exception as e:
-            self.has_commit_error = True
-            print(f"{self.repo} REST API query commit sha failed: {e}")
-            return None
-
-    async def get_file_date_rest_api(
-        self, session: aiohttp.ClientSession, path: str
-    ) -> str:
-        """使用 REST API 获取单个文件的最后提交日期"""
-        try:
-            commits_url = (
-                f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
-            )
-            params = {"path": path, "per_page": 1}
-
-            # connector = aiohttp.TCPConnector(ssl=False)
-            async with aiohttp.ClientSession() as session:
-                async with session.get(
-                    commits_url,
-                    headers=self.headers,
-                    params=params,
-                    timeout=ClientTimeout(total=30),
-                ) as response:
-                    if response.status == 200:
-                        commits_data = await response.json()
-                        if commits_data and len(commits_data) > 0:
-                            commit_date = commits_data[0]["commit"]["committer"]["date"]
-                            dt = datetime.fromisoformat(
-                                commit_date.replace("Z", "+00:00")
-                            )
-                            return dt.strftime("%Y/%m/%d")
-                    self.has_commit_error = True
-                    return "Unknown"
-        except Exception as e:
-            self.has_commit_error = True
-            print(f"{self.repo} REST API fallback failed for {path}: {e}")
-            return "Unknown"
-
-    async def get_commits_batch(
-        self, session: aiohttp.ClientSession, paths: List[str]
-    ) -> Dict[str, str]:
-        """批量获取多个文件的提交信息"""
-        results = {}
-
-        # 构建批量查询
-        queries = []
-        for i, path in enumerate(paths):
-            queries.append(f"""
-            file_{i}: repository(owner: "{self.owner}", name: "{self.repo}") {{
-                object(expression: "HEAD") {{
-                    ... on Commit {{
-                        blame(path: "{path}") {{
-                            ranges {{
-                                commit {{
-                                    committedDate
-                                }}
-                            }}
-                        }}
-                    }}
-                }}
-            }}
-            """)
-
-        # 合并所有查询
-        query = "query {\n" + "\n".join(queries) + "\n}"
-
-        url = "https://api.github.com/graphql"
-        try:
-            async with session.post(
-                url, headers=self.headers, json={"query": query}
-            ) as response:
-                if response.status == 200:
-                    data = await response.json()
-
-                    # 处理返回的数据
-                    for i, path in enumerate(paths):
-                        try:
-                            file_data = data.get("data", {}).get(f"file_{i}", {})
-                            blame_data = (
-                                file_data.get("object", {})
-                                .get("blame", {})
-                                .get("ranges", [{}])[0]
-                                .get("commit", {})
-                                .get("committedDate")
-                            )
-
-                            if blame_data:
-                                dt = datetime.fromisoformat(
-                                    blame_data.replace("Z", "+00:00")
-                                )
-                                results[path] = dt.strftime("%Y/%m/%d")
-                            else:
-                                # GraphQL 查询失败，尝试 REST API
-                                print(
-                                    f"GraphQL query returned no data for {path}, trying REST API..."
-                                )
-                                results[path] = await self.get_file_date_rest_api(
-                                    session, path
-                                )
-                        except (KeyError, IndexError) as e:
-                            print(
-                                f"Error processing path {path} with GraphQL, trying REST API: {e}"
-                            )
-                            results[path] = await self.get_file_date_rest_api(
-                                session, path
-                            )
-                else:
-                    print(
-                        f"GraphQL query failed with status: {response.status}, falling back to REST API"
-                    )
-                    # GraphQL 整体失败，对所有文件使用 REST API
-                    for path in paths:
-                        results[path] = await self.get_file_date_rest_api(session, path)
-        except Exception as e:
-            print(f"Failed to execute GraphQL query: {e}, falling back to REST API")
-            # 发生异常，对所有文件使用 REST API
-            for path in paths:
-                results[path] = await self.get_file_date_rest_api(session, path)
-
-        return results
-
-    @retry(
-        stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10)
-    )
-    async def list_files_in_repo(
-        self, session: aiohttp.ClientSession, path=""
-    ) -> List[Dict]:
-        # # Create a TCPConnector with verify_ssl=False
-        # connector = aiohttp.TCPConnector(ssl=False)
-        #
-        # # Create a new session with the connector if one isn't provided
-        # # if not session:
-        # session = aiohttp.ClientSession(connector=connector)
-
-        paths = []
-        url = f"https://api.github.com/repos/{self.owner}/{self.repo}/contents/{path}"
-
-        try:
-            contents = await self.fetch_content(session, url)
-            directories = []
-            files_to_process = []
-
-            for content in contents:
-                if content["type"] == "file":
-                    if any(
-                        content["path"].endswith(ext)
-                        for ext in (
-                            ".pdf",
-                            ".zip",
-                            ".rar",
-                            ".7z",
-                            ".docx",
-                            ".doc",
-                            ".ipynb",
-                            ".pptx",
-                            ".apkg",
-                            ".mp4",
-                            ".csv",
-                            ".xlsx",
-                            "txt",
-                            "png",
-                            "jpg",
-                            "jpeg",
-                            "gif",
-                            "webp",
-                            ".md",
-                        )
-                    ) and not (
-                        content["path"].endswith("README.md")
-                        or content["path"].endswith("tag.txt")
-                        or content["path"].endswith("LICENSE")
-                    ):
-                        files_to_process.append(
-                            {
-                                "path": content["path"],
-                                "size": filesize.traditional(int(content["size"])),
-                            }
-                        )
-                elif content["type"] == "dir" and not (
-                    content["path"].endswith(".github")
-                ):
-                    directories.append(content["path"])
-
-            # 批量获取文件的最后修改日期
-            if files_to_process:
-                file_dates = await self.get_commits_batch(
-                    session, [f["path"] for f in files_to_process]
-                )
-                for file in files_to_process:
-                    file["date"] = file_dates.get(file["path"], "Unknown")
-                paths.extend(files_to_process)
-
-            # 处理目录
-            if directories:
-                tasks = [
-                    self.list_files_in_repo(session, directory)
-                    for directory in directories
-                ]
-                results = await asyncio.gather(*tasks)
-                for result in results:
-                    paths.extend(result)
-
-        except Exception as e:
-            self.has_commit_error = True
-            print(f"{self.repo} Error processing {url}: {str(e)}")
-
-        return paths
-
-    async def judge_filetree_cache(self):
-        if self.repo in ["hoa-moe", ".github", "HITSZ-OpenAuto"]:
-            return
-        try:
-            commit_sha = await self.get_repo_commit_sha()
-
-            if file_tree_data := file_tree_manager.search(self.repo):
-                if commit_sha == file_tree_data["last_commit_sha"]:
-                    pass
-                else:
-                    result_content = await self.save_files_list()
-                    file_tree_manager.update(
-                        self.repo,
-                        create_course_data(
-                            result_content, commit_sha, self.has_commit_error
-                        ),
-                    )
+                print(f"Fetched {url} successfully.\nNow parsing JSON content.")
+                return await response.json(content_type=None)
             else:
-                result_content = await self.save_files_list()
-                file_tree_manager.add(
-                    self.repo,
-                    create_course_data(
-                        result_content, commit_sha, self.has_commit_error
-                    ),
-                )
+                raise Exception(f"Failed to fetch {url}: {response.status}")
+
+    async def get_worktree_json(self, session: aiohttp.ClientSession) -> Dict:
+        url = f"https://raw.githubusercontent.com/HITSZ-OpenAuto/{self.repo}/refs/heads/worktree/worktree.json"
+        try:
+            return await self.fetch_content(session, url)
         except Exception as e:
-            print(f"File tree cache error: {str(e)}")
+            print(f"Error fetching worktree.json: {e}")
+            return {}
 
-    async def save_files_list(self) -> str:
-        async with aiohttp.ClientSession() as session:
-            start_time = time.time()
-            paths = await self.list_files_in_repo(session)
-            end_time = time.time()
+    @staticmethod
+    def organize_paths(worktree_info: Dict[str, Dict[str, int | str]]) -> Dict:
+        """Pass in worktree information, return a Dict containing structured information of folders and files.\n
+        Example of incoming worktree information (i.e., worktree.json, one level deep):\n
+        {"materials/考研近代史考点.pdf": {
+            "size": 42834145,
+            "time": 1701264546,
+            "hash": "b31cf9d66b9ec1547b8984df95368ff314612263"
+        }}\n
+        Example of the returned dictionary (uncertain depth):
+        {
+            "materials": {
+                "materials/考研近代史考点.pdf": [
+                "考研近代史考点",
+                "pdf",
+                "40.8 MB",
+                "2023/11/29",
+                "icons/pdf.png"],
+            }
+        }"""
 
-            print(
-                f"{self.repo} Retrieved {len(paths)} files in {end_time - start_time:.2f} seconds"
-            )
+        # Exclude rules: files contaning these patterns; files without an extension
+        exclude_patterns = [
+            "README.md",
+            ".gitkeep",
+            ".github/",
+            ".hoa/",
+            "LICENSE",
+            "tag.txt",
+            ".tmp",
+        ]
 
-            result_content = await self.create_hugo_shortcode(paths)
-            return result_content
-            # with open(f'{self.repo}_cards.txt', 'w', encoding="utf-8") as file:
-            #     file.write(result_content)
+        organized_paths = {}
+        for original_path, info in worktree_info.items():
+            # TODO: more specific filtering
+            if any(pattern in original_path for pattern in exclude_patterns):
+                continue  # Skip unnecessary files or directories
+            # Generate information needed to build the shortcode
+            size_bytes = info.get("size")
+            timestamp = info.get("time")
+            if size_bytes is None or timestamp is None:
+                print(f"Skipping {original_path} due to missing size or time.")
+                continue
+            size = filesize.traditional(size_bytes)
+            date = datetime.fromtimestamp(timestamp).strftime("%Y/%m/%d")
+            path_components = original_path.split("/")
+            full_name = path_components[-1]
+            if not "." in full_name:
+                continue  # Skip files without an extension
+            current_dict = organized_paths
 
-    async def create_hugo_shortcode(self, file_paths: List[Dict[str, str]]) -> str:
+            for component in path_components[:-1]:
+                current_dict = current_dict.setdefault(component, {})
+            name, suffix = full_name.rsplit(".", 1)
+            icon = match_suffix_icon(suffix)
+
+            current_dict[original_path] = [name, suffix, size, date, icon]
+        return organized_paths
+
+    def create_hugo_shortcode(self, worktree_info: List[Dict[str, int | str]]) -> str:
         result = f'{{{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/{self.repo}" repoURL="https://github.com/HITSZ-OpenAuto/{self.repo}" >}}}}\n'
-        organized_paths = self.organize_paths(file_paths)
+        organized_paths = self.organize_paths(worktree_info)
 
         if organized_paths:
-            for directory, content in organized_paths.items():
-                if isinstance(content, list) and is_human_readable_size(content[0]):
-                    prefix = f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
-                    full_path = f"{prefix}/{directory}"
-
-                    name, suffix = directory.rsplit(".", 1)
-                    icon = match_suffix_icon(suffix)
-                    result += f'  {{{{< hoa-filetree/file name="{name}" type="{suffix}" size="{content[0]}" date="{content[1]}" icon="{icon}" url="{full_path}" >}}}}\n'
-                else:
-                    folder_content = await self.generate_folder_content(
-                        directory, content
-                    )
-                    result += folder_content
+            result += self.generate_shortcodes_recursive(organized_paths, "")
 
         result += "{{< /hoa-filetree/container >}}\n"
         return result
 
-    @staticmethod
-    def organize_paths(file_paths: List[Dict[str, str]]) -> Dict:
-        organized_paths = {}
-        for path_dict in file_paths:
-            current_dict = organized_paths
-            path = path_dict["path"]
-            for component in path.split("/")[:-1]:
-                current_dict = current_dict.setdefault(component, {})
-            current_dict[path.split("/")[-1]] = [path_dict["size"], path_dict["date"]]
-        return organized_paths
+    def generate_shortcodes_recursive(
+        self, worktree_info: Dict, current_path: str
+    ) -> str:
+        """Recursively generate Hugo shortcodes for folders and files."""
+        result = ""
 
-    async def generate_folder_content(self, directory: str, content: Dict) -> str:
-        result = f'  {{{{< hoa-filetree/folder name="{os.path.basename(directory)}" date="" state="closed" >}}}}\n'
-
-        for name, value in content.items():
-            if isinstance(value, list) and is_human_readable_size(value[0]):
-                file_path = f"{directory}/{name}"
-                encoded_path = urllib.parse.quote(file_path, safe="/")
+        for name, value in worktree_info.items():
+            if isinstance(value, dict):  # Folder
+                new_path = f"{current_path}/{name}" if current_path else name
+                result += f'{{{{< hoa-filetree/folder name="{name}" date="" state="closed" >}}}}\n'
+                result += self.generate_shortcodes_recursive(
+                    value,
+                    new_path,  # Recurse
+                )
+                result += f"{{{{< /hoa-filetree/folder >}}}}\n"
+            elif isinstance(value, list):  # File
+                filename, suffix, size, date, icon = value
+                encoded_path = urllib.parse.quote(name, safe="/")
                 prefix = (
                     f"https://gh.hoa.moe/github.com/{self.owner}/{self.repo}/raw/main"
                 )
-                full_path = f"{prefix}/{encoded_path}"
-                name, suffix = name.rsplit(".", 1)
-                icon = match_suffix_icon(suffix)
-                result += f'    {{{{< hoa-filetree/file name="{name}" type="{suffix}" size="{value[0]}" date="{value[1]}" icon="{icon}" url="{full_path}" >}}}}\n'
-            elif isinstance(value, dict):
-                result += await self.generate_folder_content(
-                    f"{directory}/{name}", value
-                )
-        result += "  {{< /hoa-filetree/folder >}}\n"
+                full_url = f"{prefix}/{encoded_path}"
+                result += f'{{{{< hoa-filetree/file name="{filename}" type="{suffix}" size="{size}" date="{date}" icon="{icon}" url="{full_url}" >}}}}\n'
+
         return result
-
-
-def is_human_readable_size(size_str: str) -> bool:
-    pattern = r"""(?x)
-        ^
-        (\d{1,10}|\d{1,10}\.\d{1,2})
-        \s*
-        (byte|bytes|[KMGTPE]B|B)
-        $
-    """
-    if not size_str:
-        return False
-
-    match = re.match(pattern, size_str, re.IGNORECASE)
-    if not match:
-        return False
-
-    try:
-        value = float(match.group(1))
-        return value >= 0
-    except ValueError:
-        return False
 
 
 def match_suffix_icon(suffix: str) -> str:
@@ -400,11 +179,10 @@ def match_suffix_icon(suffix: str) -> str:
 
 
 async def process_multiple_repos(owner: str, repos: List[str], token: str) -> None:
-    # Create clients for all repos
+    """Process multiple course repositories, a collection of main tasks."""
     clients = [GitHubAPIClient(owner, repo, token) for repo in repos]
 
-    # Run all clients concurrently
-    await asyncio.gather(*(client.judge_filetree_cache() for client in clients))
+    await asyncio.gather(*(client.task() for client in clients))
 
 
 if __name__ == "__main__":
@@ -414,7 +192,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "owner", help="GitHub repository owner", default="HITSZ-OpenAuto"
     )
-    # parser.add_argument("repo", help="GitHub repository name")
     parser.add_argument("token", help="GitHub token")
 
     args = parser.parse_args()
@@ -422,22 +199,20 @@ if __name__ == "__main__":
     # Get repos array from environment variable
     repos_json = os.environ.get("repos_array")
     repos = None
-
     if not repos_json:
         repos_json = os.environ.get("repo_name")
         repos = ["".join(str(c) for c in repos_json)]
     else:
         repos = json.loads(repos_json)
-
     if not repos_json:
         raise ValueError("Environment variable repo not found")
+
+    # Exclude specific repositories
+    repos = [repo for repo in repos if repo not in EXCLUDE_REPO]
 
     # Run the async process for all repos
     start_time = time.perf_counter()
     asyncio.run(process_multiple_repos(args.owner, repos, args.token))
-
     end_time = time.perf_counter()
-    file_tree_manager.save()
-    file_tree_manager.export_card_files()
     execution_time = end_time - start_time
     print(f"Exec: {execution_time:.2f} s")
