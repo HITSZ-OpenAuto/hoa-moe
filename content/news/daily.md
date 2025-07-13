@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-12'
-description: 北京时间 2025-07-11 14 时至今
+date: '2025-07-13'
+description: 北京时间 2025-07-12 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,15 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (7.11)
+### 周日 (7.13)
 
-- IcyDesert 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：更名 2025 夏实验 4 实验代码.c，加后缀
-
-### 周二 (7.8)
-
-- Origami404 在 [机械设计基础](https://github.com/HITSZ-OpenAuto/MECH2010) 中提交了信息：ci: fix permission issue in workflow
-
-- Origami404 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：ci: fix permission issue in workflow
+- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
@@ -38,6 +32,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [加入体能训练、足球、健身街舞的课程内容。](https://github.com/HITSZ-OpenAuto/PE100X/pull/17)
+
+- **仓库**: PE100X
+- **创建于**: 2025-07-13 15:35:38
+- **作者**: IcyDesert
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
