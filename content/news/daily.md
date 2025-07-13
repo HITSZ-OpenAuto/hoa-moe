@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (7.13)
 
+- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：课程基本信息
+
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
