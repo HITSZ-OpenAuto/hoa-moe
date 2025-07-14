@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-07-14'
-description: 北京时间 2025-07-13 00 时至今
+description: 北京时间 2025-07-13 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周一 (7.14)
+
+- IcyDesert 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：加入体能训练、足球、健身街舞的课程内容。 (#17)
 
 ### 周日 (7.13)
 
@@ -34,12 +38,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [加入体能训练、足球、健身街舞的课程内容。](https://github.com/HITSZ-OpenAuto/PE100X/pull/17)
-
-- **仓库**: PE100X
-- **创建于**: 2025-07-13 15:35:38
-- **作者**: IcyDesert
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
