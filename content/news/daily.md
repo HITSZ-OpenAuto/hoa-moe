@@ -24,12 +24,6 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [[Enhancement] approve_pr.sh 不应简单通过仓库的最新 PR](https://github.com/HITSZ-OpenAuto/repos-management/issues/5)
-
-- **仓库**: repos-management
-- **创建于**: 2025-07-08 19:16:32
-- **作者**: IcyDesert
-
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
 - **仓库**: MATH1002
