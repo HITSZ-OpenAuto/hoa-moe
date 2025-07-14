@@ -9,6 +9,14 @@ from datetime import datetime, timedelta
 
 TIME_ZONE = 8  # Beijing time zone
 
+EXCLUDE_REPOS = [
+    ".github",
+    "hoa-moe",
+    "HITSZ-OpenAuto",
+    "repos-management",
+    "hoa-previewer",
+]
+
 
 def run_gh_command(command, pat=None):
     """
@@ -118,7 +126,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
         filtered_issues = [
             i
             for i in issues
-            if i["repository"]["name"] not in ["hoa-moe", ".github"]
+            if i["repository"]["name"] not in EXCLUDE_REPOS
             and i["repository"]["name"] in public_repos
         ]
 
@@ -143,7 +151,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
         filtered_prs = [
             p
             for p in prs
-            if p["repository"]["name"] not in ["hoa-moe", ".github"]
+            if p["repository"]["name"] not in EXCLUDE_REPOS
             and p["repository"]["name"] in public_repos
         ]
 
