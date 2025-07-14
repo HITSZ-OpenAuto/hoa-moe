@@ -11,7 +11,7 @@ from typing import List, Dict, Optional
 import time
 from aiohttp import ClientTimeout
 
-EXCLUDE_REPO = [
+EXCLUDE_REPOS = [
     ".github",
     "hoa-moe",
     "HITSZ-OpenAuto",
@@ -210,7 +210,7 @@ if __name__ == "__main__":
         raise ValueError("Environment variable repo not found")
 
     # Exclude specific repositories
-    repos = [repo for repo in repos if repo not in EXCLUDE_REPO]
+    repos = [repo for repo in repos if repo not in EXCLUDE_REPOS]
 
     # Run the async process for all repos
     start_time = time.perf_counter()
