@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-14'
-description: 北京时间 2025-07-13 01 时至今
+date: '2025-07-15'
+description: 北京时间 2025-07-14 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,13 +14,9 @@ title: AUTO 更新速递
 
 ### 周一 (7.14)
 
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
 - IcyDesert 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：加入体能训练、足球、健身街舞的课程内容。 (#17)
-
-### 周日 (7.13)
-
-- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：课程基本信息
-
-- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
