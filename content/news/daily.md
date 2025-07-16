@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-07-16'
-description: 北京时间 2025-07-15 00 时至今
+description: 北京时间 2025-07-15 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周三 (7.16)
+
+- 吴俊达 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：上传工图考试资料 (#1)
 
 ### 周二 (7.15)
 
