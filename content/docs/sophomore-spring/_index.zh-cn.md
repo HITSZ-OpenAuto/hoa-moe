@@ -10,7 +10,6 @@ toc: false
 {{< cards >}}
 {{< card link="auto1001" title="自动化认知与实践" >}}
 {{< card link="auto2005" title="信号分析与处理" >}}
-{{< card link="ee2005" title="系统与控制" >}}
 {{< card link="geip1018" title="毛泽东思想和中国特色社会主义理论体系概论" >}}
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
