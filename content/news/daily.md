@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-16'
-description: 北京时间 2025-07-15 11 时至今
+date: '2025-07-17'
+description: 北京时间 2025-07-16 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -16,12 +16,6 @@ title: AUTO 更新速递
 
 - 吴俊达 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：上传工图考试资料 (#1)
 
-### 周二 (7.15)
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：Initial commit
-
 ## 待解决的 Issues
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
@@ -32,6 +26,24 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [更新 tag 和重命名文件](https://github.com/HITSZ-OpenAuto/COMP2050/pull/8)
+
+- **仓库**: COMP2050
+- **创建于**: 2025-07-16 23:25:47
+- **作者**: OliverWu515
+
+### [更新课程文档：增加教学内容介绍、教材、25 春考试情况](https://github.com/HITSZ-OpenAuto/AUTO2006/pull/12)
+
+- **仓库**: AUTO2006
+- **创建于**: 2025-07-16 22:19:24
+- **作者**: OliverWu515
+
+### [将系统与控制仓库内容与本仓库合并](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/19)
+
+- **仓库**: AUTO3001A
+- **创建于**: 2025-07-16 19:48:52
+- **作者**: WDGaster703
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
