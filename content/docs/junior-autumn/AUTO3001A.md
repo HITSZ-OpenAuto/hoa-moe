@@ -6,20 +6,22 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 7 月 5 日" author="W·D·Gaster" message="基于 24 培养方案修改学分说明和课程对照 (#14)" >}}
+{{< update-info update_time="2025 年 7 月 17 日" author="W·D·Gaster" message="将系统与控制仓库内容与本仓库合并 (#19)" >}}
 
 
 <div align="left">
 <figure>
   <img alt="考试课" src="https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red" >
   <img alt="学分 4.5" src="https://img.shields.io/badge/学分-4.5-moccasin">
-  <img alt="学分 2.0（23 级开始）" src="https://img.shields.io/badge/学分（23 级）-2.0-moccasin">
+  <img alt="学分 3.0（23 级大二春）" src="https://img.shields.io/badge/学分（23 级大二春）-3.0-moccasin">
+  <img alt="学分 2.0（23 级大三秋）" src="https://img.shields.io/badge/学分（23 级大三秋）-2.0-moccasin">
 </figure>
 </div>
 
+
 <div align="left">
 <figure>
-  <img alt="成绩构成 (21/22 级)" src="https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21/22%E7%BA%A7)-gold">
+  <img alt="成绩构成" src="https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold">
   <img alt="Static Badge" src="https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-13%25-wheat">
   <img alt="Static Badge" src="https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-5%25-wheat">
   <img alt="Static Badge" src="https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C-4%25-wheat">
@@ -28,7 +30,8 @@ math: true
 </figure>
 </div>
 
-*注意：本页面资料全部对应 4.5 学分的原课程，查找《系统与控制》资料的同学可根据当前授课及作业内容自行选用本仓库资料。*
+*23 级考虑到电气同学对自动控制理论的需求，在大二春季学期开设《系统与控制》作为电气的自动控制理论课程。自动化的学生在大三秋季学期补完原《自动控制理论 A》剩余内容。本页面资料全部对应 4.5 学分的原课程，查找《系统与控制》资料的同学可根据当前授课及作业内容自行选用本仓库资料。*
+
 |课程名称 | 开课专业 | 开课学期 | 学分 | 主要内容|
 |--------|---|---|-|---------|
 |自动控制理论 A|自动化 | 大三秋|4.5|线性系统数学模型、线性系统时域分析、根轨迹分析、频域稳定性分析|
@@ -77,16 +80,16 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 
 > 文 / [Oliver Wu](https://github.com/OliverWu515), 2025.2
 
-张宏伟老师上课思维发散，逻辑比较跳脱，但是例题有给比较充分时间上课完成，且对例题比较好的讲解；
+张宏伟老师上课思维发散，但是例题有给比较充分时间上课完成，且对例题比较好的讲解；
 
-张颖老师上课思维较为连贯，但是上课速度缓慢，掰碎了生怕大家听不懂，PPT 有大量的例题但是并没有给时间完成，实际效果可能也没有那么好。
+张颖老师上课思维较为连贯，但是上课速度缓慢，PPT 有大量的例题没有给时间完成。
 
 > 文 / [Gaster](https://github.com/WDGaster), 2025.6
 
 ## 关于授课内容
-> 以下为 4.5 学分的授课内容，23 级授课内容参考[系统与控制](https://hoa.moe/docs/sophomore-spring/ee2005/)。
+> 以下为 4.5 学分的授课内容。
 
-{{% details title="理论授课（60 学时）" closed="true" %}}
+{{% details title="理论授课（64 学时）" closed="true" %}}
 - 绪论（2 学时）
   - 控制论的历史
   - 控制系统的基本概念、基本结构和组成、基本要求
@@ -94,22 +97,22 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
   - 微分方程和传递函数（4 学时）
   - 方框图和信号流图（4 学时）
   - 离散系统建模（4 学时）
-  - 系统的状态空间表达式（2 学时）
+  - 系统的状态空间表达式（2 学时）  
 - 控制系统的时域分析（14 学时）
   - 连续系统时域分析（8 学时）
   - 离散系统时域分析（2 学时）
-  - 状态空间表达式的时域分析（4 学时）
+  - 状态空间表达式的时域分析（4 学时） 
 - 控制系统的稳定性及稳态误差（16 学时）
   - 连续系统的稳定性及劳斯判据（2 学时） 
   - 离散系统稳定性及劳斯判据（2 学时）
   - 稳态误差分析（4 学时）
   - Lyapunov 稳定性分析（4 学时）
-  - 基于根轨迹法的稳定性分析（4 学时）
+  - 基于根轨迹法的稳定性分析（4 学时） 
 - 控制系统的频域分析（8 学时）
   - 线性系统的频率特性（4 学时）
   - 频域稳定性分析和奈奎斯特判据（4 学时）
 {{% /details %}}
-{{% details title="实验（8 学时）" closed="true" %}}
+{{% details title="实验（8 学时）" closed="true" %}}  
 - 实验一：直流伺服系统的时域特性分析
 - 实验二：连续系统和离散系统的稳定性分析
 - 实验三：直流伺服系统的根轨迹分析
@@ -119,6 +122,41 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 - 上机一：控制系统的模型描述与时域分析
 - 上机二：线性系统的根轨迹和频域分析
 {{% /details %}}
+
+> 以下为 23 级大二春季学期《系统与控制》的授课内容。
+
+{{% details title="理论授课（36 学时）" closed="true" %}}
+- 绪论（2 学时）
+  - 控制论的历史
+  - 控制系统的基本概念、基本结构和组成、基本要求
+- 线性连续系统的数学模型（8 学时）
+  - 微分方程模型
+  - 传递函数
+  - 方框图和信号流图
+- 线性连续系统的时域分析（8 学时）
+  - 一阶系统时域分析
+  - 二阶系统时域分析
+  - 高阶系统的定性分析
+- 线性连续系统的稳定性（10 学时）
+  - 基于传递函数的稳定性分析和劳斯判据
+  - 稳态误差分析
+  - 基于根轨迹法的稳定性分析
+- 控制系统的频域分析（8 学时）
+  - 线性系统的频率特性
+  - 频域稳定性分析和奈奎斯特判据
+{{% /details %}}
+{{% details title="实验（8 学时）" closed="true" %}}
+- 实验一：直流伺服系统的时域特性分析
+- 实验二：线性连续系统的稳定性分析
+- 实验三：直流伺服系统的根轨迹分析
+- 实验四：直流伺服系统的频率特性分析
+{{% /details %}}
+{{% details title="上机实验（4 学时）" closed="true" %}}
+- 上机一：控制系统的模型描述与时域分析
+- 上机二：线性系统的根轨迹和频域分析
+{{% /details %}}
+
+> 文 / [Gaster](https://github.com/WDGaster703/)，2025.7
 
 ## 关于作业
 
@@ -141,7 +179,7 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 
 > 文 / [Oliver Wu](https://github.com/OliverWu515), 2025.2
 
-看来 24 秋的期末像是一次意外，25 春考试（虽然只有线性连续部分）又回归了往年的难度，难度低于考研题。
+看来 24 秋的期末像是一次意外，25 春《系统与控制》的考试（线性连续部分）又回归了往年的难度，难度低于考研题，由于知识点减少，考察的也比较细。
 
 > 文 / [Gaster](https://github.com/WDGaster), 2025.6
 
@@ -159,6 +197,8 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 如果在备考时感觉某类题型弄不明白，直接在网上搜索基本上都有结果。
 
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2025.1
+
+本门课是系统建模与分析部分，重点是时域分析，关注系统的快准稳三大要求和性能指标。有一些思路是在电路分析中已经用过的分析方法，如时域阶跃响应和频率特性。根轨迹重点掌握绘制方法，频域响应掌握 Nyquist 图和 Bode 图的绘制以及奈奎斯特判据。本门课关注**时域 - 频域 - 复频域**的联系和转化，关注系统复频域模型和实际响应之间的关系。
 
 如果想更深入学习控制理论，可以参考[Gaster 的控制理论笔记](https://github.com/WDGaster703/ControlTheory)和[SSC 的电机驱动学习笔记](https://github.com/SSC202/Engine/tree/V3.0/Note/)。
 
@@ -269,6 +309,26 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 {{< hoa-filetree/file name="自控理论 A 作业 9-psp" type="pdf" size="1.8 MB" date="2025/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2024/psp_answer/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E4%BD%9C%E4%B8%9A9-psp.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="2025 春（系统与控制）" date="" state="closed" >}}
+{{< hoa-filetree/folder name="Gaster 解答" date="" state="closed" >}}
+{{< hoa-filetree/file name="系统与控制作业 1-Gaster" type="pdf" size="339.8 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/Gaster%E8%A7%A3%E7%AD%94/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A1-Gaster.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 2-Gaster" type="pdf" size="492.5 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/Gaster%E8%A7%A3%E7%AD%94/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A2-Gaster.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 3-Gaster" type="pdf" size="406.9 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/Gaster%E8%A7%A3%E7%AD%94/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A3-Gaster.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 4-Gaster" type="pdf" size="398.6 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/Gaster%E8%A7%A3%E7%AD%94/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A4-Gaster.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 5-Gaster" type="pdf" size="287.2 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/Gaster%E8%A7%A3%E7%AD%94/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A5-Gaster.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 6-Gaster" type="pdf" size="738.1 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/Gaster%E8%A7%A3%E7%AD%94/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A6-Gaster.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 7-Gaster" type="pdf" size="741.5 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/Gaster%E8%A7%A3%E7%AD%94/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A7-Gaster.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 8-Gaster" type="pdf" size="770.4 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/Gaster%E8%A7%A3%E7%AD%94/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A8-Gaster.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="系统与控制作业 -1" type="pdf" size="197.4 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A-1.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 -2" type="pdf" size="294.3 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A-2.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 -3" type="pdf" size="284.1 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A-3.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 -4" type="pdf" size="305.4 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A-4.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 -5" type="pdf" size="267.2 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A-5.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 -6" type="pdf" size="285.0 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A-6.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 -7" type="pdf" size="387.5 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A-7.pdf" >}}
+{{< hoa-filetree/file name="系统与控制作业 -8" type="pdf" size="337.5 KB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2025%E6%98%A5%EF%BC%88%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%EF%BC%89/%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E4%BD%9C%E4%B8%9A-8.pdf" >}}
+{{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
 {{< hoa-filetree/folder name="本部" date="" state="closed" >}}
@@ -302,6 +362,7 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 {{< hoa-filetree/file name="2024 秋自控理论 A 期末（参考答案 v2.0 版）" type="pdf" size="11.0 MB" date="2025/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%B7%B1%E5%9C%B3/2024/2024%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%EF%BC%88%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88v2.0%E7%89%88%EF%BC%89.pdf" >}}
 {{< hoa-filetree/file name="2024 秋自控理论 A 期末（回忆 v2.1 版）" type="pdf" size="1.3 MB" date="2025/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%B7%B1%E5%9C%B3/2024/2024%E7%A7%8B%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E6%9C%9F%E6%9C%AB%EF%BC%88%E5%9B%9E%E5%BF%86v2.1%E7%89%88%EF%BC%89.pdf" >}}
 {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="2025 春系统与控制期末试题（回忆版）" type="pdf" size="1.2 MB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/exams/%E6%B7%B1%E5%9C%B3/2025%E6%98%A5%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
@@ -390,6 +451,7 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
 {{< hoa-filetree/file name="2022_自控原理 A 笔记" type="pdf" size="74.8 MB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/2022_%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86A%E7%AC%94%E8%AE%B0.pdf" >}}
 {{< hoa-filetree/file name="2023_Spar Océsel_自控原理" type="apkg" size="1.1 MB" date="2025/01/18" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/2023_Spar%20Oce%CC%81sel_%E8%87%AA%E6%8E%A7%E5%8E%9F%E7%90%86.apkg" >}}
+{{< hoa-filetree/file name="2025 春系统与控制笔记-Gaster" type="pdf" size="2.8 MB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/2025%20%E6%98%A5%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E7%AC%94%E8%AE%B0-Gaster.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
 {{< hoa-filetree/file name="2023 课件合订本" type="pdf" size="134 bytes" date="2024/10/30" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2023%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}

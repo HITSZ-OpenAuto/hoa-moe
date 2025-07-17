@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-07-17'
-description: 北京时间 2025-07-16 01 时至今
+description: 北京时间 2025-07-16 03 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周四 (7.17)
+
+- W·D·Gaster 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：将系统与控制仓库内容与本仓库合并 (#19)
 
 - 吴俊达 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：增加教学内容介绍、教材、25 春考试情况
 
@@ -32,12 +34,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [将系统与控制仓库内容与本仓库合并](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/19)
-
-- **仓库**: AUTO3001A
-- **创建于**: 2025-07-16 19:48:52
-- **作者**: WDGaster703
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
