@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周四 (7.17)
+
+- 吴俊达 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：增加教学内容介绍、教材、25 春考试情况
+
 ### 周三 (7.16)
 
 - OliverWu515 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：更新 tag 和重命名文件
@@ -28,12 +32,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新课程文档：增加教学内容介绍、教材、25 春考试情况](https://github.com/HITSZ-OpenAuto/AUTO2006/pull/12)
-
-- **仓库**: AUTO2006
-- **创建于**: 2025-07-16 22:19:24
-- **作者**: OliverWu515
 
 ### [将系统与控制仓库内容与本仓库合并](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/19)
 
