@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-07-17'
-description: 北京时间 2025-07-16 00 时至今
+description: 北京时间 2025-07-16 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周三 (7.16)
+
+- OliverWu515 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：更新 tag 和重命名文件
 
 - 吴俊达 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：上传工图考试资料 (#1)
 
@@ -26,12 +28,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新 tag 和重命名文件](https://github.com/HITSZ-OpenAuto/COMP2050/pull/8)
-
-- **仓库**: COMP2050
-- **创建于**: 2025-07-16 23:25:47
-- **作者**: OliverWu515
 
 ### [更新课程文档：增加教学内容介绍、教材、25 春考试情况](https://github.com/HITSZ-OpenAuto/AUTO2006/pull/12)
 
