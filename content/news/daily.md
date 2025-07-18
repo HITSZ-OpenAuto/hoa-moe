@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (7.18)
 
+- W·D·Gaster 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：Update README.md
+
 - W·D·Gaster 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：补充相关信息
 
 - 吴俊达 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：Update README.md
