@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (7.18)
 
+- 吴俊达 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：Update README.md
+
 - ShiningQStar621 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：添加了乒乓球课的内容 (#18)
 
 - 吴俊达 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：更新 tag 和 README 课程性质 (#13)
