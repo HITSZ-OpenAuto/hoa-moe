@@ -38,7 +38,7 @@ excludeSearch: false
 
 | 序号 | 开课学期 | 课程名称          | 学分 | 总学时 | 讲课 | 实验 |
 | ---- | -------- | ---------------- | ---- | ------ | ---- | ---- |
-|  1  | 大三上  | [C++语言程序设计](https://hoa.moe/docs/sophomore-autumn/comp2014/) | 2.0  | 32   | 20 | 12  |
+|  1  | 大三上  | [C++ 语言程序设计](https://hoa.moe/docs/sophomore-autumn/comp2014/) | 2.0  | 32   | 20 | 12  |
 |  2  | 大三上  | [信息论](https://hoa.moe/docs/sophomore-autumn/auto3020/) | 2.0  | 32   | 32   |      |
 |  3  | 大三上  | [机器学习概论](https://hoa.moe/docs/junior-autumn/auto3019/) | 2.0  | 32  | 32   |    |
 |  4  | 大三上  | [嵌入式系统](https://hoa.moe/docs/junior-autumn/auto3024/) | 2.0   | 32   | 20   | 12 |
