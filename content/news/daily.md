@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (7.18)
 
+- 吴俊达 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：Update README.md
+
 - ShiningQStar621 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：添加了乒乓球课的内容 (#18)
 
 - 吴俊达 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：更新 tag 和 README 课程性质 (#13)
@@ -46,6 +48,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [更新 tag 与 readme](https://github.com/HITSZ-OpenAuto/EE2004/pull/8)
+
+- **仓库**: EE2004
+- **创建于**: 2025-07-18 12:16:00
+- **作者**: OliverWu515
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
