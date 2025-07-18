@@ -38,16 +38,16 @@ excludeSearch: false
 
 | 序号 | 开课学期 | 课程名称          | 学分 | 总学时 | 讲课 | 实验 |
 | ---- | -------- | ---------------- | ---- | ------ | ---- | ---- |
-| 1   | 大三上  | [C++ 语言程序设计](https://hoa.moe/docs/sophomore-autumn/comp2014/) | 2.0  | 32   | 20 | 12  |
-| 2   | 大三下  | [数据结构与算法](https://hoa.moe/docs/sophomore-spring/comp2050/) | 2.0  | 32   | 24 | 8 |
+|  1  | 大三上  | [C++语言程序设计](https://hoa.moe/docs/sophomore-autumn/comp2014/) | 2.0  | 32   | 20 | 12  |
+|  2  | 大三上  | [信息论](https://hoa.moe/docs/sophomore-autumn/auto3020/) | 2.0  | 32   | 32   |      |
 |  3  | 大三上  | [机器学习概论](https://hoa.moe/docs/junior-autumn/auto3019/) | 2.0  | 32  | 32   |    |
-|  4  | 大三上  | [嵌入式系统](https://hoa.moe/docs/junior-autumn/auto3024/) | 2.0      | 32         | 20      | 12 |
-|  5  | 大三下  | [机器视觉](https://hoa.moe/docs/junior-spring/auto3006/)  | 2.0      | 32         | 24       | 8        |
-|  6  | 大三下  | 人工智能基础 | 2.0  | 32     | 32 |     |
-|  7  | 大四上  | [移动机器人导论](https://hoa.moe/docs/senior-autumn/auto3012/)  | 2.0 | 32  | 24 | 8    |
-| 8   | 大三上  | 信息论 | 2.0  | 32   | 32   |      |
-| 9   | 大四上  | 脑机接口导论 | 2.0  | 32     | 24   |   8   |
-| 10   | 大四上 | 类脑智能技术 | 2.0  | 32     | 24   |  8    |
+|  4  | 大三上  | [嵌入式系统](https://hoa.moe/docs/junior-autumn/auto3024/) | 2.0   | 32   | 20   | 12 |
+|  5  | 大三下  | [数据结构与算法](https://hoa.moe/docs/sophomore-spring/comp2050/) | 2.0  | 32   | 24 | 8 |
+|  6  | 大三下  | [机器视觉](https://hoa.moe/docs/junior-spring/auto3006/)  | 2.0   | 32   | 24    | 8   |
+|  7  | 大四上  | [移动机器人导论](https://hoa.moe/docs/senior-autumn/auto3012/)  | 2.0 | 32  | 24 | 8   |
+|  8  | 大四上  | 人工智能基础 | 2.0  | 32     | 32 |     |
+|  9  | 大四上  | 脑机接口导论 | 2.0  | 32     | 24   |   8   |
+| 10  | 大四上  | 类脑智能技术 | 2.0  | 32     | 24   |  8    |
 | 11  | 大四上  | 先进控制概论 | 2.0  | 32     | 32   |      |
 
 拓展选修课要求至少选择 4 学分进行修读。因此以上 11 门课至少选择其中 2 门，即达到学分要求。 
@@ -62,3 +62,4 @@ excludeSearch: false
 （欢迎补充）
 
 建议大家根据自身学习能力妥善选课。（能力强的同学可以选一些目前没有资料的课程，建设课程资料）
+
