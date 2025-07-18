@@ -4,13 +4,21 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-07-18'
-description: 北京时间 2025-07-17 00 时至今
+description: 北京时间 2025-07-17 04 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周五 (7.18)
+
+- 吴俊达 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：更新 tag 和 README 课程性质 (#13)
+
+- 吴俊达 在 [C++ 语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2014) 中提交了信息：更新 tag 和 readme
+
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 ### 周四 (7.17)
 
@@ -36,18 +44,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新 tag 和 readme](https://github.com/HITSZ-OpenAuto/COMP2014/pull/10)
-
-- **仓库**: COMP2014
-- **创建于**: 2025-07-17 23:53:25
-- **作者**: OliverWu515
-
-### [更新 tag 和 README 课程性质](https://github.com/HITSZ-OpenAuto/EMEC1002/pull/13)
-
-- **仓库**: EMEC1002
-- **创建于**: 2025-07-17 23:51:18
-- **作者**: OliverWu515
 
 ### [添加了乒乓球课的内容](https://github.com/HITSZ-OpenAuto/PE100X/pull/18)
 

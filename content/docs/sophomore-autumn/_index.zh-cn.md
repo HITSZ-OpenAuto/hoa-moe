@@ -22,7 +22,7 @@ toc: false
 [限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
 <!--more-->
 {{< cards >}}
-{{< card link="comp2014" title="C++ 语言程序设计" >}}
+{{< card link="emec1002" title="理论力学Ⅱ" >}}
 {{< /cards >}}
 ## 归档
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。
