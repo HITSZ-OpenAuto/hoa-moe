@@ -6,7 +6,7 @@ toc: false
 ---
 探索以下各节以查找相关资料
 ## 限选
-[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
+[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
 <!--more-->
 {{< cards >}}
 {{< card link="auto3012" title="移动机器人导论" >}}
