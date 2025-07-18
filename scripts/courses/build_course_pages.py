@@ -51,7 +51,7 @@ category_mapping: dict[str] = {
     "必修": ("mandatory", None),
     "限选": (
         "distributional-selective",
-        "[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)",
+        "[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)",
     ),
     "本研共通": (
         "undergraduate-graduate-course",
