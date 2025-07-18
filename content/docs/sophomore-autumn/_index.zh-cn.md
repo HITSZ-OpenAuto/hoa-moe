@@ -19,7 +19,7 @@ toc: false
 {{< card link="phys1002" title="大学物理实验" >}}
 {{< /cards >}}
 ## 限选
-[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
+[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
 <!--more-->
 {{< cards >}}
 {{< card link="emec1002" title="理论力学Ⅱ" >}}

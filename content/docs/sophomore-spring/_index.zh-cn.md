@@ -14,7 +14,7 @@ toc: false
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
-[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-22/)
+[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
 <!--more-->
 {{< cards >}}
 {{< card link="auto2006" title="控制理论中的代数基础" >}}
