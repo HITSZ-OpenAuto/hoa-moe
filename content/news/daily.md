@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-17'
-description: 北京时间 2025-07-16 09 时至今
+date: '2025-07-18'
+description: 北京时间 2025-07-17 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -26,8 +26,6 @@ title: AUTO 更新速递
 
 - OliverWu515 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：更新 tag 和重命名文件
 
-- 吴俊达 在 [设计与制造 A](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：上传工图考试资料 (#1)
-
 ## 待解决的 Issues
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
@@ -38,6 +36,24 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [更新 tag 和 readme](https://github.com/HITSZ-OpenAuto/COMP2014/pull/10)
+
+- **仓库**: COMP2014
+- **创建于**: 2025-07-17 23:53:25
+- **作者**: OliverWu515
+
+### [更新 tag 和 README 课程性质](https://github.com/HITSZ-OpenAuto/EMEC1002/pull/13)
+
+- **仓库**: EMEC1002
+- **创建于**: 2025-07-17 23:51:18
+- **作者**: OliverWu515
+
+### [添加了乒乓球课的内容](https://github.com/HITSZ-OpenAuto/PE100X/pull/18)
+
+- **仓库**: PE100X
+- **创建于**: 2025-07-17 23:24:24
+- **作者**: ShiningStar621
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
