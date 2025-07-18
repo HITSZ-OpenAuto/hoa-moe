@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (7.18)
 
+- 吴俊达 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：更新课程描述
+
 - W·D·Gaster 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：Update README.md
 
 - W·D·Gaster 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：补充相关信息
@@ -52,12 +54,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新课程描述](https://github.com/HITSZ-OpenAuto/AUTO3028/pull/9)
-
-- **仓库**: AUTO3028
-- **创建于**: 2025-07-18 14:04:58
-- **作者**: OliverWu515
 
 ### [更新 tag 与 readme](https://github.com/HITSZ-OpenAuto/EE2004/pull/8)
 
