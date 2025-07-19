@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-18'
-description: 北京时间 2025-07-17 06 时至今
+date: '2025-07-19'
+description: 北京时间 2025-07-18 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -30,20 +30,6 @@ title: AUTO 更新速递
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
-### 周四 (7.17)
-
-- 吴俊达 在 [设计与制造 A](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：更新 tag (#2)
-
-- W·D·Gaster 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：添加授课内容、授课教室和成绩构成
-
-- W·D·Gaster 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：将系统与控制仓库内容与本仓库合并 (#19)
-
-- 吴俊达 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：增加教学内容介绍、教材、25 春考试情况
-
-### 周三 (7.16)
-
-- OliverWu515 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：更新 tag 和重命名文件
-
 ## 待解决的 Issues
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
@@ -54,6 +40,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [更新毕设流程描述；上传修改后中期报告模板](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/12)
+
+- **仓库**: AUTO3099
+- **创建于**: 2025-07-18 23:41:07
+- **作者**: OliverWu515
 
 ### [更新 tag 与 readme](https://github.com/HITSZ-OpenAuto/EE2004/pull/8)
 
