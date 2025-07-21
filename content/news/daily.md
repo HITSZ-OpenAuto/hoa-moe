@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-07-21'
-description: 北京时间 2025-07-20 09 时至今
+description: 北京时间 2025-07-20 12 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周一 (7.21)
+
+- 吴俊达 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：上传 2021 秋作业及答案 (#13)
 
 - 吴俊达 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：更新 tag 为限选；在 readme 中增加了与理力二选一的说明
 
