@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-07-21'
-description: 北京时间 2025-07-20 00 时至今
+description: 北京时间 2025-07-20 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周一 (7.21)
+
+- 吴俊达 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：更新 tag 为限选；在 readme 中增加了与理力二选一的说明
 
 ### 周日 (7.20)
 
@@ -31,12 +35,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3099
 - **创建于**: 2025-07-18 23:41:07
-- **作者**: OliverWu515
-
-### [更新 tag 与 readme](https://github.com/HITSZ-OpenAuto/EE2004/pull/8)
-
-- **仓库**: EE2004
-- **创建于**: 2025-07-18 12:16:00
 - **作者**: OliverWu515
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)

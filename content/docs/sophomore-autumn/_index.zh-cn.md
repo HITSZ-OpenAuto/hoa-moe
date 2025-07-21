@@ -8,7 +8,6 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="ee2004" title="高等电路与电子分析" >}}
 {{< card link="geip1011" title="马克思主义基本原理" >}}
 {{< card link="lang100x" title="大学英语" >}}
 {{< card link="math1004" title="概率论与数理统计" >}}
@@ -22,6 +21,7 @@ toc: false
 [限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
 <!--more-->
 {{< cards >}}
+{{< card link="ee2004" title="高等电路与电子分析" >}}
 {{< card link="emec1002" title="理论力学Ⅱ" >}}
 {{< /cards >}}
 ## 归档
