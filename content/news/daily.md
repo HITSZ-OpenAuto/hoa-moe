@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-21'
-description: 北京时间 2025-07-20 12 时至今
+date: '2025-07-22'
+description: 北京时间 2025-07-21 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -17,10 +17,6 @@ title: AUTO 更新速递
 - 吴俊达 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：上传 2021 秋作业及答案 (#13)
 
 - 吴俊达 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：更新 tag 为限选；在 readme 中增加了与理力二选一的说明
-
-### 周日 (7.20)
-
-- 吴俊达 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传本人课程论文 (#20)
 
 ## 待解决的 Issues
 
