@@ -29,6 +29,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [上传本人选修模块的代码](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/6)
+
+- **仓库**: ENGG1002
+- **创建于**: 2025-07-22 19:53:56
+- **作者**: pspdada
+
 ### [更新毕设流程描述；上传修改后中期报告模板](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/12)
 
 - **仓库**: AUTO3099
