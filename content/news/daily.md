@@ -35,6 +35,12 @@ title: AUTO 更新速递
 - **创建于**: 2025-07-22 19:53:56
 - **作者**: pspdada
 
+### [feat: add nav bar](https://github.com/HITSZ-OpenAuto/aextra/pull/1)
+
+- **仓库**: aextra
+- **创建于**: 2025-07-22 17:07:11
+- **作者**: syhanjin
+
 ### [更新毕设流程描述；上传修改后中期报告模板](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/12)
 
 - **仓库**: AUTO3099
