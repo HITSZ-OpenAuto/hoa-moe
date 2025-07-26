@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-25'
-description: 北京时间 2025-07-24 13 时至今
+date: '2025-07-26'
+description: 北京时间 2025-07-25 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -26,12 +26,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [上传本人选修模块的代码](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/6)
-
-- **仓库**: ENGG1002
-- **创建于**: 2025-07-22 19:53:56
-- **作者**: pspdada
 
 ### [feat: add nav bar](https://github.com/HITSZ-OpenAuto/aextra/pull/1)
 
