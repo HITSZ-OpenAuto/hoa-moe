@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-26'
-description: 北京时间 2025-07-25 00 时至今
+date: '2025-07-29'
+description: 北京时间 2025-07-28 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (7.25)
+### 周二 (7.29)
 
-- 吴俊达 在 [毕业设计](https://github.com/HITSZ-OpenAuto/AUTO3099) 中提交了信息：更新毕设流程描述；上传修改后中期报告模板 (#12)
+- 吴俊达 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
