@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-07-30'
-description: 北京时间 2025-07-29 00 时至今
+date: '2025-07-31'
+description: 北京时间 2025-07-30 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (7.29)
+### 周三 (7.30)
 
-- 吴俊达 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：Initial commit
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 ## 待解决的 Issues
 
