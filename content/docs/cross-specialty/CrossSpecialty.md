@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 1 月 4 日" author="W·D·Gaster" message="补充综述内容说明文档内容，补充大学化学 III、普通天文学、经济学原理内容" >}}
+{{< update-info update_time="2025 年 8 月 1 日" author="LiPu-jpg" message="docs:新增 OpenHarmony 课程相关内容 (#5)" >}}
 
 
 <!--
@@ -187,6 +187,24 @@ math: true
 其三，本门课有期中考和期末考，虽然 PPT 过一遍后考及格不难，但是如果不想花时间复习的慎选。<br>
 具体的资料可以前往[经济学原理](https://hoa.moe/docs/cross-specialty/econ2005f/)查看。
 
+### OpenHarmony 端云协同物联网开发实践
+
+<div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A60%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-60%25-wheat)
+![%E7%AD%94%E8%BE%A940%](https://img.shields.io/badge/%E7%AD%94%E8%BE%A9-40%25-wheat)
+
+</div>
+
+每次上课都考勤，共有 5 个 lab。上课不难，不过会涉及一些稍微专业的概念，不过涉入不深，自己查一下就行了，总体来说由简入深。<br>
+每节课大概率就是教你如何通过各种方式点灯（做拓展有加分，主要就是加一些蜂鸣器放歌，读取温度湿度之类的），大概是从正常的按键到 MQTT 协议再到接入华为云<br>
+注：这个课在 2025 夏季第一次开设，所以实际给分情况和教学大纲有区别，基本上你能跟着把每个 lab 的第一个任务做完就能及格，任务二做完就有 80，不强制要求答辩（最后 30 个同学里就 3 个上了）拿分还是很简单的<br>
+同时，记得保存实验代码，前四个 lab 要交代码，第五个还要额外带一份实验报告<br>
+更多内容可以前往[端云协同物联网开发实践 - 具体 lab 内容](https://ohiot.p.cs-lab.top/)中查看。
+
+> 文 / [离谱](https://github.com/LiPu-jpg)，2025.8
 ## 资料下载
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
