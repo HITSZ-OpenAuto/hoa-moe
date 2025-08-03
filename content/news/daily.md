@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (8.3)
 
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2052) 中提交了信息：Initial commit
+
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
