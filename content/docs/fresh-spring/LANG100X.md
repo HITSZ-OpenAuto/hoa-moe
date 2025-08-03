@@ -1,6 +1,6 @@
 ---
 title: （必修）大学英语
-weight: 62
+weight: 65
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
