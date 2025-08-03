@@ -1,6 +1,6 @@
 ---
 title: 文理通识课程体系
-weight: 872
+weight: 880
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md"
 math: true
