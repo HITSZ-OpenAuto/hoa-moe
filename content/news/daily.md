@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-02'
-description: 北京时间 2025-08-01 00 时至今
+date: '2025-08-03'
+description: 北京时间 2025-08-02 05 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (8.1)
+### 周日 (8.3)
 
-- LiPu-jpg 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：docs:新增 OpenHarmony 课程相关内容 (#5)
-
-- LiPu-jpg 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：docs:补充了武术拳和排球相关的内容 (#19)
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
