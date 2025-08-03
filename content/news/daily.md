@@ -4,13 +4,21 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-08-03'
-description: 北京时间 2025-08-02 06 时至今
+description: 北京时间 2025-08-02 17 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周一 (8.4)
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：Initial commit
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Initial commit
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：Initial commit
 
 ### 周日 (8.3)
 
