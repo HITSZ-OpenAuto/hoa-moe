@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-03'
-description: 北京时间 2025-08-02 17 时至今
+date: '2025-08-04'
+description: 北京时间 2025-08-03 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -81,6 +81,12 @@ title: AUTO 更新速递
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
+
+### [COMP2030 离散数学](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/20)
+
+- **仓库**: AUTO3001A
+- **创建于**: 2025-08-04 01:24:51
+- **作者**: WDGaster703
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
