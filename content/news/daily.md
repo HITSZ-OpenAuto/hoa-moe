@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-05'
-description: 北京时间 2025-08-04 00 时至今
+date: '2025-08-06'
+description: 北京时间 2025-08-05 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,31 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (8.4)
+### 周二 (8.5)
 
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：feat: add reusable workflow to update worktree (#6)
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(navbar): move navbar items to site.config.ts
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(navbar): remove opacity styles from GitHub link in navbar
+
+### 周三 (7.23)
+
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：docs(navbar): add todo
+
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(layout): change html lang to zh-CN and remove redundant meta tags
+
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：docs: translate comment and format config file
+
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(img): the logo image display issue
+
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：refactor: rename Layout to BaseLayout
+
+### 周二 (7.22)
+
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add base nav bar
+
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：style: update Prettier config and reformat code
+
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: add wind4 and attributify presets
 
 ## 待解决的 Issues
 
@@ -35,10 +55,10 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [feat: add nav bar](https://github.com/HITSZ-OpenAuto/aextra/pull/1)
+### [feat: add blog post layout and markdown test page](https://github.com/HITSZ-OpenAuto/aextra/pull/2)
 
 - **仓库**: aextra
-- **创建于**: 2025-07-22 17:07:11
+- **创建于**: 2025-08-05 14:21:52
 - **作者**: syhanjin
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
