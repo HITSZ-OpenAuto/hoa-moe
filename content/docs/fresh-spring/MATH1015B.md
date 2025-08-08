@@ -1,6 +1,6 @@
 ---
 title: （必修）微积分 B
-weight: 97
+weight: 99
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
