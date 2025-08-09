@@ -79,6 +79,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [feat: restructure the page and add page width toggle functionality](https://github.com/HITSZ-OpenAuto/aextra/pull/3)
+
+- **仓库**: aextra
+- **创建于**: 2025-08-08 10:48:39
+- **作者**: syhanjin
+
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
 - **仓库**: GeneralKnowledge
