@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-08-10'
-description: 北京时间 2025-08-09 01 时至今
+description: 北京时间 2025-08-09 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (8.10)
+
+- psp_dada 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：更新本人的学习建议 (#17)
 
 - syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: hide set-page-width when not in article view
 
@@ -66,12 +68,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [更新本人的学习建议](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/17)
-
-- **仓库**: PHYS1001
-- **创建于**: 2025-08-09 19:29:52
-- **作者**: pspdada
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
