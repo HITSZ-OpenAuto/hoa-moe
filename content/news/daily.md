@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-08'
-description: 北京时间 2025-08-07 00 时至今
+date: '2025-08-10'
+description: 北京时间 2025-08-09 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,37 +12,25 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周四 (8.7)
+### 周日 (8.10)
 
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：refactor: destructure props in blog layout and simplify toc styles
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: hide set-page-width when not in article view
 
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：style(blog): align component styles closer to hextra defaults
+### 周五 (8.8)
 
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(blog): update post layout and content schema
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(theme): add page width configuration and improve layout handling
 
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(date): add dayjs for better date display
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(layout): adjust aside width in BaseLayout
 
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(toc): improve toc styles
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix: improve component HTML semantics and site metadata
 
-### 周三 (8.6)
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix: improve component HTML semantics
 
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore(deps): update react and react-dom
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：docs: update comment in set-page-width.tsx from Chinese to English
 
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(markdown): restore default markdown styles in article
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add page width toggle functionality
 
-### 周二 (8.5)
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：refactor(toc): simplify active heading index lookup
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(toc): add throttle to handleScroll for better performance
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(blog): add table of contents component
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(blog): add blog post layout and markdown test
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(layout): add main container with full width in BaseLayout (blog)
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore(integration): add react integration
+- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(layout): restructure BaseLayout with aside and nav slots
 
 ## 待解决的 Issues
 
@@ -79,11 +67,11 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [feat: restructure the page and add page width toggle functionality](https://github.com/HITSZ-OpenAuto/aextra/pull/3)
+### [更新本人的学习建议](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/17)
 
-- **仓库**: aextra
-- **创建于**: 2025-08-08 10:48:39
-- **作者**: syhanjin
+- **仓库**: PHYS1001
+- **创建于**: 2025-08-09 19:29:52
+- **作者**: pspdada
 
 ### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
 
