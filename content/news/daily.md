@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-10'
-description: 北京时间 2025-08-09 06 时至今
+date: '2025-08-11'
+description: 北京时间 2025-08-10 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -15,24 +15,6 @@ title: AUTO 更新速递
 ### 周日 (8.10)
 
 - psp_dada 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：更新本人的学习建议 (#17)
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: hide set-page-width when not in article view
-
-### 周五 (8.8)
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(theme): add page width configuration and improve layout handling
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(layout): adjust aside width in BaseLayout
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix: improve component HTML semantics and site metadata
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix: improve component HTML semantics
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：docs: update comment in set-page-width.tsx from Chinese to English
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add page width toggle functionality
-
-- syhanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(layout): restructure BaseLayout with aside and nav slots
 
 ## 待解决的 Issues
 
