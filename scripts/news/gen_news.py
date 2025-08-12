@@ -59,7 +59,7 @@ def generate_summary(report_text):
     prompt = f"Generate a summary for the weekly commit report in Chinese:\n\n{report_text}\n\n---\n\nSummary:"
     try:
         completion = openai.chat.completions.create(
-            model="gpt-4.1-nano",
+            model="gpt-5-mini",
             messages=[{"role": "system", "content": prompt}],
         )
         return completion.choices[0].message.content
