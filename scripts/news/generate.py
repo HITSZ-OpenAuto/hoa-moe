@@ -8,13 +8,10 @@ logger = logging.getLogger(__name__)
 
 
 def _get_client() -> OpenAI:
-    """Create an OpenAI client from env
-    """
+    """Create an OpenAI client from env"""
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
-        raise ValueError(
-            "OPENAI_API_KEY is required for AI features."
-        )
+        raise ValueError("OPENAI_API_KEY is required for AI features.")
     return OpenAI(
         api_key=api_key,
         base_url="https://api.aihubmix.com/v1/",
@@ -34,9 +31,7 @@ Guidelines:
 
     client = _get_client()
     result = client.images.generate(
-        model="gpt-image-1",
-        prompt=prompt,
-        size="1024x1024"
+        model="gpt-image-1", prompt=prompt, size="1024x1024"
     )
 
     image_base64 = result.data[0].b64_json
@@ -70,8 +65,5 @@ def generate_summary(raw_updates):
 
 请生成总结。"""
     client = _get_client()
-    summary = client.responses.create(
-        model="gpt-5-mini",
-        input=prompt
-    )
+    summary = client.responses.create(model="gpt-5-mini", input=prompt)
     return summary.output_text

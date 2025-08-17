@@ -15,5 +15,5 @@ title: AUTO 周报 2025-08-10 - 2025-08-17
 
 ### 周日 (8.10)
 
-- psp_dada 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息： 更新本人的学习建议 (#17)
+- psp_dada 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：更新本人的学习建议 (#17)
 

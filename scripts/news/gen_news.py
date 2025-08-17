@@ -202,7 +202,7 @@ def main():
         markdown_report = create_markdown_report(
             filtered_commits, org_course_name, NEWS_TYPE
         )
-        
+
         final_report = f"---\n{yaml_front_matter}---\n\n"
 
         if NEWS_TYPE == "weekly":
@@ -227,7 +227,9 @@ def main():
                 final_report += f"{markdown_report}"
 
             except Exception as e:
-                logging.warning(f"Summary generation failed: {e}, using full report instead.")
+                logging.warning(
+                    f"Summary generation failed: {e}, using full report instead."
+                )
                 final_report += f"{markdown_report}"
 
             # update content/news/weekly/_index.zh-cn.md description
