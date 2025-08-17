@@ -218,7 +218,7 @@ def main():
 
         if NEWS_TYPE == "weekly":
             try:
-                generate_image(prompt="a random image of abstract oil painting")
+                generate_image(markdown_report)
                 shutil.move(
                     "generated_image.png",
                     f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",

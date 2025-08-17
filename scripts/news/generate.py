@@ -15,10 +15,16 @@ client = OpenAI(
 )
 
 
-def generate_image(prompt):
-    """Generate a random image of abstract art using DALL-E."""
+def generate_image(raw_updates):
+    """Generate a random image of abstract art using gpt-image-1."""
     logger.info("Generating the cover image...")
-    prompt = prompt
+    prompt = f"""Create a illustration (2D cartoon or chibi style).
+
+Guidelines:
+- Use {raw_updates} as loose inspiration for the comic’s theme.  
+- Include reference to the contributors’ nicknames`
+- It doesn’t need to literally show code or repositories, but should vaguely reflect the idea of students updating or tinkering with their courses.  
+- Text should be minimal, only contributor names or nicknames in comic style speech bubbles or labels."""
 
     result = client.images.generate(
         model="gpt-image-1",
