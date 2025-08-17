@@ -3,16 +3,22 @@ import logging
 from openai import OpenAI
 import base64
 
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-client = OpenAI(
-    api_key=OPENAI_API_KEY,
-    base_url="https://api.aihubmix.com/v1/",
-)
+def _get_client() -> OpenAI:
+    """Create an OpenAI client from env
+    """
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError(
+            "OPENAI_API_KEY is required for AI features."
+        )
+    return OpenAI(
+        api_key=api_key,
+        base_url="https://api.aihubmix.com/v1/",
+    )
 
 
 def generate_image(raw_updates):
@@ -26,6 +32,7 @@ Guidelines:
 - It doesn’t need to literally show code or repositories, but should vaguely reflect the idea of students updating or tinkering with their courses.  
 - Text should be minimal, only contributor names or nicknames in comic style speech bubbles or labels."""
 
+    client = _get_client()
     result = client.images.generate(
         model="gpt-image-1",
         prompt=prompt,
@@ -62,6 +69,7 @@ def generate_summary(raw_updates):
 {raw_updates}
 
 请生成总结。"""
+    client = _get_client()
     summary = client.responses.create(
         model="gpt-5-mini",
         input=prompt

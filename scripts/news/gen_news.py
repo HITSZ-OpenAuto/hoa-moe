@@ -3,31 +3,20 @@ import os
 import requests
 import datetime
 import certifi
-import openai
 from pytz import timezone
 import yaml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from tqdm import tqdm
-from generate import generate_image, generate_summary
 import shutil
 
 # Load environment variables
 TOKEN = os.environ.get("TOKEN")
 ORG_NAME = os.environ.get("ORG_NAME")
 NEWS_TYPE = os.environ.get("NEWS_TYPE")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-for key in [TOKEN, ORG_NAME, NEWS_TYPE]:
-    if not key:
-        raise ValueError(
-            "Please set the environment variables: TOKEN, ORG_NAME, NEWS_TYPE"
-        )
-
-if (
-    NEWS_TYPE == "weekly" and not OPENAI_API_KEY
-):  # OpenAI API key is not necessary for daily report
-    raise ValueError("Please set the environment variable: OPENAI_API_KEY")
+if NEWS_TYPE == "weekly":
+    from generate import generate_image, generate_summary
 
 # Set SSL certificates path
 os.environ["REQUESTS_CA_BUNDLE"] = certifi.where()
@@ -168,7 +157,7 @@ def create_markdown_report(filtered_commits, org_course_name, news_type):
     """Create the markdown report from filtered commits."""
     filtered_commits.sort(key=lambda a: a["date"], reverse=True)
     markdown_report = ""
-    markdown_report += f"## 更新内容\n\n"
+    markdown_report += "## 更新内容\n\n"
     prev_date = None
 
     for commit in filtered_commits:
