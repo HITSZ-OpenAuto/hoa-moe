@@ -1,3 +1,4 @@
+import logging
 import os
 import requests
 import datetime
@@ -8,7 +9,7 @@ import yaml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from tqdm import tqdm
-from gen_image import generate_image
+from generate import generate_image, generate_summary
 import shutil
 
 # Load environment variables
@@ -49,22 +50,6 @@ def get_http_session():
 
 session = get_http_session()
 headers = {"Authorization": f"token {TOKEN}"}
-
-
-def generate_summary(report_text):
-    """Generate a summary using OpenAI's API."""
-    print("Generating AI summary...")
-    openai.api_key = OPENAI_API_KEY
-    openai.base_url = "https://aihubmix.com/v1/"
-    prompt = f"Generate a summary for the weekly commit report in Chinese:\n\n{report_text}\n\n---\n\nSummary:"
-    try:
-        completion = openai.chat.completions.create(
-            model="gpt-5-mini",
-            messages=[{"role": "system", "content": prompt}],
-        )
-        return completion.choices[0].message.content
-    except Exception:
-        return None
 
 
 def get_org_public_repos(url):
@@ -207,7 +192,7 @@ def save_report(report, news_type, display_start_time):
     """Save the generated report to a file."""
     # filename = f'content/news/{"weekly-" if news_type == "weekly" else ""}{display_start_time.date()}.md'
     if news_type == "daily":
-        filename = f"content/news/daily.md"
+        filename = "content/news/daily.md"
     else:
         filename = f"content/news/weekly/weekly-{display_start_time.date()}/index.md"
 
@@ -228,22 +213,28 @@ def main():
         markdown_report = create_markdown_report(
             filtered_commits, org_course_name, NEWS_TYPE
         )
+        
         final_report = f"---\n{yaml_front_matter}---\n\n"
+
         if NEWS_TYPE == "weekly":
-            generate_image(OPENAI_API_KEY)
-            shutil.move(
-                "generated_image.png",
-                f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",
-            )
-            shutil.move(
-                "generated_image_cropped.png",
-                f"content/news/weekly/weekly-{display_start_time.date()}/generated_image_cropped.png",
-            )
-            final_report += f"![AI Image of the Week](generated_image_cropped.png)\n\n"
-            summary = generate_summary(markdown_report)
-            if summary:
-                final_report += f"## ✨AI 摘要\n\n{summary}\n\n"
-            else:
+            try:
+                generate_image(prompt="a random image of abstract oil painting")
+                shutil.move(
+                    "generated_image.png",
+                    f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",
+                )
+                final_report += "![AI Image of the Week](generated_image.png)\n\n"
+                logging.info("AI image generated successfully.")
+            except Exception as e:
+                logging.warning(f"Image generation failed: {e}")
+
+            try:
+                summary = generate_summary(markdown_report)
+                if summary == "__NO_SUMMARY__":
+                    logging.info("No summary generated, using full report instead.")
+                    final_report += f"{markdown_report}"
+            except Exception as e:
+                logging.warning(f"Summary generation failed: {e}, using full report instead.")
                 final_report += f"{markdown_report}"
 
             # update content/news/weekly/_index.zh-cn.md description
