@@ -38,7 +38,7 @@ Guidelines:
     # Save the image to a file
     with open("generated_image.png", "wb") as f:
         f.write(image_bytes)
-        print("Image downloaded and saved as 'generated_image.png'")
+        logger.info("Image downloaded and saved as 'generated_image.png'")
 
 
 def generate_summary(raw_updates):
