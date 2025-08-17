@@ -51,9 +51,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [修改文理通识门数限制](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/6)
+### [添加自救群共享文档部分课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/11)
 
 - **仓库**: GeneralKnowledge
-- **创建于**: 2025-02-22 21:15:11
+- **创建于**: 2025-08-17 00:37:49
 - **作者**: WDGaster703
 
