@@ -232,7 +232,11 @@ def main():
                 summary = generate_summary(markdown_report)
                 if summary == "__NO_SUMMARY__":
                     logging.info("No summary generated, using full report instead.")
-                    final_report += f"{markdown_report}"
+                else:
+                    logging.info("AI summary generated successfully.")
+                    final_report += f"{summary}"
+                final_report += f"{markdown_report}"
+
             except Exception as e:
                 logging.warning(f"Summary generation failed: {e}, using full report instead.")
                 final_report += f"{markdown_report}"

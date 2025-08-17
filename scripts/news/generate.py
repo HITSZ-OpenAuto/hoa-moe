@@ -62,12 +62,8 @@ def generate_summary(raw_updates):
 {raw_updates}
 
 请生成总结。"""
-    try:
-        summary = client.responses.create(
-            model="gpt-5-mini",
-            input=prompt
-        )
-        return summary.output_text
-    except Exception:
-        logger.error("Error generating AI summary", exc_info=True)
-        return None
+    summary = client.responses.create(
+        model="gpt-5-mini",
+        input=prompt
+    )
+    return summary.output_text
