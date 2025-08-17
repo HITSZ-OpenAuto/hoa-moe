@@ -22,7 +22,7 @@ def generate_image(raw_updates):
 
 Guidelines:
 - Use {raw_updates} as loose inspiration for the comic’s theme.  
-- Include reference to the contributors’ nicknames`
+- Include reference to the contributors’ nicknames
 - It doesn’t need to literally show code or repositories, but should vaguely reflect the idea of students updating or tinkering with their courses.  
 - Text should be minimal, only contributor names or nicknames in comic style speech bubbles or labels."""
 
