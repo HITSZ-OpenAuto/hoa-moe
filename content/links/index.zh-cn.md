@@ -46,6 +46,7 @@ sidebar:
   {{< hoa-cards/card link="https://scuteee.com/" title="SCUTEEE" subtitle="华南理工电力电子类专业知识库" image="https://scuteee.com/favicon-32x32.png" >}}
   {{< hoa-cards/card link="https://penjc.github.io/CityU/" title="CityU GuideBook" subtitle="A comprehensive platform for CityUHK students" image="https://penjc.github.io/CityU/img/favicon.ico" >}}
   {{< hoa-cards/card link="https://nuaa.store/" title="NUAA Store" subtitle="Everything here is free." image="https://nuaa.store/favicon.ico" >}}
+  {{< hoa-cards/card link="https://yigebande.github.io/SYSU-SAA-Survival-Manual/" title="SYSU SAA Survival Manual" subtitle="中⼭⼤学航空航天学院⽣存⼿册" image="logos/SYSU-SAA-Survival-Manual.png" >}}
 {{< /hoa-cards/cards >}}
 
 ## 个人博客
