@@ -1,32 +1,22 @@
+import logging
 import os
 import requests
 import datetime
 import certifi
-import openai
 from pytz import timezone
 import yaml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from tqdm import tqdm
-from gen_image import generate_image
 import shutil
 
 # Load environment variables
 TOKEN = os.environ.get("TOKEN")
 ORG_NAME = os.environ.get("ORG_NAME")
 NEWS_TYPE = os.environ.get("NEWS_TYPE")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-for key in [TOKEN, ORG_NAME, NEWS_TYPE]:
-    if not key:
-        raise ValueError(
-            "Please set the environment variables: TOKEN, ORG_NAME, NEWS_TYPE"
-        )
-
-if (
-    NEWS_TYPE == "weekly" and not OPENAI_API_KEY
-):  # OpenAI API key is not necessary for daily report
-    raise ValueError("Please set the environment variable: OPENAI_API_KEY")
+if NEWS_TYPE == "weekly":
+    from generate import generate_image, generate_summary
 
 # Set SSL certificates path
 os.environ["REQUESTS_CA_BUNDLE"] = certifi.where()
@@ -49,22 +39,6 @@ def get_http_session():
 
 session = get_http_session()
 headers = {"Authorization": f"token {TOKEN}"}
-
-
-def generate_summary(report_text):
-    """Generate a summary using OpenAI's API."""
-    print("Generating AI summary...")
-    openai.api_key = OPENAI_API_KEY
-    openai.base_url = "https://aihubmix.com/v1/"
-    prompt = f"Generate a summary for the weekly commit report in Chinese:\n\n{report_text}\n\n---\n\nSummary:"
-    try:
-        completion = openai.chat.completions.create(
-            model="gpt-5-mini",
-            messages=[{"role": "system", "content": prompt}],
-        )
-        return completion.choices[0].message.content
-    except Exception:
-        return None
 
 
 def get_org_public_repos(url):
@@ -183,7 +157,7 @@ def create_markdown_report(filtered_commits, org_course_name, news_type):
     """Create the markdown report from filtered commits."""
     filtered_commits.sort(key=lambda a: a["date"], reverse=True)
     markdown_report = ""
-    markdown_report += f"## 更新内容\n\n"
+    markdown_report += "## 更新内容\n\n"
     prev_date = None
 
     for commit in filtered_commits:
@@ -207,7 +181,7 @@ def save_report(report, news_type, display_start_time):
     """Save the generated report to a file."""
     # filename = f'content/news/{"weekly-" if news_type == "weekly" else ""}{display_start_time.date()}.md'
     if news_type == "daily":
-        filename = f"content/news/daily.md"
+        filename = "content/news/daily.md"
     else:
         filename = f"content/news/weekly/weekly-{display_start_time.date()}/index.md"
 
@@ -228,22 +202,34 @@ def main():
         markdown_report = create_markdown_report(
             filtered_commits, org_course_name, NEWS_TYPE
         )
+
         final_report = f"---\n{yaml_front_matter}---\n\n"
+
         if NEWS_TYPE == "weekly":
-            generate_image(OPENAI_API_KEY)
-            shutil.move(
-                "generated_image.png",
-                f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",
-            )
-            shutil.move(
-                "generated_image_cropped.png",
-                f"content/news/weekly/weekly-{display_start_time.date()}/generated_image_cropped.png",
-            )
-            final_report += f"![AI Image of the Week](generated_image_cropped.png)\n\n"
-            summary = generate_summary(markdown_report)
-            if summary:
-                final_report += f"## ✨AI 摘要\n\n{summary}\n\n"
-            else:
+            try:
+                generate_image(markdown_report)
+                shutil.move(
+                    "generated_image.png",
+                    f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",
+                )
+                final_report += "![AI Image of the Week](generated_image.png)\n\n"
+                logging.info("AI image generated successfully.")
+            except Exception as e:
+                logging.warning(f"Image generation failed: {e}")
+
+            try:
+                summary = generate_summary(markdown_report)
+                if summary == "__NO_SUMMARY__":
+                    logging.info("No summary generated, using full report instead.")
+                else:
+                    logging.info("AI summary generated successfully.")
+                    final_report += f"{summary}"
+                final_report += f"{markdown_report}"
+
+            except Exception as e:
+                logging.warning(
+                    f"Summary generation failed: {e}, using full report instead."
+                )
                 final_report += f"{markdown_report}"
 
             # update content/news/weekly/_index.zh-cn.md description
