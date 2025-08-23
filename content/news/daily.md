@@ -26,6 +26,8 @@ title: AUTO 更新速递
 
 - JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
 
+- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
+
 - JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：docs:修改错误的学分
 
 ### 周六 (8.23)
