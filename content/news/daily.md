@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-11'
-description: 北京时间 2025-08-10 00 时至今
+date: '2025-08-23'
+description: 北京时间 2025-08-22 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,34 +12,142 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (8.10)
+### 周六 (8.23)
 
-- psp_dada 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：更新本人的学习建议 (#17)
+- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：docs:add new content from OpenCS
 
 ## 待解决的 Issues
 
-### [COMP3001 操作系统](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/23)
+### [COMP3028 软件体系结构](https://github.com/HITSZ-OpenAuto/COMP3028/issues/1)
 
-- **仓库**: AUTO3001A
-- **创建于**: 2025-08-07 18:58:26
+- **仓库**: COMP3028
+- **创建于**: 2025-08-23 18:47:52
+- **作者**: LiPu-jpg
+
+### [COMP3029 计算机视觉](https://github.com/HITSZ-OpenAuto/COMP3042/issues/3)
+
+- **仓库**: COMP3042
+- **创建于**: 2025-08-23 18:47:15
+- **作者**: LiPu-jpg
+
+### [COMP3003 计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003/issues/1)
+
+- **仓库**: COMP3003
+- **创建于**: 2025-08-23 18:46:47
+- **作者**: LiPu-jpg
+
+### [COMP3052 计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052/issues/1)
+
+- **仓库**: COMP3052
+- **创建于**: 2025-08-23 18:46:16
+- **作者**: LiPu-jpg
+
+### [COMP3021 自然语言处理](https://github.com/HITSZ-OpenAuto/COMP3021/issues/1)
+
+- **仓库**: COMP3021
+- **创建于**: 2025-08-23 18:45:29
+- **作者**: LiPu-jpg
+
+### [COMP3054 网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054/issues/1)
+
+- **仓库**: COMP3054
+- **创建于**: 2025-08-23 18:44:47
+- **作者**: LiPu-jpg
+
+### [COMP3019 生物信息学](https://github.com/HITSZ-OpenAuto/COMP3019/issues/1)
+
+- **仓库**: COMP3019
+- **创建于**: 2025-08-23 18:44:06
+- **作者**: LiPu-jpg
+
+### [COMP3042 服务计算](https://github.com/HITSZ-OpenAuto/COMP3042/issues/2)
+
+- **仓库**: COMP3042
+- **创建于**: 2025-08-23 18:43:23
+- **作者**: LiPu-jpg
+
+### [COMP3042 智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042/issues/1)
+
+- **仓库**: COMP3042
+- **创建于**: 2025-08-23 18:42:28
+- **作者**: LiPu-jpg
+
+### [COMP3005 人工智能](https://github.com/HITSZ-OpenAuto/COMP3005/issues/1)
+
+- **仓库**: COMP3005
+- **创建于**: 2025-08-23 18:41:51
+- **作者**: LiPu-jpg
+
+### [COMP3002 软件工程](https://github.com/HITSZ-OpenAuto/COMP3002/issues/1)
+
+- **仓库**: COMP3002
+- **创建于**: 2025-08-23 18:40:24
+- **作者**: LiPu-jpg
+
+### [COMP3011 计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011/issues/1)
+
+- **仓库**: COMP3011
+- **创建于**: 2025-08-23 18:39:47
+- **作者**: LiPu-jpg
+
+### [COMP3013 编译原理](https://github.com/HITSZ-OpenAuto/COMP3013/issues/1)
+
+- **仓库**: COMP3013
+- **创建于**: 2025-08-23 18:39:14
+- **作者**: LiPu-jpg
+
+### [COMP3006 模式识别](https://github.com/HITSZ-OpenAuto/COMP3007/issues/1)
+
+- **仓库**: COMP3007
+- **创建于**: 2025-08-23 18:38:19
+- **作者**: LiPu-jpg
+
+### [COMP3006 机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006/issues/1)
+
+- **仓库**: COMP3006
+- **创建于**: 2025-08-23 18:37:38
+- **作者**: LiPu-jpg
+
+### [COMP3010 数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010/issues/1)
+
+- **仓库**: COMP3010
+- **创建于**: 2025-08-23 18:36:47
+- **作者**: LiPu-jpg
+
+### [COMP3001 操作系统](https://github.com/HITSZ-OpenAuto/COMP3001/issues/1)
+
+- **仓库**: COMP3001
+- **创建于**: 2025-08-23 18:36:05
+- **作者**: LiPu-jpg
+
+### [COMP3040 密码学基础](https://github.com/HITSZ-OpenAuto/COMP3040/issues/1)
+
+- **仓库**: COMP3040
+- **创建于**: 2025-08-23 18:35:21
+- **作者**: LiPu-jpg
+
+### [COMP3009 大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009/issues/1)
+
+- **仓库**: COMP3009
+- **创建于**: 2025-08-23 18:34:14
+- **作者**: LiPu-jpg
+
+### [COMP3018 图像处理](https://github.com/HITSZ-OpenAuto/COMP3018/issues/1)
+
+- **仓库**: COMP3018
+- **创建于**: 2025-08-23 18:33:04
+- **作者**: LiPu-jpg
+
+### [COMP2012 计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012/issues/1)
+
+- **仓库**: COMP2012
+- **创建于**: 2025-08-23 17:46:27
 - **作者**: WDGaster703
 
-### [COMP3003 计算机网络](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/22)
+### [COMP2051 数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051/issues/1)
 
-- **仓库**: AUTO3001A
-- **创建于**: 2025-08-07 18:58:17
-- **作者**: WDGaster703
-
-### [COMP2030 离散数学](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/21)
-
-- **仓库**: AUTO3001A
-- **创建于**: 2025-08-07 18:57:43
-- **作者**: WDGaster703
-
-### [COMP2030 离散数学](https://github.com/HITSZ-OpenAuto/AUTO3001A/issues/20)
-
-- **仓库**: AUTO3001A
-- **创建于**: 2025-08-04 01:24:51
+- **仓库**: COMP2051
+- **创建于**: 2025-08-23 17:32:36
 - **作者**: WDGaster703
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
