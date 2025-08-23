@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (8.24)
 
+- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：docs:add new content from OpenCS
+
 - JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
 
 - JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
