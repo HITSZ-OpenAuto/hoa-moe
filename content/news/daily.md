@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-08-23'
-description: 北京时间 2025-08-22 16 时至今
+description: 北京时间 2025-08-22 17 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,10 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (8.24)
+
+- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：docs:add new content from OpenCS
+
+- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：docs:add new content from OpenCS
 
 - JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3007) 中提交了信息：docs:add new content from OpenCS
 
@@ -91,6 +95,18 @@ title: AUTO 更新速递
 - JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：docs:add new content from OpenCS
 
 ## 待解决的 Issues
+
+### [COMP2010 近世代数](https://github.com/HITSZ-OpenAuto/COMP2010/issues/1)
+
+- **仓库**: COMP2010
+- **创建于**: 2025-08-24 01:33:17
+- **作者**: LiPu-jpg
+
+### [COMP3053 汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053/issues/1)
+
+- **仓库**: COMP3053
+- **创建于**: 2025-08-24 01:28:37
+- **作者**: LiPu-jpg
 
 ### [COMP3007 模式识别](https://github.com/HITSZ-OpenAuto/COMP3007/issues/2)
 
@@ -230,14 +246,13 @@ title: AUTO 更新速递
 - **创建于**: 2025-08-23 17:32:36
 - **作者**: WDGaster703
 
-### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
-
-- **仓库**: MATH1002
-- **创建于**: 2025-01-20 15:32:37
-- **作者**: MaxwellJay256
-- **标签**: help wanted
-
 ## 待合并的 Pull Requests
+
+### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3042/pull/4)
+
+- **仓库**: COMP3042
+- **创建于**: 2025-08-24 01:20:40
+- **作者**: mircecilia
 
 ### [添加自救群共享文档部分课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/11)
 
