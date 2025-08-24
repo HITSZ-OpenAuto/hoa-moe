@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-23'
-description: 北京时间 2025-08-22 18 时至今
+date: '2025-08-24'
+description: 北京时间 2025-08-23 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -281,6 +281,42 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3005/pull/3)
+
+- **仓库**: COMP3005
+- **创建于**: 2025-08-24 03:12:19
+- **作者**: mircecilia
+
+### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3028/pull/2)
+
+- **仓库**: COMP3028
+- **创建于**: 2025-08-24 03:11:02
+- **作者**: mircecilia
+
+### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3029/pull/1)
+
+- **仓库**: COMP3029
+- **创建于**: 2025-08-24 03:05:28
+- **作者**: mircecilia
+
+### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3003/pull/2)
+
+- **仓库**: COMP3003
+- **创建于**: 2025-08-24 02:52:59
+- **作者**: mircecilia
+
+### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3052/pull/2)
+
+- **仓库**: COMP3052
+- **创建于**: 2025-08-24 02:26:42
+- **作者**: mircecilia
+
+### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3021/pull/2)
+
+- **仓库**: COMP3021
+- **创建于**: 2025-08-24 02:21:45
+- **作者**: mircecilia
 
 ### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3054/pull/2)
 
