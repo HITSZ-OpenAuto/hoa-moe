@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-24'
-description: 北京时间 2025-08-23 00 时至今
+date: '2025-08-25'
+description: 北京时间 2025-08-24 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,115 +12,27 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (8.24)
+### 周一 (8.25)
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：add new content from OpenCS (#1)
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3019) 中提交了信息：add new content from OpenCS (#2)
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3003) 中提交了信息：add new content from OpenCS (#2)
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3029) 中提交了信息：Merge pull request #1 from mircecilia/main
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Merge pull request #2 from mircecilia/main
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Merge pull request #2 from mircecilia/main
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3021) 中提交了信息：add new content from OpenCS (#2)
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：Merge pull request #4 from mircecilia/main
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：add new content from OpenCS (#2)
 
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3007) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：docs:修改错误的学分
-
-### 周六 (8.23)
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3040) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：docs:更改分数构成
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：docs:add new content from OpenCS
-
-- JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：docs:add new content from OpenCS
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：add new content from OpenCS (#3)
 
 ## 待解决的 Issues
 
@@ -282,65 +194,11 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3005/pull/3)
+### [feat: add blog index page with post listing and styling](https://github.com/HITSZ-OpenAuto/aextra/pull/4)
 
-- **仓库**: COMP3005
-- **创建于**: 2025-08-24 03:12:19
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3028/pull/2)
-
-- **仓库**: COMP3028
-- **创建于**: 2025-08-24 03:11:02
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3029/pull/1)
-
-- **仓库**: COMP3029
-- **创建于**: 2025-08-24 03:05:28
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3003/pull/2)
-
-- **仓库**: COMP3003
-- **创建于**: 2025-08-24 02:52:59
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3052/pull/2)
-
-- **仓库**: COMP3052
-- **创建于**: 2025-08-24 02:26:42
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3021/pull/2)
-
-- **仓库**: COMP3021
-- **创建于**: 2025-08-24 02:21:45
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3054/pull/2)
-
-- **仓库**: COMP3054
-- **创建于**: 2025-08-24 02:02:37
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3019/pull/2)
-
-- **仓库**: COMP3019
-- **创建于**: 2025-08-24 01:53:49
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3017/pull/1)
-
-- **仓库**: COMP3017
-- **创建于**: 2025-08-24 01:42:31
-- **作者**: mircecilia
-
-### [add new content from OpenCS](https://github.com/HITSZ-OpenAuto/COMP3042/pull/4)
-
-- **仓库**: COMP3042
-- **创建于**: 2025-08-24 01:20:40
-- **作者**: mircecilia
+- **仓库**: aextra
+- **创建于**: 2025-08-24 23:27:52
+- **作者**: syhanjin
 
 ### [添加自救群共享文档部分课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/11)
 
