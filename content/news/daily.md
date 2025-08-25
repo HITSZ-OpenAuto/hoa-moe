@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-08-25'
-description: 北京时间 2025-08-24 00 时至今
+description: 北京时间 2025-08-24 07 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周一 (8.25)
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：迁移 OpenCS 仓库对应内容并补充 23 级相关变化
 
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：add new content from OpenCS (#1)
 
