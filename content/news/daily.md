@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (8.25)
 
+- WDGaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：迁移实验
+
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：迁移 OpenCS 仓库对应内容并补充 23 级相关变化
 
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：迁移 OpenCS 仓库对应内容并补充 23 级相关变化
