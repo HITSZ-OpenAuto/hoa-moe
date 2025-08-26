@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-08-25'
-description: 北京时间 2025-08-24 08 时至今
+date: '2025-08-26'
+description: 北京时间 2025-08-25 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -41,6 +41,12 @@ title: AUTO 更新速递
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：add new content from OpenCS (#3)
 
 ## 待解决的 Issues
+
+### [COMP2030 离散数学](https://github.com/HITSZ-OpenAuto/COMP2030/issues/1)
+
+- **仓库**: COMP2030
+- **创建于**: 2025-08-25 16:34:48
+- **作者**: WDGaster703
 
 ### [COMP3004 形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004/issues/1)
 
