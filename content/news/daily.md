@@ -198,12 +198,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-08-23 17:46:27
 - **作者**: WDGaster703
 
-### [COMP2051 数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051/issues/1)
-
-- **仓库**: COMP2051
-- **创建于**: 2025-08-23 17:32:36
-- **作者**: WDGaster703
-
 ## 待合并的 Pull Requests
 
 ### [feat: add blog index page with post listing and styling](https://github.com/HITSZ-OpenAuto/aextra/pull/4)
