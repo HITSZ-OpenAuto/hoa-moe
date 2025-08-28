@@ -200,6 +200,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [feat(toc): add minDepth prop and improve numbering logic](https://github.com/HITSZ-OpenAuto/aextra/pull/6)
+
+- **仓库**: aextra
+- **创建于**: 2025-08-27 15:46:14
+- **作者**: syhanjin
+
 ### [feat: add blog index page with post listing and styling](https://github.com/HITSZ-OpenAuto/aextra/pull/4)
 
 - **仓库**: aextra
