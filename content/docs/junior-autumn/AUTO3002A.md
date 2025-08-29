@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 6 月 27 日" author="psp_dada" message="重新上传个人的作业和实验报告 (#29)" >}}
+{{< update-info update_time="2025 年 8 月 29 日" author="IcyDesert" message="[automated-generated-PR] ci: updated worktree.json generation (#35)" >}}
 
 
 <div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
