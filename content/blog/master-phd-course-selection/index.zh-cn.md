@@ -16,7 +16,7 @@ excludeSearch: false
 
 [培养方案 - 哈尔滨工业大学（深圳）教务部](http://due.hitsz.edu.cn/jxyj/pyfa.htm)
 
-[2025-2026学年度 研究生培养方案](http://due.hitsz.edu.cn/info/1029/7121.htm)
+[2025-2026 学年度 研究生培养方案](http://due.hitsz.edu.cn/info/1029/7121.htm)
 
 ## 公共课
 
@@ -233,7 +233,7 @@ excludeSearch: false
 
 详见下面链接中的「附录 1：各专业硕士层次选修课程模块.rar」、「附录 2：各专业博士层次选修课程模块.rar」和「附录 3：公共类课程清单.rar」。
 
-[2025-2026学年度 研究生培养方案](http://due.hitsz.edu.cn/info/1029/7121.htm)
+[2025-2026 学年度 研究生培养方案](http://due.hitsz.edu.cn/info/1029/7121.htm)
 
 学硕的要求：不少于 **8** 学分，其中《职业伦理》（1 学分）必修。
 
