@@ -223,7 +223,7 @@ def main():
                     logging.info("No summary generated, using full report instead.")
                 else:
                     logging.info("AI summary generated successfully.")
-                    final_report += f"{summary}"
+                    final_report += f"{summary}\n\n"
                 final_report += f"{markdown_report}"
 
             except Exception as e:
