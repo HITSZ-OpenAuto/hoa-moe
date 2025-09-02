@@ -21,7 +21,7 @@ layout: hextra-home
     subtitle="笔记分享、实验攻略、考试复习"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     image="images/contents.webp"
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] sm:hx:w-[110%] dark:hx:opacity-80"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] sm:hx:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
     link="/docs"
   >}}
@@ -30,7 +30,7 @@ layout: hextra-home
     subtitle="版本控制、协作编辑、问题反馈"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
     image="/images/github.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] sm:hx:w-[110%] dark:hx:opacity-80"
+    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] sm:hx:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
     link="https://github.com/HITSZ-OpenAuto"
   >}}
@@ -39,7 +39,7 @@ layout: hextra-home
     subtitle="优质长文内容，支持 RSS 订阅"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     image="/images/blog.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] sm:hx:w-[110%] dark:hx:opacity-80"
+    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] sm:hx:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
     link="/blog"
   >}}
