@@ -16,7 +16,7 @@
     <div class="hx:py-1 grid-col-span-2">
         <div class="hx:mt-6 hx:mb-6">
             <h1
-            class="not-prose hx:text-4xl hx:font-bold hx:leading-none hx:tracking-tighter md:hx:text-5xl hx:py-1 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400"
+            class="not-prose hx:text-4xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-5xl hx:py-1 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400"
             {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
             >
             {{ .Inner | markdownify }}
@@ -45,7 +45,7 @@
 
     </div>
     {{ if $image }}
-        <div class="hx:py-3 md:hx:block md:hx:float-right">
+        <div class="hx:py-3 hx:md:block hx:md:float-right">
             <img src={{ $image }} width="400" alt="Logo"/><br/>
         </div>
     
