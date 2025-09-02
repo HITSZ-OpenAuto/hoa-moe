@@ -9,9 +9,9 @@
 {{- $imageStyle := .imageStyle -}}
 
 
-{{ $linkClass := "hx:hover:border-gray-300 hx:bg-transparent hx:shadow-sm dark:hx:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md dark:hx:hover:border-neutral-700 dark:hx:hover:bg-neutral-900" }}
+{{ $linkClass := "hx:hover:border-gray-300 hx:bg-transparent hx:shadow-sm hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900" }}
 {{- with $image -}}
-  {{ $linkClass = "hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow dark:hx:border-neutral-700 dark:hx:bg-neutral-800 dark:hx:text-gray-50 hx:hover:shadow-lg dark:hx:hover:border-neutral-500 dark:hx:hover:bg-neutral-700" }}
+  {{ $linkClass = "hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700" }}
 {{- end -}}
 
 {{- $external := strings.HasPrefix $link "http" -}}
@@ -19,7 +19,7 @@
 
 
 <a
-  class="hoa-friend-link hx:bg-white hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-3xl hx:border hx:border-gray-200 hx:text-current hx:no-underline dark:hx:shadow-none hx:hover:shadow-gray-100 dark:hx:hover:shadow-none hx:shadow-gray-100 active:hx:shadow-sm active:hx:shadow-gray-200 hx:transition-all hx:duration-200 hx:relative {{ $linkClass }}"
+  class="hoa-friend-link hx:bg-white hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-3xl hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 active:hx:shadow-sm active:hx:shadow-gray-200 hx:transition-all hx:duration-200 hx:relative {{ $linkClass }}"
   {{- if $link -}}
     href="{{ $href }}"
     {{ with $external }}target="_blank" rel="noreferrer"{{ end -}}
@@ -49,12 +49,12 @@
     {{- end -}}
 
     <div class="hx:flex hx:flex-col hx:h-full hx:min-w-2/4 hx:w-7/12 hx:items-start hx:justify-center">
-      <span class="hx:flex hx:font-semibold hx:items-start hx:gap-2 {{ $padding }} hx:text-gray-700 hx:hover:text-gray-900 dark:hx:text-neutral-200 dark:hx:hover:text-neutral-50">
+      <span class="hx:flex hx:font-semibold hx:items-start hx:gap-2 {{ $padding }} hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">
         {{- with $icon }}{{ partial "utils/icon.html" (dict "name" $icon) -}}{{- end -}}
         {{- $title -}}
       </span>
       {{- with $subtitle -}}
-        <div class="hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 dark:hx:text-gray-400 hx:px-4 hx:mb-4">{{- $subtitle | markdownify -}}</div>
+        <div class="hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4">{{- $subtitle | markdownify -}}</div>
       {{- end -}}
     </div>
 
