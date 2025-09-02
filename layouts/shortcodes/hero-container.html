@@ -16,7 +16,7 @@
     <div class="hx:py-1 grid-col-span-2">
         <div class="hx:mt-6 hx:mb-6">
             <h1
-            class="not-prose hx:text-4xl hx:font-bold hx:leading-none hx:tracking-tighter md:hx:text-5xl hx:py-1 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 dark:hx:from-gray-100 dark:hx:to-gray-400"
+            class="not-prose hx:text-4xl hx:font-bold hx:leading-none hx:tracking-tighter md:hx:text-5xl hx:py-1 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400"
             {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
             >
             {{ .Inner | markdownify }}
@@ -25,7 +25,7 @@
 
         <div class="hx:mb-6">
             <p
-            class="not-prose hx:text-xl hx:text-gray-600 dark:hx:text-gray-400 sm:hx:text-xl"
+            class="not-prose hx:text-xl hx:text-gray-600 hx:dark:text-gray-400 sm:hx:text-xl"
             {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
             >
             {{ $subtitle | markdownify }}
@@ -35,7 +35,7 @@
         <div class="hx:mb-6">
             <a
             href="{{ $href }}"
-            class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 focus:hx:outline-hidden focus:hx:ring-4 focus:hx:ring-primary-300 dark:hx:bg-primary-600 dark:hx:hover:bg-primary-700 dark:focus:hx:ring-primary-800 hx:transition-all hx:ease-in hx:duration-200"
+            class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 focus:hx:outline-hidden focus:hx:ring-4 focus:hx:ring-primary-300 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 dark:focus:hx:ring-primary-800 hx:transition-all hx:ease-in hx:duration-200"
             {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
             {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
             >
