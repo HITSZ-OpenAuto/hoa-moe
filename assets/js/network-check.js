@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             return (async () => {
                 // 初始状态移除所有背景色
-                networkPoint.classList.remove('hx-bg-green-500', 'hx-bg-yellow-500', 'hx-bg-red-500');
+                networkPoint.classList.remove('hx:bg-green-500', 'hx:bg-yellow-500', 'hx:bg-red-500');
                 
                 try {
                     const controller = new AbortController();
@@ -37,13 +37,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     
                     // 根据响应时间添加对应的类
                     if (responseTime <= 2000) {
-                        networkPoint.classList.add('hx-bg-green-500');
+                        networkPoint.classList.add('hx:bg-green-500');
                     } else if (responseTime < 4000) {
-                        networkPoint.classList.add('hx-bg-yellow-500');
+                        networkPoint.classList.add('hx:bg-yellow-500');
                     }
                 } catch (error) {
                     // 发生错误或超时时添加红色类名
-                    networkPoint.classList.add('hx-bg-red-500');
+                    networkPoint.classList.add('hx:bg-red-500');
                 }
             })();
         });
