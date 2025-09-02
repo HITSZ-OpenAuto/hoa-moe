@@ -7,21 +7,21 @@
 
 <div class="hx:w-full hx:flex hx:flex-col hx:mt-4 not-prose">
     <div class="hx:flex hx:justify-start hx:items-center hx:gap-2 hx:mb-2">
-        <button class="hx:flex hx:items-center hx:text-xs md:hx:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-blue-600 hx:px-2 hx:py-1 hx:rounded-lg hx:transition hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-blue-400">
+        <button class="hx:flex hx:items-center hx:text-xs hx:md:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-blue-600 hx:px-2 hx:py-1 hx:rounded-lg hx:transition hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-blue-400">
             <a href="{{ $driveURL }}" target="_blank" class="hx:flex hx:items-center hx:gap-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                      stroke-linecap="round" stroke-linejoin="round"
-                     class="hx:size-3 md:hx:size-4">
+                     class="hx:size-3 hx:md:size-4">
                     <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
                 </svg>
                 内网网盘
             </a>
         </button>
-        <button class="hoa-filetree-download hx:flex hx:items-center hx:gap-1 hx:text-xs md:hx:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-blue-600 hx:px-2 hx:py-1 hx:rounded-lg hx:transition hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-blue-400">
+        <button class="hoa-filetree-download hx:flex hx:items-center hx:gap-1 hx:text-xs hx:md:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-blue-600 hx:px-2 hx:py-1 hx:rounded-lg hx:transition hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-blue-400">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                 class="hx:size-3 md:hx:size-4">
+                 class="hx:size-3 hx:md:size-4">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                 <polyline points="7 10 12 15 17 10"/>
                 <line x1="12" x2="12" y1="15" y2="3"/>
@@ -32,10 +32,10 @@
         <input type="checkbox" id="hoa-filetree-download-accelerate"
                class="hoa-filetree-download-accelerate hx:h-0 hx:w-0 hx:opacity-0">
         <label for="hoa-filetree-download-accelerate"
-               class="select hx:flex hx:items-center hx:gap-1 hx:text-xs md:hx:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-gray-700 hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-gray-300 hx:px-2 hx:py-1 hx:rounded-lg hx:transition">
+               class="select hx:flex hx:items-center hx:gap-1 hx:text-xs hx:md:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-gray-700 hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-gray-300 hx:px-2 hx:py-1 hx:rounded-lg hx:transition">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                 class="hx:size-3 md:hx:size-4">
+                 class="hx:size-3 hx:md:size-4">
                 <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
             </svg>
             校园网加速
@@ -51,8 +51,8 @@
         <ul class="hoa-filetree-container hx:w-full hx:my-0">
             {{- .Inner -}}
             <div class="hoa-filetree-contribute-hint hx:w-full hx:h-32 hx:mb-2 hx:border-dashed hx:border-2 hx:dark:border-[#262626] hx:border-t-0 hx:rounded-b-md hx:bg-[#f6f8fa]/[0.4] hx:dark:bg-[#090705]/[0.4] hx:flex hx:flex-col hx:items-center hx:justify-center">
-                <div class="hx:text-lg md:hx:text-xl hx:font-bold hx:text-slate-700 hx:dark:text-slate-300">没有更多相关文件了呢 T^T</div>
-                <div class="hx:text-xs md:hx:text-sm hx:mt-1 hx:text-slate-700 hx:dark:text-slate-300">想参与？来<a href="{{ $repoURL }}" class="hoa-inline-link hx:mx-0.5">课程仓库</a>提交 PR 吧！👉 <a href="https://hoa.moe/blog/contribution-guide/" class="hoa-inline-link hx:mx-0.5">查看《参与指南》</a></div>
+                <div class="hx:text-lg hx:md:text-xl hx:font-bold hx:text-slate-700 hx:dark:text-slate-300">没有更多相关文件了呢 T^T</div>
+                <div class="hx:text-xs hx:md:text-sm hx:mt-1 hx:text-slate-700 hx:dark:text-slate-300">想参与？来<a href="{{ $repoURL }}" class="hoa-inline-link hx:mx-0.5">课程仓库</a>提交 PR 吧！👉 <a href="https://hoa.moe/blog/contribution-guide/" class="hoa-inline-link hx:mx-0.5">查看《参与指南》</a></div>
             </div>
         </ul>
     </div>
