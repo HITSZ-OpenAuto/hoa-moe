@@ -62,11 +62,7 @@
     {{- $jsFileTree = $jsFileTree | minify | fingerprint -}}
     {{- $jsFileCheck = $jsFileCheck | minify | fingerprint -}}
     {{- $jsFileDownload = $jsFileDownload | minify | fingerprint -}}
-    <script defer src="{{ $jsFileTree.RelPermalink }}" integrity="{{ $jsFileTree.Data.Integrity }}"></script>
-    <script defer src="{{ $jsFileCheck.RelPermalink }}" integrity="{{ $jsFileCheck.Data.Integrity }}"></script>
-    <script defer src="{{ $jsFileDownload.RelPermalink }}" integrity="{{ $jsFileDownload.Data.Integrity }}"></script>
-{{- else -}}
-    <script defer src="{{ $jsFileTree.RelPermalink }}"></script>
-    <script defer src="{{ $jsFileCheck.RelPermalink }}"></script>
-    <script defer src="{{ $jsFileDownload.RelPermalink }}"></script>
 {{- end -}}
+<script defer src="{{ $jsFileTree.RelPermalink }}" integrity="{{ $jsFileTree.Data.Integrity }}"></script>
+<script defer src="{{ $jsFileCheck.RelPermalink }}" integrity="{{ $jsFileCheck.Data.Integrity }}"></script>
+<script defer src="{{ $jsFileDownload.RelPermalink }}" integrity="{{ $jsFileDownload.Data.Integrity }}"></script>
