@@ -107,7 +107,7 @@ a.hextra-feature-card:hover {
 }
 
 .grid-col-span-2 {
-  grid-column: span 2 / span 2;
+  grid-column: span 2;
 }
 
 .img-div > p {
