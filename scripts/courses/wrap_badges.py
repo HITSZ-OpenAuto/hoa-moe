@@ -5,7 +5,7 @@ import urllib.parse
 
 
 def wrap_badges_with_div(
-    content, div_classes="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center"
+    content, div_classes="img-div hx:mt-4 hx:flex-row hx:justify-start hx:items-center"
 ):
     """
     查找连续的 badge 行并用 div 包装
@@ -139,8 +139,8 @@ def main():
     parser.add_argument(
         "-c",
         "--classes",
-        default="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center",
-        help='div 标签的类名 (默认："img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center")',
+        default="img-div hx:mt-4 hx:flex-row hx:justify-start hx:items-center",
+        help='div 标签的类名 (默认："img-div hx:mt-4 hx:flex-row hx:justify-start hx:items-center")',
     )
 
     # 解析参数
