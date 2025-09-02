@@ -10,7 +10,7 @@
 {{- $href := cond (hasPrefix $button_link "/") ($button_link | relURL) $button_link -}}
 
 <div
-  class="hextra-feature-grid hx:grid sm:max-lg:hx:grid-cols-2 max-sm:hx:grid-cols-1 hx:gap-10 hx:w-full not-prose"
+  class="hextra-feature-grid hx:grid sm:max-lg:hx:grid-cols-2 max-hx:sm:grid-cols-1 hx:gap-10 hx:w-full not-prose"
   {{ with $css }}style="{{ . | safeCSS }}"{{ end }}
 >
     <div class="hx:py-1 grid-col-span-2">
@@ -25,7 +25,7 @@
 
         <div class="hx:mb-6">
             <p
-            class="not-prose hx:text-xl hx:text-gray-600 hx:dark:text-gray-400 sm:hx:text-xl"
+            class="not-prose hx:text-xl hx:text-gray-600 hx:dark:text-gray-400 hx:sm:text-xl"
             {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
             >
             {{ $subtitle | markdownify }}
