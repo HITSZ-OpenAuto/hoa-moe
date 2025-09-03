@@ -127,6 +127,8 @@ async def process_repo(client: GitHubAPIClient) -> None:
         category_match = re.search(r"category:\s*(.*)", tag_content)
         if category_match:
             category_raw = category_match.group(1)
+            # TODO 对于未确定性质课程，其 category: 必修/限选/跨专业选修/选修/本研共通/文理通识/归档
+            # 在里面找不到，get 得到的是 None，从而报错 cannot unpack non-iterable NoneType object
             category, extra_info = category_mapping.get(category_raw.strip())
             log += f"Matched category: {category}\n"
         else:
@@ -239,8 +241,10 @@ async def process_repo(client: GitHubAPIClient) -> None:
             with open(repo_md_filename, "w", encoding="utf-8") as f:
                 f.write(s)
 
-    except Exception as e:
-        print(f"Error processing repo {client.repo}: {e}")
+    except Exception:
+        import traceback
+        print(f"Error processing repo {client.repo}:")
+        traceback.print_exc()
     finally:
         log = "\n".join(
             [line for line in log.split("\n") if line.strip() != ""]
