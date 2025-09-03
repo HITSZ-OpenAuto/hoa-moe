@@ -105,15 +105,6 @@ a.hextra-feature-card:hover {
   grid-column: span 2;
 }
 
-.header-icon {
-  filter: opacity(50%);
-  transition: filter 300ms;
-}
-
-.header-icon:hover {
-  filter: none;
-}
-
 .hoa-filetree-file:has(input:checked) {
   background-color: var(--hoa-filetree-checked-color);
 }
