@@ -18,11 +18,6 @@
   --hoa-filetree-checked-color: rgb(17 24 39);
 }
 
-.inline-img {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .content :where(img):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   margin-left: auto;
   margin-right: auto;
