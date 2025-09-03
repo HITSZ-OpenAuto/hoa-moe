@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-02'
-description: 北京时间 2025-09-01 00 时至今
+date: '2025-09-03'
+description: 北京时间 2025-09-02 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,17 +12,97 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (9.1)
+### 周三 (9.3)
 
-- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：update COMP3052's information (#5)
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：迁移 OpenCS 对应课程
 
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：feat: add delete folder
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：Initial commit
 
-### 周五 (8.29)
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3044) 中提交了信息：更新相关内容
 
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：refactor: remove unused personal access token sourcing and streamline PR marker definition
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：补充课程相关说明
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：更新成绩构成
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：将 OpenCS 软 A 仓库迁移
+
+### 周二 (9.2)
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：将 OpenCS 的面向对象的软件构造导论仓库迁移
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2012) 中提交了信息：迁移 OpenCS 对应仓库
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2008) 中提交了信息：迁移 OpenCS 对应仓库内容
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2052) 中提交了信息：迁移对应仓库内容
 
 ## 待解决的 Issues
+
+### [COMP3043 深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043/issues/1)
+
+- **仓库**: COMP3043
+- **创建于**: 2025-09-03 01:15:29
+- **作者**: WDGaster703
+
+### [COMP3044 科研写作交流技巧](https://github.com/HITSZ-OpenAuto/COMP3044/issues/3)
+
+- **仓库**: COMP3044
+- **创建于**: 2025-09-03 00:33:42
+- **作者**: WDGaster703
+
+### [COMP3030 信息检索](https://github.com/HITSZ-OpenAuto/COMP3030/issues/3)
+
+- **仓库**: COMP3030
+- **创建于**: 2025-09-03 00:33:14
+- **作者**: WDGaster703
+
+### [COMP3017 服务计算](https://github.com/HITSZ-OpenAuto/COMP3017/issues/4)
+
+- **仓库**: COMP3017
+- **创建于**: 2025-09-03 00:32:54
+- **作者**: WDGaster703
+
+### [COMP3039 嵌入式计算](https://github.com/HITSZ-OpenAuto/COMP3039/issues/3)
+
+- **仓库**: COMP3039
+- **创建于**: 2025-09-03 00:32:17
+- **作者**: WDGaster703
+
+### [COMP2029 面向领域的计算机系统设计与实践](https://github.com/HITSZ-OpenAuto/COMP2029/issues/3)
+
+- **仓库**: COMP2029
+- **创建于**: 2025-09-03 00:26:53
+- **作者**: WDGaster703
+
+### [COMP3060 软件构造实践](https://github.com/HITSZ-OpenAuto/COMP3060/issues/3)
+
+- **仓库**: COMP3060
+- **创建于**: 2025-09-03 00:26:00
+- **作者**: WDGaster703
+
+### [COMP3059 软件构造](https://github.com/HITSZ-OpenAuto/COMP3059/issues/3)
+
+- **仓库**: COMP3059
+- **创建于**: 2025-09-03 00:25:37
+- **作者**: WDGaster703
+
+### [COMP2012 计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012/issues/4)
+
+- **仓库**: COMP2012
+- **创建于**: 2025-09-02 23:34:16
+- **作者**: WDGaster703
+
+### [COMP2008 计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008/issues/3)
+
+- **仓库**: COMP2008
+- **创建于**: 2025-09-02 23:33:47
+- **作者**: WDGaster703
+
+### [COMP2052 数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2052/issues/3)
+
+- **仓库**: COMP2052
+- **创建于**: 2025-09-02 23:33:22
+- **作者**: WDGaster703
 
 ### [COMP2030 离散数学](https://github.com/HITSZ-OpenAuto/COMP2030/issues/1)
 
@@ -106,72 +186,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3042
 - **创建于**: 2025-08-23 18:42:28
-- **作者**: LiPu-jpg
-
-### [COMP3005 人工智能](https://github.com/HITSZ-OpenAuto/COMP3005/issues/1)
-
-- **仓库**: COMP3005
-- **创建于**: 2025-08-23 18:41:51
-- **作者**: LiPu-jpg
-
-### [COMP3002 软件工程](https://github.com/HITSZ-OpenAuto/COMP3002/issues/1)
-
-- **仓库**: COMP3002
-- **创建于**: 2025-08-23 18:40:24
-- **作者**: LiPu-jpg
-
-### [COMP3011 计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011/issues/1)
-
-- **仓库**: COMP3011
-- **创建于**: 2025-08-23 18:39:47
-- **作者**: LiPu-jpg
-
-### [COMP3013 编译原理](https://github.com/HITSZ-OpenAuto/COMP3013/issues/1)
-
-- **仓库**: COMP3013
-- **创建于**: 2025-08-23 18:39:14
-- **作者**: LiPu-jpg
-
-### [COMP3006 模式识别](https://github.com/HITSZ-OpenAuto/COMP3007/issues/1)
-
-- **仓库**: COMP3007
-- **创建于**: 2025-08-23 18:38:19
-- **作者**: LiPu-jpg
-
-### [COMP3006 机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006/issues/1)
-
-- **仓库**: COMP3006
-- **创建于**: 2025-08-23 18:37:38
-- **作者**: LiPu-jpg
-
-### [COMP3010 数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010/issues/1)
-
-- **仓库**: COMP3010
-- **创建于**: 2025-08-23 18:36:47
-- **作者**: LiPu-jpg
-
-### [COMP3001 操作系统](https://github.com/HITSZ-OpenAuto/COMP3001/issues/1)
-
-- **仓库**: COMP3001
-- **创建于**: 2025-08-23 18:36:05
-- **作者**: LiPu-jpg
-
-### [COMP3040 密码学基础](https://github.com/HITSZ-OpenAuto/COMP3040/issues/1)
-
-- **仓库**: COMP3040
-- **创建于**: 2025-08-23 18:35:21
-- **作者**: LiPu-jpg
-
-### [COMP3009 大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009/issues/1)
-
-- **仓库**: COMP3009
-- **创建于**: 2025-08-23 18:34:14
-- **作者**: LiPu-jpg
-
-### [COMP3018 图像处理](https://github.com/HITSZ-OpenAuto/COMP3018/issues/1)
-
-- **仓库**: COMP3018
-- **创建于**: 2025-08-23 18:33:04
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
