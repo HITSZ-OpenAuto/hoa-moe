@@ -15,7 +15,7 @@ def wrap_badges_with_div(content):
     Args:
         content (str): Content to process
     """
-    div_classes = "img-div hx:mt-4 hx:flex-row hx:justify-start hx:items-center"
+    div_classes = "hoa-badge"
     lines = content.split("\n")
     processed_lines = []
 
