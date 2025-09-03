@@ -18,7 +18,7 @@
   --hoa-filetree-checked-color: rgb(17 24 39);
 }
 
-img {
+.inline-img {
   display: inline-block;
   vertical-align: middle;
 }
