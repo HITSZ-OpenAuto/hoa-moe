@@ -9,7 +9,7 @@ math: true
 {{< update-info update_time="2025 年 8 月 29 日" author="IcyDesert" message="[automated-generated-PR] ci: updated worktree.json generation (#35)" >}}
 
 
-<div class="img-div hx:mt-4 hx:flex-row hx:justify-start hx:items-center">
+<div class="hoa-badge">
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
 ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
