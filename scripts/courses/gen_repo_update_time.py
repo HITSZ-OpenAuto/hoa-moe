@@ -83,6 +83,7 @@ if __name__ == "__main__":
     headers = {"Authorization": f"token {token}"}
 
     # Fetch and parse the latest commit
+    # 有可能返回空字典，表示没有找到合适的 commit，从而导致 result_update_time_{repo}.txt 可能不会被创建
     latest_commit_info = get_latest_commit(owner, repo)
     if latest_commit_info:
         save_latest_update(latest_commit_info, repo)
