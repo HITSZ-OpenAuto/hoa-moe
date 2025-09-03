@@ -9,7 +9,7 @@ math: true
 {{< update-info update_time="2025 年 2 月 20 日" author="W·D·Gaster" message="补充文理通识课程综述部分 (#5)" >}}
 
 
-<div class="img-div hx:mt-4 hx:flex-row hx:justify-start hx:items-center">
+<div class="hoa-badge">
 
 ![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-Green)
 ![%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86](https://img.shields.io/badge/%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86-orange)
