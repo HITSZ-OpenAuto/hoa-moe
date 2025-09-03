@@ -243,6 +243,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
     except Exception:
         import traceback
+
         print(f"Error processing repo {client.repo}:")
         traceback.print_exc()
     finally:
