@@ -2418,11 +2418,11 @@
       );
     }
   }
-  .hx\:dark\:border-gray-200:where(.dark, .dark *) {
-    border-color: var(--hx-color-gray-200);
-  }
   .hx\:dark\:border-gray-400:where(.dark, .dark *) {
     border-color: var(--hx-color-gray-400);
+  }
+  .hx\:dark\:border-gray-600:where(.dark, .dark *) {
+    border-color: var(--hx-color-gray-600);
   }
   .hx\:dark\:border-green-200\/30:where(.dark, .dark *) {
     border-color: var(--hx-color-green-200);
