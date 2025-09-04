@@ -15,7 +15,7 @@ def wrap_badges_with_div(content):
     Args:
         content (str): Content to process
     """
-    div_classes = "hoa-badge"
+    custom_badge_class = "hoa-badge"
     lines = content.split("\n")
     processed_lines = []
 
@@ -24,8 +24,11 @@ def wrap_badges_with_div(content):
 
     i = 0
     while i < len(lines):
-        # If current line is already in div, add directly
-        if '<div class="img-div' in lines[i]:
+        if '<div class=' in lines[i]:
+            logger.debug(f"Found existing div line: {lines[i]}")
+            processed_lines.append(f'<div class="{custom_badge_class}">')
+            i += 1
+
             while i < len(lines) and "</div>" not in lines[i]:
                 line = lines[i]
                 # Encode only the Chinese characters in the entire line
@@ -41,15 +44,15 @@ def wrap_badges_with_div(content):
                     ),
                     line,
                 )
+
                 processed_lines.append(line)
                 i += 1
             if i < len(lines):
                 processed_lines.append(lines[i])  # Add closing </div>
             i += 1
             continue
-
-        # Check if it's a badge line
         if re.search(badge_pattern, lines[i]):
+            logger.debug(f"Found badge line: {lines[i]}")
             # Find consecutive badge lines
             badge_block = []
             while i < len(lines) and (
@@ -73,11 +76,14 @@ def wrap_badges_with_div(content):
                 i += 1
 
             if badge_block:
-                # Add div wrapper
-                processed_lines.append(f'<div class="{div_classes}">\n')
+                logger.debug("Wrapping badge block with div.")
+                processed_lines.append(f'<div class="{custom_badge_class}">\n')
                 processed_lines.extend(badge_block)
                 processed_lines.append("</div>\n")
+            else:
+                logger.debug("No badge lines found in the block.")
         else:
+            logger.debug(f"Found non-badge line: {lines[i]}")
             processed_lines.append(lines[i])
             i += 1
 
