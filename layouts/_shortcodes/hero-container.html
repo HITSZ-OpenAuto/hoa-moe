@@ -1,3 +1,4 @@
+{{- $class := .Get "class" -}}
 {{- $cols := .Get "cols" | default 3 -}}
 {{- $style := .Get "style" | default "" -}}
 {{- $image := .Get "image" -}}
@@ -8,9 +9,12 @@
 {{- $css := printf "--hextra-feature-grid-cols: %v; %s" $cols $style -}}
 {{- $external := hasPrefix $button_link "http" -}}
 {{- $href := cond (hasPrefix $button_link "/") ($button_link | relURL) $button_link -}}
+{{- if hasPrefix $image "/" -}}
+  {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
+{{- end -}}
 
 <div
-  class="hextra-feature-grid hx:grid sm:max-lg:hx:grid-cols-2 max-hx:sm:grid-cols-1 hx:gap-10 hx:w-full not-prose"
+  class="hextra-feature-grid hx:grid hx:sm:max-lg:grid-cols-2 hx:max-sm:grid-cols-1 hx:gap-4 hx:w-full not-prose"
   {{ with $css }}style="{{ . | safeCSS }}"{{ end }}
 >
     <div class="hx:py-1 grid-col-span-2">
