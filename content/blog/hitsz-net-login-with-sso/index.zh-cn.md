@@ -20,7 +20,7 @@ excludeSearch: false
 
 ### 安装 Tampermonkey
 
-首先需要在浏览器中中安装 Tampermonkey 插件，请访问 [Tampermonkey](https://www.tampermonkey.net/) 按照官方的指示安装。
+首先需要在浏览器中安装 Tampermonkey 插件，请访问 [Tampermonkey](https://www.tampermonkey.net/) 按照官方的指示安装。
 
 > [!NOTE]
 > 如果您是 Chrome/Edge 用户，可能需要打开插件开发者选项。
