@@ -69,17 +69,12 @@ https://gist.githubusercontent.com/PageChen04/b1937e74d118ce02d9ed5a77e2ce3c93/r
 > [!NOTE]**版本选择**
 > 对于 Linux 系统，在绝大部分较新的 Intel/AMD 处理器上，推荐选择 `hitsz-srun-login-linux-amd64` 版本。
 
-这里我们以 `x86_64` 架构的 Linux 系统为例，下载 `hitsz-srun-login-linux-amd64` 的 `v0.3` 版本，同时赋予执行权限。
+这里我们以 `x86_64` 架构的 Linux 系统为例。请从 [Releases](https://github.com/PageChen04/hitsz-srun-login/releases) 页面下载最新的 `hitsz-srun-login-linux-amd64` 版本，并赋予其执行权限。
 
 ```console
-$ wget https://github.com/PageChen04/hitsz-srun-login/releases/download/v0.3/hitsz-srun-login-linux-amd64
-Saving to: ‘hitsz-srun-login-linux-amd64’
-
-hitsz-srun-login-linux-amd64  100%[=================================================>]   6.02M  X.XXMB/s    in X.Xs
-
-XXXX-XX-XX XX:XX:XX (X.XX MB/s) - ‘hitsz-srun-login-linux-amd64’ saved [6316180/6316180]
+# 将 <DOWNLOAD_URL> 替换为从 Releases 页面复制的下载链接
+$ wget <DOWNLOAD_URL> -O hitsz-srun-login-linux-amd64
 $ chmod +x hitsz-srun-login-linux-amd64
-```
 
 ### 利用程序登录
 
