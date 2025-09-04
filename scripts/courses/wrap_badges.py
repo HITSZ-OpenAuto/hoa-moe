@@ -24,7 +24,7 @@ def wrap_badges_with_div(content):
 
     i = 0
     while i < len(lines):
-        if '<div class=' in lines[i]:
+        if "<div class=" in lines[i]:
             logger.debug(f"Found existing div line: {lines[i]}")
             processed_lines.append(f'<div class="{custom_badge_class}">')
             i += 1

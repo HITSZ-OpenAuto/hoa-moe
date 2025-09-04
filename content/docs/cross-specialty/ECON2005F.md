@@ -9,7 +9,7 @@ math: true
 {{< update-info update_time="2023 年 12 月 3 日" author="Longbin Tang" message="Delete License" >}}
 
 
-<div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
+<div class="hoa-badge">
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
 ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
