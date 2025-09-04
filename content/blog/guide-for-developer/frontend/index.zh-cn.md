@@ -232,19 +232,15 @@ Hextra 使用 v4 的前缀语法，并将 Tailwind 作为 CSS 导入（可在 `t
 页面最终仅引入 `assets/css/compiled/main.css`（主题编译产物）与 `assets/css/custom.css`（站点自定义）。当你在 `layouts/` 的模板里新增了 `hx:` 工具类，需要重新生成主题的编译 CSS 才能看到效果：
 
 ```sh
-cd themes/hextra
-npm run build:css
+./themes/hextra/node_modules/.bin/postcss --config themes/hextra/postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css
 ```
 
 - 构建使用 `@tailwindcss/postcss` 插件（见 `themes/hextra/postcss.config.mjs`），v4 会自动扫描模板以生成所需样式。
 - 想要“边改边看”，可以临时使用 PostCSS 的 watch：
 
 ```sh
-cd themes/hextra
-npx postcss --config postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css --watch
+./themes/hextra/node_modules/.bin/postcss --config themes/hextra/postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css --watch
 ```
-
-说明：主题自带的 `dev:theme` 仅用于主题仓库的示例站点开发。站点日常开发请按上面的方式重建 CSS，然后使用 `hugo server -D` 预览即可。
 
 ### 在哪里写样式
 
@@ -252,22 +248,10 @@ npx postcss --config postcss.config.mjs --env production assets/css/styles.css -
 - 站点级覆盖：在根目录 `assets/css/custom.css` 中写“标准 CSS”选择器覆盖（该文件不会经过 Tailwind 处理）。例如覆盖主题变量：
 
 ```css
-/* v4 下主题变量已带有前缀（与 prefix(hx) 保持一致） */
 :root {
   --hx-color-primary-500: hsl(212 100% 50%);
 }
 ```
 
-注意：不要在 `assets/css/custom.css` 里使用 `@apply` 或 `@config` 等需要 Tailwind 参与编译的指令，因为该文件并不会走 PostCSS/Tailwind 流程。如果你确实需要使用 `@apply` 等能力，请在 `themes/hextra/assets/css/` 下的源文件中修改并重新编译。
+注意：不要在 `assets/css/custom.css` 里使用 `@apply` 或 `@config` 等需要 Tailwind 参与编译的指令，因为该文件并不会走 PostCSS/Tailwind 流程。
 
-### 从 v3 到 v4 的常见迁移点（速查）
-
-- 引入方式：`@tailwind base/components/utilities` → `@import "tailwindcss";`
-- 类名前缀：`prefix: 'hx-'`（v3）→ `@import "tailwindcss" prefix(hx);`（v4），模板中写 `hx:...` 而非 `hx-...`
-- CLI 变化：`npx tailwindcss` → `npx @tailwindcss/cli`
-- PostCSS 插件：`tailwindcss` → `@tailwindcss/postcss`（已内置 import、前缀与嵌套处理）
-- 个别工具类更名：如 `outline-none` → `outline-hidden`，阴影等尺度有调整（如 `shadow-sm` → `shadow-xs`）。
-
-更多 v4 变更与示例，可查阅 Tailwind v4 升级指南与文档。
-
-如果你想更改组件样式，或添加新组件，则可以在根目录的 `layouts` 文件夹下进行修改！如果涉及对 `themes` 主题文件夹内文件的修改，请按相同路径复制一份到根目录，再在新文件内做修改！
