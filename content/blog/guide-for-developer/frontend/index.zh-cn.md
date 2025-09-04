@@ -202,45 +202,72 @@ params:
 
 我自己之前也写过一篇关于 Hugo 短代码的博客，放在这里：[Hugo ShortCode | 丰富你的 Markdown](https://www.longlin.tech/shortcode/)
 
-## 🐛如何在本地调试前端界面
+## 🐛如何在本地调试前端界面（Tailwind CSS v4）
 
-克隆本仓库代码后，在本地仓库根目录下运行 `hugo server`，你便可以从命令行获得调试时所需的端口号，浏览器内打开即可：
+克隆本仓库代码后，在本地仓库根目录下运行 `hugo server -D`，你便可以从命令行获得调试端口并在浏览器内打开：
 
 ![port](server.png)
 
-> [!WARNING]
-> 由于 Hextra 主题使用 TailwindCSS，但在配置上有部分错误，我们需要手动做些调整才能将新的 Tailwind 样式渲染至页面。
+> [!IMPORTANT]
+> 主题已升级至 Tailwind CSS v4。v4 采用 CSS-first 架构与新的 PostCSS 插件，无需 `tailwind.config.js` 与 `hugo_stats.json` 扫描配置；类前缀通过 CSS 导入参数实现，构建由 PostCSS 完成。
 
-1. 更改 `themes/hextra/tailwind.config.js` 
+### 主题如何启用 v4 与前缀
 
-```js
-module.exports = {
-  prefix: 'hx-',  // 由于存在这么一行，所有 TailwindCSS 类都需要在原基础上加上 'hx-' 前缀
-  content: [
-    './**/hugo_stats.json',
-    '../../layouts/**/*.{html, js}' // 新增这一行
-  ],
-  ...
+Hextra 使用 v4 的前缀语法，并将 Tailwind 作为 CSS 导入（可在 `themes/hextra/assets/css/styles.css` 中看到）：
+
+```css
+@import "tailwindcss" prefix(hx);
+```
+
+- 这意味着在模板中使用工具类时，需要写成 `hx:...` 的形式，而不是 v3 的 `hx-...`。例如：
+
+```html
+<div class="hx:flex hx:bg-red-500 hx:hover:bg-red-600"></div>
+```
+
+参考：Tailwind v4 支持用 `@import "tailwindcss";` 引入框架，并可通过 `prefix(tw)` 之类参数为所有工具类与变量加前缀。
+
+### 在本地让新类名生效
+
+页面最终仅引入 `assets/css/compiled/main.css`（主题编译产物）与 `assets/css/custom.css`（站点自定义）。当你在 `layouts/` 的模板里新增了 `hx:` 工具类，需要重新生成主题的编译 CSS 才能看到效果：
+
+```sh
+cd themes/hextra
+npm run build:css
+```
+
+- 构建使用 `@tailwindcss/postcss` 插件（见 `themes/hextra/postcss.config.mjs`），v4 会自动扫描模板以生成所需样式。
+- 想要“边改边看”，可以临时使用 PostCSS 的 watch：
+
+```sh
+cd themes/hextra
+npx postcss --config postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css --watch
+```
+
+说明：主题自带的 `dev:theme` 仅用于主题仓库的示例站点开发。站点日常开发请按上面的方式重建 CSS，然后使用 `hugo server -D` 预览即可。
+
+### 在哪里写样式
+
+- 模板样式：在 `layouts/` 的 HTML/模板中直接使用 `hx:` 工具类（如 `hx:flex hx:gap-4`）。
+- 站点级覆盖：在根目录 `assets/css/custom.css` 中写“标准 CSS”选择器覆盖（该文件不会经过 Tailwind 处理）。例如覆盖主题变量：
+
+```css
+/* v4 下主题变量已带有前缀（与 prefix(hx) 保持一致） */
+:root {
+  --hx-color-primary-500: hsl(212 100% 50%);
 }
 ```
 
-2. 更改 `themes/hextra/package.json`
+注意：不要在 `assets/css/custom.css` 里使用 `@apply` 或 `@config` 等需要 Tailwind 参与编译的指令，因为该文件并不会走 PostCSS/Tailwind 流程。如果你确实需要使用 `@apply` 等能力，请在 `themes/hextra/assets/css/` 下的源文件中修改并重新编译。
 
-```json
-{
-  "scripts": {
-    "dev:theme": "hugo server --logLevel=debug --config=hugo.yaml,../dev.toml --environment=theme --source=exampleSite --themesDir=../.. --disableFastRender -D --port 1313",
-    "dev": "hugo server --source=exampleSite --themesDir=../.. --disableFastRender -D --port 1313",
-    "build:css": "npx postcss --config postcss.config.js --env production assets/css/styles.css -o assets/css/compiled/main.css",
-    "build": "hugo --gc --minify --themesDir=../.. --source=exampleSite",
-    "watch": "npx postcss --config postcss.config.js --env production assets/css/styles.css -o ../../assets/css/compiled/main.css --watch" // 新增这一行
-  }
-}
-```
+### 从 v3 到 v4 的常见迁移点（速查）
 
-3. 在 `themes/hextra` 目录下运行 `npm run watch`
+- 引入方式：`@tailwind base/components/utilities` → `@import "tailwindcss";`
+- 类名前缀：`prefix: 'hx-'`（v3）→ `@import "tailwindcss" prefix(hx);`（v4），模板中写 `hx:...` 而非 `hx-...`
+- CLI 变化：`npx tailwindcss` → `npx @tailwindcss/cli`
+- PostCSS 插件：`tailwindcss` → `@tailwindcss/postcss`（已内置 import、前缀与嵌套处理）
+- 个别工具类更名：如 `outline-none` → `outline-hidden`，阴影等尺度有调整（如 `shadow-sm` → `shadow-xs`）。
 
-做完以上步骤后，我们在 `layouts` 下的 html 中写的 TailwindCSS 类才能被编译到 `assets/css/compiled/main.css` 中，从而被完整导入进 `head-css.html`。
+更多 v4 变更与示例，可查阅 Tailwind v4 升级指南与文档。
 
-如果你想更改组件样式，或添加新组件，则可以在根目录的 `layouts` 文件夹下进行修改了！如果涉及对 `themes` 主题文件夹内文件的修改，请按相同路径复制一份到根目录，再在新文件内做修改！
-
+如果你想更改组件样式，或添加新组件，则可以在根目录的 `layouts` 文件夹下进行修改！如果涉及对 `themes` 主题文件夹内文件的修改，请按相同路径复制一份到根目录，再在新文件内做修改！
