@@ -75,6 +75,7 @@ https://gist.githubusercontent.com/PageChen04/b1937e74d118ce02d9ed5a77e2ce3c93/r
 # 将 <DOWNLOAD_URL> 替换为从 Releases 页面复制的下载链接
 $ wget <DOWNLOAD_URL> -O hitsz-srun-login-linux-amd64
 $ chmod +x hitsz-srun-login-linux-amd64
+```
 
 ### 利用程序登录
 
