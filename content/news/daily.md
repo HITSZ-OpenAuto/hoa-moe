@@ -4,13 +4,21 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-04'
-description: 北京时间 2025-09-03 00 时至今
+description: 北京时间 2025-09-03 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周四 (9.4)
+
+- W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加自救群共享文档部分课程评价 (#11)
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：添加课程信息
+
+- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：Initial commit
 
 ### 周三 (9.3)
 
@@ -185,10 +193,4 @@ title: AUTO 更新速递
 - **仓库**: aextra
 - **创建于**: 2025-08-24 23:27:52
 - **作者**: syhanjin
-
-### [添加自救群共享文档部分课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/11)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2025-08-17 00:37:49
-- **作者**: WDGaster703
 
