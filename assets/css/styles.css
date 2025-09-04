@@ -1,0 +1,10 @@
+/* Site-level Tailwind v4 build entry.
+   We import the theme's source CSS so we can compile to ./assets/css/compiled/main.css
+   without modifying the submodule. This preserves the hx: prefix and all theme utilities. */
+
+@import "../../themes/hextra/assets/css/styles.css";
+
+/* Optional: You can define additional utilities or theme tokens here using v4 APIs.
+@utility w-1/5 { width: 20%; }
+*/
+
