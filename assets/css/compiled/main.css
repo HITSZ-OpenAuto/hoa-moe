@@ -1028,17 +1028,18 @@
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
   }
+  .hx\:rounded-t-lg {
+    border-top-left-radius: var(--hx-radius-lg);
+    border-top-right-radius: var(--hx-radius-lg);
+  }
   .hx\:rounded-b-md {
     border-bottom-right-radius: var(--hx-radius-md);
     border-bottom-left-radius: var(--hx-radius-md);
   }
-  .hx\:border {
+  .hx\:border,
+  .hx\:border-1 {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .hx\:border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
   }
   .hx\:border-t {
     border-top-style: var(--tw-border-style);
@@ -1048,6 +1049,10 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 0;
   }
+  .hx\:border-r-1 {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 1px;
+  }
   .hx\:border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -1056,9 +1061,17 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .hx\:border-l-1 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 1px;
+  }
   .hx\:border-dashed {
     --tw-border-style: dashed;
     border-style: dashed;
+  }
+  .hx\:border-solid {
+    --tw-border-style: solid;
+    border-style: solid;
   }
   .hx\:border-amber-200 {
     border-color: var(--hx-color-amber-200);
