@@ -1,16 +1,17 @@
 ---
 title: 前端架构概览
 description: OpenAuto 开发者指南（壹）
-date: 2025-01-26
+date: 2025-09-04
 authors:
   - name: longlin li
     link: https://github.com/longlin10086
     image: https://github.com/longlin10086.png
+  - name: Kowyo
+    link: https://github.com/Kowyo
+    image: https://github.com/Kowyo.png
 excludeSearch: false
 math: true
 weight: 2
-next: /blog/guide-for-developer/overall/
-prev: /blog/guide-for-developer/backend/
 ---
 
 > [!WARNING]
@@ -202,18 +203,15 @@ params:
 
 我自己之前也写过一篇关于 Hugo 短代码的博客，放在这里：[Hugo ShortCode | 丰富你的 Markdown](https://www.longlin.tech/shortcode/)
 
-## 🐛如何在本地调试前端界面（Tailwind CSS v4）
+## 🐛如何在本地调试前端界面
 
 克隆本仓库代码后，在本地仓库根目录下运行 `hugo server -D`，你便可以从命令行获得调试端口并在浏览器内打开：
 
 ![port](server.png)
 
-> [!IMPORTANT]
-> 主题已升级至 Tailwind CSS v4。v4 采用 CSS-first 架构与新的 PostCSS 插件，无需 `tailwind.config.js` 与 `hugo_stats.json` 扫描配置；类前缀通过 CSS 导入参数实现，构建由 PostCSS 完成。
+### CSS 前缀
 
-### 主题如何启用 v4 与前缀
-
-Hextra 使用 v4 的前缀语法，并将 Tailwind 作为 CSS 导入（可在 `themes/hextra/assets/css/styles.css` 中看到）：
+Hextra v0.10.0 之后的版本使用 Tailwind CSS v4，并将 Tailwind 作为 CSS 导入（可在 `themes/hextra/assets/css/styles.css` 中看到）：
 
 ```css
 @import "tailwindcss" prefix(hx);
@@ -224,8 +222,6 @@ Hextra 使用 v4 的前缀语法，并将 Tailwind 作为 CSS 导入（可在 `t
 ```html
 <div class="hx:flex hx:bg-red-500 hx:hover:bg-red-600"></div>
 ```
-
-参考：Tailwind v4 支持用 `@import "tailwindcss";` 引入框架，并可通过 `prefix(tw)` 之类参数为所有工具类与变量加前缀。
 
 ### 在本地让新类名生效
 
@@ -253,5 +249,6 @@ Hextra 使用 v4 的前缀语法，并将 Tailwind 作为 CSS 导入（可在 `t
 }
 ```
 
-注意：不要在 `assets/css/custom.css` 里使用 `@apply` 或 `@config` 等需要 Tailwind 参与编译的指令，因为该文件并不会走 PostCSS/Tailwind 流程。
-
+注意：
+1. 不要在 `assets/css/custom.css` 里使用 `@apply` 或 `@config` 等需要 Tailwind 参与编译的指令，因为该文件并不会走 PostCSS/Tailwind 流程。
+2. 不要在 `custom.css` 随意覆写主题样式，例如 image, background color，可能会导致样式和主题冲突异常（来自 [issue #320](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/320) 的惨痛教训），如果要定义样式，请使用 `hoa-*` 作为前缀，并尽可能使用组件化设计。

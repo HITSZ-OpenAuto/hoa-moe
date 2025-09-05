@@ -9,7 +9,7 @@ authors:
 excludeSearch: false
 math: true
 weight: 4
-next: /blog/guide-for-developer/backend
+next: /blog/developer-guide/backend
 prev: false
 ---
 
