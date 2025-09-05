@@ -9,8 +9,8 @@ authors:
 excludeSearch: false
 math: true
 weight: 3
-next: /blog/guide-for-developer/frontend/
-prev: /blog/guide-for-developer/maintenance
+next: /blog/developer-guide/frontend/
+prev: /blog/developer-guide/maintenance
 ---
 
 > [!WARNING]

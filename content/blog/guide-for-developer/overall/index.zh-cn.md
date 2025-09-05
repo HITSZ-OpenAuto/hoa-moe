@@ -10,7 +10,7 @@ excludeSearch: false
 math: true
 weight: 1
 next: false
-prev: /blog/guide-for-developer/frontend/
+prev: /blog/developer-guide/frontend/
 ---
 
 如何用一句话介绍完 OpenAuto 项目的主要内容及技术栈？~~（感谢 Claude-3.5 Sonnet）~~
@@ -21,9 +21,9 @@ prev: /blog/guide-for-developer/frontend/
 
 具体架构指南将分为三部分：
 
-- [前端架构详解 - 如何修改网站样式](/blog/guide-for-developer/frontend/)
-- [后端架构详解 - 网站脚本的工作原理](/blog/guide-for-developer/backend/)
-- [运维架构详解 - 我们的网站工作流](/blog/guide-for-developer/maintenance/)
+- [前端架构详解 - 如何修改网站样式](/blog/developer-guide/frontend/)
+- [后端架构详解 - 网站脚本的工作原理](/blog/developer-guide/backend/)
+- [运维架构详解 - 我们的网站工作流](/blog/developer-guide/maintenance/)
 
 而在本篇，我们会着眼于三者之间的联系而忽略大部分技术细节，简要剖析 OpenAuto 的网站是如何搭建起来的。
 
@@ -71,4 +71,4 @@ GitHub Action 会为我们的仓库「分配」一台包含仓库内文件的虚
 
 确保你对网站整体有个大概印象，下面让我们具体聊聊网站的前端样式吧：
 
-- [前端架构详解 - 如何修改网站样式](/blog/guide-for-developer/frontend/)
+- [前端架构详解 - 如何修改网站样式](/blog/developer-guide/frontend/)
