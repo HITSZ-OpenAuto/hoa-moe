@@ -2379,9 +2379,6 @@
   .hx\:dark\:hidden:where(.dark, .dark *) {
     display: none;
   }
-  .hx\:dark\:border-\[\#262626\]:where(.dark, .dark *) {
-    border-color: #262626;
-  }
   .hx\:dark\:border-amber-200\/30:where(.dark, .dark *) {
     border-color: var(--hx-color-amber-200);
   }
