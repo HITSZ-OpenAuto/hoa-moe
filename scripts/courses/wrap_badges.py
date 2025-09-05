@@ -20,7 +20,7 @@ def wrap_badges_with_div(content):
     processed_lines = []
 
     # Badge line regex pattern
-    badge_pattern = r"!\[.*?\]\(https://img\.shields\.io/badge/.*?\)"
+    badge_pattern = r"!\[.*?\]\(<?https://img\.shields\.io/badge/[^)]+>?\)"
 
     i = 0
     while i < len(lines):
