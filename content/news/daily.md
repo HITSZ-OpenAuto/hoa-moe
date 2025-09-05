@@ -4,13 +4,19 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-05'
-description: 北京时间 2025-09-04 00 时至今
+description: 北京时间 2025-09-04 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周五 (9.5)
+
+- Kowyo 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更新 Badge 样式 (#21)
+
+- Kowyo 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 Badge 样式 (#26)
 
 ### 周四 (9.4)
 
@@ -177,6 +183,12 @@ title: AUTO 更新速递
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
+
+### [impl basic style for blog/ and news/ list page](https://github.com/HITSZ-OpenAuto/aextra/pull/7)
+
+- **仓库**: aextra
+- **创建于**: 2025-09-05 13:26:27
+- **作者**: Kokoro2336
 
 ### [feat(toc): add minDepth prop and improve numbering logic](https://github.com/HITSZ-OpenAuto/aextra/pull/6)
 
