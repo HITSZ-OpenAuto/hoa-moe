@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-04'
-description: 北京时间 2025-09-03 13 时至今
+date: '2025-09-05'
+description: 北京时间 2025-09-04 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -23,14 +23,6 @@ title: AUTO 更新速递
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：添加课程信息
 
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：Initial commit
-
-### 周三 (9.3)
-
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：修改学分
-
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：迁移 OpenCS 对应仓库内容
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 ## 待解决的 Issues
 
