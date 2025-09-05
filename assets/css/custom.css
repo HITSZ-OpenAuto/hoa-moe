@@ -239,20 +239,6 @@ input:checked + .select .slider > div {
   }
 }
 
-/* Fix for dropdown menu shadow and ring */
-.hextra-nav-menu-items {
-  --tw-shadow-color: #00000040;
-  --tw-ring-shadow: 0 0 0 calc(1px + var(--tw-ring-offset-width, 0px)) var(--tw-ring-color);
-  --tw-ring-offset-shadow: 0 0 0 var(--tw-ring-offset-width, 0px) var(--tw-ring-offset-color, #fff);
-  box-shadow: var(--tw-inset-shadow, 0 0 #0000), var(--tw-inset-ring-shadow, 0 0 #0000), 
-              var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow, 0 0 #0000) !important;
-}
-
-.dark .hextra-nav-menu-items {
-  --tw-shadow-color: #ffffff20;
-  --tw-ring-offset-color: #111;
-}
-
 .hoa-badge {
   display: flex;
   flex-direction: column;
