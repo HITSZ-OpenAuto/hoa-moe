@@ -12,6 +12,12 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周五 (9.5)
+
+- Kowyo 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更新 Badge 样式 (#21)
+
+- Kowyo 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 Badge 样式 (#26)
+
 ### 周四 (9.4)
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
