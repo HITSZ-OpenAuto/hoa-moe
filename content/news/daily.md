@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-05'
-description: 北京时间 2025-09-04 06 时至今
+description: 北京时间 2025-09-04 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -183,6 +183,12 @@ title: AUTO 更新速递
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
+
+### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
+
+- **仓库**: CrossSpecialty
+- **创建于**: 2025-09-05 20:23:13
+- **作者**: IcyDesert
 
 ### [impl basic style for blog/ and news/ list page](https://github.com/HITSZ-OpenAuto/aextra/pull/7)
 
