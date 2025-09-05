@@ -1,6 +1,4 @@
-/* Site-level Tailwind v4 build entry.
-   We import the theme's source CSS so we can compile to ./assets/css/compiled/main.css
-   without modifying the submodule. This preserves the hx: prefix and all theme utilities. */
+/* Site-level Tailwind v4 build entry. */
 
 @import "../../themes/hextra/assets/css/styles.css";
 
