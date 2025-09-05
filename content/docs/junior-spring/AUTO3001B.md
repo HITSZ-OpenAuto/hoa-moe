@@ -6,26 +6,24 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 7 月 8 日" author="psp_dada" message="上传本人的作业答案以及实验内容" >}}
+{{< update-info update_time="2025 年 9 月 5 日" author="Kowyo" message="更新 Badge 样式 (#21)" >}}
 
 
 <div class="hoa-badge">
 
-![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）-5-moccasin)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E5%BC%80%E5%A7%8B）-4.5-moccasin)
+![%E8%80%83%E8%AF%95%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
+![%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）-5-moccasin)
+![%E5%AD%A6%E5%88%86（2025%E6%98%A5%E5%BC%80%E5%A7%8B）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E5%BC%80%E5%A7%8B）-4.5-moccasin)
+
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7)](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7)-gold)
+![%E4%BD%9C%E4%B8%9A 12%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-12%25-wheat)
+![%E5%87%BA%E5%8B%A4 5%](https://img.shields.io/badge/%E5%87%BA%E5%8B%A4-5%25-wheat)
+![%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C 5%](https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C-5%25-wheat)
+![%E5%AE%9E%E9%AA%8C 8%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-8%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95 70%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
+
 
 </div>
-
-<div align="left">
-<figure>
-  <img alt="成绩构成 (21 级)" src="https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7)-gold">
-  <img alt="Static Badge" src="https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-12%25-wheat">
-  <img alt="Static Badge" src="https://img.shields.io/badge/%E5%87%BA%E5%8B%A4-5%25-wheat">
-  <img alt="Static Badge" src="https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C-5%25-wheat">
-  <img alt="Static Badge" src="https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-8%25-wheat">
-  <img alt="Static Badge" src="https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat">
-</figure>
-</div>
-
 
 ## 授课教师
 
