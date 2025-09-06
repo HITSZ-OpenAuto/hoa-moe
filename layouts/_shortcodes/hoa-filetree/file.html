@@ -34,7 +34,7 @@
             <span class="hx:mx-2 hx:w-1/5 hx:min-w-1/5 hx:hidden hx:md:block">{{ $size | markdownify }}</span>
             <span class="hx:mx-4 hx:w-1/5 hx:min-w-1/5 hx:flex hx:items-center hx:justify-end">
                 <div class="hx:mr-4 hx:hidden hx:md:block hx:flex-1">{{ $date | markdownify }}</div>
-                <a class="hoa-filetree-download-link-wrapper hx:mr-3 hx:z-10 hx:hidden hx:cursor-pointer hx:md:hidden hx:md:group-hover/hover:block">
+                <a class="hoa-filetree-download-link-wrapper hx:mr-3 hx:z-10 hx:hidden hx:cursor-pointer hx:group-hover/hover:md:block">
                     <img class="hoa-filetree-download-link hx:w-6 hx:h-6 hx:min-w-6"
                          src="{{ $downloads.RelPermalink }}" alt="downloads"/>
                 </a>
@@ -44,7 +44,7 @@
                     <span class="hoa-filetree-download-progress-text hx:absolute hx:m-auto hx:top-0 hx:bottom-0 hx:left-0 hx:right-0 hx:flex hx:items-center hx:justify-center"
                           style="font-size: 0.5rem;">0</span>
                 </div>
-                <a class="hoa-filetree-preview-link hx:mr-1 hx:md:mr-4 hx:md:hidden hx:w-6 hx:h-6 hx:z-10 hx:min-w-6 hx:md:group-hover/hover:block">
+                <a class="hoa-filetree-preview-link hx:mr-1 hx:md:mr-4 hx:md:hidden hx:w-6 hx:h-6 hx:z-10 hx:min-w-6 hx:group-hover/hover:md:block">
                     <img class="hx:w-full hx:h-full" src="{{ $preview.RelPermalink }}" alt="preview">
                 </a>
             </span>
