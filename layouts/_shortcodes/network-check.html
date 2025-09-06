@@ -1,0 +1,8 @@
+{{/* Shortcode to include network-check.js only where explicitly placed */}} {{-
+$jsNetworkCheck := resources.Get "js/network-check.js" -}} 
+
+{{- if hugo.IsProduction -}} 
+    {{- $jsNetworkCheck = $jsNetworkCheck | minify | fingerprint -}}
+{{- end -}}
+
+<script defer src="{{ $jsNetworkCheck.RelPermalink }}" integrity="{{ $jsNetworkCheck.Data.Integrity }}"></script>

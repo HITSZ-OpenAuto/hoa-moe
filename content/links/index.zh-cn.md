@@ -69,3 +69,5 @@ sidebar:
 你可以通过在 **本项目仓库提 issues** ｜ **发送邮件至 [📮hi@hoa.moe](mailto:hi@hoa.moe)** ｜ **本页面下评论** 的方式与我们交换友链
 
 {{< /callout >}}
+
+{{< network-check >}}

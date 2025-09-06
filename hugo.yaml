@@ -40,6 +40,31 @@ menu:
       name: Documentation
       pageRef: /docs
       weight: 1
+    - name: "大一·秋    "
+      parent: documentation
+      url: "/docs/fresh-autumn/"
+      weight: 1
+    - name: "大一·春    "
+      parent: documentation
+      url: "/docs/fresh-spring/"
+      weight: 2
+    - name: "大二·秋"
+      parent: documentation
+      url: "/docs/sophomore-autumn/"
+      weight: 3
+    - name: "大二·春"
+      parent: documentation
+      url: "/docs/sophomore-spring/"
+      weight: 4
+    - name: "大三·秋"
+      parent: documentation
+      url: "/docs/junior-autumn/"
+      weight: 5
+    - name: "大三·春"
+      parent: documentation
+      url: "/docs/junior-spring/"
+      weight: 6
+
     - identifier: blog
       name: Blog
       pageRef: /blog
