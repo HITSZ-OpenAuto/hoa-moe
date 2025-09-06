@@ -9,7 +9,7 @@ math: true
 {{< update-info update_time="2025 年 6 月 27 日" author="psp_dada" message="上传作业与实验相关内容 (#14)" >}}
 
 
-<div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
+<div class="hoa-badge">
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（19~21%E7%BA%A7）-6-moccasin)![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（22%E7%BA%A7）-4-moccasin)
 

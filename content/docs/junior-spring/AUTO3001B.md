@@ -9,7 +9,7 @@ math: true
 {{< update-info update_time="2025 年 9 月 5 日" author="Kowyo" message="更新 Badge 样式 (#21)" >}}
 
 
-<div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
+<div class="hoa-badge">
 
 ![%E8%80%83%E8%AF%95%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
 ![%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）-5-moccasin)
