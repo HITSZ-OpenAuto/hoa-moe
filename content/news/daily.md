@@ -18,18 +18,6 @@ title: AUTO 更新速递
 
 - Kowyo 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 Badge 样式 (#26)
 
-### 周四 (9.4)
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: delete problematic equation in if-condition
-
-- W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加自救群共享文档部分课程评价 (#11)
-
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：添加课程信息
-
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：Initial commit
-
 ## 待解决的 Issues
 
 ### [COMP3043 深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043/issues/1)
@@ -184,7 +172,13 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [更新 Badge 样式](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/21)
+### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
+
+- **仓库**: CrossSpecialty
+- **创建于**: 2025-09-05 20:23:13
+- **作者**: IcyDesert
+
+### [impl basic style for blog/ and news/ list page](https://github.com/HITSZ-OpenAuto/aextra/pull/7)
 
 - **仓库**: AUTO3001B
 - **创建于**: 2025-09-05 11:31:35
