@@ -1,0 +1,8 @@
+/* Site-level Tailwind v4 build entry. */
+
+@import "../../themes/hextra/assets/css/styles.css";
+
+/* Optional: You can define additional utilities or theme tokens here using v4 APIs.
+@utility w-1/5 { width: 20%; }
+*/
+

@@ -7,7 +7,6 @@ from pytz import timezone
 import yaml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from tqdm import tqdm
 import shutil
 
 # Load environment variables
@@ -122,7 +121,7 @@ def fetch_commits_from_repos(repos, start_time):
     filtered_commits = []
     org_course_name = {}
 
-    for repo in tqdm(repos):
+    for repo in repos:
         commits = get_filtered_commits(ORG_NAME, repo["name"], start_time)
         contain_manual = any(
             commit["commit"]["author"]["name"] != "github-actions" for commit in commits

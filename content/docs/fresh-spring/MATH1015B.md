@@ -17,7 +17,7 @@ math: true
 5. 可以在 GitHub 页面的 About/Topics 中为课程添加话题名称。
 -->
 
-<div class="img-div hx-mt-4 hx-flex-row hx-justify-start hx-items-center">
+<div class="hoa-badge">
 
 ![%E8%80%83%E8%AF%95%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)
