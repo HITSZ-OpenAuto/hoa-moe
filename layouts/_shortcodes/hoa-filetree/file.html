@@ -4,21 +4,21 @@
 {{- $date := .Get "date" | default "1970/01/01" -}}
 {{- $icon := .Get "icon" -}}
 {{- $url := .Get "url" | default "https://github.com/HITSZ-OpenAuto" -}}
+{{- $level := .Get "level" | default 0 -}}
 
-{{/*  {{- $state := .Get "state" | default "open" }}  */}}
 {{- $image := resources.Get $icon -}}
 {{- $downloads := resources.Get "icons/download-file.png" -}}
 {{- $preview := resources.Get "icons/preview-file.png" -}}
 
-<li data-level="0"
+<li data-level="{{ $level }}"
     class="hoa-filetree-file hx:group/hover hx:flex hx:flex-col hx:list-none hx:w-full hx:hover:bg-gray-100 hx:dark:hover:bg-gray-900 hx:duration-100 hx:cursor-pointer hx:border-solid hx:border-l-1 hx:border-r-1 hx:border-gray-200 hx:dark:border-gray-600"
     data-url="{{ $url }}">
     <span class="hx:w-full hx:flex hx:cursor-default hx:py-3 hx:text-sm">
         
         <label class="hx:flex hx:w-full hx:items-center hx:justify-between">
 
-            <div class="hx:flex hx:ml-4 hx:w-full hx:md:w-1/3 hx:items-center hx:justify-start hx:relative">
-                <div class="hoa-file-level hx:inline-block hx:shrink-0"></div>
+            <div class="hx:flex hx:w-full hx:md:w-1/3 hx:items-center hx:justify-start hx:relative">
+                <div class="hoa-file-level hx:inline-block hx:shrink-0" style="width: {{ mul $level 1.5 }}rem; margin-left: 1rem;"></div>
                 <input type="checkbox" class="hoa-checkbox">
                 <img src="{{ $image.RelPermalink }}" alt="{{ $type }}" class="hx:w-9 hx:h-9 hx:mx-2 hx:min-w-9"/>
                 <span class="hx:flex hx:flex-col hx:font-bold hx:max-w-48 hx:md:max-w-48">
@@ -32,19 +32,18 @@
             </div>
 
             <span class="hx:w-1/5 hx:min-w-1/5 hx:hidden hx:md:block">{{ $size | markdownify }}</span>
-            <span class="hx:w-1/5 hx:min-w-1/5 hx:flex hx:items-center hx:justify-end">
-                <div class="hx:mr-4 hx:hidden hx:md:block hx:flex-1">{{ $date | markdownify }}</div>
+            <span class="hx:w-auto hx:flex hx:items-center hx:justify-end hx:shrink-0">
+                <div class="hx:mr-4 hx:hidden hx:md:block hx:min-w-20">{{ $date | markdownify }}</div>
                 <a class="hoa-filetree-download-link-wrapper hx:mr-3 hx:z-10 hx:hidden hx:cursor-pointer hx:group-hover/hover:md:block">
                     <img class="hoa-filetree-download-link hx:w-6 hx:h-6 hx:min-w-6"
                          src="{{ $downloads.RelPermalink }}" alt="downloads"/>
                 </a>
                 <div class="hoa-filetree-download-progress-wrap hx:relative hx:w-6 hx:h-6 hx:mr-3 hx:rounded-full hx:hidden">
                     <div class="hoa-filetree-download-progress hx:rounded-full hx:w-full hx:h-full"></div>
-
                     <span class="hoa-filetree-download-progress-text hx:absolute hx:m-auto hx:top-0 hx:bottom-0 hx:left-0 hx:right-0 hx:flex hx:items-center hx:justify-center"
                           style="font-size: 0.5rem;">0</span>
                 </div>
-                <a class="hoa-filetree-preview-link hx:mr-1 hx:md:mr-4 hx:md:hidden hx:w-6 hx:h-6 hx:z-10 hx:min-w-6 hx:group-hover/hover:md:block">
+                <a class="hoa-filetree-preview-link hx:w-6 hx:h-6 hx:z-10 hx:min-w-6 hx:mr-4 hx:md:hidden hx:group-hover/hover:md:block">
                     <img class="hx:w-full hx:h-full" src="{{ $preview.RelPermalink }}" alt="preview">
                 </a>
             </span>
