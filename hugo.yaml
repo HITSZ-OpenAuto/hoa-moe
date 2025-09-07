@@ -117,6 +117,10 @@ menu:
 params:
   description: 由 HITSZ OpenAuto 维护，为 HITSZ 学子提供课程攻略共享服务
 
+  banner:
+    message: |
+      ⚠️[2025.9.8] 下载服务维护中，预计将于 48 小时内完成，期间下载服务将不可用，如有需要请访问 [GitHub](https://github.com/HITSZ-OpenAuto) 获取
+
   navbar:
     displayTitle: true
     displayLogo: true
