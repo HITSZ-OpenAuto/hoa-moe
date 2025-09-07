@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-06'
-description: 北京时间 2025-09-05 13 时至今
+date: '2025-09-07'
+description: 北京时间 2025-09-06 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,13 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (9.5)
+### 周日 (9.7)
 
-- Kowyo 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更新 Badge 样式 (#21)
+- Kowyo 在 [hoa-mirrors](https://github.com/HITSZ-OpenAuto/hoa-mirrors) 中提交了信息：fix cloudflare deployment
 
-- Kowyo 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 Badge 样式 (#26)
+- Kowyo 在 [hoa-mirrors](https://github.com/HITSZ-OpenAuto/hoa-mirrors) 中提交了信息：fix: correct argument order in proxy function for external redirects
+
+- Kowyo 在 [hoa-mirrors](https://github.com/HITSZ-OpenAuto/hoa-mirrors) 中提交了信息：init
 
 ## 待解决的 Issues
 
