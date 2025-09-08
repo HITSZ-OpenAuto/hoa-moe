@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-07'
-description: 北京时间 2025-09-06 13 时至今
+date: '2025-09-08'
+description: 北京时间 2025-09-07 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,13 +14,37 @@ title: AUTO 更新速递
 
 ### 周日 (9.7)
 
-- Kowyo 在 [hoa-mirrors](https://github.com/HITSZ-OpenAuto/hoa-mirrors) 中提交了信息：fix cloudflare deployment
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：fix: follow redirects
 
-- Kowyo 在 [hoa-mirrors](https://github.com/HITSZ-OpenAuto/hoa-mirrors) 中提交了信息：fix: correct argument order in proxy function for external redirects
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：fix: add CORS handling in middleware
 
-- Kowyo 在 [hoa-mirrors](https://github.com/HITSZ-OpenAuto/hoa-mirrors) 中提交了信息：init
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add registry
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: fix deps
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：rename project to hoa-fastdl
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：fix cloudflare deployment
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：fix: correct argument order in proxy function for external redirects
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：init
 
 ## 待解决的 Issues
+
+### [Performance downgrade when downloading files larger than 20MB](https://github.com/HITSZ-OpenAuto/hoa-fastdl/issues/2)
+
+- **仓库**: hoa-fastdl
+- **创建于**: 2025-09-08 00:43:49
+- **作者**: kowyo
+- **标签**: bug
+
+### [Support CORS](https://github.com/HITSZ-OpenAuto/hoa-fastdl/issues/1)
+
+- **仓库**: hoa-fastdl
+- **创建于**: 2025-09-08 00:43:04
+- **作者**: kowyo
+- **标签**: enhancement
 
 ### [COMP3043 深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043/issues/1)
 
@@ -158,18 +182,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3019
 - **创建于**: 2025-08-23 18:44:06
-- **作者**: LiPu-jpg
-
-### [COMP3042 服务计算](https://github.com/HITSZ-OpenAuto/COMP3042/issues/2)
-
-- **仓库**: COMP3042
-- **创建于**: 2025-08-23 18:43:23
-- **作者**: LiPu-jpg
-
-### [COMP3042 智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042/issues/1)
-
-- **仓库**: COMP3042
-- **创建于**: 2025-08-23 18:42:28
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
