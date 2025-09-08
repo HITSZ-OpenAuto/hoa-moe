@@ -4,13 +4,21 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-08'
-description: 北京时间 2025-09-07 00 时至今
+description: 北京时间 2025-09-07 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周一 (9.8)
+
+- longlinli 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: update dependencies and improve code structure
+
+- Kowyo 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add cloudflare worker config
+
+- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：impl basic style for blog/ and news/ list page (#7)
 
 ### 周日 (9.7)
 
@@ -186,17 +194,17 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [feat: improve footer layout and styling in BaseFooter](https://github.com/HITSZ-OpenAuto/aextra/pull/9)
+
+- **仓库**: aextra
+- **创建于**: 2025-09-08 16:17:14
+- **作者**: longlin10086
+
 ### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
 
 - **仓库**: CrossSpecialty
 - **创建于**: 2025-09-05 20:23:13
 - **作者**: IcyDesert
-
-### [impl basic style for blog/ and news/ list page](https://github.com/HITSZ-OpenAuto/aextra/pull/7)
-
-- **仓库**: aextra
-- **创建于**: 2025-09-05 13:26:27
-- **作者**: Kokoro2336
 
 ### [feat(toc): add minDepth prop and improve numbering logic](https://github.com/HITSZ-OpenAuto/aextra/pull/6)
 
