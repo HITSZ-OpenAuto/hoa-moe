@@ -688,7 +688,7 @@ $$
 \end{array}
 $$
 ```
-
+效果：
 $$
 \require{enclose}\begin{array}{r1}
 \verb|\enclose{horizontalstrike}{x+y}|&\enclose{horizontalstrike}{x+y}\\
