@@ -1,6 +1,6 @@
 ---
 title: 经济学原理
-weight: 633
+weight: 668
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
 math: true
@@ -39,15 +39,16 @@ math: true
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
-{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/ECON2005F" >}}
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/ECON2005F" repoURL="https://github.com/HITSZ-OpenAuto/ECON2005F" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
 
 HOA Core 成员有意重构 hoa 的网站，以接入更多的专业，实现更好的体验。如果你对资料分享或者网站搭建感兴趣，即使来自其他专业，非常欢迎你[联系](mailto:hi@hoa.moe)/加入我们 Core 团队。这里有我们[初步的重构计划](https://historical-mousepad-286.notion.site/HOA-1f71751ad5fe80978c70d9e32330d7e6)。
 
-同时，HOA Core 初代成员已经毕业，如果你关心 HOA 的未来，请阅读我们的博客了解更多：[《关于 HOA 的未来》](https://hoa.moe/blog/future-of-hoa)。
+同时，HOA Core 初代成员已经毕业，如果你想加入 HOA Core，请阅读我们的博客了解更多：[《HOA 的未来，需要你一起来书写》](https://hoa.moe/news/future-of-hoa)。
 
 {{< callout type="" >}}
   © 版权声明：[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 {{< /callout >}}
+
