@@ -124,11 +124,15 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
         log += "-----tag.txt-----\n" + f"{tag_content}" + "-----------------\n"
 
-        category_match = re.search(r"category:\s*(.*)", tag_content)
+        category_match = re.search(r"^category:\s*(.*)", tag_content)
         if category_match:
             category_raw = category_match.group(1)
-            # TODO 对于未确定性质课程，其 category: 必修/限选/跨专业选修/选修/本研共通/文理通识/归档
-            # 在里面找不到，get 得到的是 None，从而报错 cannot unpack non-iterable NoneType object
+            # For lessons with the default tag, which does not exist in category_mapping,
+            # `get` returns None, causing error: cannot unpack non-iterable NoneType object.
+            # So this should be judged specially
+            if category_raw.strip() == "必修/限选/跨专业选修/选修/本研共通/文理通识/归档":
+                log += "Default tags '必修/限选/跨专业选修/选修/本研共通/文理通识/归档' found, skipping process."
+                return # don't raise error since this is reasonable, such as a draft repo
             category, extra_info = category_mapping.get(category_raw.strip())
             log += f"Matched category: {category}\n"
         else:
@@ -140,7 +144,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
             semesters = [category_raw]
             log += f"Matched semester: {semesters}\n"
         else:
-            semesters_match = re.search(r"semester:\s*(.*)", tag_content)
+            semesters_match = re.search(r"^semester:\s*(.*)", tag_content)
             if semesters_match:
                 semesters_line = semesters_match.group(1)
                 semesters: list[str] = re.split(
@@ -151,7 +155,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 log += "No semester provided\n"
                 raise ValueError("No semester provided")
 
-        name_match = re.search(r"name:\s*(.*)", tag_content)
+        name_match = re.search(r"^name:\s*(.*)", tag_content)
         if name_match:
             course_name = name_match.group(1)
             log += f"Matched name: {course_name}\n"
