@@ -12,18 +12,24 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (9.3)
-
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：修改学分
-
-- W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：迁移 OpenCS 对应仓库内容
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：Standadize incorrect formats
+### 周二 (9.9)
 
 - W·D·Gaster 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：更新课程表标签
 
+- W·D·Gaster 在 [专业综合实践](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：更新课程表标签
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：Standadize incorrect formats
+- W·D·Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：更新课程表标签
+
+- W·D·Gaster 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：更新课程表标签
+
+- W·D·Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：更新课程表标签
+
+### 周一 (9.8)
+
+- longlinli 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: update dependencies and improve code structure
+
+- Kowyo 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add cloudflare worker config
 - W·D·Gaster 在 [专业综合实践](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：更新课程表标签
 
 - W·D·Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：更新课程表标签
@@ -38,6 +44,7 @@ title: AUTO 更新速递
 
 - Kowyo 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add cloudflare worker config
 
+- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：impl basic style for blog/ and news/ list page (#7)
 - Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：impl basic style for blog/ and news/ list page (#7)
 
 ## 待解决的 Issues

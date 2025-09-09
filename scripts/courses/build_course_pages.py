@@ -130,9 +130,12 @@ async def process_repo(client: GitHubAPIClient) -> None:
             # For lessons with the default tag, which does not exist in category_mapping,
             # `get` returns None, causing error: cannot unpack non-iterable NoneType object.
             # So this should be judged specially
-            if category_raw.strip() == "必修/限选/跨专业选修/选修/本研共通/文理通识/归档":
+            if (
+                category_raw.strip()
+                == "必修/限选/跨专业选修/选修/本研共通/文理通识/归档"
+            ):
                 log += "Default tags '必修/限选/跨专业选修/选修/本研共通/文理通识/归档' found, skipping process."
-                return # don't raise error since this is reasonable, such as a draft repo
+                return  # don't raise error since this is reasonable, such as a draft repo
             category, extra_info = category_mapping.get(category_raw.strip())
             log += f"Matched category: {category}\n"
         else:

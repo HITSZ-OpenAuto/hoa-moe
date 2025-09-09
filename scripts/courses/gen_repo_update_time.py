@@ -19,7 +19,7 @@ def get_latest_commit(owner, repo):
     commits_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
     params = {
         "since": "2000-01-01T00:00:01Z",
-        "per_page": 50, # Fetch up to 50 commits to find a "useful" one
+        "per_page": 50,  # Fetch up to 50 commits to find a "useful" one
         # TODO Should only be a temporary solution, use `link` header instead
     }
     response = requests.get(commits_url, headers=headers, params=params)
@@ -58,9 +58,7 @@ def save_latest_update(commit_info: str | None, repo: str):
         result_content = ""
     else:
         datetime_object = commit_info["date"]
-        yymmdd = (
-            f"{datetime_object.year} 年 {datetime_object.month} 月 {datetime_object.day} 日"
-        )
+        yymmdd = f"{datetime_object.year} 年 {datetime_object.month} 月 {datetime_object.day} 日"
         message_line = commit_info["message"].split("\n")
         result_content = f"""{{{{< update-info update_time="{yymmdd}" author="{commit_info["author"]}" message="{message_line[0]}" >}}}}\n"""
     with open(f"result_update_time_{repo}.txt", "w", encoding="utf-8") as file:
