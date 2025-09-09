@@ -124,7 +124,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
         log += "-----tag.txt-----\n" + f"{tag_content}" + "-----------------\n"
 
-        category_match = re.search(r"^category:\s*(.*)", tag_content)
+        category_match = re.search(r"category:\s*(.*)", tag_content)
         if category_match:
             category_raw = category_match.group(1)
             # For lessons with the default tag, which does not exist in category_mapping,
@@ -147,7 +147,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
             semesters = [category_raw]
             log += f"Matched semester: {semesters}\n"
         else:
-            semesters_match = re.search(r"^semester:\s*(.*)", tag_content)
+            semesters_match = re.search(r"semester:\s*(.*)", tag_content)
             if semesters_match:
                 semesters_line = semesters_match.group(1)
                 semesters: list[str] = re.split(
@@ -158,7 +158,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 log += "No semester provided\n"
                 raise ValueError("No semester provided")
 
-        name_match = re.search(r"^name:\s*(.*)", tag_content)
+        name_match = re.search(r"name:\s*(.*)", tag_content)
         if name_match:
             course_name = name_match.group(1)
             log += f"Matched name: {course_name}\n"
