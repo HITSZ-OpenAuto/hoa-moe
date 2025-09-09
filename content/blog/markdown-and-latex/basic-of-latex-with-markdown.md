@@ -214,11 +214,11 @@ $$
 代码：
 
 ```markdown
-$\lim\limits_{n\to\infin}(1+\dfrac{1}{n})^n=e$
+$\lim\limits_{n\to\infty}(1+\dfrac{1}{n})^n=e$
 ```
 
 效果：
-$\lim\limits_{n\to\infin}(1+\dfrac{1}{n})^n=e$
+$\lim\limits_{n\to\infty}(1+\dfrac{1}{n})^n=e$
 
 ## 11、累加、累乘及交集、并集
 
@@ -268,13 +268,23 @@ $$
 $$
 ```
 
-![noframemat](no-frame-mat.png)
+效果：
+
+$$
+\begin{matrix}
+1&x&x^2\\
+1&y&y^2\\
+1&z&z^2\\
+\end{matrix}
+$$
 
 ### ②边框矩阵
 
 说明：在开头将`matrix`替换为`pmatrix`、`bmatrix`、`Bmatrix`、`vmatrix`、`Vmatrix`。
 
-![eachtypeofmatrix](matrix.png)
+| matrix   | pmatrix                          | bmatrix                          | Bmatrix                          | vmatrix                          | Vmatrix                          |
+|----------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| $ \begin{matrix} 1 & 2 \\ 3 & 4 \end{matrix} $ | $ \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} $ | $ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $ | $ \begin{Bmatrix} 1 & 2 \\ 3 & 4 \end{Bmatrix} $ | $ \begin{vmatrix} 1 & 2 \\ 3 & 4 \end{vmatrix} $ | $ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \end{Vmatrix} $ |
 
 ### ③带分割线的矩阵
 
@@ -293,7 +303,16 @@ $$
 $$
 ```
 
-![segmat](seg-mat.png)
+效果：
+
+$$
+\left[
+\begin{array}{cc|c}
+1&2&3\\
+4&5&6
+\end{array}
+\right]
+$$
 
 
 ## 15、方程式序列
@@ -301,36 +320,18 @@ $$
 说明：可以使用`\begin{align}...\end{align}`来创建一列整齐且默认右对齐的方程式序列。请注意`{align}`是**自动编号**的，使用`{align*}`来声明停止自动编号，也可以使用`\notag`来取消特定行的自动编号。在需要的时候，你可以使用`\begin{equation}...\end{equation}`来强制表达式自动编号。
 
 代码：
-$$
-\begin{align}
-f(x)&=1+1\\
-&=2
-\end{align}
-$$
-
-$$
-\begin{equation}
-\left[
-\begin{array}{cc|c}
-1&2&3\\
-4&5&6
-\end{array}
-\right]
-\end{equation}
-$$
-
-
 
 ```markdown
 $$
 \begin{align}
-\sqrt{37}=\sqrt{\dfrac{73^2-1}{12^2}}\\
-&=\sqrt{\dfrac{73^2}{12^2}\cdot\dfrac{73^2-1}{73^2}}\\
-&=\sqrt{\dfrac{73^2}{12^2}}\sqrt{\dfrac{73^2-1}{73^2}}\notag\\
-&=\dfrac{73}{12}\sqrt{1-\dfrac{1}{73^2}}\\
-\approx\dfrac{73}{12}\left(1-\dfrac{1}{2\cdot73^2}\right)\label{A}
+\sqrt{37} &= \sqrt{\dfrac{73^2-1}{12^2}} \\
+&= \sqrt{\dfrac{73^2}{12^2}\cdot\dfrac{73^2-1}{73^2}} \\
+&= \sqrt{\dfrac{73^2}{12^2}}\sqrt{\dfrac{73^2-1}{73^2}} \\
+&= \dfrac{73}{12}\sqrt{1-\dfrac{1}{73^2}} \\
+&\approx \dfrac{73}{12}\left(1-\dfrac{1}{2\cdot73^2}\right) \label{A}
 \end{align}
 $$
+
 ***
 
 $$
@@ -342,7 +343,27 @@ v+m&=0&\text{Given}\tag1\\
 $$
 ```
 
-![alignexample](align.png)
+效果：
+
+$$
+\begin{align}
+\sqrt{37} &= \sqrt{\dfrac{73^2-1}{12^2}} \\
+&= \sqrt{\dfrac{73^2}{12^2}\cdot\dfrac{73^2-1}{73^2}} \\
+&= \sqrt{\dfrac{73^2}{12^2}}\sqrt{\dfrac{73^2-1}{73^2}} \\
+&= \dfrac{73}{12}\sqrt{1-\dfrac{1}{73^2}} \\
+&\approx \dfrac{73}{12}\left(1-\dfrac{1}{2\cdot73^2}\right) \label{A}
+\end{align}
+$$
+
+***
+
+$$
+\begin{align*}
+v+m&=0&\text{Given}\tag1\\
+-w&=-w+0&\text{additive identity}\tag2\\
+-w+0&=-w+(v+w)&\text{equations $(1)$ and $(2)$}
+\end{align*}
+$$
 
 你可以使用`\label{标签}`来创建一个标签，就如上面的方程式序列中展示的那样，之后使用`\eqref{标签}`引用你想引用的公式。如果不想要括号，可以输入`\ref{标签}`。
 
@@ -363,7 +384,16 @@ n/2,&\text{if $n$ is even}\\
 \end{cases}
 $$
 ```
-![casesexample](cases.png)
+
+效果：
+
+$$
+f(n)=
+\begin{cases}
+n/2,&\text{if $n$ is even}\\
+3n+1,&\text{if $n$ is odd}
+\end{cases}
+$$
 
 ## 17、配置行高
 
@@ -390,7 +420,24 @@ f(n)=
 $$
 ```
 
-![lineheightexample](line-height.png)
+效果：
+
+$$
+f(n)=
+\begin{cases}
+\dfrac n2,&\text{if $n$ is even}\\[2ex]
+3n+1,&\text{if $n$ is odd}
+\end{cases}\tag{适配[2ex]}
+$$
+***
+
+$$
+f(n)=
+\begin{cases}
+\dfrac n2,&\text{if $n$ is even}\\
+3n+1,&\text{if $n$ is odd}
+\end{cases}\tag{不适配[2ex]}
+$$
 
 ## 18、数组与表格
 
@@ -410,7 +457,17 @@ n&\text{left}&\text{center}&\text{right}\\
 $$
 ```
 
-![arrayexample](array.png)
+效果：
+
+$$
+\begin{array}{c|lcr}
+n&\text{left}&\text{center}&\text{right}\\
+\hline
+1&0.24&1&125\\
+2&-1&189&-8\\
+3&-20&2000&1+10i
+\end{array}
+$$
 
 ## 19、希腊字母
 
@@ -488,7 +545,7 @@ ${\LARGE A}{\Large A}{\large A}A{\small A}$
 | ----- | ------- | ------ | -------- | --------- | -------- |
 | \int  | $\int$  | \iint  | $\iint$  | \iiint    | $\iiint$ |
 | \oint | $\oint$ | \oiint | $\oiint$ | \prime(‘) | $\prime$ |
-| \lim  | $\lim$  | \infin | $\infin$ | \nabla    | $\nabla$ |
+| \lim  | $\lim$  | \infty | $\infty$ | \nabla    | $\nabla$ |
 | \grad | ∇       |        |          |           |          |
 
 ### ⑥逻辑运算符
@@ -518,13 +575,24 @@ ${\LARGE A}{\Large A}{\large A}A{\small A}$
 
 ### ⑩空格
 
-![blank](blank.png)
+![space](space.png)
+
+<!-- | 输入 | 效果     | 输入 | 效果     | 输入   | 效果         |
+| ---- | -------- | ---- | -------- | ------ | ------------ |
+| \!   | \(|\!|\) | 默认 | \(|\,|\) | \quad  | \(|\quad|\)  |
+| \,   | \(|\,|\) | \;   | \(|\:|\) | \qquad | \(|\qquad|\) | -->
 
 ## 22、字体
 
  语法：`${\字体{需要转换的字符}}$`
 
-![fontexample](font.png)
+| 输入  | 说明     | 显示                          | 输入  | 说明       | 显示                          |
+|-------|----------|-------------------------------|-------|------------|-------------------------------|
+| \rm   | 罗马体   | ${\rm{Sample}}$               | \cal  | 花体       | ${\cal{Sample}}$              |
+| \it   | 意大利体 | ${\it{Sample}}$               | \Bbb  | 黑板粗体   | ${\Bbb{Sample}}$              |
+| \bf   | 粗体     | ${\bf{Sample}}$               | \mit  | 数学斜体   | ${\mit{Sample}}$              |
+| \sf   | 等线体   | ${\sf{Sample}}$               | \scr  | 手写体     | ${\scr{Sample}}$              |
+| \tt   | 打字机体 | ${\tt{Sample}}$               | \frak | 旧德式字体 | ${\frak{Sample}}$             |
 
 在公式中的对应标记为：\mathrm（数学粗体，如$\mathbf{R}$）、\mathcal（数学花体，如$\mathcal{P}$）、\mathbb（数学黑板粗体，如$\mathbb{R}$）。
 
@@ -592,7 +660,18 @@ $$
 $$
 ```
 
-![delete-line-one](delete-line-one.png)
+效果：
+
+$$
+\require{cancel}\begin{array}{r1}
+\verb|y+\cancel{x}|&y+\cancel{x}\\
+\verb|y+\cancel{y+x}|&y+\cancel{y+x}\\
+\verb|y+\bcancel{x}|&y+\bcancel{x}\\
+\verb|y+\xcancel{x}|&y+\xcancel{x}\\
+\verb|y+\cancelto{0}{x}|&y+\cancelto{0}{x}\\
+\verb+\frac{1\cancel9}{\cancel95}=\frac15+&\frac{1\cancel9}{\cancel95}=\frac15\\
+\end{array}
+$$
 
 说明：使用`\require{enclose}`来允许**整段删除线**的显示，再使用`\enclose{删除线效果}{字符}`来使用各种整段删除线效果。其中，删除线效果有`horizontalstrike`、`verticalstrike`、`updiagonalstrike`和`downdiagonalstrike`,可以叠加使用。
 
@@ -610,5 +689,12 @@ $$
 $$
 ```
 
-![delete-line-two](delete-line-two.png)
-
+$$
+\require{enclose}\begin{array}{r1}
+\verb|\enclose{horizontalstrike}{x+y}|&\enclose{horizontalstrike}{x+y}\\
+\verb|\enclose{verticalstrike}{\frac xy}|&\enclose{verticalstrike}{\frac xy}\\
+\verb|\enclose{updiagonalstrike}{x+y}|&\enclose{updiagonalstrike}{x+y}\\
+\verb|\enclose{downdiagonalstrike}{x+y}|&\enclose{downdiagonalstrike}{x+y}\\
+\verb|\enclose{horizontalstrike,updiagonalstrike}{x+y}|&\enclose{horizontalstrike,updiagonalstrike}{x+y}\\
+\end{array}
+$$
