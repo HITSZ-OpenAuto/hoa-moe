@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-08'
-description: 北京时间 2025-09-07 13 时至今
+date: '2025-09-09'
+description: 北京时间 2025-09-08 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -19,24 +19,6 @@ title: AUTO 更新速递
 - Kowyo 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add cloudflare worker config
 
 - Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：impl basic style for blog/ and news/ list page (#7)
-
-### 周日 (9.7)
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：fix: follow redirects
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：fix: add CORS handling in middleware
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add registry
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: fix deps
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：rename project to hoa-fastdl
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：fix cloudflare deployment
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：fix: correct argument order in proxy function for external redirects
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：init
 
 ## 待解决的 Issues
 
