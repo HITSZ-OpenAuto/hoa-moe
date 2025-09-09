@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周三 (9.10)
 
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：Standadize incorrect formats
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：Standadize incorrect formats
+
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：Standadize incorrect formats
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：Standadize incorrect formats
