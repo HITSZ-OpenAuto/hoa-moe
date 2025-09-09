@@ -27,6 +27,12 @@ languages:
 
 markup:
   goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['$', '$'], ['\(', '\)']]
+        enable: true
     renderer:
       unsafe: true
   highlight:
@@ -40,11 +46,11 @@ menu:
       name: Documentation
       pageRef: /docs
       weight: 1
-    - name: "大一·秋    "
+    - name: "大一·秋"
       parent: documentation
       url: "/docs/fresh-autumn/"
       weight: 1
-    - name: "大一·春    "
+    - name: "大一·春"
       parent: documentation
       url: "/docs/fresh-spring/"
       weight: 2
@@ -121,7 +127,8 @@ params:
   #   key: maintenance-20250908
   #   message: |
   #     ⚠️[2025.9.8] 下载服务维护中，预计将于 48 小时内完成，期间下载服务将不可用，如有需要请访问 [GitHub](https://github.com/HITSZ-OpenAuto) 获取
-
+  math:
+    engine: mathjax
   navbar:
     displayTitle: true
     displayLogo: true
