@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-09'
-description: 北京时间 2025-09-08 13 时至今
+description: 北京时间 2025-09-08 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周二 (9.9)
+
+- IcyDesert 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：添加教材、教师情况
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3040) 中提交了信息：Standadize incorrect formats
 
@@ -186,12 +188,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3054
 - **创建于**: 2025-08-23 18:44:47
-- **作者**: LiPu-jpg
-
-### [COMP3019 生物信息学](https://github.com/HITSZ-OpenAuto/COMP3019/issues/1)
-
-- **仓库**: COMP3019
-- **创建于**: 2025-08-23 18:44:06
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
