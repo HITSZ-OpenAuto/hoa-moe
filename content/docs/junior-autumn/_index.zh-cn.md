@@ -13,6 +13,8 @@ toc: false
 {{< card link="auto3004" title="系统建模与仿真" >}}
 {{< card link="auto3016" title="自动控制实践 A 实验" >}}
 {{< card link="ee2003" title="电磁场" >}}
+{{< card link="ee3001" title="电机学" >}}
+{{< card link="ee304x" title="专业综合实践" >}}
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
