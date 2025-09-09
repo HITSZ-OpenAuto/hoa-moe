@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-09'
-description: 北京时间 2025-09-08 15 时至今
+description: 北京时间 2025-09-08 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周三 (9.10)
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Standadize incorrect formats
 
 ### 周二 (9.9)
 
