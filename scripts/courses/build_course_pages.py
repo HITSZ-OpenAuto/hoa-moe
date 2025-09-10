@@ -4,12 +4,17 @@ import os
 import re
 import subprocess
 import time
+import logging
+import traceback
+import aiohttp
 from argparse import ArgumentParser
 
-import aiohttp
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
 
 # Constants def, the gap should be larger than the total of repos
-weights = {
+WEIGHTS = {
     "counter_man": 1,  # The available weight of the template starts from 1
     "counter_dis": 200,
     "counter_graduate": 400,
@@ -18,7 +23,7 @@ weights = {
     "counter_legacy": 1000,
 }
 
-counters = {
+COUNTERS = {
     "mandatory": "counter_man",
     "distributional-selective": "counter_dis",
     "undergraduate-graduate-course": "counter_graduate",
@@ -28,7 +33,7 @@ counters = {
     "legacy": "counter_legacy",
 }
 
-semester_mapping = {
+SEMESTER_MAPPING = {
     "第一学年秋季": "fresh-autumn",
     "第一学年春季": "fresh-spring",
     "第一学年夏季": "fresh-summer",
@@ -47,7 +52,7 @@ semester_mapping = {
     "文理通识": "general-knowledge",
 }
 
-category_mapping: dict[str] = {
+CATEGORY_MAPPING: dict[str] = {
     "必修": ("mandatory", None),
     "限选": (
         "distributional-selective",
@@ -116,27 +121,42 @@ class GitHubAPIClient:
 async def process_repo(client: GitHubAPIClient) -> None:
     """Process a single repository."""
 
-    # Log message
-    log = "-" * 50 + "\n"
-    log += f"Processing {client.repo}\n"
+    # Log message, thread-safe with logging module
+    logger.info("-" * 50, "\n")
+    logger.info(f"Processing {client.repo}\n")
     try:
         tag_content: str = await client.fetch_file_content("tag.txt")
 
-        log += "-----tag.txt-----\n" + f"{tag_content}" + "-----------------\n"
+        logger.info("---tag.txt---")
+        logger.info(f"{tag_content}")
+        logger.info("-------------")
 
         category_match = re.search(r"category:\s*(.*)", tag_content)
         if category_match:
             category_raw = category_match.group(1)
-            category, extra_info = category_mapping.get(category_raw.strip())
-            log += f"Matched category: {category}\n"
+            # For courses with the default tag, which does not exist in CATEGORY_MAPPING,
+            # `get` returns None, causing error: cannot unpack non-iterable NoneType object.
+            # So this should be judged specially
+            if (
+                category_raw.strip()
+                == "必修/限选/跨专业选修/选修/本研共通/文理通识/归档"
+            ):
+                logger.warning(
+                    "Default tag '必修/限选/跨专业选修/选修/本研共通/文理通识/归档' found, skipping process."
+                )
+                return  # don't raise error since this is reasonable, such as a draft repo
+
+            category, extra_info = CATEGORY_MAPPING.get(category_raw.strip())
+            logger.info(f"Matched category: {category}\n")
         else:
-            log += "No match category\n"
-            raise ValueError(f"No match category: {category_raw}")
+            raise ValueError(
+                f"No match category {category_raw} for course {course_name}"
+            )
 
         if category_raw in ["跨专业选修", "文理通识"]:
             # special cases
             semesters = [category_raw]
-            log += f"Matched semester: {semesters}\n"
+            logger.info(f"Matched semester: {semesters}\n")
         else:
             semesters_match = re.search(r"semester:\s*(.*)", tag_content)
             if semesters_match:
@@ -144,26 +164,25 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 semesters: list[str] = re.split(
                     r"\s*/\s*", semesters_line
                 )  # 以 / 分割多个学期
-                log += f"Matched semester: {semesters}\n"
+                logger.info(f"Matched semester: {semesters}\n")
             else:
-                log += "No semester provided\n"
-                raise ValueError("No semester provided")
+                raise ValueError(f"No semester provided for course {course_name}")
 
         name_match = re.search(r"name:\s*(.*)", tag_content)
         if name_match:
             course_name = name_match.group(1)
-            log += f"Matched name: {course_name}\n"
+            logger.info(f"Matched name: {course_name}\n")
         else:
-            log += "No match name\n"
-            raise ValueError("No match name")
+            raise ValueError(f"No match name for course {course_name}")
 
         for semester in semesters:
-            semester_en = semester_mapping.get(semester.strip())
+            semester_en = SEMESTER_MAPPING.get(semester.strip())
             if not semester_en:
-                log += "No match semester\n"
-                raise ValueError(f"No match semester: {semester}")
+                raise ValueError(
+                    f"No match semester {semester} for course {course_name}"
+                )
 
-            log += f"Matched semester: {semester_en}\n"
+            logger.info(f"Matched semester: {semester_en}\n")
 
             semester_category_filename: str = f"{semester_en}-{category}.txt"
             if (
@@ -197,9 +216,9 @@ async def process_repo(client: GitHubAPIClient) -> None:
             else:
                 s += f"title: {course_name}\n"
 
-            counter_key = counters.get(category)
+            counter_key = COUNTERS.get(category)
             s += (
-                f"weight: {weights[counter_key] + client.index}\n"
+                f"weight: {WEIGHTS[counter_key] + client.index}\n"
                 + "toc: true\n"
                 + f'editURL: "https://github.com/{client.owner}/{client.repo}/edit/main/README.md"\n'
                 + "math: true\n"
@@ -239,14 +258,12 @@ async def process_repo(client: GitHubAPIClient) -> None:
             with open(repo_md_filename, "w", encoding="utf-8") as f:
                 f.write(s)
 
-    except Exception as e:
-        print(f"Error processing repo {client.repo}: {e}")
+    except Exception:
+        logging.error(f"Error processing repo {client.repo}:")
+        traceback.print_exc()
+        return
     finally:
-        log = "\n".join(
-            [line for line in log.split("\n") if line.strip() != ""]
-        )  # 移除 log 中所有空行
-        print(log)
-        print("-" * 50)
+        logger.info("-" * 50)
 
 
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
@@ -294,4 +311,4 @@ if __name__ == "__main__":
     asyncio.run(process_multiple_repos(args.owner, repos, args.token))
     end_time = time.perf_counter()
     execution_time = end_time - start_time
-    print(f"Exec: {execution_time:.2f} s")
+    logger.info(f"Exec: {execution_time:.2f} s")
