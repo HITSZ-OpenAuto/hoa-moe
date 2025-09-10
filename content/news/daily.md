@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-10'
-description: 北京时间 2025-09-09 00 时至今
+description: 北京时间 2025-09-09 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,18 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周三 (9.10)
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：rename
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：update readme
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add title
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：refac
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add package
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：init
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：Standadize incorrect formats
 
@@ -59,13 +71,6 @@ title: AUTO 更新速递
 - W·D·Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：更新课程表标签
 
 ## 待解决的 Issues
-
-### [Performance downgrade when downloading files larger than 20MB](https://github.com/HITSZ-OpenAuto/hoa-fastdl/issues/2)
-
-- **仓库**: hoa-fastdl
-- **创建于**: 2025-09-08 00:43:49
-- **作者**: kowyo
-- **标签**: bug
 
 ### [Support CORS](https://github.com/HITSZ-OpenAuto/hoa-fastdl/issues/1)
 
