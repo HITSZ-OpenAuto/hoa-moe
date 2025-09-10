@@ -55,9 +55,9 @@ def get_latest_commit(owner, repo):
         ) + datetime.timedelta(hours=8)  # UTC-8
         commit_info["message"] = message
         return commit_info
-
-    logging.fatal(f"Failed to fetch commits for {repo}: {response.status_code}")
-    return commit_info
+    else:
+        logging.warning(f"Failed to fetch commits for {repo}: {response.status_code}")
+        return commit_info
 
 
 def save_latest_update(commit_info: dict, repo: str):
@@ -67,6 +67,7 @@ def save_latest_update(commit_info: dict, repo: str):
         message_line = commit_info["message"].split("\n")
         result_content = f"""{{{{< update-info update_time="{yymmdd}" author="{commit_info["author"]}" message="{message_line[0]}" >}}}}\n"""
     else:
+        logging.warning("the latest commit not found")
         result_content = ""
 
     with open(f"result_update_time_{repo}.txt", "w", encoding="utf-8") as file:
