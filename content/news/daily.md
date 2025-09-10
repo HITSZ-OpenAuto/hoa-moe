@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-09'
-description: 北京时间 2025-09-08 17 时至今
+date: '2025-09-10'
+description: 北京时间 2025-09-09 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -57,14 +57,6 @@ title: AUTO 更新速递
 - W·D·Gaster 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：更新课程表标签
 
 - W·D·Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：更新课程表标签
-
-### 周一 (9.8)
-
-- longlinli 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: update dependencies and improve code structure
-
-- Kowyo 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add cloudflare worker config
-
-- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：impl basic style for blog/ and news/ list page (#7)
 
 ## 待解决的 Issues
 
