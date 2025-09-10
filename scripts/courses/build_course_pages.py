@@ -141,13 +141,17 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 category_raw.strip()
                 == "必修/限选/跨专业选修/选修/本研共通/文理通识/归档"
             ):
-                logger.warning("Default tag '必修/限选/跨专业选修/选修/本研共通/文理通识/归档' found, skipping process.")
+                logger.warning(
+                    "Default tag '必修/限选/跨专业选修/选修/本研共通/文理通识/归档' found, skipping process."
+                )
                 return  # don't raise error since this is reasonable, such as a draft repo
-            
+
             category, extra_info = CATEGORY_MAPPING.get(category_raw.strip())
             logger.info(f"Matched category: {category}\n")
         else:
-            raise ValueError(f"No match category {category_raw} for course {course_name}")
+            raise ValueError(
+                f"No match category {category_raw} for course {course_name}"
+            )
 
         if category_raw in ["跨专业选修", "文理通识"]:
             # special cases
@@ -174,7 +178,9 @@ async def process_repo(client: GitHubAPIClient) -> None:
         for semester in semesters:
             semester_en = SEMESTER_MAPPING.get(semester.strip())
             if not semester_en:
-                raise ValueError(f"No match semester {semester} for course {course_name}")
+                raise ValueError(
+                    f"No match semester {semester} for course {course_name}"
+                )
 
             logger.info(f"Matched semester: {semester_en}\n")
 

@@ -45,8 +45,8 @@ def get_latest_commit(owner, repo):
             ) + datetime.timedelta(hours=8)  # UTC-8
             commit_info["message"] = message
             return commit_info
-        
-        # if code reaches here, there aren't any "useful" 
+
+        # if code reaches here, there aren't any "useful"
         # commits in the latest 10, so return the latest one as a fallback
         commit = commits[0]
         commit_info["author"] = commit["commit"]["author"]["name"]
