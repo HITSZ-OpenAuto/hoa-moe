@@ -2,6 +2,7 @@ import subprocess
 import json
 import os
 from datetime import datetime, timedelta
+import logging
 
 # from dotenv import load_dotenv
 
@@ -170,7 +171,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
 
                 f.write("\n")
 
-    print(f"Report updated: content/news/daily.md")
+    logging.info(f"Report updated: content/news/daily.md")
 
 
 def main():
