@@ -7,6 +7,7 @@ import time
 import logging
 import traceback
 import aiohttp
+
 from argparse import ArgumentParser
 
 logger = logging.getLogger(__name__)
@@ -72,6 +73,24 @@ CATEGORY_MAPPING: dict[str] = {
 }
 
 
+EXCLUDE_REPOS = [
+    ".github",
+    "hoa-moe",
+    "HITSZ-OpenAuto",
+    "repos-management",
+    "hoa-previewer",
+    "hoa-fastdl",
+    "aextra",
+]
+
+
+# Pre-compiled regex for better performance
+PATTERN_CATEGORY = re.compile(r"category:\s*(.*)")
+PATTERN_SEMESTER = re.compile(r"semester:\s*(.*)")
+PATTERN_SEMESTERS = re.compile(r"\s*/\s*")
+PATTERN_NAME = re.compile(r"name:\s*(.*)")
+
+
 class GitHubAPIClient:
     """A GitHub API client."""
 
@@ -121,17 +140,18 @@ class GitHubAPIClient:
 async def process_repo(client: GitHubAPIClient) -> None:
     """Process a single repository."""
 
-    # Log message, thread-safe with logging module
-    logger.info("-" * 50, "\n")
-    logger.info(f"Processing {client.repo}\n")
+    # due to async, can only concatenate log to ensure logs' coherency
+    logs = []
+    logs.append(f"Processing {client.repo}")
+
     try:
         tag_content: str = await client.fetch_file_content("tag.txt")
 
-        logger.info("---tag.txt---")
-        logger.info(f"{tag_content}")
-        logger.info("-------------")
+        logs.append("---tag.txt---")
+        logs.append(tag_content)
+        logs.append("-------------")
 
-        category_match = re.search(r"category:\s*(.*)", tag_content)
+        category_match = PATTERN_CATEGORY.search(tag_content)
         if category_match:
             category_raw = category_match.group(1)
             # For courses with the default tag, which does not exist in CATEGORY_MAPPING,
@@ -147,33 +167,31 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 return  # don't raise error since this is reasonable, such as a draft repo
 
             category, extra_info = CATEGORY_MAPPING.get(category_raw.strip())
-            logger.info(f"Matched category: {category}\n")
+            logs.append(f"Matched category: {category}\n")
         else:
-            raise ValueError(
-                f"No match category {category_raw} for course {course_name}"
-            )
+            raise ValueError(f"No match category {category_raw} for {client.repo}")
 
         if category_raw in ["跨专业选修", "文理通识"]:
             # special cases
             semesters = [category_raw]
-            logger.info(f"Matched semester: {semesters}\n")
+            logs.append(f"Matched semester: {semesters}")
         else:
-            semesters_match = re.search(r"semester:\s*(.*)", tag_content)
+            semesters_match = PATTERN_SEMESTER.search(tag_content)
             if semesters_match:
                 semesters_line = semesters_match.group(1)
-                semesters: list[str] = re.split(
-                    r"\s*/\s*", semesters_line
+                semesters: list[str] = PATTERN_SEMESTERS.split(
+                    semesters_line
                 )  # 以 / 分割多个学期
-                logger.info(f"Matched semester: {semesters}\n")
+                logs.append(f"Matched semester: {semesters}")
             else:
-                raise ValueError(f"No semester provided for course {course_name}")
+                raise ValueError(f"No semester provided for {client.repo}")
 
-        name_match = re.search(r"name:\s*(.*)", tag_content)
+        name_match = PATTERN_NAME.search(tag_content)
         if name_match:
             course_name = name_match.group(1)
-            logger.info(f"Matched name: {course_name}\n")
+            logs.append(f"Matched name: {course_name}")
         else:
-            raise ValueError(f"No match name for course {course_name}")
+            raise ValueError(f"No match name for course {client.repo}")
 
         for semester in semesters:
             semester_en = SEMESTER_MAPPING.get(semester.strip())
@@ -182,7 +200,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
                     f"No match semester {semester} for course {course_name}"
                 )
 
-            logger.info(f"Matched semester: {semester_en}\n")
+            logs.append(f"Matched semester: {semester_en}")
 
             semester_category_filename: str = f"{semester_en}-{category}.txt"
             if (
@@ -261,15 +279,15 @@ async def process_repo(client: GitHubAPIClient) -> None:
     except Exception:
         logging.error(f"Error processing repo {client.repo}:")
         traceback.print_exc()
-        return
+        logging.info("Logs before the error are:")
     finally:
-        logger.info("-" * 50)
+        logs.append("-" * 50)
+        logger.info("\n".join(logs))
+    return
 
 
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
-    repos = [
-        repo for repo in repos if repo not in [".github", "hoa-moe", "HITSZ-OpenAuto"]
-    ]
+    repos = [repo for repo in repos if repo not in EXCLUDE_REPOS]
     sorted_repos = sorted(repos)  # 排序，用于在并行的情况下保证构建网页时的顺序
 
     clients = [

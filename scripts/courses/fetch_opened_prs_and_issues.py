@@ -16,6 +16,8 @@ EXCLUDE_REPOS = [
     "HITSZ-OpenAuto",
     "repos-management",
     "hoa-previewer",
+    "hoa-fastdl",
+    "aextra",
 ]
 
 
