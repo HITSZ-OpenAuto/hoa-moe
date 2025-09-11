@@ -19,7 +19,7 @@ def get_latest_commit(owner, repo):
     commits_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
     params = {
         "since": "2000-01-01T00:00:01Z",
-        "per_page": 10,  # Fetch up to 10 commits to find a "useful" one
+        "per_page": 20,  # Fetch up to 20 commits to find a "useful" one
     }
     response = requests.get(commits_url, headers=headers, params=params)
     commit_info = dict()
@@ -47,7 +47,7 @@ def get_latest_commit(owner, repo):
             return commit_info
 
         # if code reaches here, there aren't any "useful"
-        # commits in the latest 10, so return the latest one as a fallback
+        # commits in the latest 20, so return the latest one as a fallback
         commit = commits[0]
         commit_info["author"] = commit["commit"]["author"]["name"]
         commit_info["date"] = datetime.datetime.strptime(
