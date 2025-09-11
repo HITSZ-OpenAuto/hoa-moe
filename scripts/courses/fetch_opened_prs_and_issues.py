@@ -17,7 +17,7 @@ EXCLUDE_REPOS = [
     "repos-management",
     "hoa-previewer",
     "hoa-fastdl",
-    "aextra"
+    "aextra",
 ]
 
 

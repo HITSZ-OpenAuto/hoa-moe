@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-11'
-description: 北京时间 2025-09-10 03 时至今
+description: 北京时间 2025-09-10 05 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -27,13 +27,6 @@ title: AUTO 更新速递
 - Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：init
 
 ## 待解决的 Issues
-
-### [Support CORS](https://github.com/HITSZ-OpenAuto/hoa-fastdl/issues/1)
-
-- **仓库**: hoa-fastdl
-- **创建于**: 2025-09-08 00:43:04
-- **作者**: kowyo
-- **标签**: enhancement
 
 ### [COMP3043 深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043/issues/1)
 
@@ -175,27 +168,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [feat: improve footer layout and styling in BaseFooter](https://github.com/HITSZ-OpenAuto/aextra/pull/9)
-
-- **仓库**: aextra
-- **创建于**: 2025-09-08 16:17:14
-- **作者**: longlin10086
-
 ### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
 
 - **仓库**: CrossSpecialty
 - **创建于**: 2025-09-05 20:23:13
 - **作者**: IcyDesert
-
-### [feat(toc): add minDepth prop and improve numbering logic](https://github.com/HITSZ-OpenAuto/aextra/pull/6)
-
-- **仓库**: aextra
-- **创建于**: 2025-08-27 15:46:14
-- **作者**: syhanjin
-
-### [feat: add blog index page with post listing and styling](https://github.com/HITSZ-OpenAuto/aextra/pull/4)
-
-- **仓库**: aextra
-- **创建于**: 2025-08-24 23:27:52
-- **作者**: syhanjin
 

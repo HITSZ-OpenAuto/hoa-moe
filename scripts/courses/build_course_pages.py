@@ -80,7 +80,7 @@ EXCLUDE_REPOS = [
     "repos-management",
     "hoa-previewer",
     "hoa-fastdl",
-    "aextra"
+    "aextra",
 ]
 
 
@@ -170,9 +170,7 @@ async def process_repo(client: GitHubAPIClient) -> None:
             category, extra_info = CATEGORY_MAPPING.get(category_raw.strip())
             logs.append(f"Matched category: {category}\n")
         else:
-            raise ValueError(
-                f"No match category {category_raw} for {client.repo}"
-            )
+            raise ValueError(f"No match category {category_raw} for {client.repo}")
 
         if category_raw in ["跨专业选修", "文理通识"]:
             # special cases
@@ -288,10 +286,9 @@ async def process_repo(client: GitHubAPIClient) -> None:
         logger.info("\n".join(logs))
     return
 
+
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
-    repos = [
-        repo for repo in repos if repo not in EXCLUDE_REPOS
-    ]
+    repos = [repo for repo in repos if repo not in EXCLUDE_REPOS]
     sorted_repos = sorted(repos)  # 排序，用于在并行的情况下保证构建网页时的顺序
 
     clients = [
