@@ -178,13 +178,6 @@ params:
     list:
       displayTags: true
 
-  news:
-    list:
-      displayTags: true
-      # date | lastmod | publishDate | title | weight
-      sortBy: date
-      sortOrder: desc # or "asc"
-
   comments:
     enable: true
     type: giscus

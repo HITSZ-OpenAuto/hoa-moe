@@ -1,5 +1,8 @@
 ---
 title: "新闻"
+type: blog
+cascade:
+  type: blog
 ---
 
 <div style="text-align: center; margin-top: 1em;">
