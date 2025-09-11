@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-10'
-description: 北京时间 2025-09-09 15 时至今
+date: '2025-09-11'
+description: 北京时间 2025-09-10 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -25,50 +25,6 @@ title: AUTO 更新速递
 - Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add package
 
 - Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：init
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3007) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Standadize incorrect formats
-
-### 周二 (9.9)
-
-- IcyDesert 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：添加教材、教师情况
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3040) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：Standadize incorrect formats
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：Standadize incorrect formats
-
-- W·D·Gaster 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：更新课程表标签
-
-- W·D·Gaster 在 [专业综合实践](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：更新课程表标签
-
-- W·D·Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：更新课程表标签
-
-- W·D·Gaster 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：更新课程表标签
-
-- W·D·Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：更新课程表标签
 
 ## 待解决的 Issues
 
