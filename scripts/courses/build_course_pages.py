@@ -142,7 +142,6 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
     # due to async, can only concatenate log to ensure logs' coherency
     logs = []
-    logs.append("-" * 50)
     logs.append(f"Processing {client.repo}")
 
     try:
