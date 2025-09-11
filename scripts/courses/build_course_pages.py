@@ -72,6 +72,12 @@ CATEGORY_MAPPING: dict[str] = {
 }
 
 
+# Pre-compiled regex for better performance
+PATTERN_CATEGORY = re.compile(r"category:\s*(.*)")
+PATTERN_SEMESTER = re.compile(r"semester:\s*(.*)")
+PATTERN_SEMESTERS = re.compile(r"\s*/\s*")
+PATTERN_NAME = re.compile(r"name:\s*(.*)")
+
 class GitHubAPIClient:
     """A GitHub API client."""
 
@@ -122,16 +128,16 @@ async def process_repo(client: GitHubAPIClient) -> None:
     """Process a single repository."""
 
     # Log message, thread-safe with logging module
-    logger.info("-" * 50, "\n")
+    logger.info("-" * 50)
     logger.info(f"Processing {client.repo}\n")
     try:
         tag_content: str = await client.fetch_file_content("tag.txt")
 
         logger.info("---tag.txt---")
-        logger.info(f"{tag_content}")
+        logger.info(tag_content)
         logger.info("-------------")
 
-        category_match = re.search(r"category:\s*(.*)", tag_content)
+        category_match = PATTERN_CATEGORY.search(tag_content)
         if category_match:
             category_raw = category_match.group(1)
             # For courses with the default tag, which does not exist in CATEGORY_MAPPING,
@@ -158,17 +164,15 @@ async def process_repo(client: GitHubAPIClient) -> None:
             semesters = [category_raw]
             logger.info(f"Matched semester: {semesters}\n")
         else:
-            semesters_match = re.search(r"semester:\s*(.*)", tag_content)
+            semesters_match = PATTERN_SEMESTER.search(tag_content)
             if semesters_match:
                 semesters_line = semesters_match.group(1)
-                semesters: list[str] = re.split(
-                    r"\s*/\s*", semesters_line
-                )  # 以 / 分割多个学期
+                semesters: list[str] = PATTERN_SEMESTERS.split(semesters_line)  # 以 / 分割多个学期
                 logger.info(f"Matched semester: {semesters}\n")
             else:
                 raise ValueError(f"No semester provided for course {course_name}")
 
-        name_match = re.search(r"name:\s*(.*)", tag_content)
+        name_match = PATTERN_NAME.search(tag_content)
         if name_match:
             course_name = name_match.group(1)
             logger.info(f"Matched name: {course_name}\n")
