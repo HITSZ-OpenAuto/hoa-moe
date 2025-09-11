@@ -78,6 +78,7 @@ PATTERN_SEMESTER = re.compile(r"semester:\s*(.*)")
 PATTERN_SEMESTERS = re.compile(r"\s*/\s*")
 PATTERN_NAME = re.compile(r"name:\s*(.*)")
 
+
 class GitHubAPIClient:
     """A GitHub API client."""
 
@@ -167,7 +168,9 @@ async def process_repo(client: GitHubAPIClient) -> None:
             semesters_match = PATTERN_SEMESTER.search(tag_content)
             if semesters_match:
                 semesters_line = semesters_match.group(1)
-                semesters: list[str] = PATTERN_SEMESTERS.split(semesters_line)  # 以 / 分割多个学期
+                semesters: list[str] = PATTERN_SEMESTERS.split(
+                    semesters_line
+                )  # 以 / 分割多个学期
                 logger.info(f"Matched semester: {semesters}\n")
             else:
                 raise ValueError(f"No semester provided for course {course_name}")
