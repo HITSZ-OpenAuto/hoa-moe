@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-11'
-description: 北京时间 2025-09-10 12 时至今
+date: '2025-09-12'
+description: 北京时间 2025-09-11 04 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,19 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (9.10)
+### 周五 (9.12)
 
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：rename
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：update readme
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add title
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：refac
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add package
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：init
+- Kowyo 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：调整表格样式 (#37)
 
 ## 待解决的 Issues
 
@@ -167,6 +157,12 @@ title: AUTO 更新速递
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
+
+### [add notes of course](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/28)
+
+- **仓库**: AUTO2005
+- **创建于**: 2025-09-12 10:33:32
+- **作者**: zhuqi000
 
 ### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
 
