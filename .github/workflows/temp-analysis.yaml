@@ -1,11 +1,9 @@
-name: "Build Documentation"
+name: "Analysis for Build Pages"
 
 on:
   push:
     branches:
       - "refactor/*"
-  schedule:
-    - cron: "0 0 * * *" # Set the workflow to run at 00:00 UTC+0 every day (8 AM Beijing time)
   workflow_dispatch:
     inputs:
       repo_name:
@@ -75,7 +73,7 @@ jobs:
       - name: TEST FOR PROFILE Build course pages
         run: |
           source scripts/.venv/bin/activate
-          py-spy record -o profile.svg --python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          py-spy record -o profile.svg -- python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Archive flame graph results
         uses: actions/upload-artifact@v4
