@@ -160,6 +160,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [Standadize incorrect formats](https://github.com/HITSZ-OpenAuto/COMP3003/pull/5)
+
+- **仓库**: COMP3003
+- **创建于**: 2025-09-14 00:42:12
+- **作者**: mircecilia
+
 ### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
 
 - **仓库**: CrossSpecialty
