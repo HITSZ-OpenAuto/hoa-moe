@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-14'
-description: 北京时间 2025-09-13 06 时至今
+description: 北京时间 2025-09-13 13 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,12 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (9.14)
+
+- IcyDesert 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加 大模型应用开发入门 课程情况 (#9)
+
+- Chenx Dust 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：better frontend, block not ok response
+
+- Chenx Dust 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add error page
 
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Merge pull request #5 from mircecilia/main
 
@@ -170,9 +176,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2025-09-05 20:23:13
-- **作者**: IcyDesert
+暂无待合并的 Pull Requests
 

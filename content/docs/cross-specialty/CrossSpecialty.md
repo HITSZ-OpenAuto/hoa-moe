@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 8 月 1 日" author="LiPu-jpg" message="docs:新增 OpenHarmony 课程相关内容 (#5)" >}}
+{{< update-info update_time="2025 年 9 月 14 日" author="IcyDesert" message="添加 大模型应用开发入门 课程情况 (#9)" >}}
 
 
 <!--
@@ -205,6 +205,28 @@ math: true
 更多内容可以前往[端云协同物联网开发实践 - 具体 lab 内容](https://ohiot.p.cs-lab.top/)中查看。
 
 > 文 / [离谱](https://github.com/LiPu-jpg)，2025.8
+
+### 大模型应用开发入门
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E5%B9%B3%E6%97%B6%E8%80%83%E6%A0%B810%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E8%80%83%E6%A0%B8-10%25-wheat)
+![%E5%AE%9E%E9%AA%8C%E4%BD%9C%E4%B8%9A60%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E4%BD%9C%E4%B8%9A-60%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE30%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE-30%25-wheat)
+
+</div>
+
+推荐有 Python 基础同学选择。这门课依托于 LangChain 等大模型应用库，编写一个实用的大模型应用。注意课程和 **机器学习** 等不同，不涉及底层模型训练；2024 秋课上使用的是通义千问 API。
+
+有五个小实验，分别对应五个大模型应用开发的知识点，例如大家可能有所耳闻的 RAG、提示词工程等，详见大纲。
+期末结项是综合应用前面的知识点开发一个应用出来；当然老师知道有的同学没有编程基础，所以允许使用 [coze 低代码平台](https://www.coze.cn/) 开发应用。示例项目可参考 [文献阅读助手 - IcyDesert & OverLink](https://github.com/0verL1nk/LLM_App_Final)。
+
+谢佳老师好说话，上课氛围也比较轻松；知道同学们可能基础薄弱，所以她也欢迎同学提问（会有很多人问问题）。签到是签到表形式。
+
+> 文 / [IcyDesert](https://github.com/IcyDesert)，2025.9
+
 ## 资料下载
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
