@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-13'
-description: 北京时间 2025-09-12 00 时至今
+date: '2025-09-14'
+description: 北京时间 2025-09-13 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (9.12)
+### 周日 (9.14)
 
-- zhuqi000 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：add notes of course (#28)
-
-- Kowyo 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：调整表格样式 (#37)
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：Standadize incorrect formats (#6)
 
 ## 待解决的 Issues
 
@@ -160,10 +158,10 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [Standadize incorrect formats](https://github.com/HITSZ-OpenAuto/COMP3003/pull/5)
+### [Standadize incorrect formats](https://github.com/HITSZ-OpenAuto/COMP3028/pull/5)
 
-- **仓库**: COMP3003
-- **创建于**: 2025-09-14 00:42:12
+- **仓库**: COMP3028
+- **创建于**: 2025-09-14 14:53:35
 - **作者**: mircecilia
 
 ### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
