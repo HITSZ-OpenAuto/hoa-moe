@@ -14,7 +14,19 @@ title: AUTO 更新速递
 
 ### 周日 (9.14)
 
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Merge pull request #5 from mircecilia/main
+
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Merge branch 'HITSZ-OpenAuto:main' into main
+
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Merge pull request #5 from mircecilia/main
+
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Merge branch 'HITSZ-OpenAuto:main' into main
+
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：Standadize incorrect formats (#6)
+
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Standadize incorrect formats
+
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Standadize incorrect formats
 
 ## 待解决的 Issues
 
@@ -157,12 +169,6 @@ title: AUTO 更新速递
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
-
-### [Standadize incorrect formats](https://github.com/HITSZ-OpenAuto/COMP3028/pull/5)
-
-- **仓库**: COMP3028
-- **创建于**: 2025-09-14 14:53:35
-- **作者**: mircecilia
 
 ### [添加 大模型应用开发入门 课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/9)
 
