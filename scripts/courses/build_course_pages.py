@@ -125,18 +125,13 @@ class GitHubAPIClient:
                 logging.warning(
                     f"Failed to fetch commits for {self.repo}: {response.status}"
                 )
-                return None
+                return ""
 
             commits = await response.json()
             for commit in commits:
-                message = commit["commit"]["message"]
+                message: str = commit["commit"]["message"]
                 # Skip "valueless" commits whose messages start with these words
-                if (
-                    message.startswith("Replace")
-                    or message.startswith("Add")
-                    or message.startswith("ci")
-                    or message.startswith("Update")
-                ):
+                if message.startswith(("Replace", "Add", "ci", "Update")):
                     continue
 
                 # Process the first "useful" commit and return it
@@ -144,6 +139,9 @@ class GitHubAPIClient:
 
             # if code reaches here, there aren't any "useful"
             # commits in the latest 20, so return the latest one as a fallback
+            if not commits:
+                logging.warning(f"No commits found for {self.repo}")
+                return ""
             commit = commits[0]
             return self.commit_info_extract(commit)
 
