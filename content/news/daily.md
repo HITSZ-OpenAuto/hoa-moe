@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-14'
-description: 北京时间 2025-09-13 13 时至今
+date: '2025-09-15'
+description: 北京时间 2025-09-14 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -29,10 +29,6 @@ title: AUTO 更新速递
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Merge branch 'HITSZ-OpenAuto:main' into main
 
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：Standadize incorrect formats (#6)
-
-- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Standadize incorrect formats
-
-- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Standadize incorrect formats
 
 ## 待解决的 Issues
 
