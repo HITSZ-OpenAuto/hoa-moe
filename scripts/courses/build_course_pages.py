@@ -115,14 +115,16 @@ class GitHubAPIClient:
     async def close_session(self):
         if self.session:
             await self.session.close()
-    
+
     async def get_latest_commit(self):
         commits_url = f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
         params = {"per_page": 20}  # Fetch up to 20 commits to find a "useful" one
 
         async with self.session.get(commits_url, params=params) as response:
             if response.status != 200:
-                logging.warning(f"Failed to fetch commits for {self.repo}: {response.status}")
+                logging.warning(
+                    f"Failed to fetch commits for {self.repo}: {response.status}"
+                )
                 return None
 
             commits = await response.json()
