@@ -8,7 +8,6 @@ import logging
 import traceback
 import aiohttp
 import datetime
-import requests
 
 from argparse import ArgumentParser
 
