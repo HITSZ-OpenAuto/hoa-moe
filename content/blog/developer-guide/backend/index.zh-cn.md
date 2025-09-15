@@ -50,7 +50,7 @@ prev: /blog/developer-guide/maintenance
 │   └── sponsor.txt
 ├── news
 │   ├── __init__.py
-│   ├── gen_image.py
+│   ├── gen_news.py
 │   └── generate.py
 ├── workflows
 │   ├── build_directory_pages.sh
