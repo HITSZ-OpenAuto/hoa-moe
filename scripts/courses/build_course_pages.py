@@ -7,6 +7,8 @@ import time
 import logging
 import traceback
 import aiohttp
+import datetime
+import requests
 
 from argparse import ArgumentParser
 
@@ -114,6 +116,37 @@ class GitHubAPIClient:
     async def close_session(self):
         if self.session:
             await self.session.close()
+    
+    async def get_latest_commit(self):
+        commits_url = f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
+        params = {
+            "since": "2000-01-01T00:00:01Z",
+            "per_page": 20,  # Fetch up to 20 commits to find a "useful" one
+        }
+        async with self.session.get(commits_url, params=params) as response:
+            if response.status != 200:
+                logging.warning(f"Failed to fetch commits for {self.repo}: {response.status_code}")
+                return None
+
+            commits = response.json()
+            for commit in commits:
+                message = commit["commit"]["message"]
+                # Skip "valueless" commits whose messages start with these words
+                if (
+                    message.startswith("Replace")
+                    or message.startswith("Add")
+                    or message.startswith("ci")
+                    or message.startswith("Update")
+                ):
+                    continue
+
+                # Process the first "useful" commit and return it
+                return self.commit_info_extract(commit)
+
+            # if code reaches here, there aren't any "useful"
+            # commits in the latest 20, so return the latest one as a fallback
+            commit = commits[0]
+            return self.commit_info_extract(commit)
 
     async def fetch_file_content(self, path: str) -> str:
         """Fetch the content of a file from the repository."""
@@ -135,6 +168,20 @@ class GitHubAPIClient:
                     f'{{{{< card link="{self.repo.lower()}" title="{self.name}" >}}}}\n'
                 )
                 f.write(card_link)
+
+    def commit_info_extract(self, commit: dict) -> str:
+        if commit:
+            datetime_object = datetime.datetime.strptime(
+                commit["commit"]["author"]["date"], "%Y-%m-%dT%H:%M:%SZ"
+            ) + datetime.timedelta(hours=8),  # UTC-8
+            yymmdd = f"{datetime_object.year} 年 {datetime_object.month} 月 {datetime_object.day} 日"
+
+            message_line = commit["commit"]["message"].split("\n")
+
+            result_content = f"""{{{{< update-info update_time="{yymmdd}" author="{commit["commit"]["author"]["name"]}" message="{message_line[0]}" >}}}}\n"""
+        else:
+            result_content = ""
+        return result_content
 
 
 async def process_repo(client: GitHubAPIClient) -> None:
@@ -243,22 +290,10 @@ async def process_repo(client: GitHubAPIClient) -> None:
                 + "---\n\n"
             )
 
-            # python scripts/courses/gen_repo_update_time.py HITSZ-OpenAuto ${line} ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-            subprocess.run(
-                [
-                    "python",
-                    "scripts/courses/gen_repo_update_time.py",
-                    client.owner,
-                    client.repo,
-                    client.token,
-                ],
-                check=True,
-            )
-            with open(
-                f"result_update_time_{client.repo}.txt", "r", encoding="utf-8"
-            ) as result_file:
-                s += result_file.read() + "\n"
-            os.remove(f"result_update_time_{client.repo}.txt")
+            commit_info_content = await client.get_latest_commit()
+            if not commit_info_content:
+                logging.warning("the latest commit not found")
+            s += commit_info_content
 
             s += readme_content + "\n" + "## 资料下载\n\n"
             with open(
