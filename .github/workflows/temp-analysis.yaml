@@ -73,7 +73,7 @@ jobs:
       - name: TEST FOR PROFILE Build course pages
         run: |
           source scripts/.venv/bin/activate
-          py-spy record -o profile.svg --subprocesses -- python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          py-spy record -o profile.svg --subprocesses -- python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }} || true
 
       - name: Archive flame graph results
         uses: actions/upload-artifact@v4
