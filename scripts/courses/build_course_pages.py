@@ -119,16 +119,14 @@ class GitHubAPIClient:
     
     async def get_latest_commit(self):
         commits_url = f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
-        params = {
-            "since": "2000-01-01T00:00:01Z",
-            "per_page": 20,  # Fetch up to 20 commits to find a "useful" one
-        }
+        params = {"per_page": 20}  # Fetch up to 20 commits to find a "useful" one
+
         async with self.session.get(commits_url, params=params) as response:
             if response.status != 200:
-                logging.warning(f"Failed to fetch commits for {self.repo}: {response.status_code}")
+                logging.warning(f"Failed to fetch commits for {self.repo}: {response.status}")
                 return None
 
-            commits = response.json()
+            commits = await response.json()
             for commit in commits:
                 message = commit["commit"]["message"]
                 # Skip "valueless" commits whose messages start with these words
@@ -173,7 +171,7 @@ class GitHubAPIClient:
         if commit:
             datetime_object = datetime.datetime.strptime(
                 commit["commit"]["author"]["date"], "%Y-%m-%dT%H:%M:%SZ"
-            ) + datetime.timedelta(hours=8),  # UTC-8
+            ) + datetime.timedelta(hours=8)  # UTC+8
             yymmdd = f"{datetime_object.year} 年 {datetime_object.month} 月 {datetime_object.day} 日"
 
             message_line = commit["commit"]["message"].split("\n")
