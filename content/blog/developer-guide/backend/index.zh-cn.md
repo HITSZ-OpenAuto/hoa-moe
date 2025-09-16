@@ -26,7 +26,10 @@ prev: /blog/developer-guide/maintenance
 
 在确定前端框架后，我们需要着手解决内容迁移的问题。如果采用手动方式将各个文档逐一复制，不仅工作量巨大，也不便于后期扩展。因此，我们计划开发自动化脚本，用于获取当前所有公开课程仓库的内容，包括分散在各仓库中的 README 文档以及已上传的资料元信息。同时，我们将借助 GitHub Action 实现定期检测：按照设定的时间间隔自动查询各课程仓库的更新状态，并据此判断是否需要重新构建内容。
 
-在项目初期，由于课程仓库和网站功能相对简单，我们采用了直接在 workflow yaml 文件中编写 shell 脚本的方式。随着项目规模的扩大，脚本的复杂度也随之提升。这促使我们进行了一系列优化：首先，将部分难以用 shell 实现的功能提取出来，改用更易维护的 Python 脚本；其次，为了解决因网络请求增多导致的执行时间过长问题，我们在最近的一次大规模更新中将同步处理改为了异步处理；最后，为提升代码的可维护性，我们把原本集成在 yaml 文件中的所有 shell 脚本都独立出来，统一存放在 scripts 文件夹下。
+在项目初期，由于课程仓库和网站功能相对简单，我们采用了直接在 workflow yaml 文件中编写 shell 脚本的方式。随着项目规模的扩大，脚本的复杂度也随之提升。这促使我们进行了一系列优化：
+1. 将部分难以用 shell 实现的功能提取出来，**改用更易维护的 Python 脚本**
+2. 为了解决因网络请求增多导致的执行时间过长问题，在一次大规模更新中将同步处理改为了**异步处理**
+3. 为提升代码的可维护性，把原本集成在 yaml 文件中的所有 shell 脚本都独立出来，统一存放在 scripts 文件夹下。
 
 ```sh
 .
@@ -36,10 +39,9 @@ prev: /blog/developer-guide/maintenance
 │   └── update_about.py
 ├── courses
 │   ├── __init__.py
-│   ├── build_course_pages.py
+│   ├── build_course_pages.py # 使用中
 │   ├── fetch_opened_prs_and_issues.py
 │   ├── gen_links.py
-│   ├── gen_repo_update_time.py
 │   └── wrap_badges.py
 ├── filetrees
 │   ├── __init__.py
@@ -55,7 +57,7 @@ prev: /blog/developer-guide/maintenance
 │   └── gen_news.py
 ├── requirements.txt
 └── workflows
-    ├── build_course_pages.sh
+    ├── build_course_pages.sh  # 已弃用
     ├── build_directory_pages.sh
     ├── build_semester_pages.sh
     ├── build_single_course_page.sh
@@ -126,8 +128,8 @@ if __name__ == "__main__":
 
 ```py
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
-    # 1. 过滤掉特定仓库（.github, hoa-moe, HITSZ-OpenAuto）
-    repos = [repo for repo in repos if repo not in [".github", "hoa-moe", "HITSZ-OpenAuto"]]
+    # 1. 过滤掉非课程类的仓库，比如主仓库 hoa-moe
+    repos = [repo for repo in repos if repo not in EXCLUDE_REPOS]
     sorted_repos = sorted(repos)  # 排序，用于在并行的情况下保证构建网页时的顺序
 
     # 2. 为每个仓库创建一个 GitHubAPIClient 实例
@@ -160,17 +162,24 @@ async def process_repo(client: GitHubAPIClient) -> None:
     tag_content: str = await client.fetch_file_content("tag.txt")
 
     # 2. 根据学期和类别信息创建或更新相应的分类文件
-    category_match = re.search(r"category:\s*(.*)", tag_content)
-    if category_match:
-        category_raw = category_match.group(1)
-        category, extra_info = category_mapping.get(category_raw.strip())
-        log += f"Matched category: {category}\n"
+    # 课程类别，如必修
+    category_match = PATTERN_CATEGORY.search(tag_content)
+        if category_match:
+            category_raw = category_match.group(1)
+            category, extra_info = CATEGORY_MAPPING.get(category_raw.strip())
 
-    semesters_match = re.search(r"semester:\s*(.*)", tag_content)
-    # ...
-    name_match = re.search(r"name:\s*(.*)", tag_content)
-    # ...
-
+        # 开课学期
+        if category_raw in ["跨专业选修", "文理通识"]:
+            # special cases
+            semesters = [category_raw]
+        else:
+            semesters_match = PATTERN_SEMESTER.search(tag_content)
+            # ...
+        
+        # 课程名称
+        name_match = PATTERN_NAME.search(tag_content)
+        #...
+    
     # 一个课程可能会有多个学期
     for semester in semesters:
 

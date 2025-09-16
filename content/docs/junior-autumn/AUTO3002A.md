@@ -8,7 +8,6 @@ math: true
 
 {{< update-info update_time="2025 年 9 月 12 日" author="Kowyo" message="调整表格样式 (#37)" >}}
 
-
 <div class="hoa-badge">
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)

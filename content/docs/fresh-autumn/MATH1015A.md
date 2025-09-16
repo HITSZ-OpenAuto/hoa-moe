@@ -8,7 +8,6 @@ math: true
 
 {{< update-info update_time="2025 年 2 月 8 日" author="W·D·Gaster" message="以 .gitkeep 文件替代无用的 readme.md 文件 (#14)" >}}
 
-
 <div class="hoa-badge">
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)  ![Static Badge](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-5-moccasin)

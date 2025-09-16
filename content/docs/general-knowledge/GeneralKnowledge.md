@@ -8,7 +8,6 @@ math: true
 
 {{< update-info update_time="2025 年 9 月 4 日" author="W·D·Gaster" message="添加自救群共享文档部分课程评价 (#11)" >}}
 
-
 <div class="hoa-badge">
 
 ![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-Green)
