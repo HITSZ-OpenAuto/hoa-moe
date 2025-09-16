@@ -199,4 +199,5 @@ params:
     umami:
       serverURL: "https://stats.hoa.moe"
       websiteID: "300d85bd-f997-42d4-9bcf-b26666daa293"
+      scriptName: "script.js"
       doNotTrack: true
