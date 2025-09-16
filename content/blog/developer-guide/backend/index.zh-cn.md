@@ -33,7 +33,6 @@ prev: /blog/developer-guide/maintenance
 
 ```sh
 .
-├── __init__.py
 ├── about
 │   ├── __init__.py
 │   └── update_about.py
@@ -53,16 +52,15 @@ prev: /blog/developer-guide/maintenance
 │   └── sponsor.txt
 ├── news
 │   ├── __init__.py
-│   ├── gen_image.py
-│   └── gen_news.py
-├── requirements.txt
-└── workflows
-    ├── build_course_pages.sh  # 已弃用
-    ├── build_directory_pages.sh
-    ├── build_semester_pages.sh
-    ├── build_single_course_page.sh
-    ├── check_before_build_single_course_page.sh
-    └── fetch_repos.sh
+│   ├── gen_news.py
+│   └── generate.py
+├── workflows
+│   ├── build_directory_pages.sh
+│   ├── build_semester_pages.sh
+│   └── fetch_repos.sh
+├── __init__.py
+├── pyproject.toml
+└── uv.lock
 ```
 
 ## 📄生成课程文档
