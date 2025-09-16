@@ -9,7 +9,7 @@ sidebar:
 ## HITSZ OpenAuto 站点
 
 {{< hoa-cards/cards >}}
-  {{< hoa-cards/card link="https://stats.hoa.moe/" title="HOA 网站访问数据" subtitle="" image="https://static.zgo.at/favicon/favicon-32x32.png" >}}
+  {{< hoa-cards/card link="https://stats.hoa.moe/share/LhA8O8CHnNCO39nh/hoa.moe" title="HOA 网站访问数据" subtitle="" image="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/umami-light.webp" >}}
   {{< hoa-cards/card link="https://status.hoa.moe/" title="HOA 网站服务状态" subtitle="" image="https://uptime.kuma.pet/img/icon.svg" >}}
 {{< /hoa-cards/cards >}}
 
