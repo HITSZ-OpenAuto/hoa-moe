@@ -8,7 +8,6 @@ math: true
 
 {{< update-info update_time="2025 年 8 月 29 日" author="IcyDesert" message="[automated-generated-PR] ci: updated worktree.json generation (#15)" >}}
 
-
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
 2. 请根据课程的具体内容增删仓库的子文件夹。子文件夹建议使用小写英文，并且添加 README.md。
