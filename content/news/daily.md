@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-17'
-description: 北京时间 2025-09-16 13 时至今
+description: 北京时间 2025-09-16 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -24,22 +24,10 @@ title: AUTO 更新速递
 - **创建于**: 2025-09-03 01:15:29
 - **作者**: WDGaster703
 
-### [COMP3044 科研写作交流技巧](https://github.com/HITSZ-OpenAuto/COMP3044/issues/3)
-
-- **仓库**: COMP3044
-- **创建于**: 2025-09-03 00:33:42
-- **作者**: WDGaster703
-
 ### [COMP3030 信息检索](https://github.com/HITSZ-OpenAuto/COMP3030/issues/3)
 
 - **仓库**: COMP3030
 - **创建于**: 2025-09-03 00:33:14
-- **作者**: WDGaster703
-
-### [COMP3017 服务计算](https://github.com/HITSZ-OpenAuto/COMP3017/issues/4)
-
-- **仓库**: COMP3017
-- **创建于**: 2025-09-03 00:32:54
 - **作者**: WDGaster703
 
 ### [COMP3039 嵌入式计算](https://github.com/HITSZ-OpenAuto/COMP3039/issues/3)
@@ -120,18 +108,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-08-23 18:47:52
 - **作者**: LiPu-jpg
 
-### [COMP3029 计算机视觉](https://github.com/HITSZ-OpenAuto/COMP3042/issues/3)
-
-- **仓库**: COMP3042
-- **创建于**: 2025-08-23 18:47:15
-- **作者**: LiPu-jpg
-
-### [COMP3003 计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003/issues/1)
-
-- **仓库**: COMP3003
-- **创建于**: 2025-08-23 18:46:47
-- **作者**: LiPu-jpg
-
 ### [COMP3052 计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052/issues/1)
 
 - **仓库**: COMP3052
@@ -144,16 +120,40 @@ title: AUTO 更新速递
 - **创建于**: 2025-08-23 18:45:29
 - **作者**: LiPu-jpg
 
-### [COMP3054 网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054/issues/1)
-
-- **仓库**: COMP3054
-- **创建于**: 2025-08-23 18:44:47
-- **作者**: LiPu-jpg
-
 ### [COMP3019 生物信息学](https://github.com/HITSZ-OpenAuto/COMP3019/issues/1)
 
 - **仓库**: COMP3019
 - **创建于**: 2025-08-23 18:44:06
+- **作者**: LiPu-jpg
+
+### [COMP3005 人工智能](https://github.com/HITSZ-OpenAuto/COMP3005/issues/1)
+
+- **仓库**: COMP3005
+- **创建于**: 2025-08-23 18:41:51
+- **作者**: LiPu-jpg
+
+### [COMP3002 软件工程](https://github.com/HITSZ-OpenAuto/COMP3002/issues/1)
+
+- **仓库**: COMP3002
+- **创建于**: 2025-08-23 18:40:24
+- **作者**: LiPu-jpg
+
+### [COMP3011 计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011/issues/1)
+
+- **仓库**: COMP3011
+- **创建于**: 2025-08-23 18:39:47
+- **作者**: LiPu-jpg
+
+### [COMP3042 服务计算](https://github.com/HITSZ-OpenAuto/COMP3042/issues/2)
+
+- **仓库**: COMP3042
+- **创建于**: 2025-08-23 18:43:23
+- **作者**: LiPu-jpg
+
+### [COMP3042 智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042/issues/1)
+
+- **仓库**: COMP3042
+- **创建于**: 2025-08-23 18:42:28
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
