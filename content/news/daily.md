@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (9.18)
 
+- Jiao Ziang 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：更改错误
+
 - Jiao Ziang 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：删除格式错误
 
 - W. D. Gaster 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：修改课程信息
