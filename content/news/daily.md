@@ -14,6 +14,18 @@ title: AUTO 更新速递
 
 ### 周四 (9.18)
 
+- W. D. Gaster 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：修改课程信息
+
+- W. D. Gaster 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：修改课程信息
+
+- W. D. Gaster 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：修改课程信息
+
+- W. D. Gaster 在 [计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003) 中提交了信息：修改课程信息
+
+- W. D. Gaster 在 [软件构造实践](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：修改课程信息
+
+- W. D. Gaster 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：修改课程信息
+
 - W. D. Gaster 在 [计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012) 中提交了信息：修改课程信息
 
 - W. D. Gaster 在 [计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008) 中提交了信息：修改课程信息
