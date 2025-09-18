@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-18'
-description: 北京时间 2025-09-17 09 时至今
+description: 北京时间 2025-09-17 10 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周四 (9.18)
+
+- Jiao Ziang 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：删除格式错误
 
 - W. D. Gaster 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：修改课程信息
 
