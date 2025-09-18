@@ -14,6 +14,12 @@ title: AUTO 更新速递
 
 ### 周四 (9.18)
 
+- W. D. Gaster 在 [计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012) 中提交了信息：修改课程信息
+
+- W. D. Gaster 在 [计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008) 中提交了信息：修改课程信息
+
+- W. D. Gaster 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2052) 中提交了信息：修改课程信息
+
 - W. D. Gaster 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：修改课程文档
 
 - W. D. Gaster 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：更新课程信息
