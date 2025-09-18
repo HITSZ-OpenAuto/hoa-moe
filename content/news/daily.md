@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (9.18)
 
+- HalfCooler 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：添加包益欣老师的授课内容 (#25)
+
 - IcyDesert 在 [设计与制造 A](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：补充作业情况、学习建议
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：更改错误
