@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-18'
-description: 北京时间 2025-09-17 00 时至今
+description: 北京时间 2025-09-17 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周四 (9.18)
+
+- W. D. Gaster 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：更新课程信息
 
 ### 周三 (9.17)
 

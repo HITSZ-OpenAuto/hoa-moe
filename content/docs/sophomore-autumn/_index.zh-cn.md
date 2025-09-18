@@ -8,6 +8,7 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
+{{< card link="comp2030" title="离散数学" >}}
 {{< card link="geip1011" title="马克思主义基本原理" >}}
 {{< card link="lang100x" title="大学英语" >}}
 {{< card link="math1004" title="概率论与数理统计" >}}
