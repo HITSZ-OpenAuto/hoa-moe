@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (9.18)
 
+- W. D. Gaster 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：修改课程文档
+
 - W. D. Gaster 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：更新课程信息
 
 ### 周三 (9.17)
