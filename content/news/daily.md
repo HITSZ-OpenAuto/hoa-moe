@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-19'
-description: 北京时间 2025-09-18 08 时至今
+description: 北京时间 2025-09-18 09 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周五 (9.19)
+
+- W. D. Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：补充一个实验报告的小错误
 
 - W. D. Gaster 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：修改课程信息
 
