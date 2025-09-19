@@ -178,12 +178,13 @@ async def process_multiple_repos(owner: str, repos: List[str], token: str) -> No
 
 
 if __name__ == "__main__":
-    # Get owner and token from environment variables
     try:
-        owner = os.environ.get("ORG_NAME")
-        token = os.environ.get("PERSONAL_ACCESS_TOKEN")
+        owner = os.environ["ORG_NAME"]
+        token = os.environ["PERSONAL_ACCESS_TOKEN"]
     except KeyError as e:
-        raise ValueError(f"Environment variable {e} not found, please set it first.")
+        raise ValueError(
+            f"Environment variable {e} not found, please set it first."
+        ) from e
 
     # Get repos array from environment variable
     repos_json = os.environ.get("repos_array")

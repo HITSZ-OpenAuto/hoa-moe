@@ -152,7 +152,13 @@ def fetch_opened_prs_and_issues(org_name, public_repos):
 
 
 def main():
-    owner = os.environ.get("ORG_NAME")
+    try:
+        owner = os.environ["ORG_NAME"]
+    except KeyError as e:
+        raise ValueError(
+            f"Environment variable {e} not found, please set it first."
+        ) from e
+
     if not owner:
         raise ValueError(
             "Environment variable ORG_NAME not found, please set it first."
