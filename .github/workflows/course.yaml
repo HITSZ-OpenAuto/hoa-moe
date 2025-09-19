@@ -56,15 +56,13 @@ jobs:
           echo "repos_array=$repos" >> $GITHUB_ENV
 
       - name: Generate card.txt for each repo
-        run: |
-          uv run scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: uv run scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Bulid directory pages
         run: ./scripts/workflows/build_directory_pages.sh
 
       - name: Build course pages
-        run: |
-          uv run scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: uv run scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Build semester pages
         run: ./scripts/workflows/build_semester_pages.sh
@@ -74,20 +72,15 @@ jobs:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ORG_NAME: HITSZ-OpenAuto
           NEWS_TYPE: daily
-        run: |
-          source scripts/.venv/bin/activate
-          uv run scripts/news/gen_news.py
+        run: uv run scripts/news/gen_news.py
 
       - name: Fetch opened PRs and issues
         env:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: |
-          source scripts/.venv/bin/activate
-          uv run scripts/courses/fetch_opened_prs_and_issues.py
+        run: uv run scripts/courses/fetch_opened_prs_and_issues.py
 
       - name: Wrap badges
         run: |
-          source scripts/.venv/bin/activate
           for file in $(find content/docs -name "*.md"); do
             uv run scripts/courses/wrap_badges.py "$file"
           done
