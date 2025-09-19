@@ -186,3 +186,8 @@ tags
 
 # ruff
 .ruff_cache
+
+# LLM Instructions
+AGENTS.md
+CLAUDE.md
+
