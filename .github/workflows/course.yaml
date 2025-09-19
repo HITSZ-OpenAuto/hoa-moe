@@ -50,14 +50,11 @@ jobs:
         run: cd scripts && uv sync
 
       - name: Fetch public repositories in the organization
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./scripts/workflows/fetch_repos.sh
-
-      - name: Parse the repo names and save as env vars
-        id: parse_repos
+        run: curl -o repos_list.txt https://raw.githubusercontent.com/HITSZ-OpenAuto/repos-management/refs/heads/main/repos_list.txt
+      
+      - name: Parse repo list and set as env var
         run: |
-          repos=$(jq -r '.[].name' repos.json | jq -R -s -c 'split("\n")[:-1]')
+          repos=$(jq -R -s -c 'split("\n") | map(select(length > 0))' repos_list.txt)
           echo "repos_array=$repos" >> $GITHUB_ENV
 
       - name: Generate card.txt for each repo
