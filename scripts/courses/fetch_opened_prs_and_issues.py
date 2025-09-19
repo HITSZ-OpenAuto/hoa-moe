@@ -116,11 +116,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
         f.write("## 待解决的 Issues\n\n")
         f.truncate()
 
-        filtered_issues = [
-            i
-            for i in issues
-            if i["repository"]["name"] in public_repos
-        ]
+        filtered_issues = [i for i in issues if i["repository"]["name"] in public_repos]
 
         if not filtered_issues:
             f.write("暂无待解决的 Issues\n\n")
@@ -140,11 +136,7 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
 
         f.write("## 待合并的 Pull Requests\n\n")
 
-        filtered_prs = [
-            p
-            for p in prs
-            if p["repository"]["name"] in public_repos
-        ]
+        filtered_prs = [p for p in prs if p["repository"]["name"] in public_repos]
 
         if not filtered_prs:
             f.write("暂无待合并的 Pull Requests\n\n")
