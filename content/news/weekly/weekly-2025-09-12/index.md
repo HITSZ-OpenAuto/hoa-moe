@@ -9,8 +9,6 @@ excludeSearch: false
 title: AUTO 周报 2025-09-12 - 2025-09-19
 ---
 
-![AI Image of the Week](generated_image.png)
-
 ## 本周更新摘要
 
 - 复变函数与积分变换 (MATH1005)：新增包益欣老师的授课内容（讲义/授课资料）。
