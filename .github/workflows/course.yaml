@@ -41,6 +41,7 @@ jobs:
         uses: astral-sh/setup-uv@v6
         with:
           version: "latest"
+          activate-environment: true
           working-directory: scripts
           enable-cache: true
           cache-dependency-glob: "pyproject.toml"
