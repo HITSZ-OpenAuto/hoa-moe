@@ -74,17 +74,6 @@ CATEGORY_MAPPING: dict[str] = {
 }
 
 
-EXCLUDE_REPOS = [
-    ".github",
-    "hoa-moe",
-    "HITSZ-OpenAuto",
-    "repos-management",
-    "hoa-previewer",
-    "hoa-fastdl",
-    "aextra",
-]
-
-
 # Pre-compiled regex for better performance
 PATTERN_CATEGORY = re.compile(r"category:\s*(.*)")
 PATTERN_SEMESTER = re.compile(r"semester:\s*(.*)")
@@ -321,7 +310,6 @@ async def process_repo(client: GitHubAPIClient) -> None:
 
 
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
-    repos = [repo for repo in repos if repo not in EXCLUDE_REPOS]
     sorted_repos = sorted(repos)  # 排序，用于在并行的情况下保证构建网页时的顺序
 
     clients = [

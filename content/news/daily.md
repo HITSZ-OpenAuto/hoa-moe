@@ -15,7 +15,6 @@ title: AUTO 更新速递
 ### 周五 (9.19)
 
 - W. D. Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：补充一个实验报告的小错误
-
 - W. D. Gaster 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：修改课程信息
 
 ### 周四 (9.18)

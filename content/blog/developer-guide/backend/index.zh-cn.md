@@ -126,9 +126,8 @@ if __name__ == "__main__":
 
 ```py
 async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
-    # 1. 过滤掉非课程类的仓库，比如主仓库 hoa-moe
-    repos = [repo for repo in repos if repo not in EXCLUDE_REPOS]
-    sorted_repos = sorted(repos)  # 排序，用于在并行的情况下保证构建网页时的顺序
+    # 1.排序，用于在并行的情况下保证构建网页时的顺序
+    sorted_repos = sorted(repos)
 
     # 2. 为每个仓库创建一个 GitHubAPIClient 实例
     #    只需要知道这个类主要是用来和 GitHub 网络通信拿取有关信息就行
