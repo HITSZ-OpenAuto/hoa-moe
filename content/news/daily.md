@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-09-19'
-description: 北京时间 2025-09-18 01 时至今
+description: 北京时间 2025-09-18 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周五 (9.19)
+
+- W. D. Gaster 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：修改课程信息
 
 ### 周四 (9.18)
 
