@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4 # checkout the repository content to github runner
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
@@ -29,26 +29,26 @@ jobs:
         run: find ./scripts \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.10"
+          python-version: "3.11"
       
       - name: Install uv and restore cache
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v6
         with:
-          version: "0.7.5"
+          version: "latest"
+          activate-environment: true
+          working-directory: scripts
           enable-cache: true
-          cache-dependency-glob: "**/pyproject.toml"
+          cache-dependency-glob: "pyproject.toml"
 
       - name: Install Python packages
-        run: cd scripts && uv sync
+        run: uv sync --directory scripts/
 
       - name: Execute Python script
         env:
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          source scripts/.venv/bin/activate 
-          python scripts/about/update_about.py
+        run: uv run scripts/about/update_about.py
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9

@@ -10,7 +10,7 @@ on:
 
 jobs:
   generate-weekly-report:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
@@ -20,29 +20,30 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          submodules: recursive
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Set execute permissions
         run: find ./scripts \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Install uv and restore cache
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v6
         with:
-          version: "0.7.5"
+          version: "latest"
+          activate-environment: true
+          working-directory: scripts
           enable-cache: true
-          cache-dependency-glob: "**/pyproject.toml"
+          cache-dependency-glob: "pyproject.toml"
 
       - name: Install dependencies
-        run: cd scripts && uv sync
+        run: uv sync --directory scripts/
 
       - name: Generate weekly report
         env:
@@ -50,9 +51,7 @@ jobs:
           ORG_NAME: HITSZ-OpenAuto
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} # Add your OpenAI API key as a secret
           NEWS_TYPE: weekly
-        run: |
-          source scripts/.venv/bin/activate
-          python scripts/news/gen_news.py
+        run: uv run scripts/news/gen_news.py
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
