@@ -131,7 +131,7 @@ class GitHubAPIClient:
             for commit in commits:
                 message: str = commit["commit"]["message"]
                 # Skip "valueless" commits whose messages start with these words
-                if message.startswith(("Replace", "Add", "ci", "Update")):
+                if message.startswith(("Replace", "Add", "ci", "Update", "[automated-generated-PR]")):
                     continue
 
                 # Process the first "useful" commit and return it
