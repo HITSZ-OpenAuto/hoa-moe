@@ -14,15 +14,13 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-
     env:
-      PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
+      ORG_NAME: "HITSZ-OpenAuto"
 
     steps:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           fetch-depth: 1
 
       - name: Set execute permissions
@@ -47,9 +45,7 @@ jobs:
 
       - name: Generate weekly report
         env:
-          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          ORG_NAME: HITSZ-OpenAuto
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} # Add your OpenAI API key as a secret
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           NEWS_TYPE: weekly
         run: uv run scripts/news/gen_news.py
 

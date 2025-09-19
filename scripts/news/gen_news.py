@@ -7,15 +7,14 @@ from pytz import timezone
 import yaml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-import shutil
 
 # Load environment variables
-TOKEN = os.environ.get("TOKEN")
+TOKEN = os.environ.get("PERSONAL_ACCESS_TOKEN")
 ORG_NAME = os.environ.get("ORG_NAME")
 NEWS_TYPE = os.environ.get("NEWS_TYPE")
 
 if NEWS_TYPE == "weekly":
-    from generate import generate_image, generate_summary
+    from generate import generate_summary
 
 # Set SSL certificates path
 os.environ["REQUESTS_CA_BUNDLE"] = certifi.where()

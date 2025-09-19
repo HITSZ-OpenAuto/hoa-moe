@@ -1,13 +1,11 @@
 import asyncio
 import aiohttp
-import argparse
 import urllib.parse
 import os
 import json
-import re
 from datetime import datetime
 from fs import filesize
-from typing import List, Dict, Optional
+from typing import List, Dict
 import time
 from aiohttp import ClientTimeout
 
@@ -108,7 +106,7 @@ class GitHubAPIClient:
             date = datetime.fromtimestamp(timestamp).strftime("%Y/%m/%d")
             path_components = original_path.split("/")
             full_name = path_components[-1]
-            if not "." in full_name:
+            if "." not in full_name:
                 continue  # Skip files without an extension
             current_dict = organized_paths
 
@@ -144,7 +142,7 @@ class GitHubAPIClient:
                     value,
                     new_path,  # Recurse
                 )
-                result += f"{{{{< /hoa-filetree/folder >}}}}\n"
+                result += "{{< /hoa-filetree/folder >}}\n"
             elif isinstance(value, list):  # File
                 filename, suffix, size, date, icon = value
                 encoded_path = urllib.parse.quote(name, safe="/")
@@ -180,15 +178,12 @@ async def process_multiple_repos(owner: str, repos: List[str], token: str) -> No
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Generate download links of files from a GitHub repository."
-    )
-    parser.add_argument(
-        "owner", help="GitHub repository owner", default="HITSZ-OpenAuto"
-    )
-    parser.add_argument("token", help="GitHub token")
-
-    args = parser.parse_args()
+    # Get owner and token from environment variables
+    try:
+        owner = os.environ.get("ORG_NAME")
+        token = os.environ.get("PERSONAL_ACCESS_TOKEN")
+    except KeyError as e:
+        raise ValueError(f"Environment variable {e} not found, please set it first.")
 
     # Get repos array from environment variable
     repos_json = os.environ.get("repos_array")
@@ -201,11 +196,9 @@ if __name__ == "__main__":
     if not repos_json:
         raise ValueError("Environment variable repo not found")
 
-    # Exclude specific repositories
-
     # Run the async process for all repos
     start_time = time.perf_counter()
-    asyncio.run(process_multiple_repos(args.owner, repos, args.token))
+    asyncio.run(process_multiple_repos(owner, repos, token))
     end_time = time.perf_counter()
     execution_time = end_time - start_time
     print(f"Exec: {execution_time:.2f} s")

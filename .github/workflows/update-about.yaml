@@ -15,9 +15,8 @@ jobs:
     permissions:
       contents: write
       id-token: write
-
     env:
-      PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
+      ORG_NAME: "HITSZ-OpenAuto"
 
     steps:
       - name: Checkout
