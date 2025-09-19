@@ -205,16 +205,16 @@ def main():
         final_report = f"---\n{yaml_front_matter}---\n\n"
 
         if NEWS_TYPE == "weekly":
-            try:
-                generate_image(markdown_report)
-                shutil.move(
-                    "generated_image.png",
-                    f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",
-                )
-                final_report += "![AI Image of the Week](generated_image.png)\n\n"
-                logging.info("AI image generated successfully.")
-            except Exception as e:
-                logging.warning(f"Image generation failed: {e}")
+            # try:
+            #     generate_image(markdown_report)
+            #     shutil.move(
+            #         "generated_image.png",
+            #         f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",
+            #     )
+            #     final_report += "![AI Image of the Week](generated_image.png)\n\n"
+            #     logging.info("AI image generated successfully.")
+            # except Exception as e:
+            #     logging.warning(f"Image generation failed: {e}")
 
             try:
                 summary = generate_summary(markdown_report)
