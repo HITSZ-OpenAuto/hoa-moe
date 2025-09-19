@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-18'
-description: 北京时间 2025-09-17 14 时至今
+date: '2025-09-19'
+description: 北京时间 2025-09-18 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -45,10 +45,6 @@ title: AUTO 更新速递
 - W. D. Gaster 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：修改课程文档
 
 - W. D. Gaster 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：更新课程信息
-
-### 周三 (9.17)
-
-- IcyDesert 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：补充学习建议和考试情况
 
 ## 待解决的 Issues
 
