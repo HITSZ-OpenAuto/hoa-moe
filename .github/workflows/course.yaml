@@ -19,6 +19,8 @@ jobs:
     permissions:
       contents: write
       id-token: write
+    env:
+      UV_SYSTEM_PYTHON: "true"
 
     steps:
       - name: Checkout
