@@ -38,12 +38,13 @@ jobs:
       - name: Install uv and restore cache
         uses: astral-sh/setup-uv@v6
         with:
+          version: "latest"
           working-directory: scripts
           enable-cache: true
-          cache-dependency-glob: "**/pyproject.toml"
+          cache-dependency-glob: "pyproject.toml"
 
       - name: Install Python dependencies
-        run: cd scripts && uv sync
+        run: uv sync --directory scripts/
 
       - name: Fetch public repositories in the organization
         run: curl -o repos_list.txt https://raw.githubusercontent.com/HITSZ-OpenAuto/repos-management/refs/heads/main/repos_list.txt
