@@ -15,39 +15,38 @@ concurrency:
 
 jobs:
   build-documentation:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       id-token: write
-
     env:
-      PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
+      ORG_NAME: "HITSZ-OpenAuto"
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          submodules: recursive
-          fetch-depth: 0
 
       - name: Set execute permissions
         run: find ./scripts \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Install uv and restore cache
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v6
         with:
-          version: "0.7.5"
+          version: "latest"
+          activate-environment: true
+          working-directory: scripts
           enable-cache: true
-          cache-dependency-glob: "**/pyproject.toml"
+          cache-dependency-glob: "pyproject.toml"
 
       - name: Install Python dependencies
-        run: cd scripts && uv sync
+        run: uv sync --directory scripts/
 
       - name: Fetch public repositories in the organization
         run: curl -o repos_list.txt https://raw.githubusercontent.com/HITSZ-OpenAuto/repos-management/refs/heads/main/repos_list.txt
@@ -58,42 +57,36 @@ jobs:
           echo "repos_array=$repos" >> $GITHUB_ENV
 
       - name: Generate card.txt for each repo
-        run: |
-          source scripts/.venv/bin/activate  
-          python scripts/courses/gen_links.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: uv run scripts/courses/gen_links.py
 
       - name: Bulid directory pages
         run: ./scripts/workflows/build_directory_pages.sh
 
       - name: Build course pages
-        run: |
-          source scripts/.venv/bin/activate
-          python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: uv run scripts/courses/build_course_pages.py
 
       - name: Build semester pages
         run: ./scripts/workflows/build_semester_pages.sh
 
       - name: Generate daily report
         env:
-          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          ORG_NAME: HITSZ-OpenAuto
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           NEWS_TYPE: daily
-        run: |
-          source scripts/.venv/bin/activate
-          python scripts/news/gen_news.py
+        run: uv run scripts/news/gen_news.py
 
       - name: Fetch opened PRs and issues
         env:
-          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: |
-          source scripts/.venv/bin/activate
-          python scripts/courses/fetch_opened_prs_and_issues.py
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: uv run scripts/courses/fetch_opened_prs_and_issues.py
 
       - name: Wrap badges
         run: |
-          source scripts/.venv/bin/activate
           for file in $(find content/docs -name "*.md"); do
-            python scripts/courses/wrap_badges.py "$file"
+            uv run scripts/courses/wrap_badges.py "$file"
           done
 
       - name: Auto correct
@@ -105,7 +98,7 @@ jobs:
         uses: astral-sh/ruff-action@v3
         with:
           src: "./scripts"
-          version: "0.9.1"
+          version: "latest"
           args: "format"
 
       - name: Commit and push changes

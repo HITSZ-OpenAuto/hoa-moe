@@ -1,3 +1,0 @@
-{{< callout type="info" >}}
-  我们希望得到来自社区的反馈，请屏幕前的你考虑抽出少量时间填写我们的[《社区调查问卷》](https://forms.office.com/r/CHTPkzFjY8)，让我们了解如何更好地维护本项目。
-{{< /callout >}}

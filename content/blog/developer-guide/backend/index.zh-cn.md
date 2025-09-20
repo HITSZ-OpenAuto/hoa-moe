@@ -38,7 +38,7 @@ prev: /blog/developer-guide/maintenance
 │   └── update_about.py
 ├── courses
 │   ├── __init__.py
-│   ├── build_course_pages.py # 使用中
+│   ├── build_course_pages.py
 │   ├── fetch_opened_prs_and_issues.py
 │   ├── gen_links.py
 │   └── wrap_badges.py
@@ -48,7 +48,6 @@ prev: /blog/developer-guide/maintenance
 │   └── filetrees.json
 ├── infos
 │   ├── netdisk_notice.txt
-│   ├── notice.txt
 │   └── sponsor.txt
 ├── news
 │   ├── __init__.py
@@ -56,8 +55,7 @@ prev: /blog/developer-guide/maintenance
 │   └── generate.py
 ├── workflows
 │   ├── build_directory_pages.sh
-│   ├── build_semester_pages.sh
-│   └── fetch_repos.sh
+│   └── build_semester_pages.sh
 ├── __init__.py
 ├── pyproject.toml
 └── uv.lock
@@ -90,7 +88,7 @@ jobs:
       # 获取 OpenAuto 组织下仓库名等步骤已省去，具体内容可自行查看 .github/workflow/course.yaml
       
       - name: Build course pages
-        run: python scripts/courses/build_course_pages.py "HITSZ-OpenAuto" ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: python scripts/courses/build_course_pages.py
 
 ```
 

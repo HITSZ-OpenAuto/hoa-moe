@@ -2,14 +2,12 @@ import asyncio
 import json
 import os
 import re
-import subprocess
 import time
 import logging
 import traceback
 import aiohttp
 import datetime
 
-from argparse import ArgumentParser
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -331,15 +329,13 @@ async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
 
 
 if __name__ == "__main__":
-    parser = ArgumentParser(
-        description="Generate course pages from GitHub repositories."
-    )
-    parser.add_argument(
-        "owner", help="GitHub repository owner", default="HITSZ-OpenAuto"
-    )
-    parser.add_argument("token", help="GitHub token")
-
-    args = parser.parse_args()
+    try:
+        owner = os.environ["ORG_NAME"]
+        token = os.environ["PERSONAL_ACCESS_TOKEN"]
+    except KeyError as e:
+        raise ValueError(
+            f"Environment variable {e} not found, please set it first."
+        ) from e
 
     repos_json = os.environ.get("repos_array")
     repos = json.loads(repos_json) if repos_json else []
@@ -348,7 +344,7 @@ if __name__ == "__main__":
         raise ValueError("Environment variable REPOS_ARRAY not found")
 
     start_time = time.perf_counter()
-    asyncio.run(process_multiple_repos(args.owner, repos, args.token))
+    asyncio.run(process_multiple_repos(owner, repos, token))
     end_time = time.perf_counter()
     execution_time = end_time - start_time
     logger.info(f"Exec: {execution_time:.2f} s")

@@ -7,18 +7,7 @@ from pytz import timezone
 import yaml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-import shutil
 
-# Load environment variables
-TOKEN = os.environ.get("TOKEN")
-ORG_NAME = os.environ.get("ORG_NAME")
-NEWS_TYPE = os.environ.get("NEWS_TYPE")
-
-if NEWS_TYPE == "weekly":
-    from generate import generate_image, generate_summary
-
-# Set SSL certificates path
-os.environ["REQUESTS_CA_BUNDLE"] = certifi.where()
 
 # Chinese weekday names
 WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
@@ -36,11 +25,7 @@ def get_http_session():
     return session
 
 
-session = get_http_session()
-headers = {"Authorization": f"token {TOKEN}"}
-
-
-def get_org_public_repos(url):
+def get_org_public_repos(session, headers, url):
     """Fetch all public repositories in the organization."""
     repos = []
     while url:
@@ -54,7 +39,7 @@ def get_org_public_repos(url):
     return repos
 
 
-def get_filtered_commits(owner, repo, since):
+def get_filtered_commits(session, headers, owner, repo, since):
     """Get commits from a given repository since a specific date."""
     commits_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
     params = {"since": since.isoformat()}
@@ -116,13 +101,15 @@ def generate_yaml_front_matter(news_type, display_start_time):
         )
 
 
-def fetch_commits_from_repos(repos, start_time):
+def fetch_commits_from_repos(session, headers, org_name, repos, start_time):
     """Fetch and filter commits from repositories."""
     filtered_commits = []
     org_course_name = {}
 
     for repo in repos:
-        commits = get_filtered_commits(ORG_NAME, repo["name"], start_time)
+        commits = get_filtered_commits(
+            session, headers, org_name, repo["name"], start_time
+        )
         contain_manual = any(
             commit["commit"]["author"]["name"] != "github-actions" for commit in commits
         )
@@ -144,7 +131,7 @@ def fetch_commits_from_repos(repos, start_time):
         #     print(f"\nNo commits found in {repo['name']}")
 
         if contain_manual:
-            tag_url = f"https://raw.githubusercontent.com/{ORG_NAME}/{repo['name']}/main/tag.txt"
+            tag_url = f"https://raw.githubusercontent.com/{org_name}/{repo['name']}/main/tag.txt"
             response = session.get(tag_url)
             if response.status_code == 200:
                 org_course_name[repo["name"]] = response.text.split("name:")[1].strip()
@@ -152,7 +139,7 @@ def fetch_commits_from_repos(repos, start_time):
     return filtered_commits, org_course_name
 
 
-def create_markdown_report(filtered_commits, org_course_name, news_type):
+def create_markdown_report(filtered_commits, org_course_name, news_type, org_name):
     """Create the markdown report from filtered commits."""
     filtered_commits.sort(key=lambda a: a["date"], reverse=True)
     markdown_report = ""
@@ -171,7 +158,7 @@ def create_markdown_report(filtered_commits, org_course_name, news_type):
             )
             prev_date = date.date()
 
-        markdown_report += f"- {commit['author']} 在 [{title}](https://github.com/{ORG_NAME}/{commit['repo_name']}) 中提交了信息： {commit['message'].splitlines()[0]}\n\n"
+        markdown_report += f"- {commit['author']} 在 [{title}](https://github.com/{org_name}/{commit['repo_name']}) 中提交了信息： {commit['message'].splitlines()[0]}\n\n"
 
     return markdown_report
 
@@ -189,32 +176,53 @@ def save_report(report, news_type, display_start_time):
 
 
 def main():
-    start_time, display_start_time = calculate_start_time(NEWS_TYPE)
-    repos = get_org_public_repos(f"https://api.github.com/orgs/{ORG_NAME}/repos")
-    yaml_front_matter = generate_yaml_front_matter(NEWS_TYPE, display_start_time)
-    filtered_commits, org_course_name = fetch_commits_from_repos(repos, start_time)
+    # Load environment variables
+    try:
+        token = os.environ["PERSONAL_ACCESS_TOKEN"]
+        org_name = os.environ["ORG_NAME"]
+        news_type = os.environ["NEWS_TYPE"]
+    except KeyError as e:
+        raise KeyError(f"Missing required environment variable: {e}") from e
+
+    if news_type == "weekly":
+        from generate import generate_summary
+
+    # Set SSL certificates path
+    os.environ["REQUESTS_CA_BUNDLE"] = certifi.where()
+
+    session = get_http_session()
+    headers = {"Authorization": f"token {token}"}
+
+    start_time, display_start_time = calculate_start_time(news_type)
+    repos = get_org_public_repos(
+        session, headers, f"https://api.github.com/orgs/{org_name}/repos"
+    )
+    yaml_front_matter = generate_yaml_front_matter(news_type, display_start_time)
+    filtered_commits, org_course_name = fetch_commits_from_repos(
+        session, headers, org_name, repos, start_time
+    )
 
     if not os.path.exists(f"content/news/weekly/weekly-{display_start_time.date()}"):
         os.makedirs(f"content/news/weekly/weekly-{display_start_time.date()}")
 
     if filtered_commits:
         markdown_report = create_markdown_report(
-            filtered_commits, org_course_name, NEWS_TYPE
+            filtered_commits, org_course_name, news_type, org_name
         )
 
         final_report = f"---\n{yaml_front_matter}---\n\n"
 
-        if NEWS_TYPE == "weekly":
-            try:
-                generate_image(markdown_report)
-                shutil.move(
-                    "generated_image.png",
-                    f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",
-                )
-                final_report += "![AI Image of the Week](generated_image.png)\n\n"
-                logging.info("AI image generated successfully.")
-            except Exception as e:
-                logging.warning(f"Image generation failed: {e}")
+        if news_type == "weekly":
+            # try:
+            #     generate_image(markdown_report)
+            #     shutil.move(
+            #         "generated_image.png",
+            #         f"content/news/weekly/weekly-{display_start_time.date()}/generated_image.png",
+            #     )
+            #     final_report += "![AI Image of the Week](generated_image.png)\n\n"
+            #     logging.info("AI image generated successfully.")
+            # except Exception as e:
+            #     logging.warning(f"Image generation failed: {e}")
 
             try:
                 summary = generate_summary(markdown_report)
@@ -250,7 +258,7 @@ def main():
         else:
             final_report += f"{markdown_report}"
 
-        save_report(final_report, NEWS_TYPE, display_start_time)
+        save_report(final_report, news_type, display_start_time)
 
     else:
         print("No commits found in the given period of time")

@@ -4,14 +4,10 @@ import os
 from datetime import datetime, timedelta
 import logging
 
-# from dotenv import load_dotenv
-
-# load_dotenv()
-
 TIME_ZONE = 8  # Beijing time zone
 
 
-def run_gh_command(command, pat=None):
+def run_gh_command(command):
     """
     Run a GitHub CLI command with optional Personal Access Token.
 
@@ -19,11 +15,11 @@ def run_gh_command(command, pat=None):
     :param pat: Personal Access Token (optional)
     :return: Parsed JSON output
     """
+    token = os.environ.get("PERSONAL_ACCESS_TOKEN")
     try:
-        # If PAT is provided, set it as an environment variable
-        if pat:
+        if token:
             env = os.environ.copy()
-            env["GH_TOKEN"] = pat
+            env["GH_TOKEN"] = token
         else:
             env = None
 
@@ -37,12 +33,11 @@ def run_gh_command(command, pat=None):
         return []
 
 
-def get_org_issues(org_name, pat=None):
+def get_org_issues(org_name):
     """
     Retrieve open issues for the specified organization.
 
     :param org_name: GitHub organization name
-    :param pat: Personal Access Token (optional)
     :return: List of open issues
     """
     command = [
@@ -55,10 +50,10 @@ def get_org_issues(org_name, pat=None):
         "--owner",
         org_name,
     ]
-    return run_gh_command(command, pat)
+    return run_gh_command(command)
 
 
-def get_org_pull_requests(org_name, pat=None):
+def get_org_pull_requests(org_name):
     """
     Retrieve open pull requests for the specified organization.
 
@@ -76,7 +71,7 @@ def get_org_pull_requests(org_name, pat=None):
         "--owner",
         org_name,
     ]
-    return run_gh_command(command, pat)
+    return run_gh_command(command)
 
 
 def UTC2BJT(UTC_time_str):
@@ -92,7 +87,7 @@ def UTC2BJT(UTC_time_str):
     return Beijing_time_str
 
 
-def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
+def fetch_opened_prs_and_issues(org_name, public_repos):
     """
     Generate a markdown report of open issues and pull requests.
 
@@ -101,11 +96,11 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
     :param pat: Personal Access Token (optional)
     """
     # Get issues and PRs
-    issues = get_org_issues(org_name, pat)
-    prs = get_org_pull_requests(org_name, pat)
+    issues = get_org_issues(org_name)
+    prs = get_org_pull_requests(org_name)
 
     # Generate markdown report
-    with open(f"content/news/daily.md", "r+") as f:
+    with open("content/news/daily.md", "r+") as f:
         content = f.read()
         f.seek(0)
         # Keep content before "## 待解决的 Issues" and overwrite the rest
@@ -153,16 +148,26 @@ def fetch_opened_prs_and_issues(org_name, public_repos, pat=None):
 
                 f.write("\n")
 
-    logging.info(f"Report updated: content/news/daily.md")
+    logging.info("Report updated: content/news/daily.md")
 
 
 def main():
-    org_name = "HITSZ-OpenAuto"
-    pat = os.getenv("TOKEN")
+    try:
+        owner = os.environ["ORG_NAME"]
+    except KeyError as e:
+        raise ValueError(
+            f"Environment variable {e} not found, please set it first."
+        ) from e
+
+    if not owner:
+        raise ValueError(
+            "Environment variable ORG_NAME not found, please set it first."
+        )
+
     repos_json = os.environ.get("repos_array")
     public_repos = json.loads(repos_json) if repos_json else []
 
-    fetch_opened_prs_and_issues(org_name, public_repos, pat)
+    fetch_opened_prs_and_issues(owner, public_repos)
 
 
 if __name__ == "__main__":
