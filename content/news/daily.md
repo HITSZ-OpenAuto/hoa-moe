@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-19'
-description: 北京时间 2025-09-18 14 时至今
+date: '2025-09-20'
+description: 北京时间 2025-09-19 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -17,40 +17,6 @@ title: AUTO 更新速递
 - W. D. Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：补充一个实验报告的小错误
 
 - W. D. Gaster 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：修改课程信息
-
-### 周四 (9.18)
-
-- HalfCooler 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：添加包益欣老师的授课内容 (#25)
-
-- IcyDesert 在 [设计与制造 A](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：补充作业情况、学习建议
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：更改错误
-
-- Jiao Ziang 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：更改错误
-
-- Jiao Ziang 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：删除格式错误
-
-- W. D. Gaster 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [软件构造实践](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2052) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：修改课程文档
-
-- W. D. Gaster 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：更新课程信息
 
 ## 待解决的 Issues
 
