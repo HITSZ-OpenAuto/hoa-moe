@@ -160,6 +160,28 @@ input:checked + .select .slider > div {
   width: 100%;
 }
 
+/* Docs width toggle */
+.hextra-max-page-width,
+.hoa-doc-main {
+  transition: max-width 0.3s ease, width 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hextra-max-page-width,
+  .hoa-doc-main {
+    transition: none;
+  }
+}
+
+body.hoa-doc-width-full {
+  --hextra-max-page-width: 100%;
+}
+
+body.hoa-doc-width-full .hoa-doc-main {
+  max-width: none;
+  width: 100%;
+}
+
 .hoa-badge > p {
   display: flex;
   flex-wrap: wrap;
