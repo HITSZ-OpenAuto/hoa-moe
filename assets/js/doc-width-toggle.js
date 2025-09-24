@@ -75,6 +75,7 @@
 
   const initialState = readPreference();
   applyState(initialState);
+  document.documentElement.classList.remove('hoa-doc-width-initial');
 
   button.addEventListener('click', toggle);
 })();
