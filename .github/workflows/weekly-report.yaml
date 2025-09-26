@@ -45,6 +45,7 @@ jobs:
 
       - name: Generate weekly report
         env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           NEWS_TYPE: weekly
         run: uv run scripts/news/gen_news.py
