@@ -11,9 +11,10 @@ def _get_client() -> OpenAI:
     """Create an OpenAI client from env"""
     client = OpenAI(
         api_key=os.environ.get("OPENAI_API_KEY"),
-        base_url=os.environ.get("OPENAI_BASE_URL")
+        base_url=os.environ.get("OPENAI_BASE_URL"),
     )
     return client
+
 
 def generate_image(raw_updates):
     """Generate a random image of abstract art using gpt-image-1."""
