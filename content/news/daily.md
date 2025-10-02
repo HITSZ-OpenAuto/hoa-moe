@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-20'
-description: 北京时间 2025-09-19 06 时至今
+date: '2025-10-02'
+description: 北京时间 2025-10-01 15 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (9.19)
+### 周四 (10.2)
 
-- W. D. Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：补充一个实验报告的小错误
+- cecilia 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/add-2025-spring-exams
 
-- W. D. Gaster 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：修改课程信息
+- syhanjin 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：上传 2025 春季学期试卷
 
 ## 待解决的 Issues
 
