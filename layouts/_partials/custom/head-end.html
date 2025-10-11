@@ -1,0 +1,15 @@
+{{- $relPermalink := .RelPermalink | default "" -}}
+{{- $isDocsPage := or (eq .Section "docs") (strings.HasPrefix $relPermalink "/docs/") -}}
+{{- if $isDocsPage }}
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('hoa-doc-width-preference') === 'full') {
+          document.documentElement.classList.add('hoa-doc-width-initial');
+        }
+      } catch (error) {
+        /* no-op */
+      }
+    })();
+  </script>
+{{- end -}}
