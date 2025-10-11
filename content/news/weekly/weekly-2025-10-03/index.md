@@ -13,5 +13,5 @@ title: AUTO 周报 2025-10-03 - 2025-10-10
 
 ### 周五 (10.10)
 
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息： deps(ui): migrate from UnoCSS to Tailwind CSS v4 (#12)
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：deps(ui): migrate from UnoCSS to Tailwind CSS v4 (#12)
 

@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-10-03'
-description: 北京时间 2025-10-02 00 时至今
+date: '2025-10-11'
+description: 北京时间 2025-10-10 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周四 (10.2)
+### 周五 (10.10)
 
-- cecilia 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/add-2025-spring-exams
-
-- syhanjin 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：上传 2025 春季学期试卷
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：deps(ui): migrate from UnoCSS to Tailwind CSS v4 (#12)
 
 ## 待解决的 Issues
 
@@ -150,12 +148,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3054
 - **创建于**: 2025-08-23 18:44:47
-- **作者**: LiPu-jpg
-
-### [COMP3019 生物信息学](https://github.com/HITSZ-OpenAuto/COMP3019/issues/1)
-
-- **仓库**: COMP3019
-- **创建于**: 2025-08-23 18:44:06
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
