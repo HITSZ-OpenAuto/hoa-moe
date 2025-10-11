@@ -4,13 +4,17 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-10-11'
-description: 北京时间 2025-10-10 00 时至今
+description: 北京时间 2025-10-10 11 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周六 (10.11)
+
+- Kowyo 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：移除不必要的注释 (#9)
 
 ### 周五 (10.10)
 
