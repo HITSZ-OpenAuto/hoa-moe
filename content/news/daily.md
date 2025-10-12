@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-10-11'
-description: 北京时间 2025-10-10 12 时至今
+date: '2025-10-12'
+description: 北京时间 2025-10-11 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周六 (10.11)
 
 - Kowyo 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：移除不必要的注释 (#9)
-
-### 周五 (10.10)
-
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：deps(ui): migrate from UnoCSS to Tailwind CSS v4 (#12)
 
 ## 待解决的 Issues
 
