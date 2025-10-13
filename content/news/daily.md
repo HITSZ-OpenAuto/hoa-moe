@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-10-12'
-description: 北京时间 2025-10-11 00 时至今
+date: '2025-10-13'
+description: 北京时间 2025-10-12 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,15 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周六 (10.11)
+### 周日 (10.12)
 
-- Kowyo 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：移除不必要的注释 (#9)
+- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：Merge pull request #10 from HITSZ-OpenAuto/links-about
+
+- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：Merge remote-tracking branch 'origin/main' into links-about
+
+- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: use text-based lockfile instead.
+
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add dark mode toggle and theme support (#14)
 
 ## 待解决的 Issues
 
@@ -148,6 +154,12 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3054
 - **创建于**: 2025-08-23 18:44:47
+- **作者**: LiPu-jpg
+
+### [COMP3019 生物信息学](https://github.com/HITSZ-OpenAuto/COMP3019/issues/1)
+
+- **仓库**: COMP3019
+- **创建于**: 2025-08-23 18:44:06
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
