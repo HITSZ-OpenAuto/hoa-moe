@@ -179,14 +179,8 @@ input:checked + .select .slider > div {
   margin: 0;
 }
 
-.hextra-max-page-width {
-  transition: max-width 0.3s ease;
-}
-
-.hextra-max-navbar-width {
-  transition: max-width 0.3s ease;
-}
-
+.hextra-max-page-width,
+.hextra-max-navbar-width,
 .hextra-max-footer-width {
   transition: max-width 0.3s ease;
 }
