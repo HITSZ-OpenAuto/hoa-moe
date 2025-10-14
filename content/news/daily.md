@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-09-20'
-description: 北京时间 2025-09-19 06 时至今
+date: '2025-10-13'
+description: 北京时间 2025-10-12 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,15 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (9.19)
+### 周日 (10.12)
 
-- W. D. Gaster 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：补充一个实验报告的小错误
+- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：Merge pull request #10 from HITSZ-OpenAuto/links-about
 
-- W. D. Gaster 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：修改课程信息
+- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：Merge remote-tracking branch 'origin/main' into links-about
+
+- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: use text-based lockfile instead.
+
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add dark mode toggle and theme support (#14)
 
 ## 待解决的 Issues
 

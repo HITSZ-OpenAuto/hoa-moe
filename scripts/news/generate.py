@@ -9,13 +9,11 @@ logger = logging.getLogger(__name__)
 
 def _get_client() -> OpenAI:
     """Create an OpenAI client from env"""
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        raise ValueError("OPENAI_API_KEY is required for AI features.")
-    return OpenAI(
-        api_key=api_key,
-        base_url="https://api.aihubmix.com/v1/",
+    client = OpenAI(
+        api_key=os.environ.get("OPENAI_API_KEY"),
+        base_url=os.environ.get("OPENAI_BASE_URL"),
     )
+    return client
 
 
 def generate_image(raw_updates):
