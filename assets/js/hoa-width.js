@@ -7,7 +7,12 @@
 
   const getPreferred = () => localStorage.getItem(key) === 'full';
   const setPreferred = (isFull) => localStorage.setItem(key, isFull ? 'full' : 'default');
-  const applyWidth = (isFull) => root.style.setProperty('--hextra-max-page-width', isFull ? fullWidth : defaultWidth);
+  const applyWidth = (isFull) => {
+    const width = isFull ? fullWidth : defaultWidth;
+    root.style.setProperty('--hextra-max-page-width', width);
+    root.style.setProperty('--hextra-max-navbar-width', width);
+    root.style.setProperty('--hextra-max-footer-width', width);
+  };
 
   let isFull = getPreferred();
   applyWidth(isFull);
