@@ -160,42 +160,6 @@ input:checked + .select .slider > div {
   width: 100%;
 }
 
-/* Docs width toggle */
-.hextra-max-page-width,
-.hoa-doc-main {
-  transition: max-width 0.3s ease, width 0.3s ease;
-}
-
-html.hoa-doc-width-initial .hextra-max-page-width,
-html.hoa-doc-width-initial .hoa-doc-main {
-  transition: none !important;
-}
-
-html.hoa-doc-width-initial {
-  --hextra-max-page-width: 100%;
-}
-
-html.hoa-doc-width-initial .hoa-doc-main {
-  max-width: none;
-  width: 100%;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hextra-max-page-width,
-  .hoa-doc-main {
-    transition: none;
-  }
-}
-
-body.hoa-doc-width-full {
-  --hextra-max-page-width: 100%;
-}
-
-body.hoa-doc-width-full .hoa-doc-main {
-  max-width: none;
-  width: 100%;
-}
-
 .hoa-badge > p {
   display: flex;
   flex-wrap: wrap;
