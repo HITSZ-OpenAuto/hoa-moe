@@ -1,19 +1,25 @@
 (function () {
-  const widthSwitchers = document.querySelectorAll('.hoa-width-switcher');
-
+  const switches = document.querySelectorAll('.hoa-width-switcher');
   const root = document.documentElement;
-  const defaultWidth = getComputedStyle(root).getPropertyValue('--hextra-max-page-width').trim();
+  const defaultWidth = '80rem';
+  const fullWidth = '100%';
+  const key = 'hoa-preferred-width';
 
-  const FULL_WIDTH = '100%';
-  let isFullWidth = getComputedStyle(root).getPropertyValue('--hextra-max-page-width').trim() === FULL_WIDTH;
+  const getPreferred = () => localStorage.getItem(key) === 'full';
+  const setPreferred = (isFull) => localStorage.setItem(key, isFull ? 'full' : 'default');
+  const applyWidth = (isFull) => root.style.setProperty('--hextra-max-page-width', isFull ? fullWidth : defaultWidth);
 
-  const toggleWidth = () => {
-    isFullWidth = !isFullWidth;
-    root.style.setProperty('--hextra-max-page-width', isFullWidth ? FULL_WIDTH : defaultWidth);
+  let isFull = getPreferred();
+  applyWidth(isFull);
+
+  const toggle = () => {
+    isFull = !isFull;
+    applyWidth(isFull);
+    setPreferred(isFull);
   };
 
-  widthSwitchers.forEach(switcher => switcher.addEventListener('click', e => {
+  switches.forEach(s => s.addEventListener('click', e => {
     e.preventDefault();
-    toggleWidth();
+    toggle();
   }));
 })();
