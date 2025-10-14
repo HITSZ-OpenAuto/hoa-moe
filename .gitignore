@@ -191,3 +191,5 @@ tags
 AGENTS.md
 CLAUDE.md
 
+## NPM
+node_modules/
