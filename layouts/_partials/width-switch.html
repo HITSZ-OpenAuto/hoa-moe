@@ -1,0 +1,5 @@
+{{- $iconName := .iconName | default "arrow-left-right" -}}
+
+<div class="hx:flex hx:items-center hx:gap-2 hx:capitalize">
+    {{- partial "utils/icon" (dict "name" $iconName) -}}
+</div>
