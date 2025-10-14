@@ -15,7 +15,9 @@
   };
 
   let isFull = getPreferred();
+  root.classList.add('hoa-width-no-transition');
   applyWidth(isFull);
+  setTimeout(() => root.classList.remove('hoa-width-no-transition'), 0);
 
   const toggle = () => {
     isFull = !isFull;
