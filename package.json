@@ -1,0 +1,22 @@
+{
+  "name": "hoa-moe",
+  "version": "1.2.0",
+  "description": "HITSZ OpenAuto Website",
+  "scripts": {
+    "dev": "concurrently 'npm run serve' 'npm run watch:css'",
+    "serve": "hugo server --disableFastRender -D -F",
+    "build:css": "postcss --config postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css",
+    "watch:css": "postcss --config postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css --watch",
+    "build": "npm run build:css && hugo --gc --minify",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "concurrently": "^9.2.1",
+    "hugo-extended": "^0.151.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "prettier": "3.6.2",
+    "tailwindcss": "^4.1.14"
+  }
+}
