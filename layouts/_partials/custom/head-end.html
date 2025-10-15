@@ -1,0 +1,9 @@
+{{- if eq .Section "docs" -}}
+{{- $jsWidth := resources.Get "js/hoa-width.js" -}}
+{{- if hugo.IsProduction -}}
+  {{- $jsWidth = $jsWidth | minify | fingerprint -}}
+{{- end -}}
+<script defer src="{{ $jsWidth.RelPermalink }}" integrity="{{ $jsWidth.Data.Integrity }}"></script>
+{{- end -}}
+
+{{- /* Add global scripts here that should load on all pages */ -}}
