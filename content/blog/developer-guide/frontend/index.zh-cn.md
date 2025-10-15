@@ -1,7 +1,7 @@
 ---
 title: 前端架构概览
 description: OpenAuto 开发者指南（壹）
-date: 2025-09-04
+date: 2025-10-15
 authors:
   - name: longlin li
     link: https://github.com/longlin10086

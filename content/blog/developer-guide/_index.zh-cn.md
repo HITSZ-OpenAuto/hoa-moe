@@ -1,7 +1,6 @@
 ---
-title: HITSZ OpenAuto 架构详解
-description: OpenAuto 开发者指南
-date: 2025-01-24
+title: HITSZ OpenAuto 开发指南
+date: 2025-10-15
 tags:
   - 指南
   - 网站架构
