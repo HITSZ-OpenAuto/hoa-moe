@@ -24,23 +24,23 @@ aextra
 
 ### 周二 (10.14)
 
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息： feat: add metadata types and sample data for majors and courses (#11)
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add metadata types and sample data for majors and courses (#11)
 
 ### 周日 (10.12)
 
-- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息： Merge pull request #10 from HITSZ-OpenAuto/links-about
+- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：Merge pull request #10 from HITSZ-OpenAuto/links-about
 
-- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息： Merge remote-tracking branch 'origin/main' into links-about
+- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：Merge remote-tracking branch 'origin/main' into links-about
 
-- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息： chore: use text-based lockfile instead.
+- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: use text-based lockfile instead.
 
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息： feat: add dark mode toggle and theme support (#14)
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add dark mode toggle and theme support (#14)
 
 ### 周六 (10.11)
 
-- Kowyo 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息： 移除不必要的注释 (#9)
+- Kowyo 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：移除不必要的注释 (#9)
 
 ### 周五 (10.10)
 
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息： deps(ui): migrate from UnoCSS to Tailwind CSS v4 (#12)
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：deps(ui): migrate from UnoCSS to Tailwind CSS v4 (#12)
 

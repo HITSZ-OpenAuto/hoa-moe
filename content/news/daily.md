@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-10-15'
-description: 北京时间 2025-10-14 06 时至今
+description: 北京时间 2025-10-14 14 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周三 (10.15)
+
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(ui): improve ui (#15)
 
 - W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：修改部分内容
 
