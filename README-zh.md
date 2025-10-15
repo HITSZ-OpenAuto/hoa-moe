@@ -16,37 +16,34 @@
 - **评论功能** - 网站支持由 [giscus](https://giscus.app/) 提供的评论功能。
 - **持续集成** - 网站的所有文档都会从 [HITSZ OpenAuto](https://github.com/HITSZ-OpenAuto) 组织的仓库下自动抓取，更新不需要任何人为干预。
 
-## 快速部署
+## 快速上手
 
-### 克隆本仓库
+### 克隆仓库
 
 ```bash
 git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules --depth=1
+cd hoa-moe
 ```
 
-### 安装 Hugo 框架
+### 使用 Hugo 搭建开发环境
 
-请安装 Hugo 的拓展版本。
-
-```bash
-# Windows
-winget install Hugo.Hugo.Extended
-
-# macOS
-brew install hugo
-
-# Linux
-sudo snap install hugo
-```
-
-### 在本地环境下运行
+你需要安装[Hugo 扩展版](https://gohugo.io/installation/)来构建网站。安装完成后，运行：
 
 ```bash
-cd hoa.moe
 hugo server
 ```
 
-查看终端中显示的 URL 以访问你的网站。按下 `Ctrl + C` 可停止 Hugo 的开发服务器。
+在终端显示的 URL 访问你的网站。按 `Ctrl + C` 停止 Hugo 开发服务器。
+
+### （可选）使用 NPM 搭建开发环境
+
+```bash
+npm install
+npm run dev # 运行开发服务器并查看自定义 Tailwind CSS 的更改
+npm run serve # 仅运行开发服务器
+npm run build # 编译 CSS 并生成静态页面
+npm run build:css # 仅编译 CSS
+```
 
 ## 如何贡献
 

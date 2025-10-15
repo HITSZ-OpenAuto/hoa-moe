@@ -34,35 +34,32 @@
 
 ```bash
 git clone https://github.com/HITSZ-OpenAuto/hoa-moe.git --recurse-submodules --depth=1
-```
-
-### Install Hugo
-
-You need to install Hugo extended version to build the website.
-
-```bash
-# Windows
-winget install Hugo.Hugo.Extended
-
-# macOS
-brew install hugo
-
-# Linux
-sudo snap install hugo
-```
-
-### Run the development server
-
-```bash
 cd hoa-moe
+```
+
+### Using Hugo
+
+You need to [install Hugo extended version](https://gohugo.io/installation/) to build the website. After installation, run:
+
+```bash
 hugo server
 ```
 
 View your site at the URL displayed in your terminal. Press `Ctrl + C` to stop Hugo’s development server.
 
+### (Alternative) Using NPM
+
+```bash
+npm install
+npm run dev # run the development server and watch for custom Tailwind CSS changes
+npm run serve # simply run the development server
+npm run build # build CSS and generate static pages
+npm run build:css # build only CSS
+```
+
 ## Contributing
 
-If you would like to contribute to the document, please refer to our [contribution guidelines](https://hoa.moe/blog/contribution-guide/). We also welcome code contributions, especially those addressing existing issues.
+If you would like to contribute to the document, please refer to our [contribution guide](https://hoa.moe/blog/contribution-guide/). We also welcome code contributions, especially those addressing existing issues.
 
 ## License
 

@@ -209,6 +209,20 @@ params:
 
 ![port](server.png)
 
+### 在哪里写样式
+
+- 模板样式：在 `layouts/` 的 HTML/模板中直接使用 `hx:` 工具类（如 `hx:flex hx:gap-4`）。
+- 站点级覆盖：在根目录 `assets/css/custom.css` 中写“标准 CSS”选择器覆盖。例如覆盖主题变量：
+
+```css
+:root {
+  --hx-color-primary-500: hsl(212 100% 50%);
+}
+```
+
+> [!WARNING]
+> 请不要在 `custom.css` 随意覆写主题样式，例如 image, background color，可能会导致样式和主题冲突异常（来自 [issue #320](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/320) 的苦痛教训），如果要自定义样式，请使用 `hoa-*` 作为前缀，并尽可能使用组件化设计。
+
 ### CSS 前缀
 
 Hextra v0.10.0 之后的版本使用 Tailwind CSS v4，并将 Tailwind 作为 CSS 导入（可在 `themes/hextra/assets/css/styles.css` 中看到）：
@@ -225,30 +239,24 @@ Hextra v0.10.0 之后的版本使用 Tailwind CSS v4，并将 Tailwind 作为 CS
 
 ### 在本地让新类名生效
 
-页面最终仅引入 `assets/css/compiled/main.css`（主题编译产物）与 `assets/css/custom.css`（站点自定义）。当你在 `layouts/` 的模板里新增了 `hx:` 工具类，需要重新生成主题的编译 CSS 才能看到效果：
+页面最终仅引入 `assets/css/compiled/main.css`（主题编译产物）与 `assets/css/custom.css`（站点自定义）。当你在 `layouts/` 的模板里新增了 `hx:` 工具类，需要重新生成主题的编译 CSS 才能看到效果.
+
+1. 安装 Tailwind CSS 以及相关依赖：
+
+  ```bash
+  npm install
+  ```
+
+2. 运行以下命令生成编译 CSS：
+
+构建使用 `@tailwindcss/postcss` 插件（见 `postcss.config.mjs`），Tailwind CSS v4 会自动扫描模板以生成所需样式。
+
+  ```sh
+  npm run build:css
+  ```
+
+3. 如果你想在调试时实时查看 CSS 变更，可以运行：
 
 ```sh
-./themes/hextra/node_modules/.bin/postcss --config themes/hextra/postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css
+npm run dev
 ```
-
-- 构建使用 `@tailwindcss/postcss` 插件（见 `themes/hextra/postcss.config.mjs`），v4 会自动扫描模板以生成所需样式。
-- 想要“边改边看”，可以临时使用 PostCSS 的 watch：
-
-```sh
-./themes/hextra/node_modules/.bin/postcss --config themes/hextra/postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css --watch
-```
-
-### 在哪里写样式
-
-- 模板样式：在 `layouts/` 的 HTML/模板中直接使用 `hx:` 工具类（如 `hx:flex hx:gap-4`）。
-- 站点级覆盖：在根目录 `assets/css/custom.css` 中写“标准 CSS”选择器覆盖（该文件不会经过 Tailwind 处理）。例如覆盖主题变量：
-
-```css
-:root {
-  --hx-color-primary-500: hsl(212 100% 50%);
-}
-```
-
-注意：
-1. 不要在 `assets/css/custom.css` 里使用 `@apply` 或 `@config` 等需要 Tailwind 参与编译的指令，因为该文件并不会走 PostCSS/Tailwind 流程。
-2. 不要在 `custom.css` 随意覆写主题样式，例如 image, background color，可能会导致样式和主题冲突异常（来自 [issue #320](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/320) 的惨痛教训），如果要定义样式，请使用 `hoa-*` 作为前缀，并尽可能使用组件化设计。
