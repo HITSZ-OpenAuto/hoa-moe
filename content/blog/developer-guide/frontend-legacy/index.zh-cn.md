@@ -9,11 +9,12 @@ authors:
 excludeSearch: false
 math: true
 weight: 5
-next: /blog/developer-guide/overall/
-prev: /blog/developer-guide/backend/
 ---
 
-### 旧版本前端调试方法
+> [!NOTE]
+> 本文档适用于 Hextra v0.10.0 之前的版本，对应 HOA 1.0.0 及更早版本，若你使用的是更新版本，请参考[这篇文章](../frontend)。
+
+### 前端调试方法
 
 克隆本仓库代码后，在本地仓库根目录下运行 `hugo server`，你便可以从命令行获得调试时所需的端口号，浏览器内打开即可：
 
