@@ -96,6 +96,9 @@ menu:
       url: "https://github.com/HITSZ-OpenAuto"
       params:
         icon: github
+    - name: Width switch
+      params:
+        type: hoa-width-switcher
 
   sidebar:
     - identifier: more
