@@ -8,11 +8,11 @@
 {{- $height := .height -}}
 {{- $imageStyle := .imageStyle -}}
 
-
-{{ $linkClass := "hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900" }}
-{{- with $image -}}
-  {{ $linkClass = "hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700" }}
-{{- end -}}
+{{- $hasMedia := or $image $icon -}}
+{{- $linkClass := cond $hasMedia 
+  "hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700" 
+  "hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900" 
+-}}
 
 {{- $external := strings.HasPrefix $link "http" -}}
 {{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
@@ -28,8 +28,13 @@
 >
   <div class="hx:h-full hx:min-w-full hx:w-full hx:flex hx:items-center hx:justify-start hx:relative">
 
+    {{- if $hasMedia -}}
     <div class="hx:h-full hx:min-w-1/6 hx:w-1/6 hx:flex hx:items-center hx:justify-center hx:ml-4">
-      {{- with $image -}}
+      {{- if $icon -}}
+        <div class="hx:m-2" style="width: {{ $width }}px; height: {{ $height }}px;">
+          {{- partial "utils/icon.html" (dict "name" $icon "attributes" (printf "width=%d height=%d" $width $height)) -}}
+        </div>
+      {{- else -}}
         <img
           alt="{{ $title }}"
           class="hx:m-2"
@@ -42,15 +47,10 @@
         />
       {{- end -}}
     </div>
-
-    {{- $padding := "hx:p-4" -}}
-    {{- with $subtitle -}}
-      {{- $padding = "hx:pt-4 hx:px-4" -}}
     {{- end -}}
 
     <div class="hx:flex hx:flex-col hx:h-full hx:min-w-2/4 hx:w-7/12 hx:items-start hx:justify-center">
-      <span class="hx:flex hx:font-semibold hx:items-start hx:gap-2 {{ $padding }} hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">
-        {{- with $icon }}{{ partial "utils/icon.html" (dict "name" $icon) -}}{{- end -}}
+      <span class="hx:flex hx:font-semibold hx:items-start hx:gap-2 {{ cond $subtitle "hx:pt-4 hx:px-4" "hx:p-4" }} hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">
         {{- $title -}}
       </span>
       {{- with $subtitle -}}
