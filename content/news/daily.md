@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (10.15)
 
+- W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：修改部分内容
+
 - W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：添加 zsa 笔记
 
 - Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：add dark mode style for links/ and about/. (#16)
