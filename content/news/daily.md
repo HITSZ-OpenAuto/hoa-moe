@@ -4,13 +4,19 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-10-15'
-description: 北京时间 2025-10-14 00 时至今
+description: 北京时间 2025-10-14 06 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周三 (10.15)
+
+- W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：添加 zsa 笔记
+
+- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：add dark mode style for links/ and about/. (#16)
 
 ### 周二 (10.14)
 
