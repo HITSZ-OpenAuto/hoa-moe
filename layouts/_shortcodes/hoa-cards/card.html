@@ -3,7 +3,10 @@
 {{- $title := .Get "title" -}}
 {{- $icon := .Get "icon" -}}
 {{- $subtitle := .Get "subtitle" -}}
-{{- $image := .Get "image" | default "icons/home.png" -}}
+{{- $image := .Get "image" -}}
+{{- if and (not $image) (not $icon) -}}
+  {{- $icon = "home" -}}
+{{- end -}}
 {{- $width := 40 -}}
 {{- $height := 40 -}}
 {{- $imageStyle := .Get "imageStyle" -}}
