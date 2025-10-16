@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-10-15'
-description: 北京时间 2025-10-14 06 时至今
+date: '2025-10-16'
+description: 北京时间 2025-10-15 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,19 +14,13 @@ title: AUTO 更新速递
 
 ### 周三 (10.15)
 
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(ui): improve ui (#15)
+
 - W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：修改部分内容
 
 - W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：添加 zsa 笔记
 
 - Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：add dark mode style for links/ and about/. (#16)
-
-### 周二 (10.14)
-
-- longlin li 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: improve footer layout and styling in BaseFooter (#9)
-
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(toc): add minDepth prop and improve numbering logic (#6)
-
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add metadata types and sample data for majors and courses (#11)
 
 ## 待解决的 Issues
 

@@ -239,7 +239,7 @@ Hextra v0.10.0 之后的版本使用 Tailwind CSS v4，并将 Tailwind 作为 CS
 
 ### 在本地让新类名生效
 
-页面最终仅引入 `assets/css/compiled/main.css`（主题编译产物）与 `assets/css/custom.css`（站点自定义）。当你在 `layouts/` 的模板里新增了 `hx:` 工具类，需要重新生成主题的编译 CSS 才能看到效果.
+页面最终仅引入 `assets/css/compiled/main.css`（主题编译产物）与 `assets/css/custom.css`（站点自定义）。当你在 `layouts/` 的模板里新增了 `hx:` 工具类，需要重新生成主题的编译 CSS 才能看到效果。
 
 1. 安装 Tailwind CSS 以及相关依赖：
 
