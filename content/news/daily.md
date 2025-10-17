@@ -156,12 +156,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-08-23 18:44:47
 - **作者**: LiPu-jpg
 
-### [COMP3019 生物信息学](https://github.com/HITSZ-OpenAuto/COMP3019/issues/1)
-
-- **仓库**: COMP3019
-- **创建于**: 2025-08-23 18:44:06
-- **作者**: LiPu-jpg
-
 ## 待合并的 Pull Requests
 
 暂无待合并的 Pull Requests
