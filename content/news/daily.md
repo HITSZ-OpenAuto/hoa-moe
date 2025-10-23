@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-10-16'
-description: 北京时间 2025-10-15 00 时至今
+date: '2025-10-23'
+description: 北京时间 2025-10-22 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,15 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (10.15)
+### 周三 (10.22)
 
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(ui): improve ui (#15)
-
-- W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：修改部分内容
-
-- W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：添加 zsa 笔记
-
-- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：add dark mode style for links/ and about/. (#16)
+- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(docs): multi-major support (#17)
 
 ## 待解决的 Issues
 
