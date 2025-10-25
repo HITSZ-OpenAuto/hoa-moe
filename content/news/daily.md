@@ -152,5 +152,15 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [新增 2025 年课程信息](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/22)
+
+- **仓库**: AUTO3001B
+- **创建于**: 2025-10-24 11:41:21
+- **作者**: MaxwellJay256
+
+### [添加关于习题答案的提醒](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/38)
+
+- **仓库**: AUTO3002A
+- **创建于**: 2025-10-24 11:26:35
+- **作者**: MaxwellJay256
 
