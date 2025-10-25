@@ -6,15 +6,15 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 9 月 5 日" author="Kowyo" message="更新 Badge 样式 (#21)" >}}
+{{< update-info update_time="2025 年 10 月 25 日" author="Maxwell Jay" message="Merge pull request #22 from HITSZ-OpenAuto/mxj1" >}}
 
 <div class="hoa-badge">
 
 ![%E8%80%83%E8%AF%95%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
-![%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）-5-moccasin)
-![%E5%AD%A6%E5%88%86（2025%E6%98%A5%E5%BC%80%E5%A7%8B）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E5%BC%80%E5%A7%8B）-4.5-moccasin)
+![%E5%AD%A6%E5%88%86（2025 %E6%98%A5%E4%B9%8B%E5%89%8D）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）-5-moccasin)
+![%E5%AD%A6%E5%88%86（2025 %E6%98%A5%E5%BC%80%E5%A7%8B）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E5%BC%80%E5%A7%8B）-4.5-moccasin)
 
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7)](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7)-gold)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7&22%E7%BA%A7)](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7&22%E7%BA%A7)-gold)
 ![%E4%BD%9C%E4%B8%9A 12%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-12%25-wheat)
 ![%E5%87%BA%E5%8B%A4 5%](https://img.shields.io/badge/%E5%87%BA%E5%8B%A4-5%25-wheat)
 ![%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C 5%](https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C-5%25-wheat)
@@ -35,25 +35,46 @@ math: true
 
 仅看课件不一定看得懂（有些页面只有一张图），需要结合听课来理解。
 
->文/ [Oliver Wu](https://www.github.com/OliverWu515), 2024.6
+> 文 / [Oliver Wu](https://www.github.com/OliverWu515), 2024.6
+
+2025 年没有发放纸质讲义。
+
+> 文 / [Maxwell Jay](https://www.github.com/MaxwellJay256), 2025.8
 
 - 教师 2：许鋆
 
 课件来源比较多，主要参考吴爱国老师的讲义。对于讲义上的错误和含糊之处，做了很仔细的修订。讲解较为清晰。板书美观但是比较小，想看清的话建议坐前排。
 考勤遵照吴老师意见，2023 年春季有较高强度考勤，2024 年春季则没有。
 
->文/ [Oliver Wu](https://www.github.com/OliverWu515), 2024.11
+> 文 / [Oliver Wu](https://www.github.com/OliverWu515), 2024.11
 
 ## 关于考试
 
 - 考试难度：中等
 - 说明：（20、21 级情况）考试时间可能会比较紧，注意平时练习熟练度。考试题型较为传统，也不会考的较深较难，不用全面复习。注意听老师上课说的「不会考试」的点。
 
+- 2025 年考得很简单，没有任何花样。因此高分段人数也很密集，97 分排名 16 / 130。
+- 老师说不考的内容真的不考
+
+> 文 / [Maxwell Jay](https://www.github.com/MaxwellJay256), 2025.8
+
 ## 学习建议
 
 - 自动化专业看家本领，重要性不言而喻。不过其实内容只是稍显繁琐，并不复杂。
 - 想读研的同学，可以在学状态空间有关知识的时候，注意打好线性代数基础，涉猎一些《线性系统理论》方面的知识。频域法的部分可能对于考研的同学更为有用。
->文/ [Oliver Wu](https://www.github.com/OliverWu515), 2024.11
+> 文 / [Oliver Wu](https://www.github.com/OliverWu515), 2024.11
+
+自动化控制理论 A 主要学习控制系统的分析（给控制系统分析性能），而自动控制理论 B 主要学习控制系统的综合（给性能指标设计控制器）。
+
+自控 B 的特点有 4 个：
+1. 结果不唯一
+2. 存在近似处理
+3. 使用经验公式
+4. 设计过程具有主观性
+
+频域校正、离散校正、能控能观分解、状态空间综合、非线性系统描述函数法，这些都有非常标准的公式和流程，多做几道题就能掌握，尤其是作业题很有代表性。
+
+> 文 / [Maxwell Jay](https://www.github.com/MaxwellJay256), 2025.8
 
 ## 资料下载
 

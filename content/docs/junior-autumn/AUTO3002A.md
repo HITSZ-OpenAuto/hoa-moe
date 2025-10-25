@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 9 月 12 日" author="Kowyo" message="调整表格样式 (#37)" >}}
+{{< update-info update_time="2025 年 10 月 25 日" author="Maxwell Jay" message="添加关于习题答案的提醒 (#38)" >}}
 
 <div class="hoa-badge">
 
@@ -24,7 +24,7 @@ math: true
 
 该课程有配套的课程设计（2024 年秋季学期起改名为“实验”）：[自动控制实践 A 实验](https://hoa.moe/docs/junior-autumn/auto3016/)，独立设课，1.5 学分，40 学时。
 
-本仓库 materials 文件夹下的《自动控制元件及线路课后题答案（百度文库）》与《自动控制元件习题资料》系从网上下载，部分习题与老师布置的课后作业相同，可作补充，但是答案不一定正确，仅供参考。
+
 
 ## 教材
 
@@ -32,8 +32,12 @@ math: true
 
 ### 习题答案
 
-- [《自动控制元件》复习笔记及习题答案 - Bilibili](https://www.bilibili.com/read/cv19892484/)
-- [《自动控制元件》期末总结及课后习题答案 - Bilibili](https://www.bilibili.com/read/cv22652100)
+- [《自动控制元件》复习笔记及习题答案 - Bilibili 专栏](https://www.bilibili.com/read/cv19892484/)
+- [《自动控制元件》期末总结及课后习题答案 - Bilibili 专栏](https://www.bilibili.com/read/cv22652100)
+
+> [!NOTE]
+> 1. 以上两篇专栏为民间整理，不能保证完全正确，阅读时自行辨别正误。
+> 2. 本仓库 materials 文件夹下的《自动控制元件及线路课后题答案（百度文库）》与《自动控制元件习题资料》系从网上下载，部分习题与老师布置的课后作业相同，可作补充，但是答案不一定正确，仅供参考。
 
 ## 课程介绍
 
