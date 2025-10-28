@@ -73,17 +73,6 @@ jobs:
       - name: Build semester pages
         run: ./scripts/workflows/build_semester_pages.sh
 
-      - name: Generate daily report
-        env:
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          NEWS_TYPE: daily
-        run: uv run scripts/news/gen_news.py
-
-      - name: Fetch opened PRs and issues
-        env:
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: uv run scripts/courses/fetch_opened_prs_and_issues.py
-
       - name: Wrap badges
         run: |
           for file in $(find content/docs -name "*.md"); do

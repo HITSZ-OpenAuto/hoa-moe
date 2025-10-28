@@ -1,0 +1,114 @@
+name: "Generate Reports"
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/reports.yaml"
+  schedule:
+    - cron: "30 10 * * 5" # Set the workflow to run at 10:00 UTC+0 every Friday (6 PM Beijing time)
+  workflow_dispatch: # Allow to manually trigger the workflow
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  daily-report:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      ORG_NAME: "HITSZ-OpenAuto"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install uv and restore cache
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "latest"
+          activate-environment: true
+          working-directory: scripts
+          enable-cache: true
+          cache-dependency-glob: "pyproject.toml"
+
+      - name: Install Python dependencies
+        run: uv sync --directory scripts/
+
+      - name: Generate daily report
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          NEWS_TYPE: daily
+        run: uv run scripts/news/gen_news.py
+
+      - name: Fetch opened PRs and issues
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: uv run scripts/courses/fetch_opened_prs_and_issues.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add content/
+          git commit -m "docs: update daily report and issues" || exit 0
+          git push origin HEAD
+
+  weekly-report:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.modified, '.github/workflows/reports.yaml'))
+    runs-on: ubuntu-latest
+    env:
+      ORG_NAME: "HITSZ-OpenAuto"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install uv and restore cache
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "latest"
+          activate-environment: true
+          working-directory: scripts
+          enable-cache: true
+          cache-dependency-glob: "pyproject.toml"
+
+      - name: Install dependencies
+        run: uv sync --directory scripts/
+
+      - name: Generate weekly report
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          NEWS_TYPE: weekly
+        run: uv run scripts/news/gen_news.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add content/
+          git commit -m "docs: add weekly report" || exit 0
+          git push origin HEAD
