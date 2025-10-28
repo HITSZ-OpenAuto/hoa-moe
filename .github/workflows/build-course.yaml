@@ -86,33 +86,10 @@ jobs:
             uv run scripts/courses/wrap_badges.py "$file"
           done
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: latest
-          run_install: false
-
-      - name: Install Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: "24"
-          cache: "pnpm"
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Format codebase
-        run: pnpm run format
-
-      - name: Format Python code
-        uses: astral-sh/ruff-action@v3
-      - run: ruff check --fix scripts/
-      - run: ruff format scripts/
-
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
-          add: '["content", "scripts"]'
+          add: '["content"]'
           pull: "--rebase --autostash"
           default_author: github_actions
           message: "docs: update course pages"
