@@ -29,9 +29,6 @@ jobs:
           repository: ${{ github.repository }}
           ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
 
-      - name: Pull latest changes
-        run: git pull --rebase
-
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -57,6 +54,9 @@ jobs:
         uses: astral-sh/ruff-action@v3
       - run: ruff check --fix scripts/
       - run: ruff format scripts/
+
+      - name: Pull latest changes
+        run: git pull --rebase
 
       - name: Commit and push changes
         run: |

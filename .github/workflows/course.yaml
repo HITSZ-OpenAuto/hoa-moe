@@ -29,9 +29,6 @@ jobs:
         with:
           ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
 
-      - name: Pull latest changes
-        run: git pull --rebase
-
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
@@ -96,6 +93,9 @@ jobs:
 
       - name: Format spacing in Markdown CJK
         run: npx autocorrect --fix content/
+
+      - name: Pull latest changes
+        run: git pull --rebase
 
       - name: Commit and push changes
         run: |

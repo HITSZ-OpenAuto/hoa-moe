@@ -77,9 +77,6 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
 
-      - name: Pull latest changes
-        run: git pull --rebase
-
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -104,6 +101,9 @@ jobs:
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           NEWS_TYPE: weekly
         run: uv run scripts/news/gen_news.py
+
+      - name: Pull latest changes
+        run: git pull --rebase
 
       - name: Commit and push changes
         run: |
