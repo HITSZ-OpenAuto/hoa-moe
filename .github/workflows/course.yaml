@@ -90,6 +90,14 @@ jobs:
             uv run scripts/courses/wrap_badges.py "$file"
           done
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Format spacing in Markdown CJK
+        run: npx autocorrect --fix content/
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
