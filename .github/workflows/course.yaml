@@ -90,10 +90,20 @@ jobs:
             uv run scripts/courses/wrap_badges.py "$file"
           done
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+          run_install: false
+
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: "24"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Format spacing in Markdown CJK
         run: npx autocorrect --fix content/
@@ -102,6 +112,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
-          git add .
+          git add content/
           git commit -m "docs: update course pages" || exit 0
           git push origin HEAD
