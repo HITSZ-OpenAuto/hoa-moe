@@ -94,13 +94,12 @@ jobs:
       - name: Format spacing in Markdown CJK
         run: npx autocorrect --fix content/
 
-      - name: Pull latest changes
-        run: git pull --rebase
-
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
           git add content/
           git commit -m "docs: update course pages" || exit 0
+          git clean -f
+          git pull --rebase
           git push origin HEAD

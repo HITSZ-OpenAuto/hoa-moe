@@ -1,23 +1,20 @@
-name: Update About Page
+name: "Generate Weekly Report"
 
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: "0 0 * * *" # This sets the workflow to run at 00:00 UTC+0 every day (8 AM Beijing time)
-  push:
-    paths:
-      - "scripts/about/update_about.py"
-
+    - cron: "30 10 * * 5" # Set the workflow to run at 10:00 UTC+0 every Friday (6 PM Beijing time)
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
-  update-about-page:
+  weekly-report:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      id-token: write
     env:
       ORG_NAME: "HITSZ-OpenAuto"
 
@@ -25,9 +22,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          ref: ${{ github.ref_name }}
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
@@ -41,20 +38,23 @@ jobs:
           enable-cache: true
           cache-dependency-glob: "pyproject.toml"
 
-      - name: Install Python packages
+      - name: Install dependencies
         run: uv sync --directory scripts/
 
-      - name: Execute Python script
+      - name: Generate weekly report
         env:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: uv run scripts/about/update_about.py
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          NEWS_TYPE: weekly
+        run: uv run scripts/news/gen_news.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
-          git add content/about/index.zh-cn.md
-          git commit -m "docs: update about page" || exit 0
+          git add content/
+          git commit -m "docs: add weekly report" || exit 0
           git clean -f
           git pull --rebase
           git push origin HEAD
