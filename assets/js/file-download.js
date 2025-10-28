@@ -29,7 +29,7 @@ async function downloadFile(url, setProgress) {
     chunks.push(value);
     loaded += value.length;
 
-    setProgress(total ? (loaded / total) * 100 : 99);
+    setProgress(total ? (Number(loaded) / Number(total)) * 100 : 99);
   }
   setProgress(100);
   const blob = new Blob(chunks);
