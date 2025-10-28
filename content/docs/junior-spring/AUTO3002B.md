@@ -1,5 +1,5 @@
 ---
-title: （必修）自动控制实践B
+title: （必修）自动控制实践 B
 weight: 9
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
@@ -34,7 +34,7 @@ math: true
 
 ## 授课教师
 
-- 理论课: 董广忠
+- 理论课：董广忠
   - 授课风格：通过加入密度极高的无意义衬词以及含糊其辞的表述，成功达到让人听不懂的效果。答疑态度十分一般。
   - 听课建议：不考勤。上课会提示重点，建议课后倍速听回放。课件在教师主页，不在 qq 群发放。
 
@@ -99,26 +99,26 @@ math: true
 {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
 {{< hoa-filetree/folder name="本部" date="" state="closed" >}}
 {{< hoa-filetree/folder name="答案" date="" state="closed" >}}
-{{< hoa-filetree/file name="2020 控制系统实践II试题-psp详解" type="pdf" size="5.5 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E7%AD%94%E6%A1%88/2020%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E8%AF%95%E9%A2%98-psp%E8%AF%A6%E8%A7%A3.pdf" >}}
-{{< hoa-filetree/file name="2020 控制系统实践II试题答案" type="pdf" size="5.6 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E7%AD%94%E6%A1%88/2020%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
-{{< hoa-filetree/file name="控制系统实践II复习题-psp详解" type="pdf" size="15.8 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E7%AD%94%E6%A1%88/%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E5%A4%8D%E4%B9%A0%E9%A2%98-psp%E8%AF%A6%E8%A7%A3.pdf" >}}
+{{< hoa-filetree/file name="2020 控制系统实践 II 试题-psp 详解" type="pdf" size="5.5 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E7%AD%94%E6%A1%88/2020%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E8%AF%95%E9%A2%98-psp%E8%AF%A6%E8%A7%A3.pdf" >}}
+{{< hoa-filetree/file name="2020 控制系统实践 II 试题答案" type="pdf" size="5.6 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E7%AD%94%E6%A1%88/2020%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E8%AF%95%E9%A2%98%E7%AD%94%E6%A1%88.pdf" >}}
+{{< hoa-filetree/file name="控制系统实践 II 复习题-psp 详解" type="pdf" size="15.8 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E7%AD%94%E6%A1%88/%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E5%A4%8D%E4%B9%A0%E9%A2%98-psp%E8%AF%A6%E8%A7%A3.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="题目" date="" state="closed" >}}
-{{< hoa-filetree/file name="2020 控制系统实践II试题" type="pdf" size="1.7 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E9%A2%98%E7%9B%AE/2020%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E8%AF%95%E9%A2%98.pdf" >}}
-{{< hoa-filetree/file name="控制系统实践II复习题" type="pdf" size="15.6 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E9%A2%98%E7%9B%AE/%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
+{{< hoa-filetree/file name="2020 控制系统实践 II 试题" type="pdf" size="1.7 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E9%A2%98%E7%9B%AE/2020%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E8%AF%95%E9%A2%98.pdf" >}}
+{{< hoa-filetree/file name="控制系统实践 II 复习题" type="pdf" size="15.6 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%9C%AC%E9%83%A8/%E9%A2%98%E7%9B%AE/%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5II%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="深圳" date="" state="closed" >}}
-{{< hoa-filetree/file name="2021 自动控制实践B试题与答案-psp详解" type="pdf" size="2.3 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%B7%B1%E5%9C%B3/2021%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88-psp%E8%AF%A6%E8%A7%A3.pdf" >}}
-{{< hoa-filetree/file name="2021 自动控制实践B试题与答案" type="pdf" size="652.3 KB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%B7%B1%E5%9C%B3/2021%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
-{{< hoa-filetree/file name="2024 自动控制实践B试题回忆版-psp详解" type="pdf" size="9.2 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%B7%B1%E5%9C%B3/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88-psp%E8%AF%A6%E8%A7%A3.pdf" >}}
-{{< hoa-filetree/file name="2024 自动控制实践B试题回忆版" type="pdf" size="652.8 KB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%B7%B1%E5%9C%B3/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
+{{< hoa-filetree/file name="2021 自动控制实践 B 试题与答案-psp 详解" type="pdf" size="2.3 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%B7%B1%E5%9C%B3/2021%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88-psp%E8%AF%A6%E8%A7%A3.pdf" >}}
+{{< hoa-filetree/file name="2021 自动控制实践 B 试题与答案" type="pdf" size="652.3 KB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%B7%B1%E5%9C%B3/2021%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E4%B8%8E%E7%AD%94%E6%A1%88.pdf" >}}
+{{< hoa-filetree/file name="2024 自动控制实践 B 试题回忆版-psp 详解" type="pdf" size="9.2 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%B7%B1%E5%9C%B3/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88-psp%E8%AF%A6%E8%A7%A3.pdf" >}}
+{{< hoa-filetree/file name="2024 自动控制实践 B 试题回忆版" type="pdf" size="652.8 KB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/exams/%E6%B7%B1%E5%9C%B3/2024%20%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="labs" date="" state="closed" >}}
 {{< hoa-filetree/folder name="2024" date="" state="closed" >}}
 {{< hoa-filetree/folder name="LJH" date="" state="closed" >}}
-{{< hoa-filetree/file name="ljh_综合实验报告_18号机" type="pdf" size="1.7 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/2024/LJH/ljh_%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A_18%E5%8F%B7%E6%9C%BA.pdf" >}}
+{{< hoa-filetree/file name="ljh_综合实验报告_18 号机" type="pdf" size="1.7 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/2024/LJH/ljh_%E7%BB%BC%E5%90%88%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A_18%E5%8F%B7%E6%9C%BA.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="WJD" date="" state="closed" >}}
 {{< hoa-filetree/file name="wjd_综合" type="pdf" size="2.4 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/labs/2024/WJD/wjd_%E7%BB%BC%E5%90%88.pdf" >}}
@@ -137,22 +137,22 @@ math: true
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
-{{< hoa-filetree/file name="November_in_North_自控实践B笔记" type="pdf" size="97.5 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/November_in_North_%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E7%AC%94%E8%AE%B0.pdf" >}}
+{{< hoa-filetree/file name="November_in_North_自控实践 B 笔记" type="pdf" size="97.5 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/November_in_North_%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E7%AC%94%E8%AE%B0.pdf" >}}
 {{< hoa-filetree/file name="Revision of Auto-Practical" type="pdf" size="9.4 MB" date="2024/05/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/Revision%20of%20Auto-Practical.pdf" >}}
-{{< hoa-filetree/file name="【2025春季学期】自动控制实践B课程总结笔记-22级自动化-刘劭航-v1.2" type="pdf" size="2.6 MB" date="2025/06/03" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E3%80%902025%E6%98%A5%E5%AD%A3%E5%AD%A6%E6%9C%9F%E3%80%91%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0-22%E7%BA%A7%E8%87%AA%E5%8A%A8%E5%8C%96-%E5%88%98%E5%8A%AD%E8%88%AA-v1.2.pdf" >}}
-{{< hoa-filetree/file name="自控实践B复习_Tintin" type="pdf" size="6.4 MB" date="2024/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E5%A4%8D%E4%B9%A0_Tintin.pdf" >}}
-{{< hoa-filetree/file name="自控实践复习整理byAb1g2he" type="pdf" size="3.4 MB" date="2024/07/16" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86byAb1g2he.pdf" >}}
+{{< hoa-filetree/file name="【2025 春季学期】自动控制实践 B 课程总结笔记 -22 级自动化 - 刘劭航-v1.2" type="pdf" size="2.6 MB" date="2025/06/03" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E3%80%902025%E6%98%A5%E5%AD%A3%E5%AD%A6%E6%9C%9F%E3%80%91%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%AE%9E%E8%B7%B5B%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0-22%E7%BA%A7%E8%87%AA%E5%8A%A8%E5%8C%96-%E5%88%98%E5%8A%AD%E8%88%AA-v1.2.pdf" >}}
+{{< hoa-filetree/file name="自控实践 B 复习_Tintin" type="pdf" size="6.4 MB" date="2024/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E5%A4%8D%E4%B9%A0_Tintin.pdf" >}}
+{{< hoa-filetree/file name="自控实践复习整理 byAb1g2he" type="pdf" size="3.4 MB" date="2024/07/16" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86byAb1g2he.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
-{{< hoa-filetree/folder name="课件-带笔记-psp" date="" state="closed" >}}
+{{< hoa-filetree/folder name="课件 - 带笔记-psp" date="" state="closed" >}}
 {{< hoa-filetree/file name="1 绪论" type="pdf" size="716.7 KB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/1%20%E7%BB%AA%E8%AE%BA.pdf" >}}
 {{< hoa-filetree/file name="10 课程习题讲解" type="pdf" size="3.2 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/10%20%E8%AF%BE%E7%A8%8B%E4%B9%A0%E9%A2%98%E8%AE%B2%E8%A7%A3.pdf" >}}
 {{< hoa-filetree/file name="2 控制系统的设计流程" type="pdf" size="2.3 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/2%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%B5%81%E7%A8%8B.pdf" >}}
-{{< hoa-filetree/file name="3.1 控制系统的输入条件分析-输入" type="pdf" size="13.3 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/3.1%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-%E8%BE%93%E5%85%A5.pdf" >}}
-{{< hoa-filetree/file name="3.2 控制系统输入条件分析-干扰" type="pdf" size="6.8 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/3.2%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-%E5%B9%B2%E6%89%B0.pdf" >}}
-{{< hoa-filetree/file name="3.3 控制系统输入条件分析-噪声" type="pdf" size="9.1 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/3.3%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-%E5%99%AA%E5%A3%B0.pdf" >}}
+{{< hoa-filetree/file name="3.1 控制系统的输入条件分析 - 输入" type="pdf" size="13.3 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/3.1%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-%E8%BE%93%E5%85%A5.pdf" >}}
+{{< hoa-filetree/file name="3.2 控制系统输入条件分析 - 干扰" type="pdf" size="6.8 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/3.2%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-%E5%B9%B2%E6%89%B0.pdf" >}}
+{{< hoa-filetree/file name="3.3 控制系统输入条件分析 - 噪声" type="pdf" size="9.1 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/3.3%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E8%BE%93%E5%85%A5%E6%9D%A1%E4%BB%B6%E5%88%86%E6%9E%90-%E5%99%AA%E5%A3%B0.pdf" >}}
 {{< hoa-filetree/file name="4 控制系统的设计约束" type="pdf" size="12.0 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/4%20%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E7%BA%A6%E6%9D%9F.pdf" >}}
-{{< hoa-filetree/file name="5 Anti-Windup设计" type="pdf" size="6.4 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/5%20Anti-Windup%E8%AE%BE%E8%AE%A1.pdf" >}}
+{{< hoa-filetree/file name="5 Anti-Windup 设计" type="pdf" size="6.4 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/5%20Anti-Windup%E8%AE%BE%E8%AE%A1.pdf" >}}
 {{< hoa-filetree/file name="6 伺服系统" type="pdf" size="6.3 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/6%20%E4%BC%BA%E6%9C%8D%E7%B3%BB%E7%BB%9F.pdf" >}}
 {{< hoa-filetree/file name="7 调节系统的设计" type="pdf" size="7.1 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/7%20%E8%B0%83%E8%8A%82%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1.pdf" >}}
 {{< hoa-filetree/file name="8 多回路系统的设计" type="pdf" size="5.1 MB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/8%20%E5%A4%9A%E5%9B%9E%E8%B7%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1.pdf" >}}

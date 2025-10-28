@@ -8,7 +8,7 @@ toc: false
 ## 跨专业选修
 <!--more-->
 {{< cards >}}
-{{< card link="chem1012" title="大学化学III" >}}
+{{< card link="chem1012" title="大学化学 III" >}}
 {{< card link="comp3043" title="深度学习体系结构" >}}
 {{< card link="crossspecialty" title="跨专业选修课程体系" >}}
 {{< card link="econ2005f" title="经济学原理" >}}

@@ -11,11 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       return (async () => {
         // 初始状态移除所有背景色
-        networkPoint.classList.remove(
-          "hx:bg-green-500",
-          "hx:bg-yellow-500",
-          "hx:bg-red-500",
-        );
+        networkPoint.classList.remove("hx:bg-green-500", "hx:bg-yellow-500", "hx:bg-red-500");
 
         try {
           const controller = new AbortController();

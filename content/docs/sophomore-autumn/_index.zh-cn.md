@@ -13,7 +13,7 @@ toc: false
 {{< card link="lang100x" title="大学英语" >}}
 {{< card link="math1004" title="概率论与数理统计" >}}
 {{< card link="math1005" title="复变函数与积分变换" >}}
-{{< card link="mech2019" title="设计与制造A" >}}
+{{< card link="mech2019" title="设计与制造 A" >}}
 {{< card link="pe100x" title="体育" >}}
 {{< card link="phys1001" title="大学物理" >}}
 {{< card link="phys1002" title="大学物理实验" >}}
@@ -30,6 +30,6 @@ toc: false
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。
 <!--more-->
 {{< cards >}}
-{{< card link="ee1011b" title="电路IB" >}}
-{{< card link="ee1012b" title="电路实验IB" >}}
+{{< card link="ee1011b" title="电路 IB" >}}
+{{< card link="ee1012b" title="电路实验 IB" >}}
 {{< /cards >}}
