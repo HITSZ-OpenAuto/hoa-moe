@@ -1,5 +1,8 @@
 name: "Build Documentation"
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
@@ -16,9 +19,6 @@ concurrency:
 jobs:
   build-documentation:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      id-token: write
     env:
       ORG_NAME: "HITSZ-OpenAuto"
 
@@ -26,7 +26,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+
+      - name: Pull latest changes
+        run: git pull --rebase
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -87,9 +90,9 @@ jobs:
           done
 
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: '["content"]'
-          pull: "--rebase --autostash"
-          default_author: github_actions
-          message: "docs: update course pages"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "docs: update course pages" || exit 0
+          git push origin HEAD
