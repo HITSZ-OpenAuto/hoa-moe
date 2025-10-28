@@ -111,12 +111,10 @@ def fetch_opened_prs_and_issues(org_name, public_repos):
         f.write("## 待解决的 Issues\n\n")
         f.truncate()
 
-        filtered_issues = [i for i in issues if i["repository"]["name"] in public_repos]
-
-        if not filtered_issues:
+        if not issues:
             f.write("暂无待解决的 Issues\n\n")
         else:
-            for issue in filtered_issues:
+            for issue in issues:
                 f.write(f"### [{issue['title']}]({issue['url']})\n\n")
                 f.write(f"- **仓库**: {issue['repository']['name']}\n")
                 f.write(f"- **创建于**: {UTC2BJT(issue['createdAt'])}\n")
