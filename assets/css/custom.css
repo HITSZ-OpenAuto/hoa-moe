@@ -7,9 +7,7 @@
 }
 
 .content :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-  color: hsl(
-          var(--primary-hue) var(--primary-saturation) 45%
-  );
+  color: hsl(var(--primary-hue) var(--primary-saturation) 45%);
   /* color: #0b346e; */
   text-decoration-line: solid;
   text-decoration-thickness: from-font;
@@ -19,15 +17,13 @@
 
   &:hover {
     text-decoration-color: hsl(
-            var(--primary-hue) var(--primary-saturation) 45%
+      var(--primary-hue) var(--primary-saturation) 45%
     );
   }
 }
 
 a.hoa-inline-link {
-  color: hsl(
-          var(--primary-hue) var(--primary-saturation) 45%
-  );
+  color: hsl(var(--primary-hue) var(--primary-saturation) 45%);
   /* color: #0b346e; */
   text-decoration-line: solid;
   text-decoration-thickness: from-font;
@@ -37,7 +33,7 @@ a.hoa-inline-link {
 
   &:hover {
     text-decoration-color: hsl(
-            var(--primary-hue) var(--primary-saturation) 45%
+      var(--primary-hue) var(--primary-saturation) 45%
     );
   }
 }
@@ -50,7 +46,7 @@ a.animated {
 }
 
 a.animated::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 5px;
   display: block;
@@ -95,7 +91,7 @@ a.hextra-feature-card:hover {
 
 .hoa-filetree-download-progress {
   /*-webkit-mask: radial-gradient(circle at center, transparent 0.600rem, #000 0.601rem);*/
-  mask: radial-gradient(circle at center, transparent 0.500rem, #000 0.501rem);
+  mask: radial-gradient(circle at center, transparent 0.5rem, #000 0.501rem);
 }
 
 /* The slider */
@@ -121,7 +117,6 @@ input:checked + .select:hover {
 input:checked + .select:hover:is(html[class~="dark"] *) {
   /* dark:hover:bg-blue-100 */
   background-color: rgb(30 64 175);
-
 }
 
 input:checked + .select .slider {
@@ -130,7 +125,7 @@ input:checked + .select .slider {
 }
 
 input:focus + .select .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .select .slider > div {

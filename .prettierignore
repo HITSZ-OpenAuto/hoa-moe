@@ -1,0 +1,5 @@
+**/*.md
+themes/
+layouts/
+pnpm-lock.yaml
+main.css

@@ -20,18 +20,18 @@ outputs:
 defaultContentLanguage: zh-cn
 languages:
   zh-cn:
-      languageName: 简体中文
-      languageCode: zh-CN
-      weight: 1
-      title: HITSZ 自动化课程攻略共享计划
+    languageName: 简体中文
+    languageCode: zh-CN
+    weight: 1
+    title: HITSZ 自动化课程攻略共享计划
 
 markup:
   goldmark:
     extensions:
       passthrough:
         delimiters:
-          block: [['\[', '\]'], ['$$', '$$']]
-          inline: [['$', '$'], ['\(', '\)']]
+          block: [['\[', '\]'], ["$$", "$$"]]
+          inline: [["$", "$"], ['\(', '\)']]
         enable: true
     renderer:
       unsafe: true
@@ -92,7 +92,7 @@ menu:
       params:
         type: search
     - name: GitHub
-      weight: 7 
+      weight: 7
       url: "https://github.com/HITSZ-OpenAuto"
       params:
         icon: github
@@ -176,7 +176,7 @@ params:
   editURL:
     enable: true
     base: "https://github.com/HITSZ-OpenAuto/hoa-moe/edit/main/content/"
-    
+
   blog:
     list:
       displayTags: true

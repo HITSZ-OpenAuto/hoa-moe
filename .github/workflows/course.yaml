@@ -28,9 +28,6 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      - name: Set execute permissions
-        run: find ./scripts \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
-
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
@@ -50,7 +47,7 @@ jobs:
 
       - name: Fetch public repositories in the organization
         run: curl -o repos_list.txt https://raw.githubusercontent.com/HITSZ-OpenAuto/repos-management/refs/heads/main/repos_list.txt
-      
+
       - name: Parse repo list and set as env var
         run: |
           repos=$(jq -R -s -c 'split("\n") | map(select(length > 0))' repos_list.txt)
@@ -89,17 +86,28 @@ jobs:
             uv run scripts/courses/wrap_badges.py "$file"
           done
 
-      - name: Auto correct
-        uses: huacnlee/autocorrect-action@v2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
         with:
-          args: --fix content/
+          version: latest
+          run_install: false
 
-      - name: Auto format
-        uses: astral-sh/ruff-action@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v6
         with:
-          src: "./scripts"
-          version: "latest"
-          args: "format"
+          node-version: "24"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Format codebase
+        run: pnpm run format
+
+      - name: Format Python code
+        uses: astral-sh/ruff-action@v3
+      - run: ruff check --fix scripts/
+      - run: ruff format scripts/
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
@@ -107,4 +115,4 @@ jobs:
           add: '["content", "scripts"]'
           pull: "--rebase --autostash"
           default_author: github_actions
-          message: "ci: update course pages"
+          message: "docs: update course pages"
