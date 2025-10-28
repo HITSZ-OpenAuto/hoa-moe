@@ -11,7 +11,7 @@ on:
       - ".github/workflows/reports.yaml"
   schedule:
     - cron: "30 10 * * 5" # Set the workflow to run at 10:00 UTC+0 every Friday (6 PM Beijing time)
-  workflow_dispatch: # Allow to manually trigger the workflow
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}
@@ -68,7 +68,7 @@ jobs:
           git push origin HEAD
 
   weekly-report:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.modified, '.github/workflows/reports.yaml'))
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     env:
       ORG_NAME: "HITSZ-OpenAuto"
