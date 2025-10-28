@@ -15,9 +15,6 @@ on:
 jobs:
   update-about-page:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      id-token: write
     env:
       ORG_NAME: "HITSZ-OpenAuto"
 
@@ -25,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          ref: ${{ github.ref_name }}
 
       - name: Setup Python
         uses: actions/setup-python@v6
