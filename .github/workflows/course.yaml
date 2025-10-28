@@ -28,9 +28,6 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      - name: Set execute permissions
-        run: find ./scripts \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
-
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
