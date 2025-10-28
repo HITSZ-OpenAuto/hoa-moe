@@ -16,7 +16,7 @@ on:
       - "pyproject.toml"
       - ".github/workflows/format.yaml"
   workflow_run:
-    workflows: ["Build Documentation"]
+    workflows: ["Build Documentation", "Weekly Commit Report"]
     types:
       - completed
   workflow_dispatch:
