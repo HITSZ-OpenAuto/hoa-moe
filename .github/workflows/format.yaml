@@ -16,6 +16,7 @@ concurrency:
 
 jobs:
   format:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -24,7 +25,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+          repository: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_repository.full_name || github.repository }}
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref_name }}
 
       - name: Pull latest changes
         run: git pull --rebase
@@ -46,6 +48,9 @@ jobs:
 
       - name: Format codebase
         run: pnpm run format
+
+      - name: Fix Markdown spacing
+        run: npx autocorrect --fix content/
 
       - name: Format Python code
         uses: astral-sh/ruff-action@v3
