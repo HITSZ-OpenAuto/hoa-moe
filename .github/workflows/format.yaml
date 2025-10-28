@@ -9,6 +9,10 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Build Documentation", "Generate Reports"]
+    types:
+      - completed
 
 concurrency:
   group: ${{ github.workflow }}
