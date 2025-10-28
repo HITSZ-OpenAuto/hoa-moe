@@ -1,6 +1,0 @@
-## 限选
-[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
-<!--more-->
-{{< cards >}}
-{{< card link="auto3012" title="移动机器人导论" >}}
-{{< card link="auto5024" title="模式识别" >}}

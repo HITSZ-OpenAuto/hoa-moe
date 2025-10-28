@@ -1,2 +1,0 @@
-{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/WOCD1008" repoURL="https://github.com/HITSZ-OpenAuto/WOCD1008" >}}
-{{< /hoa-filetree/container >}}
