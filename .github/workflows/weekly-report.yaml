@@ -1,0 +1,61 @@
+name: "Generate Weekly Report"
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "30 10 * * 5" # Set the workflow to run at 10:00 UTC+0 every Friday (6 PM Beijing time)
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    env:
+      ORG_NAME: "HITSZ-OpenAuto"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install uv and restore cache
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "latest"
+          activate-environment: true
+          working-directory: scripts
+          enable-cache: true
+          cache-dependency-glob: "pyproject.toml"
+
+      - name: Install dependencies
+        run: uv sync --directory scripts/
+
+      - name: Generate weekly report
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          NEWS_TYPE: weekly
+        run: uv run scripts/news/gen_news.py
+
+      - name: Pull latest changes
+        run: git pull --rebase
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add content/
+          git commit -m "docs: add weekly report" || exit 0
+          git push origin HEAD
