@@ -77,8 +77,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          fetch-depth: 1
+          ref: ${{ github.ref_name }}
+
+      - name: Pull latest changes
+        run: git pull --rebase
 
       - name: Set up Python
         uses: actions/setup-python@v6
