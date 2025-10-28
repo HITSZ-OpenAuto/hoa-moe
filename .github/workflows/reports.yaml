@@ -7,8 +7,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - ".github/workflows/reports.yaml"
   schedule:
     - cron: "30 10 * * 5" # Set the workflow to run at 10:00 UTC+0 every Friday (6 PM Beijing time)
   workflow_dispatch:
