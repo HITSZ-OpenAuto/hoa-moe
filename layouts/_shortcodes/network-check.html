@@ -1,4 +1,5 @@
 {{- $jsNetworkCheck := resources.Get "js/network-check.js" -}}
+
 {{- if hugo.IsProduction -}}
   {{- $jsNetworkCheck = $jsNetworkCheck | minify | fingerprint -}}
 {{- end -}}
