@@ -93,7 +93,7 @@ def generate_yaml_front_matter(news_type, display_start_time):
                         "image": "https://avatars.githubusercontent.com/in/15368",
                     }
                 ],
-                "description": f"北京时间 {display_start_time.date()} {display_start_time.hour:02}时至今",
+                "description": f"北京时间 {display_start_time.date()} {display_start_time.hour:02} 时至今",
                 "excludeSearch": False,
                 "draft": False,
             },
@@ -158,7 +158,7 @@ def create_markdown_report(filtered_commits, org_course_name, news_type, org_nam
             )
             prev_date = date.date()
 
-        markdown_report += f"- {commit['author']} 在 [{title}](https://github.com/{org_name}/{commit['repo_name']}) 中提交了信息： {commit['message'].splitlines()[0]}\n\n"
+        markdown_report += f"- {commit['author']} 在 [{title}](https://github.com/{org_name}/{commit['repo_name']}) 中提交了信息：{commit['message'].splitlines()[0]}\n\n"
 
     return markdown_report
 
