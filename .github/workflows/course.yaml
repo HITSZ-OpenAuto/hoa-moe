@@ -104,18 +104,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Format codebase with Prettier
+      - name: Format codebase
         run: pnpm run format
 
-      - name: Auto format
+      - name: Format Python code
         uses: astral-sh/ruff-action@v3
       - run: ruff check --fix scripts/
       - run: ruff format scripts/
-
-      - name: Auto correct
-        uses: huacnlee/autocorrect-action@v2
-        with:
-          args: --fix content/
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
