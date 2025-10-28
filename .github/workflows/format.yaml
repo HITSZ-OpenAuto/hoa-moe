@@ -4,6 +4,7 @@ permissions:
   contents: write
 
 on:
+  pull_request:
   push:
     paths:
       - "assets/**"
