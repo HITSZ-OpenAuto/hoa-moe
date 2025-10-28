@@ -35,6 +35,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Set branch name
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "BRANCH=${{ github.head_ref }}" >> $GITHUB_ENV
+          else
+            echo "BRANCH=${{ github.ref_name }}" >> $GITHUB_ENV
+          fi
+
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -64,4 +72,4 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add .
           git commit -m "style: format code" || exit 0
-          git push origin HEAD
+          git push origin HEAD:refs/heads/$BRANCH
