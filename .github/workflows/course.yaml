@@ -123,4 +123,4 @@ jobs:
           add: '["content", "scripts"]'
           pull: "--rebase --autostash"
           default_author: github_actions
-          message: "ci: update course pages"
+          message: "docs: update course pages"
