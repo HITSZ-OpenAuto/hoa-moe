@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-10-26'
-description: 北京时间 2025-10-25 00 时至今
+date: '2025-10-28'
+description: 北京时间 2025-10-27 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周六 (10.25)
+### 周一 (10.27)
 
-- Maxwell Jay 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：添加关于习题答案的提醒 (#38)
-
-- Maxwell Jay 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：Merge pull request #22 from HITSZ-OpenAuto/mxj1
+- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：add docs-list and complete course-info component. (#18)
 
 ## 待解决的 Issues
 
