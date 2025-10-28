@@ -55,13 +55,11 @@ jobs:
       - run: ruff check --fix scripts/
       - run: ruff format scripts/
 
-      - name: Pull latest changes
-        run: git pull --rebase
-
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
           git add .
           git commit -m "style: format code" || exit 0
+          git pull --rebase
           git push origin HEAD

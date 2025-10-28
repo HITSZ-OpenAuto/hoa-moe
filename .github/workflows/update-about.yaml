@@ -1,5 +1,8 @@
 name: Update About Page
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 0 * * *" # This sets the workflow to run at 00:00 UTC+0 every day (8 AM Beijing time)
@@ -47,9 +50,11 @@ jobs:
         run: uv run scripts/about/update_about.py
 
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: "content/about/index.zh-cn.md"
-          pull: "--rebase --autostash"
-          default_author: github_actions
-          message: "ci: update about page"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add content/about/index.zh-cn.md
+          git commit -m "docs: update about page" || exit 0
+          git clean -f
+          git pull --rebase
+          git push origin HEAD

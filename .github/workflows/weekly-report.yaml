@@ -49,13 +49,12 @@ jobs:
           NEWS_TYPE: weekly
         run: uv run scripts/news/gen_news.py
 
-      - name: Pull latest changes
-        run: git pull --rebase
-
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
           git add content/
           git commit -m "docs: add weekly report" || exit 0
+          git clean -f
+          git pull --rebase
           git push origin HEAD
