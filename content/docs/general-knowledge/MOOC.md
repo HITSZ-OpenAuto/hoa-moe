@@ -18,9 +18,9 @@ math: true
 
 </div>
 
-本文件夹下目录采用 答案 + README.md 的形式，README.md 则是描述该门课程的相关说明
+本文件夹下目录采用 答案 + README.md 的形式, README.md 则是描述该门课程的相关说明
 
-**注：资料均来自前人收集整理，不能保证答案 100% 正确**
+**注：资料均来自前人收集整理，不能保证答案100%正确**
 
 MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其他考查课地位相同* ，算入总 GPA 中；只不过因为其不仅不用线下上课，还容易刷高分，因此时常被单拎出来谈论。
 
@@ -64,7 +64,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 > 
 > 反例是，22 级有一位同学，因为忘记刷视频导致 MOOC 挂科，因此不能转专业；此外，忘记参加期末考试也是常见的 MOOC 挂科原因。~~当然不是人人都有转专业资格，但是至少能告诉我们~~ 能做到的还是尽量做到，否则指不定就被学校政策卡了脖子。
 > 
-> 不过，根据 [lmh 学长](https://github.com/lmh12138)的描述，挂 MOOC 目前暂不会影响**保研资格**。
+> 不过，根据 [lmh学长](https://github.com/lmh12138)的描述，挂 MOOC 目前暂不会影响**保研资格**。
 > 
 > 文 / [IcyDesert](https://github.com/IcyDesert) 2024.5
 
@@ -107,22 +107,22 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 {{< hoa-filetree/file name="智慧树关爱生命---自救与急救技能章节习题及答案" type="docx" size="28.7 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD/%E6%99%BA%E6%85%A7%E6%A0%91%E5%85%B3%E7%88%B1%E7%94%9F%E5%91%BD---%E8%87%AA%E6%95%91%E4%B8%8E%E6%80%A5%E6%95%91%E6%8A%80%E8%83%BD%E7%AB%A0%E8%8A%82%E4%B9%A0%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88.docx" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="智慧树劳动教育概论" date="" state="closed" >}}
-{{< hoa-filetree/file name="劳动教育概论 - 单元测试答案" type="md" size="8.8 KB" date="2024/09/23" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E6%A6%82%E8%AE%BA/%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E6%A6%82%E8%AE%BA-%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E7%AD%94%E6%A1%88.md" >}}
+{{< hoa-filetree/file name="劳动教育概论-单元测试答案" type="md" size="8.8 KB" date="2024/09/23" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%99%BA%E6%85%A7%E6%A0%91%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E6%A6%82%E8%AE%BA/%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E6%A6%82%E8%AE%BA-%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E7%AD%94%E6%A1%88.md" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="游戏化思维" date="" state="closed" >}}
 {{< hoa-filetree/file name="游戏化思维参考答案" type="docx" size="85.4 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4/%E6%B8%B8%E6%88%8F%E5%8C%96%E6%80%9D%E7%BB%B4%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.docx" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="生命科学导论" date="" state="closed" >}}
-{{< hoa-filetree/file name="生命科学导论 - 智慧树 - 期末考试参考答案" type="txt" size="20.9 KB" date="2024/08/27" icon="icons/txt.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA/%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA-%E6%99%BA%E6%85%A7%E6%A0%91-%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.txt" >}}
+{{< hoa-filetree/file name="生命科学导论-智慧树-期末考试参考答案" type="txt" size="20.9 KB" date="2024/08/27" icon="icons/txt.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA/%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA-%E6%99%BA%E6%85%A7%E6%A0%91-%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.txt" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="知识产权法律及实务" date="" state="closed" >}}
 {{< hoa-filetree/file name="知识产权法律及实务" type="docx" size="14.5 KB" date="2024/05/20" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B3%95%E5%BE%8B%E5%8F%8A%E5%AE%9E%E5%8A%A1.docx" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="职业发展英语" date="" state="closed" >}}
-{{< hoa-filetree/file name="职 English" type="docx" size="55.6 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E8%8B%B1%E8%AF%AD/%E8%81%8CEnglish.docx" >}}
+{{< hoa-filetree/file name="职English" type="docx" size="55.6 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E8%8B%B1%E8%AF%AD/%E8%81%8CEnglish.docx" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="英美音乐与文化" date="" state="closed" >}}
-{{< hoa-filetree/file name="英美音乐与文化 - 作业答案（2024 夏）" type="txt" size="3.4 KB" date="2024/08/27" icon="icons/txt.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96-%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%882024%E5%A4%8F%EF%BC%89.txt" >}}
+{{< hoa-filetree/file name="英美音乐与文化-作业答案（2024夏）" type="txt" size="3.4 KB" date="2024/08/27" icon="icons/txt.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96-%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%882024%E5%A4%8F%EF%BC%89.txt" >}}
 {{< hoa-filetree/file name="英美音乐与文化期末答案" type="docx" size="7.6 KB" date="2024/08/27" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96/%E8%8B%B1%E7%BE%8E%E9%9F%B3%E4%B9%90%E4%B8%8E%E6%96%87%E5%8C%96%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.docx" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="设计的人因与文化" date="" state="closed" >}}

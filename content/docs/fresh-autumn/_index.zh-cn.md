@@ -13,6 +13,6 @@ toc: false
 {{< card link="geip1017" title="习近平新时代中国特色社会主义思想概论" >}}
 {{< card link="lang100x" title="大学英语" >}}
 {{< card link="math1002" title="代数与几何" >}}
-{{< card link="math1015a" title="微积分 A" >}}
+{{< card link="math1015a" title="微积分A" >}}
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
