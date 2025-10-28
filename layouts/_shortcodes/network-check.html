@@ -1,4 +1,4 @@
-{{/* Shortcode to include network-check.js only where explicitly placed */}} {{- $jsNetworkCheck := resources.Get "js/network-check.js" -}}
+{{- $jsNetworkCheck := resources.Get "js/network-check.js" -}}
 {{- if hugo.IsProduction -}}
   {{- $jsNetworkCheck = $jsNetworkCheck | minify | fingerprint -}}
 {{- end -}}
