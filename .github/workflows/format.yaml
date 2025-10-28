@@ -1,5 +1,8 @@
 name: "Format Codebase"
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
@@ -54,9 +57,9 @@ jobs:
       - run: ruff format scripts/
 
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: '.'
-          pull: "--rebase --autostash"
-          default_author: github_actions
-          message: "style: format code"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "style: format code" || exit 0
+          git push origin HEAD:main
