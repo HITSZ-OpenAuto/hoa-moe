@@ -35,6 +35,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Pull latest changes
+        run: git pull --rebase
+
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -64,4 +67,4 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add .
           git commit -m "style: format code" || exit 0
-          git push origin HEAD:main
+          git push origin HEAD
