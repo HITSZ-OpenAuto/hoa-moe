@@ -4,17 +4,6 @@ permissions:
   contents: write
 
 on:
-  pull_request:
-  push:
-    paths:
-      - "assets/**"
-      - "layouts/**"
-      - "scripts/**"
-      - "content/**"
-      - "package.json"
-      - "pnpm-lock.yaml"
-      - "pyproject.toml"
-      - ".github/workflows/format.yaml"
   workflow_run:
     workflows: ["Build Documentation", "Weekly Commit Report"]
     types:
