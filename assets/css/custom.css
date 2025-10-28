@@ -16,9 +16,7 @@
   text-decoration-color: var(--background-color);
 
   &:hover {
-    text-decoration-color: hsl(
-      var(--primary-hue) var(--primary-saturation) 45%
-    );
+    text-decoration-color: hsl(var(--primary-hue) var(--primary-saturation) 45%);
   }
 }
 
@@ -32,9 +30,7 @@ a.hoa-inline-link {
   text-decoration-color: var(--background-color);
 
   &:hover {
-    text-decoration-color: hsl(
-      var(--primary-hue) var(--primary-saturation) 45%
-    );
+    text-decoration-color: hsl(var(--primary-hue) var(--primary-saturation) 45%);
   }
 }
 

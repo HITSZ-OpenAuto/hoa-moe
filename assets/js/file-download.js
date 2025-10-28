@@ -51,13 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  const downloadAccelerateInput = document.querySelector(
-    ".hoa-filetree-download-accelerate",
-  );
+  const downloadAccelerateInput = document.querySelector(".hoa-filetree-download-accelerate");
   const updatePreviewLink = () => {
-    const previewFileButtons = document.querySelectorAll(
-      ".hoa-filetree-preview-link",
-    );
+    const previewFileButtons = document.querySelectorAll(".hoa-filetree-preview-link");
     previewFileButtons.forEach((ele) => {
       let url = ele.closest(".hoa-filetree-file").dataset.url;
       const downloadAccelerate = downloadAccelerateInput.checked;
@@ -78,9 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   updatePreviewLink();
 
-  const downloadFileButtons = document.querySelectorAll(
-    ".hoa-filetree-download-link",
-  );
+  const downloadFileButtons = document.querySelectorAll(".hoa-filetree-download-link");
   downloadFileButtons.forEach((ele) =>
     ele.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -95,23 +89,16 @@ document.addEventListener("DOMContentLoaded", function () {
       // hide icon and show progress
       const linkWrapper = e.target.parentElement;
       linkWrapper.style.display = "none";
-      const progressWrapper = linkWrapper.parentElement.querySelector(
-        ".hoa-filetree-download-progress-wrap",
-      );
+      const progressWrapper = linkWrapper.parentElement.querySelector(".hoa-filetree-download-progress-wrap");
       progressWrapper.style.display = `block`;
-      const progressCircle = progressWrapper.querySelector(
-        ".hoa-filetree-download-progress",
-      );
-      const progressText = progressWrapper.querySelector(
-        ".hoa-filetree-download-progress-text",
-      );
+      const progressCircle = progressWrapper.querySelector(".hoa-filetree-download-progress");
+      const progressText = progressWrapper.querySelector(".hoa-filetree-download-progress-text");
       const setProgress = (progress) => {
         // console.log(progress)
         const deg = progress * 3.6;
         progressCircle.style.background = `conic-gradient(#1677ff 0, #1677ff ${deg}deg, transparent ${deg}deg, transparent 360deg)`;
         const intProgress = progress.toFixed(0);
-        progressText.innerText =
-          intProgress < 10 ? intProgress + "%" : intProgress;
+        progressText.innerText = intProgress < 10 ? intProgress + "%" : intProgress;
       };
       setProgress(0);
       downloadFile(url, setProgress)
@@ -125,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
           progressWrapper.style.display = "";
         });
       console.log(url);
-    }),
+    })
   );
 
   /* preview

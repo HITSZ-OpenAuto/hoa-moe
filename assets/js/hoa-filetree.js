@@ -17,14 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
         // no check and close -> no check and open
         if (!checkbox.checked && state === "closed") el.dataset.state = "open";
         // no check and open -> no check and close
-        else if (!checkbox.checked && state === "open")
-          el.dataset.state = "closed";
+        else if (!checkbox.checked && state === "open") el.dataset.state = "closed";
         // check and close -> check and open
-        else if (checkbox.checked && state === "closed")
-          el.dataset.state = "open";
+        else if (checkbox.checked && state === "closed") el.dataset.state = "open";
         // check and open -> check and close
-        else if (checkbox.checked && state === "open")
-          el.dataset.state = "closed";
+        else if (checkbox.checked && state === "open") el.dataset.state = "closed";
       });
 
       folder.nextElementSibling.dataset.level = `${Math.max(Number(folder.dataset.level) + 1, Number(folder.nextElementSibling.dataset.level))}`;
@@ -37,8 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         empty.style.width = `${el.dataset.level * 16}px`;
       });
 
-      folder.nextElementSibling.dataset.state =
-        folder.nextElementSibling.dataset.state === "open" ? "closed" : "open";
+      folder.nextElementSibling.dataset.state = folder.nextElementSibling.dataset.state === "open" ? "closed" : "open";
     });
   });
 });

@@ -1,6 +1,10 @@
 name: "Build Documentation"
 
+permissions:
+  contents: write
+
 on:
+  pull_request:
   push:
     paths:
       - "scripts/**"
@@ -16,9 +20,6 @@ concurrency:
 jobs:
   build-documentation:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      id-token: write
     env:
       ORG_NAME: "HITSZ-OpenAuto"
 
@@ -26,7 +27,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+
+      - name: Pull latest changes
+        run: git pull --rebase
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -69,17 +73,6 @@ jobs:
       - name: Build semester pages
         run: ./scripts/workflows/build_semester_pages.sh
 
-      - name: Generate daily report
-        env:
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          NEWS_TYPE: daily
-        run: uv run scripts/news/gen_news.py
-
-      - name: Fetch opened PRs and issues
-        env:
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: uv run scripts/courses/fetch_opened_prs_and_issues.py
-
       - name: Wrap badges
         run: |
           for file in $(find content/docs -name "*.md"); do
@@ -92,7 +85,7 @@ jobs:
           version: latest
           run_install: false
 
-      - name: Install Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: "24"
@@ -101,18 +94,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Format codebase
-        run: pnpm run format
-
-      - name: Format Python code
-        uses: astral-sh/ruff-action@v3
-      - run: ruff check --fix scripts/
-      - run: ruff format scripts/
+      - name: Format spacing in Markdown CJK
+        run: npx autocorrect --fix content/
 
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: '["content", "scripts"]'
-          pull: "--rebase --autostash"
-          default_author: github_actions
-          message: "docs: update course pages"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add content/
+          git commit -m "docs: update course pages" || exit 0
+          git push origin HEAD

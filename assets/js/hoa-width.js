@@ -6,8 +6,7 @@
   const key = "hoa-preferred-width";
 
   const getPreferred = () => localStorage.getItem(key) === "full";
-  const setPreferred = (isFull) =>
-    localStorage.setItem(key, isFull ? "full" : "default");
+  const setPreferred = (isFull) => localStorage.setItem(key, isFull ? "full" : "default");
   const applyWidth = (isFull) => {
     const width = isFull ? fullWidth : defaultWidth;
     root.style.setProperty("--hextra-max-page-width", width);
@@ -30,6 +29,6 @@
     s.addEventListener("click", (e) => {
       e.preventDefault();
       toggle();
-    }),
+    })
   );
 })();

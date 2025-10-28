@@ -27,9 +27,7 @@ class WatchedVariable {
 let hasChecked = new WatchedVariable(0);
 hasChecked.onChange((newValue, oldValue) => {
   const container = document.querySelector(".hoa-filetree-container");
-  const links = container.querySelectorAll(
-    "a:not(.hoa-filetree-contribute-hint a)",
-  );
+  const links = container.querySelectorAll("a:not(.hoa-filetree-contribute-hint a)");
 
   Array.from(links).forEach((link) => {
     link.style.display = newValue > 0 ? "none" : "";
@@ -59,10 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const fileParent = childInput.closest("li");
 
           // Check if it exists and has the class 'file'
-          if (
-            fileParent &&
-            fileParent.classList.contains("hoa-filetree-file")
-          ) {
+          if (fileParent && fileParent.classList.contains("hoa-filetree-file")) {
             if (!childInput.checked) hasChecked.value += 1; // If current file isn't checked, then hasChecked plus one
             // console.log(hasChecked);
           }
@@ -78,8 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
         Array.from(ulFolders).forEach((ulFolder) => {
           // The child folder become open
           // If child folder is closed, the open it
-          if (ulFolder.nextElementSibling.dataset.state === "closed")
-            ulFolder.click();
+          if (ulFolder.nextElementSibling.dataset.state === "closed") ulFolder.click();
         });
 
         // This folder icon need to update
@@ -95,10 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
           // Find whether this element belongs file, If so, hasChecked--
           const fileParent = childInput.closest("li");
           // Check if it exists and has the class 'file'
-          if (
-            fileParent &&
-            fileParent.classList.contains("hoa-filetree-file")
-          ) {
+          if (fileParent && fileParent.classList.contains("hoa-filetree-file")) {
             if (childInput.checked) hasChecked.value -= 1; // If current file is checked, then hasChecked minus one
           }
 
@@ -113,8 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
         Array.from(ulFolders).forEach((ulFolder) => {
           // The child folder become closed
           // If child folder is open, then close it
-          if (ulFolder.nextElementSibling.dataset.state === "open")
-            ulFolder.click();
+          if (ulFolder.nextElementSibling.dataset.state === "open") ulFolder.click();
         });
 
         // This folder icon need to update
@@ -150,18 +140,12 @@ document.addEventListener("DOMContentLoaded", function () {
         // all file are checked
         if (allChecked) {
           // parent -> folder
-          if (
-            folderParent &&
-            folderParent.classList.contains("hoa-filetree-folder")
-          ) {
+          if (folderParent && folderParent.classList.contains("hoa-filetree-folder")) {
             const folderParentInput = folderParent.querySelector("input");
             folderParentInput.checked = true;
           }
           // parent -> container
-          if (
-            folderParent &&
-            !folderParent.classList.contains("hoa-filetree-folder")
-          ) {
+          if (folderParent && !folderParent.classList.contains("hoa-filetree-folder")) {
             headerInput.checked = true;
           }
         }
@@ -177,10 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // parent -> folder
         // directly update parent folder to unchecked
-        if (
-          folderParent &&
-          folderParent.classList.contains("hoa-filetree-folder")
-        ) {
+        if (folderParent && folderParent.classList.contains("hoa-filetree-folder")) {
           const folderParentInput = folderParent.querySelector("input");
           folderParentInput.checked = false;
         }
@@ -232,8 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // if shift key is activated
       if (e.shiftKey) {
         // from this to lastChecked, these checkboxes have isBetween tag
-        if (checkbox === this || checkbox === lastChecked)
-          isBetween = !isBetween;
+        if (checkbox === this || checkbox === lastChecked) isBetween = !isBetween;
 
         if (isBetween) {
           // parent -> folder
@@ -241,10 +221,8 @@ document.addEventListener("DOMContentLoaded", function () {
           //parent -> file
           const liParent = checkbox.closest("li");
           if (liParent.classList.contains("hoa-filetree-file")) {
-            if (checkbox !== lastChecked && !checkbox.checked)
-              hasChecked.value += 1;
-            if (checkbox !== lastChecked && checkbox.checked)
-              hasChecked.value -= 1;
+            if (checkbox !== lastChecked && !checkbox.checked) hasChecked.value += 1;
+            if (checkbox !== lastChecked && checkbox.checked) hasChecked.value -= 1;
           }
           // console.log(lastChecked);
 
@@ -271,7 +249,5 @@ document.addEventListener("DOMContentLoaded", function () {
     lastChecked = this;
   }
 
-  checkboxes.forEach((checkbox) =>
-    checkbox.addEventListener("click", getChecked),
-  );
+  checkboxes.forEach((checkbox) => checkbox.addEventListener("click", getChecked));
 });
