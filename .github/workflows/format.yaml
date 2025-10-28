@@ -13,6 +13,7 @@ on:
       - "package.json"
       - "pnpm-lock.yaml"
       - "pyproject.toml"
+      - ".github/workflows/format.yaml"
   workflow_run:
     workflows: ["Build Documentation"]
     types:
