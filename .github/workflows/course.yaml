@@ -50,7 +50,7 @@ jobs:
 
       - name: Fetch public repositories in the organization
         run: curl -o repos_list.txt https://raw.githubusercontent.com/HITSZ-OpenAuto/repos-management/refs/heads/main/repos_list.txt
-      
+
       - name: Parse repo list and set as env var
         run: |
           repos=$(jq -R -s -c 'split("\n") | map(select(length > 0))' repos_list.txt)
