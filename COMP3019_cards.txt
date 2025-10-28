@@ -1,0 +1,29 @@
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/COMP3019" repoURL="https://github.com/HITSZ-OpenAuto/COMP3019" >}}
+{{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
+{{< hoa-filetree/file name="Project 1" type="docx" size="23.3 KB" date="2025/08/25" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/assignments/Project%201.docx" >}}
+{{< hoa-filetree/file name="Project 2" type="docx" size="25.3 KB" date="2025/08/25" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/assignments/Project%202.docx" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="slides" date="" state="closed" >}}
+{{< hoa-filetree/folder name="2022" date="" state="closed" >}}
+{{< hoa-filetree/file name="1. 生物大数据：生命的数据时代" type="pdf" size="19.7 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/1.%20%E7%94%9F%E7%89%A9%E5%A4%A7%E6%95%B0%E6%8D%AE%EF%BC%9A%E7%94%9F%E5%91%BD%E7%9A%84%E6%95%B0%E6%8D%AE%E6%97%B6%E4%BB%A3.pdf" >}}
+{{< hoa-filetree/file name="10. 基因表达数据分析" type="pdf" size="7.3 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/10.%20%E5%9F%BA%E5%9B%A0%E8%A1%A8%E8%BE%BE%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.pdf" >}}
+{{< hoa-filetree/file name="11. 基因注释与功能分类" type="pdf" size="3.4 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/11.%20%E5%9F%BA%E5%9B%A0%E6%B3%A8%E9%87%8A%E4%B8%8E%E5%8A%9F%E8%83%BD%E5%88%86%E7%B1%BB.pdf" >}}
+{{< hoa-filetree/file name="12. 生物分子网络与通路" type="pdf" size="6.1 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/12.%20%E7%94%9F%E7%89%A9%E5%88%86%E5%AD%90%E7%BD%91%E7%BB%9C%E4%B8%8E%E9%80%9A%E8%B7%AF.pdf" >}}
+{{< hoa-filetree/file name="13. 蛋白质结构1" type="pdf" size="2.2 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/13.%20%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%93%E6%9E%841.pdf" >}}
+{{< hoa-filetree/file name="13. 蛋白质结构2" type="pdf" size="3.4 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/13.%20%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%93%E6%9E%842.pdf" >}}
+{{< hoa-filetree/file name="14. 计算表观遗传学" type="pdf" size="9.5 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/14.%20%E8%AE%A1%E7%AE%97%E8%A1%A8%E8%A7%82%E9%81%97%E4%BC%A0%E5%AD%A6.pdf" >}}
+{{< hoa-filetree/file name="15. 非编码RNA与复杂疾病1" type="pdf" size="12.4 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/15.%20%E9%9D%9E%E7%BC%96%E7%A0%81RNA%E4%B8%8E%E5%A4%8D%E6%9D%82%E7%96%BE%E7%97%851.pdf" >}}
+{{< hoa-filetree/file name="15. 非编码RNA与复杂疾病2" type="pdf" size="10.5 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/15.%20%E9%9D%9E%E7%BC%96%E7%A0%81RNA%E4%B8%8E%E5%A4%8D%E6%9D%82%E7%96%BE%E7%97%852.pdf" >}}
+{{< hoa-filetree/file name="16. 复杂疾病的分子特征与计算分析" type="pdf" size="5.2 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/16.%20%E5%A4%8D%E6%9D%82%E7%96%BE%E7%97%85%E7%9A%84%E5%88%86%E5%AD%90%E7%89%B9%E5%BE%81%E4%B8%8E%E8%AE%A1%E7%AE%97%E5%88%86%E6%9E%90.pdf" >}}
+{{< hoa-filetree/file name="17. 二代测序技术" type="pdf" size="8.9 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/17.%20%E4%BA%8C%E4%BB%A3%E6%B5%8B%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf" >}}
+{{< hoa-filetree/file name="2. 生物数据和数据库" type="pdf" size="17.1 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/2.%20%E7%94%9F%E7%89%A9%E6%95%B0%E6%8D%AE%E5%92%8C%E6%95%B0%E6%8D%AE%E5%BA%93.pdf" >}}
+{{< hoa-filetree/file name="3. 序列比对1" type="pdf" size="5.5 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/3.%20%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B91.pdf" >}}
+{{< hoa-filetree/file name="4. 序列比对2" type="pdf" size="1.1 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/4.%20%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B92.pdf" >}}
+{{< hoa-filetree/file name="5. 序列比对3a" type="pdf" size="4.3 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/5.%20%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B93a.pdf" >}}
+{{< hoa-filetree/file name="6. 序列比对4" type="pdf" size="8.0 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/6.%20%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B94.pdf" >}}
+{{< hoa-filetree/file name="7. 分子进化分析" type="pdf" size="4.8 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/7.%20%E5%88%86%E5%AD%90%E8%BF%9B%E5%8C%96%E5%88%86%E6%9E%90.pdf" >}}
+{{< hoa-filetree/file name="8. 分子进化分析2" type="pdf" size="9.9 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/8.%20%E5%88%86%E5%AD%90%E8%BF%9B%E5%8C%96%E5%88%86%E6%9E%902.pdf" >}}
+{{< hoa-filetree/file name="9. 分子进化分析3" type="pdf" size="5.2 MB" date="2025/08/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3019/raw/main/slides/2022/9.%20%E5%88%86%E5%AD%90%E8%BF%9B%E5%8C%96%E5%88%86%E6%9E%903.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/container >}}

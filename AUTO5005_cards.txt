@@ -1,0 +1,25 @@
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO5005" repoURL="https://github.com/HITSZ-OpenAuto/AUTO5005" >}}
+{{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
+{{< hoa-filetree/folder name="2024" date="" state="closed" >}}
+{{< hoa-filetree/file name="2linkarm" type="png" size="48.7 KB" date="2025/01/22" icon="icons/image.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/assignments/2024/2linkarm.png" >}}
+{{< hoa-filetree/file name="Homework-20241121" type="pdf" size="267.7 KB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/assignments/2024/Homework-20241121.pdf" >}}
+{{< hoa-filetree/file name="Homework-20241121" type="tex" size="13.9 KB" date="2025/01/22" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/assignments/2024/Homework-20241121.tex" >}}
+{{< hoa-filetree/folder name="wjd_answer" date="" state="closed" >}}
+{{< hoa-filetree/file name="hw4nac" type="pdf" size="445.3 KB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/assignments/2024/wjd_answer/hw4nac.pdf" >}}
+{{< hoa-filetree/file name="hw4nac" type="tex" size="36.3 KB" date="2025/01/22" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/assignments/2024/wjd_answer/hw4nac.tex" >}}
+{{< hoa-filetree/file name="nac_simulation" type="m" size="1.4 KB" date="2025/01/22" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/assignments/2024/wjd_answer/nac_simulation.m" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="exams" date="" state="closed" >}}
+{{< hoa-filetree/file name="2016卷子" type="pdf" size="206.5 KB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/exams/2016%E5%8D%B7%E5%AD%90.pdf" >}}
+{{< hoa-filetree/file name="2016答案" type="pdf" size="156.3 KB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/exams/2016%E7%AD%94%E6%A1%88.pdf" >}}
+{{< hoa-filetree/file name="2017卷子" type="pdf" size="468.6 KB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/exams/2017%E5%8D%B7%E5%AD%90.pdf" >}}
+{{< hoa-filetree/file name="2017非线性与自适应控制试卷" type="pdf" size="3.3 MB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/exams/2017%E9%9D%9E%E7%BA%BF%E6%80%A7%E4%B8%8E%E8%87%AA%E9%80%82%E5%BA%94%E6%8E%A7%E5%88%B6%E8%AF%95%E5%8D%B7.pdf" >}}
+{{< hoa-filetree/file name="2024试题" type="pdf" size="129.9 KB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/exams/2024%E8%AF%95%E9%A2%98.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="notes" date="" state="closed" >}}
+{{< hoa-filetree/file name="2019-HWK-NAC-Notebook" type="pdf" size="424.8 KB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/notes/2019-HWK-NAC-Notebook.pdf" >}}
+{{< hoa-filetree/file name="2019-HWK-NAC_Additional Q&A" type="pdf" size="101.1 KB" date="2025/01/22" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO5005/raw/main/notes/2019-HWK-NAC_Additional%20Q%26A.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/container >}}

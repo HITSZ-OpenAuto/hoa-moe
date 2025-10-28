@@ -1,0 +1,28 @@
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3012" repoURL="https://github.com/HITSZ-OpenAuto/AUTO3012" >}}
+{{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
+{{< hoa-filetree/file name="2024-wjd-作业1" type="pdf" size="428.0 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/assignments/2024-wjd-%E4%BD%9C%E4%B8%9A1.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="labs" date="" state="closed" >}}
+{{< hoa-filetree/folder name="2024" date="" state="closed" >}}
+{{< hoa-filetree/folder name="2024-ljh" date="" state="closed" >}}
+{{< hoa-filetree/file name="210320111-吕家昊" type="docx" size="383.0 KB" date="2025/01/19" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-ljh/210320111-%E5%90%95%E5%AE%B6%E6%98%8A.docx" >}}
+{{< hoa-filetree/folder name="实验1" date="" state="closed" >}}
+{{< hoa-filetree/file name="main" type="m" size="2.8 KB" date="2025/01/19" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-ljh/%E5%AE%9E%E9%AA%8C1/main.m" >}}
+{{< hoa-filetree/file name="pure_pursuit_control" type="m" size="1.6 KB" date="2025/01/19" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-ljh/%E5%AE%9E%E9%AA%8C1/pure_pursuit_control.m" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="实验2" date="" state="closed" >}}
+{{< hoa-filetree/file name="AStarGrid" type="m" size="4.8 KB" date="2025/01/19" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-ljh/%E5%AE%9E%E9%AA%8C2/AStarGrid.m" >}}
+{{< hoa-filetree/file name="DijkstraGrid" type="m" size="4.8 KB" date="2025/01/19" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-ljh/%E5%AE%9E%E9%AA%8C2/DijkstraGrid.m" >}}
+{{< hoa-filetree/file name="main" type="m" size="2.6 KB" date="2025/01/19" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-ljh/%E5%AE%9E%E9%AA%8C2/main.m" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="2024-wjd" date="" state="closed" >}}
+{{< hoa-filetree/file name="2024-wjd" type="pdf" size="921.1 KB" date="2025/01/19" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-wjd/2024-wjd.pdf" >}}
+{{< hoa-filetree/file name="PGM2png" type="py" size="235 bytes" date="2025/01/19" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-wjd/PGM2png.py" >}}
+{{< hoa-filetree/file name="eai_map_imu" type="pgm" size="256.1 KB" date="2025/01/19" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-wjd/eai_map_imu.pgm" >}}
+{{< hoa-filetree/file name="流程图" type="md" size="814 bytes" date="2025/01/19" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/2024-wjd/%E6%B5%81%E7%A8%8B%E5%9B%BE.md" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="移动机器人导论实验任务" type="zip" size="5.1 MB" date="2025/01/19" icon="icons/zip.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3012/raw/main/labs/2024/%E7%A7%BB%E5%8A%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AF%BC%E8%AE%BA%E5%AE%9E%E9%AA%8C%E4%BB%BB%E5%8A%A1.zip" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/container >}}

@@ -1,0 +1,14 @@
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/COMP3040" repoURL="https://github.com/HITSZ-OpenAuto/COMP3040" >}}
+{{< hoa-filetree/folder name="exams" date="" state="closed" >}}
+{{< hoa-filetree/file name="2023秋密码学基础期末回忆版" type="pdf" size="471.4 KB" date="2025/09/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3040/raw/main/exams/2023%E7%A7%8B%E5%AF%86%E7%A0%81%E5%AD%A6%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%9B%9E%E5%BF%86%E7%89%88.pdf" >}}
+{{< hoa-filetree/file name="readme" type="md" size="271 bytes" date="2025/08/23" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3040/raw/main/exams/readme.md" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="notes" date="" state="closed" >}}
+{{< hoa-filetree/folder name="2020_LoanCold" date="" state="closed" >}}
+{{< hoa-filetree/file name="密码学笔记" type="pdf" size="1.4 MB" date="2025/08/23" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3040/raw/main/notes/2020_LoanCold/%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AC%94%E8%AE%B0.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="2021_xinyao_yan" date="" state="closed" >}}
+{{< hoa-filetree/file name="密码学期末复习" type="pdf" size="21.2 MB" date="2025/08/23" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/COMP3040/raw/main/notes/2021_xinyao_yan/%E5%AF%86%E7%A0%81%E5%AD%A6%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/container >}}

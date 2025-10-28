@@ -1,0 +1,58 @@
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/EE2003" repoURL="https://github.com/HITSZ-OpenAuto/EE2003" >}}
+{{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
+{{< hoa-filetree/folder name="2025春" date="" state="closed" >}}
+{{< hoa-filetree/file name="1-矢量分析作业" type="pdf" size="91.3 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/1-%E7%9F%A2%E9%87%8F%E5%88%86%E6%9E%90%E4%BD%9C%E4%B8%9A.pdf" >}}
+{{< hoa-filetree/file name="1-矢量分析作业解析" type="pdf" size="737.6 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/1-%E7%9F%A2%E9%87%8F%E5%88%86%E6%9E%90%E4%BD%9C%E4%B8%9A%E8%A7%A3%E6%9E%90.pdf" >}}
+{{< hoa-filetree/file name="2-静电场作业" type="pdf" size="154.2 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/2-%E9%9D%99%E7%94%B5%E5%9C%BA%E4%BD%9C%E4%B8%9A.pdf" >}}
+{{< hoa-filetree/file name="2-静电场作业答案" type="pdf" size="1.4 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/2-%E9%9D%99%E7%94%B5%E5%9C%BA%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+{{< hoa-filetree/file name="3-静电场作业" type="pdf" size="375.6 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/3-%E9%9D%99%E7%94%B5%E5%9C%BA%E4%BD%9C%E4%B8%9A.pdf" >}}
+{{< hoa-filetree/file name="3-静电场作业答案" type="pdf" size="3.1 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/3-%E9%9D%99%E7%94%B5%E5%9C%BA%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+{{< hoa-filetree/file name="4-恒定电场作业" type="pdf" size="807.9 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/4-%E6%81%92%E5%AE%9A%E7%94%B5%E5%9C%BA%E4%BD%9C%E4%B8%9A.pdf" >}}
+{{< hoa-filetree/file name="4-恒定电场作业解析" type="pdf" size="474.4 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/4-%E6%81%92%E5%AE%9A%E7%94%B5%E5%9C%BA%E4%BD%9C%E4%B8%9A%E8%A7%A3%E6%9E%90.pdf" >}}
+{{< hoa-filetree/file name="5-恒定磁场作业" type="pdf" size="194.6 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/5-%E6%81%92%E5%AE%9A%E7%A3%81%E5%9C%BA%E4%BD%9C%E4%B8%9A.pdf" >}}
+{{< hoa-filetree/file name="5-恒定磁场作业解析" type="pdf" size="2.2 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/5-%E6%81%92%E5%AE%9A%E7%A3%81%E5%9C%BA%E4%BD%9C%E4%B8%9A%E8%A7%A3%E6%9E%90.pdf" >}}
+{{< hoa-filetree/file name="6-时变电磁场作业" type="pdf" size="718.5 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/6-%E6%97%B6%E5%8F%98%E7%94%B5%E7%A3%81%E5%9C%BA%E4%BD%9C%E4%B8%9A.pdf" >}}
+{{< hoa-filetree/file name="6-时变电磁场作业答案" type="pdf" size="4.1 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/6-%E6%97%B6%E5%8F%98%E7%94%B5%E7%A3%81%E5%9C%BA%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+{{< hoa-filetree/file name="7-准静态电磁场作业" type="pdf" size="181.0 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/7-%E5%87%86%E9%9D%99%E6%80%81%E7%94%B5%E7%A3%81%E5%9C%BA%E4%BD%9C%E4%B8%9A.pdf" >}}
+{{< hoa-filetree/file name="7-准静态电磁场作业答案" type="pdf" size="485.4 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/assignments/2025%E6%98%A5/7-%E5%87%86%E9%9D%99%E6%80%81%E7%94%B5%E7%A3%81%E5%9C%BA%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="exams" date="" state="closed" >}}
+{{< hoa-filetree/file name="2024年秋季电磁场(电气)期末试题(回忆版)(修正V1.1)" type="pdf" size="1.3 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/exams/2024%E5%B9%B4%E7%A7%8B%E5%AD%A3%E7%94%B5%E7%A3%81%E5%9C%BA%28%E7%94%B5%E6%B0%94%29%E6%9C%9F%E6%9C%AB%E8%AF%95%E9%A2%98%28%E5%9B%9E%E5%BF%86%E7%89%88%29%28%E4%BF%AE%E6%AD%A3V1.1%29.pdf" >}}
+{{< hoa-filetree/file name="25春电磁场期末试卷V1.0" type="pdf" size="318.1 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/exams/25%E6%98%A5%E7%94%B5%E7%A3%81%E5%9C%BA%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7V1.0.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="labs" date="" state="closed" >}}
+{{< hoa-filetree/file name="01授课：DFM" type="pdf" size="2.0 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/01%E6%8E%88%E8%AF%BE%EF%BC%9ADFM.pdf" >}}
+{{< hoa-filetree/file name="01题目：静电场有限差分法简单计算的编程实现" type="pdf" size="395.1 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/01%E9%A2%98%E7%9B%AE%EF%BC%9A%E9%9D%99%E7%94%B5%E5%9C%BA%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%B3%95%E7%AE%80%E5%8D%95%E8%AE%A1%E7%AE%97%E7%9A%84%E7%BC%96%E7%A8%8B%E5%AE%9E%E7%8E%B0.pdf" >}}
+{{< hoa-filetree/file name="02授课：FEM" type="pdf" size="3.6 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/02%E6%8E%88%E8%AF%BE%EF%BC%9AFEM.pdf" >}}
+{{< hoa-filetree/file name="02题目：FEMM静电场有限元仿真实验" type="pdf" size="440.9 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/02%E9%A2%98%E7%9B%AE%EF%BC%9AFEMM%E9%9D%99%E7%94%B5%E5%9C%BA%E6%9C%89%E9%99%90%E5%85%83%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C.pdf" >}}
+{{< hoa-filetree/folder name="24秋-（尾号4）SSC" date="" state="closed" >}}
+{{< hoa-filetree/folder name="实验1" date="" state="closed" >}}
+{{< hoa-filetree/file name="Test_1" type="m" size="2.5 KB" date="2025/06/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/24%E7%A7%8B-%EF%BC%88%E5%B0%BE%E5%8F%B74%EF%BC%89SSC/%E5%AE%9E%E9%AA%8C1/Test_1.m" >}}
+{{< hoa-filetree/file name="Test_1_4_1" type="m" size="2.8 KB" date="2025/06/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/24%E7%A7%8B-%EF%BC%88%E5%B0%BE%E5%8F%B74%EF%BC%89SSC/%E5%AE%9E%E9%AA%8C1/Test_1_4_1.m" >}}
+{{< hoa-filetree/file name="Test_1_4_2" type="m" size="2.7 KB" date="2025/06/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/24%E7%A7%8B-%EF%BC%88%E5%B0%BE%E5%8F%B74%EF%BC%89SSC/%E5%AE%9E%E9%AA%8C1/Test_1_4_2.m" >}}
+{{< hoa-filetree/file name="实验一报告" type="pdf" size="863.1 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/24%E7%A7%8B-%EF%BC%88%E5%B0%BE%E5%8F%B74%EF%BC%89SSC/%E5%AE%9E%E9%AA%8C1/%E5%AE%9E%E9%AA%8C%E4%B8%80%E6%8A%A5%E5%91%8A.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="实验2" date="" state="closed" >}}
+{{< hoa-filetree/file name="SquareCapacitors" type="FEE" size="1.0 KB" date="2025/06/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/24%E7%A7%8B-%EF%BC%88%E5%B0%BE%E5%8F%B74%EF%BC%89SSC/%E5%AE%9E%E9%AA%8C2/SquareCapacitors.FEE" >}}
+{{< hoa-filetree/file name="电磁场实验二实验报告" type="pdf" size="479.0 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/24%E7%A7%8B-%EF%BC%88%E5%B0%BE%E5%8F%B74%EF%BC%89SSC/%E5%AE%9E%E9%AA%8C2/%E7%94%B5%E7%A3%81%E5%9C%BA%E5%AE%9E%E9%AA%8C%E4%BA%8C%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="25春-（尾号9）Gaster" date="" state="closed" >}}
+{{< hoa-filetree/folder name="实验1" date="" state="closed" >}}
+{{< hoa-filetree/file name="Gauss" type="mlx" size="250.5 KB" date="2025/06/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/25%E6%98%A5-%EF%BC%88%E5%B0%BE%E5%8F%B79%EF%BC%89Gaster/%E5%AE%9E%E9%AA%8C1/Gauss.mlx" >}}
+{{< hoa-filetree/file name="overrelaxation" type="mlx" size="105.0 KB" date="2025/06/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/25%E6%98%A5-%EF%BC%88%E5%B0%BE%E5%8F%B79%EF%BC%89Gaster/%E5%AE%9E%E9%AA%8C1/overrelaxation.mlx" >}}
+{{< hoa-filetree/file name="实验一实验报告" type="pdf" size="1.1 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/25%E6%98%A5-%EF%BC%88%E5%B0%BE%E5%8F%B79%EF%BC%89Gaster/%E5%AE%9E%E9%AA%8C1/%E5%AE%9E%E9%AA%8C%E4%B8%80%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="实验2" date="" state="closed" >}}
+{{< hoa-filetree/file name="partial capacitance" type="FEE" size="1.2 KB" date="2025/06/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/25%E6%98%A5-%EF%BC%88%E5%B0%BE%E5%8F%B79%EF%BC%89Gaster/%E5%AE%9E%E9%AA%8C2/partial%20capacitance.FEE" >}}
+{{< hoa-filetree/file name="partial capacitance" type="res" size="202.7 KB" date="2025/06/27" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/25%E6%98%A5-%EF%BC%88%E5%B0%BE%E5%8F%B79%EF%BC%89Gaster/%E5%AE%9E%E9%AA%8C2/partial%20capacitance.res" >}}
+{{< hoa-filetree/file name="实验二实验报告" type="pdf" size="1.4 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/25%E6%98%A5-%EF%BC%88%E5%B0%BE%E5%8F%B79%EF%BC%89Gaster/%E5%AE%9E%E9%AA%8C2/%E5%AE%9E%E9%AA%8C%E4%BA%8C%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="电磁场实验指导书" type="pdf" size="1.6 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/labs/%E7%94%B5%E7%A3%81%E5%9C%BA%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="notes" date="" state="closed" >}}
+{{< hoa-filetree/file name="25春电磁场笔记-Gaster" type="pdf" size="336.5 KB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE2003/raw/main/notes/25%E6%98%A5%E7%94%B5%E7%A3%81%E5%9C%BA%E7%AC%94%E8%AE%B0-Gaster.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/container >}}

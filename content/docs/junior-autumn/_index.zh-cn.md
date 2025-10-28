@@ -8,10 +8,10 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="auto3001a" title="自动控制理论 A" >}}
-{{< card link="auto3002a" title="自动控制实践 A" >}}
+{{< card link="auto3001a" title="自动控制理论A" >}}
+{{< card link="auto3002a" title="自动控制实践A" >}}
 {{< card link="auto3004" title="系统建模与仿真" >}}
-{{< card link="auto3016" title="自动控制实践 A 实验" >}}
+{{< card link="auto3016" title="自动控制实践A实验" >}}
 {{< card link="comp3001" title="操作系统" >}}
 {{< card link="comp3003" title="计算机网络" >}}
 {{< card link="comp3059" title="软件构造" >}}
@@ -31,7 +31,7 @@ toc: false
 {{< card link="auto3024" title="嵌入式系统" >}}
 {{< card link="auto3028" title="数学规划与数值优化" >}}
 {{< card link="auto5024" title="模式识别" >}}
-{{< card link="comp2014" title="C++ 语言程序设计" >}}
+{{< card link="comp2014" title="C++语言程序设计" >}}
 {{< /cards >}}
 ## 归档
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。

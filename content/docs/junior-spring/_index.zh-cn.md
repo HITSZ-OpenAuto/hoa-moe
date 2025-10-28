@@ -8,8 +8,8 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="auto3001b" title="自动控制理论 B" >}}
-{{< card link="auto3002b" title="自动控制实践 B" >}}
+{{< card link="auto3001b" title="自动控制理论B" >}}
+{{< card link="auto3002b" title="自动控制实践B" >}}
 {{< card link="auto3022" title="自动化领域专家系列讲座" >}}
 {{< card link="comp3010" title="数据库系统" >}}
 {{< card link="comp3013" title="编译原理" >}}
@@ -31,5 +31,5 @@ toc: false
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。
 <!--more-->
 {{< cards >}}
-{{< card link="ee3005" title="DSP 的原理与应用" >}}
+{{< card link="ee3005" title="DSP的原理与应用" >}}
 {{< /cards >}}

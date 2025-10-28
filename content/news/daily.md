@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-10-28'
-description: 北京时间 2025-10-27 11 时至今
+description: 北京时间 2025-10-27 11时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,7 +14,7 @@ title: AUTO 更新速递
 
 ### 周一 (10.27)
 
-- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：add docs-list and complete course-info component. (#18)
+- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息： add docs-list and complete course-info component. (#18)
 
 ## 待解决的 Issues
 

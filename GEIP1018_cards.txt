@@ -1,0 +1,36 @@
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/GEIP1018" repoURL="https://github.com/HITSZ-OpenAuto/GEIP1018" >}}
+{{< hoa-filetree/folder name="exams" date="" state="closed" >}}
+{{< hoa-filetree/file name="2023毛概试题回忆" type="pdf" size="96.2 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/exams/2023%E6%AF%9B%E6%A6%82%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86.pdf" >}}
+{{< hoa-filetree/file name="2024年春毛概期末考试回忆版答案" type="pdf" size="334.6 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/exams/2024%E5%B9%B4%E6%98%A5%E6%AF%9B%E6%A6%82%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E7%89%88%E7%AD%94%E6%A1%88.pdf" >}}
+{{< hoa-filetree/file name="2024年春毛概期末考试回忆版试题" type="pdf" size="256.9 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/exams/2024%E5%B9%B4%E6%98%A5%E6%AF%9B%E6%A6%82%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E7%89%88%E8%AF%95%E9%A2%98.pdf" >}}
+{{< hoa-filetree/file name="2024毛概模拟卷v1.1" type="pdf" size="465.3 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/exams/2024%E6%AF%9B%E6%A6%82%E6%A8%A1%E6%8B%9F%E5%8D%B7v1.1.pdf" >}}
+{{< hoa-filetree/file name="2025春毛概期末试卷（回忆版）" type="pdf" size="229.0 KB" date="2025/06/28" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/exams/2025%E6%98%A5%E6%AF%9B%E6%A6%82%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7%EF%BC%88%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="materials" date="" state="closed" >}}
+{{< hoa-filetree/folder name="2023版毛概题库（网络资源）" date="" state="closed" >}}
+{{< hoa-filetree/file name="大学毛概期末考试试题题库" type="pdf" size="268.4 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/materials/2023%E7%89%88%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%EF%BC%88%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90%EF%BC%89/%E5%A4%A7%E5%AD%A6%E6%AF%9B%E6%A6%82%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E8%AF%95%E9%A2%98%E9%A2%98%E5%BA%93.pdf" >}}
+{{< hoa-filetree/file name="毛概题库及答案1" type="pdf" size="283.4 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/materials/2023%E7%89%88%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%EF%BC%88%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90%EF%BC%89/%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%E5%8F%8A%E7%AD%94%E6%A1%881.pdf" >}}
+{{< hoa-filetree/file name="毛概题库及答案2" type="pdf" size="189.3 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/materials/2023%E7%89%88%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%EF%BC%88%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90%EF%BC%89/%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%E5%8F%8A%E7%AD%94%E6%A1%882.pdf" >}}
+{{< hoa-filetree/file name="毛概题库及答案3" type="pdf" size="182.2 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/materials/2023%E7%89%88%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%EF%BC%88%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90%EF%BC%89/%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%E5%8F%8A%E7%AD%94%E6%A1%883.pdf" >}}
+{{< hoa-filetree/file name="毛概题库及答案4" type="pdf" size="272.9 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/materials/2023%E7%89%88%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%EF%BC%88%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90%EF%BC%89/%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%E5%8F%8A%E7%AD%94%E6%A1%884.pdf" >}}
+{{< hoa-filetree/file name="毛概题库及答案5" type="pdf" size="364.5 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/materials/2023%E7%89%88%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%EF%BC%88%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90%EF%BC%89/%E6%AF%9B%E6%A6%82%E9%A2%98%E5%BA%93%E5%8F%8A%E7%AD%94%E6%A1%885.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="毛概2023版课后思考题" type="pdf" size="4.2 MB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/materials/%E6%AF%9B%E6%A6%822023%E7%89%88%E8%AF%BE%E5%90%8E%E6%80%9D%E8%80%83%E9%A2%98.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="notes" date="" state="closed" >}}
+{{< hoa-filetree/folder name="2021_ailanxier" date="" state="closed" >}}
+{{< hoa-filetree/file name="毛概总结" type="md" size="50.2 KB" date="2025/01/18" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/notes/2021_ailanxier/%E6%AF%9B%E6%A6%82%E6%80%BB%E7%BB%93.md" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="2023_mitcher" date="" state="closed" >}}
+{{< hoa-filetree/file name="23春_毛泽东思想与中国特色社会主义理论_串讲整理与试题回忆" type="pdf" size="489.9 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/notes/2023_mitcher/23%E6%98%A5_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E4%B8%8E%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA_%E4%B8%B2%E8%AE%B2%E6%95%B4%E7%90%86%E4%B8%8E%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="2023串讲要点整理-LeeHITSZ" type="pdf" size="4.1 MB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/notes/2023%E4%B8%B2%E8%AE%B2%E8%A6%81%E7%82%B9%E6%95%B4%E7%90%86-LeeHITSZ.pdf" >}}
+{{< hoa-filetree/file name="2023串讲题目整理-WJD" type="pdf" size="8.5 MB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/notes/2023%E4%B8%B2%E8%AE%B2%E9%A2%98%E7%9B%AE%E6%95%B4%E7%90%86-WJD.pdf" >}}
+{{< hoa-filetree/file name="2024毛概串讲整理-MaxwellJay" type="pdf" size="397.1 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/notes/2024%E6%AF%9B%E6%A6%82%E4%B8%B2%E8%AE%B2%E6%95%B4%E7%90%86-MaxwellJay.pdf" >}}
+{{< hoa-filetree/file name="2024毛概串讲整理-psp" type="pdf" size="1.5 MB" date="2024/07/13" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/notes/2024%E6%AF%9B%E6%A6%82%E4%B8%B2%E8%AE%B2%E6%95%B4%E7%90%86-psp.pdf" >}}
+{{< hoa-filetree/file name="2024毛概串讲整理-zala" type="pdf" size="558.3 KB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/notes/2024%E6%AF%9B%E6%A6%82%E4%B8%B2%E8%AE%B2%E6%95%B4%E7%90%86-zala.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="slides" date="" state="closed" >}}
+{{< hoa-filetree/file name="2024毛概期末复习思维导图" type="pdf" size="5.2 MB" date="2024/07/06" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GEIP1018/raw/main/slides/2024%E6%AF%9B%E6%A6%82%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/container >}}

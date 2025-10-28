@@ -1,0 +1,2 @@
+{{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/CrossSpecialty" repoURL="https://github.com/HITSZ-OpenAuto/CrossSpecialty" >}}
+{{< /hoa-filetree/container >}}
