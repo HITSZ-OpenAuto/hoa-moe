@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-04'
-description: 北京时间 2025-11-03 09 时至今
+date: '2025-11-05'
+description: 北京时间 2025-11-04 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,9 +14,15 @@ title: AUTO 更新速递
 
 ### 周二 (11.4)
 
-- 吹向无叶 | Leaflessward 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：新增 25 级成绩占比、教材部分以及教师部分 (#10)
+- 吹向无叶 | Leaflessward 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：新增25级成绩占比、教材部分以及教师部分 (#10)
 
 ## 待解决的 Issues
+
+### [老师名字错误捉虫](https://github.com/HITSZ-OpenAuto/GEIP1017/issues/11)
+
+- **仓库**: GEIP1017
+- **创建于**: 2025-11-04 17:13:45
+- **作者**: ll3me
 
 ### [在线编辑/上传 HOA 文档](https://github.com/HITSZ-OpenAuto/.github/issues/25)
 
@@ -192,12 +198,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3021
 - **创建于**: 2025-08-23 18:45:29
-- **作者**: LiPu-jpg
-
-### [COMP3054 网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054/issues/1)
-
-- **仓库**: COMP3054
-- **创建于**: 2025-08-23 18:44:47
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
