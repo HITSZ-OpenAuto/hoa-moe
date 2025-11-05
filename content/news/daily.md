@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-11-05'
-description: 北京时间 2025-11-04 00 时至今
+description: 北京时间 2025-11-04 01 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,7 +14,7 @@ title: AUTO 更新速递
 
 ### 周二 (11.4)
 
-- 吹向无叶 | Leaflessward 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：新增 25 级成绩占比、教材部分以及教师部分 (#10)
+- 吹向无叶 | Leaflessward 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：新增25级成绩占比、教材部分以及教师部分 (#10)
 
 ## 待解决的 Issues
 
