@@ -14,7 +14,7 @@ title: AUTO 更新速递
 
 ### 周二 (11.4)
 
-- 吹向无叶 | Leaflessward 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：新增25级成绩占比、教材部分以及教师部分 (#10)
+- 吹向无叶 | Leaflessward 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：新增 25 级成绩占比、教材部分以及教师部分 (#10)
 
 ## 待解决的 Issues
 
