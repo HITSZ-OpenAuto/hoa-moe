@@ -1,5 +1,5 @@
 ---
-date: '2025-10-31'
-description: AUTO 周报是由 ChatGPT 每周五发布的一份简报，最近更新于 2025-10-31。
+date: '2025-11-07'
+description: AUTO 周报是由 ChatGPT 每周五发布的一份简报，最近更新于 2025-11-07。
 title: AUTO 周报
 ---
