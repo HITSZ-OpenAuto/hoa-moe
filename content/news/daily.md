@@ -18,6 +18,13 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [Refactor course info for multiple majors support and unified management](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/400)
+
+- **仓库**: hoa-moe
+- **创建于**: 2025-11-08 15:57:00
+- **作者**: kowyo
+- **标签**: enhancement
+
 ### [老师名字错误捉虫](https://github.com/HITSZ-OpenAuto/GEIP1017/issues/11)
 
 - **仓库**: GEIP1017
@@ -192,12 +199,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3052
 - **创建于**: 2025-08-23 18:46:16
-- **作者**: LiPu-jpg
-
-### [COMP3021 自然语言处理](https://github.com/HITSZ-OpenAuto/COMP3021/issues/1)
-
-- **仓库**: COMP3021
-- **创建于**: 2025-08-23 18:45:29
 - **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
