@@ -18,6 +18,106 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [Switch major/year via sidebar](https://github.com/HITSZ-OpenAuto/aextra/issues/34)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-10 02:01:14
+- **作者**: kowyo
+- **标签**: enhancement
+
+### [Switch major/year via sidebar](https://github.com/HITSZ-OpenAuto/aextra/issues/33)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-10 02:01:01
+- **作者**: kowyo
+- **标签**: enhancement
+
+### [Search box](https://github.com/HITSZ-OpenAuto/aextra/issues/32)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-10 00:08:11
+- **作者**: kowyo
+
+### [Sidebar items should not be collapsed when item is selected](https://github.com/HITSZ-OpenAuto/aextra/issues/31)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-10 00:07:22
+- **作者**: kowyo
+
+### [Navbar for mobile responsive](https://github.com/HITSZ-OpenAuto/aextra/issues/30)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-10 00:04:24
+- **作者**: kowyo
+
+### [Switch width does notchange the width to full](https://github.com/HITSZ-OpenAuto/aextra/issues/29)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-10 00:02:47
+- **作者**: kowyo
+
+### [Support Sidebar Trigger](https://github.com/HITSZ-OpenAuto/aextra/issues/28)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:51:43
+- **作者**: kowyo
+
+### [Redesign Transparent Effect on Navbar](https://github.com/HITSZ-OpenAuto/aextra/issues/27)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:49:48
+- **作者**: kowyo
+- **标签**: enhancement
+
+### [Migrate shortcodes for hextra](https://github.com/HITSZ-OpenAuto/aextra/issues/26)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:48:02
+- **作者**: kowyo
+
+### [Landing page](https://github.com/HITSZ-OpenAuto/aextra/issues/25)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:47:29
+- **作者**: kowyo
+
+### [Hover on navbar to navigate](https://github.com/HITSZ-OpenAuto/aextra/issues/24)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:45:53
+- **作者**: kowyo
+- **标签**: enhancement
+
+### [Redesign the card component in /link](https://github.com/HITSZ-OpenAuto/aextra/issues/23)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:45:04
+- **作者**: kowyo
+
+### [Size of text is not consistent in Sidebar and table of content](https://github.com/HITSZ-OpenAuto/aextra/issues/22)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:42:54
+- **作者**: kowyo
+
+### [Navbar button styling](https://github.com/HITSZ-OpenAuto/aextra/issues/21)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:40:09
+- **作者**: kowyo
+
+### [Switch width is only necessary in docs page](https://github.com/HITSZ-OpenAuto/aextra/issues/20)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:38:41
+- **作者**: kowyo
+
+### [Darkmode Background Color](https://github.com/HITSZ-OpenAuto/aextra/issues/19)
+
+- **仓库**: aextra
+- **创建于**: 2025-11-09 23:36:39
+- **作者**: kowyo
+
 ### [Refactor course info for multiple majors support and unified management](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/400)
 
 - **仓库**: hoa-moe
@@ -104,102 +204,6 @@ title: AUTO 更新速递
 - **仓库**: COMP2012
 - **创建于**: 2025-09-02 23:34:16
 - **作者**: WDGaster703
-
-### [COMP2008 计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008/issues/3)
-
-- **仓库**: COMP2008
-- **创建于**: 2025-09-02 23:33:47
-- **作者**: WDGaster703
-
-### [COMP2052 数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2052/issues/3)
-
-- **仓库**: COMP2052
-- **创建于**: 2025-09-02 23:33:22
-- **作者**: WDGaster703
-
-### [集中管理课程元数据](https://github.com/HITSZ-OpenAuto/.github/issues/22)
-
-- **仓库**: .github
-- **创建于**: 2025-08-29 19:39:28
-- **作者**: kowyo
-
-### [Core 成员招募页；25 级 Core 成员招新；Core 成员培养与福利计划](https://github.com/HITSZ-OpenAuto/.github/issues/20)
-
-- **仓库**: .github
-- **创建于**: 2025-08-26 12:06:43
-- **作者**: kowyo
-
-### [OpenCS 迁移](https://github.com/HITSZ-OpenAuto/.github/issues/19)
-
-- **仓库**: .github
-- **创建于**: 2025-08-26 12:02:36
-- **作者**: kowyo
-
-### [项目更名](https://github.com/HITSZ-OpenAuto/.github/issues/18)
-
-- **仓库**: .github
-- **创建于**: 2025-08-26 12:01:57
-- **作者**: kowyo
-
-### [Aextra](https://github.com/HITSZ-OpenAuto/.github/issues/21)
-
-- **仓库**: .github
-- **创建于**: 2025-08-26 12:00:10
-- **作者**: kowyo
-
-### [COMP2030 离散数学](https://github.com/HITSZ-OpenAuto/COMP2030/issues/1)
-
-- **仓库**: COMP2030
-- **创建于**: 2025-08-25 16:34:48
-- **作者**: WDGaster703
-
-### [COMP3004 形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004/issues/1)
-
-- **仓库**: COMP3004
-- **创建于**: 2025-08-24 01:39:02
-- **作者**: LiPu-jpg
-
-### [COMP2010 近世代数](https://github.com/HITSZ-OpenAuto/COMP2010/issues/1)
-
-- **仓库**: COMP2010
-- **创建于**: 2025-08-24 01:33:17
-- **作者**: LiPu-jpg
-
-### [COMP3053 汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053/issues/1)
-
-- **仓库**: COMP3053
-- **创建于**: 2025-08-24 01:28:37
-- **作者**: LiPu-jpg
-
-### [COMP3007 模式识别](https://github.com/HITSZ-OpenAuto/COMP3007/issues/2)
-
-- **仓库**: COMP3007
-- **创建于**: 2025-08-24 00:23:23
-- **作者**: LiPu-jpg
-
-### [COMP3028 软件体系结构](https://github.com/HITSZ-OpenAuto/COMP3028/issues/1)
-
-- **仓库**: COMP3028
-- **创建于**: 2025-08-23 18:47:52
-- **作者**: LiPu-jpg
-
-### [COMP3029 计算机视觉](https://github.com/HITSZ-OpenAuto/COMP3042/issues/3)
-
-- **仓库**: COMP3042
-- **创建于**: 2025-08-23 18:47:15
-- **作者**: LiPu-jpg
-
-### [COMP3003 计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003/issues/1)
-
-- **仓库**: COMP3003
-- **创建于**: 2025-08-23 18:46:47
-- **作者**: LiPu-jpg
-
-### [COMP3052 计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052/issues/1)
-
-- **仓库**: COMP3052
-- **创建于**: 2025-08-23 18:46:16
-- **作者**: LiPu-jpg
 
 ## 待合并的 Pull Requests
 
