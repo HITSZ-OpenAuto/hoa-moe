@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-05'
-description: 北京时间 2025-11-04 01 时至今
+date: '2025-11-11'
+description: 北京时间 2025-11-10 08 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,18 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (11.4)
+### 周二 (11.11)
 
-- 吹向无叶 | Leaflessward 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：新增 25 级成绩占比、教材部分以及教师部分 (#10)
+- Hye 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传2025年本部试题 (#9)
 
 ## 待解决的 Issues
-
-### [Switch major/year via sidebar](https://github.com/HITSZ-OpenAuto/aextra/issues/34)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-10 02:01:14
-- **作者**: kowyo
-- **标签**: enhancement
 
 ### [Switch major/year via sidebar](https://github.com/HITSZ-OpenAuto/aextra/issues/33)
 
@@ -203,6 +196,12 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2012
 - **创建于**: 2025-09-02 23:34:16
+- **作者**: WDGaster703
+
+### [COMP2008 计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008/issues/3)
+
+- **仓库**: COMP2008
+- **创建于**: 2025-09-02 23:33:47
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
