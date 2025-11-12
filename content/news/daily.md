@@ -14,7 +14,7 @@ title: AUTO 更新速递
 
 ### 周二 (11.11)
 
-- Hye 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传2025年本部试题 (#9)
+- Hye 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传 2025 年本部试题 (#9)
 
 ## 待解决的 Issues
 
