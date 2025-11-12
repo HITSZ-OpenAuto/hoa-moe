@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-11'
-description: 北京时间 2025-11-10 08 时至今
+date: '2025-11-12'
+description: 北京时间 2025-11-11 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,7 +14,7 @@ title: AUTO 更新速递
 
 ### 周二 (11.11)
 
-- Hye 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传 2025 年本部试题 (#9)
+- Hye 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传2025年本部试题 (#9)
 
 ## 待解决的 Issues
 
