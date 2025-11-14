@@ -48,6 +48,12 @@ jobs:
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           NEWS_TYPE: weekly
         run: uv run scripts/news/gen_news.py
+      
+      - name: Install oven-sh/setup-bun@v2
+        uses: oven-sh/setup-bun@v2
+
+      - name: Autocorrect Docs
+        run: bunx autocorrect --fix content/
 
       - name: Commit and push changes
         run: |
