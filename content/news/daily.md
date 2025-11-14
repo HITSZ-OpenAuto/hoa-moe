@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-11-14'
-description: 北京时间 2025-11-13 01 时至今
+description: 北京时间 2025-11-13 04 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,15 +14,17 @@ title: AUTO 更新速递
 
 ### 周五 (11.14)
 
+- 345ljh 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：补充课件中的大部分定理证明 (#8)
+
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Merge pull request #4 from HITSZ-OpenAuto/add-metadata-1763049313851
 
 ### 周四 (11.13)
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Add metadata.yaml (auto-generated)
 
-- Jiao Ziang 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/add-metadata-1763047131758
+- Jiao Ziang 在 [日语I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/add-metadata-1763047131758
 
-- Jiao Ziang 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Add metadata.yaml (auto-generated)
+- Jiao Ziang 在 [日语I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Add metadata.yaml (auto-generated)
 
 - Jiao 在 [n8nAutoMetadata](https://github.com/HITSZ-OpenAuto/n8nAutoMetadata) 中提交了信息：Initial commit
 
