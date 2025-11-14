@@ -22,9 +22,9 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Add metadata.yaml (auto-generated)
 
-- Jiao Ziang 在 [日语I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/add-metadata-1763047131758
+- Jiao Ziang 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/add-metadata-1763047131758
 
-- Jiao Ziang 在 [日语I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Add metadata.yaml (auto-generated)
+- Jiao Ziang 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Add metadata.yaml (auto-generated)
 
 - Jiao 在 [n8nAutoMetadata](https://github.com/HITSZ-OpenAuto/n8nAutoMetadata) 中提交了信息：Initial commit
 
