@@ -80,7 +80,7 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Autocorrect Docs
-        run: bunx autocorrect --fix content/
+        run: bunx autocorrect-node --fix content/
 
       - name: Commit and push changes
         run: |
