@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-14'
-description: 北京时间 2025-11-13 06 时至今
+date: '2025-11-15'
+description: 北京时间 2025-11-14 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -16,26 +16,7 @@ title: AUTO 更新速递
 
 - 345ljh 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：补充课件中的大部分定理证明 (#8)
 
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Merge pull request #4 from HITSZ-OpenAuto/add-metadata-1763049313851
-
-### 周四 (11.13)
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Add metadata.yaml (auto-generated)
-
-- Jiao Ziang 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/add-metadata-1763047131758
-
-- Jiao Ziang 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Add metadata.yaml (auto-generated)
-
-- Jiao 在 [n8nAutoMetadata](https://github.com/HITSZ-OpenAuto/n8nAutoMetadata) 中提交了信息：Initial commit
-
 ## 待解决的 Issues
-
-### [Use bunx to execute code format to improve CI speed](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/401)
-
-- **仓库**: hoa-moe
-- **创建于**: 2025-11-14 14:19:18
-- **作者**: kowyo
-- **标签**: enhancement
 
 ### [Switch major/year via sidebar](https://github.com/HITSZ-OpenAuto/aextra/issues/33)
 
@@ -215,6 +196,12 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2012
 - **创建于**: 2025-09-02 23:34:16
+- **作者**: WDGaster703
+
+### [COMP2008 计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008/issues/3)
+
+- **仓库**: COMP2008
+- **创建于**: 2025-09-02 23:33:47
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
