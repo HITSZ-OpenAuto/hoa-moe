@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-11-15'
-description: 北京时间 2025-11-14 15 时至今
+description: 北京时间 2025-11-14 16 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,11 +12,15 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (11.16)
+
+- OliverWu515 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：上线新课程
+
 ### 周六 (11.15)
 
 - OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：上线新课程
 
-- Junda Wu 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：Initial commit
+- Junda Wu 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：Initial commit
 
 ### 周五 (11.14)
 
