@@ -2,6 +2,7 @@ name: "Generate Weekly Report"
 
 permissions:
   contents: write
+  workflows: write
 
 on:
   schedule:
