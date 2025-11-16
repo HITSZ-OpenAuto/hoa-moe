@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-15'
-description: 北京时间 2025-11-14 16 时至今
+date: '2025-11-16'
+description: 北京时间 2025-11-15 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -21,10 +21,6 @@ title: AUTO 更新速递
 - OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：上线新课程
 
 - Junda Wu 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：Initial commit
-
-### 周五 (11.14)
-
-- 345ljh 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：补充课件中的大部分定理证明 (#8)
 
 ## 待解决的 Issues
 
