@@ -28,6 +28,7 @@ jobs:
           repository: ${{ github.repository }}
           ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
           submodules: 'true'
+          token: ${{ secrets.WORKFLOW_FORMAT_TOKEN }}
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
