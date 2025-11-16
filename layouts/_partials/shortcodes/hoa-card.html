@@ -19,16 +19,16 @@
 
 
 <a
-  class="hoa-friend-link hx:bg-white hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-3xl hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-xs hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:relative {{ $linkClass }}"
+  class="hoa-friend-link hx:group {{ $linkClass }} hx:relative hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-3xl hx:border hx:border-gray-200 hx:bg-white hx:text-current hx:no-underline hx:shadow-gray-100 hx:transition-all hx:duration-200 hx:hover:shadow-gray-100 hx:active:shadow-xs hx:active:shadow-gray-200 hx:dark:shadow-none hx:dark:hover:shadow-none"
   {{- if $link -}}
     href="{{ $href }}"
     {{ with $external }}target="_blank" rel="noreferrer"{{ end -}}
   {{- end -}}
   data-link="{{ $href }}"
 >
-  <div class="hx:h-full hx:min-w-full hx:w-full hx:flex hx:items-center hx:justify-start hx:relative">
+  <div class="hx:relative hx:flex hx:h-full hx:w-full hx:min-w-full hx:items-center hx:justify-start">
     {{- if $hasMedia -}}
-      <div class="hx:h-full hx:min-w-1/6 hx:w-1/6 hx:flex hx:items-center hx:justify-center hx:ml-4">
+      <div class="hx:ml-4 hx:flex hx:h-full hx:w-1/6 hx:min-w-1/6 hx:items-center hx:justify-center">
         {{- if $icon -}}
           <div class="hx:m-2" style="width: {{ $width }}px; height: {{ $height }}px;">
             {{- partial "utils/icon.html" (dict "name" $icon "attributes" (printf "width=%d height=%d" $width $height)) -}}
@@ -49,17 +49,17 @@
     {{- end -}}
 
 
-    <div class="hx:flex hx:flex-col hx:h-full hx:min-w-2/4 hx:w-7/12 hx:items-start hx:justify-center">
+    <div class="hx:flex hx:h-full hx:w-7/12 hx:min-w-2/4 hx:flex-col hx:items-start hx:justify-center">
       <span
-        class="hx:flex hx:font-semibold hx:items-start hx:gap-2 {{ cond $subtitle "hx:pt-4 hx:px-4" "hx:p-4" }} hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"
+        class="{{ cond $subtitle "hx:pt-4 hx:px-4" "hx:p-4" }} hx:flex hx:items-start hx:gap-2 hx:font-semibold hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"
       >
         {{- $title -}}
       </span>
       {{- with $subtitle -}}
-        <div class="hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4">{{- $subtitle | markdownify -}}</div>
+        <div class="hx:mb-4 hx:line-clamp-3 hx:px-4 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400">{{- $subtitle | markdownify -}}</div>
       {{- end -}}
     </div>
 
-    <div class="hoa-network-point hx:bg-yellow-500 hx:bg-green-500 hx:bg-red-500 hx:w-3 hx:h-3 hx:rounded-full hx:ml-4 hx:mr-2"></div>
+    <div class="hoa-network-point hx:mr-2 hx:ml-4 hx:h-3 hx:w-3 hx:rounded-full hx:bg-green-500 hx:bg-red-500 hx:bg-yellow-500"></div>
   </div>
 </a>

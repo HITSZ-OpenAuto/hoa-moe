@@ -6,10 +6,10 @@
 {{- $jsFileDownload := resources.Get "js/file-download.js" -}}
 
 
-<div class="hx:w-full hx:flex hx:flex-col hx:mt-4 not-prose">
-  <div class="hx:flex hx:justify-start hx:items-center hx:gap-2 hx:mb-2">
+<div class="not-prose hx:mt-4 hx:flex hx:w-full hx:flex-col">
+  <div class="hx:mb-2 hx:flex hx:items-center hx:justify-start hx:gap-2">
     <button
-      class="hx:flex hx:items-center hx:text-xs hx:md:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-blue-600 hx:px-2 hx:py-1 hx:rounded-lg hx:transition hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-blue-400"
+      class="hx:flex hx:items-center hx:space-x-2 hx:rounded-lg hx:bg-blue-50 hx:px-2 hx:py-1 hx:text-xs hx:text-blue-600 hx:transition hx:hover:bg-blue-100 hx:md:text-sm hx:dark:bg-gray-800 hx:dark:text-blue-400 hx:dark:hover:bg-gray-700"
     >
       <a href="{{ $driveURL }}" target="_blank" class="hx:flex hx:items-center hx:gap-1">
         <svg
@@ -30,7 +30,7 @@
       </a>
     </button>
     <button
-      class="hoa-filetree-download hx:flex hx:items-center hx:gap-1 hx:text-xs hx:md:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-blue-600 hx:px-2 hx:py-1 hx:rounded-lg hx:transition hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-blue-400"
+      class="hoa-filetree-download hx:flex hx:items-center hx:gap-1 hx:space-x-2 hx:rounded-lg hx:bg-blue-50 hx:px-2 hx:py-1 hx:text-xs hx:text-blue-600 hx:transition hx:hover:bg-blue-100 hx:md:text-sm hx:dark:bg-gray-800 hx:dark:text-blue-400 hx:dark:hover:bg-gray-700"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@
     <input type="checkbox" id="hoa-filetree-download-accelerate" class="hoa-filetree-download-accelerate hx:h-0 hx:w-0 hx:opacity-0" />
     <label
       for="hoa-filetree-download-accelerate"
-      class="select hx:flex hx:items-center hx:gap-1 hx:text-xs hx:md:text-sm hx:space-x-2 hx:bg-blue-50 hx:hover:bg-blue-100 hx:text-gray-700 hx:dark:bg-gray-800 hx:dark:hover:bg-gray-700 hx:dark:text-gray-300 hx:px-2 hx:py-1 hx:rounded-lg hx:transition"
+      class="select hx:flex hx:items-center hx:gap-1 hx:space-x-2 hx:rounded-lg hx:bg-blue-50 hx:px-2 hx:py-1 hx:text-xs hx:text-gray-700 hx:transition hx:hover:bg-blue-100 hx:md:text-sm hx:dark:bg-gray-800 hx:dark:text-gray-300 hx:dark:hover:bg-gray-700"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -71,21 +71,21 @@
         <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
       </svg>
       校园网加速
-      <div class="hx:relative hx:w-10 hx:h-5">
-        <div class="slider hx:absolute hx:left-0 hx:right-0 hx:top-0 hx:bottom-0 hx:rounded-full hx:p-0.5 hx:ml-1 hx:bg-gray-300 hx:dark:bg-gray-600 hx:transition-colors">
-          <div class="hx:w-4 hx:h-4 hx:rounded-full hx:bg-white hx:shadow-xs hx:transform hx:transition-transform"></div>
+      <div class="hx:relative hx:h-5 hx:w-10">
+        <div class="slider hx:absolute hx:top-0 hx:right-0 hx:bottom-0 hx:left-0 hx:ml-1 hx:rounded-full hx:bg-gray-300 hx:p-0.5 hx:transition-colors hx:dark:bg-gray-600">
+          <div class="hx:h-4 hx:w-4 hx:transform hx:rounded-full hx:bg-white hx:shadow-xs hx:transition-transform"></div>
         </div>
       </div>
     </label>
   </div>
   <div class="hx:w-full hx:rounded-xs">
     {{ partial "hoa-filetree/header.html" . }}
-    <ul class="hoa-filetree-container hx:w-full hx:my-0">
+    <ul class="hoa-filetree-container hx:my-0 hx:w-full">
       {{- .Inner -}}
       <div
-        class="hoa-filetree-contribute-hint hx:w-full hx:h-32 hx:mb-2 hx:border-dashed hx:border-1 hx:dark:border-gray-600 hx:border-gray-200 hx:border-t-0 hx:rounded-b-md hx:bg-[#f6f8fa]/[0.4] hx:dark:bg-[#090705]/[0.4] hx:flex hx:flex-col hx:items-center hx:justify-center"
+        class="hoa-filetree-contribute-hint hx:mb-2 hx:flex hx:h-32 hx:w-full hx:flex-col hx:items-center hx:justify-center hx:rounded-b-md hx:border-1 hx:border-t-0 hx:border-dashed hx:border-gray-200 hx:bg-[#f6f8fa]/[0.4] hx:dark:border-gray-600 hx:dark:bg-[#090705]/[0.4]"
       >
-        <div class="hx:text-xs hx:md:text-sm hx:mt-1 hx:text-slate-700 hx:dark:text-slate-300">
+        <div class="hx:mt-1 hx:text-xs hx:text-slate-700 hx:md:text-sm hx:dark:text-slate-300">
           想参与？来<a href="{{ $repoURL }}" class="hoa-inline-link hx:mx-0.5">课程仓库</a>提交 PR 吧！👉
           <a href="https://hoa.moe/blog/contribution-guide/" class="hoa-inline-link hx:mx-0.5">查看《参与指南》</a>
         </div>
