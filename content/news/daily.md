@@ -4,7 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-11-16'
-description: 北京时间 2025-11-15 03 时至今
+description: 北京时间 2025-11-15 05 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -13,6 +13,12 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周日 (11.16)
+
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
+- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: use GITHUB_TOKEN in fetch repo
+
+- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: add workflow_dispatch for update repos list workflow
 
 - OliverWu515 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：上线新课程
 
