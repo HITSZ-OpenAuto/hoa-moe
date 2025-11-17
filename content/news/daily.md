@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-16'
-description: 北京时间 2025-11-15 05 时至今
+date: '2025-11-17'
+description: 北京时间 2025-11-16 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -14,19 +14,15 @@ title: AUTO 更新速递
 
 ### 周日 (11.16)
 
+- OliverWu515 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：更新 2025 春作业答案
+
+- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: add step to trigger update repositories list workflow
+
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: use GITHUB_TOKEN in fetch repo
 
 - Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: add workflow_dispatch for update repos list workflow
-
-- OliverWu515 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：上线新课程
-
-### 周六 (11.15)
-
-- OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：上线新课程
-
-- Junda Wu 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
