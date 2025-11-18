@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-17'
-description: 北京时间 2025-11-16 02 时至今
+date: '2025-11-18'
+description: 北京时间 2025-11-17 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,17 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (11.16)
+### 周一 (11.17)
 
-- OliverWu515 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：更新 2025 春作业答案
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: add step to trigger update repositories list workflow
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: use GITHUB_TOKEN in fetch repo
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: add workflow_dispatch for update repos list workflow
+- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: remove schedule field (#10)
 
 ## 待解决的 Issues
 
