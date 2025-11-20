@@ -25,7 +25,7 @@ draft: false
 
 需要注意的是，免费额度只有 20000 点，不使用的时候请释放资源以防止造成点数浪费，如果点数不足可以充值。
 
-注册账号和充值点数的具体操作步骤可以参考文档：<https://docs.qq.com/doc/DWnFYcktsUGFQUkdQ。>
+注册账号和充值点数的具体操作步骤可以参考文档：<https://docs.qq.com/doc/DWnFYcktsUGFQUkdQ>。
 
 ## 通过 SSH 连接服务器
 
