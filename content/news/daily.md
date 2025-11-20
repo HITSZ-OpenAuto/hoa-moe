@@ -3,8 +3,8 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-18'
-description: 北京时间 2025-11-17 01 时至今
+date: '2025-11-20'
+description: 北京时间 2025-11-19 00 时至今
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (11.17)
+### 周三 (11.19)
 
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: remove schedule field (#10)
+- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：chore: decouple workflow content from add_workflow.sh (#11)
 
 ## 待解决的 Issues
 
