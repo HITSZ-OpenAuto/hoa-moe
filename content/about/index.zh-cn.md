@@ -39,4 +39,5 @@ HITSZ OpenAuto 的建设离不开这些项目提供的灵感：
 - 哈工大网盘计划
 
 我们的 Logo 由 [@Petrica](https://github.com/PetricaT) 设计：
+
 - [Programming VTuber Logos (addon edition)](https://github.com/PetricaT/ProgrammingVTuberLogos-Addon)

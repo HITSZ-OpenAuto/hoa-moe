@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-02-28'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-02-28"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-02-21 - 2025-02-28
@@ -22,4 +22,3 @@ title: AUTO 周报 2025-02-21 - 2025-02-28
 - cecilia 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：增加毛成婷教师的信息及评价 (#6)
 
 - W·D·Gaster 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：修改文档落款格式
-

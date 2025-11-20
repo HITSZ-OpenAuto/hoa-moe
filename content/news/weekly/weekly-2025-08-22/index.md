@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-08-29'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-08-29"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-08-22 - 2025-08-29
@@ -405,4 +405,3 @@ title: AUTO 周报 2025-08-22 - 2025-08-29
 - JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：docs:add new content from OpenCS
 
 - JiaoZiang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：docs:add new content from OpenCS
-

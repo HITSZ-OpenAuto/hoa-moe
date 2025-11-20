@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-03-28'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-03-28"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-03-21 - 2025-03-28
@@ -50,4 +50,3 @@ title: AUTO 周报 2025-03-21 - 2025-03-28
 - syhanjin 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：feat: change download button colors and animations
 
 - hanjin 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：feat: refactor layout and add download button (#8)
-

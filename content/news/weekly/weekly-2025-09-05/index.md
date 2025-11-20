@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-09-12'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-09-12"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-09-05 - 2025-09-12
@@ -108,4 +108,3 @@ title: AUTO 周报 2025-09-05 - 2025-09-12
 - Kowyo 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：更新 Badge 样式 (#21)
 
 - Kowyo 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：更新 Badge 样式 (#26)
-

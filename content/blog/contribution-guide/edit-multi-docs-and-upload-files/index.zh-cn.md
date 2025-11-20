@@ -36,9 +36,10 @@ prev: /blog/contribution-guide/write-blogs
 
 ### commit & push
 
-确认所有修改都完成后，我们就可以把`本地文件`推送到`远程仓库`了；这时候，`远程仓库`还是你自己的，而非 HOA 的。（从自己的`远程仓库`通过 *Pull Request* 才能把内容推送到 HOA 的`远程仓库`）
+确认所有修改都完成后，我们就可以把`本地文件`推送到`远程仓库`了；这时候，`远程仓库`还是你自己的，而非 HOA 的。（从自己的`远程仓库`通过 _Pull Request_ 才能把内容推送到 HOA 的`远程仓库`）
 
 在命令行中，逐行执行以下命令：
+
 ```bash
 git add .                           # 将当前目录下所有修改部分提交至暂存区
 git commit -m "commit message"      # 提交更改， message 需要遵守公约
@@ -65,12 +66,13 @@ fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': Open
 本方法对体积较大仓库尤为适用。
 
 ### Fork & Create
+
 第一步仍然是 Fork 仓库到自己名下，如前文所述。
 
 然后在**你的仓库**里如图新建 Codespaces，等待页面跳转、加载。可能要等一段时间。
 
 ![](./img/create-codespaces.png)
-*<center>这一步是 Codespaces 应对超大文件的方法。等待的时间里，GitHub 将创建云端虚拟机并把文件通过网络发送上去，如此，文件便成为云端（服务器）的`本地文件`，从而规避了`本地磁盘`的 Git LFS 问题。你可以理解为文件放在网盘上。</center>*
+_<center>这一步是 Codespaces 应对超大文件的方法。等待的时间里，GitHub 将创建云端虚拟机并把文件通过网络发送上去，如此，文件便成为云端（服务器）的`本地文件`，从而规避了`本地磁盘`的 Git LFS 问题。你可以理解为文件放在网盘上。</center>_
 
 ### 开始修改
 
@@ -88,7 +90,9 @@ fatal: unable to access 'https://github.com/<username>/AUTO3005.git/': Open
 在编辑区编辑文件；在文件管理器上传`本地文件`。
 
 ### commit & push
+
 确认所有想要修改的地方都已完成后，单击命令行区域，逐行执行以下命令：
+
 ```bash
 git add .                           # 将当前目录下所有修改部分提交至暂存区
 git commit -m "commit message"      # 提交更改， message 需要遵守公约

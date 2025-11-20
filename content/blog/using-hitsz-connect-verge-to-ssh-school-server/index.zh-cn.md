@@ -2,10 +2,10 @@
 title: 如何通过 HITSZ Connect Verge 在校外优雅地访问校园服务器
 description: 笔者探索这套方案的过程并不优雅
 date: 2025-02-23T19:12:00+08:00
-authors: 
-    - name: Kowyo
-      link: https://github.com/kowyo
-      image: https://github.com/kowyo.png
+authors:
+  - name: Kowyo
+    link: https://github.com/kowyo
+    image: https://github.com/kowyo.png
 draft: false
 ---
 
@@ -13,7 +13,7 @@ draft: false
 
 ## 注册账号
 
-集群的网址是 http://hpc.hitsz.edu.cn/
+集群的网址是 <http://hpc.hitsz.edu.cn/>
 
 需要校园网环境才可以访问，如果你位于校外，可以使用笔者开发的工具 [HITSZ Connect Verge](https://github.com/kowyo/hitsz-connect-verge) （EasyConnect 的优雅替代方案[^1]）连接到校园网。
 
@@ -25,7 +25,7 @@ draft: false
 
 需要注意的是，免费额度只有 20000 点，不使用的时候请释放资源以防止造成点数浪费，如果点数不足可以充值。
 
-注册账号和充值点数的具体操作步骤可以参考文档：https://docs.qq.com/doc/DWnFYcktsUGFQUkdQ。
+注册账号和充值点数的具体操作步骤可以参考文档：<https://docs.qq.com/doc/DWnFYcktsUGFQUkdQ>。
 
 ## 通过 SSH 连接服务器
 
@@ -90,4 +90,5 @@ Host <ip 地址>
 读到这里的你学会了吗？有什么不懂或者需要补充的地方欢迎在评论区下方留言。希望通过这篇博客能让更多同学学会如何优雅地访问校园服务器。
 
 [^1]: 关于笔者为什么不使用 EasyConnect，推荐观看视频：[转发给你的同学看看 如何应对与卸载删除它？有什么替代方案？](https://www.bilibili.com/video/BV163411Z7BD)。
+
 [^2]: 同校另一位同学开发的软件 [EZ4Connect](https://github.com/PageChen04/EZ4Connect) 也支持类似功能，但是笔者尚未亲自测试。

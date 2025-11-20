@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-09-19'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-09-19"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-09-12 - 2025-09-19
@@ -97,4 +97,3 @@ title: AUTO 周报 2025-09-12 - 2025-09-19
 - zhuqi000 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：add notes of course (#28)
 
 - Kowyo 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：调整表格样式 (#37)
-

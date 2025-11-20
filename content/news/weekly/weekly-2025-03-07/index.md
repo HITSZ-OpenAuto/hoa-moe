@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-03-14'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-03-14"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-03-07 - 2025-03-14
@@ -24,4 +24,3 @@ title: AUTO 周报 2025-03-07 - 2025-03-14
 ### 周五 (3.7)
 
 - IcyDesert 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：新增模板仓库；修正落款格式 (#14)
-

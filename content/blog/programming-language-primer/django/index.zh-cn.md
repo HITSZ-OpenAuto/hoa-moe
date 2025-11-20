@@ -168,12 +168,12 @@ from django.shortcuts import render,redirect,HttpResponse
 def login_func(request):
     if request.method == "GET":
         return render(request,"login_app/login.html")
-    
+
     user_name = request.POST.get("user")
     user_password = request.POST.get("pwd")
     if user_name == "root" and user_password == "111":
         return redirect("https://arcaea.lowiro.com/")
-    
+
     return render(request,"login_app/login.html",{"error":"用户名或密码错误"})
 ```
 
@@ -185,11 +185,11 @@ def login_func(request):
 <h1>Welcome</h1>
 
 <form method="post" action="/login/">
-    {% csrf_token %}
-    <input type="text" name="user" placeholder="用户名">
-    <input type="password" name="pwd" placeholder="密码">
-    <input type="submit" value="提交">
-    <span style="color:red;">  {{error}}</span>
+  {% csrf_token %}
+  <input type="text" name="user" placeholder="用户名" />
+  <input type="password" name="pwd" placeholder="密码" />
+  <input type="submit" value="提交" />
+  <span style="color:red;"> {{error}}</span>
 </form>
 ```
 

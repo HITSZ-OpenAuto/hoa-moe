@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2024-12-20'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2024-12-20"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2024-12-13 - 2024-12-20
@@ -26,4 +26,3 @@ title: AUTO 周报 2024-12-13 - 2024-12-20
 - 吴俊达 修订了电路 IA 的课件。
 
 总体上，用户们积极更新课程内容，补充相关信息，并上传学习资料，为后续学习提供帮助。
-

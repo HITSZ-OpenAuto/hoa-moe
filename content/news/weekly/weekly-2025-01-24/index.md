@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-01-31'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-01-31"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-01-24 - 2025-01-31
@@ -72,4 +72,3 @@ title: AUTO 周报 2025-01-24 - 2025-01-31
 - guoyuchen2004 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md (#13)
 
 - IcyDesert 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：删除仓库文件夹中无意义的 README.md，以 .gitkeep 占位 (#10)
-

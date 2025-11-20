@@ -48,6 +48,6 @@ excludeSearch: false
 保研只是一个新的开始。告别过这段懵懂而忙碌的岁月，无论选择何种道路，我们都要成为更好的自己。
 
 > 转载自：22 年自动化推免笔记 (清浙交) - JJz01 的文章 - 知乎
-> https://zhuanlan.zhihu.com/p/574594361
+> <https://zhuanlan.zhihu.com/p/574594361>
 >
 > 已获得作者本人许可

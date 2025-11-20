@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2024-11-02'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2024-11-02"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2024-10-26 - 2024-11-02
@@ -30,4 +30,3 @@ title: AUTO 周报 2024-10-26 - 2024-11-02
   - oliver-wu 在 [系统辨识](https://github.com/HITSZ-OpenAuto/AUTO5002) 更新了多份资料。
 
 本周的提交主要集中在数值分析和课程资料的更新上，反映了项目的持续发展和教学内容的完善。
-

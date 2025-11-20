@@ -2,13 +2,13 @@
 title: 你的学生邮箱能薅到哪些羊毛？
 description: 自动化本科期间可以用到的免费正版软件清单
 date: 2024-01-29T20:15:00+08:00
-authors: 
-    - name: Maxwell Jay
-      link: https://github.com/MaxwellJay256
-      image: https://github.com/MaxwellJay256.png
-    - name: kowyo
-      link: https://github.com/kowyo
-      image: https://github.com/kowyo.png
+authors:
+  - name: Maxwell Jay
+    link: https://github.com/MaxwellJay256
+    image: https://github.com/MaxwellJay256.png
+  - name: kowyo
+    link: https://github.com/kowyo
+    image: https://github.com/kowyo.png
 draft: false
 ---
 
@@ -25,6 +25,7 @@ draft: false
 **申请链接**：[**以学生身份申请 GitHub Global Campus - GitHub 文档**](https://docs.github.com/zh/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student)
 
 申请 GitHub Global Campus，相当于：
+
 - 将 GitHub 个人账户升级为 PRO
 - 获得 [**GitHub Copilot**](https://github.com/features/copilot)
 - 获得包含 JetBrains 在内的 [Student Developer Pack](https://education.github.com/pack/offers) 中的权益
@@ -42,10 +43,10 @@ JetBrains 是来自捷克的软件开发公司，针对许多编程语言提供�
 
 - 解决办法：
 
-1. 使用 GitHub Student Developer Pack 登录遭到拒绝的原因是 JetBrains 发现你的 GitHub 用户中含有「xxx@stu.hit.edu.cn」的邮箱。
-因此，你可以临时将学生邮箱从你的 GitHub 账户中移除，再使用 GitHub 申请 JetBrains 教育许可证；等到需要更新你的 GitHub 学生认证时再将学生邮箱添加回去。
+1. 使用 GitHub Student Developer Pack 登录遭到拒绝的原因是 JetBrains 发现你的 GitHub 用户中含有「<xxx@stu.hit.edu.cn>」的邮箱。
+   因此，你可以临时将学生邮箱从你的 GitHub 账户中移除，再使用 GitHub 申请 JetBrains 教育许可证；等到需要更新你的 GitHub 学生认证时再将学生邮箱添加回去。
 2. 使用学信网的学籍证明申请 JetBrains 教育许可证。
-  参考[「Jetbrains 学生授权获取指南 - 知乎」](https://zhuanlan.zhihu.com/p/378185042)中的流程。
+   参考[「Jetbrains 学生授权获取指南 - 知乎」](https://zhuanlan.zhihu.com/p/378185042)中的流程。
 
 ### Qt
 
