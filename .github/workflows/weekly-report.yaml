@@ -52,11 +52,11 @@ jobs:
       - name: Install oven-sh/setup-bun@v2
         uses: oven-sh/setup-bun@v2
 
-      - name: Autocorrect Docs
-        run: bunx autocorrect-node --fix content/
+      - name: Install dependencies
+        run: bun install
 
-      - name: Run Prettier
-        run: bunx prettier --write content/
+      - name: Format
+        run: bun run format
 
       - name: Commit and push changes
         run: |
