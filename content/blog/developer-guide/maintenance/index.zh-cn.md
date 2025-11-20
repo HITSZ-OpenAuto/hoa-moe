@@ -31,11 +31,11 @@ prev: false
 
    ```yaml
    workflow_dispatch:
-   inputs:
-     repo_name:
-       description: "Name of the repository"
-       required: true
-       default: "NOT_ASSIGNED"
+     inputs:
+       repo_name:
+         description: "Name of the repository"
+         required: true
+         default: "NOT_ASSIGNED"
    ```
 
    故主仓库会运行一遍 workflow，从而更新主仓库内的课程文档。
@@ -44,10 +44,10 @@ prev: false
 
    ```yaml
    on:
-   push:
-     paths:
-       - "scripts/**"
-       - ".github/workflows/course.yaml"
+     push:
+       paths:
+         - "scripts/**"
+         - ".github/workflows/course.yaml"
    ```
 
    并且，由于仓库已经配置好了 netlify bot，bot 会自动创建一个针对 PR 的网页 preview，由此便可以检查前端样式是否正确设置。
