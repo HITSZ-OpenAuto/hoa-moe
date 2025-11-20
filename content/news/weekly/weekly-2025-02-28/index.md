@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-03-07'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-03-07"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-02-28 - 2025-03-07
@@ -26,4 +26,3 @@ title: AUTO 周报 2025-02-28 - 2025-03-07
 ### 周六 (3.1)
 
 - W·D·Gaster 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：修改落款格式 (#21)
-

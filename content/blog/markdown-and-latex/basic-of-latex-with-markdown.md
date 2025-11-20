@@ -55,6 +55,7 @@ $$
 ```
 
 效果：
+
 $$
 x=0
 $$
@@ -133,6 +134,7 @@ $$
 ```
 
 效果：
+
 $$
 f\left(\left[\dfrac{1+\{x,y\}}{\left(\dfrac{x}{y}+\dfrac{y}{x}\right)(u+1)}+a\right]^{\dfrac{3}{2}}\right)\tag{1}
 $$
@@ -148,6 +150,7 @@ $$
 ```
 
 效果：
+
 $$
 \left\langle q\middle\|\dfrac{\dfrac{x}{y}}{\dfrac{u}{v}}\middle|p\right\rangle
 $$
@@ -205,6 +208,7 @@ $$
 ```
 
 效果：
+
 $$
 \iint\limits_D\left(\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}\right){\rm d}x{\rm d}y=\oint\limits_LP{\rm d}x+Q{\rm d}y
 $$
@@ -244,13 +248,12 @@ $\sum\limits_{i=1}^n\dfrac{1}{n^2}\quad \quad\prod\limits_{i=1}^n\dfrac{1}{n^2}\
 | \grave{x}  | $\grave{x}$  | \acute{y}       | $\acute{y}$       |
 | \dot{x}    | $\dot{x}$    | \ddot{x}        | $\ddot{x}$        |
 
-
 ## 13、选取符号（下括号、上括号、框选）
 
-| 输入                                  | 显示                                   | 输入                                   | 显示                                     |
-| ------------------------------------- | -------------------------------------- | -------------------------------------- | ---------------------------------------- |
-| \fbox{a+b+c+d}                        | $\fbox{a+b+c+d}$                       |                                        |                                          |
-| \overbrace{xx\cdots x}^{lots\  of\ x} | $\overbrace{xx\cdots x}^{lots\ of\ x}$ | \underbrace{xx\cdots x}_{lots\  of\ x} | $\underbrace{xx\cdots x}_{lots\  of\ x}$ |
+| 输入                                 | 显示                                   | 输入                                   | 显示                                     |
+| ------------------------------------ | -------------------------------------- | -------------------------------------- | ---------------------------------------- |
+| \fbox{a+b+c+d}                       | $\fbox{a+b+c+d}$                       |                                        |                                          |
+| \overbrace{xx\cdots x}^{lots\ of\ x} | $\overbrace{xx\cdots x}^{lots\ of\ x}$ | \underbrace{xx\cdots x}\_{lots\ of\ x} | $\underbrace{xx\cdots x}_{lots\  of\ x}$ |
 
 ## 14、矩阵
 
@@ -282,8 +285,8 @@ $$
 
 说明：在开头将`matrix`替换为`pmatrix`、`bmatrix`、`Bmatrix`、`vmatrix`、`Vmatrix`。
 
-| matrix   | pmatrix                          | bmatrix                          | Bmatrix                          | vmatrix                          | Vmatrix                          |
-|----------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| matrix                                         | pmatrix                                          | bmatrix                                          | Bmatrix                                          | vmatrix                                          | Vmatrix                                          |
+| ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | $ \begin{matrix} 1 & 2 \\ 3 & 4 \end{matrix} $ | $ \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} $ | $ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $ | $ \begin{Bmatrix} 1 & 2 \\ 3 & 4 \end{Bmatrix} $ | $ \begin{vmatrix} 1 & 2 \\ 3 & 4 \end{vmatrix} $ | $ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \end{Vmatrix} $ |
 
 ### ③带分割线的矩阵
@@ -314,7 +317,6 @@ $$
 \right]
 $$
 
-
 ## 15、方程式序列
 
 说明：可以使用`\begin{align}...\end{align}`来创建一列整齐且默认右对齐的方程式序列。请注意`{align}`是**自动编号**的，使用`{align*}`来声明停止自动编号，也可以使用`\notag`来取消特定行的自动编号。在需要的时候，你可以使用`\begin{equation}...\end{equation}`来强制表达式自动编号。
@@ -332,7 +334,7 @@ $$
 \end{align}
 $$
 
-***
+---
 
 $$
 \begin{align*}
@@ -355,7 +357,7 @@ $$
 \end{align}
 $$
 
-***
+---
 
 $$
 \begin{align*}
@@ -409,7 +411,8 @@ f(n)=
 3n+1,&\text{if $n$ is odd}
 \end{cases}\tag{适配[2ex]}
 $$
-***
+
+---
 
 $$
 f(n)=
@@ -429,7 +432,8 @@ f(n)=
 3n+1,&\text{if $n$ is odd}
 \end{cases}\tag{适配[2ex]}
 $$
-***
+
+---
 
 $$
 f(n)=
@@ -500,9 +504,11 @@ $\text{文字 abcd}abcd1234$
 
 可以在字符前使用`\large`或`\small`以显示更大或更小的字符。
 代码：
+
 ```markdown
 ${\LARGE A}{\Large A}{\large A}A{\small A}$
 ```
+
 效果：
 
 ${\LARGE A}{\Large A}{\large A}A{\small A}$
@@ -558,7 +564,6 @@ ${\LARGE A}{\Large A}{\large A}A{\small A}$
 | \land    | $\land$    | \lor       | $\lor$       | \lnot  | $\lnot$  |
 | \top     | $\top$     | \vdash     | $\vdash$     | \vDash | $\vDash$ |
 
-
 ### ⑨箭头符号
 
 | 输入           | 显示             | 输入              | 显示                | 输入                | 显示                  |
@@ -584,22 +589,21 @@ ${\LARGE A}{\Large A}{\large A}A{\small A}$
 
 ## 22、字体
 
- 语法：`${\字体{需要转换的字符}}$`
+语法：`${\字体{需要转换的字符}}$`
 
-| 输入  | 说明     | 显示                          | 输入  | 说明       | 显示                          |
-|-------|----------|-------------------------------|-------|------------|-------------------------------|
-| \rm   | 罗马体   | ${\rm{Sample}}$               | \cal  | 花体       | ${\cal{Sample}}$              |
-| \it   | 意大利体 | ${\it{Sample}}$               | \Bbb  | 黑板粗体   | ${\Bbb{Sample}}$              |
-| \bf   | 粗体     | ${\bf{Sample}}$               | \mit  | 数学斜体   | ${\mit{Sample}}$              |
-| \sf   | 等线体   | ${\sf{Sample}}$               | \scr  | 手写体     | ${\scr{Sample}}$              |
-| \tt   | 打字机体 | ${\tt{Sample}}$               | \frak | 旧德式字体 | ${\frak{Sample}}$             |
+| 输入 | 说明     | 显示            | 输入  | 说明       | 显示              |
+| ---- | -------- | --------------- | ----- | ---------- | ----------------- |
+| \rm  | 罗马体   | ${\rm{Sample}}$ | \cal  | 花体       | ${\cal{Sample}}$  |
+| \it  | 意大利体 | ${\it{Sample}}$ | \Bbb  | 黑板粗体   | ${\Bbb{Sample}}$  |
+| \bf  | 粗体     | ${\bf{Sample}}$ | \mit  | 数学斜体   | ${\mit{Sample}}$  |
+| \sf  | 等线体   | ${\sf{Sample}}$ | \scr  | 手写体     | ${\scr{Sample}}$  |
+| \tt  | 打字机体 | ${\tt{Sample}}$ | \frak | 旧德式字体 | ${\frak{Sample}}$ |
 
 在公式中的对应标记为：\mathrm（数学粗体，如$\mathbf{R}$）、\mathcal（数学花体，如$\mathcal{P}$）、\mathbb（数学黑板粗体，如$\mathbb{R}$）。
 
-
 ## 23、文字颜色
 
-* 适用新旧浏览器
+- 适用新旧浏览器
   代码：
 
 ```markdown
@@ -615,11 +619,11 @@ $\color{颜色}{文字}$
 | blue    | $\color{blue}{color}$    | navy   | $\color{navy}{color}$   | purple | $\color{purple}{color}$ |
 | fuchsia | $\color{fuchsia}{color}$ |        |                         |        |                         |
 
-* 适用新版浏览器
+- 适用新版浏览器
   代码：
 
 ```markdown
-$\color{#rgb}{文字}$    (注：其中 r、g、b 可以输入 0~9 和 a~f 来分别表示红色、绿色和蓝色的纯度)
+$\color{#rgb}{文字}$ (注：其中 r、g、b 可以输入 0~9 和 a~f 来分别表示红色、绿色和蓝色的纯度)
 ```
 
 | 输入 | 输出                  | 输入 | 输出                  | 输入 | 输出                  | 输入 | 输出                  |
@@ -688,7 +692,9 @@ $$
 \end{array}
 $$
 ```
+
 效果：
+
 $$
 \require{enclose}\begin{array}{r1}
 \verb|\enclose{horizontalstrike}{x+y}|&\enclose{horizontalstrike}{x+y}\\

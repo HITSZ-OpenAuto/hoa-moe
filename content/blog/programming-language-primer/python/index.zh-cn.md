@@ -26,7 +26,7 @@ int main(void) {
         printf("%d\n",result);
     } while (input >= 0);
     return 0;
-}  
+}
 ```
 
 但如果是 python，我们则是
@@ -58,8 +58,8 @@ source ./venv/bin/activate
 来激活虚拟环境，并选择 python 的解释器为 venv，即我们刚刚设置的虚拟环境，然后可以进行环境的配置，例如
 
 ```
-pip install django 
-pip install mysqlclient 
+pip install django
+pip install mysqlclient
 ```
 
 至于关闭虚拟环境只需要输入如下。
@@ -145,14 +145,14 @@ print(test.b)
 class MyRange:
     def __init__(self,beg,end):
         self.beg = beg
-        self.end = end 
+        self.end = end
     def __iter__(self):
-        self.cur = self.beg 
-        return self 
+        self.cur = self.beg
+        return self
     def __next__(self):
         if self.cur == self.end:
             raise StopIteration
-        r = self.cur 
+        r = self.cur
         self.cur += 1
         return r
 ```
@@ -192,7 +192,7 @@ class MyEnumIterator:
     def __init__(self, iterator) -> None:
         self.cur = -1
         self.iterator = iterator
-    
+
     def __next__(self):
         self.cur += 1
         return self.cur, self.iterator.__next__()
@@ -200,7 +200,7 @@ class MyEnumIterator:
 class MyEnum:
     def __init__(self, iterable):
         self.iterable = iterable
-    
+
     def __iter__(self):
         return MyEnumIterator(self.iterable.__iter__())
 
@@ -213,7 +213,7 @@ if __name__ == '__main__':
 class MyEnum2:
     def __init__(self, iterable):
         self.iterable = iterable
-    
+
     def __iter__(self):
         self.cur = -1
         self.iterator = self.iterable.__iter__()
@@ -243,7 +243,7 @@ def MyEnum3(iterable):
 def MyRange2(beg,end):
     cur = beg
     while cur != end:
-        yield cur 
+        yield cur
         cur += 1
     return
 ```
@@ -382,8 +382,8 @@ python 的一个包必须含有一个`__init__.py`的文件，而且是每一个
 我们在`addtools`的`__init__.py`中写入
 
 ```python
-from .aaa import add1 
-from .bbb import add2 
+from .aaa import add1
+from .bbb import add2
 
 __all__ =  ["add1","add2"]
 ```
@@ -391,7 +391,7 @@ __all__ =  ["add1","add2"]
 这样我们在`main.py`就可以直接写
 
 ```python
-from addtools import add1,add2 
+from addtools import add1,add2
 
 
 print(add1(1))
@@ -407,7 +407,7 @@ print(add2(1))
 ```python
 a:int = 11
 b:bool = True
-c:float = 1.1 if a else 1.3 
+c:float = 1.1 if a else 1.3
 d:None = None
 ```
 
@@ -450,7 +450,7 @@ delta:list[int] | None = None
 ```
 
 ```python
-@classmethod 
+@classmethod
 @staticmethod
 ```
 
@@ -468,13 +468,13 @@ class test_overload():
     @overload
     def __init__(self, date: str) -> None:
         pass
-    
+
     def __init__(self,date :int | str) -> None:
         match date:
             case int():
                 pass
             case str():
-                pass  
+                pass
             case _ as unreachable:
                 assert_never(unreachable)
 ```
@@ -535,7 +535,7 @@ def transpose_list(list_of_lists):
         list(row)
         for row in zip(*list_of_lists)
     ]
-    
+
 print(transpose_list([[1, 4, 7], [2, 5, 8], [3, 6, 9]]))
 ```
 
@@ -600,12 +600,12 @@ Y --> Z
 
 ## 迷宫问题 (BFS 深度搜索算法)
 
-我们用*来代表墙壁，而空格就是路径。另外我们的出发点和出口分别用字母 S(start) , T(terminal) 表示。例如迷宫
+我们用 \* 来代表墙壁，而空格就是路径。另外我们的出发点和出口分别用字母 S(start) , T(terminal) 表示。例如迷宫
 
 ```
-S*   ** 
- * * ** 
- * * ** 
+S*   **
+ * * **
+ * * **
    *  T
 *******
 ```
@@ -750,6 +750,7 @@ if __name__ == '__main__':
 ## 动态规划——寻找最佳子序列
 
 输入一串用空格隔开的数字，找出其最大子序列的序列长度。动态规划的想法是，制造一个数组，这个数组的内容是{\bf 以数组下标对应本数组的数字为子序列最后一个元素的最优解的序列长度}，其递推关系为
+
 $$
     \mathrm{dp}[j]
     =

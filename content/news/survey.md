@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/kowyo.png
-  link: https://github.com/kowyo
-  name: Kowyo
-date: '2024-05-23'
+  - image: https://github.com/kowyo.png
+    link: https://github.com/kowyo
+    name: Kowyo
+date: "2024-05-23"
 draft: false
 excludeSearch: false
 title: 问卷调查

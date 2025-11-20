@@ -30,12 +30,12 @@ curl -X POST \
 而且，由于主仓库的 workflow 里存在如下设置：
 
 ```yaml
-  workflow_dispatch:
-    inputs:
-      repo_name:
-        description: "Name of the repository"
-        required: true
-        default: "NOT_ASSIGNED"
+workflow_dispatch:
+  inputs:
+    repo_name:
+      description: "Name of the repository"
+      required: true
+      default: "NOT_ASSIGNED"
 ```
 
 故主仓库会运行一遍 workflow，从而更新主仓库内的课程文档。

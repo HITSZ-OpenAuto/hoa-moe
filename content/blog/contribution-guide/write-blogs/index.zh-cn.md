@@ -28,6 +28,7 @@ prev: false
 ## 文件树
 
 博客的最小文件结构示例如下：
+
 ```bash
 .
 └── content
@@ -37,6 +38,7 @@ prev: false
 ```
 
 当然，一篇博客可以包含很多文章，也可以有额外的文件夹，比如这样：
+
 ```bash
 .
 ├── content
@@ -62,11 +64,13 @@ prev: false
 │   │   │   └── ros
 │   │   │       └── index.zh.md
 ```
+
 （已删去部分行以便观看）感觉有点眼花缭乱？别着急，我们自顶向下地看：
 
 blog 下的文件夹名是 `auto-survival-guide`，这是博客~~名称~~ 标识符。
 
 此文件夹包含五个文件夹 `embedded imu math overview ros` 和一个文件 `_index.zh-cn.md`。
+
 - 文件夹就是你规划中要写的若干文章
 - `_index.zh-cn.md` 是一个索引文件，展示一些元信息，并不包含正文内容；即便写上正文也不会展示出来。
 
@@ -81,6 +85,7 @@ blog 下的文件夹名是 `auto-survival-guide`，这是博客~~名称~~ 标识
 博客的正文并无要求，只要切题即可；但元信息部分需要按照下文示例来填写。
 
 `index.zh-cn.md` 的文件示例如下
+
 ```markdown
 ---
 title: <标题>
@@ -101,13 +106,14 @@ next: false <!--上一篇，false 表示没有-->
 prev: /blog/contribution-guide/edit-single-file-and-upload-file <!--下一篇，false 表示没有-->
 ---
 
-正  片  开  始
+正 片 开 始
 ```
 
 ![](./img/next-prev.png)
-*<center>左边是 next，右边是 prev ~~什么反人类参数名~~</center>*
+_<center>左边是 next，右边是 prev ~~什么反人类参数名~~</center>_
 
 `_index.zh-cn.md` 的文件示例如下
+
 ```markdown
 ---
 title: <标题>

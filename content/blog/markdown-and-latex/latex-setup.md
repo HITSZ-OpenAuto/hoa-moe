@@ -32,6 +32,5 @@ math: true
   - Windows：[Visual Studio Code & TeX Live 配置 LaTeX](https://zhuanlan.zhihu.com/p/166523064)。
   - Linux：[文章 1](https://www.cnblogs.com/eslzzyl/p/17358405.html) （LaTeX Workshop 的 settings.json 文件配置，可结合上一行这篇文章）
   - LaTeX Workshop 扩展的安装文档可参看：[Install · LaTeX-Workshop Wiki](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install)。文档中明确提及''We **strongly recommend** TeX Live''. 上述教程即为基于 TeX Live 的教程。
-  - 若利用 MiKTeX，同样可参考上述教程，区别仅在于：在 Windows 系统中，如果编译时用到  latexmk，则需额外安装[Strawberry Perl for Windows](https://strawberryperl.com/)（若不用，则无需理会）。要检验 Perl 是否安装正确，可参考[这篇文章](https://blog.csdn.net/DrGuCoding/article/details/123523407)的第 3 点。Ubuntu 发行版自带 Perl，故无需担心。
+  - 若利用 MiKTeX，同样可参考上述教程，区别仅在于：在 Windows 系统中，如果编译时用到 latexmk，则需额外安装[Strawberry Perl for Windows](https://strawberryperl.com/)（若不用，则无需理会）。要检验 Perl 是否安装正确，可参考[这篇文章](https://blog.csdn.net/DrGuCoding/article/details/123523407)的第 3 点。Ubuntu 发行版自带 Perl，故无需担心。
 - 在 Windows 系统中，使用 WSL 可以加速编译，环境配置可参考：[文章 1](https://www.cnblogs.com/eslzzyl/p/17358405.html)与[在 WSL 中安装 LaTeX](https://zhuanlan.zhihu.com/p/202865739)。关于速度对比的更多信息，可参看：[LaTeX 配置安装大对比](https://zhuanlan.zhihu.com/p/374491983)。
-

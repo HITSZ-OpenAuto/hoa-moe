@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-09-05'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-09-05"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-08-29 - 2025-09-05
@@ -553,4 +553,3 @@ title: AUTO 周报 2025-08-29 - 2025-09-05
 - IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: escape $ in workflow file (#8)
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：ci: use a unified reusable workflow (#13)
-

@@ -27,6 +27,7 @@ prev: /blog/developer-guide/maintenance
 在确定前端框架后，我们需要着手解决内容迁移的问题。如果采用手动方式将各个文档逐一复制，不仅工作量巨大，也不便于后期扩展。因此，我们计划开发自动化脚本，用于获取当前所有公开课程仓库的内容，包括分散在各仓库中的 README 文档以及已上传的资料元信息。同时，我们将借助 GitHub Action 实现定期检测：按照设定的时间间隔自动查询各课程仓库的更新状态，并据此判断是否需要重新构建内容。
 
 在项目初期，由于课程仓库和网站功能相对简单，我们采用了直接在 workflow yaml 文件中编写 shell 脚本的方式。随着项目规模的扩大，脚本的复杂度也随之提升。这促使我们进行了一系列优化：
+
 1. 将部分难以用 shell 实现的功能提取出来，**改用更易维护的 Python 脚本**
 2. 为了解决因网络请求增多导致的执行时间过长问题，在一次大规模更新中将同步处理改为了**异步处理**
 3. 为提升代码的可维护性，把原本集成在 yaml 文件中的所有 shell 脚本都独立出来，统一存放在 scripts 文件夹下。
@@ -73,7 +74,7 @@ jobs:
       contents: write
       id-token: write
     env:
-      PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe   
+      PYTHONPATH: /home/runner/work/hoa-moe/hoa-moe
     steps:
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -86,10 +87,9 @@ jobs:
           pip install -r scripts/requirements.txt
 
       # 获取 OpenAuto 组织下仓库名等步骤已省去，具体内容可自行查看 .github/workflow/course.yaml
-      
+
       - name: Build course pages
         run: python scripts/courses/build_course_pages.py
-
 ```
 
 > [!WARNING]
@@ -170,11 +170,11 @@ async def process_repo(client: GitHubAPIClient) -> None:
         else:
             semesters_match = PATTERN_SEMESTER.search(tag_content)
             # ...
-        
+
         # 课程名称
         name_match = PATTERN_NAME.search(tag_content)
         #...
-    
+
     # 一个课程可能会有多个学期
     for semester in semesters:
 
@@ -210,4 +210,3 @@ async def process_repo(client: GitHubAPIClient) -> None:
 ```
 
 你可以打开一个我们课程的 Markdown 文档的源码比对着看，相信你很快就能知道文档的各部分是怎么来的了。
-

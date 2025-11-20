@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-11-14'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-11-14"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-11-07 - 2025-11-14
@@ -42,4 +42,3 @@ title: AUTO 周报 2025-11-07 - 2025-11-14
 ### 周二 (11.11)
 
 - Hye 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传 2025 年本部试题 (#9)
-

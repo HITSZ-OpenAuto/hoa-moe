@@ -49,7 +49,7 @@ tree -L 1 .
 
 > Hugo 是一个用 Go 编写的静态网站生成器。Hugo 把用户提供的数据文件、i18n 包、配置、布局模板、静态文件，以及用 Markdown 编写的内容，处理并生成一个完整的静态网站。较出色的功能包括多语言支持、图像处理、定制输出格式、短代码等等。
 
-由于 Hugo 的可拓展性，我们可以在网上找到很多基于 Hugo 的博客主题，用户可以很简单的对主题进行定制化从而构建出属于自己的博客站点：更改对应配置文件并在 markdown 文件内写好内容后执行 Hugo 命令便能得到网页。我们网站的前端便是在博客主题 [Hextra](https://imfing.github.io/hextra/) 基础上魔改来的。如此一来，我们就能更专注于内容的编写，不需要过多考虑前端样式问题。 ~~（是这样……吗？）~~ 
+由于 Hugo 的可拓展性，我们可以在网上找到很多基于 Hugo 的博客主题，用户可以很简单的对主题进行定制化从而构建出属于自己的博客站点：更改对应配置文件并在 markdown 文件内写好内容后执行 Hugo 命令便能得到网页。我们网站的前端便是在博客主题 [Hextra](https://imfing.github.io/hextra/) 基础上魔改来的。如此一来，我们就能更专注于内容的编写，不需要过多考虑前端样式问题。 ~~（是这样……吗？）~~
 
 生成 `public` 文件夹中的 Hugo 构建产物后，我们便可以将其部署在 CloudFlare Page 上，绑定域名后通过 `hoa.moe` 访问网页了。
 
@@ -58,9 +58,9 @@ tree -L 1 .
 有了 Hugo 作为框架，我们便可以开始填充内容了。为了方便用户，同时避免一个仓库体积过大，我们按课程编号将最早的大仓库拆成了一个个小仓库。因此，我们需要在网页对应的仓库里用一种方式将各个课程仓库中的 `README.md` 内容拿到，移动到网页仓库的 `content` 文件夹下，再生成静态站点，我们所采用的方式便是 GitHub Action。
 
 > GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.
-> 
+>
 > GitHub Actions goes beyond just DevOps and lets you run workflows when other events happen in your repository. For example, you can run a workflow to automatically add the appropriate labels whenever someone creates a new issue in your repository.
-> 
+>
 > GitHub provides Linux, Windows, and macOS virtual machines to run your workflows, or you can host your own self-hosted runners in your own data center or cloud infrastructure.
 
 GitHub Action 会为我们的仓库「分配」一台包含仓库内文件的虚拟机，我们可以在这台虚拟机上运行我们的脚本，执行复杂的任务。正是凭借这一特性，我们做到了诸如：抓取 `README` 文件、获取仓库内文件相关信息、为课程文档进行分类等一系列操作，最终构建出前端网页。

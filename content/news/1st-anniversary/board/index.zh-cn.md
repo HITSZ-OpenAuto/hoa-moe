@@ -13,8 +13,7 @@ math: false
 <div align=center> <img src="./pic/questionnaire.png" alt="questionnaire" style="zoom:30%;"/> </div>
 
 | 日期 | 昵称 | 留言 |
-| -- | -- | --------- |
+| ---- | ---- | ---- |
 |      |      |      |
 |      |      |      |
 |      |      |      |
-

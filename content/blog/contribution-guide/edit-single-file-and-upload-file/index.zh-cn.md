@@ -43,6 +43,7 @@ prev: /blog/contribution-guide/edit-multi-docs-and-upload-files
 就可以在 GitHub 的网页编辑器修改内容，如下图所示：
 ![](./img/commit-doc.png)
 图示：
+
 1. 编辑器，使用 Markdown 语言进行写作。
 
 2. 预览 Markdown 渲染效果。注意，**HOA 使用的渲染器和此渲染器不同，预览效果仅供参考。**
@@ -74,6 +75,7 @@ GitHub 提供的方法实际上支持多文件上传，但这些文件必须上�
 ### 在自己的仓库上传文件
 
 仓库里的文件夹一般有四个，请对应上传：
+
 - assignments 作业
 - exams 考试
 - notes 个人笔记
@@ -101,16 +103,16 @@ GitHub 提供的方法实际上支持多文件上传，但这些文件必须上�
 1. 不要随意删除/修改他人的评价、建议
 
 2. 在提出某项意见/评价时请按格式署名（不一定要真实姓名）、标注时间，放在你所修改部分的**最末尾**。例如：
-   
-  ```markdown
-  > 文 / [IcyDesert](https://github.com/IcyDesert), 2025.1
-  ```
+
+```markdown
+> 文 / [IcyDesert](https://github.com/IcyDesert), 2025.1
+```
+
 3. commit message 和 PR 的标题，不要只写「增加/修改/删除一些内容」，而要明确写清：「增加 **xx 教师的信息及评价**」、「更新**课程大纲**」、「增加**课程建议**」、「修改**学分学时安排**」等
 
 4. 中文排版应按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md) 的规范进行
 
 5. 我们的初心是分享学习经验，坚决反对抄袭/盗版，以下是**不宜上传**的文件：
-
    - 盗版电子书，盗版软件以及一切和盗版有关的东西
    - 未经老师同意上传的教学课件
    - 不推荐上传与成绩考核相关的作业答案与实验代码，但鼓励上传作业中的难题思路和大实验的代码思路。

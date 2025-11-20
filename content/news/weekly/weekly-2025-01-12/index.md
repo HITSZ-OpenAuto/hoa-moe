@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-01-19'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-01-19"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-01-12 - 2025-01-19
@@ -82,4 +82,3 @@ title: AUTO 周报 2025-01-12 - 2025-01-19
 - psp_dada 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：上传实验报告 (#6)
 
 - psp_dada 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：重新上传个人的实验报告 (#36)
-

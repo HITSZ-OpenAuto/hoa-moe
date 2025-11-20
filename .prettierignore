@@ -1,4 +1,8 @@
-**/*.md
+content/docs/**/*.md
+content/_index.zh-cn.md
+content/news/daily.md
+content/news/weekly/_index.zh-cn.md
+content/links/index.zh-cn.md
 themes/
 pnpm-lock.yaml
 main.css

@@ -164,7 +164,7 @@ Hugo 的短代码（Shortcodes）是一种强大的模板机制，允许我们�
 
 前三句比较容易看懂，为变量赋值嘛；再下一句提示了我们该如何使用变量——`$`。
 
-```html
+```HTML
 {{- $jsFileTree := resources.Get "js/filetree.js" -}}
 {{- $jsSidebar := resources.Get "js/sidebar.js" -}}
 {{- $jsBackToTop := resources.Get "js/back-to-top.js" -}}
@@ -174,7 +174,7 @@ Hugo 的短代码（Shortcodes）是一种强大的模板机制，允许我们�
 
 再接着跟着 `if` 条件判断和 HTML 语句——如果 Hugo 工作在生产环境，则将所有 JS 脚本最小化哈希化，最后导入 HTML 中：
 
-```html
+```HTML
 {{- if hugo.IsProduction -}}
   {{- $scripts = $scripts | minify | fingerprint -}}
 {{- end -}}
@@ -243,17 +243,17 @@ Hextra v0.10.0 之后的版本使用 Tailwind CSS v4，并将 Tailwind 作为 CS
 
 1. 安装 Tailwind CSS 以及相关依赖：
 
-  ```bash
-  npm install
-  ```
+```bash
+npm install
+```
 
 2. 运行以下命令生成编译 CSS：
 
 构建使用 `@tailwindcss/postcss` 插件（见 `postcss.config.mjs`），Tailwind CSS v4 会自动扫描模板以生成所需样式。
 
-  ```sh
-  npm run build:css
-  ```
+```sh
+npm run build:css
+```
 
 3. 如果你想在调试时实时查看 CSS 变更，可以运行：
 

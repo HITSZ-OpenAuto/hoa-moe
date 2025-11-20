@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-02-21'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-02-21"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-02-14 - 2025-02-21
@@ -34,4 +34,3 @@ title: AUTO 周报 2025-02-14 - 2025-02-21
 ### 周五 (2.14)
 
 - W·D·Gaster 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：以 .gitkeep 文件替代无用的 readme.md 文件，修改文档格式 (#2)
-

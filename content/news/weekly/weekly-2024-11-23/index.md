@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2024-11-30'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2024-11-30"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2024-11-23 - 2024-11-30
@@ -20,4 +20,3 @@ title: AUTO 周报 2024-11-23 - 2024-11-30
 #### 周一 (11.25)
 
 - 345ljh 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：添加实验代码 (#2)
-

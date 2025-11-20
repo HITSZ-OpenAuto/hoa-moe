@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-01-24'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-01-24"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-01-17 - 2025-01-24
@@ -184,4 +184,3 @@ title: AUTO 周报 2025-01-17 - 2025-01-24
 - Origami404 在 [高级语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2021) 中提交了信息：OpenCS 内容合并 (#7)
 
 - psp_dada 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：上传实验相关内容 (#6)
-

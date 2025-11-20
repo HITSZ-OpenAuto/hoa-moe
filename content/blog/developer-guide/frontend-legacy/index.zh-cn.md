@@ -23,7 +23,7 @@ weight: 5
 > [!WARNING]
 > 由于 Hextra 主题使用 TailwindCSS，但在配置上有部分错误，我们需要手动做些调整才能将新的 Tailwind 样式渲染至页面。
 
-1. 更改 `themes/hextra/tailwind.config.js` 
+1. 更改 `themes/hextra/tailwind.config.js`
 
 ```js
 module.exports = {

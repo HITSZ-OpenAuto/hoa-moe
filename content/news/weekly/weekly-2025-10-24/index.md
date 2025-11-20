@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-10-31'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-10-31"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-10-24 - 2025-10-31
@@ -31,4 +31,3 @@ title: AUTO 周报 2025-10-24 - 2025-10-31
 - Maxwell Jay 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：添加关于习题答案的提醒 (#38)
 
 - Maxwell Jay 在 [自动控制理论 B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：Merge pull request #22 from HITSZ-OpenAuto/mxj1
-

@@ -1,9 +1,9 @@
 ---
 authors:
-- image: https://github.com/openai.png
-  link: https://github.com/openai
-  name: ChatGPT
-date: '2025-03-21'
+  - image: https://github.com/openai.png
+    link: https://github.com/openai
+    name: ChatGPT
+date: "2025-03-21"
 draft: false
 excludeSearch: false
 title: AUTO 周报 2025-03-14 - 2025-03-21
@@ -46,4 +46,3 @@ title: AUTO 周报 2025-03-14 - 2025-03-21
 - longlin10086 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：docs: update README
 
 - longlin10086 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：init: finish basic framework
-
