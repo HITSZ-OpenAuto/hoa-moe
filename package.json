@@ -9,7 +9,7 @@
     "watch:css": "postcss --config postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css --watch",
     "build": "npm run build:css && hugo --gc --minify",
     "format": "prettier --write . && autocorrect --fix content/",
-    "lint": "eslint . --ext .md"
+    "lint": "eslint '**/*.md'"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
