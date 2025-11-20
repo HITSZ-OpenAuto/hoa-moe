@@ -12,7 +12,7 @@ math: true
 
 学 ROS 建议跟着 Autolabor 的赵虚左老师一起手把手从配环境装 ROS 开始学
 
-https://www.bilibili.com/video/BV1Ci4y1L7ZZ
+<https://www.bilibili.com/video/BV1Ci4y1L7ZZ>
 
 - 如何解决 rosdep init 与 rosdep update 失败的问题：[rosdep 问题解决](./%E8%A7%A3%E5%86%B3rosdep%20init%E4%B8%8Erosdep%20update%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98.md)
 
@@ -33,7 +33,7 @@ rosdep update
 
 这个问题来源是大陆的 DNS 污染，我们首先要手动更改域名解析：
 
-打开 https://site.ip138.com/ ，输入`raw.githubusercontent.com`，查询其 IP 地址：
+打开 <https://site.ip138.com/> ，输入`raw.githubusercontent.com`，查询其 IP 地址：
 
 ![image-20230118171754504](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_17_17_54_image-20230118171754504.png)
 
@@ -59,7 +59,7 @@ rosdep init
 
 如果还是访问不了的话，那我们手动进行`rosdep init`的操作：
 
-用电脑访问 https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list ,可看到如下界面：
+用电脑访问 <https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list> ,可看到如下界面：
 
 ![image-20230118170300075](https://git.nrs-lab.com/LiMinghang23m/picgo-pic/-/raw/main/pictures/2023/01/18_18_6_17_18_17_3_0_image-20230118170300075.png)
 

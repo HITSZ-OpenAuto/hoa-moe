@@ -351,7 +351,7 @@ www.baidu.com
 ```
 
 效果:
-www.baidu.com
+<www.baidu.com>
 [百度一下](https://www.baidu.com)
 [百度一下](https://www.baidu.com "https://www.baidu.com")
 

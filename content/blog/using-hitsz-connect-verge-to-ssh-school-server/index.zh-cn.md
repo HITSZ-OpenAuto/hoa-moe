@@ -13,7 +13,7 @@ draft: false
 
 ## 注册账号
 
-集群的网址是 http://hpc.hitsz.edu.cn/
+集群的网址是 <http://hpc.hitsz.edu.cn/>
 
 需要校园网环境才可以访问，如果你位于校外，可以使用笔者开发的工具 [HITSZ Connect Verge](https://github.com/kowyo/hitsz-connect-verge) （EasyConnect 的优雅替代方案[^1]）连接到校园网。
 
@@ -25,7 +25,7 @@ draft: false
 
 需要注意的是，免费额度只有 20000 点，不使用的时候请释放资源以防止造成点数浪费，如果点数不足可以充值。
 
-注册账号和充值点数的具体操作步骤可以参考文档：https://docs.qq.com/doc/DWnFYcktsUGFQUkdQ。
+注册账号和充值点数的具体操作步骤可以参考文档：<https://docs.qq.com/doc/DWnFYcktsUGFQUkdQ。>
 
 ## 通过 SSH 连接服务器
 

@@ -35,7 +35,7 @@ authors:
 
 ### Ubuntu 软件源
 
-当你使用 `sudo apt update` 更新软件源的时候，报错最有可能的原因是你的网络问题，为此我们需要设置成自己的软件源，当你点开标题为 ubuntu 的链接的时候，OSA 会很贴心地为你跳转到使用帮助页面：https://mirrors-help.osa.moe/ubuntu/。
+当你使用 `sudo apt update` 更新软件源的时候，报错最有可能的原因是你的网络问题，为此我们需要设置成自己的软件源，当你点开标题为 ubuntu 的链接的时候，OSA 会很贴心地为你跳转到使用帮助页面：<https://mirrors-help.osa.moe/ubuntu/。>
 
 按照使用帮助上的介绍配置即可，你需要修改的是 `/etc/apt/sources.list` 这个文件。
 

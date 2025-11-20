@@ -109,7 +109,7 @@ fankzy-b-b -> 方案内跨专业
 >
 > 另外学校选课的极限频率大概在 2s/次，超过这个频率会显示请求过于频繁，不过不会被封禁，无需担心。
 >
-> 最后，我写了一个选课加速器：[hit course](https://github.com/YinMo19/hit_course)。_用上了别忘了点个星星_。
+> 最后，我写了一个选课加速器：[hit course](https://github.com/YinMo19/hit_course)。*用上了别忘了点个星星*。
 
 ## 更多技术相关
 

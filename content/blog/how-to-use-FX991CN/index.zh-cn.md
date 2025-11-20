@@ -354,13 +354,13 @@ DEC 表示十进制，HEX 表示十六进制，BIN 表示二进制，OCT 表示�
   .blue-text {
     font-family: '黑体';
     color: #00BFFF;
-    font-size: 4;    
+    font-size: 4;
     vertical-align: baseline;
   }
   .purple-text {
     font-family: '黑体';
     color: #9400D3;
-    font-size: 4;   
+    font-size: 4;
     vertical-align: baseline;
   }
 </style>
