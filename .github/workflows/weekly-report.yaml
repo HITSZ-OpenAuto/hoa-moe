@@ -55,8 +55,11 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Format
-        run: bun run format
+      - name: Format CJK spacing
+        run: bunx autocorrect-node --fix content/
+
+      - name: Format Markdown files
+        run: bunx prettier --write content/
 
       - name: Commit and push changes
         run: |
