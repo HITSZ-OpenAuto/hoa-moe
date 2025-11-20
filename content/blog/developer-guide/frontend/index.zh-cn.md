@@ -243,20 +243,20 @@ Hextra v0.10.0 之后的版本使用 Tailwind CSS v4，并将 Tailwind 作为 CS
 
 1. 安装 Tailwind CSS 以及相关依赖：
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 2. 运行以下命令生成编译 CSS：
 
-构建使用 `@tailwindcss/postcss` 插件（见 `postcss.config.mjs`），Tailwind CSS v4 会自动扫描模板以生成所需样式。
+   构建使用 `@tailwindcss/postcss` 插件（见 `postcss.config.mjs`），Tailwind CSS v4 会自动扫描模板以生成所需样式。
 
-```sh
-npm run build:css
-```
+   ```sh
+   npm run build:css
+   ```
 
 3. 如果你想在调试时实时查看 CSS 变更，可以运行：
 
-```sh
-npm run dev
-```
+   ```sh
+   npm run dev
+   ```
