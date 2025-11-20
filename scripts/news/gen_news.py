@@ -93,7 +93,6 @@ def generate_yaml_front_matter(news_type, display_start_time):
                         "image": "https://avatars.githubusercontent.com/in/15368",
                     }
                 ],
-                "description": f"北京时间 {display_start_time.date()} {display_start_time.hour:02} 时至今",
                 "excludeSearch": False,
                 "draft": False,
             },
