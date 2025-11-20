@@ -25,30 +25,30 @@ weight: 5
 
 1. 更改 `themes/hextra/tailwind.config.js`
 
-```js
-module.exports = {
-  prefix: 'hx-',  // 由于存在这么一行，所有 TailwindCSS 类都需要在原基础上加上 'hx-' 前缀
-  content: [
-    './**/hugo_stats.json',
-    '../../layouts/**/*.{html, js}' // 新增这一行
-  ],
-  ...
-}
-```
+   ```js
+   module.exports = {
+     prefix: 'hx-',  // 由于存在这么一行，所有 TailwindCSS 类都需要在原基础上加上 'hx-' 前缀
+     content: [
+       './**/hugo_stats.json',
+       '../../layouts/**/*.{html, js}' // 新增这一行
+     ],
+     ...
+   }
+   ```
 
 2. 更改 `themes/hextra/package.json`
 
-```json
-{
-  "scripts": {
-    "dev:theme": "hugo server --logLevel=debug --config=hugo.yaml,../dev.toml --environment=theme --source=exampleSite --themesDir=../.. --disableFastRender -D --port 1313",
-    "dev": "hugo server --source=exampleSite --themesDir=../.. --disableFastRender -D --port 1313",
-    "build:css": "npx postcss --config postcss.config.js --env production assets/css/styles.css -o assets/css/compiled/main.css",
-    "build": "hugo --gc --minify --themesDir=../.. --source=exampleSite",
-    "watch": "npx postcss --config postcss.config.js --env production assets/css/styles.css -o ../../assets/css/compiled/main.css --watch" // 新增这一行
-  }
-}
-```
+   ```json
+   {
+     "scripts": {
+       "dev:theme": "hugo server --logLevel=debug --config=hugo.yaml,../dev.toml --environment=theme --source=exampleSite --themesDir=../.. --disableFastRender -D --port 1313",
+       "dev": "hugo server --source=exampleSite --themesDir=../.. --disableFastRender -D --port 1313",
+       "build:css": "npx postcss --config postcss.config.js --env production assets/css/styles.css -o assets/css/compiled/main.css",
+       "build": "hugo --gc --minify --themesDir=../.. --source=exampleSite",
+       "watch": "npx postcss --config postcss.config.js --env production assets/css/styles.css -o ../../assets/css/compiled/main.css --watch" // 新增这一行
+     }
+   }
+   ```
 
 3. 在 `themes/hextra` 目录下运行 `npm run watch`
 

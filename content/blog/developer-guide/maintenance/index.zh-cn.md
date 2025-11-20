@@ -60,15 +60,15 @@ prev: false
 
 1. HOA 集成了 `giscus` 评论系统，我们可以在仓库的 `Discussions` 界面查看页面评论
 
-![comments](comments.png)
+   ![comments](comments.png)
 
 2. HOA 有一个名为 `course-template` 的私有模板仓库，创建新课程仓库时请选择从该模板仓库生成
 
-![template](template.png)
+   ![template](template.png)
 
 3. 你可以在组织的 `Projects` 界面内新建任务，方便管理当前某项任务的进度
 
-![projects](projects.png)
+   ![projects](projects.png)
 
 ## 🎉完结撒花
 
