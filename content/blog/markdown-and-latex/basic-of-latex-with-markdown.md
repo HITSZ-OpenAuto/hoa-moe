@@ -250,10 +250,11 @@ $\sum\limits_{i=1}^n\dfrac{1}{n^2}\quad \quad\prod\limits_{i=1}^n\dfrac{1}{n^2}\
 
 ## 13、选取符号（下括号、上括号、框选）
 
+<!-- prettier-ignore -->
 | 输入                                 | 显示                                   | 输入                                   | 显示                                     |
 | ------------------------------------ | -------------------------------------- | -------------------------------------- | ---------------------------------------- |
 | \fbox{a+b+c+d}                       | $\fbox{a+b+c+d}$                       |                                        |                                          |
-| \overbrace{xx\cdots x}^{lots\ of\ x} | $\overbrace{xx\cdots x}^{lots\ of\ x}$ | \underbrace{xx\cdots x}\_{lots\ of\ x} | $\underbrace{xx\cdots x}_{lots\  of\ x}$ |
+| \overbrace{xx\cdots x}^{lots\ of\ x} | $\overbrace{xx\cdots x}^{lots\ of\ x}$ | \underbrace{xx\cdots x}_{lots\ of\ x} | $\underbrace{xx\cdots x}_{lots\  of\ x}$ |
 
 ## 14、矩阵
 
