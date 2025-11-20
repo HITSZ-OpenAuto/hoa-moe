@@ -55,6 +55,9 @@ jobs:
       - name: Autocorrect Docs
         run: bunx autocorrect-node --fix content/
 
+      - name: Run Prettier
+        run: bunx prettier --write content/
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
