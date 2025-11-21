@@ -52,6 +52,7 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add content/about/index.zh-cn.md
           git commit -m "docs: update about page" || exit 0
-          git clean -f
+          git reset --hard
+          git clean -fd
           git pull --rebase
           git push origin HEAD

@@ -75,6 +75,7 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add content/
           git commit -m "docs: update daily report and issues" || exit 0
-          git clean -f
+          git reset --hard
+          git clean -fd
           git pull --rebase
           git push origin HEAD
