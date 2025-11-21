@@ -1,7 +1,7 @@
 (function () {
   const switches = document.querySelectorAll(".hoa-width-switcher");
   const root = document.documentElement;
-  const defaultWidth = "80rem";
+  const defaultWidth = "90rem";
   const fullWidth = "100%";
   const key = "hoa-preferred-width";
 
@@ -15,9 +15,7 @@
   };
 
   let isFull = getPreferred();
-  root.classList.add("hoa-width-no-transition");
   applyWidth(isFull);
-  setTimeout(() => root.classList.remove("hoa-width-no-transition"), 0);
 
   const toggle = () => {
     isFull = !isFull;
