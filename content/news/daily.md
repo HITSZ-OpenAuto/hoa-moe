@@ -4,6 +4,7 @@ authors:
   link: https://github.com/features/actions
   name: github-actions[bot]
 date: '2025-11-21'
+description: 每日更新
 draft: false
 excludeSearch: false
 title: AUTO 更新速递
@@ -16,12 +17,6 @@ title: AUTO 更新速递
 - RussReign 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：复变函数笔记上传 (#28)
 
 ## 待解决的 Issues
-
-### [[Bug] Cannot pull with rebase: You have unstaged changes.](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/407)
-
-- **仓库**: hoa-moe
-- **创建于**: 2025-11-21 15:33:31
-- **作者**: kowyo
 
 ### [Switch major/year via sidebar](https://github.com/HITSZ-OpenAuto/aextra/issues/33)
 
@@ -201,6 +196,12 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2012
 - **创建于**: 2025-09-02 23:34:16
+- **作者**: WDGaster703
+
+### [COMP2008 计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008/issues/3)
+
+- **仓库**: COMP2008
+- **创建于**: 2025-09-02 23:33:47
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
