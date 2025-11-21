@@ -93,6 +93,7 @@ def generate_yaml_front_matter(news_type, display_start_time):
                         "image": "https://avatars.githubusercontent.com/in/15368",
                     }
                 ],
+                "description": "每日更新",
                 "excludeSearch": False,
                 "draft": False,
             },
