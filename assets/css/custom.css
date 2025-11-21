@@ -1,9 +1,24 @@
 :root {
   --hoa-filetree-checked-color: rgb(239 246 255);
+  --background: #F7F7F4;
 }
 
 .dark {
   --hoa-filetree-checked-color: rgb(30 58 138 / 0.3);
+  --background: #111111;
+}
+
+/* Global background color override */
+body {
+  background-color: var(--background);
+}
+
+/* Override background for Navbar, Sidebar, TOC, Footer */
+.hextra-nav-container-blur,
+.hextra-sidebar-container,
+.hextra-toc,
+.hextra-footer {
+  background-color: var(--background) !important;
 }
 
 .content :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
