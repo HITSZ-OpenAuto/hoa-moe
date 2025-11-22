@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (11.22)
 
+- Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：整理 README 的结构和格式 (#21)
+
 - Jiayi-hit 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：上传机器学习 23 级期末回忆版 (#5)
 
 - OliverWu515 在 [hoa-spec](https://github.com/HITSZ-OpenAuto/hoa-spec) 中提交了信息：init: add metadata of hoa 3.0
