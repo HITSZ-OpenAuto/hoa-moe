@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 11 月 22 日" author="Kowyo" message="[automated-generated-pr] ci: disable scheduled trigger (#12)" >}}
+{{< update-info update_time="2023 年 12 月 3 日" author="Longbin Tang" message="Delete License" >}}
 
 <div class="hoa-badge">
 

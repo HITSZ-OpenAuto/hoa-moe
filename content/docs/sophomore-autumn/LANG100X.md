@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 11 月 22 日" author="Kowyo" message="[automated-generated-pr] ci: disable scheduled trigger (#16)" >}}
+{{< update-info update_time="2025 年 7 月 2 日" author="cecilia" message="Merge pull request #8 from mircecilia/patch-1" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
