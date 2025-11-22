@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (11.23)
 
+- OliverWu515 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：添加本人作业、实验等资料，更新 readme
+
 - OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：Merge branch 'main' of https://github.com/HITSZ-OpenAuto/MATH4001
 
 - OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：添加若干年考试题
@@ -276,6 +278,12 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [文件命名错误](https://github.com/HITSZ-OpenAuto/GEIP1018/issues/18)
+
+- **仓库**: GEIP1018
+- **创建于**: 2025-11-23 02:23:45
+- **作者**: OliverWu515
+
 ### [Switch major/year via sidebar](https://github.com/HITSZ-OpenAuto/aextra/issues/33)
 
 - **仓库**: aextra
@@ -454,12 +462,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2012
 - **创建于**: 2025-09-02 23:34:16
-- **作者**: WDGaster703
-
-### [COMP2008 计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008/issues/3)
-
-- **仓库**: COMP2008
-- **创建于**: 2025-09-02 23:33:47
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
