@@ -6,7 +6,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 9 月 14 日" author="IcyDesert" message="添加 大模型应用开发入门 课程情况 (#9)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

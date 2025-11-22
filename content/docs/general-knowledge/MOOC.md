@@ -6,7 +6,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 12 月 21 日" author="Kowyo" message="chore: update format" >}}
 
 <div class="hoa-badge">
 

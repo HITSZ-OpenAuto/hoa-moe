@@ -6,7 +6,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2025 年 9 月 4 日" author="W·D·Gaster" message="添加自救群共享文档部分课程评价 (#11)" >}}
 
 <div class="hoa-badge">
 

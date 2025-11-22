@@ -6,7 +6,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 11 月 22 日" author="Kowyo" message="[automated-generated-pr] ci: disable scheduled trigger (#25)" >}}
 
 <div class="hoa-badge">
 
