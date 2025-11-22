@@ -119,7 +119,7 @@ class GitHubAPIClient:
                 message: str = commit["commit"]["message"]
                 # Skip "valueless" commits whose messages start with these words
                 if message.startswith(
-                    ("Replace", "Add", "ci", "Update", "[automated-generated-PR]")
+                    ("Replace", "Add", "ci", "Update", "[automated-generated-pr]")
                 ):
                     continue
 
