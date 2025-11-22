@@ -12,6 +12,12 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (11.23)
+
+- OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：Merge branch 'main' of https://github.com/HITSZ-OpenAuto/MATH4001
+
+- OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：添加若干年考试题
+
 ### 周六 (11.22)
 
 - Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：整理 README 的结构和格式 (#21)
