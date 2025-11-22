@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-21'
+date: '2025-11-22'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -14,7 +14,7 @@ title: AUTO 更新速递
 
 ### 周五 (11.21)
 
-- RussReign 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：复变函数笔记上传 (#28)
+- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：docs: add source of workflow file in add_workflow.sh
 
 ## 待解决的 Issues
 
