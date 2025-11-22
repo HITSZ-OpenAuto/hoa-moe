@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 7 月 16 日" author="Kowyo" message="更改文字描述" >}}
+{{< update-info update_time="2025 年 11 月 22 日" author="Kowyo" message="[automated-generated-pr] ci: disable scheduled trigger (#12)" >}}
 
 <div class="hoa-badge">
 
