@@ -6,6 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
+{{< update-info update_time="2025 年 11 月 22 日" author="HitTheStars" message="加入了思政实践网课的链接以及相关描述，添加了它的刷课脚本和使用教程。 (#17)" >}}
 
 <div class="hoa-badge">
 
@@ -27,6 +28,18 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 > 注意，不同的线上课，考核方式各不相同，有的课没有平时分，有的课没有期末考试；
 > 
 >  ***因此，涉及到分数的地方，务必以你所选课程的分数说明为准！***
+
+> ***思政实践课程属于一类特殊的 MOOC 课程，是在哈工大深圳的思政实践平台上进行的。***
+> 需要完成一定的实践课程慕课和实践案例视频，具体要求根据各学院可能有不同。
+
+- [点击此处访问思政实践平台](http://szsj.hitsz.edu.cn "跳转到思政实践平台主页")
+
+> 由于这个平台课程较多且会随机暂停且无法拖动进度条，因此建议使用刷课脚本自动完成课程。
+
+教程如下：
+- [点击此处访问思政实践课程使用教程](思政实践网课/刷课脚本使用教程.md "跳转到思政实践课程使用教程")
+
+
 
 ### 选课
 
@@ -91,6 +104,11 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称， *与其�
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="奇异的仿生学" date="" state="closed" >}}
 {{< hoa-filetree/file name="奇异的仿生学答案整理" type="docx" size="390.4 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E5%A5%87%E5%BC%82%E7%9A%84%E4%BB%BF%E7%94%9F%E5%AD%A6/%E5%A5%87%E5%BC%82%E7%9A%84%E4%BB%BF%E7%94%9F%E5%AD%A6%E7%AD%94%E6%A1%88%E6%95%B4%E7%90%86.docx" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="思政实践网课" date="" state="closed" >}}
+{{< hoa-filetree/file name="刷课脚本_书签版" type="js" size="992 bytes" date="2025/11/22" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%80%9D%E6%94%BF%E5%AE%9E%E8%B7%B5%E7%BD%91%E8%AF%BE/%E5%88%B7%E8%AF%BE%E8%84%9A%E6%9C%AC_%E4%B9%A6%E7%AD%BE%E7%89%88.js" >}}
+{{< hoa-filetree/file name="刷课脚本_单次使用版" type="js" size="1.9 KB" date="2025/11/22" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%80%9D%E6%94%BF%E5%AE%9E%E8%B7%B5%E7%BD%91%E8%AF%BE/%E5%88%B7%E8%AF%BE%E8%84%9A%E6%9C%AC_%E5%8D%95%E6%AC%A1%E4%BD%BF%E7%94%A8%E7%89%88.js" >}}
+{{< hoa-filetree/file name="刷课脚本使用教程" type="md" size="4.4 KB" date="2025/11/22" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%80%9D%E6%94%BF%E5%AE%9E%E8%B7%B5%E7%BD%91%E8%AF%BE/%E5%88%B7%E8%AF%BE%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.md" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="成功求职六步走" date="" state="closed" >}}
 {{< hoa-filetree/file name="成功求职六步走" type="docx" size="14.5 KB" date="2024/05/11" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%88%90%E5%8A%9F%E6%B1%82%E8%81%8C%E5%85%AD%E6%AD%A5%E8%B5%B0/%E6%88%90%E5%8A%9F%E6%B1%82%E8%81%8C%E5%85%AD%E6%AD%A5%E8%B5%B0.docx" >}}

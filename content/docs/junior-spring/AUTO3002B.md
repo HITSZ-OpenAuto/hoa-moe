@@ -6,6 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
 
+{{< update-info update_time="2025 年 6 月 27 日" author="psp_dada" message="上传作业与实验相关内容 (#14)" >}}
 
 <div class="hoa-badge">
 
