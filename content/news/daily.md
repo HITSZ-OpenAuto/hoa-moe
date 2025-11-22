@@ -14,6 +14,46 @@ title: AUTO 更新速递
 
 ### 周六 (11.22)
 
+- Jiayi-hit 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：上传机器学习 23 级期末回忆版 (#5)
+
+- OliverWu515 在 [hoa-spec](https://github.com/HITSZ-OpenAuto/hoa-spec) 中提交了信息：init: add metadata of hoa 3.0
+
+- HitTheStars 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：加入了思政实践网课的链接以及相关描述，添加了它的刷课脚本和使用教程。 (#17)
+
+- Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：ci: disable scheduled trigger (#20)
+
+- Kowyo 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：[automated-generated-pr] ci: disable scheduled trigger (#1)
+
+- Kowyo 在 [专业综合实践](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：ci: disable scheduled trigger (#3)
+
+- Kowyo 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：ci: disable scheduled trigger (#4)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：ci: disable scheduled trigger (#8)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：ci: disable scheduled trigger (#9)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3039) 中提交了信息：[automated-generated-pr] ci: disable scheduled trigger (#5)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：ci: disable scheduled trigger (#8)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3021) 中提交了信息：ci: disable scheduled trigger (#7)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3029) 中提交了信息：ci: disable scheduled trigger (#6)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3019) 中提交了信息：[automated-generated-pr] ci: disable scheduled trigger (#5)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：[automated-generated-pr] ci: disable scheduled trigger (#5)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：ci: disable scheduled trigger (#7)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：[automated-generated-pr] ci: disable scheduled trigger (#7)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：ci: disable scheduled trigger (#6)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：[automated-generated-pr] ci: disable scheduled trigger (#6)
+
+- Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：[automated-generated-pr] ci: disable scheduled trigger (#5)
+
 - Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：ci: disable scheduled trigger (#6)
 
 - Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：ci: disable scheduled trigger (#6)
