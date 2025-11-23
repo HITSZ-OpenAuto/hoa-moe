@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-22'
+date: '2025-11-23'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -271,10 +271,6 @@ title: AUTO 更新速递
 - Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：update docs
 
 - Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：chore: update pr description
-
-### 周五 (11.21)
-
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：docs: add source of workflow file in add_workflow.sh
 
 ## 待解决的 Issues
 
