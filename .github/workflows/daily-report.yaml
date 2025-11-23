@@ -53,7 +53,7 @@ jobs:
         run: |
           repos=$(jq -R -s -c 'split("\n") | map(select(length > 0))' repos_list.txt)
           echo "repos_array=$repos" >> $GITHUB_ENV
-      
+
       - name: Generate daily report
         env:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
