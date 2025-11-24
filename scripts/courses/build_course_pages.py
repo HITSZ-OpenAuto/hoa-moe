@@ -71,6 +71,7 @@ CATEGORY_MAPPING: dict[str] = {
     ),
 }
 
+MAX_COMMITS_TO_FETCH = 50
 
 # Pre-compiled regex for better performance
 PATTERN_CATEGORY = re.compile(r"category:\s*(.*)")
@@ -105,7 +106,7 @@ class GitHubAPIClient:
 
     async def get_latest_commit(self):
         commits_url = f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
-        params = {"per_page": 20}  # Fetch up to 20 commits to find a "useful" one
+        params = {"per_page": MAX_COMMITS_TO_FETCH}  # Fetch up to MAX_COMMITS_TO_FETCH commits to find a "useful" one
 
         async with self.session.get(commits_url, params=params) as response:
             if response.status != 200:
