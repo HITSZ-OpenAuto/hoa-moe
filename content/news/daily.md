@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周一 (11.24)
 
+- zhuqi000 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：增加 2025 自控 A 的笔记 (#28)
+
+- Rsir 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：上传 2025 复变函数思维导图 (#32)
+
 - Kowyo 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：ci: disable scheduled trigger (#12)
 
 - Kowyo 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：ci: disable scheduled trigger (#19)
@@ -88,12 +92,6 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [上传 2025 复变函数思维导图](https://github.com/HITSZ-OpenAuto/MATH1005/pull/32)
-
-- **仓库**: MATH1005
-- **创建于**: 2025-11-24 13:32:56
-- **作者**: Jiupai999
-
 ### [上传 2025 秋张淼老师授课 PPT 并添加 24 春期末试题回忆版和答案](https://github.com/HITSZ-OpenAuto/COMP3059/pull/6)
 
 - **仓库**: COMP3059
@@ -105,12 +103,6 @@ title: AUTO 更新速递
 - **仓库**: MATH4004
 - **创建于**: 2025-11-17 08:56:09
 - **作者**: 345ljh
-
-### [增加 2025 自控 A 的笔记](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/28)
-
-- **仓库**: AUTO3001A
-- **创建于**: 2025-11-16 16:23:26
-- **作者**: zhuqi000
 
 ### [删除电子书；增加课程论文和 21 秋期末考试答案](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/27)
 
