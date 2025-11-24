@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 9 月 5 日" author="Kowyo" message="更新 Badge 样式 (#26)" >}}
+{{< update-info update_time="2025 年 11 月 24 日" author="zhuqi000" message="增加 2025 自控 A 的笔记 (#28)" >}}
 
 <div class="hoa-badge">
 
