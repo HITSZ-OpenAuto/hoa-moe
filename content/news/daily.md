@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (11.24)
 
+- Junda Wu 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：删除电子书；增加课程论文和 21 秋期末考试答案 (#27)
+
 - zhuqi000 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：增加 2025 自控 A 的笔记 (#28)
 
 - Rsir 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：上传 2025 复变函数思维导图 (#32)
@@ -103,10 +105,4 @@ title: AUTO 更新速递
 - **仓库**: MATH4004
 - **创建于**: 2025-11-17 08:56:09
 - **作者**: 345ljh
-
-### [删除电子书；增加课程论文和 21 秋期末考试答案](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/27)
-
-- **仓库**: AUTO1001
-- **创建于**: 2025-11-16 01:49:44
-- **作者**: OliverWu515
 
