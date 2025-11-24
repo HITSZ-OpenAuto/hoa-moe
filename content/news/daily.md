@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (11.24)
 
+- 345ljh 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：添加 2025 年深圳试题 (#11)
+
 - Junda Wu 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：删除电子书；增加课程论文和 21 秋期末考试答案 (#27)
 
 - zhuqi000 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：增加 2025 自控 A 的笔记 (#28)
@@ -99,10 +101,4 @@ title: AUTO 更新速递
 - **仓库**: COMP3059
 - **创建于**: 2025-11-17 16:59:20
 - **作者**: NeptuneZhao
-
-### [添加 2025 年深圳试题](https://github.com/HITSZ-OpenAuto/MATH4004/pull/11)
-
-- **仓库**: MATH4004
-- **创建于**: 2025-11-17 08:56:09
-- **作者**: 345ljh
 
