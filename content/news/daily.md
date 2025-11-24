@@ -280,131 +280,11 @@ title: AUTO 更新速递
 - **创建于**: 2025-11-23 02:23:45
 - **作者**: OliverWu515
 
-### [Switch major/year via sidebar](https://github.com/HITSZ-OpenAuto/aextra/issues/33)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-10 02:01:01
-- **作者**: kowyo
-- **标签**: enhancement
-
-### [Search box](https://github.com/HITSZ-OpenAuto/aextra/issues/32)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-10 00:08:11
-- **作者**: kowyo
-
-### [Sidebar items should not be collapsed when item is selected](https://github.com/HITSZ-OpenAuto/aextra/issues/31)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-10 00:07:22
-- **作者**: kowyo
-
-### [Navbar for mobile responsive](https://github.com/HITSZ-OpenAuto/aextra/issues/30)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-10 00:04:24
-- **作者**: kowyo
-
-### [Switch width does notchange the width to full](https://github.com/HITSZ-OpenAuto/aextra/issues/29)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-10 00:02:47
-- **作者**: kowyo
-
-### [Support Sidebar Trigger](https://github.com/HITSZ-OpenAuto/aextra/issues/28)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:51:43
-- **作者**: kowyo
-
-### [Redesign Transparent Effect on Navbar](https://github.com/HITSZ-OpenAuto/aextra/issues/27)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:49:48
-- **作者**: kowyo
-- **标签**: enhancement
-
-### [Migrate shortcodes for hextra](https://github.com/HITSZ-OpenAuto/aextra/issues/26)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:48:02
-- **作者**: kowyo
-
-### [Landing page](https://github.com/HITSZ-OpenAuto/aextra/issues/25)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:47:29
-- **作者**: kowyo
-
-### [Hover on navbar to navigate](https://github.com/HITSZ-OpenAuto/aextra/issues/24)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:45:53
-- **作者**: kowyo
-- **标签**: enhancement
-
-### [Redesign the card component in /link](https://github.com/HITSZ-OpenAuto/aextra/issues/23)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:45:04
-- **作者**: kowyo
-
-### [Size of text is not consistent in Sidebar and table of content](https://github.com/HITSZ-OpenAuto/aextra/issues/22)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:42:54
-- **作者**: kowyo
-
-### [Navbar button styling](https://github.com/HITSZ-OpenAuto/aextra/issues/21)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:40:09
-- **作者**: kowyo
-
-### [Switch width is only necessary in docs page](https://github.com/HITSZ-OpenAuto/aextra/issues/20)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:38:41
-- **作者**: kowyo
-
-### [Darkmode Background Color](https://github.com/HITSZ-OpenAuto/aextra/issues/19)
-
-- **仓库**: aextra
-- **创建于**: 2025-11-09 23:36:39
-- **作者**: kowyo
-
-### [Refactor course info for multiple majors support and unified management](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/400)
-
-- **仓库**: hoa-moe
-- **创建于**: 2025-11-08 15:57:00
-- **作者**: kowyo
-- **标签**: enhancement
-
 ### [老师名字错误捉虫](https://github.com/HITSZ-OpenAuto/GEIP1017/issues/11)
 
 - **仓库**: GEIP1017
 - **创建于**: 2025-11-04 17:13:45
 - **作者**: ll3me
-
-### [在线编辑/上传 HOA 文档](https://github.com/HITSZ-OpenAuto/.github/issues/25)
-
-- **仓库**: .github
-- **创建于**: 2025-10-16 14:10:24
-- **作者**: kowyo
-
-### [Preview function does not work in a file located in second level](https://github.com/HITSZ-OpenAuto/hoa-moe/issues/377)
-
-- **仓库**: hoa-moe
-- **创建于**: 2025-09-10 17:48:02
-- **作者**: kowyo
-- **标签**: bug
-
-### [Support CORS](https://github.com/HITSZ-OpenAuto/hoa-fastdl/issues/1)
-
-- **仓库**: hoa-fastdl
-- **创建于**: 2025-09-08 00:43:04
-- **作者**: kowyo
-- **标签**: enhancement
 
 ### [COMP3043 深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043/issues/1)
 
@@ -462,5 +342,177 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [上传 2025 复变函数思维导图](https://github.com/HITSZ-OpenAuto/MATH1005/pull/32)
+
+- **仓库**: MATH1005
+- **创建于**: 2025-11-24 13:32:56
+- **作者**: Jiupai999
+
+### [[automated-generated-pr] ci: disable scheduled trigger](https://github.com/HITSZ-OpenAuto/AUTO3019/pull/12)
+
+- **仓库**: AUTO3019
+- **创建于**: 2025-11-22 17:45:56
+- **作者**: kowyo
+
+### [[automated-generated-pr] ci: disable scheduled trigger](https://github.com/HITSZ-OpenAuto/EE1011A/pull/19)
+
+- **仓库**: EE1011A
+- **创建于**: 2025-11-22 17:45:23
+- **作者**: kowyo
+
+### [上传 2025 秋张淼老师授课 PPT 并添加 24 春期末试题回忆版和答案](https://github.com/HITSZ-OpenAuto/COMP3059/pull/6)
+
+- **仓库**: COMP3059
+- **创建于**: 2025-11-17 16:59:20
+- **作者**: NeptuneZhao
+
+### [添加 2025 年深圳试题](https://github.com/HITSZ-OpenAuto/MATH4004/pull/11)
+
+- **仓库**: MATH4004
+- **创建于**: 2025-11-17 08:56:09
+- **作者**: 345ljh
+
+### [增加 2025 自控 A 的笔记](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/28)
+
+- **仓库**: AUTO3001A
+- **创建于**: 2025-11-16 16:23:26
+- **作者**: zhuqi000
+
+### [删除电子书；增加课程论文和 21 秋期末考试答案](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/27)
+
+- **仓库**: AUTO1001
+- **创建于**: 2025-11-16 01:49:44
+- **作者**: OliverWu515
+
+### [Add metadata.yaml for EE304X](https://github.com/HITSZ-OpenAuto/EE304X/pull/1)
+
+- **仓库**: EE304X
+- **创建于**: 2025-11-14 00:23:25
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3043](https://github.com/HITSZ-OpenAuto/COMP3043/pull/2)
+
+- **仓库**: COMP3043
+- **创建于**: 2025-11-14 00:23:09
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3005](https://github.com/HITSZ-OpenAuto/COMP3005/pull/6)
+
+- **仓库**: COMP3005
+- **创建于**: 2025-11-14 00:22:39
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3042](https://github.com/HITSZ-OpenAuto/COMP3042/pull/7)
+
+- **仓库**: COMP3042
+- **创建于**: 2025-11-14 00:21:52
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3039](https://github.com/HITSZ-OpenAuto/COMP3039/pull/4)
+
+- **仓库**: COMP3039
+- **创建于**: 2025-11-14 00:21:13
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3054](https://github.com/HITSZ-OpenAuto/COMP3054/pull/6)
+
+- **仓库**: COMP3054
+- **创建于**: 2025-11-14 00:09:22
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3021](https://github.com/HITSZ-OpenAuto/COMP3021/pull/5)
+
+- **仓库**: COMP3021
+- **创建于**: 2025-11-14 00:08:50
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3029](https://github.com/HITSZ-OpenAuto/COMP3029/pull/4)
+
+- **仓库**: COMP3029
+- **创建于**: 2025-11-14 00:08:00
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3018](https://github.com/HITSZ-OpenAuto/COMP3018/pull/4)
+
+- **仓库**: COMP3018
+- **创建于**: 2025-11-14 00:01:52
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3017](https://github.com/HITSZ-OpenAuto/COMP3017/pull/5)
+
+- **仓库**: COMP3017
+- **创建于**: 2025-11-14 00:01:08
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3028](https://github.com/HITSZ-OpenAuto/COMP3028/pull/6)
+
+- **仓库**: COMP3028
+- **创建于**: 2025-11-14 00:00:12
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3030](https://github.com/HITSZ-OpenAuto/COMP3030/pull/4)
+
+- **仓库**: COMP3030
+- **创建于**: 2025-11-13 23:59:33
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3053](https://github.com/HITSZ-OpenAuto/COMP3053/pull/4)
+
+- **仓库**: COMP3053
+- **创建于**: 2025-11-13 23:54:34
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3002](https://github.com/HITSZ-OpenAuto/COMP3002/pull/4)
+
+- **仓库**: COMP3002
+- **创建于**: 2025-11-13 23:53:49
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3009](https://github.com/HITSZ-OpenAuto/COMP3009/pull/4)
+
+- **仓库**: COMP3009
+- **创建于**: 2025-11-13 23:53:03
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3044](https://github.com/HITSZ-OpenAuto/COMP3044/pull/4)
+
+- **仓库**: COMP3044
+- **创建于**: 2025-11-13 23:52:10
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3007](https://github.com/HITSZ-OpenAuto/COMP3007/pull/5)
+
+- **仓库**: COMP3007
+- **创建于**: 2025-11-13 23:51:09
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3040](https://github.com/HITSZ-OpenAuto/COMP3040/pull/4)
+
+- **仓库**: COMP3040
+- **创建于**: 2025-11-13 23:50:12
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3004](https://github.com/HITSZ-OpenAuto/COMP3004/pull/4)
+
+- **仓库**: COMP3004
+- **创建于**: 2025-11-13 23:49:22
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP3011](https://github.com/HITSZ-OpenAuto/COMP3011/pull/4)
+
+- **仓库**: COMP3011
+- **创建于**: 2025-11-13 23:48:38
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP2010](https://github.com/HITSZ-OpenAuto/COMP2010/pull/4)
+
+- **仓库**: COMP2010
+- **创建于**: 2025-11-13 23:47:30
+- **作者**: LiPu-jpg
+
+### [Add metadata.yaml for COMP2029](https://github.com/HITSZ-OpenAuto/COMP2029/pull/4)
+
+- **仓库**: COMP2029
+- **创建于**: 2025-11-13 23:46:31
+- **作者**: LiPu-jpg
 
