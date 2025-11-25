@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (11.25)
 
+- cecilia 在 [计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003) 中提交了信息：standardize the name of document (#9)
+
 - Maxwell Jay 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：修复仓库内 2022 年笔记命名错误问题 (#19)
 
 ### 周一 (11.24)
@@ -58,12 +60,6 @@ title: AUTO 更新速递
 - **创建于**: 2025-09-03 00:33:14
 - **作者**: WDGaster703
 
-### [COMP3017 服务计算](https://github.com/HITSZ-OpenAuto/COMP3017/issues/4)
-
-- **仓库**: COMP3017
-- **创建于**: 2025-09-03 00:32:54
-- **作者**: WDGaster703
-
 ### [COMP3039 嵌入式计算](https://github.com/HITSZ-OpenAuto/COMP3039/issues/3)
 
 - **仓库**: COMP3039
@@ -98,6 +94,12 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2008
 - **创建于**: 2025-09-02 23:33:47
+- **作者**: WDGaster703
+
+### [COMP2052 数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2052/issues/3)
+
+- **仓库**: COMP2052
+- **创建于**: 2025-09-02 23:33:22
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
