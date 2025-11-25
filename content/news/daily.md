@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周二 (11.25)
+
+- Maxwell Jay 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：修复仓库内 2022 年笔记命名错误问题 (#19)
+
 ### 周一 (11.24)
 
 - Jiao Ziang 在 [n8nAutoMetadata](https://github.com/HITSZ-OpenAuto/n8nAutoMetadata) 中提交了信息：增加 n8n 工作流文件
@@ -29,12 +33,6 @@ title: AUTO 更新速递
 - Kowyo 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：ci: disable scheduled trigger (#19)
 
 ## 待解决的 Issues
-
-### [文件命名错误](https://github.com/HITSZ-OpenAuto/GEIP1018/issues/18)
-
-- **仓库**: GEIP1018
-- **创建于**: 2025-11-23 02:23:45
-- **作者**: OliverWu515
 
 ### [老师名字错误捉虫](https://github.com/HITSZ-OpenAuto/GEIP1017/issues/11)
 
@@ -94,6 +92,12 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2012
 - **创建于**: 2025-09-02 23:34:16
+- **作者**: WDGaster703
+
+### [COMP2008 计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008/issues/3)
+
+- **仓库**: COMP2008
+- **创建于**: 2025-09-02 23:33:47
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
