@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (11.25)
 
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：standardize the name of document (#9)
+
 - cecilia 在 [计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003) 中提交了信息：standardize the name of document (#9)
 
 - Maxwell Jay 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：修复仓库内 2022 年笔记命名错误问题 (#19)
