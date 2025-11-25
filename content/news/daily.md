@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-24'
+date: '2025-11-25'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周一 (11.24)
+
+- Jiao Ziang 在 [n8nAutoMetadata](https://github.com/HITSZ-OpenAuto/n8nAutoMetadata) 中提交了信息：增加 n8n 工作流文件
 
 - 345ljh 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：添加 2025 年深圳试题 (#11)
 
