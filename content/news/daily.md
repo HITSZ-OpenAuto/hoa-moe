@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-25'
+date: '2025-11-26'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -19,22 +19,6 @@ title: AUTO 更新速递
 - cecilia 在 [计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003) 中提交了信息：standardize the name of document (#9)
 
 - Maxwell Jay 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：修复仓库内 2022 年笔记命名错误问题 (#19)
-
-### 周一 (11.24)
-
-- Jiao Ziang 在 [n8nAutoMetadata](https://github.com/HITSZ-OpenAuto/n8nAutoMetadata) 中提交了信息：增加 n8n 工作流文件
-
-- 345ljh 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：添加 2025 年深圳试题 (#11)
-
-- Junda Wu 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：删除电子书；增加课程论文和 21 秋期末考试答案 (#27)
-
-- zhuqi000 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：增加 2025 自控 A 的笔记 (#28)
-
-- Rsir 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：上传 2025 复变函数思维导图 (#32)
-
-- Kowyo 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：ci: disable scheduled trigger (#12)
-
-- Kowyo 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：ci: disable scheduled trigger (#19)
 
 ## 待解决的 Issues
 
