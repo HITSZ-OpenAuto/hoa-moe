@@ -121,6 +121,10 @@ class GitHubAPIClient:
                 return ""
 
             commits = await response.json()
+            if not commits:
+                logging.warning(f"No commits found for {self.repo}")
+                return ""
+
             for commit in commits:
                 message: str = commit["commit"]["message"]
                 # Skip "valueless" commits whose messages start with these words
@@ -136,11 +140,11 @@ class GitHubAPIClient:
                 # Process the first "useful" commit and return it
                 return self.commit_info_extract(commit)
 
-            # if code reaches here, there aren't any "useful"
-            # commits in the latest 20, so return the latest one as a fallback
-            if not commits:
-                logging.warning(f"No commits found for {self.repo}")
-                return ""
+            # if code reaches here, there aren't any "useful" 
+            # commits fetched, so return the latest one as a fallback
+            logging.warning(
+                f"All of the latest {MAX_COMMITS_TO_FETCH} commits for {self.repo} are valueless."
+            )
             commit = commits[0]
             return self.commit_info_extract(commit)
 
