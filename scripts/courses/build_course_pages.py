@@ -140,7 +140,7 @@ class GitHubAPIClient:
                 # Process the first "useful" commit and return it
                 return self.commit_info_extract(commit)
 
-            # if code reaches here, there aren't any "useful" 
+            # if code reaches here, there aren't any "useful"
             # commits fetched, so return the latest one as a fallback
             logging.warning(
                 f"All of the latest {MAX_COMMITS_TO_FETCH} commits for {self.repo} are valueless."
