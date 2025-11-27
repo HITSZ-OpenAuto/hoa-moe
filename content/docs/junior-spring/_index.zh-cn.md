@@ -26,6 +26,7 @@ toc: false
 {{< card link="auto3007" title="过程控制系统" >}}
 {{< card link="auto3011" title="运动控制系统" >}}
 {{< card link="comp2050" title="数据结构与算法" >}}
+{{< card link="comp3005" title="人工智能" >}}
 {{< /cards >}}
 ## 归档
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。
