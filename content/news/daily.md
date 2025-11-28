@@ -12,6 +12,14 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周五 (11.28)
+
+- W. D. Gaster 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：修改课程信息
+
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
+- Jiao 在 [auto-metadata](https://github.com/HITSZ-OpenAuto/auto-metadata) 中提交了信息：feat: full auto-metadata pipeline
+
 ### 周四 (11.27)
 
 - W. D. Gaster 在 [人工智能](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：添加课程信息
