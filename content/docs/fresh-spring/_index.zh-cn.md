@@ -8,9 +8,9 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
-{{< card link="comp2001" title="计算机专业导论" >}}
 {{< card link="ee1013" title="电路与电子学" >}}
 {{< card link="ee1014" title="电路与电子技术实验" >}}
+{{< card link="ee1018" title="电路与电子学 I" >}}
 {{< card link="geip1016" title="中国近现代史纲要" >}}
 {{< card link="lang100x" title="大学英语" >}}
 {{< card link="math1015b" title="微积分 B" >}}
