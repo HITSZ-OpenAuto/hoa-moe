@@ -1,6 +1,6 @@
 ---
 title: （必修）微积分 A
-weight: 102
+weight: 103
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
