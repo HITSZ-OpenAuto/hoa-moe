@@ -32,6 +32,7 @@ toc: false
 {{< card link="auto3028" title="数学规划与数值优化" >}}
 {{< card link="auto5024" title="模式识别" >}}
 {{< card link="comp2014" title="C++ 语言程序设计" >}}
+{{< card link="comp3007" title="模式识别" >}}
 {{< card link="comp3011" title="计算机体系结构" >}}
 {{< card link="comp3040" title="密码学基础" >}}
 {{< /cards >}}
