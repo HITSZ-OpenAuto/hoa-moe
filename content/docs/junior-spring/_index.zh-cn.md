@@ -30,6 +30,7 @@ toc: false
 {{< card link="comp3017" title="服务计算" >}}
 {{< card link="comp3018" title="图像处理" >}}
 {{< card link="comp3028" title="软件体系结构" >}}
+{{< card link="comp3029" title="计算机视觉" >}}
 {{< card link="comp3030" title="信息检索" >}}
 {{< /cards >}}
 ## 归档
