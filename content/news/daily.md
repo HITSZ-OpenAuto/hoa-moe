@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (11.28)
 
+- W. D. Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改 24 级电路与电子学 II 的内容，将 I 和 III 内容独立
+
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Initial commit
