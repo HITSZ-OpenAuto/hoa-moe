@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (11.28)
 
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Initial commit
+
 - W. D. Gaster 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：新建自动化导论的仓库
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
