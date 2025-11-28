@@ -14,13 +14,17 @@ title: AUTO 更新速递
 
 ### 周五 (11.28)
 
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：将电路与电子学 I 课程从电路与电子学 II 中拆分出来独立仓库，并将 OpenCS 的电工与电子技术相关资料进行迁移。
+- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：新课程仓库拆分上新
+
+- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：新仓库拆分上新
+
+- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：将电路与电子学 I 课程从电路与电子学 II 中拆分出来独立仓库，并将 OpenCS 的电工与电子技术相关资料进行迁移。
 
 - W. D. Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改 24 级电路与电子学 II 的内容，将 I 和 III 内容独立
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Initial commit
+- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [电磁场](https://github.com/HITSZ-OpenAuto/EE2003) 中提交了信息：更新课程信息
 
