@@ -14,9 +14,11 @@ title: AUTO 更新速递
 
 ### 周五 (11.28)
 
+- W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：迁移 OpenCS 的计算机导论内容并做说明
+
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：Initial commit
+- W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：新课程仓库拆分上新
 
