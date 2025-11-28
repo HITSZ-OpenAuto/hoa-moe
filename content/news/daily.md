@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (11.28)
 
+- W. D. Gaster 在 [面向领域的计算机系统设计与开发实践](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：更新课程信息
+
 - W. D. Gaster 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：修改课程信息
 
 - W. D. Gaster 在 [智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：修改课程信息
