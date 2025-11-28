@@ -33,6 +33,7 @@ toc: false
 {{< card link="comp3028" title="软件体系结构" >}}
 {{< card link="comp3029" title="计算机视觉" >}}
 {{< card link="comp3030" title="信息检索" >}}
+{{< card link="comp3042" title="智能证券投资" >}}
 {{< card link="comp3054" title="网络与系统安全" >}}
 {{< /cards >}}
 ## 归档
