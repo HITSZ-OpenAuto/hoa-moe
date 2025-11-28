@@ -15,7 +15,6 @@ toc: false
 {{< card link="comp3001" title="操作系统" >}}
 {{< card link="comp3003" title="计算机网络" >}}
 {{< card link="comp3059" title="软件构造" >}}
-{{< card link="ee2003" title="电磁场" >}}
 {{< card link="ee3001" title="电机学" >}}
 {{< card link="ee3002" title="电力电子技术" >}}
 {{< card link="ee3015" title="电力系统分析" >}}
