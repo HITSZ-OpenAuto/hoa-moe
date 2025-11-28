@@ -5,6 +5,11 @@ comments: false
 toc: false
 ---
 探索以下各节以查找相关资料
+## 必修
+<!--more-->
+{{< cards >}}
+{{< card link="comp2029" title="面向领域的计算机系统设计与开发实践" >}}
+{{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
 <!--more-->
