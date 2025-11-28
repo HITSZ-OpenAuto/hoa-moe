@@ -32,11 +32,13 @@ toc: false
 {{< card link="auto3028" title="数学规划与数值优化" >}}
 {{< card link="auto5024" title="模式识别" >}}
 {{< card link="comp2014" title="C++ 语言程序设计" >}}
+{{< card link="comp3002" title="软件工程" >}}
 {{< card link="comp3007" title="模式识别" >}}
 {{< card link="comp3009" title="大数据导论" >}}
 {{< card link="comp3011" title="计算机体系结构" >}}
 {{< card link="comp3040" title="密码学基础" >}}
 {{< card link="comp3044" title="计算机体系结构" >}}
+{{< card link="comp3053" title="汇编语言与接口技术" >}}
 {{< /cards >}}
 ## 归档
 此类课程在之前的培养方案中处于较重要的地位，但由于培养方案的调整，现在不再开设了。不过，原课程资料仍保留，感兴趣的同学可以自行查阅。
