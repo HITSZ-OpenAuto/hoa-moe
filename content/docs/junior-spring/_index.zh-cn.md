@@ -27,6 +27,8 @@ toc: false
 {{< card link="auto3011" title="运动控制系统" >}}
 {{< card link="comp2050" title="数据结构与算法" >}}
 {{< card link="comp3005" title="人工智能" >}}
+{{< card link="comp3017" title="服务计算" >}}
+{{< card link="comp3018" title="图像处理" >}}
 {{< card link="comp3028" title="软件体系结构" >}}
 {{< card link="comp3030" title="信息检索" >}}
 {{< /cards >}}
