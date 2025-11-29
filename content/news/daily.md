@@ -12,6 +12,12 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (11.29)
+
+- W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：添加个课程学时和成绩安排
+
+- W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：添加两位同学的评价
+
 ### 周五 (11.28)
 
 - W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：修改格式错误
@@ -118,9 +124,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [上传 2025 秋张淼老师授课 PPT 并添加 24 春期末试题回忆版和答案](https://github.com/HITSZ-OpenAuto/COMP3059/pull/6)
-
-- **仓库**: COMP3059
-- **创建于**: 2025-11-17 16:59:20
-- **作者**: NeptuneZhao
+暂无待合并的 Pull Requests
 
