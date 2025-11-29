@@ -8,7 +8,9 @@ toc: false
 ## 必修
 <!--more-->
 {{< cards >}}
+{{< card link="auto2001" title="自动化专业导论" >}}
 {{< card link="comp1011" title="程序设计思维与实践" >}}
+{{< card link="comp2001" title="计算机专业导论" >}}
 {{< card link="geip1015" title="思想道德与法治" >}}
 {{< card link="geip1017" title="习近平新时代中国特色社会主义思想概论" >}}
 {{< card link="lang100x" title="大学英语" >}}

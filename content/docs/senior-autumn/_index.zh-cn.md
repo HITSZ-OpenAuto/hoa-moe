@@ -5,12 +5,18 @@ comments: false
 toc: false
 ---
 探索以下各节以查找相关资料
+## 必修
+<!--more-->
+{{< cards >}}
+{{< card link="comp2029" title="面向领域的计算机系统设计与开发实践" >}}
+{{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
 <!--more-->
 {{< cards >}}
 {{< card link="auto3012" title="移动机器人导论" >}}
 {{< card link="auto5024" title="模式识别" >}}
+{{< card link="ee30xx" title="电气专业选修课" >}}
 {{< /cards >}}
 ## 本研共通
 此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看[研究生阶段课程选课指南](https://hoa.moe/blog/master-phd-course-selection/)。
