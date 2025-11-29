@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/EE30XX/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 11 月 29 日" author="W. D. Gaster" message="添加两位同学的评价" >}}
+{{< update-info update_time="2025 年 11 月 29 日" author="W. D. Gaster" message="添加个课程学时和成绩安排" >}}
 
 <div class="hoa-badge">
 
@@ -16,7 +16,7 @@ math: true
 
 电气专业的选修课开设于第三学年春季学期和第四学年秋季学期。
 
-自 22 级起，电气专业的选修课不再区分*电力系统及其自动化*和*电力电子与电机驱动*两个方向，而是从全部的 22 门课程中选择任意门修读满足学分要求即可。22 级要求 9 学分，23 级要求 8 学分，24 级要求 10 学分。
+自 22 级起，电气专业的选修课不再区分*电力系统及其自动化*和*电力电子与电机驱动*两个方向，而是从全部课程中选择任意门修读满足学分要求即可。22 级要求 9 学分，23 级要求 8 学分，24 级要求 10 学分。
 
 ## 第三学年春季学期
 
@@ -29,6 +29,10 @@ math: true
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A70%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A-70%25-wheat)
 ![%E5%AE%9E%E9%AA%8C30%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-30%25-wheat)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-32-gold)
+![%E7%90%86%E8%AE%BA22](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-22-wheat) 
+![%E5%AE%9E%E9%AA%8C10](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-10-wheat)
 
 </div>
 
@@ -51,6 +55,10 @@ math: true
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B050%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-50%25-wheat)
 ![%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A50%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A-50%25-wheat)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-32-gold)
+![%E7%90%86%E8%AE%BA22](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-22-wheat) 
+![%E5%AE%9E%E9%AA%8C10](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-10-wheat)
 
 </div>
 
@@ -78,6 +86,10 @@ math: true
 ![%E5%B9%B3%E6%97%B6%E5%8F%8A%E5%AE%9E%E9%AA%8C50%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E5%8F%8A%E5%AE%9E%E9%AA%8C-50%25-wheat)
 ![%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A50%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A-50%25-wheat)
 
+![%E6%80%BB%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-32-gold)
+![%E7%90%86%E8%AE%BA16](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-16-wheat) 
+![%E5%AE%9E%E9%AA%8C16](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-16-wheat)
+
 </div>
 
 - 潘学伟
@@ -99,6 +111,10 @@ math: true
 ![%E5%B0%8F%E7%BB%84%E6%B1%87%E6%8A%A530%](https://img.shields.io/badge/%E5%B0%8F%E7%BB%84%E6%B1%87%E6%8A%A5-30%25-wheat)
 ![%E5%AE%9E%E9%AA%8C40%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-40%25-wheat)
 
+![%E6%80%BB%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-32-gold)
+![%E7%90%86%E8%AE%BA16](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-16-wheat) 
+![%E5%AE%9E%E9%AA%8C12+4](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-12+4-wheat)
+
 </div>
 
 - 吴婷
@@ -119,6 +135,9 @@ math: true
 ![%E5%AE%9E%E9%AA%8C60%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-60%25-wheat)
 ![%E8%AF%BE%E7%A8%8B%E8%AE%BA%E6%96%8740%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E8%AE%BA%E6%96%87-40%25-wheat)
 
+![%E6%80%BB%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-32-gold)
+![%E7%90%86%E8%AE%BA20](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-20-wheat) 
+![%E5%AE%9E%E9%AA%8C12](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-12-wheat)
 
 </div>
 
@@ -148,8 +167,14 @@ math: true
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%AE%9E%E9%AA%8C100%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-100%25-wheat)
 
+![%E6%80%BB%E5%AD%A6%E6%97%B624](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-24-gold)
+![%E5%AE%9E%E9%AA%8C24](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-24-wheat)
 
 </div>
+
+- 李文立（本研上为张弦老师，但是实际上是李文立老师在带）
+
+原来*电力系统及其自动化*方向的模块实验。
 
 ### EE3027 现代电机设计与 CAD
 
@@ -158,6 +183,10 @@ math: true
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-24-gold)
+![%E7%90%86%E8%AE%BA16](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-16-wheat) 
+![%E4%B8%8A%E6%9C%BA8](https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA-8-wheat)
 
 </div>
 
@@ -170,6 +199,9 @@ math: true
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B624](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-24-gold)
+![%E7%90%86%E8%AE%BA24](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-24-wheat) 
 
 </div>
 
@@ -201,13 +233,15 @@ math: true
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%B9%B3%E6%97%B640%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-40%25-wheat)
 ![%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A60%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A-60%25-wheat)
-</div>
 
-没给具体成绩构成，由考勤和课程报告组成。
+![%E6%80%BB%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-16-gold)
+![%E7%90%86%E8%AE%BA16](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-16-wheat) 
+
+</div>
 
 - 张东来
 
-以小测形式考勤，上课的内容主要围绕模糊控制来讲，很轻松，想选张东来老师作为研究生导师的同学建议选这门课。没有实验。
+以小测形式考勤，上课的内容主要围绕模糊控制来讲，很轻松，想选张东来老师作为研究生导师的同学建议选这门课。
 
 > 文 / LJH，2025.11
 
@@ -218,6 +252,10 @@ math: true
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B624](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-24-gold)
+![%E7%90%86%E8%AE%BA8](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-8-wheat) 
+![%E5%AE%9E%E9%AA%8C16](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-16-wheat)
 
 </div>
 
@@ -231,6 +269,9 @@ math: true
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 
+![%E6%80%BB%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-16-gold)
+![%E7%90%86%E8%AE%BA16](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-16-wheat) 
+
 </div>
 
 - 和军平
@@ -242,6 +283,10 @@ math: true
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-32-gold)
+![%E7%90%86%E8%AE%BA24](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-24-wheat) 
+![%E4%B8%8A%E6%9C%BA8](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-8-wheat)
 
 </div>
 
@@ -255,6 +300,10 @@ math: true
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 
+![%E6%80%BB%E5%AD%A6%E6%97%B624](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-24-gold)
+![%E7%90%86%E8%AE%BA20](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-20-wheat) 
+![%E5%AE%9E%E9%AA%8C4](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-4-wheat)
+
 </div>
 
 - 梁仲明
@@ -267,9 +316,13 @@ math: true
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 
+![%E6%80%BB%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-16-gold)
+![%E7%90%86%E8%AE%BA12](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-12-wheat) 
+![%E5%AE%9E%E9%AA%8C4](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-4-wheat)
+
 </div>
 
-- 叶剑
+- 叶剑（老师已离职，故 22 级未开课）
 
 ### EE3029 高电压技术
 
@@ -280,6 +333,10 @@ math: true
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B050%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-50%25-wheat)
 ![%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A50%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A-50%25-wheat)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-16-gold)
+![%E7%90%86%E8%AE%BA12](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-12-wheat) 
+![%E5%AE%9E%E9%AA%8C4](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-4-wheat)
 
 </div>
 
@@ -297,39 +354,13 @@ math: true
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 
+![%E6%80%BB%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-16-gold)
+![%E7%90%86%E8%AE%BA12](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-12-wheat) 
+![%E5%AE%9E%E9%AA%8C4](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-4-wheat)
+
 </div>
 
 - 朱荣伍
-
-### EE3032 高压直流输电技术
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-
-</div>
-
-### EE3037 新型电机原理与应用
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-
-</div>
-
-### EE3039 先进储能系统
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-
-</div>
 
 ### EE3040 电力市场概论
 
@@ -340,6 +371,10 @@ math: true
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%AE%9E%E9%AA%8C40%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-40%25-wheat)
 ![%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A60%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%91%8A-60%25-wheat)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B624](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-24-gold)
+![%E7%90%86%E8%AE%BA12](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-12-wheat) 
+![%E5%AE%9E%E9%AA%8C6+6](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-6+6-wheat)
 
 </div>
 
@@ -356,6 +391,9 @@ math: true
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+
+![%E6%80%BB%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E6%80%BB%E5%AD%A6%E6%97%B6-16-gold)
+![%E7%90%86%E8%AE%BA16](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-16-wheat) 
 
 </div>
 
