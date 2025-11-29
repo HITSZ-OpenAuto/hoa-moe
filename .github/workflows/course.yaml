@@ -72,13 +72,6 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: uv run scripts/courses/build_course_pages.py
 
-      - name: Upload skipped commits log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: skipped-commits
-          path: skipped_commits.json
-
       - name: Build semester pages
         run: ./scripts/workflows/build_semester_pages.sh
 
