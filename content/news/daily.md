@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-29'
+date: '2025-11-30'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,90 +17,6 @@ title: AUTO 更新速递
 - W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：添加个课程学时和成绩安排
 
 - W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：添加两位同学的评价
-
-### 周五 (11.28)
-
-- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：修改格式错误
-
-- W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：修改开课学期
-
-- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：新仓库上新
-
-- W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：新建电气选修课仓库
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：新建自动化导论的仓库
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- W. D. Gaster 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：迁移 OpenCS 的计算机导论内容并做说明
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：新课程仓库拆分上新
-
-- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：新仓库拆分上新
-
-- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：将电路与电子学 I 课程从电路与电子学 II 中拆分出来独立仓库，并将 OpenCS 的电工与电子技术相关资料进行迁移。
-
-- W. D. Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改 24 级电路与电子学 II 的内容，将 I 和 III 内容独立
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [电磁场](https://github.com/HITSZ-OpenAuto/EE2003) 中提交了信息：更新课程信息
-
-- W. D. Gaster 在 [面向领域的计算机系统设计与开发实践](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：更新课程信息
-
-- W. D. Gaster 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [自然语言处理](https://github.com/HITSZ-OpenAuto/COMP3021) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [计算机视觉](https://github.com/HITSZ-OpenAuto/COMP3029) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [图像处理](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [服务计算](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [软件体系结构](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [信息检索](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3044) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [模式识别](https://github.com/HITSZ-OpenAuto/COMP3007) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [密码学基础](https://github.com/HITSZ-OpenAuto/COMP3040) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：修改课程信息
-
-- W. D. Gaster 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：修改课程信息
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- Jiao 在 [auto-metadata](https://github.com/HITSZ-OpenAuto/auto-metadata) 中提交了信息：feat: full auto-metadata pipeline
 
 ## 待解决的 Issues
 
