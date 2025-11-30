@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (11.30)
+
+- 345ljh 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：添加 2025 试题 (#16)
+
 ### 周六 (11.29)
 
 - W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：添加个课程学时和成绩安排
