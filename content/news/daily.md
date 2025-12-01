@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-11-30'
+date: '2025-12-01'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -19,12 +19,6 @@ title: AUTO 更新速递
 ### 周日 (11.30)
 
 - 345ljh 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：添加 2025 试题 (#16)
-
-### 周六 (11.29)
-
-- W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：添加个课程学时和成绩安排
-
-- W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：添加两位同学的评价
 
 ## 待解决的 Issues
 
