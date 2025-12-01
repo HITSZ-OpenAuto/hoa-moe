@@ -14,9 +14,15 @@ title: AUTO 更新速递
 
 ### 周一 (12.1)
 
+- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #28 from capoo-fan/patch-1
+
+- Capoo-King 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md
+
 - OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：更新试题解析
 
 ### 周日 (11.30)
+
+- Capoo-King 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：在 README 加入 typst 模版仓库说明
 
 - 345ljh 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：添加 2025 试题 (#16)
 
@@ -42,9 +48,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [在 README 加入 typst 模版仓库说明](https://github.com/HITSZ-OpenAuto/MATH1004/pull/28)
-
-- **仓库**: MATH1004
-- **创建于**: 2025-11-30 18:34:40
-- **作者**: capoo-fan
+暂无待合并的 Pull Requests
 
