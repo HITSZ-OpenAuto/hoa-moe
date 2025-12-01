@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2023 年 12 月 3 日" author="Longbin Tang" message="Delete License" >}}
+{{< update-info update_time="2024 年 5 月 18 日" author="Kowyo" message="Add trigger workflow (#1)" >}}
 
 <div class="hoa-badge">
 
