@@ -108,7 +108,7 @@ GitHub 提供的方法实际上支持多文件上传，但这些文件必须上�
    > 文 / [IcyDesert](https://github.com/IcyDesert), 2025.1
    ```
 
-3. commit message 和 PR 的标题，不要只写「增加/修改/删除一些内容」，而要明确写清：「增加 **xx 教师的信息及评价**」、「更新**课程大纲**」、「增加**课程建议**」、「修改**学分学时安排**」等
+3. commit message 和 PR 的标题**强烈推荐写中文**。不要只写「增加/修改/删除一些内容」，而要明确写清：「增加 **xx 教师的信息及评价**」、「更新**课程大纲**」、「增加**课程建议**」、「修改**学分学时安排**」等
 
 4. 中文排版应按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md) 的规范进行
 
