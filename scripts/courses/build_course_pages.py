@@ -33,6 +33,8 @@ COUNTERS = {
     "legacy": "counter_legacy",
 }
 
+SKIP_KEYWORDS = ("replace", "ci", "update", "[automated-generated-pr]")
+
 SEMESTER_MAPPING = {
     "第一学年秋季": "fresh-autumn",
     "第一学年春季": "fresh-spring",
@@ -71,6 +73,7 @@ CATEGORY_MAPPING: dict[str] = {
     ),
 }
 
+MAX_COMMITS_TO_FETCH = 20
 
 # Pre-compiled regex for better performance
 PATTERN_CATEGORY = re.compile(r"category:\s*(.*)")
@@ -105,7 +108,9 @@ class GitHubAPIClient:
 
     async def get_latest_commit(self):
         commits_url = f"https://api.github.com/repos/{self.owner}/{self.repo}/commits"
-        params = {"per_page": 20}  # Fetch up to 20 commits to find a "useful" one
+        params = {
+            "per_page": MAX_COMMITS_TO_FETCH
+        }  # Fetch up to MAX_COMMITS_TO_FETCH commits to find a "useful" one
 
         async with self.session.get(commits_url, params=params) as response:
             if response.status != 200:
@@ -115,22 +120,24 @@ class GitHubAPIClient:
                 return ""
 
             commits = await response.json()
+            if not commits:
+                logging.warning(f"No commits found for {self.repo}")
+                return ""
+
             for commit in commits:
                 message: str = commit["commit"]["message"]
                 # Skip "valueless" commits whose messages start with these words
-                if message.startswith(
-                    ("Replace", "Add", "ci", "Update", "[automated-generated-pr]")
-                ):
+                if message.lower().startswith(SKIP_KEYWORDS):
                     continue
 
                 # Process the first "useful" commit and return it
                 return self.commit_info_extract(commit)
 
             # if code reaches here, there aren't any "useful"
-            # commits in the latest 20, so return the latest one as a fallback
-            if not commits:
-                logging.warning(f"No commits found for {self.repo}")
-                return ""
+            # commits fetched, so return the latest one as a fallback
+            logging.warning(
+                f"All of the latest {MAX_COMMITS_TO_FETCH} commits for {self.repo} are valueless."
+            )
             commit = commits[0]
             return self.commit_info_extract(commit)
 
