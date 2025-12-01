@@ -33,7 +33,7 @@ COUNTERS = {
     "legacy": "counter_legacy",
 }
 
-SKIP_KEYWORDS = ("replace", "add", "ci", "update", "[automated-generated-pr]")
+SKIP_KEYWORDS = ("replace", "ci", "update", "[automated-generated-pr]")
 
 SEMESTER_MAPPING = {
     "第一学年秋季": "fresh-autumn",
@@ -94,7 +94,6 @@ class GitHubAPIClient:
         # For update semester-category file
         self.semester_category_filenames: list[str] = []
         self.name: str | None = None
-        self.skipped_commits: list[dict] = []
 
     async def init_session(self):
         headers = {
@@ -129,12 +128,6 @@ class GitHubAPIClient:
                 message: str = commit["commit"]["message"]
                 # Skip "valueless" commits whose messages start with these words
                 if message.lower().startswith(SKIP_KEYWORDS):
-                    self.skipped_commits.append(
-                        {
-                            "repo": self.repo,
-                            "message": message,
-                        }
-                    )
                     continue
 
                 # Process the first "useful" commit and return it
@@ -337,15 +330,9 @@ async def process_multiple_repos(owner: str, repos: list, token: str) -> None:
 
     await asyncio.gather(*tasks)
 
-    all_skipped_commits = []
-
     for client in clients:
         client.update_semester_category_file()  # 最后执行更新学期类别文件，以固定构建网页时的顺序
         await client.close_session()
-        all_skipped_commits.extend(client.skipped_commits)
-
-    with open("skipped_commits.json", "w", encoding="utf-8") as f:
-        json.dump(all_skipped_commits, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
