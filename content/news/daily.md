@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-01'
+date: '2025-12-02'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,14 +17,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #28 from capoo-fan/patch-1
 
 - Capoo-King 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md
-
-- OliverWu515 在 [矩阵分析](https://github.com/HITSZ-OpenAuto/MATH4001) 中提交了信息：更新试题解析
-
-### 周日 (11.30)
-
-- Capoo-King 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：在 README 加入 typst 模版仓库说明
-
-- 345ljh 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：添加 2025 试题 (#16)
 
 ## 待解决的 Issues
 
