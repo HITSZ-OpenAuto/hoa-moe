@@ -10,7 +10,7 @@ excludeSearch: false
 math: false
 ---
 
-本文亦见于 [Oliver Wu 的个人博客](https://oliverwu.top/HOA-1st-anniversary)。
+本文亦见于 [Oliver Wu 的个人博客](https://oliverwu.top/hoa-1st-anniversary)。
 
 ## 缘起
 
