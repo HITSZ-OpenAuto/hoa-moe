@@ -16,39 +16,11 @@ sidebar:
 
 {{% /details %}}
 
-如果您认为 `HITSZ 自动化课程攻略共享计划` 提供的信息对您有帮助，请考虑捐助 ¥2 给我们。每一份慷慨捐助都将大幅减轻我们承担的域名的费用负担，同时也是对维护者最大的鼓励。我们鼓励选择“向对方展示我的名字”，你的 ID 和留言将会显示在我们的 [Sponsor](https://hoa.moe/sponsor/) 页面中。受限于赞赏的留言字数限制，如果你有更多想说的，欢迎致信我们的 [📮邮箱](mailto:hi@hoa.moe)。
+承蒙同学的关注与支持，本站目前已经收到能够覆盖未来多年运营的捐助，因此我们暂时停止接受捐助。如果您希望 HOA 能够更好地持续运营下去，我们鼓励您通过以下方式继续支持我们：
 
-<br>
-<img src="/images/sponsor.webp" alt="Reward_Code" style="zoom:25%; display: block; margin: 0 auto;" />
-<br>
+1. **分享本站**：将 `HITSZ 自动化课程攻略共享计划` 推荐给您身边的同学
 
-## 捐助进度
-
-`HITSZ 自动化课程攻略共享计划` 目前收到的捐助可以让本项目的生命延续到 2028 年 7 月：
-
-<br>
-<div style="display: flex; align-items: center; width: 100%;">
-    <div style="flex: 1; background-color: #e5e7eb; border-radius: 9999px; height: 10px; margin-right: 10px;">
-        <div class="progress-bar" style="background-color: #3b82f6; height: 100%; border-radius: 9999px; width: 45%;"></div>
-    </div>
-    <span>2033 年 11 月</span>
-</div>
-
-<style>
-.progress-bar {
-    background-color: #3b82f6;
-    animation: fill 3s forwards;
-}
-
-@keyframes fill {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 46%;
-    }
-}
-</style>
+2. **参与内容**：我们十分欢迎且需要您参与到内容的编写与维护
 
 <!-- 目前已经续费至 2027 年 11 月-->
 <!-- 2023 年 11 月 -2024 年 11 月域名费用：$13.99 -> 101.70 -->
@@ -69,6 +41,13 @@ sidebar:
 
 | 来自              | 日期       | 留言                                                         |
 | ----------------- | ---------- | ------------------------------------------------------------ |
+| 匿名              | 2025.12.2  | 严肃支持🫡                                                   |
+| 无名小卒          | 2025.12.2  | hoa 对我们帮助很大，伟大无需多言！！！                       |
+| JZWXZ             | 2025.12.2  | 希望这份开源精神可以传承下去！                               |
+| CuO_s             | 2025.12.2  | HOA 伟大，无需多言                                           |
+| Alan              | 2025.12.2  |                                                              |
+| 2xyyy             | 2025.12.2  | 我希望只要是前人走过的弯路，后人就不必再走😭                 |
+| ^＿.              | 2025.12.2  | 添砖加瓦                                                     |
 | Ching Yan         | 2025.11.18 | 感谢你们的贡献，希望可以帮到越来越多的同学！                 |
 | Jc                | 2025.9.12  | 你们太伟大了，支持                                           |
 | Gerrit            | 2025.9.12  | 感谢 Gaster 开源，感谢 Suiii 的大物实验报告                  |
