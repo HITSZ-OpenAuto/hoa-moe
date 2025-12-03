@@ -1,4 +1,5 @@
 ---
+title: 问卷调查
 authors:
   - image: https://github.com/kowyo.png
     link: https://github.com/kowyo
@@ -6,7 +7,7 @@ authors:
 date: "2024-05-23"
 draft: false
 excludeSearch: false
-title: 问卷调查
+description: OpenAuto 的第一次问卷调查来啦
 ---
 
 OpenAuto 的第一次问卷调查来啦，希望屏幕前的你可以抽出几分钟时间填写，让我们更了解我们的社区和用户。
