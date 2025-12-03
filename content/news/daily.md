@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (12.3)
 
+- Anastasia-Charies 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：上传 2024 数字逻辑设计期末考试的个人解答
+
 - OliverWu515 在 [优化算法](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：上线新课程
 
 ## 待解决的 Issues
