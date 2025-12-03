@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-02'
+date: '2025-12-03'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (12.1)
+### 周三 (12.3)
 
-- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #28 from capoo-fan/patch-1
-
-- Capoo-King 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md
+- OliverWu515 在 [优化算法](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：上线新课程
 
 ## 待解决的 Issues
 
@@ -26,17 +24,12 @@ title: AUTO 更新速递
 - **创建于**: 2025-11-04 17:13:45
 - **作者**: ll3me
 
-### [COMP2012 计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012/issues/4)
+### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
-- **仓库**: COMP2012
-- **创建于**: 2025-09-02 23:34:16
-- **作者**: WDGaster703
-
-### [COMP3006 模式识别](https://github.com/HITSZ-OpenAuto/COMP3007/issues/1)
-
-- **仓库**: COMP3007
-- **创建于**: 2025-08-23 18:38:19
-- **作者**: LiPu-jpg
+- **仓库**: MATH1002
+- **创建于**: 2025-01-20 15:32:37
+- **作者**: MaxwellJay256
+- **标签**: help wanted
 
 ## 待合并的 Pull Requests
 
