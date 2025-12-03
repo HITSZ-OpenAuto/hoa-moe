@@ -40,5 +40,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [加入了数字逻辑实验的相关仓库](https://github.com/HITSZ-OpenAuto/COMP2051/pull/8)
+
+- **仓库**: COMP2051
+- **创建于**: 2025-12-02 19:48:35
+- **作者**: capoo-fan
 
