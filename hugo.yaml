@@ -126,10 +126,10 @@ menu:
 params:
   description: 由 HITSZ OpenAuto 维护，为 HITSZ 学子提供课程攻略共享服务
 
-  # banner:
-  #   key: annoucement-20250926
-  #   message: |
-  #     🎉 欢迎大家于 9 月 27 日（周六）来社团招新嘉年华（H 栋前广场，天和 #10 摊位）参观并与我们的 Core 团队交流！
+  banner:
+    key: survey-20251203
+    message: |
+      🎉 HOA 第二期社区调查来啦！🎉 请帮助我们更好地维护项目和社区：[填写问卷](https://forms.office.com/r/0ZkXCxGmXM)
   math:
     engine: mathjax
   navbar:
