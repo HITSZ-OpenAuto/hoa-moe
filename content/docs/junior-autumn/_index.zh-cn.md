@@ -22,7 +22,7 @@ toc: false
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
-[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
+[限选课选课指南](https://hoa.moe/blog/course-selection/distributive-guidance-for-23/)
 <!--more-->
 {{< cards >}}
 {{< card link="auto3003" title="数字图像处理" >}}
