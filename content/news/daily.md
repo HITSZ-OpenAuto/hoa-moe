@@ -35,6 +35,18 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
+
+- **仓库**: COMP3002
+- **创建于**: 2025-12-05 02:10:27
+- **作者**: Zsh-cs
+
+### [增加 2024 作业答案、2025 作业源文档](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/17)
+
+- **仓库**: AUTO5013
+- **创建于**: 2025-12-04 15:00:27
+- **作者**: OliverWu515
+
 ### [加入了数字逻辑实验的相关仓库](https://github.com/HITSZ-OpenAuto/COMP2051/pull/8)
 
 - **仓库**: COMP2051
