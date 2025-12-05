@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-02'
+date: '2025-12-04'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (12.1)
+### 周三 (12.3)
 
-- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #28 from capoo-fan/patch-1
+- Anastasia-Charies 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：上传 2024 数字逻辑设计期末考试的个人解答
 
-- Capoo-King 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md
+- OliverWu515 在 [优化算法](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：上线新课程
 
 ## 待解决的 Issues
 
@@ -26,19 +26,26 @@ title: AUTO 更新速递
 - **创建于**: 2025-11-04 17:13:45
 - **作者**: ll3me
 
-### [COMP2012 计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012/issues/4)
+### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
-- **仓库**: COMP2012
-- **创建于**: 2025-09-02 23:34:16
-- **作者**: WDGaster703
-
-### [COMP3006 模式识别](https://github.com/HITSZ-OpenAuto/COMP3007/issues/1)
-
-- **仓库**: COMP3007
-- **创建于**: 2025-08-23 18:38:19
-- **作者**: LiPu-jpg
+- **仓库**: MATH1002
+- **创建于**: 2025-01-20 15:32:37
+- **作者**: MaxwellJay256
+- **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
+
+- **仓库**: COMP3002
+- **创建于**: 2025-12-05 02:10:27
+- **作者**: Zsh-cs
+
+### [增加 2024 作业答案、2025 作业源文档](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/17)
+
+- **仓库**: AUTO5013
+- **创建于**: 2025-12-04 15:00:27
+- **作者**: OliverWu515
 
 ### [加入了数字逻辑实验的相关仓库](https://github.com/HITSZ-OpenAuto/COMP2051/pull/8)
 
