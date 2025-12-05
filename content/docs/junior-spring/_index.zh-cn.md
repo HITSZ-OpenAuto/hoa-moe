@@ -18,7 +18,7 @@ toc: false
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
-[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)
+[限选课选课指南](https://hoa.moe/blog/course-selection-auto/distributive-guidance-for-23/)
 <!--more-->
 {{< cards >}}
 {{< card link="auto3005" title="机器人学导论" >}}

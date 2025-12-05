@@ -58,11 +58,11 @@ CATEGORY_MAPPING: dict[str] = {
     "必修": ("mandatory", None),
     "限选": (
         "distributional-selective",
-        "[限选课选课指南](https://hoa.moe/blog/distributive-guidance-for-23/)",
+        "[限选课选课指南](https://hoa.moe/blog/course-selection-auto/distributive-guidance-for-23/)",
     ),
     "本研共通": (
         "undergraduate-graduate-course",
-        "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看[研究生阶段课程选课指南](https://hoa.moe/blog/master-phd-course-selection/)。",
+        "此类课程是本科生可跨选的研究生阶段课程。它们也属限选课，但是与专业限选课性质不同，故单独列出。具体请看[研究生阶段课程选课指南](https://hoa.moe/blog/course-selection-auto/master-phd-course-selection-for-25/)。",
     ),
     "选修": ("selective", None),
     "跨专业选修": ("cross-major-selective", None),
