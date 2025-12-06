@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-04'
+date: '2025-12-06'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (12.3)
+### 周五 (12.5)
 
-- Anastasia-Charies 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：上传 2024 数字逻辑设计期末考试的个人解答
-
-- OliverWu515 在 [优化算法](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：上线新课程
+- Junda Wu 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：增加 2024 作业答案、2025 作业源文档 (#17)
 
 ## 待解决的 Issues
 
@@ -40,12 +38,6 @@ title: AUTO 更新速递
 - **仓库**: COMP3002
 - **创建于**: 2025-12-05 02:10:27
 - **作者**: Zsh-cs
-
-### [增加 2024 作业答案、2025 作业源文档](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/17)
-
-- **仓库**: AUTO5013
-- **创建于**: 2025-12-04 15:00:27
-- **作者**: OliverWu515
 
 ### [加入了数字逻辑实验的相关仓库](https://github.com/HITSZ-OpenAuto/COMP2051/pull/8)
 
