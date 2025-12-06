@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (12.7)
+
+- HalfCooler 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：上传 22 年试题答案、24 年试题和答案和 25 年试题和答案。
+
 ### 周五 (12.5)
 
 - Junda Wu 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：增加 2024 作业答案、2025 作业源文档 (#17)
@@ -39,7 +43,7 @@ title: AUTO 更新速递
 - **创建于**: 2025-12-05 02:10:27
 - **作者**: Zsh-cs
 
-### [加入了数字逻辑实验的相关仓库](https://github.com/HITSZ-OpenAuto/COMP2051/pull/8)
+### [加入了数字逻辑实验的相关仓库和 2024 秋数字逻辑解答电子版](https://github.com/HITSZ-OpenAuto/COMP2051/pull/8)
 
 - **仓库**: COMP2051
 - **创建于**: 2025-12-02 19:48:35
