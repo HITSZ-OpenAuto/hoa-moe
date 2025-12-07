@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (12.7)
 
+- Lurker 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：加入了数字逻辑实验的相关仓库和 2024 秋数字逻辑解答电子版
+
 - HalfCooler 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：上传 22 年试题答案、24 年试题和答案和 25 年试题和答案。
 
 ## 待解决的 Issues
@@ -33,15 +35,21 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [上传本人笔记；更新教师信息](https://github.com/HITSZ-OpenAuto/MATH1002/pull/26)
+
+- **仓库**: MATH1002
+- **创建于**: 2025-12-07 14:09:09
+- **作者**: OliverWu515
+
+### [上传本部 22、23 若干试题](https://github.com/HITSZ-OpenAuto/MATH1004/pull/29)
+
+- **仓库**: MATH1004
+- **创建于**: 2025-12-07 13:23:11
+- **作者**: OliverWu515
+
 ### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
 
 - **仓库**: COMP3002
 - **创建于**: 2025-12-05 02:10:27
 - **作者**: Zsh-cs
-
-### [加入了数字逻辑实验的相关仓库和 2024 秋数字逻辑解答电子版](https://github.com/HITSZ-OpenAuto/COMP2051/pull/8)
-
-- **仓库**: COMP2051
-- **创建于**: 2025-12-02 19:48:35
-- **作者**: capoo-fan
 
