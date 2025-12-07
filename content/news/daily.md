@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-06'
+date: '2025-12-07'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周日 (12.7)
 
 - HalfCooler 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：上传 22 年试题答案、24 年试题和答案和 25 年试题和答案。
-
-### 周五 (12.5)
-
-- Junda Wu 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：增加 2024 作业答案、2025 作业源文档 (#17)
 
 ## 待解决的 Issues
 
