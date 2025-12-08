@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-07'
+date: '2025-12-08'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,8 +15,6 @@ title: AUTO 更新速递
 ### 周日 (12.7)
 
 - Lurker 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：加入了数字逻辑实验的相关仓库和 2024 秋数字逻辑解答电子版
-
-- HalfCooler 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：上传 22 年试题答案、24 年试题和答案和 25 年试题和答案。
 
 ## 待解决的 Issues
 
