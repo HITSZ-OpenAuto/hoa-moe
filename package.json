@@ -14,17 +14,17 @@
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@eslint/markdown": "^7.5.1",
-    "@tailwindcss/postcss": "^4.1.14",
+    "@tailwindcss/postcss": "^4.1.17",
     "autocorrect-node": "^2.14.0",
     "concurrently": "^9.2.1",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
-    "hugo-extended": "^0.151.0",
+    "hugo-extended": "^0.151.2",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "prettier": "3.6.2",
     "prettier-plugin-go-template": "^0.0.15",
-    "prettier-plugin-tailwindcss": "^0.7.1",
-    "tailwindcss": "^4.1.14"
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.1.17"
   }
 }
