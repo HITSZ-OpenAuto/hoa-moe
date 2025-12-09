@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-08'
+date: '2025-12-09'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,10 +17,6 @@ title: AUTO 更新速递
 - Junda Wu 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：上传本人笔记；更新教师信息 (#26)
 
 - Junda Wu 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传本部 22、23 若干试题 (#29)
-
-### 周日 (12.7)
-
-- Lurker 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：加入了数字逻辑实验的相关仓库和 2024 秋数字逻辑解答电子版
 
 ## 待解决的 Issues
 
@@ -38,6 +34,24 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [加入了数字逻辑课程的所有 PPT（高翠芸版）](https://github.com/HITSZ-OpenAuto/COMP2051/pull/11)
+
+- **仓库**: COMP2051
+- **创建于**: 2025-12-08 23:24:06
+- **作者**: capoo-fan
+
+### [Add files via upload](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/23)
+
+- **仓库**: AUTO3004
+- **创建于**: 2025-12-08 21:15:47
+- **作者**: Y-Sensi
+
+### [自动化工作流给 AUTO2003A 课程增加元数据 metadata.toml](https://github.com/HITSZ-OpenAuto/AUTO2003A/pull/13)
+
+- **仓库**: AUTO2003A
+- **创建于**: 2025-12-08 14:09:43
+- **作者**: LiPu-jpg
 
 ### [自动化工作流给 COMP2051 课程增加元数据 metadata.yaml](https://github.com/HITSZ-OpenAuto/COMP2051/pull/10)
 
