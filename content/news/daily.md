@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-09'
+date: '2025-12-12'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (12.8)
+### 周五 (12.12)
 
-- Junda Wu 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：上传本人笔记；更新教师信息 (#26)
-
-- Junda Wu 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传本部 22、23 若干试题 (#29)
+- cecilia 在 [计算机网络](https://github.com/HITSZ-OpenAuto/COMP3003) 中提交了信息：修复损坏的 pdf 文档 (#10)
 
 ## 待解决的 Issues
 
