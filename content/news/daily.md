@@ -14,6 +14,18 @@ title: AUTO 更新速递
 
 ### 周二 (12.16)
 
+- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #30 from Star1950625/main
+
+- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：增加个人笔记
+
+- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Add files via upload
+
+- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Create a
+
+- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Delete notes/2024_lsx directory
+
+- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：commit message
+
 - Jiao Ziang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Merge pull request #12 from Star1950625/main
 
 ### 周一 (12.15)
@@ -41,17 +53,35 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [增加个人笔记](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/24)
+
+- **仓库**: PHYS1001
+- **创建于**: 2025-12-16 00:41:37
+- **作者**: Star1950625
+
+### [增加个人笔记](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/21)
+
+- **仓库**: MATH1015B
+- **创建于**: 2025-12-16 00:38:11
+- **作者**: Star1950625
+
+### [增加个人笔记](https://github.com/HITSZ-OpenAuto/MATH1002/pull/27)
+
+- **仓库**: MATH1002
+- **创建于**: 2025-12-16 00:37:10
+- **作者**: Star1950625
+
+### [个人笔记增加](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/24)
+
+- **仓库**: MATH1015A
+- **创建于**: 2025-12-16 00:35:43
+- **作者**: Star1950625
+
 ### [Add files via upload](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/23)
 
 - **仓库**: AUTO3004
 - **创建于**: 2025-12-08 21:15:47
 - **作者**: Y-Sensi
-
-### [自动化工作流给 AUTO2003A 课程增加元数据 metadata.toml](https://github.com/HITSZ-OpenAuto/AUTO2003A/pull/13)
-
-- **仓库**: AUTO2003A
-- **创建于**: 2025-12-08 14:09:43
-- **作者**: LiPu-jpg
 
 ### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
 
