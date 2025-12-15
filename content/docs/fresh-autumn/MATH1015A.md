@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 2 月 8 日" author="W·D·Gaster" message="以 .gitkeep 文件替代无用的 readme.md 文件 (#14)" >}}
+{{< update-info update_time="2025 年 12 月 16 日" author="Jiao Ziang" message="Merge pull request #24 from Star1950625/main" >}}
 
 <div class="hoa-badge">
 
