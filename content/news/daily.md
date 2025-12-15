@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (12.16)
 
+- Jiao Ziang 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Merge pull request #24 from Star1950625/main
+
 - Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #30 from Star1950625/main
 
 - Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：增加个人笔记
@@ -35,6 +37,28 @@ title: AUTO 更新速递
 - Star1950625 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Add files via upload
 
 - Star1950625 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Create a
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：增加笔记
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：增加笔记
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Delete notes/2024_lsx/微积分A（第4-7章）.pdf
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Add files via upload
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：增加笔记
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Delete notes/2024_lsx directory
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Delete notes/2024_lsx/a
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Add files via upload
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Create a
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Delete notes/2024_lsx
+
+- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Create
 
 ## 待解决的 Issues
 
@@ -69,12 +93,6 @@ title: AUTO 更新速递
 
 - **仓库**: MATH1002
 - **创建于**: 2025-12-16 00:37:10
-- **作者**: Star1950625
-
-### [个人笔记增加](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/24)
-
-- **仓库**: MATH1015A
-- **创建于**: 2025-12-16 00:35:43
 - **作者**: Star1950625
 
 ### [Add files via upload](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/23)
