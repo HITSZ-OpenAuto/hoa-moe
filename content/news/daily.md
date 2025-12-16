@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周二 (12.16)
 
+- Star1950625 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：增加个人笔记 (#27)
+
+- Lurker 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：加入了数字逻辑笔记
+
 - Jiao Ziang 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Merge pull request #24 from Star1950625/main
 
 - Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #30 from Star1950625/main
@@ -55,11 +59,11 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [加入了数字逻辑笔记](https://github.com/HITSZ-OpenAuto/COMP2051/pull/13)
+### [增加个人笔记](https://github.com/HITSZ-OpenAuto/EE1018/pull/1)
 
-- **仓库**: COMP2051
-- **创建于**: 2025-12-16 00:52:52
-- **作者**: capoo-fan
+- **仓库**: EE1018
+- **创建于**: 2025-12-16 16:22:21
+- **作者**: Star1950625
 
 ### [增加个人笔记](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/24)
 
@@ -71,12 +75,6 @@ title: AUTO 更新速递
 
 - **仓库**: MATH1015B
 - **创建于**: 2025-12-16 00:38:11
-- **作者**: Star1950625
-
-### [增加个人笔记](https://github.com/HITSZ-OpenAuto/MATH1002/pull/27)
-
-- **仓库**: MATH1002
-- **创建于**: 2025-12-16 00:37:10
 - **作者**: Star1950625
 
 ### [Add files via upload](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/23)
