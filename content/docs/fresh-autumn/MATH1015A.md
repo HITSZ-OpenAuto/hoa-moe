@@ -238,6 +238,9 @@ math: true
 {{< hoa-filetree/folder name="2023_psp" date="" state="closed" >}}
 {{< hoa-filetree/file name="高等数学笔记-psp" type="pdf" size="68.4 MB" date="2025/01/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2023_psp/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-psp.pdf" >}}
 {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="2024_lsx" date="" state="closed" >}}
+{{< hoa-filetree/file name="微积分 A（第 4-7 章）" type="pdf" size="10.2 MB" date="2025/12/14" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/notes/2024_lsx/%E5%BE%AE%E7%A7%AF%E5%88%86A%EF%BC%88%E7%AC%AC4-7%E7%AB%A0%EF%BC%89.pdf" >}}
+{{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
 {{< hoa-filetree/file name="不定积分习题课答案" type="pdf" size="6.7 MB" date="2024/03/02" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015A/raw/main/slides/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B9%A0%E9%A2%98%E8%AF%BE%E7%AD%94%E6%A1%88.pdf" >}}
