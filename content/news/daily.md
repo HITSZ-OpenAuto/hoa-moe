@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-15'
+date: '2025-12-16'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -38,28 +38,6 @@ title: AUTO 更新速递
 
 - Star1950625 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Create a
 
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：增加笔记
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：增加笔记
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Delete notes/2024_lsx/微积分A（第4-7章）.pdf
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Add files via upload
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：增加笔记
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Delete notes/2024_lsx directory
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Delete notes/2024_lsx/a
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Add files via upload
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Create a
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Delete notes/2024_lsx
-
-- Star1950625 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Create
-
 ## 待解决的 Issues
 
 ### [老师名字错误捉虫](https://github.com/HITSZ-OpenAuto/GEIP1017/issues/11)
@@ -76,6 +54,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [加入了数字逻辑笔记](https://github.com/HITSZ-OpenAuto/COMP2051/pull/13)
+
+- **仓库**: COMP2051
+- **创建于**: 2025-12-16 00:52:52
+- **作者**: capoo-fan
 
 ### [增加个人笔记](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/24)
 
