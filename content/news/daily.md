@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-16'
+date: '2025-12-17'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,30 +17,6 @@ title: AUTO 更新速递
 - Star1950625 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：增加个人笔记 (#27)
 
 - Lurker 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：加入了数字逻辑笔记
-
-- Jiao Ziang 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Merge pull request #24 from Star1950625/main
-
-- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #30 from Star1950625/main
-
-- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：增加个人笔记
-
-- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Add files via upload
-
-- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Create a
-
-- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Delete notes/2024_lsx directory
-
-- Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：commit message
-
-- Jiao Ziang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Merge pull request #12 from Star1950625/main
-
-### 周一 (12.15)
-
-- Star1950625 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：增加个人笔记
-
-- Star1950625 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Add files via upload
-
-- Star1950625 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Create a
 
 ## 待解决的 Issues
 
