@@ -58,10 +58,11 @@ document.addEventListener("DOMContentLoaded", function () {
       let url = ele.closest(".hoa-filetree-file").dataset.url;
       const downloadAccelerate = downloadAccelerateInput.checked;
       const isMSOfficeFile = /\.(docx?|pptx?|xlsx?)$/.test(url);
-      if (downloadAccelerate && !isMSOfficeFile) {
-        url = url.replace("gh.hoa.moe/github.com", "gitea.osa.moe");
-        url = url.replace("/raw/", "/raw/branch/");
-      }
+      // disable download-acceleration temporarily
+      // if (downloadAccelerate && !isMSOfficeFile) {
+      //   url = url.replace("gh.hoa.moe/github.com", "gitea.osa.moe");
+      //   url = url.replace("/raw/", "/raw/branch/");
+      // }
       ele.href = `https://prev.hoa.moe?file=${encodeURI(url)}`;
     });
   };
@@ -82,10 +83,11 @@ document.addEventListener("DOMContentLoaded", function () {
       // get link
       let url = e.target.closest(".hoa-filetree-file").dataset.url;
       const downloadAccelerate = downloadAccelerateInput.checked;
-      if (downloadAccelerate) {
-        url = url.replace("gh.hoa.moe/github.com", "gitea.osa.moe");
-        url = url.replace("/raw/", "/raw/branch/");
-      }
+      // disable download-acceleration temporarily
+      // if (downloadAccelerate) {
+      //   url = url.replace("gh.hoa.moe/github.com", "gitea.osa.moe");
+      //   url = url.replace("/raw/", "/raw/branch/");
+      // }
       // hide icon and show progress
       const linkWrapper = e.target.parentElement;
       linkWrapper.style.display = "none";
