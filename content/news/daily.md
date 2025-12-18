@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-17'
+date: '2025-12-18'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (12.16)
+### 周四 (12.18)
 
-- Star1950625 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：增加个人笔记 (#27)
+- cecilia 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加了城市品牌战略、现代食品工艺与食品感官评定、游戏化思维三门课的课程评价
 
-- Lurker 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：加入了数字逻辑笔记
+- lielie8 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md
 
 ## 待解决的 Issues
 
