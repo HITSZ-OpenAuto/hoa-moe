@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (12.19)
 
+- IcyDesert 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：添加署名日期
+
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：Initial commit
