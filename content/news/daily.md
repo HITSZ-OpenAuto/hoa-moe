@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-17'
+date: '2025-12-20'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,13 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (12.16)
+### 周五 (12.19)
 
-- Star1950625 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：增加个人笔记 (#27)
+- IcyDesert 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：添加署名日期
 
-- Lurker 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：加入了数字逻辑笔记
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
+- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
