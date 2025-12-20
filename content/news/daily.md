@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-19'
+date: '2025-12-20'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -19,12 +19,6 @@ title: AUTO 更新速递
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：Initial commit
-
-### 周四 (12.18)
-
-- cecilia 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加了城市品牌战略、现代食品工艺与食品感官评定、游戏化思维三门课的课程评价
-
-- lielie8 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md
 
 ## 待解决的 Issues
 
