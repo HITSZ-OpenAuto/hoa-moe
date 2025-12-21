@@ -24,6 +24,8 @@ title: AUTO 更新速递
 
 - Star1950625 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：增加个人笔记
 
+- Star1950625 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：增加个人笔记
+
 ## 待解决的 Issues
 
 ### [老师名字错误捉虫](https://github.com/HITSZ-OpenAuto/GEIP1017/issues/11)
@@ -40,12 +42,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [增加个人笔记](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/24)
-
-- **仓库**: PHYS1001
-- **创建于**: 2025-12-16 00:41:37
-- **作者**: Star1950625
 
 ### [增加个人笔记](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/21)
 
