@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 7 月 6 日" author="cecilia" message="Merge pull request #11 from HITSZ-OpenAuto/add-exams" >}}
+{{< update-info update_time="2025 年 12 月 21 日" author="Star1950625" message="增加个人笔记 (#21)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -166,6 +166,9 @@ math: true
 {{< hoa-filetree/file name="高等数学（下册）易遗忘知识点" type="pdf" size="547.6 KB" date="2025/01/18" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2019_xyfJASON/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/file name="2022 高等数学笔记-psp" type="pdf" size="68.4 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2022%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0-psp.pdf" >}}
+{{< hoa-filetree/folder name="2024_lsx" date="" state="closed" >}}
+{{< hoa-filetree/file name="微积分 B_lsx" type="pdf" size="4.5 MB" date="2025/12/21" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/2024_lsx/%E5%BE%AE%E7%A7%AF%E5%88%86B_lsx.pdf" >}}
+{{< /hoa-filetree/folder >}}
 {{< hoa-filetree/file name="二重积分总结及拓展" type="pdf" size="77.2 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86%E6%80%BB%E7%BB%93%E5%8F%8A%E6%8B%93%E5%B1%95.pdf" >}}
 {{< hoa-filetree/file name="多元函数微分学总结与拓展" type="pdf" size="93.7 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E6%80%BB%E7%BB%93%E4%B8%8E%E6%8B%93%E5%B1%95.pdf" >}}
 {{< hoa-filetree/file name="工数下知识点精要" type="pdf" size="559.0 KB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E5%B7%A5%E6%95%B0%E4%B8%8B%E7%9F%A5%E8%AF%86%E7%82%B9%E7%B2%BE%E8%A6%81.pdf" >}}
