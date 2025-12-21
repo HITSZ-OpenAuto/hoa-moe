@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-20'
+date: '2025-12-21'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,13 +12,17 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (12.19)
+### 周日 (12.21)
 
-- IcyDesert 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：添加署名日期
+- kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: block search engine crawlers to trigger de-indexing
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+- kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: add referer validation to restrict access from specific domains
 
-- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：Initial commit
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: support CORS(#5)
+
+### 周二 (12.16)
+
+- Star1950625 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：增加个人笔记
 
 ## 待解决的 Issues
 
@@ -36,12 +40,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [增加个人笔记](https://github.com/HITSZ-OpenAuto/EE1018/pull/1)
-
-- **仓库**: EE1018
-- **创建于**: 2025-12-16 16:22:21
-- **作者**: Star1950625
 
 ### [增加个人笔记](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/24)
 
