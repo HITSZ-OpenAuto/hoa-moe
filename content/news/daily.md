@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周一 (12.22)
+
+- Y-Sensi 在 [系统建模与仿真](https://github.com/HITSZ-OpenAuto/AUTO3004) 中提交了信息：添加一份 2025 年的思维导图
+
 ### 周日 (12.21)
 
 - Star1950625 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：增加个人笔记 (#21)
@@ -44,12 +48,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [Add files via upload](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/23)
-
-- **仓库**: AUTO3004
-- **创建于**: 2025-12-08 21:15:47
-- **作者**: Y-Sensi
 
 ### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
 
