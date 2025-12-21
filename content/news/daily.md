@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (12.21)
 
+- Star1950625 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：增加个人笔记 (#21)
+
 - kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: block search engine crawlers to trigger de-indexing
 
 - kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: add referer validation to restrict access from specific domains
@@ -42,12 +44,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [增加个人笔记](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/21)
-
-- **仓库**: MATH1015B
-- **创建于**: 2025-12-16 00:38:11
-- **作者**: Star1950625
 
 ### [Add files via upload](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/23)
 
