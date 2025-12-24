@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周三 (12.24)
+
+- jiazero 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加城市社会学概论，现代电机设计导论跨专业课程评价
+
 ### 周二 (12.23)
 
 - Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：update allowed origins for CORS to include localhost
@@ -32,12 +36,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [Add course evaluation to README](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/13)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2025-12-23 16:31:11
-- **作者**: jiazero
 
 ### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
 
