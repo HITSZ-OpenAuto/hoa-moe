@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2025-12-24'
+date: '2025-12-25'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周三 (12.24)
 
 - jiazero 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加城市社会学概论，现代电机设计导论跨专业课程评价
-
-### 周二 (12.23)
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：update allowed origins for CORS to include localhost
 
 ## 待解决的 Issues
 
