@@ -1,7 +1,8 @@
-{{- $iconName := .iconName | default "arrow-left-right" -}}
+{{- $iconName := .iconName | default "gallery-horizontal" -}}
+{{- $class := .class | default "hx:p-2 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/10 hx:dark:hover:text-gray-50" -}}
 
 
-<button class="hoa-width-switcher hx:hidden hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:xl:block">
+<button class="hoa-width-switcher {{ $class }} hx:hidden hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:xl:block">
   <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize">
     {{- partial "utils/icon" (dict "name" $iconName) -}}
   </div>
