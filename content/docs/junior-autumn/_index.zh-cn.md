@@ -19,6 +19,7 @@ toc: false
 {{< card link="ee3002" title="电力电子技术" >}}
 {{< card link="ee3015" title="电力系统分析" >}}
 {{< card link="ee304x" title="专业综合实践" >}}
+{{< card link="mech3060" title="机器人学基础" >}}
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
