@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.2)
 
+- IcyDesert 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：上传 2025 秋作业答案
+
 - IcyDesert 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：添加教师、考试情况和选做题问题
 
 - CuO_s 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充了匹克球的课程内容 (#26)
