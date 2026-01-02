@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周五 (1.2)
+
+- CuO_s 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充了匹克球的课程内容 (#26)
+
 ### 周四 (1.1)
 
 - IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加教师名单、考试说明
@@ -36,12 +40,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [补充了匹克球的课程内容](https://github.com/HITSZ-OpenAuto/PE100X/pull/26)
-
-- **仓库**: PE100X
-- **创建于**: 2025-12-31 22:20:09
-- **作者**: CuO114
 
 ### [上传 2025 秋马原思维导图](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/32)
 
