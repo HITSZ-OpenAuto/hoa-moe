@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.2)
 
+- IcyDesert 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：添加教师、考试情况和选做题问题
+
 - CuO_s 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充了匹克球的课程内容 (#26)
 
 ### 周四 (1.1)
@@ -22,7 +24,7 @@ title: AUTO 更新速递
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
-- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：Initial commit
+- IcyDesert 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
