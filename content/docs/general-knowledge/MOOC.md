@@ -1,6 +1,6 @@
 ---
 title: MOOC
-weight: 914
+weight: 915
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
