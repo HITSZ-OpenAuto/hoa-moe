@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-02'
+date: '2026-01-03'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -23,14 +23,6 @@ title: AUTO 更新速递
 - IcyDesert 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：添加教师、考试情况和选做题问题
 
 - CuO_s 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充了匹克球的课程内容 (#26)
-
-### 周四 (1.1)
-
-- IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加教师名单、考试说明
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- IcyDesert 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
