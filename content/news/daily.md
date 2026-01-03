@@ -12,11 +12,15 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (1.3)
+
+- IcyDesert 在 [设计与制造 C](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：添加考试说明、复习建议
+
 ### 周五 (1.2)
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
-- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：Initial commit
+- IcyDesert 在 [设计与制造 C](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：Initial commit
 
 - IcyDesert 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：上传 2025 秋作业答案
 
