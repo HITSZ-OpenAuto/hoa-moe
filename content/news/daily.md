@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.3)
 
+- IcyDesert 在 [设计与制造 C](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：上传回忆版 2025 秋期末考试
+
 - IcyDesert 在 [设计与制造 C](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：添加考试说明、复习建议
 
 ### 周五 (1.2)
