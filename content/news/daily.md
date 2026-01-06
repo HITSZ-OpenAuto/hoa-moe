@@ -35,6 +35,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [上传 2025 回忆试题；上传本人作业](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/18)
+
+- **仓库**: AUTO5013
+- **创建于**: 2026-01-05 15:02:03
+- **作者**: OliverWu515
+
 ### [上传 2025 秋马原思维导图](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/32)
 
 - **仓库**: GEIP1011
