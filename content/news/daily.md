@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-04'
+date: '2026-01-06'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周六 (1.3)
+### 周二 (1.6)
 
-- IcyDesert 在 [设计与制造 C](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：上传回忆版 2025 秋期末考试
-
-- IcyDesert 在 [设计与制造 C](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：添加考试说明、复习建议
+- IcyDesert 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加 电子封装可靠性 课程描述
 
 ## 待解决的 Issues
 
