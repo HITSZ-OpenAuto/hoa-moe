@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.6)
 
+- W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：补充机器学习与经管应用、污染控制微生物学、电动力学、核能与安全四门课的情况
+
 - IcyDesert 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加 电子封装可靠性 课程描述
 
 ## 待解决的 Issues
