@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 12 月 24 日" author="jiazero" message="添加城市社会学概论，现代电机设计导论跨专业课程评价" >}}
+{{< update-info update_time="2026 年 1 月 6 日" author="IcyDesert" message="添加 电子封装可靠性 课程描述" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -261,6 +261,29 @@ math: true
 实验是 4 学时，我们安排在了周五 7,8,9,10 节，实际操作 7,8 节就可以搞定，报告很简单，好课推荐。
 
 > 文 / [jiazero](https://github.com/jiazero)，2025.12
+
+### 电子封装可靠性
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B020%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-20%25-wheat)
+![%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A-40%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9540%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-40%25-wheat)
+
+</div>
+
+大约有 10 次左右的点名考勤，还是比较频繁的；但是老师人很好。
+
+作业有两个：
+
+- 给定题目，写一份 7000 字课程论文
+- 自选主题，作大约 8 分钟的课上汇报
+
+开卷考试，打印资料就能过。
+
+> 文 / [IcyDesert](https://github.com/IcyDesert)，2026.1
 
 
 ## 资料下载
