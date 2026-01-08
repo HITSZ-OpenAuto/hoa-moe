@@ -90,6 +90,10 @@ GitHub 提供的方法实际上支持多文件上传，但这些文件必须上�
 
 {{< /callout >}}
 
+> 如果你是使用 codespace 进行编辑的，千万要记得保存！！！我写了半个小时的课程评价误触退出之后全没了！
+
+> 文 / [Cecilia](https://github.com/mircecilia), 2025.1
+
 ### 发起 Pull Request
 
 再次回到自己的仓库，主界面会发现显眼的标注
