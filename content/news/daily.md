@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (1.9)
 
+- cecilia 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/mircecilia-patch-1
+
+- cecilia 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：改正先前文件中席伟健老师的错误姓名
+
 - RussReign 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：上传两份大物笔记 (#25)
 
 - cecilia 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加西方艺术大师及其作品鉴赏与游戏化思维的课程评价 (#19)
@@ -29,12 +33,6 @@ title: AUTO 更新速递
 - cecilia 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了环境学与智慧低碳能源发电技术导论的课程评价 (#14)
 
 ## 待解决的 Issues
-
-### [老师名字错误捉虫](https://github.com/HITSZ-OpenAuto/GEIP1017/issues/11)
-
-- **仓库**: GEIP1017
-- **创建于**: 2025-11-04 17:13:45
-- **作者**: ll3me
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
