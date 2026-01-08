@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.9)
 
+- cecilia 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加西方艺术大师及其作品鉴赏与游戏化思维的课程评价 (#19)
+
 - RussReign 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传资料 (#31)
 
 ### 周四 (1.8)
@@ -40,6 +42,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [上传两份大物笔记](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/25)
+
+- **仓库**: PHYS1001
+- **创建于**: 2026-01-09 01:43:28
+- **作者**: BX-valor
 
 ### [上传 2025 秋马原思维导图](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/33)
 
