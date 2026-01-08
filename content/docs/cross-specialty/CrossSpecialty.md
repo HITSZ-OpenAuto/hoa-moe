@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 6 日" author="W. D. Gaster" message="补充机器学习与经管应用、污染控制微生物学、电动力学、核能与安全四门课的情况" >}}
+{{< update-info update_time="2026 年 1 月 8 日" author="cecilia" message="增加了环境学与智慧低碳能源发电技术导论的课程评价 (#14)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -111,6 +111,11 @@ math: true
 考试开卷，可以把上课 PPT 全部打印出来现场找答案，很轻松能拿到接近满分的成绩。
 
 > 文 / [Caesia-ma](https://github.com/Caesia-ma/),2025.1
+
+25 秋共考勤三次，分别为第一节课，汇报那节课和最后一节课。<br>
+增加了一个小组 pre，要求三分钟内讲完，之后小组成员现场回答一个问题，问题很简单，不用担心
+
+> 文 / [Cecilia](https://github.com/mircecilia/), 2026.1
 
 ### 水力学
 
@@ -366,7 +371,22 @@ math: true
 
 > 文 / [Gaster](https://github.com/WDGaster703)，2026.1
 
+### 环境学
 
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A530%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-30%25-wheat)
+![%E7%BB%93%E8%AF%BE%E8%AE%BA%E6%96%8770%](https://img.shields.io/badge/%E7%BB%93%E8%AF%BE%E8%AE%BA%E6%96%87-70%25-wheat)
+
+</div>
+
+课堂汇报内容与环境学相关即可，六七个人一组，汇报时间在 15 分钟左右，要求使用英文汇报，老师会用英文提问 ppt 相关内容，要求使用英文回答
+
+最后结课论文的内容就是你在小组汇报中负责的内容，要求使用英文撰写，长度五到六页左右
+
+> 文 / [Cecilia](https://github.com/mircecilia/),2025.1
 ## 资料下载
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
