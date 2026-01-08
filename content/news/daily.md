@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周四 (1.8)
 
+- cecilia 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Merge pull request #18 from HITSZ-OpenAuto/mircecilia-patch-1
+
+- cecilia 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加 24 级 MOOC 限制的最新补丁
+
 - cecilia 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了环境学与智慧低碳能源发电技术导论的课程评价 (#14)
 
 ## 待解决的 Issues
