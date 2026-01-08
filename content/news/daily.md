@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周五 (1.9)
+
+- RussReign 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传资料 (#31)
+
 ### 周四 (1.8)
 
 - cecilia 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Merge pull request #18 from HITSZ-OpenAuto/mircecilia-patch-1
