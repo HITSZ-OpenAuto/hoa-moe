@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.9)
 
+- Rsir 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：上传 2025 秋马原思维导图 (#33)
+
 - IcyDesert 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加 空间环境、会计学原理 分数组成
 
 - cecilia 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/mircecilia-patch-1
@@ -56,12 +58,6 @@ title: AUTO 更新速递
 - **仓库**: AUTO5023
 - **创建于**: 2026-01-09 14:10:18
 - **作者**: 345ljh
-
-### [上传 2025 秋马原思维导图](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/33)
-
-- **仓库**: GEIP1011
-- **创建于**: 2026-01-08 21:48:14
-- **作者**: Jiupai999
 
 ### [上传 2025 回忆试题；上传本人作业](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/18)
 
