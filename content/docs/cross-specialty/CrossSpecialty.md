@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 9 日" author="IcyDesert" message="添加 空间环境、会计学原理 分数组成" >}}
+{{< update-info update_time="2026 年 1 月 10 日" author="W. D. Gaster" message="添加量子力学内容" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -426,6 +426,36 @@ math: true
   - 简答题考了「会计周期是什么」和「Financial statement 有哪些」
 
 > 文 / [IcyDesert](https://github.com/IcyDesert)，2026.1
+
+### 量子力学
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E5%B9%B3%E6%97%B640%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-40%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+
+</div>
+
+老师：邓皓键
+
+老师很友好，但是普通话有点不好，类似于外国人说中文，但是能听懂。
+
+上课使用长江雨课堂点名，还会让助教在八点十分左右进行签到。课上不会管你在做什么，但是期末专门认识了几个听课比较认真的同学。
+
+每节课进行板书，没有 PPT。前面部分和教材基本符合，后面量子计算没有教材，但是难度较低一点。期末考试，听讲＋做好作业很好过。
+
+2025 年秋季学期考试内容：
+- 第一题，希尔伯特空间相关内容
+- 第二题，波函数相关，归一化和波函数到概率密度
+- 第三题，势垒问题
+- 第四题，势阱问题
+- 第五题，氢原子的物理量 nlm
+- 第六题，量子计算，boch 球相关
+
+> 文 / Layaka，2025.12
+
 
 ## 资料下载
 
