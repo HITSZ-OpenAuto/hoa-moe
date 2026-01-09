@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.9)
 
+- IcyDesert 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加 空间环境、会计学原理 分数组成
+
 - cecilia 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/mircecilia-patch-1
 
 - cecilia 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：改正先前文件中席伟健老师的错误姓名
@@ -42,6 +44,18 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [上传 25 秋季学期的期末回忆试题](https://github.com/HITSZ-OpenAuto/SPST1004/pull/12)
+
+- **仓库**: SPST1004
+- **创建于**: 2026-01-09 14:47:24
+- **作者**: ChillyHigh
+
+### [上传 25 秋回忆试题与大作业](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/17)
+
+- **仓库**: AUTO5023
+- **创建于**: 2026-01-09 14:10:18
+- **作者**: 345ljh
 
 ### [上传 2025 秋马原思维导图](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/33)
 
