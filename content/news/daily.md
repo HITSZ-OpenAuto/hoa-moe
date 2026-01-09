@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.10)
 
+- cecilia 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：增加华苗教师的信息及评价
+
 - ChillyHigh 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：上传 25 秋季学期的期末回忆试题 (#12)
 
 - W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加量子力学内容
@@ -58,12 +60,6 @@ title: AUTO 更新速递
 - **仓库**: AUTO3024
 - **创建于**: 2026-01-09 23:24:16
 - **作者**: zhuqi000
-
-### [增加华苗教师的信息及评价](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/34)
-
-- **仓库**: GEIP1011
-- **创建于**: 2026-01-09 18:57:18
-- **作者**: mircecilia
 
 ### [上传 25 秋回忆试题与大作业](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/17)
 
