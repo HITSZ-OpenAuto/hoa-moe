@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 8 日" author="cecilia" message="增加了环境学与智慧低碳能源发电技术导论的课程评价 (#14)" >}}
+{{< update-info update_time="2026 年 1 月 9 日" author="IcyDesert" message="添加 空间环境、会计学原理 分数组成" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -387,6 +387,46 @@ math: true
 最后结课论文的内容就是你在小组汇报中负责的内容，要求使用英文撰写，长度五到六页左右
 
 > 文 / [Cecilia](https://github.com/mircecilia/),2025.1
+
+### 空间环境
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E5%B9%B3%E6%97%B640%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-40%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+
+</div>
+
+2025 秋有四次作业，几乎都能在下发的 PPT 找到答案；另外有若干（应该不算分？）的签到表考勤，不过左平兵老师也偶尔点名。结课后会发作业答案。
+
+考试闭卷，题目和作业有相当部分重合。
+
+> 文 / [IcyDesert](https://github.com/IcyDesert)，2025.7
+
+### 会计学原理
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
+![%E9%9B%A8%E8%AF%BE%E5%A0%82%E7%BB%83%E4%B9%A010%](https://img.shields.io/badge/%E9%9B%A8%E8%AF%BE%E5%A0%82%E7%BB%83%E4%B9%A0-10%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83-50%25-wheat)
+
+</div>
+
+首先，本课程所有资料为**全英文**，包括 PPT、作业题目、雨课堂练习、**期末试题**；但王世璇老师还是中文讲课。
+
+- 作业有 8 次，需**英文回答**，交纸质版且不发回 ~~可以丢给 AI 满分完成~~
+- 雨课堂会不定期布置并通知，一般有一周作答；平时无考勤。
+- 期末考试**英文试卷英文作答**，题型分布为选择题 30 分（3\*10=30）+ 计算分录题（50 分，共 5 题）+ 简答题（2\*10=20）。
+  - 计算题把作业搞懂都能做出来
+  - 简答题考了「会计周期是什么」和「Financial statement 有哪些」
+
+> 文 / [IcyDesert](https://github.com/IcyDesert)，2026.1
+
 ## 资料下载
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
