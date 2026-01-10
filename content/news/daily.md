@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (1.10)
 
+- IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 春作业答案、2025 秋考试试卷
+
 - zhuqi000 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：添加课程评价与笔记 (#13)
 
 - cecilia 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：增加华苗教师的信息及评价
