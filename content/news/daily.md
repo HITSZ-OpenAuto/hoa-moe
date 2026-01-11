@@ -29,6 +29,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [更新了经济学原理 (跨专业) 课程的信息](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/13)
+
+- **仓库**: ECON2005F
+- **创建于**: 2026-01-11 14:12:13
+- **作者**: Anastasia-Charies
+
 ### [上传 25 秋回忆试题与大作业](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/17)
 
 - **仓库**: AUTO5023
