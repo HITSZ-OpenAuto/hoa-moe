@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (1.11)
+
+- IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 秋作业、答案
+
 ### 周六 (1.10)
 
 - IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 春作业答案、2025 秋考试试卷
