@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-10'
+date: '2026-01-11'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,18 +17,6 @@ title: AUTO 更新速递
 - IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 春作业答案、2025 秋考试试卷
 
 - zhuqi000 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：添加课程评价与笔记 (#13)
-
-- cecilia 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：增加华苗教师的信息及评价
-
-- ChillyHigh 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：上传 25 秋季学期的期末回忆试题 (#12)
-
-- W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加量子力学内容
-
-### 周五 (1.9)
-
-- Rsir 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：上传 2025 秋马原思维导图 (#33)
-
-- IcyDesert 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加 空间环境、会计学原理 分数组成
 
 ## 待解决的 Issues
 
