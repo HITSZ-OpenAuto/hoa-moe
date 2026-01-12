@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 10 日" author="W. D. Gaster" message="添加量子力学内容" >}}
+{{< update-info update_time="2026 年 1 月 12 日" author="Kokoro2336" message="Merge pull request #15 from lumen183/main" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -456,12 +456,55 @@ math: true
 
 > 文 / Layaka，2025.12
 
+### 波谱学原理与应用
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E4%BD%9C%E4%B8%9A](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
+![%E6%8A%A5%E5%91%8A](https://img.shields.io/badge/%E6%8A%A5%E5%91%8A-30%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-40%25-wheat)
+
+</div>
+
+老师：杨超
+
+上课不考勤，偶尔会按点名表顺序抽人回答问题~~在后面的完全不用担心~~，但是习题课一定要去！
+
+考试难度不大，老师上课很认真很亲切，讲解也很清楚，如果认真听的话一定可以学到东西。
+
+ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频就够了。
+
+- 课程作业每次只有一道题，上交方式为 QQ 群小程序上交。10min 可解决
+- 课程 pre 在每一小章节结束后的习题课上，形式为微信小程序“OS.波谱学原理与应用”中的对应习题（按点名表序号选题）有半个小时的作答时间，只要讲出分析思路即可（1min 左右）~~实测用 AI 完全可以做完~~
+
+2025 年秋季学期考试内容：
+- 选择题：20 题，每题 1 分。
+其余为解答题，分布为
+- 谐振子模型估算红外吸收峰
+- 给定结构和紫外吸收波长，判断物质
+- 给定红外吸收峰，判断物质
+- 紫外，红外，质谱仪综合应用。
+
+> 文 / [lumen](https://github.com/lumen183)，2026.1
+
 
 ## 资料下载
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/CrossSpecialty" repoURL="https://github.com/HITSZ-OpenAuto/CrossSpecialty" >}}
+{{< hoa-filetree/folder name="exams" date="" state="closed" >}}
+{{< hoa-filetree/folder name="量子力学 2025" date="" state="closed" >}}
+{{< hoa-filetree/folder name="作业" date="" state="closed" >}}
+{{< hoa-filetree/file name="量子力学作业一" type="pdf" size="57.2 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E4%BD%9C%E4%B8%9A/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%80.pdf" >}}
+{{< hoa-filetree/file name="量子力学作业三" type="pdf" size="449.0 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E4%BD%9C%E4%B8%9A/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%89.pdf" >}}
+{{< hoa-filetree/file name="量子力学作业二" type="pdf" size="41.0 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E4%BD%9C%E4%B8%9A/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%BA%8C.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="量子力学 2025 秋期末" type="pdf" size="87.9 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025%E7%A7%8B%E6%9C%9F%E6%9C%AB.pdf" >}}
+{{< /hoa-filetree/folder >}}
+{{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
