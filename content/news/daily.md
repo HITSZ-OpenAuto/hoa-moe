@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：更改为正确的格式
+
 - Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：Merge pull request #34 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242399
 
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：合并 toml 文件部分 content 内容
@@ -66,6 +68,30 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1014/pull/18)
+
+- **仓库**: EE1014
+- **创建于**: 2026-01-13 02:39:08
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PE100X/pull/28)
+
+- **仓库**: PE100X
+- **创建于**: 2026-01-13 02:38:15
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1013/pull/21)
+
+- **仓库**: EE1013
+- **创建于**: 2026-01-13 02:36:24
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/26)
+
+- **仓库**: MATH1015A
+- **创建于**: 2026-01-13 02:35:04
+- **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1011A/pull/21)
 
@@ -221,29 +247,5 @@ title: AUTO 更新速递
 
 - **仓库**: COMP1011
 - **创建于**: 2026-01-13 01:57:22
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3028/pull/18)
-
-- **仓库**: AUTO3028
-- **创建于**: 2026-01-13 01:56:03
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2050/pull/17)
-
-- **仓库**: COMP2050
-- **创建于**: 2026-01-13 01:55:17
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3007/pull/29)
-
-- **仓库**: AUTO3007
-- **创建于**: 2026-01-13 01:54:43
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1011B/pull/25)
-
-- **仓库**: EE1011B
-- **创建于**: 2026-01-13 01:54:12
 - **作者**: LiPu-jpg
 
