@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：删除旧 toml
+
 - Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：修复错误置空
 
 - Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：Merge pull request #16 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242163
@@ -81,183 +83,27 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3012/pull/14)
+### [更新了经济学原理的课程介绍和讲义资料](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/15)
 
-- **仓库**: AUTO3012
-- **创建于**: 2026-01-13 02:55:03
-- **作者**: LiPu-jpg
+- **仓库**: ECON2005F
+- **创建于**: 2026-01-11 21:58:31
+- **作者**: Anastasia-Charies
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/15)
-
-- **仓库**: WRIT0001
-- **创建于**: 2026-01-13 02:54:28
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3019/pull/14)
-
-- **仓库**: AUTO3019
-- **创建于**: 2026-01-13 02:53:15
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/WOCD1008/pull/12)
-
-- **仓库**: WOCD1008
-- **创建于**: 2026-01-13 02:52:30
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3011/pull/15)
-
-- **仓库**: AUTO3011
-- **创建于**: 2026-01-13 02:51:48
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5024/pull/18)
-
-- **仓库**: AUTO5024
-- **创建于**: 2026-01-13 02:51:18
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3024/pull/15)
-
-- **仓库**: AUTO3024
-- **创建于**: 2026-01-13 02:50:15
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5005/pull/15)
-
-- **仓库**: AUTO5005
-- **创建于**: 2026-01-13 02:48:47
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5002/pull/14)
-
-- **仓库**: AUTO5002
-- **创建于**: 2026-01-13 02:45:57
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5001/pull/16)
-
-- **仓库**: AUTO5001
-- **创建于**: 2026-01-13 02:45:35
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/20)
-
-- **仓库**: AUTO3099
-- **创建于**: 2026-01-13 02:45:01
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3006/pull/21)
-
-- **仓库**: AUTO3006
-- **创建于**: 2026-01-13 02:43:59
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/25)
-
-- **仓库**: AUTO3002B
-- **创建于**: 2026-01-13 02:43:26
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/27)
-
-- **仓库**: AUTO3001B
-- **创建于**: 2026-01-13 02:42:53
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/19)
+### [上传 25 秋回忆试题与大作业](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/17)
 
 - **仓库**: AUTO5023
-- **创建于**: 2026-01-13 02:42:12
-- **作者**: LiPu-jpg
+- **创建于**: 2026-01-09 14:10:18
+- **作者**: 345ljh
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO2003A/pull/15)
-
-- **仓库**: AUTO2003A
-- **创建于**: 2026-01-13 02:40:58
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1014/pull/18)
-
-- **仓库**: EE1014
-- **创建于**: 2026-01-13 02:39:08
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PE100X/pull/28)
-
-- **仓库**: PE100X
-- **创建于**: 2026-01-13 02:38:15
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1013/pull/21)
-
-- **仓库**: EE1013
-- **创建于**: 2026-01-13 02:36:24
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/26)
-
-- **仓库**: MATH1015A
-- **创建于**: 2026-01-13 02:35:04
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1011A/pull/21)
-
-- **仓库**: EE1011A
-- **创建于**: 2026-01-13 02:30:18
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/20)
+### [上传 2025 回忆试题；上传本人作业](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/18)
 
 - **仓库**: AUTO5013
-- **创建于**: 2026-01-13 02:25:16
-- **作者**: LiPu-jpg
+- **创建于**: 2026-01-05 15:02:03
+- **作者**: OliverWu515
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3022/pull/16)
+### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
 
-- **仓库**: AUTO3022
-- **创建于**: 2026-01-13 02:24:54
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MECH2010/pull/17)
-
-- **仓库**: MECH2010
-- **创建于**: 2026-01-13 02:24:19
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/23)
-
-- **仓库**: MATH1015B
-- **创建于**: 2026-01-13 02:23:59
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/LANG100X/pull/18)
-
-- **仓库**: LANG100X
-- **创建于**: 2026-01-13 02:22:12
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO2003B/pull/21)
-
-- **仓库**: AUTO2003B
-- **创建于**: 2026-01-13 02:19:17
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/22)
-
-- **仓库**: GEIP1016
-- **创建于**: 2026-01-13 02:17:53
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/36)
-
-- **仓库**: GEIP1011
-- **创建于**: 2026-01-13 02:17:18
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1012B/pull/17)
-
-- **仓库**: EE1012B
-- **创建于**: 2026-01-13 02:16:14
-- **作者**: LiPu-jpg
+- **仓库**: COMP3002
+- **创建于**: 2025-12-05 02:10:27
+- **作者**: Zsh-cs
 
