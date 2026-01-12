@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：更改部分日期数据
+
+- Jiao Ziang 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：Merge pull request #63 from HITSZ-OpenAuto/ci/auto-generate-toml-1768239982
+
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：更改为正确的格式
 
 - Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：Merge pull request #34 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242399
@@ -25,6 +29,8 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：Merge pull request #27 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242068
 
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：docs: add structured course info (PHYS1001.toml)
+
+- Jiao Ziang 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：docs: add structured course info (PHYS1002.toml)
 
 ### 周一 (1.12)
 
@@ -68,6 +74,54 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5002/pull/14)
+
+- **仓库**: AUTO5002
+- **创建于**: 2026-01-13 02:45:57
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5001/pull/16)
+
+- **仓库**: AUTO5001
+- **创建于**: 2026-01-13 02:45:35
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/20)
+
+- **仓库**: AUTO3099
+- **创建于**: 2026-01-13 02:45:01
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3006/pull/21)
+
+- **仓库**: AUTO3006
+- **创建于**: 2026-01-13 02:43:59
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/25)
+
+- **仓库**: AUTO3002B
+- **创建于**: 2026-01-13 02:43:26
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/27)
+
+- **仓库**: AUTO3001B
+- **创建于**: 2026-01-13 02:42:53
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/19)
+
+- **仓库**: AUTO5023
+- **创建于**: 2026-01-13 02:42:12
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO2003A/pull/15)
+
+- **仓库**: AUTO2003A
+- **创建于**: 2026-01-13 02:40:58
+- **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1014/pull/18)
 
@@ -199,53 +253,5 @@ title: AUTO 更新速递
 
 - **仓库**: EE1009
 - **创建于**: 2026-01-13 02:09:44
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1007/pull/25)
-
-- **仓库**: EE1007
-- **创建于**: 2026-01-13 02:08:03
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO2006/pull/20)
-
-- **仓库**: AUTO2006
-- **创建于**: 2026-01-13 02:06:37
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE3005/pull/15)
-
-- **仓库**: EE3005
-- **创建于**: 2026-01-13 02:04:43
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1002/pull/29)
-
-- **仓库**: MATH1002
-- **创建于**: 2026-01-13 02:03:58
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3016/pull/26)
-
-- **仓库**: AUTO3016
-- **创建于**: 2026-01-13 02:00:52
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3005/pull/24)
-
-- **仓库**: AUTO3005
-- **创建于**: 2026-01-13 01:59:33
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2014/pull/17)
-
-- **仓库**: COMP2014
-- **创建于**: 2026-01-13 01:58:35
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP1011/pull/21)
-
-- **仓库**: COMP1011
-- **创建于**: 2026-01-13 01:57:22
 - **作者**: LiPu-jpg
 
