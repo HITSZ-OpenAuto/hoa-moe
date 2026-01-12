@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 11 月 24 日" author="zhuqi000" message="增加 2025 自控 A 的笔记 (#28)" >}}
+{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #34 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242399" >}}
 
 <div class="hoa-badge">
 
@@ -203,6 +203,7 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3001A" repoURL="https://github.com/HITSZ-OpenAuto/AUTO3001A" >}}
+{{< hoa-filetree/file name="AUTO3001A" type="toml" size="10.3 KB" date="2026/01/12" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/AUTO3001A.toml" >}}
 {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
 {{< hoa-filetree/folder name="2019" date="" state="closed" >}}
 {{< hoa-filetree/file name="自控理论 A—作业 10 及答案" type="pdf" size="2.3 MB" date="2025/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2019/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E2%80%94%E4%BD%9C%E4%B8%9A10%E5%8F%8A%E7%AD%94%E6%A1%88.pdf" >}}
