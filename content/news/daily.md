@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (1.12)
 
+- Wzy 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：添加了一份对于离散数学定理定义的整理 (#10)
+
 - Kokoro2336 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #15 from lumen183/main
 
 - Kokoro2336 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Merge pull request #8 from lumen183/main
@@ -52,12 +54,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [添加了一份对于离散数学定理定义的整理](https://github.com/HITSZ-OpenAuto/COMP2030/pull/10)
-
-- **仓库**: COMP2030
-- **创建于**: 2026-01-12 19:51:37
-- **作者**: Wzy-wm
 
 ### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/MECH3041/pull/1)
 
@@ -231,5 +227,11 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2010
 - **创建于**: 2026-01-12 09:19:17
+- **作者**: LiPu-jpg
+
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP2029/pull/8)
+
+- **仓库**: COMP2029
+- **创建于**: 2026-01-12 09:18:38
 - **作者**: LiPu-jpg
 
