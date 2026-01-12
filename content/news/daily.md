@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (1.12)
 
+- Kokoro2336 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Merge pull request #8 from lumen183/main
+
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：增加示例 yaml
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
@@ -21,6 +23,8 @@ title: AUTO 更新速递
 - Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：更新了经济学原理 (跨专业) 的课程信息 (#14)
 
 ### 周日 (1.11)
+
+- 1um3n 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Add files via upload
 
 - IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 秋作业、答案
 
@@ -38,6 +42,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [添加了一份对于离散数学定理定义的整理](https://github.com/HITSZ-OpenAuto/COMP2030/pull/10)
+
+- **仓库**: COMP2030
+- **创建于**: 2026-01-12 19:51:37
+- **作者**: Wzy-wm
 
 ### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/MECH3041/pull/1)
 
@@ -211,11 +221,5 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2010
 - **创建于**: 2026-01-12 09:19:17
-- **作者**: LiPu-jpg
-
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP2029/pull/8)
-
-- **仓库**: COMP2029
-- **创建于**: 2026-01-12 09:18:38
 - **作者**: LiPu-jpg
 
