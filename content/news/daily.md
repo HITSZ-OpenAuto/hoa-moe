@@ -12,6 +12,12 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周一 (1.12)
+
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
+- Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：更新了经济学原理 (跨专业) 的课程信息 (#14)
+
 ### 周日 (1.11)
 
 - IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 秋作业、答案
@@ -31,183 +37,183 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/WOCD1008/pull/11)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/MECH3041/pull/1)
 
-- **仓库**: WOCD1008
-- **创建于**: 2026-01-12 08:59:00
+- **仓库**: MECH3041
+- **创建于**: 2026-01-12 09:32:45
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO3011/pull/14)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/MECH3005/pull/1)
 
-- **仓库**: AUTO3011
-- **创建于**: 2026-01-12 08:58:19
+- **仓库**: MECH3005
+- **创建于**: 2026-01-12 09:32:20
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO5024/pull/17)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/MECH3060/pull/1)
 
-- **仓库**: AUTO5024
-- **创建于**: 2026-01-12 08:57:45
+- **仓库**: MECH3060
+- **创建于**: 2026-01-12 09:31:47
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO3024/pull/14)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO2001/pull/1)
 
-- **仓库**: AUTO3024
-- **创建于**: 2026-01-12 08:57:07
+- **仓库**: AUTO2001
+- **创建于**: 2026-01-12 09:31:24
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO5005/pull/14)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP2001/pull/1)
 
-- **仓库**: AUTO5005
-- **创建于**: 2026-01-12 08:56:07
+- **仓库**: COMP2001
+- **创建于**: 2026-01-12 09:31:01
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO5002/pull/13)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/EE1018/pull/2)
 
-- **仓库**: AUTO5002
-- **创建于**: 2026-01-12 08:55:22
+- **仓库**: EE1018
+- **创建于**: 2026-01-12 09:30:31
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO5001/pull/15)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/GEIP4004/pull/2)
 
-- **仓库**: AUTO5001
-- **创建于**: 2026-01-12 08:54:53
+- **仓库**: GEIP4004
+- **创建于**: 2026-01-12 09:29:50
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/19)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3043/pull/5)
 
-- **仓库**: AUTO3099
-- **创建于**: 2026-01-12 08:54:23
+- **仓库**: COMP3043
+- **创建于**: 2026-01-12 09:29:30
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO3006/pull/20)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3005/pull/10)
 
-- **仓库**: AUTO3006
-- **创建于**: 2026-01-12 08:53:37
+- **仓库**: COMP3005
+- **创建于**: 2026-01-12 09:28:52
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/24)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3042/pull/10)
 
-- **仓库**: AUTO3002B
-- **创建于**: 2026-01-12 08:52:39
+- **仓库**: COMP3042
+- **创建于**: 2026-01-12 09:28:23
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/26)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3039/pull/6)
 
-- **仓库**: AUTO3001B
-- **创建于**: 2026-01-12 08:52:05
+- **仓库**: COMP3039
+- **创建于**: 2026-01-12 09:27:52
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/18)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3054/pull/9)
 
-- **仓库**: AUTO5023
-- **创建于**: 2026-01-12 08:51:29
+- **仓库**: COMP3054
+- **创建于**: 2026-01-12 09:27:34
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO2003A/pull/14)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3021/pull/8)
 
-- **仓库**: AUTO2003A
-- **创建于**: 2026-01-12 08:48:40
+- **仓库**: COMP3021
+- **创建于**: 2026-01-12 09:27:09
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/EE1014/pull/17)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3029/pull/7)
 
-- **仓库**: EE1014
-- **创建于**: 2026-01-12 08:48:09
+- **仓库**: COMP3029
+- **创建于**: 2026-01-12 09:26:39
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/PE100X/pull/27)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3019/pull/6)
 
-- **仓库**: PE100X
-- **创建于**: 2026-01-12 08:47:18
+- **仓库**: COMP3019
+- **创建于**: 2026-01-12 09:26:17
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/EE1013/pull/20)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3018/pull/6)
 
-- **仓库**: EE1013
-- **创建于**: 2026-01-12 08:43:43
+- **仓库**: COMP3018
+- **创建于**: 2026-01-12 09:25:56
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/25)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3017/pull/8)
 
-- **仓库**: MATH1015A
-- **创建于**: 2026-01-12 08:42:43
+- **仓库**: COMP3017
+- **创建于**: 2026-01-12 09:25:35
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/EE1011A/pull/20)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3028/pull/8)
 
-- **仓库**: EE1011A
-- **创建于**: 2026-01-12 08:41:39
+- **仓库**: COMP3028
+- **创建于**: 2026-01-12 09:25:14
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/33)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3030/pull/7)
 
-- **仓库**: AUTO3001A
-- **创建于**: 2026-01-12 08:40:29
+- **仓库**: COMP3030
+- **创建于**: 2026-01-12 09:24:55
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/19)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3006/pull/7)
 
-- **仓库**: AUTO5013
-- **创建于**: 2026-01-12 08:39:32
+- **仓库**: COMP3006
+- **创建于**: 2026-01-12 09:24:30
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO3022/pull/15)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3053/pull/6)
 
-- **仓库**: AUTO3022
-- **创建于**: 2026-01-12 08:39:11
+- **仓库**: COMP3053
+- **创建于**: 2026-01-12 09:24:06
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/MECH2010/pull/16)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3002/pull/8)
 
-- **仓库**: MECH2010
-- **创建于**: 2026-01-12 08:38:37
+- **仓库**: COMP3002
+- **创建于**: 2026-01-12 09:22:46
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/22)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3009/pull/7)
 
-- **仓库**: MATH1015B
-- **创建于**: 2026-01-12 08:38:17
+- **仓库**: COMP3009
+- **创建于**: 2026-01-12 09:22:18
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/EE1012A/pull/15)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3044/pull/7)
 
-- **仓库**: EE1012A
-- **创建于**: 2026-01-12 08:37:24
+- **仓库**: COMP3044
+- **创建于**: 2026-01-12 09:21:48
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/LANG100X/pull/17)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3007/pull/8)
 
-- **仓库**: LANG100X
-- **创建于**: 2026-01-12 08:36:52
+- **仓库**: COMP3007
+- **创建于**: 2026-01-12 09:21:26
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/26)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3040/pull/7)
 
-- **仓库**: PHYS1001
-- **创建于**: 2026-01-12 08:35:57
+- **仓库**: COMP3040
+- **创建于**: 2026-01-12 09:20:50
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/AUTO2003B/pull/20)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3004/pull/8)
 
-- **仓库**: AUTO2003B
-- **创建于**: 2026-01-12 08:34:48
+- **仓库**: COMP3004
+- **创建于**: 2026-01-12 09:20:18
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/21)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP3011/pull/7)
 
-- **仓库**: GEIP1016
-- **创建于**: 2026-01-12 08:33:52
+- **仓库**: COMP3011
+- **创建于**: 2026-01-12 09:19:41
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/35)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP2010/pull/8)
 
-- **仓库**: GEIP1011
-- **创建于**: 2026-01-12 08:33:14
+- **仓库**: COMP2010
+- **创建于**: 2026-01-12 09:19:17
 - **作者**: LiPu-jpg
 
-### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/EE1012B/pull/16)
+### [ci: 自动生成课程结构化数据 (YAML)](https://github.com/HITSZ-OpenAuto/COMP2029/pull/8)
 
-- **仓库**: EE1012B
-- **创建于**: 2026-01-12 08:32:26
+- **仓库**: COMP2029
+- **创建于**: 2026-01-12 09:18:38
 - **作者**: LiPu-jpg
 
