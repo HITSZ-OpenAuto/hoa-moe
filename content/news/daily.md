@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：合并 toml 文件部分 content 内容
+
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：Merge pull request #27 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242068
 
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：docs: add structured course info (PHYS1001.toml)
@@ -60,6 +62,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/34)
+
+- **仓库**: AUTO3001A
+- **创建于**: 2026-01-13 02:26:44
+- **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/20)
 
@@ -233,11 +241,5 @@ title: AUTO 更新速递
 
 - **仓库**: EE1011B
 - **创建于**: 2026-01-13 01:54:12
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1004/pull/33)
-
-- **仓库**: MATH1004
-- **创建于**: 2026-01-13 01:53:21
 - **作者**: LiPu-jpg
 
