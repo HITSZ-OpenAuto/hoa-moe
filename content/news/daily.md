@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：修复错误置空
+
 - Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：Merge pull request #16 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242163
 
 - Jiao Ziang 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：更改部分日期数据
@@ -78,6 +80,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3012/pull/14)
+
+- **仓库**: AUTO3012
+- **创建于**: 2026-01-13 02:55:03
+- **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/15)
 
@@ -251,11 +259,5 @@ title: AUTO 更新速递
 
 - **仓库**: EE1012B
 - **创建于**: 2026-01-13 02:16:14
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/32)
-
-- **仓库**: AUTO1001
-- **创建于**: 2026-01-13 02:15:37
 - **作者**: LiPu-jpg
 
