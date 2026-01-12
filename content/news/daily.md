@@ -14,7 +14,11 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：Merge pull request #34 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242399
+
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：合并 toml 文件部分 content 内容
+
+- Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：docs: add structured course info (AUTO3001A.toml)
 
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：Merge pull request #27 from HITSZ-OpenAuto/ci/auto-generate-toml-1768242068
 
@@ -63,10 +67,10 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3001A/pull/34)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1011A/pull/21)
 
-- **仓库**: AUTO3001A
-- **创建于**: 2026-01-13 02:26:44
+- **仓库**: EE1011A
+- **创建于**: 2026-01-13 02:30:18
 - **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/20)
