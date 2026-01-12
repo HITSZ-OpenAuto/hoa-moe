@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (1.12)
 
+- Kokoro2336 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #15 from lumen183/main
+
 - Kokoro2336 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Merge pull request #8 from lumen183/main
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：增加示例 yaml
@@ -25,6 +27,14 @@ title: AUTO 更新速递
 ### 周日 (1.11)
 
 - 1um3n 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Add files via upload
+
+- 1um3n 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：fix:删掉多余空行
+
+- lumen183 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加量子力学作业及期末试卷
+
+- lumen183 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加波谱学原理课程
+
+- lumen183 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加波谱学原理课程
 
 - IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 秋作业、答案
 
