@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-12'
+date: '2026-01-13'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -60,24 +60,6 @@ title: AUTO 更新速递
 
 - Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：更新了经济学原理 (跨专业) 的课程信息 (#14)
 
-### 周日 (1.11)
-
-- 1um3n 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Add files via upload
-
-- 1um3n 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：fix:删掉多余空行
-
-- lumen183 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加量子力学作业及期末试卷
-
-- lumen183 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加波谱学原理课程
-
-- lumen183 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加波谱学原理课程
-
-- IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 秋作业、答案
-
-### 周六 (1.10)
-
-- IcyDesert 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：添加 2025 春作业答案、2025 秋考试试卷
-
 ## 待解决的 Issues
 
 ### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
@@ -89,27 +71,183 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [更新了经济学原理的课程介绍和讲义资料](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/15)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MECH3041/pull/2)
 
-- **仓库**: ECON2005F
-- **创建于**: 2026-01-11 21:58:31
-- **作者**: Anastasia-Charies
+- **仓库**: MECH3041
+- **创建于**: 2026-01-13 06:05:24
+- **作者**: LiPu-jpg
 
-### [上传 25 秋回忆试题与大作业](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/17)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MECH3005/pull/2)
 
-- **仓库**: AUTO5023
-- **创建于**: 2026-01-09 14:10:18
-- **作者**: 345ljh
+- **仓库**: MECH3005
+- **创建于**: 2026-01-13 06:04:50
+- **作者**: LiPu-jpg
 
-### [上传 2025 回忆试题；上传本人作业](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/18)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MECH3060/pull/2)
 
-- **仓库**: AUTO5013
-- **创建于**: 2026-01-05 15:02:03
-- **作者**: OliverWu515
+- **仓库**: MECH3060
+- **创建于**: 2026-01-13 06:04:14
+- **作者**: LiPu-jpg
 
-### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO2001/pull/2)
+
+- **仓库**: AUTO2001
+- **创建于**: 2026-01-13 06:03:42
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2001/pull/2)
+
+- **仓库**: COMP2001
+- **创建于**: 2026-01-13 06:03:04
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1018/pull/3)
+
+- **仓库**: EE1018
+- **创建于**: 2026-01-13 06:02:24
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP4004/pull/3)
+
+- **仓库**: GEIP4004
+- **创建于**: 2026-01-13 06:01:17
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3043/pull/6)
+
+- **仓库**: COMP3043
+- **创建于**: 2026-01-13 06:00:56
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3005/pull/11)
+
+- **仓库**: COMP3005
+- **创建于**: 2026-01-13 06:00:31
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3042/pull/11)
+
+- **仓库**: COMP3042
+- **创建于**: 2026-01-13 06:00:01
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3039/pull/7)
+
+- **仓库**: COMP3039
+- **创建于**: 2026-01-13 05:59:42
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3054/pull/10)
+
+- **仓库**: COMP3054
+- **创建于**: 2026-01-13 05:59:20
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3021/pull/9)
+
+- **仓库**: COMP3021
+- **创建于**: 2026-01-13 05:58:53
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3029/pull/8)
+
+- **仓库**: COMP3029
+- **创建于**: 2026-01-13 05:58:27
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3019/pull/7)
+
+- **仓库**: COMP3019
+- **创建于**: 2026-01-13 05:58:03
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3018/pull/7)
+
+- **仓库**: COMP3018
+- **创建于**: 2026-01-13 05:57:40
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3017/pull/9)
+
+- **仓库**: COMP3017
+- **创建于**: 2026-01-13 05:57:15
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3028/pull/9)
+
+- **仓库**: COMP3028
+- **创建于**: 2026-01-13 05:56:41
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3030/pull/8)
+
+- **仓库**: COMP3030
+- **创建于**: 2026-01-13 05:56:16
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3006/pull/8)
+
+- **仓库**: COMP3006
+- **创建于**: 2026-01-13 05:55:45
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3053/pull/7)
+
+- **仓库**: COMP3053
+- **创建于**: 2026-01-13 05:55:24
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3002/pull/9)
 
 - **仓库**: COMP3002
-- **创建于**: 2025-12-05 02:10:27
-- **作者**: Zsh-cs
+- **创建于**: 2026-01-13 05:54:27
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3009/pull/8)
+
+- **仓库**: COMP3009
+- **创建于**: 2026-01-13 05:54:01
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3044/pull/8)
+
+- **仓库**: COMP3044
+- **创建于**: 2026-01-13 05:53:12
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3007/pull/9)
+
+- **仓库**: COMP3007
+- **创建于**: 2026-01-13 05:52:47
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3040/pull/8)
+
+- **仓库**: COMP3040
+- **创建于**: 2026-01-13 05:52:08
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3004/pull/9)
+
+- **仓库**: COMP3004
+- **创建于**: 2026-01-13 05:51:36
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3011/pull/8)
+
+- **仓库**: COMP3011
+- **创建于**: 2026-01-13 05:50:48
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2010/pull/9)
+
+- **仓库**: COMP2010
+- **创建于**: 2026-01-13 05:50:19
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2029/pull/9)
+
+- **仓库**: COMP2029
+- **创建于**: 2026-01-13 05:49:48
+- **作者**: LiPu-jpg
 
