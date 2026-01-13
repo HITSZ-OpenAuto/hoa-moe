@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML) (#2)
+
+- Jiao Ziang 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：docs: add structured course info (MECH3060.toml) (#2)
+
 - Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：增加新 toml 并且修改错误链接
 
 - Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：手动添加正确的 toml 信息
@@ -97,18 +101,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO2005
 - **创建于**: 2026-01-13 11:39:01
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MECH3005/pull/2)
-
-- **仓库**: MECH3005
-- **创建于**: 2026-01-13 06:04:50
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MECH3060/pull/2)
-
-- **仓库**: MECH3060
-- **创建于**: 2026-01-13 06:04:14
 - **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2001/pull/2)
@@ -259,5 +251,17 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2010
 - **创建于**: 2026-01-13 05:50:19
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2029/pull/9)
+
+- **仓库**: COMP2029
+- **创建于**: 2026-01-13 05:49:48
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3060/pull/8)
+
+- **仓库**: COMP3060
+- **创建于**: 2026-01-13 05:49:27
 - **作者**: LiPu-jpg
 
