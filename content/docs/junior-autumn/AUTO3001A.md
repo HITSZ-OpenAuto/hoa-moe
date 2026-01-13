@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="删除旧 toml" >}}
+{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="增加新 toml 并且修改错误链接" >}}
 
 <div class="hoa-badge">
 
@@ -78,7 +78,7 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 
 张颖老师上课思维较为连贯，但是上课速度缓慢，PPT 有大量的例题没有给时间完成。
 
-> 文 / [Gaster](https://github.com/WDGaster), 2025.6
+> 文 / [Gaster](https://github.com/WDGaster703), 2025.6
 
 ## 关于授课内容
 > 以下为 4.5 学分的授课内容。
@@ -175,7 +175,7 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 
 看来 24 秋的期末像是一次意外，25 春《系统与控制》的考试（线性连续部分）又回归了往年的难度，难度低于考研题，由于知识点减少，考察的也比较细。
 
-> 文 / [Gaster](https://github.com/WDGaster), 2025.6
+> 文 / [Gaster](https://github.com/WDGaster703), 2025.6
 
 ## 学习建议
 
@@ -203,6 +203,7 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO3001A" repoURL="https://github.com/HITSZ-OpenAuto/AUTO3001A" >}}
+{{< hoa-filetree/file name="AUTO3001A" type="toml" size="10.4 KB" date="2026/01/13" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/AUTO3001A.toml" >}}
 {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
 {{< hoa-filetree/folder name="2019" date="" state="closed" >}}
 {{< hoa-filetree/file name="自控理论 A—作业 10 及答案" type="pdf" size="2.3 MB" date="2025/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/assignments/2019/%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAA%E2%80%94%E4%BD%9C%E4%B8%9A10%E5%8F%8A%E7%AD%94%E6%A1%88.pdf" >}}
