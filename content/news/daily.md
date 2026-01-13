@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：更改错误课程代码
+
 - Jiao Ziang 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Merge pull request #3 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255339
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3039) 中提交了信息：Merge pull request #7 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255177
