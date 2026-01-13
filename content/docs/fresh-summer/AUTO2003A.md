@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 7 月 16 日" author="Kowyo" message="更改文字描述" >}}
+{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #16 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252742" >}}
 
 <div class="hoa-badge">
 
@@ -30,6 +30,7 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003A" repoURL="https://github.com/HITSZ-OpenAuto/AUTO2003A" >}}
+{{< hoa-filetree/file name="AUTO2003A" type="toml" size="850 bytes" date="2026/01/12" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003A/raw/main/AUTO2003A.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
