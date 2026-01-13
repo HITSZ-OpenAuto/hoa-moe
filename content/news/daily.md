@@ -14,6 +14,140 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：Merge pull request #13 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253281
+
+- Jiao Ziang 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：Merge pull request #14 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253678
+
+- Jiao Ziang 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：Merge pull request #7 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254047
+
+- Jiao Ziang 在 [设计与制造 A](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254009
+
+- Jiao Ziang 在 [机械设计基础](https://github.com/HITSZ-OpenAuto/MECH2010) 中提交了信息：Merge pull request #19 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252183
+
+- Jiao Ziang 在 [优化算法](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：Merge pull request #7 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254078
+
+- Jiao Ziang 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：Merge pull request #25 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252165
+
+- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #35 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250481
+
+- Jiao Ziang 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：Merge pull request #20 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252069
+
+- Jiao Ziang 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：Merge pull request #3 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255272
+
+- Jiao Ziang 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251426
+
+- Jiao Ziang 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：Merge pull request #17 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253780
+
+- Jiao Ziang 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253754
+
+- Jiao Ziang 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253956
+
+- Jiao Ziang 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：Merge pull request #17 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251052
+
+- Jiao Ziang 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：Merge pull request #10 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253980
+
+- Jiao Ziang 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：Merge pull request #12 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253916
+
+- Jiao Ziang 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Merge pull request #16 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253541
+
+- Jiao Ziang 在 [电磁场](https://github.com/HITSZ-OpenAuto/EE2003) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253857
+
+- Jiao Ziang 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：Merge pull request #19 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252710
+
+- Jiao Ziang 在 [电路实验 IB](https://github.com/HITSZ-OpenAuto/EE1012B) 中提交了信息：Merge pull request #19 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251752
+
+- Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：Merge pull request #18 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252101
+
+- Jiao Ziang 在 [模拟电子技术实验](https://github.com/HITSZ-OpenAuto/EE1008) 中提交了信息：Merge pull request #19 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251391
+
+- Jiao Ziang 在 [软件构造实践](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254562
+
+- Jiao Ziang 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：Merge pull request #12 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254372
+
+- Jiao Ziang 在 [网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Merge pull request #10 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255155
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254195
+
+- Jiao Ziang 在 [智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255195
+
+- Jiao Ziang 在 [信息检索](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254971
+
+- Jiao Ziang 在 [计算机视觉](https://github.com/HITSZ-OpenAuto/COMP3029) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255101
+
+- Jiao Ziang 在 [软件体系结构](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254995
+
+- Jiao Ziang 在 [自然语言处理](https://github.com/HITSZ-OpenAuto/COMP3021) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255127
+
+- Jiao Ziang 在 [图像处理](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：Merge pull request #7 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255055
+
+- Jiao Ziang 在 [服务计算](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255029
+
+- Jiao Ziang 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254503
+
+- Jiao Ziang 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254642
+
+- Jiao Ziang 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254535
+
+- Jiao Ziang 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254836
+
+- Jiao Ziang 在 [模式识别](https://github.com/HITSZ-OpenAuto/COMP3007) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254762
+
+- Jiao Ziang 在 [线性系统理论](https://github.com/HITSZ-OpenAuto/AUTO5001) 中提交了信息：Merge pull request #17 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252986
+
+- Jiao Ziang 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：Merge pull request #16 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253155
+
+- Jiao Ziang 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：Merge pull request #28 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250926
+
+- Jiao Ziang 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253405
+
+- Jiao Ziang 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：Merge pull request #22 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252902
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251913
+
+- Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254940
+
+- Jiao Ziang 在 [人工智能](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255225
+
+- Jiao Ziang 在 [形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254691
+
+- Jiao Ziang 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254862
+
+- Jiao Ziang 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254466
+
+- Jiao Ziang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254176
+
+- Jiao Ziang 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：Merge pull request #19 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250603
+
+- Jiao Ziang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254136
+
+- Jiao Ziang 在 [面向领域的计算机系统设计与开发实践](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254583
+
+- Jiao Ziang 在 [C++ 语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2014) 中提交了信息：Merge pull request #19 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250798
+
+- Jiao Ziang 在 [计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254348
+
+- Jiao Ziang 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：Merge pull request #9 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254612
+
+- Jiao Ziang 在 [计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254321
+
+- Jiao Ziang 在 [大学化学 III](https://github.com/HITSZ-OpenAuto/CHEM1012) 中提交了信息：Merge pull request #20 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250135
+
+- Jiao Ziang 在 [系统辨识](https://github.com/HITSZ-OpenAuto/AUTO5002) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253008
+
+- Jiao Ziang 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：Merge pull request #18 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252219
+
+- Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：Merge pull request #15 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253320
+
+- Jiao Ziang 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：Merge pull request #16 from HITSZ-OpenAuto/ci/auto-generate-toml-1768253250
+
+- Jiao Ziang 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：Merge pull request #29 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250286
+
+- Jiao Ziang 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：Merge pull request #22 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251158
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Merge pull request #16 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252742
+
+- Jiao Ziang 在 [密码学基础](https://github.com/HITSZ-OpenAuto/COMP3040) 中提交了信息：Merge pull request #8 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254722
+
 - Jiao Ziang 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：Merge pull request #6 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255250
 
 - Jiao Ziang 在 [机电系统控制基础](https://github.com/HITSZ-OpenAuto/MECH3005) 中提交了信息：ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML) (#2)
@@ -28,9 +162,143 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [设计与制造 C](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：docs: add structured course info (MECH3041.toml)
 
+- Jiao Ziang 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：docs: add structured course info (GEIP4004.toml)
+
 - Jiao Ziang 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：docs: add structured course info (COMP3043.toml)
 
+- Jiao Ziang 在 [人工智能](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：docs: add structured course info (COMP3005.toml)
+
+- Jiao Ziang 在 [智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：docs: add structured course info (COMP3042.toml)
+
+- Jiao Ziang 在 [网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：docs: add structured course info (COMP3054.toml)
+
+- Jiao Ziang 在 [自然语言处理](https://github.com/HITSZ-OpenAuto/COMP3021) 中提交了信息：docs: add structured course info (COMP3021.toml)
+
+- Jiao Ziang 在 [计算机视觉](https://github.com/HITSZ-OpenAuto/COMP3029) 中提交了信息：docs: add structured course info (COMP3029.toml)
+
+- Jiao Ziang 在 [图像处理](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：docs: add structured course info (COMP3018.toml)
+
+- Jiao Ziang 在 [服务计算](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：docs: add structured course info (COMP3017.toml)
+
+- Jiao Ziang 在 [软件体系结构](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：docs: add structured course info (COMP3028.toml)
+
+- Jiao Ziang 在 [信息检索](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：docs: add structured course info (COMP3030.toml)
+
+- Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：docs: add structured course info (COMP3006.toml)
+
+- Jiao Ziang 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：docs: add structured course info (COMP3002.toml)
+
+- Jiao Ziang 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：docs: add structured course info (COMP3009.toml)
+
+- Jiao Ziang 在 [模式识别](https://github.com/HITSZ-OpenAuto/COMP3007) 中提交了信息：docs: add structured course info (COMP3007.toml)
+
+- Jiao Ziang 在 [密码学基础](https://github.com/HITSZ-OpenAuto/COMP3040) 中提交了信息：docs: add structured course info (COMP3040.toml)
+
+- Jiao Ziang 在 [形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：docs: add structured course info (COMP3004.toml)
+
+- Jiao Ziang 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：docs: add structured course info (COMP3011.toml)
+
+- Jiao Ziang 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：docs: add structured course info (COMP2010.toml)
+
+- Jiao Ziang 在 [面向领域的计算机系统设计与开发实践](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：docs: add structured course info (COMP2029.toml)
+
+- Jiao Ziang 在 [软件构造实践](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：docs: add structured course info (COMP3060.toml)
+
+- Jiao Ziang 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：docs: add structured course info (COMP3010.toml)
+
+- Jiao Ziang 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：docs: add structured course info (COMP3013.toml)
+
+- Jiao Ziang 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：docs: add structured course info (COMP3001.toml)
+
+- Jiao Ziang 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：docs: add structured course info (COMP3059.toml)
+
+- Jiao Ziang 在 [计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012) 中提交了信息：docs: add structured course info (COMP2012.toml)
+
+- Jiao Ziang 在 [计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008) 中提交了信息：docs: add structured course info (COMP2008.toml)
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：docs: add structured course info (COMP3052.toml)
+
+- Jiao Ziang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：docs: add structured course info (COMP2051.toml)
+
+- Jiao Ziang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：docs: add structured course info (COMP2030.toml)
+
+- Jiao Ziang 在 [优化算法](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：docs: add structured course info (MATH4002.toml)
+
+- Jiao Ziang 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：docs: add structured course info (MECH2022.toml)
+
+- Jiao Ziang 在 [设计与制造 A](https://github.com/HITSZ-OpenAuto/MECH2019) 中提交了信息：docs: add structured course info (MECH2019.toml)
+
+- Jiao Ziang 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：docs: add structured course info (EE3002.toml)
+
+- Jiao Ziang 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：docs: add structured course info (EE3015.toml)
+
+- Jiao Ziang 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：docs: add structured course info (EE3001.toml)
+
+- Jiao Ziang 在 [电磁场](https://github.com/HITSZ-OpenAuto/EE2003) 中提交了信息：docs: add structured course info (EE2003.toml)
+
+- Jiao Ziang 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：docs: add structured course info (GEIP1017.toml)
+
+- Jiao Ziang 在 [思想道德与法治](https://github.com/HITSZ-OpenAuto/GEIP1015) 中提交了信息：docs: add structured course info (GEIP1015.toml)
+
+- Jiao Ziang 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：docs: add structured course info (SPST1004.toml)
+
+- Jiao Ziang 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：docs: add structured course info (EE2004.toml)
+
+- Jiao Ziang 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：docs: add structured course info (AUTO3012.toml)
+
+- Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：docs: add structured course info (AUTO3019.toml)
+
+- Jiao Ziang 在 [日语 I](https://github.com/HITSZ-OpenAuto/WOCD1008) 中提交了信息：docs: add structured course info (WOCD1008.toml)
+
+- Jiao Ziang 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：docs: add structured course info (AUTO3011.toml)
+
+- Jiao Ziang 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：docs: add structured course info (AUTO3024.toml)
+
+- Jiao Ziang 在 [系统辨识](https://github.com/HITSZ-OpenAuto/AUTO5002) 中提交了信息：docs: add structured course info (AUTO5002.toml)
+
+- Jiao Ziang 在 [线性系统理论](https://github.com/HITSZ-OpenAuto/AUTO5001) 中提交了信息：docs: add structured course info (AUTO5001.toml)
+
+- Jiao Ziang 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：docs: add structured course info (AUTO3006.toml)
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：docs: add structured course info (AUTO2003A.toml)
+
+- Jiao Ziang 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：docs: add structured course info (EE1014.toml)
+
+- Jiao Ziang 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：docs: add structured course info (AUTO3022.toml)
+
+- Jiao Ziang 在 [机械设计基础](https://github.com/HITSZ-OpenAuto/MECH2010) 中提交了信息：docs: add structured course info (MECH2010.toml)
+
+- Jiao Ziang 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：docs: add structured course info (MATH1015B.toml)
+
+- Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：docs: add structured course info (EE1012A.toml)
+
+- Jiao Ziang 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：docs: add structured course info (LANG100X.toml)
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：docs: add structured course info (AUTO2003B.toml)
+
+- Jiao Ziang 在 [电路实验 IB](https://github.com/HITSZ-OpenAuto/EE1012B) 中提交了信息：docs: add structured course info (EE1012B.toml)
+
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：docs: add structured course info (AUTO1001.toml)
+
+- Jiao Ziang 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：docs: add structured course info (GEIP1018.toml)
+
+- Jiao Ziang 在 [模拟电子技术实验](https://github.com/HITSZ-OpenAuto/EE1008) 中提交了信息：docs: add structured course info (EE1008.toml)
+
+- Jiao Ziang 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：docs: add structured course info (AUTO2006.toml)
+
+- Jiao Ziang 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：docs: add structured course info (EE3005.toml)
+
+- Jiao Ziang 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：docs: add structured course info (AUTO3016.toml)
+
+- Jiao Ziang 在 [C++ 语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2014) 中提交了信息：docs: add structured course info (COMP2014.toml)
+
+- Jiao Ziang 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：docs: add structured course info (COMP2050.toml)
+
+- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：docs: add structured course info (MATH1004.toml)
+
+- Jiao Ziang 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：docs: add structured course info (AUTO3003.toml)
+
+- Jiao Ziang 在 [大学化学 III](https://github.com/HITSZ-OpenAuto/CHEM1012) 中提交了信息：docs: add structured course info (CHEM1012.toml)
 
 - Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：删除旧 toml
 
@@ -119,46 +387,10 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-13 06:02:24
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP4004/pull/3)
-
-- **仓库**: GEIP4004
-- **创建于**: 2026-01-13 06:01:17
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3005/pull/11)
-
-- **仓库**: COMP3005
-- **创建于**: 2026-01-13 06:00:31
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3042/pull/11)
-
-- **仓库**: COMP3042
-- **创建于**: 2026-01-13 06:00:01
-- **作者**: LiPu-jpg
-
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3039/pull/7)
 
 - **仓库**: COMP3039
 - **创建于**: 2026-01-13 05:59:42
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3054/pull/10)
-
-- **仓库**: COMP3054
-- **创建于**: 2026-01-13 05:59:20
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3021/pull/9)
-
-- **仓库**: COMP3021
-- **创建于**: 2026-01-13 05:58:53
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3029/pull/8)
-
-- **仓库**: COMP3029
-- **创建于**: 2026-01-13 05:58:27
 - **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3019/pull/7)
@@ -167,52 +399,10 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-13 05:58:03
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3018/pull/7)
-
-- **仓库**: COMP3018
-- **创建于**: 2026-01-13 05:57:40
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3017/pull/9)
-
-- **仓库**: COMP3017
-- **创建于**: 2026-01-13 05:57:15
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3028/pull/9)
-
-- **仓库**: COMP3028
-- **创建于**: 2026-01-13 05:56:41
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3030/pull/8)
-
-- **仓库**: COMP3030
-- **创建于**: 2026-01-13 05:56:16
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3006/pull/8)
-
-- **仓库**: COMP3006
-- **创建于**: 2026-01-13 05:55:45
-- **作者**: LiPu-jpg
-
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3053/pull/7)
 
 - **仓库**: COMP3053
 - **创建于**: 2026-01-13 05:55:24
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3002/pull/9)
-
-- **仓库**: COMP3002
-- **创建于**: 2026-01-13 05:54:27
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3009/pull/8)
-
-- **仓库**: COMP3009
-- **创建于**: 2026-01-13 05:54:01
 - **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3044/pull/8)
@@ -221,51 +411,129 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-13 05:53:12
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3007/pull/9)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3003/pull/12)
 
-- **仓库**: COMP3007
-- **创建于**: 2026-01-13 05:52:47
+- **仓库**: COMP3003
+- **创建于**: 2026-01-13 05:47:05
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3040/pull/8)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2052/pull/9)
 
-- **仓库**: COMP3040
-- **创建于**: 2026-01-13 05:52:08
+- **仓库**: COMP2052
+- **创建于**: 2026-01-13 05:44:32
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3004/pull/9)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH4001/pull/13)
 
-- **仓库**: COMP3004
-- **创建于**: 2026-01-13 05:51:36
+- **仓库**: MATH4001
+- **创建于**: 2026-01-13 05:37:05
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3011/pull/8)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/SEIN1040/pull/12)
 
-- **仓库**: COMP3011
-- **创建于**: 2026-01-13 05:50:48
+- **仓库**: SEIN1040
+- **创建于**: 2026-01-13 05:35:34
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2010/pull/9)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/14)
 
-- **仓库**: COMP2010
-- **创建于**: 2026-01-13 05:50:19
+- **仓库**: ENGG1002
+- **创建于**: 2026-01-13 05:34:11
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2029/pull/9)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/16)
 
-- **仓库**: COMP2029
-- **创建于**: 2026-01-13 05:49:48
+- **仓库**: ENGG1003
+- **创建于**: 2026-01-13 05:33:29
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3060/pull/8)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH4004/pull/17)
 
-- **仓库**: COMP3060
-- **创建于**: 2026-01-13 05:49:27
+- **仓库**: MATH4004
+- **创建于**: 2026-01-13 05:31:28
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3010/pull/8)
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/16)
 
-- **仓库**: COMP3010
-- **创建于**: 2026-01-13 05:49:01
+- **仓库**: WRIT0001
+- **创建于**: 2026-01-13 05:29:37
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5024/pull/19)
+
+- **仓库**: AUTO5024
+- **创建于**: 2026-01-13 05:27:00
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5005/pull/16)
+
+- **仓库**: AUTO5005
+- **创建于**: 2026-01-13 05:24:45
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/21)
+
+- **仓库**: AUTO3099
+- **创建于**: 2026-01-13 05:22:38
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/26)
+
+- **仓库**: AUTO3002B
+- **创建于**: 2026-01-13 05:21:07
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/28)
+
+- **仓库**: AUTO3001B
+- **创建于**: 2026-01-13 05:20:33
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/20)
+
+- **仓库**: AUTO5023
+- **创建于**: 2026-01-13 05:20:01
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PE100X/pull/29)
+
+- **仓库**: PE100X
+- **创建于**: 2026-01-13 05:17:49
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1013/pull/22)
+
+- **仓库**: EE1013
+- **创建于**: 2026-01-13 05:15:52
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/27)
+
+- **仓库**: MATH1015A
+- **创建于**: 2026-01-13 05:14:48
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1011A/pull/22)
+
+- **仓库**: EE1011A
+- **创建于**: 2026-01-13 05:13:37
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/22)
+
+- **仓库**: AUTO5013
+- **创建于**: 2026-01-13 05:10:46
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/29)
+
+- **仓库**: PHYS1001
+- **创建于**: 2026-01-13 05:06:59
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/24)
+
+- **仓库**: GEIP1016
+- **创建于**: 2026-01-13 05:04:15
 - **作者**: LiPu-jpg
 
