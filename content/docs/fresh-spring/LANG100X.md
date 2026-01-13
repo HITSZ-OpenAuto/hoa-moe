@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 7 月 2 日" author="cecilia" message="Merge pull request #8 from mircecilia/patch-1" >}}
+{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #20 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252069" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -108,6 +108,7 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/LANG100X" repoURL="https://github.com/HITSZ-OpenAuto/LANG100X" >}}
+{{< hoa-filetree/file name="LANG100X" type="toml" size="4.9 KB" date="2026/01/12" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/LANG100X.toml" >}}
 {{< hoa-filetree/folder name="exams" date="" state="closed" >}}
 {{< hoa-filetree/file name="2021 哈工大（深圳）新生入学英语试题" type="docx" size="127.1 KB" date="2024/04/21" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/exams/2021%E5%93%88%E5%B7%A5%E5%A4%A7%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89%E6%96%B0%E7%94%9F%E5%85%A5%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%95%E9%A2%98.docx" >}}
 {{< hoa-filetree/file name="2021 哈工大（深圳）新生入学英语试题" type="pdf" size="905.5 KB" date="2024/04/21" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/exams/2021%E5%93%88%E5%B7%A5%E5%A4%A7%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89%E6%96%B0%E7%94%9F%E5%85%A5%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%95%E9%A2%98.pdf" >}}

@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 12 月 21 日" author="Star1950625" message="增加个人笔记 (#21)" >}}
+{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #25 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252165" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -101,6 +101,7 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MATH1015B" repoURL="https://github.com/HITSZ-OpenAuto/MATH1015B" >}}
+{{< hoa-filetree/file name="MATH1015B" type="toml" size="6.1 KB" date="2026/01/12" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/MATH1015B.toml" >}}
 {{< hoa-filetree/folder name="assignments" date="" state="closed" >}}
 {{< hoa-filetree/file name="第七章微分方程作业答案（7.6-7.9）" type="pdf" size="205.2 KB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88%EF%BC%887.6-7.9%EF%BC%89.pdf" >}}
 {{< hoa-filetree/file name="第九章多元函数微分法及其应用作业答案" type="pdf" size="377.3 KB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/assignments/%E7%AC%AC%E4%B9%9D%E7%AB%A0%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E6%B3%95%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88.pdf" >}}

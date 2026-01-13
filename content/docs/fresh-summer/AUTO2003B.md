@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 6 月 28 日" author="psp_dada" message="更新项目报告 (#11)" >}}
+{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #23 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251913" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -120,6 +120,7 @@ Qt 有自己的 IDE [Qt Creator](https://www.qt.io/product/development-tools)，
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003B" repoURL="https://github.com/HITSZ-OpenAuto/AUTO2003B" >}}
+{{< hoa-filetree/file name="AUTO2003B" type="toml" size="5.7 KB" date="2026/01/12" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/AUTO2003B.toml" >}}
 {{< hoa-filetree/folder name="course_design" date="" state="closed" >}}
 {{< hoa-filetree/folder name="WKY" date="" state="closed" >}}
 {{< hoa-filetree/file name="创新训练课 B 报告" type="docx" size="1.3 MB" date="2025/06/28" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/WKY/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
