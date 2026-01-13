@@ -20,6 +20,8 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Merge pull request #34 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251710
 
+- Jiao Ziang 在 [设计与制造 C](https://github.com/HITSZ-OpenAuto/MECH3041) 中提交了信息：docs: add structured course info (MECH3041.toml)
+
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：docs: add structured course info (AUTO1001.toml)
 
 - Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：删除旧 toml
@@ -79,16 +81,22 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [添加本部「智能系统控制实践」课程资料并支持 README 双校区切换](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/27)
+
+- **仓库**: AUTO3002B
+- **创建于**: 2026-01-13 12:23:47
+- **作者**: Costannt
+
+### [增加一份高电课程笔记](https://github.com/HITSZ-OpenAuto/EE2004/pull/17)
+
+- **仓库**: EE2004
+- **创建于**: 2026-01-13 11:59:02
+- **作者**: youyun0v0
+
 ### [修改错误链接](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/38)
 
 - **仓库**: AUTO2005
 - **创建于**: 2026-01-13 11:39:01
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MECH3041/pull/2)
-
-- **仓库**: MECH3041
-- **创建于**: 2026-01-13 06:05:24
 - **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MECH3005/pull/2)
@@ -251,11 +259,5 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2010
 - **创建于**: 2026-01-13 05:50:19
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2029/pull/9)
-
-- **仓库**: COMP2029
-- **创建于**: 2026-01-13 05:49:48
 - **作者**: LiPu-jpg
 
