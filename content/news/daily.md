@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周二 (1.13)
 
+- Jiao Ziang 在 [汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：人工审核改动 llm 生成的不必要信息
+
+- Jiao Ziang 在 [汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：Merge pull request #7 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254919
+
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3019) 中提交了信息：Merge pull request #7 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255078
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3039) 中提交了信息：添加名字与课程代码
@@ -206,6 +210,8 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：docs: add structured course info (COMP3006.toml)
 
+- Jiao Ziang 在 [汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：docs: add structured course info (COMP3053.toml)
+
 - Jiao Ziang 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：docs: add structured course info (COMP3002.toml)
 
 - Jiao Ziang 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：docs: add structured course info (COMP3009.toml)
@@ -395,12 +401,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-13 11:39:01
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3053/pull/7)
-
-- **仓库**: COMP3053
-- **创建于**: 2026-01-13 05:55:24
-- **作者**: LiPu-jpg
-
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3044/pull/8)
 
 - **仓库**: COMP3044
@@ -555,5 +555,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1010
 - **创建于**: 2026-01-13 04:55:56
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1009/pull/29)
+
+- **仓库**: EE1009
+- **创建于**: 2026-01-13 04:55:09
 - **作者**: LiPu-jpg
 
