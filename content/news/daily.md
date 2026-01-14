@@ -14,11 +14,15 @@ title: AUTO 更新速递
 
 ### 周三 (1.14)
 
+- W. D. Gaster 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：上新课程
+
+- W. D. Gaster 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：上新课程设计与制造 B
+
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：Initial commit
+- W. D. Gaster 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：Initial commit
 
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：添加课程教材与网课推荐，上传 2025 春期末试卷
+- W. D. Gaster 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：添加课程教材与网课推荐，上传 2025 春期末试卷
 
 - W. D. Gaster 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传 25 秋本研共通的数值分析期末试题
 
@@ -92,7 +96,7 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Merge pull request #10 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255155
 
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254195
+- Jiao Ziang 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768254195
 
 - Jiao Ziang 在 [智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：Merge pull request #11 from HITSZ-OpenAuto/ci/auto-generate-toml-1768255195
 
