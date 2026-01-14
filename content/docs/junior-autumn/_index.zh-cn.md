@@ -17,6 +17,7 @@ toc: false
 {{< card link="comp3059" title="软件构造" >}}
 {{< card link="ee3001" title="电机学" >}}
 {{< card link="ee3002" title="电力电子技术" >}}
+{{< card link="ee3005" title="DSP 的原理与应用" >}}
 {{< card link="ee3015" title="电力系统分析" >}}
 {{< card link="ee304x" title="专业综合实践" >}}
 {{< card link="mech3041" title="设计与制造 C" >}}
