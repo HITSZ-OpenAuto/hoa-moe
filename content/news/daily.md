@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (1.14)
 
+- W. D. Gaster 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：添加 23 级相关资料
+
 - W. D. Gaster 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：上新课程
 
 - W. D. Gaster 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：上新课程设计与制造 B
