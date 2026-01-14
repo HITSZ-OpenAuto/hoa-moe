@@ -34,6 +34,7 @@ toc: false
 {{< card link="comp3029" title="计算机视觉" >}}
 {{< card link="comp3030" title="信息检索" >}}
 {{< card link="comp3042" title="智能证券投资" >}}
+{{< card link="comp3052" title="计算机系统" >}}
 {{< card link="comp3054" title="网络与系统安全" >}}
 {{< card link="ee30xx" title="电气专业选修课" >}}
 {{< /cards >}}

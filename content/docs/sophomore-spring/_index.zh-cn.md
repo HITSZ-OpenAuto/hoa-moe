@@ -22,6 +22,7 @@ toc: false
 {{< card link="auto2006" title="控制理论中的代数基础" >}}
 {{< card link="comp2008" title="计算机组成原理" >}}
 {{< card link="comp3004" title="形式语言与自动机" >}}
+{{< card link="comp3052" title="计算机系统" >}}
 {{< card link="mech2020" title="设计与制造 B" >}}
 {{< card link="mech2022" title="固体力学" >}}
 {{< /cards >}}
