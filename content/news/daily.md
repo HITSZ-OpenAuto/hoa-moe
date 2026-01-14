@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周三 (1.14)
+
+- W. D. Gaster 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传 25 秋本研共通的数值分析期末试题
+
 ### 周二 (1.13)
 
 - Jiao Ziang 在 [汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：人工审核改动 llm 生成的不必要信息
@@ -361,11 +365,5 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1016
 - **创建于**: 2026-01-13 05:04:15
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/38)
-
-- **仓库**: GEIP1011
-- **创建于**: 2026-01-13 05:03:30
 - **作者**: LiPu-jpg
 
