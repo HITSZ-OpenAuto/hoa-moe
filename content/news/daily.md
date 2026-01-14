@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周四 (1.15)
+
+- W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：添加 24 秋和 25 秋相关资料
+
 ### 周三 (1.14)
 
 - W. D. Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：添加 24 秋和 25 秋的资料
