@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (1.14)
 
+- W. D. Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：添加 24 秋和 25 秋的资料
+
 - W. D. Gaster 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：添加 24 秋、25 秋相关资料
 
 - W. D. Gaster 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：添加 23 级相关资料
