@@ -47,6 +47,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [增加了教师信息、考试情况补充](https://github.com/HITSZ-OpenAuto/MATH1004/pull/36)
+
+- **仓库**: MATH1004
+- **创建于**: 2026-01-16 23:30:05
+- **作者**: wpj9362
+
 ### [补充文理通识课程信息](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/20)
 
 - **仓库**: GeneralKnowledge
@@ -219,11 +225,5 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1016
 - **创建于**: 2026-01-13 05:04:15
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/38)
-
-- **仓库**: GEIP1011
-- **创建于**: 2026-01-13 05:03:30
 - **作者**: LiPu-jpg
 
