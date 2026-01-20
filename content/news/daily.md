@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (1.21)
 
+- Costannt 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加本部「智能系统控制实践」课程资料并支持 README 双校区切换 (#27)
+
 - Pengjie Wang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：补充文理通识课程信息 (#20)
 
 - Pengjie Wang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：增加了教师信息、考试情况补充 (#36)
@@ -74,12 +76,6 @@ title: AUTO 更新速递
 - **仓库**: CrossSpecialty
 - **创建于**: 2026-01-13 19:10:08
 - **作者**: capoo-fan
-
-### [添加本部「智能系统控制实践」课程资料并支持 README 双校区切换](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/27)
-
-- **仓库**: AUTO3002B
-- **创建于**: 2026-01-13 12:23:47
-- **作者**: Costannt
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3044/pull/8)
 
@@ -241,5 +237,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1009
 - **创建于**: 2026-01-13 04:55:09
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1007/pull/27)
+
+- **仓库**: EE1007
+- **创建于**: 2026-01-13 04:53:40
 - **作者**: LiPu-jpg
 
