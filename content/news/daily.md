@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周三 (1.21)
+
+- Pengjie Wang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：修改、增添了数字逻辑设计课程一些内容 (#16)
+
 ### 周二 (1.20)
 
 - Pengjie Wang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加了两门跨专业课程：公司并购与估值、绿色金融与碳排放权交易 (#17)
@@ -75,12 +79,6 @@ title: AUTO 更新速递
 
 - **仓库**: GeneralKnowledge
 - **创建于**: 2026-01-14 00:05:02
-- **作者**: wpj9362
-
-### [修改、增添了数字逻辑设计课程一些内容](https://github.com/HITSZ-OpenAuto/COMP2051/pull/16)
-
-- **仓库**: COMP2051
-- **创建于**: 2026-01-13 23:31:42
 - **作者**: wpj9362
 
 ### [增加了走进量子世界相关的说明](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/16)
@@ -237,5 +235,11 @@ title: AUTO 更新速递
 
 - **仓库**: ECON2005F
 - **创建于**: 2026-01-13 04:58:36
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EMEC1002/pull/22)
+
+- **仓库**: EMEC1002
+- **创建于**: 2026-01-13 04:57:57
 - **作者**: LiPu-jpg
 
