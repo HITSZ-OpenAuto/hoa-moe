@@ -14,6 +14,36 @@ title: AUTO 更新速递
 
 ### 周二 (1.20)
 
+- youyun0v0 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：增加一份高电课程笔记 (#17)
+
+- Jiao Ziang 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改错误链接 (#38)
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: update compatibility date
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: format code
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: enhance MarkdownComponent styling for better text wrapping
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: update math plugin type definition
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: replace any types with unknown to resolve lint errors
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: add prettier and format codebase
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: remove unused dependencies identified by knip
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: add knip configuration
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：refactor: use streamdown to render markdown component
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: solve build error by checking for katexInstance
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: fix lint issues in App and components
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: bump dependencies to latest
+
+- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: migrate from Cloudflare Pages to Workers
+
 - 345ljh 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：上传 25 秋回忆试题与大作业 (#17)
 
 ## 待解决的 Issues
@@ -68,18 +98,6 @@ title: AUTO 更新速递
 - **仓库**: AUTO3002B
 - **创建于**: 2026-01-13 12:23:47
 - **作者**: Costannt
-
-### [增加一份高电课程笔记](https://github.com/HITSZ-OpenAuto/EE2004/pull/17)
-
-- **仓库**: EE2004
-- **创建于**: 2026-01-13 11:59:02
-- **作者**: youyun0v0
-
-### [修改错误链接](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/38)
-
-- **仓库**: AUTO2005
-- **创建于**: 2026-01-13 11:39:01
-- **作者**: LiPu-jpg
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3044/pull/8)
 
@@ -199,5 +217,23 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO5013
 - **创建于**: 2026-01-13 05:10:46
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/29)
+
+- **仓库**: PHYS1001
+- **创建于**: 2026-01-13 05:06:59
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/24)
+
+- **仓库**: GEIP1016
+- **创建于**: 2026-01-13 05:04:15
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/38)
+
+- **仓库**: GEIP1011
+- **创建于**: 2026-01-13 05:03:30
 - **作者**: LiPu-jpg
 
