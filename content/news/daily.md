@@ -14,6 +14,12 @@ title: AUTO 更新速递
 
 ### 周三 (1.21)
 
+- Pengjie Wang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：补充文理通识课程信息 (#20)
+
+- Pengjie Wang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：增加了教师信息、考试情况补充 (#36)
+
+- Pengjie Wang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：增加了大学物理课程部分信息 (#30)
+
 - Pengjie Wang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：修改、增添了数字逻辑设计课程一些内容 (#16)
 
 ### 周二 (1.20)
@@ -62,24 +68,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [增加了大学物理课程部分信息](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/30)
-
-- **仓库**: PHYS1001
-- **创建于**: 2026-01-19 16:22:40
-- **作者**: wpj9362
-
-### [增加了教师信息、考试情况补充](https://github.com/HITSZ-OpenAuto/MATH1004/pull/36)
-
-- **仓库**: MATH1004
-- **创建于**: 2026-01-16 23:30:05
-- **作者**: wpj9362
-
-### [补充文理通识课程信息](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/20)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-01-14 00:05:02
-- **作者**: wpj9362
 
 ### [增加了走进量子世界相关的说明](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/16)
 
@@ -241,5 +229,17 @@ title: AUTO 更新速递
 
 - **仓库**: EMEC1002
 - **创建于**: 2026-01-13 04:57:57
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1010/pull/19)
+
+- **仓库**: EE1010
+- **创建于**: 2026-01-13 04:55:56
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1009/pull/29)
+
+- **仓库**: EE1009
+- **创建于**: 2026-01-13 04:55:09
 - **作者**: LiPu-jpg
 
