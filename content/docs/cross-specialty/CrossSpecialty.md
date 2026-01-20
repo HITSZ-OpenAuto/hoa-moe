@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 12 日" author="Kokoro2336" message="Merge pull request #15 from lumen183/main" >}}
+{{< update-info update_time="2026 年 1 月 20 日" author="Pengjie Wang" message="添加了两门跨专业课程：公司并购与估值、绿色金融与碳排放权交易 (#17)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -488,6 +488,53 @@ ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频
 - 紫外，红外，质谱仪综合应用。
 
 > 文 / [lumen](https://github.com/lumen183)，2026.1
+
+### 公司并购与估值
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
+![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A560%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-60%25-wheat)
+
+</div>
+
+老师：李晶晶
+
+虽然是经济管理学院的课，但这门课整体相对友好，难度较低；老师人也非常和善。
+
+- 考勤略多，形式为课间在黑板上写名字，有时会提前提醒（不是每次都有）。课堂偶尔提问，其他不太管。
+- 有两次需要在课上完成的 PPT 作业（写一份 PPT 分析某个具体问题），需要以小组形式完成，每个小组都必须至少选择一次作业进行汇报。不过这非常容易（
+- 期末汇报是案例分析，需要分析一个实际的公司并购案例。汇报时没有提问环节，也是非常轻松。
+- 给分友好，制作 PPT 只要稍微用心一些就能拿到不低的分数（90+）,对于想提高总学分绩的同学来说是不错的选择。
+
+
+> 文 / [PVZ&X](https://github.com/wpj9362)，2026.1
+
+### 绿色金融与碳排放权交易
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E8%80%83%E5%8B%A410%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-10%25-wheat)
+![%E8%AE%BA%E6%96%87%E5%88%86%E6%9E%9045%](https://img.shields.io/badge/%E8%AE%BA%E6%96%87%E5%88%86%E6%9E%90-45%25-wheat)
+![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A545%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%B1%87%E6%8A%A5-45%25-wheat)
+
+</div>
+
+老师：陈小蓓
+
+同样是经济管理学院开设的，相对不那么“硬核”的课。
+
+- 每节课考勤，形式为上课后在名单上签字。不过平时分相对较少，自己取舍吧（）
+- 老师会偶尔“敲打”上课没有听讲的同学、或者提问。课程的内容比较新颖，也有一定价值，感兴趣的同学可以听一听的。
+- 小组作业分为两部分，各占 45%。“论文分析”是指阅读一篇绿色金融有关题材的论文，然后在课上作报告，谈谈你对论文的理解；“课堂汇报”则是需要自己根据所学内容，撰写绿色金融与碳排放权交易有关的案例分析，然后在课上汇报。老师会把上课的 PPT 和往届学生的汇报案例发到群里，供大家参考写作格式和内容。
+这门课每节课考勤，给分不算高但肯定能过（本人是 84，排名 24/60）且小组作业的工作量不少，也比较新颖。因此建议在小组组好队后，尽快明确职责，分配好各自负责的部分（论文搜集与写作、PPT 制作、汇报），这样可以省不少心。不过介于这门课不设置考试的属性，意味着你只要把该做的工作做完，就能轻松获得 2 学分。
+
+> 文 /> 文 / [PVZ&X](https://github.com/wpj9362)，2026.1
+
 
 
 ## 资料下载
