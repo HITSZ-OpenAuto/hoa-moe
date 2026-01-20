@@ -47,6 +47,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [增加了大学物理课程部分信息](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/30)
+
+- **仓库**: PHYS1001
+- **创建于**: 2026-01-19 16:22:40
+- **作者**: wpj9362
+
 ### [增加了教师信息、考试情况补充](https://github.com/HITSZ-OpenAuto/MATH1004/pull/36)
 
 - **仓库**: MATH1004
@@ -219,11 +225,5 @@ title: AUTO 更新速递
 
 - **仓库**: PHYS1001
 - **创建于**: 2026-01-13 05:06:59
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/24)
-
-- **仓库**: GEIP1016
-- **创建于**: 2026-01-13 05:04:15
 - **作者**: LiPu-jpg
 
