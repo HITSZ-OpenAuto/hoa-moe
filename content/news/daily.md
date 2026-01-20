@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-15'
+date: '2026-01-20'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,29 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周四 (1.15)
+### 周二 (1.20)
 
-- W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：添加 24 秋和 25 秋相关资料
-
-### 周三 (1.14)
-
-- W. D. Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：添加 24 秋和 25 秋的资料
-
-- W. D. Gaster 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：添加 24 秋、25 秋相关资料
-
-- W. D. Gaster 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：添加 23 级相关资料
-
-- W. D. Gaster 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：上新课程
-
-- W. D. Gaster 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：上新课程设计与制造 B
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- W. D. Gaster 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：添加课程教材与网课推荐，上传 2025 春期末试卷
-
-- W. D. Gaster 在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：上传 25 秋本研共通的数值分析期末试题
+- 345ljh 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：上传 25 秋回忆试题与大作业 (#17)
 
 ## 待解决的 Issues
 
