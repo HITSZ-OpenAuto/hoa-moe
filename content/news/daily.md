@@ -201,9 +201,3 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-13 05:10:46
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/29)
-
-- **仓库**: PHYS1001
-- **创建于**: 2026-01-13 05:06:59
-- **作者**: LiPu-jpg
-
