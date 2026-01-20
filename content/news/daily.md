@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (1.20)
 
+- Pengjie Wang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加了两门跨专业课程：公司并购与估值、绿色金融与碳排放权交易 (#17)
+
 - youyun0v0 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：增加一份高电课程笔记 (#17)
 
 - Jiao Ziang 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改错误链接 (#38)
@@ -79,12 +81,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP2051
 - **创建于**: 2026-01-13 23:31:42
-- **作者**: wpj9362
-
-### [Update README with course information](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/17)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-01-13 23:06:21
 - **作者**: wpj9362
 
 ### [增加了走进量子世界相关的说明](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/16)
@@ -235,5 +231,11 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1011
 - **创建于**: 2026-01-13 05:03:30
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/19)
+
+- **仓库**: ECON2005F
+- **创建于**: 2026-01-13 04:58:36
 - **作者**: LiPu-jpg
 
