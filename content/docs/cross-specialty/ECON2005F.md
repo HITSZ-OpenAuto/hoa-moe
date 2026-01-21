@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 12 日" author="Anastasia-Charies" message="更新了经济学原理 (跨专业) 的课程信息 (#14)" >}}
+{{< update-info update_time="2026 年 1 月 21 日" author="Anastasia-Charies" message="补充署名，以便后面贡献的同学编写 (#21)" >}}
 
 <div class="hoa-badge">
 
@@ -31,11 +31,13 @@ math: true
   - 听课建议：
     - 课上会有"吹嘘一些自己以前的经历"的弊病，除此之外上课风格比较单调，老师的讲解没有形成对 ppt 的补充，听课对理解和记忆知识没什么帮助。
     - 老师每次上课之前都会发即将讲解课程的 ppt，并且考试内容完全来自 ppt，记得及时保存否则微信文件会过期！
+> 文 / [Anastasia Charies](https://github.com/Anastasia-Charies) ,2026.1
 
 ## 关于考勤
 - 在学期内的 32 次课内，随机考勤 10 次 (25 秋实际只考勤 8 次),每次考勤 2 分，不会提前通知。时刻在第一或二节课的开始或结束时，一次课不会有多次考勤。
 - 老师会给出一个最近讲过的知识点的简单问题，要求在纸上写出答案，5 分钟后他亲自一排一排的收。一旦检查到有代替他人考勤的行为，会收到检讨书要求和严肃批评。但是，只要提交的答题纸包含姓名学号即为有效，无论是否答出问题。
 - 一旦连续考勤到场三次后会自动获得一次"豁免"资格，下一次考勤未到场不会扣取分数，同时该次豁免资格失效。被批准的请假不会扣除考勤分。
+> 文 / [Anastasia Charies](https://github.com/Anastasia-Charies) ,2026.1
 
 ## 小组任务
 
@@ -69,6 +71,8 @@ math: true
   - 点名后，小组当场演示刚刚提交的 ppt,3 分钟以内简要介绍思路即可，可以主动上台展示，主动展示后他会从剩下的小组中抽取进行展示，一般会优先抽取最先提交、最后提交、多次提交的"特殊"者，然后随机抽取直到 10:15 下课。课上展示得到上限分的概率很高。
   - 没来得及在课上展示的 ppt 老师课后也会认真评阅给分，所有 ppt 都是基本完成任务即可得到上限分。
 
+> 文 / [Anastasia Charies](https://github.com/Anastasia-Charies) ,2026.1
+
 ## 关于考试
 
 - 期中考试：
@@ -80,9 +84,11 @@ math: true
   - 只考察宏观经济学原理课上讲过的全部内容，分为选择题和简单题部分。
   - 选择题共 15 题，每题 2 分，共 30 分，难度与期中考试接近。简答题 70 分，25 秋给了四道大题，考察宏观经济学相关知识点的记忆程度，没有思维难度。
 
+> 文 / [Anastasia Charies](https://github.com/Anastasia-Charies) ,2026.1
 
 ## 学习建议
   - 听课是没必要的，考前复习只需背诵 ppt 的知识点即可。
+> 文 / [Anastasia Charies](https://github.com/Anastasia-Charies) ,2026.1
 
 ## 资料下载
 
