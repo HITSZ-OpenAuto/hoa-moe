@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (1.21)
 
+- Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：补充署名，以便后面贡献的同学编写 (#21)
+
 - Costannt 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加本部「智能系统控制实践」课程资料并支持 README 双校区切换 (#27)
 
 - Pengjie Wang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：补充文理通识课程信息 (#20)
@@ -70,12 +72,6 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [补充署名，以便后面贡献的同学编写](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/21)
-
-- **仓库**: ECON2005F
-- **创建于**: 2026-01-21 10:02:17
-- **作者**: Anastasia-Charies
 
 ### [增加了对老师的评价和小组展示的实例](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/20)
 
@@ -243,5 +239,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1010
 - **创建于**: 2026-01-13 04:55:56
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1009/pull/29)
+
+- **仓库**: EE1009
+- **创建于**: 2026-01-13 04:55:09
 - **作者**: LiPu-jpg
 
