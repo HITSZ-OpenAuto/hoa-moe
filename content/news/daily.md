@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (1.21)
 
+- Hye 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：调整 README 结构，删去了 tabs 组件，修复页面构建的问题。 (#28)
+
 - Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：补充署名，以便后面贡献的同学编写 (#21)
 
 - Costannt 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加本部「智能系统控制实践」课程资料并支持 README 双校区切换 (#27)
