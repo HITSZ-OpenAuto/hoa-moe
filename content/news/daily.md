@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-20'
+date: '2026-01-21'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -70,6 +70,12 @@ title: AUTO 更新速递
 - **标签**: help wanted
 
 ## 待合并的 Pull Requests
+
+### [增加了对老师的评价和小组展示的实例](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/20)
+
+- **仓库**: ECON2005F
+- **创建于**: 2026-01-21 04:50:26
+- **作者**: Alexis0943
 
 ### [增加了走进量子世界相关的说明](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/16)
 
@@ -237,11 +243,5 @@ title: AUTO 更新速递
 
 - **仓库**: EE1009
 - **创建于**: 2026-01-13 04:55:09
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1007/pull/27)
-
-- **仓库**: EE1007
-- **创建于**: 2026-01-13 04:53:40
 - **作者**: LiPu-jpg
 
