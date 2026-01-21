@@ -71,6 +71,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [补充署名，以便后面贡献的同学编写](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/21)
+
+- **仓库**: ECON2005F
+- **创建于**: 2026-01-21 10:02:17
+- **作者**: Anastasia-Charies
+
 ### [增加了对老师的评价和小组展示的实例](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/20)
 
 - **仓库**: ECON2005F
@@ -237,11 +243,5 @@ title: AUTO 更新速递
 
 - **仓库**: EE1010
 - **创建于**: 2026-01-13 04:55:56
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1009/pull/29)
-
-- **仓库**: EE1009
-- **创建于**: 2026-01-13 04:55:09
 - **作者**: LiPu-jpg
 
