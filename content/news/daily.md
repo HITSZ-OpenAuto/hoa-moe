@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-21'
+date: '2026-01-22'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,57 +12,29 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周四 (1.22)
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: update compatibility date in wrangler.toml to 2026-01-20
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: rename entry to index.js
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: add support for robots.txt in request handling
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: enable smart placement and run_worker_first in wrangler.toml
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: add MIT license
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: remove deployment references
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: remove default variable fallbacks in worker.js
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：docs: create README and add deployment badge
+
 ### 周三 (1.21)
 
 - Hye 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：调整 README 结构，删去了 tabs 组件，修复页面构建的问题。 (#28)
 
 - Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：补充署名，以便后面贡献的同学编写 (#21)
-
-- Costannt 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：添加本部「智能系统控制实践」课程资料并支持 README 双校区切换 (#27)
-
-- Pengjie Wang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：补充文理通识课程信息 (#20)
-
-- Pengjie Wang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：增加了教师信息、考试情况补充 (#36)
-
-- Pengjie Wang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：增加了大学物理课程部分信息 (#30)
-
-- Pengjie Wang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：修改、增添了数字逻辑设计课程一些内容 (#16)
-
-### 周二 (1.20)
-
-- Pengjie Wang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加了两门跨专业课程：公司并购与估值、绿色金融与碳排放权交易 (#17)
-
-- youyun0v0 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：增加一份高电课程笔记 (#17)
-
-- Jiao Ziang 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改错误链接 (#38)
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: update compatibility date
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: format code
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: enhance MarkdownComponent styling for better text wrapping
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: update math plugin type definition
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: replace any types with unknown to resolve lint errors
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: add prettier and format codebase
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: remove unused dependencies identified by knip
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: add knip configuration
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：refactor: use streamdown to render markdown component
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: solve build error by checking for katexInstance
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: fix lint issues in App and components
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: bump dependencies to latest
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: migrate from Cloudflare Pages to Workers
-
-- 345ljh 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：上传 25 秋回忆试题与大作业 (#17)
 
 ## 待解决的 Issues
 
