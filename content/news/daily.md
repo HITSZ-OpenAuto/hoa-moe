@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (1.22)
 
+- Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了走进量子世界课程 (#16)
+
 - Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: update compatibility date in wrangler.toml to 2026-01-20
 
 - Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: rename entry to index.js
@@ -52,12 +54,6 @@ title: AUTO 更新速递
 - **仓库**: ECON2005F
 - **创建于**: 2026-01-21 04:50:26
 - **作者**: Alexis0943
-
-### [增加了走进量子世界相关的说明](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/16)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-01-13 19:10:08
-- **作者**: capoo-fan
 
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3044/pull/8)
 
@@ -219,5 +215,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1009
 - **创建于**: 2026-01-13 04:55:09
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1007/pull/27)
+
+- **仓库**: EE1007
+- **创建于**: 2026-01-13 04:53:40
 - **作者**: LiPu-jpg
 
