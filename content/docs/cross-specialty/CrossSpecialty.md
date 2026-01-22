@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 20 日" author="Pengjie Wang" message="添加了两门跨专业课程：公司并购与估值、绿色金融与碳排放权交易 (#17)" >}}
+{{< update-info update_time="2026 年 1 月 22 日" author="Lurker" message="增加了走进量子世界课程 (#16)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -489,6 +489,25 @@ ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频
 
 > 文 / [lumen](https://github.com/lumen183)，2026.1
 
+### 走进量子世界
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
+
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E8%80%83%E8%AF%95-50%25-wheat)
+![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A530%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-30%25-wheat)
+![%E5%AE%9E%E9%AA%8C20%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-20%25-wheat)
+
+</div>
+
+老师：周宇
+
+这一门正如老师自己所说：就是一门福利课。四学分的跨专业课不费吹灰之力。平时有小测和考勤，但是可以不用管，不扣平时分（因为根本就没有）。课堂汇报只要是和量子力学相关的内容基本都是 30 分/29 分。实验可以使用 AI，交了实验报告就是 20 分。最后 100 分折算成 50 分的考试也非常容易，老师最后会发两份 PDF，只需要对着 PDF 里面的内容复习即可，掌握量子力学历史、布洛赫球、简单的量子计算就可以轻松过关。四学分美美得吃 :yum:。
+
+> 文 / [潜伏](https://github.com/capoo-fan)，2026.1
+
 ### 公司并购与估值
 
 <div class="hoa-badge">
@@ -533,8 +552,7 @@ ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频
 - 小组作业分为两部分，各占 45%。“论文分析”是指阅读一篇绿色金融有关题材的论文，然后在课上作报告，谈谈你对论文的理解；“课堂汇报”则是需要自己根据所学内容，撰写绿色金融与碳排放权交易有关的案例分析，然后在课上汇报。老师会把上课的 PPT 和往届学生的汇报案例发到群里，供大家参考写作格式和内容。
 这门课每节课考勤，给分不算高但肯定能过（本人是 84，排名 24/60）且小组作业的工作量不少，也比较新颖。因此建议在小组组好队后，尽快明确职责，分配好各自负责的部分（论文搜集与写作、PPT 制作、汇报），这样可以省不少心。不过介于这门课不设置考试的属性，意味着你只要把该做的工作做完，就能轻松获得 2 学分。
 
-> 文 /> 文 / [PVZ&X](https://github.com/wpj9362)，2026.1
-
+> 文 / [PVZ&X](https://github.com/wpj9362)，2026.1
 
 
 ## 资料下载
