@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-22'
+date: '2026-01-23'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -14,40 +14,61 @@ title: AUTO 更新速递
 
 ### 周四 (1.22)
 
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：docs: add installation instructions via uv tool install
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat(cli): add repo command to lookup OpenAuto repository IDs (#3)
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add version information
+
+- W. D. Gaster 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：上传只保留目前组织里仓库相关的特殊映射的 lookup table (#1)
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：style: fix format and lint issues
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add pre-commit hooks, Makefile, and LICENSE
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add pre-commit configuration and Makefile for development setup
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: implement JW_COOKIE warning logging in fetcher
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：chore: remove lookup table tooling
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: rename folder SCHOOL_MAJORS to plans
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: rename CLI files to match command names
+
+- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：docs: update README with detailed usage and operational logic
+
 - Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了走进量子世界课程 (#16)
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: update compatibility date in wrangler.toml to 2026-01-20
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: rename entry to index.js
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: add support for robots.txt in request handling
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: enable smart placement and run_worker_first in wrangler.toml
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: add MIT license
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: remove deployment references
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: remove default variable fallbacks in worker.js
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：docs: create README and add deployment badge
-
-### 周三 (1.21)
-
-- Hye 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：调整 README 结构，删去了 tabs 组件，修复页面构建的问题。 (#28)
-
-- Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：补充署名，以便后面贡献的同学编写 (#21)
 
 ## 待解决的 Issues
 
-### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
-
-- **仓库**: MATH1002
-- **创建于**: 2025-01-20 15:32:37
-- **作者**: MaxwellJay256
-- **标签**: help wanted
+暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [加入了行星科学课程说明](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/18)
+
+- **仓库**: CrossSpecialty
+- **创建于**: 2026-01-22 17:57:35
+- **作者**: capoo-fan
+
+### [增加了对三门文理通识课程的描述 且将表诉进行了修改](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/22)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2026-01-22 17:04:34
+- **作者**: SpeechlessPanda
+
+### [增加了对三门文理通识课程的描述](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/21)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2026-01-22 16:40:31
+- **作者**: SpeechlessPanda
+
+### [feat: add readme.yaml template](https://github.com/HITSZ-OpenAuto/course-template/pull/23)
+
+- **仓库**: course-template
+- **创建于**: 2026-01-22 14:20:38
+- **作者**: kowyo
 
 ### [增加了对老师的评价和小组展示的实例](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/20)
 
@@ -203,23 +224,5 @@ title: AUTO 更新速递
 
 - **仓库**: EMEC1002
 - **创建于**: 2026-01-13 04:57:57
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1010/pull/19)
-
-- **仓库**: EE1010
-- **创建于**: 2026-01-13 04:55:56
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1009/pull/29)
-
-- **仓库**: EE1009
-- **创建于**: 2026-01-13 04:55:09
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1007/pull/27)
-
-- **仓库**: EE1007
-- **创建于**: 2026-01-13 04:53:40
 - **作者**: LiPu-jpg
 
