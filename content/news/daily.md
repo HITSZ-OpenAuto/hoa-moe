@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (1.25)
 
+- cecilia 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：增加对数逻实验的描述 (#17)
+
 - cecilia 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：增加马永辉教师的评价 (#31)
 
 ### 周六 (1.24)
