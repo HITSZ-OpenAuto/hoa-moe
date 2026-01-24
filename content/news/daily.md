@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (1.25)
+
+- cecilia 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：增加马永辉教师的评价 (#31)
+
 ### 周六 (1.24)
 
 - Mingjia Zhou 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了对两门跨专业课程的描述 (#19)
