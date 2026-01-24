@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-23'
+date: '2026-01-24'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,33 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周四 (1.22)
+### 周六 (1.24)
 
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：docs: add installation instructions via uv tool install
+- Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：加入了行星科学课程说明 (#18)
 
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat(cli): add repo command to lookup OpenAuto repository IDs (#3)
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add version information
-
-- W. D. Gaster 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：上传只保留目前组织里仓库相关的特殊映射的 lookup table (#1)
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：style: fix format and lint issues
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add pre-commit hooks, Makefile, and LICENSE
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add pre-commit configuration and Makefile for development setup
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: implement JW_COOKIE warning logging in fetcher
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：chore: remove lookup table tooling
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: rename folder SCHOOL_MAJORS to plans
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: rename CLI files to match command names
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：docs: update README with detailed usage and operational logic
-
-- Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了走进量子世界课程 (#16)
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 ## 待解决的 Issues
 
@@ -46,22 +24,16 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [加入了行星科学课程说明](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/18)
+### [增加了对两门跨专业课程的描述](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/19)
 
 - **仓库**: CrossSpecialty
-- **创建于**: 2026-01-22 17:57:35
-- **作者**: capoo-fan
+- **创建于**: 2026-01-24 14:27:06
+- **作者**: SpeechlessPanda
 
 ### [增加了对三门文理通识课程的描述 且将表诉进行了修改](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/22)
 
 - **仓库**: GeneralKnowledge
 - **创建于**: 2026-01-22 17:04:34
-- **作者**: SpeechlessPanda
-
-### [增加了对三门文理通识课程的描述](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/21)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-01-22 16:40:31
 - **作者**: SpeechlessPanda
 
 ### [feat: add readme.yaml template](https://github.com/HITSZ-OpenAuto/course-template/pull/23)
@@ -224,5 +196,11 @@ title: AUTO 更新速递
 
 - **仓库**: EMEC1002
 - **创建于**: 2026-01-13 04:57:57
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1010/pull/19)
+
+- **仓库**: EE1010
+- **创建于**: 2026-01-13 04:55:56
 - **作者**: LiPu-jpg
 
