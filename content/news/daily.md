@@ -14,21 +14,26 @@ title: AUTO 更新速递
 
 ### 周六 (1.24)
 
+- Mingjia Zhou 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了对两门跨专业课程的描述 (#19)
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat(ci): init building course pages workflow (#16)
+
+- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: simplify output
+
 - Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：加入了行星科学课程说明 (#18)
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 ## 待解决的 Issues
 
-暂无待解决的 Issues
+### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
+
+- **仓库**: MATH1002
+- **创建于**: 2025-01-20 15:32:37
+- **作者**: MaxwellJay256
+- **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [增加了对两门跨专业课程的描述](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/19)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-01-24 14:27:06
-- **作者**: SpeechlessPanda
 
 ### [增加了对三门文理通识课程的描述 且将表诉进行了修改](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/22)
 
@@ -202,5 +207,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1010
 - **创建于**: 2026-01-13 04:55:56
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1009/pull/29)
+
+- **仓库**: EE1009
+- **创建于**: 2026-01-13 04:55:09
 - **作者**: LiPu-jpg
 
