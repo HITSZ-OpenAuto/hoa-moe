@@ -14,6 +14,12 @@ title: AUTO 更新速递
 
 ### 周日 (1.25)
 
+- Mingjia Zhou 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加了对三门文理通识课程的描述 且将表述进行了修改 (#22)
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: remove llms-full.txt
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add FileTree component with JSON-to-tree transformation (#21)
+
 - Kowyo 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：移除教师评价中多余的横线
 
 - Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor(scripts): modularize and optimize course fetching logic
@@ -47,12 +53,6 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [增加了对三门文理通识课程的描述 且将表诉进行了修改](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/22)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-01-22 17:04:34
-- **作者**: SpeechlessPanda
 
 ### [增加了对老师的评价和小组展示的实例](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/20)
 
@@ -226,5 +226,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1007
 - **创建于**: 2026-01-13 04:53:40
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1002/pull/31)
+
+- **仓库**: MATH1002
+- **创建于**: 2026-01-13 04:50:08
 - **作者**: LiPu-jpg
 
