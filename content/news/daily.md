@@ -14,6 +14,14 @@ title: AUTO 更新速递
 
 ### 周日 (1.25)
 
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/feature/database-course-info
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: download worktree.json in fetch_repo_data and rename fetch_readme
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor: extract generate_pages and hardcode directory paths
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：perf: optimize course build script (#18)
+
 - cecilia 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：增加对数逻实验的描述 (#17)
 
 - cecilia 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：增加马永辉教师的评价 (#31)
@@ -46,12 +54,6 @@ title: AUTO 更新速递
 - **仓库**: GeneralKnowledge
 - **创建于**: 2026-01-22 17:04:34
 - **作者**: SpeechlessPanda
-
-### [feat: add readme.yaml template](https://github.com/HITSZ-OpenAuto/course-template/pull/23)
-
-- **仓库**: course-template
-- **创建于**: 2026-01-22 14:20:38
-- **作者**: kowyo
 
 ### [增加了对老师的评价和小组展示的实例](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/20)
 
@@ -219,5 +221,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1009
 - **创建于**: 2026-01-13 04:55:09
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1007/pull/27)
+
+- **仓库**: EE1007
+- **创建于**: 2026-01-13 04:53:40
 - **作者**: LiPu-jpg
 
