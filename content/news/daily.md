@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周日 (1.25)
 
+- Kowyo 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：移除教师评价中多余的横线
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor(scripts): modularize and optimize course fetching logic
+
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/feature/database-course-info
 
 - Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: download worktree.json in fetch_repo_data and rename fetch_readme
@@ -40,12 +44,7 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
-
-- **仓库**: MATH1002
-- **创建于**: 2025-01-20 15:32:37
-- **作者**: MaxwellJay256
-- **标签**: help wanted
+暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
 
