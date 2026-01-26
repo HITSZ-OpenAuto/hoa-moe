@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-25'
+date: '2026-01-26'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -31,22 +31,6 @@ title: AUTO 更新速递
 - Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor: extract generate_pages and hardcode directory paths
 
 - Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：perf: optimize course build script (#18)
-
-- cecilia 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：增加对数逻实验的描述 (#17)
-
-- cecilia 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：增加马永辉教师的评价 (#31)
-
-### 周六 (1.24)
-
-- Mingjia Zhou 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了对两门跨专业课程的描述 (#19)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat(ci): init building course pages workflow (#16)
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: simplify output
-
-- Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：加入了行星科学课程说明 (#18)
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 ## 待解决的 Issues
 
