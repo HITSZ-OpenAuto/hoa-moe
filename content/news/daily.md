@@ -12,6 +12,16 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周五 (1.30)
+
+- Jiao Ziang 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：Merge pull request #66 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250009
+
+- Jiao Ziang 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250740
+
+### 周四 (1.29)
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：ci: add preview workflow for PRs (#29)
+
 ### 周三 (1.28)
 
 - Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add Documentation, Blog, and GitHub links (#27)
@@ -203,11 +213,5 @@ title: AUTO 更新速递
 
 - **仓库**: EE1007
 - **创建于**: 2026-01-13 04:53:40
-- **作者**: LiPu-jpg
-
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1002/pull/31)
-
-- **仓库**: MATH1002
-- **创建于**: 2026-01-13 04:50:08
 - **作者**: LiPu-jpg
 
