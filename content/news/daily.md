@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-28'
+date: '2026-01-29'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,13 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (1.27)
+### 周三 (1.28)
 
-- kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: blog page layout and banner improvements
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add Documentation, Blog, and GitHub links (#27)
 
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: use shadcn theme color (#23)
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：ci: improve build and deployment pipeline
+
+- kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：docs: migrate blog posts
 
 ## 待解决的 Issues
 
