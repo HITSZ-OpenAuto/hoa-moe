@@ -14,6 +14,132 @@ title: AUTO 更新速递
 
 ### 周六 (1.31)
 
+- Jiao Ziang 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：Update readme.toml for EE3002
+
+- Jiao Ziang 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：Update README.md for EE3001
+
+- Jiao Ziang 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：Update readme.toml for EE3001
+
+- Jiao Ziang 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Update README.md for EE2004
+
+- Jiao Ziang 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：Update readme.toml for EE2004
+
+- Jiao Ziang 在 [电磁场](https://github.com/HITSZ-OpenAuto/EE2003) 中提交了信息：Update README.md for EE2003
+
+- Jiao Ziang 在 [电磁场](https://github.com/HITSZ-OpenAuto/EE2003) 中提交了信息：Update readme.toml for EE2003
+
+- Jiao Ziang 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Update README.md for EE1018
+
+- Jiao Ziang 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Update readme.toml for EE1018
+
+- Jiao Ziang 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：Update README.md for EE1014
+
+- Jiao Ziang 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：Update readme.toml for EE1014
+
+- Jiao Ziang 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：Update README.md for EE1013
+
+- Jiao Ziang 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：Update readme.toml for EE1013
+
+- Jiao Ziang 在 [电路实验 IB](https://github.com/HITSZ-OpenAuto/EE1012B) 中提交了信息：Update README.md for EE1012B
+
+- Jiao Ziang 在 [电路实验 IB](https://github.com/HITSZ-OpenAuto/EE1012B) 中提交了信息：Update readme.toml for EE1012B
+
+- Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：Update README.md for EE1012A
+
+- Jiao Ziang 在 [电路实验 IA](https://github.com/HITSZ-OpenAuto/EE1012A) 中提交了信息：Update readme.toml for EE1012A
+
+- Jiao Ziang 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：Update README.md for EE1011A
+
+- Jiao Ziang 在 [电路 IA](https://github.com/HITSZ-OpenAuto/EE1011A) 中提交了信息：Update readme.toml for EE1011A
+
+- Jiao Ziang 在 [数字电子技术实验](https://github.com/HITSZ-OpenAuto/EE1010) 中提交了信息：Update README.md for EE1010
+
+- Jiao Ziang 在 [数字电子技术实验](https://github.com/HITSZ-OpenAuto/EE1010) 中提交了信息：Update readme.toml for EE1010
+
+- Jiao Ziang 在 [模拟电子技术实验](https://github.com/HITSZ-OpenAuto/EE1008) 中提交了信息：Update README.md for EE1008
+
+- Jiao Ziang 在 [模拟电子技术实验](https://github.com/HITSZ-OpenAuto/EE1008) 中提交了信息：Update readme.toml for EE1008
+
+- Jiao Ziang 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：Update README.md for ECON2005F
+
+- Jiao Ziang 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：Update readme.toml for ECON2005F
+
+- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update README.md for CrossSpecialty
+
+- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update readme.toml for CrossSpecialty
+
+- Jiao Ziang 在 [软件构造实践](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：Update README.md for COMP3060
+
+- Jiao Ziang 在 [软件构造实践](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：Update readme.toml for COMP3060
+
+- Jiao Ziang 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：Update README.md for COMP3059
+
+- Jiao Ziang 在 [软件构造](https://github.com/HITSZ-OpenAuto/COMP3059) 中提交了信息：Update readme.toml for COMP3059
+
+- Jiao Ziang 在 [网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Update README.md for COMP3054
+
+- Jiao Ziang 在 [网络与系统安全](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Update readme.toml for COMP3054
+
+- Jiao Ziang 在 [汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：Update README.md for COMP3053
+
+- Jiao Ziang 在 [汇编语言与接口技术](https://github.com/HITSZ-OpenAuto/COMP3053) 中提交了信息：Update readme.toml for COMP3053
+
+- Jiao Ziang 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：Update README.md for COMP3052
+
+- Jiao Ziang 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：Update readme.toml for COMP3052
+
+- Jiao Ziang 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3044) 中提交了信息：Update README.md for COMP3044
+
+- Jiao Ziang 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3044) 中提交了信息：Update readme.toml for COMP3044
+
+- Jiao Ziang 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：Update README.md for COMP3043
+
+- Jiao Ziang 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：Update readme.toml for COMP3043
+
+- Jiao Ziang 在 [智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：Update README.md for COMP3042
+
+- Jiao Ziang 在 [智能证券投资](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：Update readme.toml for COMP3042
+
+- Jiao Ziang 在 [密码学基础](https://github.com/HITSZ-OpenAuto/COMP3040) 中提交了信息：Update README.md for COMP3040
+
+- Jiao Ziang 在 [密码学基础](https://github.com/HITSZ-OpenAuto/COMP3040) 中提交了信息：Update readme.toml for COMP3040
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3039) 中提交了信息：Update README.md for COMP3039
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3039) 中提交了信息：Update readme.toml for COMP3039
+
+- Jiao Ziang 在 [信息检索](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：Update README.md for COMP3030
+
+- Jiao Ziang 在 [信息检索](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：Update readme.toml for COMP3030
+
+- Jiao Ziang 在 [计算机视觉](https://github.com/HITSZ-OpenAuto/COMP3029) 中提交了信息：Update README.md for COMP3029
+
+- Jiao Ziang 在 [计算机视觉](https://github.com/HITSZ-OpenAuto/COMP3029) 中提交了信息：Update readme.toml for COMP3029
+
+- Jiao Ziang 在 [软件体系结构](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Update README.md for COMP3028
+
+- Jiao Ziang 在 [软件体系结构](https://github.com/HITSZ-OpenAuto/COMP3028) 中提交了信息：Update readme.toml for COMP3028
+
+- Jiao Ziang 在 [自然语言处理](https://github.com/HITSZ-OpenAuto/COMP3021) 中提交了信息：Update README.md for COMP3021
+
+- Jiao Ziang 在 [自然语言处理](https://github.com/HITSZ-OpenAuto/COMP3021) 中提交了信息：Update readme.toml for COMP3021
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3019) 中提交了信息：Update README.md for COMP3019
+
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3019) 中提交了信息：Update readme.toml for COMP3019
+
+- Jiao Ziang 在 [图像处理](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：Update README.md for COMP3018
+
+- Jiao Ziang 在 [图像处理](https://github.com/HITSZ-OpenAuto/COMP3018) 中提交了信息：Update readme.toml for COMP3018
+
+- Jiao Ziang 在 [服务计算](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：Update README.md for COMP3017
+
+- Jiao Ziang 在 [服务计算](https://github.com/HITSZ-OpenAuto/COMP3017) 中提交了信息：Update readme.toml for COMP3017
+
+- Jiao Ziang 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：Update README.md for COMP3013
+
+- Jiao Ziang 在 [编译原理](https://github.com/HITSZ-OpenAuto/COMP3013) 中提交了信息：Update readme.toml for COMP3013
+
 - Jiao Ziang 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：Update README.md for COMP3011
 
 - Jiao Ziang 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：Update readme.toml for COMP3011
