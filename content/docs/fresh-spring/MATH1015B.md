@@ -6,7 +6,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #25 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252165" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。

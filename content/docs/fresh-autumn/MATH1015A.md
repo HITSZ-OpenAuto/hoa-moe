@@ -6,7 +6,6 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 12 月 16 日" author="Jiao Ziang" message="Merge pull request #24 from Star1950625/main" >}}
 
 <div class="hoa-badge">
 
