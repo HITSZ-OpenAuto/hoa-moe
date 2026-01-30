@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (1.30)
 
+- Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：docs: add structured course info (AUTO5023.toml) (#20)
+
 - Jiao Ziang 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：Merge pull request #66 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250009
 
 - Jiao Ziang 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250740
@@ -123,12 +125,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-13 05:20:33
 - **作者**: LiPu-jpg
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/20)
-
-- **仓库**: AUTO5023
-- **创建于**: 2026-01-13 05:20:01
-- **作者**: LiPu-jpg
-
 ### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PE100X/pull/29)
 
 - **仓库**: PE100X
@@ -205,5 +201,11 @@ title: AUTO 更新速递
 
 - **仓库**: EE1007
 - **创建于**: 2026-01-13 04:53:40
+- **作者**: LiPu-jpg
+
+### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1002/pull/31)
+
+- **仓库**: MATH1002
+- **创建于**: 2026-01-13 04:50:08
 - **作者**: LiPu-jpg
 
