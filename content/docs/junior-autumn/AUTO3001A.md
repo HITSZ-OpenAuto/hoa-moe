@@ -6,6 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001A/edit/main/README.md"
 math: true
 ---
 
+{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="增加新 toml 并且修改错误链接" >}}
 
 **课程代码：** AUTO3001A
 

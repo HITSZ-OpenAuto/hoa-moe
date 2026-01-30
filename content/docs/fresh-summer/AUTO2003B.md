@@ -6,6 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003B/edit/main/README.md"
 math: true
 ---
 
+{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #23 from HITSZ-OpenAuto/ci/auto-generate-toml-1768251913" >}}
 
 **课程代码：** AUTO2003B
 

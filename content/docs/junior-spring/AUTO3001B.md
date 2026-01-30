@@ -6,6 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3001B/edit/main/README.md"
 math: true
 ---
 
+{{< update-info update_time="2025 年 10 月 25 日" author="Maxwell Jay" message="Merge pull request #22 from HITSZ-OpenAuto/mxj1" >}}
 
 <div class="hoa-badge">
 

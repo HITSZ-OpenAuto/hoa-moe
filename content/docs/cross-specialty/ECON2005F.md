@@ -6,6 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
 math: true
 ---
 
+{{< update-info update_time="2026 年 1 月 21 日" author="Anastasia-Charies" message="补充署名，以便后面贡献的同学编写 (#21)" >}}
 
 **课程代码：** ECON2005F
 

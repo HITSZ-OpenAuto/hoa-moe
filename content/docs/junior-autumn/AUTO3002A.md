@@ -6,6 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002A/edit/main/README.md"
 math: true
 ---
 
+{{< update-info update_time="2025 年 10 月 25 日" author="Maxwell Jay" message="添加关于习题答案的提醒 (#38)" >}}
 
 <div class="hoa-badge">
 
