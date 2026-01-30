@@ -12,7 +12,217 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (1.31)
+
+- Jiao Ziang 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：Update README.md for COMP3011
+
+- Jiao Ziang 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：Update readme.toml for COMP3011
+
+- Jiao Ziang 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：Update README.md for COMP3010
+
+- Jiao Ziang 在 [数据库系统](https://github.com/HITSZ-OpenAuto/COMP3010) 中提交了信息：Update readme.toml for COMP3010
+
+- Jiao Ziang 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：Update README.md for COMP3009
+
+- Jiao Ziang 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：Update readme.toml for COMP3009
+
+- Jiao Ziang 在 [模式识别](https://github.com/HITSZ-OpenAuto/COMP3007) 中提交了信息：Update README.md for COMP3007
+
+- Jiao Ziang 在 [模式识别](https://github.com/HITSZ-OpenAuto/COMP3007) 中提交了信息：Update readme.toml for COMP3007
+
+- Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Update README.md for COMP3006
+
+- Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：Update readme.toml for COMP3006
+
+- Jiao Ziang 在 [人工智能](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：Update README.md for COMP3005
+
+- Jiao Ziang 在 [人工智能](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：Update readme.toml for COMP3005
+
+- Jiao Ziang 在 [形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：Update README.md for COMP3004
+
+- Jiao Ziang 在 [形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：Update readme.toml for COMP3004
+
+- Jiao Ziang 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：Update README.md for COMP3002
+
+- Jiao Ziang 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：Update readme.toml for COMP3002
+
+- Jiao Ziang 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：Update README.md for COMP3001
+
+- Jiao Ziang 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：Update readme.toml for COMP3001
+
+- Jiao Ziang 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2052) 中提交了信息：Update README.md for COMP2052
+
+- Jiao Ziang 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2052) 中提交了信息：Update readme.toml for COMP2052
+
+- Jiao Ziang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Update README.md for COMP2051
+
+- Jiao Ziang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Update readme.toml for COMP2051
+
+- Jiao Ziang 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：Update README.md for COMP2050
+
+- Jiao Ziang 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：Update readme.toml for COMP2050
+
+- Jiao Ziang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Update README.md for COMP2030
+
+- Jiao Ziang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Update readme.toml for COMP2030
+
+- Jiao Ziang 在 [面向领域的计算机系统设计与开发实践](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：Update README.md for COMP2029
+
+- Jiao Ziang 在 [面向领域的计算机系统设计与开发实践](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：Update readme.toml for COMP2029
+
+- Jiao Ziang 在 [C++ 语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2014) 中提交了信息：Update README.md for COMP2014
+
+- Jiao Ziang 在 [C++ 语言程序设计](https://github.com/HITSZ-OpenAuto/COMP2014) 中提交了信息：Update readme.toml for COMP2014
+
+- Jiao Ziang 在 [计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012) 中提交了信息：Update README.md for COMP2012
+
+- Jiao Ziang 在 [计算机设计与实践](https://github.com/HITSZ-OpenAuto/COMP2012) 中提交了信息：Update readme.toml for COMP2012
+
+- Jiao Ziang 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：Update README.md for COMP2010
+
+- Jiao Ziang 在 [近世代数](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：Update readme.toml for COMP2010
+
+- Jiao Ziang 在 [计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008) 中提交了信息：Update README.md for COMP2008
+
+- Jiao Ziang 在 [计算机组成原理](https://github.com/HITSZ-OpenAuto/COMP2008) 中提交了信息：Update readme.toml for COMP2008
+
+- Jiao Ziang 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：Update README.md for COMP2001
+
+- Jiao Ziang 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：Update readme.toml for COMP2001
+
+- Jiao Ziang 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Update README.md for COMP1011
+
+- Jiao Ziang 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Update readme.toml for COMP1011
+
+- Jiao Ziang 在 [大学化学 III](https://github.com/HITSZ-OpenAuto/CHEM1012) 中提交了信息：Update README.md for CHEM1012
+
+- Jiao Ziang 在 [大学化学 III](https://github.com/HITSZ-OpenAuto/CHEM1012) 中提交了信息：Update readme.toml for CHEM1012
+
+- Jiao Ziang 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：Update README.md for AUTO5024
+
+- Jiao Ziang 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：Update readme.toml for AUTO5024
+
+- Jiao Ziang 在 [系统辨识](https://github.com/HITSZ-OpenAuto/AUTO5002) 中提交了信息：Update README.md for AUTO5002
+
+- Jiao Ziang 在 [系统辨识](https://github.com/HITSZ-OpenAuto/AUTO5002) 中提交了信息：Update readme.toml for AUTO5002
+
+- Jiao Ziang 在 [线性系统理论](https://github.com/HITSZ-OpenAuto/AUTO5001) 中提交了信息：Update README.md for AUTO5001
+
+- Jiao Ziang 在 [线性系统理论](https://github.com/HITSZ-OpenAuto/AUTO5001) 中提交了信息：Update readme.toml for AUTO5001
+
+- Jiao Ziang 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：Update README.md for AUTO3028
+
+- Jiao Ziang 在 [数学规划与数值优化](https://github.com/HITSZ-OpenAuto/AUTO3028) 中提交了信息：Update readme.toml for AUTO3028
+
+- Jiao Ziang 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：Update README.md for AUTO3024
+
+- Jiao Ziang 在 [嵌入式系统](https://github.com/HITSZ-OpenAuto/AUTO3024) 中提交了信息：Update readme.toml for AUTO3024
+
+- Jiao Ziang 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：Update README.md for AUTO3022
+
+- Jiao Ziang 在 [自动化领域专家系列讲座](https://github.com/HITSZ-OpenAuto/AUTO3022) 中提交了信息：Update readme.toml for AUTO3022
+
+- Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：Update README.md for AUTO3019
+
+- Jiao Ziang 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/AUTO3019) 中提交了信息：Update readme.toml for AUTO3019
+
+- Jiao Ziang 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：Update README.md for AUTO3016
+
+- Jiao Ziang 在 [自动控制实践 A 实验](https://github.com/HITSZ-OpenAuto/AUTO3016) 中提交了信息：Update readme.toml for AUTO3016
+
+- Jiao Ziang 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：Update README.md for AUTO3012
+
+- Jiao Ziang 在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中提交了信息：Update readme.toml for AUTO3012
+
+- Jiao Ziang 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：Update README.md for AUTO3011
+
+- Jiao Ziang 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：Update readme.toml for AUTO3011
+
+- Jiao Ziang 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：Update README.md for AUTO3006
+
+- Jiao Ziang 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：Update readme.toml for AUTO3006
+
+- Jiao Ziang 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：Update README.md for AUTO3003
+
+- Jiao Ziang 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：Update readme.toml for AUTO3003
+
+- Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：Update README.md for AUTO3001A
+
+- Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：Update readme.toml for AUTO3001A
+
+- Jiao Ziang 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：Update README.md for AUTO2006
+
+- Jiao Ziang 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：Update readme.toml for AUTO2006
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update README.md for AUTO2003B
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update readme.toml for AUTO2003B
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update README.md for AUTO2003A
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update readme.toml for AUTO2003A
+
+- Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Update README.md for AUTO2001
+
+- Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Update readme.toml for AUTO2001
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update README.md for AUTO1001
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update readme.toml for AUTO1001
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update README.md for AUTO2003B
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update readme.toml for AUTO2003B
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update README.md for AUTO2003A
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update readme.toml for AUTO2003A
+
+- Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Update README.md for AUTO2001
+
+- Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Update readme.toml for AUTO2001
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update README.md for AUTO1001
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update readme.toml for AUTO1001
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update README.md for AUTO2003B
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update readme.toml for AUTO2003B
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update README.md for AUTO2003A
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update readme.toml for AUTO2003A
+
+- Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Update README.md for AUTO2001
+
+- Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Update readme.toml for AUTO2001
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update README.md for AUTO1001
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update readme.toml for AUTO1001
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update README.md for AUTO1001
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update readme.toml for AUTO1001
+
+- JLPL666 在 [hoa-make_toml](https://github.com/HITSZ-OpenAuto/hoa-make_toml) 中提交了信息：更改 multi-project 逻辑
+
+- JLPL666 在 [hoa-make_toml](https://github.com/HITSZ-OpenAuto/hoa-make_toml) 中提交了信息：修改代码问题
+
+- JLPL666 在 [hoa-make_toml](https://github.com/HITSZ-OpenAuto/hoa-make_toml) 中提交了信息：新增仓库类型并更新四种工具
+
 ### 周五 (1.30)
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add news page (#31)
+
+- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：上传成绩构成信息
+
+- JLPL666 在 [hoa-make_toml](https://github.com/HITSZ-OpenAuto/hoa-make_toml) 中提交了信息：first_pr
+
+- JLPL666 在 [hoa-make_toml](https://github.com/HITSZ-OpenAuto/hoa-make_toml) 中提交了信息：first commit
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: home page layout (#28)
 
 - Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：docs: add structured course info (AUTO5023.toml) (#20)
 
@@ -35,177 +245,183 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [增加了对老师的评价和小组展示的实例](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/20)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MECH3041/pull/3)
 
-- **仓库**: ECON2005F
-- **创建于**: 2026-01-21 04:50:26
-- **作者**: Alexis0943
+- **仓库**: MECH3041
+- **创建于**: 2026-01-30 23:25:37
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3044/pull/8)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MECH3060/pull/3)
 
-- **仓库**: COMP3044
-- **创建于**: 2026-01-13 05:53:12
-- **作者**: LiPu-jpg
+- **仓库**: MECH3060
+- **创建于**: 2026-01-30 23:25:36
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP3003/pull/12)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MECH3005/pull/3)
 
-- **仓库**: COMP3003
-- **创建于**: 2026-01-13 05:47:05
-- **作者**: LiPu-jpg
+- **仓库**: MECH3005
+- **创建于**: 2026-01-30 23:25:36
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/COMP2052/pull/9)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP2001/pull/3)
 
-- **仓库**: COMP2052
-- **创建于**: 2026-01-13 05:44:32
-- **作者**: LiPu-jpg
+- **仓库**: COMP2001
+- **创建于**: 2026-01-30 23:25:22
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH4001/pull/13)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/EE1018/pull/4)
 
-- **仓库**: MATH4001
-- **创建于**: 2026-01-13 05:37:05
-- **作者**: LiPu-jpg
+- **仓库**: EE1018
+- **创建于**: 2026-01-30 23:25:21
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/SEIN1040/pull/12)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/GEIP4004/pull/4)
 
-- **仓库**: SEIN1040
-- **创建于**: 2026-01-13 05:35:34
-- **作者**: LiPu-jpg
+- **仓库**: GEIP4004
+- **创建于**: 2026-01-30 23:25:21
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/14)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/AUTO2001/pull/3)
 
-- **仓库**: ENGG1002
-- **创建于**: 2026-01-13 05:34:11
-- **作者**: LiPu-jpg
+- **仓库**: AUTO2001
+- **创建于**: 2026-01-30 23:25:20
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/16)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3054/pull/11)
 
-- **仓库**: ENGG1003
-- **创建于**: 2026-01-13 05:33:29
-- **作者**: LiPu-jpg
+- **仓库**: COMP3054
+- **创建于**: 2026-01-30 23:25:06
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH4004/pull/17)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3039/pull/8)
 
-- **仓库**: MATH4004
-- **创建于**: 2026-01-13 05:31:28
-- **作者**: LiPu-jpg
+- **仓库**: COMP3039
+- **创建于**: 2026-01-30 23:25:05
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/16)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3043/pull/7)
 
-- **仓库**: WRIT0001
-- **创建于**: 2026-01-13 05:29:37
-- **作者**: LiPu-jpg
+- **仓库**: COMP3043
+- **创建于**: 2026-01-30 23:25:05
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5024/pull/19)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3042/pull/12)
 
-- **仓库**: AUTO5024
-- **创建于**: 2026-01-13 05:27:00
-- **作者**: LiPu-jpg
+- **仓库**: COMP3042
+- **创建于**: 2026-01-30 23:25:04
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5005/pull/16)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3005/pull/12)
 
-- **仓库**: AUTO5005
-- **创建于**: 2026-01-13 05:24:45
-- **作者**: LiPu-jpg
+- **仓库**: COMP3005
+- **创建于**: 2026-01-30 23:25:04
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3099/pull/21)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3018/pull/8)
 
-- **仓库**: AUTO3099
-- **创建于**: 2026-01-13 05:22:38
-- **作者**: LiPu-jpg
+- **仓库**: COMP3018
+- **创建于**: 2026-01-30 23:24:50
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/26)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3029/pull/9)
 
-- **仓库**: AUTO3002B
-- **创建于**: 2026-01-13 05:21:07
-- **作者**: LiPu-jpg
+- **仓库**: COMP3029
+- **创建于**: 2026-01-30 23:24:49
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO3001B/pull/28)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3019/pull/8)
 
-- **仓库**: AUTO3001B
-- **创建于**: 2026-01-13 05:20:33
-- **作者**: LiPu-jpg
+- **仓库**: COMP3019
+- **创建于**: 2026-01-30 23:24:49
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PE100X/pull/29)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3017/pull/10)
 
-- **仓库**: PE100X
-- **创建于**: 2026-01-13 05:17:49
-- **作者**: LiPu-jpg
+- **仓库**: COMP3017
+- **创建于**: 2026-01-30 23:24:50
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1013/pull/22)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3021/pull/10)
 
-- **仓库**: EE1013
-- **创建于**: 2026-01-13 05:15:52
-- **作者**: LiPu-jpg
+- **仓库**: COMP3021
+- **创建于**: 2026-01-30 23:24:48
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/27)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3028/pull/10)
 
-- **仓库**: MATH1015A
-- **创建于**: 2026-01-13 05:14:48
-- **作者**: LiPu-jpg
+- **仓库**: COMP3028
+- **创建于**: 2026-01-30 23:24:35
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1011A/pull/22)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3002/pull/10)
 
-- **仓库**: EE1011A
-- **创建于**: 2026-01-13 05:13:37
-- **作者**: LiPu-jpg
+- **仓库**: COMP3002
+- **创建于**: 2026-01-30 23:24:30
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/22)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3030/pull/9)
 
-- **仓库**: AUTO5013
-- **创建于**: 2026-01-13 05:10:46
-- **作者**: LiPu-jpg
+- **仓库**: COMP3030
+- **创建于**: 2026-01-30 23:24:30
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/29)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3053/pull/8)
 
-- **仓库**: PHYS1001
-- **创建于**: 2026-01-13 05:06:59
-- **作者**: LiPu-jpg
+- **仓库**: COMP3053
+- **创建于**: 2026-01-30 23:24:30
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/24)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3006/pull/9)
 
-- **仓库**: GEIP1016
-- **创建于**: 2026-01-13 05:04:15
-- **作者**: LiPu-jpg
+- **仓库**: COMP3006
+- **创建于**: 2026-01-30 23:24:29
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/38)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3009/pull/9)
 
-- **仓库**: GEIP1011
-- **创建于**: 2026-01-13 05:03:30
-- **作者**: LiPu-jpg
+- **仓库**: COMP3009
+- **创建于**: 2026-01-30 23:24:14
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/19)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3040/pull/9)
 
-- **仓库**: ECON2005F
-- **创建于**: 2026-01-13 04:58:36
-- **作者**: LiPu-jpg
+- **仓库**: COMP3040
+- **创建于**: 2026-01-30 23:24:13
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EMEC1002/pull/22)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3007/pull/10)
 
-- **仓库**: EMEC1002
-- **创建于**: 2026-01-13 04:57:57
-- **作者**: LiPu-jpg
+- **仓库**: COMP3007
+- **创建于**: 2026-01-30 23:24:12
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1010/pull/19)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3004/pull/10)
 
-- **仓库**: EE1010
-- **创建于**: 2026-01-13 04:55:56
-- **作者**: LiPu-jpg
+- **仓库**: COMP3004
+- **创建于**: 2026-01-30 23:24:12
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1009/pull/29)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP2010/pull/10)
 
-- **仓库**: EE1009
-- **创建于**: 2026-01-13 04:55:09
-- **作者**: LiPu-jpg
+- **仓库**: COMP2010
+- **创建于**: 2026-01-30 23:23:57
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/EE1007/pull/27)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3011/pull/9)
 
-- **仓库**: EE1007
-- **创建于**: 2026-01-13 04:53:40
-- **作者**: LiPu-jpg
+- **仓库**: COMP3011
+- **创建于**: 2026-01-30 23:23:56
+- **作者**: kowyo
 
-### [ci: [automated-generated-pr] 自动生成课程结构化数据 (TOML)](https://github.com/HITSZ-OpenAuto/MATH1002/pull/31)
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3010/pull/9)
 
-- **仓库**: MATH1002
-- **创建于**: 2026-01-13 04:50:08
-- **作者**: LiPu-jpg
+- **仓库**: COMP3010
+- **创建于**: 2026-01-30 23:23:56
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP2029/pull/10)
+
+- **仓库**: COMP2029
+- **创建于**: 2026-01-30 23:23:56
+- **作者**: kowyo
 
