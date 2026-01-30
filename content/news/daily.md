@@ -14,6 +14,26 @@ title: AUTO 更新速递
 
 ### 周六 (1.31)
 
+- JLPL666 在 [hoa-make_toml](https://github.com/HITSZ-OpenAuto/hoa-make_toml) 中提交了信息：更新错误内容
+
+- Jiao Ziang 在 [运动控制系统](https://github.com/HITSZ-OpenAuto/AUTO3011) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
+- Jiao Ziang 在 [机器视觉](https://github.com/HITSZ-OpenAuto/AUTO3006) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
+- Jiao Ziang 在 [数字图像处理](https://github.com/HITSZ-OpenAuto/AUTO3003) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
+- Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
+- Jiao Ziang 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
+- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
+- Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：ci: Add automatic format and update workflow for normal repos
+
 - Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
 - Jiao Ziang 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：ci: Add automatic format and update workflow for normal repos
