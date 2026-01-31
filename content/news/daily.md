@@ -46,8 +46,6 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
-- Jiao Ziang 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Merge pull request #1 from HITSZ-OpenAuto/auto/update-ee30xx
-
 - Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Merge pull request #30 from HITSZ-OpenAuto/auto/update-pe100x
 
 - Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/auto/update-generalknowledge
@@ -67,10 +65,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md for GeneralKnowledge
 
 - Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update readme.toml for GeneralKnowledge
-
-- Jiao Ziang 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Update README.md for EE30XX
-
-- Jiao Ziang 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Update readme.toml for EE30XX
 
 - Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update README.md for CrossSpecialty
 
@@ -191,10 +185,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：Update README.md for EMEC1002
 
 - Jiao Ziang 在 [理论力学Ⅱ](https://github.com/HITSZ-OpenAuto/EMEC1002) 中提交了信息：Update readme.toml for EMEC1002
-
-- Jiao Ziang 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Update README.md for EE30XX
-
-- Jiao Ziang 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Update readme.toml for EE30XX
 
 - Jiao Ziang 在 [专业综合实践](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：Update README.md for EE304X
 
@@ -559,6 +549,138 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MECH2020/pull/1)
+
+- **仓库**: MECH2020
+- **创建于**: 2026-01-31 11:24:23
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/EE304X/pull/4)
+
+- **仓库**: EE304X
+- **创建于**: 2026-01-31 11:24:08
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3044/pull/9)
+
+- **仓库**: COMP3044
+- **创建于**: 2026-01-31 11:23:14
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP2052/pull/10)
+
+- **仓库**: COMP2052
+- **创建于**: 2026-01-31 11:22:34
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MATH4001/pull/14)
+
+- **仓库**: MATH4001
+- **创建于**: 2026-01-31 11:22:09
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/SEIN1040/pull/13)
+
+- **仓库**: SEIN1040
+- **创建于**: 2026-01-31 11:21:54
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/17)
+
+- **仓库**: ENGG1003
+- **创建于**: 2026-01-31 11:21:53
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/22)
+
+- **仓库**: CrossSpecialty
+- **创建于**: 2026-01-31 11:21:52
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/15)
+
+- **仓库**: ENGG1002
+- **创建于**: 2026-01-31 11:21:52
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/17)
+
+- **仓库**: WRIT0001
+- **创建于**: 2026-01-31 11:21:38
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/24)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2026-01-31 11:21:37
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/AUTO5024/pull/20)
+
+- **仓库**: AUTO5024
+- **创建于**: 2026-01-31 11:21:22
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/PE100X/pull/31)
+
+- **仓库**: PE100X
+- **创建于**: 2026-01-31 11:20:45
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/EE1011A/pull/23)
+
+- **仓库**: EE1011A
+- **创建于**: 2026-01-31 11:20:44
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/EE1013/pull/23)
+
+- **仓库**: EE1013
+- **创建于**: 2026-01-31 11:20:43
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MOOC/pull/23)
+
+- **仓库**: MOOC
+- **创建于**: 2026-01-31 11:20:29
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/32)
+
+- **仓库**: PHYS1001
+- **创建于**: 2026-01-31 11:20:11
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/22)
+
+- **仓库**: ECON2005F
+- **创建于**: 2026-01-31 11:19:57
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/EMEC1002/pull/23)
+
+- **仓库**: EMEC1002
+- **创建于**: 2026-01-31 11:19:57
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/EE1010/pull/20)
+
+- **仓库**: EE1010
+- **创建于**: 2026-01-31 11:19:43
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MATH1002/pull/32)
+
+- **仓库**: MATH1002
+- **创建于**: 2026-01-31 11:19:27
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/AUTO3028/pull/21)
+
+- **仓库**: AUTO3028
+- **创建于**: 2026-01-31 11:19:11
+- **作者**: kowyo
+
 ### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MECH3041/pull/3)
 
 - **仓库**: MECH3041
@@ -605,137 +727,5 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3054
 - **创建于**: 2026-01-30 23:25:06
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3039/pull/8)
-
-- **仓库**: COMP3039
-- **创建于**: 2026-01-30 23:25:05
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3043/pull/7)
-
-- **仓库**: COMP3043
-- **创建于**: 2026-01-30 23:25:05
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3042/pull/12)
-
-- **仓库**: COMP3042
-- **创建于**: 2026-01-30 23:25:04
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3005/pull/12)
-
-- **仓库**: COMP3005
-- **创建于**: 2026-01-30 23:25:04
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3018/pull/8)
-
-- **仓库**: COMP3018
-- **创建于**: 2026-01-30 23:24:50
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3029/pull/9)
-
-- **仓库**: COMP3029
-- **创建于**: 2026-01-30 23:24:49
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3019/pull/8)
-
-- **仓库**: COMP3019
-- **创建于**: 2026-01-30 23:24:49
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3017/pull/10)
-
-- **仓库**: COMP3017
-- **创建于**: 2026-01-30 23:24:50
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3021/pull/10)
-
-- **仓库**: COMP3021
-- **创建于**: 2026-01-30 23:24:48
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3028/pull/10)
-
-- **仓库**: COMP3028
-- **创建于**: 2026-01-30 23:24:35
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3002/pull/10)
-
-- **仓库**: COMP3002
-- **创建于**: 2026-01-30 23:24:30
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3030/pull/9)
-
-- **仓库**: COMP3030
-- **创建于**: 2026-01-30 23:24:30
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3053/pull/8)
-
-- **仓库**: COMP3053
-- **创建于**: 2026-01-30 23:24:30
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3006/pull/9)
-
-- **仓库**: COMP3006
-- **创建于**: 2026-01-30 23:24:29
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3009/pull/9)
-
-- **仓库**: COMP3009
-- **创建于**: 2026-01-30 23:24:14
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3040/pull/9)
-
-- **仓库**: COMP3040
-- **创建于**: 2026-01-30 23:24:13
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3007/pull/10)
-
-- **仓库**: COMP3007
-- **创建于**: 2026-01-30 23:24:12
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3004/pull/10)
-
-- **仓库**: COMP3004
-- **创建于**: 2026-01-30 23:24:12
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP2010/pull/10)
-
-- **仓库**: COMP2010
-- **创建于**: 2026-01-30 23:23:57
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3011/pull/9)
-
-- **仓库**: COMP3011
-- **创建于**: 2026-01-30 23:23:56
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3010/pull/9)
-
-- **仓库**: COMP3010
-- **创建于**: 2026-01-30 23:23:56
-- **作者**: kowyo
-
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP2029/pull/10)
-
-- **仓库**: COMP2029
-- **创建于**: 2026-01-30 23:23:56
 - **作者**: kowyo
 
