@@ -6,12 +6,17 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 31 日" author="Jiao Ziang" message="Merge pull request #22 from HITSZ-OpenAuto/auto/update-mooc" >}}
+{{< update-info update_time="2025 年 11 月 22 日" author="Kowyo" message="整理 README 的结构和格式 (#21)" >}}
 
-【考查课】
-【学分】: MOOC 隶属文理通识 无特殊学分要求
-【成绩构成】
-【说明】: 因课而异 请见具体课程说明
+<div class="hoa-badge">
+
+![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-red)
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/MOOC%E9%9A%B6%E5%B1%9E%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86%20%E6%97%A0%E7%89%B9%E6%AE%8A%E5%AD%A6%E5%88%86%E8%A6%81%E6%B1%82-moccasin)
+
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82 %E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E](https://img.shields.io/badge/%E5%9B%A0%E8%AF%BE%E8%80%8C%E5%BC%82%20%E8%AF%B7%E8%A7%81%E5%85%B7%E4%BD%93%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E-wheat)
+
+</div>
 
 本文件夹下目录采用 答案 + README.md 的形式，README.md 则是描述该门课程的相关说明
 
@@ -24,23 +29,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称，与其他
 > 
 >  **因此，涉及到分数的地方，务必以你所选课程的分数说明为准！**
 
-## 思政实践课程
-
-### 课程概况
-
-思政实践课程属于一类特殊的 MOOC 课程，是在哈工大深圳的思政实践平台上进行的。
-需要完成一定的实践课程慕课和实践案例视频，具体要求根据各学院可能有不同。
-
-- [点击此处访问思政实践平台]([http://szsj.hitsz.edu.cn](http://szsj.hitsz.edu.cn) "跳转到思政实践平台主页")
-
-由于这个平台课程较多且会随机暂停且无法拖动进度条，因此建议使用刷课脚本自动完成课程。
-
-教程如下：
-- [点击此处访问思政实践课程使用教程](思政实践网课/刷课脚本使用教程.md "跳转到思政实践课程使用教程")
-
-> 文 / 匿名
-
-## 其他信息
+## 选课
 
 等待教秘通知，按时选课即可。虽然 MOOC 是直选课——也就是「抢课」，但由于其超大容量：2000 人/课（什么概念呢？你校本科生人数不到 6000 人，一门课可以容纳全校三分之一的学生），基本不用担心选不上的问题。另外，MOOC 只是一个统称，其实包含很多门课程。
 
@@ -59,25 +48,37 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称，与其他
 
 可见，我们推荐的选课方式 ~~并不关注具体课程而~~ 其实是看平台。
 
-> 文 / [IcyDesert]([https://github.com/IcyDesert](https://github.com/IcyDesert)), 2024.5
+## 上课和测试（平时测试、期末）
 
-刷课脚本汇总仓库：[longlin/awesome-mooc-script]([https://github.com/longlin10086/awesome-mooc-script](https://github.com/longlin10086/awesome-mooc-script))
+刷课脚本汇总仓库：[longlin/awesome-mooc-script](https://github.com/longlin10086/awesome-mooc-script)
 
 刷课脚本推荐：
 
-- [智慧树]([https://github.com/CXRunfree/Autovisor](https://github.com/CXRunfree/Autovisor))
-- [雨课堂]([https://github.com/Niuwh/yuketang-jiaoben](https://github.com/Niuwh/yuketang-jiaoben))
+- [智慧树](https://github.com/CXRunfree/Autovisor)
+- [雨课堂](https://github.com/Niuwh/yuketang-jiaoben)
 
-测试答案见 [资料下载]([https://hoa.moe/docs/general-knowledge/mooc/#资料下载](https://hoa.moe/docs/general-knowledge/mooc/#资料下载))
+测试答案见 [资料下载](https://hoa.moe/docs/general-knowledge/mooc/#资料下载)
 
 > [!WARNING]
 > **警示：MOOC 挂科，同样被视为有挂科记录！** 因此，对待 MOOC 至少需要像对待水课一样，**保证不挂科**！
 > 
 > 反例是，22 级有一位同学，因为忘记刷视频导致 MOOC 挂科，因此不能转专业；此外，忘记参加期末考试也是常见的 MOOC 挂科原因。~~当然不是人人都有转专业资格，但是至少能告诉我们~~ 能做到的还是尽量做到，否则指不定就被学校政策卡了脖子。
 > 
-> 不过，根据 [lmh 学长]([https://github.com/lmh12138](https://github.com/lmh12138))的描述，挂 MOOC 目前暂不会影响**保研资格**。
+> 不过，根据 [lmh 学长](https://github.com/lmh12138)的描述，挂 MOOC 目前暂不会影响**保研资格**。
+>
+> 文 / [IcyDesert](https://github.com/IcyDesert) 2024.5
 
-> 文 / [IcyDesert]([https://github.com/IcyDesert](https://github.com/IcyDesert)), 2024.5
+## 思政实践课程
+
+> **思政实践课程属于一类特殊的 MOOC 课程，是在哈工大深圳的思政实践平台上进行的。**
+> 需要完成一定的实践课程慕课和实践案例视频，具体要求根据各学院可能有不同。
+
+- [点击此处访问思政实践平台](http://szsj.hitsz.edu.cn "跳转到思政实践平台主页")
+
+> 由于这个平台课程较多且会随机暂停且无法拖动进度条，因此建议使用刷课脚本自动完成课程。
+
+教程如下：
+- [点击此处访问思政实践课程使用教程](思政实践网课/刷课脚本使用教程.md "跳转到思政实践课程使用教程")
 
 ## 资料下载
 
