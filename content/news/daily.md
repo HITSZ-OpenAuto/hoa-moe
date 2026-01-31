@@ -52,15 +52,9 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #21 from LiPu-jpg/main
 
-- Jiao Ziang 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：Merge pull request #22 from HITSZ-OpenAuto/auto/update-mooc
-
 - Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Update README.md for PE100X
 
 - Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Update readme.toml for PE100X
-
-- Jiao Ziang 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：Update README.md for MOOC
-
-- Jiao Ziang 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：Update readme.toml for MOOC
 
 - Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md for GeneralKnowledge
 
@@ -97,10 +91,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Update README.md for PE100X
 
 - Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Update readme.toml for PE100X
-
-- Jiao Ziang 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：Update README.md for MOOC
-
-- Jiao Ziang 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：Update readme.toml for MOOC
 
 - Jiao Ziang 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：Update README.md for MECH3060
 
@@ -639,12 +629,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-31 11:20:43
 - **作者**: kowyo
 
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/MOOC/pull/23)
-
-- **仓库**: MOOC
-- **创建于**: 2026-01-31 11:20:29
-- **作者**: kowyo
-
 ### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/32)
 
 - **仓库**: PHYS1001
@@ -727,5 +711,11 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3054
 - **创建于**: 2026-01-30 23:25:06
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3039/pull/8)
+
+- **仓库**: COMP3039
+- **创建于**: 2026-01-30 23:25:05
 - **作者**: kowyo
 
