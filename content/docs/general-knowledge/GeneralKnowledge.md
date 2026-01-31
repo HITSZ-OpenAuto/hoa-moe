@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 31 日" author="Jiao Ziang" message="Merge pull request #23 from HITSZ-OpenAuto/auto/update-generalknowledge" >}}
+{{< update-info update_time="2026 年 1 月 25 日" author="Mingjia Zhou" message="增加了对三门文理通识课程的描述 且将表述进行了修改 (#22)" >}}
 
 <div class="hoa-badge">
 
