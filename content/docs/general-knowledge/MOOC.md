@@ -85,7 +85,6 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称，与其他
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MOOC" repoURL="https://github.com/HITSZ-OpenAuto/MOOC" >}}
-{{< hoa-filetree/file name="readme" type="toml" size="4.3 KB" date="2026/01/30" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/readme.toml" >}}
 {{< hoa-filetree/folder name="人工智能时代的身份、代理、平等和安全" date="" state="closed" >}}
 {{< hoa-filetree/file name="人工智能时代的身份、代理、平等和安全" type="pdf" size="69.0 KB" date="2024/08/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8.pdf" >}}
 {{< hoa-filetree/file name="人工智能期末答案" type="docx" size="930.8 KB" date="2024/08/27" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.docx" >}}
