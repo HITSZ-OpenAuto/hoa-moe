@@ -46,13 +46,7 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
-- Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/auto/update-generalknowledge
-
 - Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #21 from LiPu-jpg/main
-
-- Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md for GeneralKnowledge
-
-- Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update readme.toml for GeneralKnowledge
 
 - Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update README.md for CrossSpecialty
 
@@ -133,10 +127,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：Update README.md for LANG100X
 
 - Jiao Ziang 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：Update readme.toml for LANG100X
-
-- Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md for GeneralKnowledge
-
-- Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update readme.toml for GeneralKnowledge
 
 - Jiao Ziang 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：Update README.md for GEIP4004
 
@@ -589,12 +579,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-31 11:21:38
 - **作者**: kowyo
 
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/24)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-01-31 11:21:37
-- **作者**: kowyo
-
 ### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/AUTO5024/pull/20)
 
 - **仓库**: AUTO5024
@@ -707,5 +691,11 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3043
 - **创建于**: 2026-01-30 23:25:05
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3042/pull/12)
+
+- **仓库**: COMP3042
+- **创建于**: 2026-01-30 23:25:04
 - **作者**: kowyo
 
