@@ -65,6 +65,7 @@ IDE
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003B" repoURL="https://github.com/HITSZ-OpenAuto/AUTO2003B" >}}
+{{< hoa-filetree/file name="AUTO2003B" type="toml" size="5.7 KB" date="2026/01/12" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/AUTO2003B.toml" >}}
 {{< hoa-filetree/folder name="course_design" date="" state="closed" >}}
 {{< hoa-filetree/folder name="WKY" date="" state="closed" >}}
 {{< hoa-filetree/file name="创新训练课 B 报告" type="docx" size="1.3 MB" date="2025/06/28" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/WKY/%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
@@ -159,6 +160,7 @@ IDE
 {{< hoa-filetree/file name="黄继凡 - 创新训练课 B 报告" type="docx" size="1.6 MB" date="2023/11/29" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/course_design/%E5%9C%B0%E9%93%81%E7%AB%99%E7%A4%BA%E4%BE%8B/%E9%BB%84%E7%BB%A7%E5%87%A1-%E5%88%9B%E6%96%B0%E8%AE%AD%E7%BB%83%E8%AF%BEB%E6%8A%A5%E5%91%8A.docx" >}}
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="readme" type="toml" size="2.7 KB" date="2026/01/30" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/readme.toml" >}}
 {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
 {{< hoa-filetree/file name="第 1 章 高级语言程序设计" type="pdf" size="2.4 MB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC1%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf" >}}
 {{< hoa-filetree/file name="第 2 章 可行性研究" type="pdf" size="885.0 KB" date="2023/12/01" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003B/raw/main/slides/%E7%AC%AC2%E7%AB%A0%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6.pdf" >}}
