@@ -46,15 +46,9 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
-- Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Merge pull request #30 from HITSZ-OpenAuto/auto/update-pe100x
-
 - Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/auto/update-generalknowledge
 
 - Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #21 from LiPu-jpg/main
-
-- Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Update README.md for PE100X
-
-- Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Update readme.toml for PE100X
 
 - Jiao Ziang 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md for GeneralKnowledge
 
@@ -87,10 +81,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：Update README.md for PHYS1001
 
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：Update readme.toml for PHYS1001
-
-- Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Update README.md for PE100X
-
-- Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Update readme.toml for PE100X
 
 - Jiao Ziang 在 [机器人学基础](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：Update README.md for MECH3060
 
@@ -611,12 +601,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-31 11:21:22
 - **作者**: kowyo
 
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/PE100X/pull/31)
-
-- **仓库**: PE100X
-- **创建于**: 2026-01-31 11:20:45
-- **作者**: kowyo
-
 ### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/EE1011A/pull/23)
 
 - **仓库**: EE1011A
@@ -716,6 +700,12 @@ title: AUTO 更新速递
 ### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3039/pull/8)
 
 - **仓库**: COMP3039
+- **创建于**: 2026-01-30 23:25:05
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3043/pull/7)
+
+- **仓库**: COMP3043
 - **创建于**: 2026-01-30 23:25:05
 - **作者**: kowyo
 
