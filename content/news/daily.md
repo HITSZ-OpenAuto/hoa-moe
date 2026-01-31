@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-01-30'
+date: '2026-01-31'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -547,14 +547,6 @@ title: AUTO 更新速递
 - Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: home page layout (#28)
 
 - Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：docs: add structured course info (AUTO5023.toml) (#20)
-
-- Jiao Ziang 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：Merge pull request #66 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250009
-
-- Jiao Ziang 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250740
-
-### 周四 (1.29)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：ci: add preview workflow for PRs (#29)
 
 ## 待解决的 Issues
 
