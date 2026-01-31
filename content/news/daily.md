@@ -150,8 +150,6 @@ title: AUTO 更新速递
 
 - Kowyo 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：ci: remove AUTO5023.toml (#21)
 
-- Kowyo 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：[automated-generated-PR] ci: remove obsolete metadata/example files (#17)
-
 - Kowyo 在 [电路与电子技术实验](https://github.com/HITSZ-OpenAuto/EE1014) 中提交了信息：[automated-generated-PR] ci: remove obsolete metadata/example files (#20)
 
 - Kowyo 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：[automated-generated-PR] ci: remove obsolete metadata/example files (#23)
@@ -230,8 +228,6 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
-- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：ci: Add automatic format and update workflow for normal repos
-
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
 - Jiao Ziang 在 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 中提交了信息：ci: Add automatic format and update workflow for normal repos
@@ -239,8 +235,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
 - Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：ci: Add automatic format and update workflow for normal repos
-
-- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
@@ -628,10 +622,6 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update readme.toml for AUTO2003B
 
-- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update README.md for AUTO2003A
-
-- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update readme.toml for AUTO2003A
-
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update README.md for AUTO1001
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update readme.toml for AUTO1001
@@ -640,10 +630,6 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update readme.toml for AUTO2003B
 
-- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update README.md for AUTO2003A
-
-- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update readme.toml for AUTO2003A
-
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update README.md for AUTO1001
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update readme.toml for AUTO1001
@@ -651,10 +637,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update README.md for AUTO2003B
 
 - Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Update readme.toml for AUTO2003B
-
-- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update README.md for AUTO2003A
-
-- Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Update readme.toml for AUTO2003A
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Update README.md for AUTO1001
 
