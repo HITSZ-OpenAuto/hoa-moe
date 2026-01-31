@@ -46,12 +46,6 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：ci: Add automatic format and update workflow for normal repos
 
-- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #21 from LiPu-jpg/main
-
-- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update README.md for CrossSpecialty
-
-- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update readme.toml for CrossSpecialty
-
 - Jiao Ziang 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：Update README.md for WRIT0001
 
 - Jiao Ziang 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：Update readme.toml for WRIT0001
@@ -219,10 +213,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：Update README.md for ECON2005F
 
 - Jiao Ziang 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：Update readme.toml for ECON2005F
-
-- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update README.md for CrossSpecialty
-
-- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Update readme.toml for CrossSpecialty
 
 - Jiao Ziang 在 [软件构造实践](https://github.com/HITSZ-OpenAuto/COMP3060) 中提交了信息：Update README.md for COMP3060
 
@@ -561,12 +551,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-01-31 11:21:53
 - **作者**: kowyo
 
-### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/22)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-01-31 11:21:52
-- **作者**: kowyo
-
 ### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/15)
 
 - **仓库**: ENGG1002
@@ -696,6 +680,12 @@ title: AUTO 更新速递
 ### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3042/pull/12)
 
 - **仓库**: COMP3042
+- **创建于**: 2026-01-30 23:25:04
+- **作者**: kowyo
+
+### [[automated-generated-PR] ci: remove obsolete metadata/example files](https://github.com/HITSZ-OpenAuto/COMP3005/pull/12)
+
+- **仓库**: COMP3005
 - **创建于**: 2026-01-30 23:25:04
 - **作者**: kowyo
 
