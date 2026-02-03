@@ -12,7 +12,43 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周三 (2.4)
+
+- Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Merge pull request #32 from SpeechlessPanda/patch-1
+
+- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #23 from fruly-ZERO/main
+
 ### 周二 (2.3)
+
+- kowyo-bot 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] emit pages ordering for semester folders in meta.json (#3)
+
+- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: keep LICENSE at repo root
+
+- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: move news content under news/ folder
+
+- kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: fetch blog/news from dedicated repos (#41)
+
+- Mingjia Zhou 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Revise grading distribution and learning recommendations
+
+- Mingjia Zhou 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：增加了对一门飞盘课的描述
+
+- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：Add LICENSE (CC BY-NC-SA 4.0)
+
+- Kowyo Bot 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：Add LICENSE (CC BY-NC-SA 4.0)
+
+- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：Remove .gitignore files
+
+- Kowyo Bot 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：Remove .gitignore files
+
+- Kowyo 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：chore: add .gitignore
+
+- Kowyo 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: add .gitignore file to exclude build artifacts and dependencies
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: migrate blog and news to orphan branches
+
+- Kowyo 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: initial news content
+
+- Kowyo 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：chore: initial blog content
 
 - Kowyo 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] use osa alist url (#1)
 
@@ -32,31 +68,20 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [Emit `pages` in meta.json for chronological semester order](https://github.com/HITSZ-OpenAuto/fuma-rs/issues/2)
+### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
 
-- **仓库**: fuma-rs
-- **创建于**: 2026-02-03 00:53:05
-- **作者**: kowyo
+- **仓库**: MATH1002
+- **创建于**: 2025-01-20 15:32:37
+- **作者**: MaxwellJay256
+- **标签**: help wanted
 
 ## 待合并的 Pull Requests
-
-### [Emit pages ordering for semester folders in meta.json](https://github.com/HITSZ-OpenAuto/fuma-rs/pull/3)
-
-- **仓库**: fuma-rs
-- **创建于**: 2026-02-03 00:56:57
-- **作者**: kowyo-bot
 
 ### [迁移原《机械设计基础》资料](https://github.com/HITSZ-OpenAuto/MECH2020/pull/2)
 
 - **仓库**: MECH2020
 - **创建于**: 2026-02-01 22:16:54
 - **作者**: IcyDesert
-
-### [添加了一份关于跨专业课程：基础计量经济学 的课程评价及描述](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/23)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-01-31 21:19:06
-- **作者**: fruly-ZERO
 
 ### [更正老师名字中的错别字，增加微积分 B 先修内容](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/27)
 
