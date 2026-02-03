@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-02-02'
+date: '2026-02-03'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,74 +12,39 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (2.1)
+### 周二 (2.3)
 
-- kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore(ci): simplify clone step (#37)
+- Kowyo 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] use osa alist url (#1)
 
-- Yin Mo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：ci: use Rust parser (#36)
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat(docs): remember year + sidebar tab and auto-navigate to first course (#40)
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] try using https url
+### 周一 (2.2)
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] try cache 2
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add hideLocale option to i18n configuration
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] try cache
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add follow system theme option to theme toggle
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] try cache
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add Chinese search support (#39)
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] shields.io remove line
+- longlin li 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: change Home index style (#38)
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] fix formatter error
-
-- Kowyo Bot 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：chore: rename package to hoa-cli
-
-- Kowyo Bot 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：chore: delete search and audit CLI commands and modules
-
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[ci] change data dir.
-
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：Add hoa-major-data as submodule
-
-- YinMo19 在 [hoa-major-data](https://github.com/HITSZ-OpenAuto/hoa-major-data) 中提交了信息：Initial commit: HITSZ major data collection
-
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[ci] add ci
-
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[ci] add ci
-
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[ci] add ci
-
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[ci] add ci
-
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[format]
-
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[init]
-
-- kowyo-bot 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：fix: make [info].major_name match plan filename (#7)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add semester index pages with course cards
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: use absolute paths in navigation cards and remove redirect logic
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor(scripts): reorganize code into lib/ and course/ modules
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: display all percentages in grading bar and use flex-wrap
-
-- W. D. Gaster 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：删除第二学位、留学生以及一些不必要的培养方案，精简专业大类名称 (#6)
-
-- Kowyo Bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: bump deps
-
-- Kowyo Bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: prevent docs layout column flicker
-
-- Kowyo Bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: add Makefile and downgrade Python to 3.13
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 ## 待解决的 Issues
 
-### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
+### [Emit `pages` in meta.json for chronological semester order](https://github.com/HITSZ-OpenAuto/fuma-rs/issues/2)
 
-- **仓库**: MATH1002
-- **创建于**: 2025-01-20 15:32:37
-- **作者**: MaxwellJay256
-- **标签**: help wanted
+- **仓库**: fuma-rs
+- **创建于**: 2026-02-03 00:53:05
+- **作者**: kowyo
 
 ## 待合并的 Pull Requests
+
+### [Emit pages ordering for semester folders in meta.json](https://github.com/HITSZ-OpenAuto/fuma-rs/pull/3)
+
+- **仓库**: fuma-rs
+- **创建于**: 2026-02-03 00:56:57
+- **作者**: kowyo-bot
 
 ### [迁移原《机械设计基础》资料](https://github.com/HITSZ-OpenAuto/MECH2020/pull/2)
 
