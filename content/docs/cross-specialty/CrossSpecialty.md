@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 24 日" author="Mingjia Zhou" message="增加了对两门跨专业课程的描述 (#19)" >}}
+{{< update-info update_time="2026 年 2 月 4 日" author="Jiao Ziang" message="Merge pull request #23 from fruly-ZERO/main" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -613,6 +613,34 @@ ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频
 期中一次 pre，期末一次 pre，最后交个论文就行，说是最简单的跨专业课也不为过。平时有一两次点名，但是不会影响及格。唯一的缺点是课程容量只有 30 人，抢课时代还有机会可以抢到，现在变成抽签就听天由命了。
 
 > 文 / [潜伏](https://github.com/capoo-fan)，2026.1
+
+### 基础计量经济学
+
+
+<div class="hoa-badge">
+
+![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A-40%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
+![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B010%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-10%25-wheat)
+
+</div>
+
+</div>
+
+老师：赵柘锦
+
+- 慎重选择，48 学时，内容比较多而且很偏统计学，并且还有配套的实验课，主要是学会使用 stata 分析和处理数据，需要在课后提交实验报告。
+
+- 考勤方面，不是非常严格，只有一两次考勤，不过课堂表现打分仿佛并不是完全依据考勤给的。
+- 作业方面，老师建议使用 latex，题目不难，一共要交四次，但是记得要及时交。
+- 课堂教学方面，感觉需要比较好的统计学基础，内容还是比较硬核的，并不是非常简单易懂，但老师有时候会讲一些小故事和现实案例什么的挺好玩的，还会和同学偶尔互动下。老师人比较年轻，比较友好。如果确实想学到知识还是可以好好听一下。
+- 实验课是由实验中心的王婷老师负责，先讲 ppt 再在 ppt 上留作业，即完成一份实验报告，内容量不少，需要在 stata 上写代码，相当于学一门新的语言了。老师很温柔，不会的地方可以举手问她。实验课每节课都要签到。
+- 考试方面，不考实验课涉及的部分，只考理论课的内容。不复习的话考试基本上是没法考的，但是老师的 ppt 又特别特别多，如果选了这门课的同学还是建议至少预留两三天时间复习期末考（虽然应该也不太容易挂科，毕竟考试只占百分之五十）。
+
+> 文 / [fruly-ZERO](https://github.com/fruly-ZERO)，2026.1
+
 ## 资料下载
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
