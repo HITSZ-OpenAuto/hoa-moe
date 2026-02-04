@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-02-03'
+date: '2026-02-04'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -49,22 +49,6 @@ title: AUTO 更新速递
 - Kowyo 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: initial news content
 
 - Kowyo 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：chore: initial blog content
-
-- Kowyo 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] use osa alist url (#1)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat(docs): remember year + sidebar tab and auto-navigate to first course (#40)
-
-### 周一 (2.2)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add hideLocale option to i18n configuration
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add follow system theme option to theme toggle
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add Chinese search support (#39)
-
-- longlin li 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: change Home index style (#38)
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 ## 待解决的 Issues
 
