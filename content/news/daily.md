@@ -14,6 +14,12 @@ title: AUTO 更新速递
 
 ### 周三 (2.4)
 
+- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：fix logic error on math escape
+
+- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：clean code
+
+- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：clean code
+
 - Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Merge pull request #32 from SpeechlessPanda/patch-1
 
 - Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #23 from fruly-ZERO/main
