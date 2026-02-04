@@ -167,15 +167,3 @@ input:checked + .select .slider > div {
   height: auto;
   margin: 0;
 }
-
-.hextra-max-page-width,
-.hextra-max-navbar-width,
-.hextra-max-footer-width {
-  transition: max-width 0.3s ease;
-}
-
-.hoa-width-no-transition .hextra-max-page-width,
-.hoa-width-no-transition .hextra-max-navbar-width,
-.hoa-width-no-transition .hextra-max-footer-width {
-  transition: none !important;
-}
