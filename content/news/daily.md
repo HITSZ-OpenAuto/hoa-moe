@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (2.5)
 
+- Alexis 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：增加了对老师的评价和小组展示的实例 (#20)
+
 - Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：更新了经济学原理的课程介绍和讲义资料 (#15)
 
 - 浮萍（混子）在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：Merge pull request #33 from DUCKSEEDYHB/patch-1
@@ -107,12 +109,6 @@ title: AUTO 更新速递
 - **仓库**: COMP2030
 - **创建于**: 2026-01-31 16:08:48
 - **作者**: Fun10165
-
-### [增加了对老师的评价和小组展示的实例](https://github.com/HITSZ-OpenAuto/ECON2005F/pull/20)
-
-- **仓库**: ECON2005F
-- **创建于**: 2026-01-21 04:50:26
-- **作者**: Alexis0943
 
 ### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
 
