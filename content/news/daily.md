@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (2.5)
 
+- Jiao Ziang 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：删除提交错误的">"符号
+
 - Alexis 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：增加了对老师的评价和小组展示的实例 (#20)
 
 - Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：更新了经济学原理的课程介绍和讲义资料 (#15)
