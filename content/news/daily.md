@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周四 (2.5)
 
+- IcyDesert 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：Merge pull request #2 from HITSZ-OpenAuto/feat/files-movement
+
+- Fun10165 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：增加开设学期（第二学年春季） (#18)
+
 - Jiao Ziang 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：删除提交错误的">"符号
 
 - Alexis 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：增加了对老师的评价和小组展示的实例 (#20)
@@ -70,12 +74,6 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [迁移原《机械设计基础》资料](https://github.com/HITSZ-OpenAuto/MECH2020/pull/2)
-
-- **仓库**: MECH2020
-- **创建于**: 2026-02-01 22:16:54
-- **作者**: IcyDesert
-
 ### [更正老师名字中的错别字，增加微积分 B 先修内容](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/27)
 
 - **仓库**: MATH1015B
@@ -98,12 +96,6 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1011
 - **创建于**: 2026-01-31 16:14:32
-- **作者**: Fun10165
-
-### [增加开设学期（第二学年春季）](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/18)
-
-- **仓库**: ENGG1003
-- **创建于**: 2026-01-31 16:12:08
 - **作者**: Fun10165
 
 ### [增加 25 秋课程信息](https://github.com/HITSZ-OpenAuto/COMP2030/pull/13)
