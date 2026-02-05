@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (2.5)
 
+- Fun10165 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：增加 25 秋考试信息 (#39)
+
 - Fun10165 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：增加 25 春考试信息 (#25)
 
 - Fun10165 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Merge pull request #28 from Fun10165/main
@@ -79,12 +81,6 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [增加 25 秋考试信息](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/39)
-
-- **仓库**: GEIP1011
-- **创建于**: 2026-01-31 16:14:32
-- **作者**: Fun10165
 
 ### [增加 25 秋课程信息](https://github.com/HITSZ-OpenAuto/COMP2030/pull/13)
 
