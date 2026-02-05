@@ -16,6 +16,12 @@ title: AUTO 更新速递
 
 - GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
 
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：Merge pull request #3 from HITSZ-OpenAuto/bot/rdme-20260205-175810
+
+- hoa-prServer 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：chore: update TEST1001 readme.toml
+
+- GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
+
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：1
 
 - JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：fix: filter repos with dash in list
@@ -110,5 +116,21 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [chore: update TEST1001 readme.toml](https://github.com/HITSZ-OpenAuto/TEST1001/pull/4)
+
+- **仓库**: TEST1001
+- **创建于**: 2026-02-06 01:58:13
+- **作者**: LiPu-jpg
+
+### [chore: update TEST1001 readme.toml](https://github.com/HITSZ-OpenAuto/TEST1001/pull/2)
+
+- **仓库**: TEST1001
+- **创建于**: 2026-02-06 01:57:50
+- **作者**: LiPu-jpg
+
+### [chore: update TEST1001 readme.toml](https://github.com/HITSZ-OpenAuto/TEST1001/pull/1)
+
+- **仓库**: TEST1001
+- **创建于**: 2026-02-06 01:57:36
+- **作者**: LiPu-jpg
 
