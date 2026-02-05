@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 2 月 5 日" author="Jiao Ziang" message="删除提交错误的 > 符号" >}}
+{{< update-info update_time="2026 年 2 月 5 日" author="Jiao Ziang" message="删除提交错误的&quot;>&quot;符号" >}}
 
 <div class="hoa-badge">
 
