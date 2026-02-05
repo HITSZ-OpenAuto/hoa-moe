@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (2.5)
 
+- 浮萍（混子）在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：Merge pull request #33 from DUCKSEEDYHB/patch-1
+
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - Junda Wu 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：Merge pull request #18 from HITSZ-OpenAuto/ow1
@@ -61,12 +63,6 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [增加对王斌老师的评价](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/33)
-
-- **仓库**: PHYS1001
-- **创建于**: 2026-02-04 16:07:48
-- **作者**: DUCKSEEDYHB
 
 ### [迁移原《机械设计基础》资料](https://github.com/HITSZ-OpenAuto/MECH2020/pull/2)
 
