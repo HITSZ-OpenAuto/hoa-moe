@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (2.5)
 
+- Fun10165 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Merge pull request #28 from Fun10165/main
+
 - Fun10165 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：更正老师名字中的错别字，增加微积分 B 先修内容 (#27)
 
 - IcyDesert 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：Merge pull request #2 from HITSZ-OpenAuto/feat/files-movement
