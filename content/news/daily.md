@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-02-04'
+date: '2026-02-05'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,60 +12,61 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周四 (2.5)
+
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
+- Junda Wu 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：Merge pull request #18 from HITSZ-OpenAuto/ow1
+
+- Jiao Ziang 在 [hoa-major-data](https://github.com/HITSZ-OpenAuto/hoa-major-data) 中提交了信息：更新了 COMP3002 的信息
+
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add standalone pages (#44)
+
 ### 周三 (2.4)
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：fix logic error on math escape
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: add robots.txt to disallow all web crawlers
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：clean code
+- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: improve layout on narrow screens
 
-- YinMo19 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：clean code
+- kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: rename fuma-rs to hoa-backend (#42)
 
-- Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Merge pull request #32 from SpeechlessPanda/patch-1
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix ci: remove absolute path
 
-- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：Merge pull request #23 from fruly-ZERO/main
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix ci
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：rename and fix the duplicate wrapper
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：add math delimiiter
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：remove error test
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：no math test
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：for utf8 and add test
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：add test about all the functions
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix logic error on math escape
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：clean code
+
+- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：clean code
 
 ### 周二 (2.3)
 
-- kowyo-bot 在 [fuma-rs](https://github.com/HITSZ-OpenAuto/fuma-rs) 中提交了信息：[fix] emit pages ordering for semester folders in meta.json (#3)
-
-- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: keep LICENSE at repo root
-
-- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: move news content under news/ folder
-
 - kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: fetch blog/news from dedicated repos (#41)
-
-- Mingjia Zhou 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Revise grading distribution and learning recommendations
-
-- Mingjia Zhou 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：增加了对一门飞盘课的描述
-
-- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：Add LICENSE (CC BY-NC-SA 4.0)
-
-- Kowyo Bot 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：Add LICENSE (CC BY-NC-SA 4.0)
-
-- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：Remove .gitignore files
-
-- Kowyo Bot 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：Remove .gitignore files
-
-- Kowyo 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：chore: add .gitignore
-
-- Kowyo 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: add .gitignore file to exclude build artifacts and dependencies
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: migrate blog and news to orphan branches
-
-- Kowyo 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: initial news content
-
-- Kowyo 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：chore: initial blog content
 
 ## 待解决的 Issues
 
-### [Difficulty cloning this repository](https://github.com/HITSZ-OpenAuto/MATH1002/issues/13)
-
-- **仓库**: MATH1002
-- **创建于**: 2025-01-20 15:32:37
-- **作者**: MaxwellJay256
-- **标签**: help wanted
+暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [增加对王斌老师的评价](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/33)
+
+- **仓库**: PHYS1001
+- **创建于**: 2026-02-04 16:07:48
+- **作者**: DUCKSEEDYHB
 
 ### [迁移原《机械设计基础》资料](https://github.com/HITSZ-OpenAuto/MECH2020/pull/2)
 
@@ -120,12 +121,6 @@ title: AUTO 更新速递
 - **仓库**: ECON2005F
 - **创建于**: 2026-01-11 21:58:31
 - **作者**: Anastasia-Charies
-
-### [上传 2025 回忆试题；上传本人作业](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/18)
-
-- **仓库**: AUTO5013
-- **创建于**: 2026-01-05 15:02:03
-- **作者**: OliverWu515
 
 ### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
 
