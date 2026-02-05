@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 12 月 16 日" author="Jiao Ziang" message="Merge pull request #24 from Star1950625/main" >}}
+{{< update-info update_time="2026 年 2 月 5 日" author="Fun10165" message="Merge pull request #28 from Fun10165/main" >}}
 
 <div class="hoa-badge">
 
@@ -32,6 +32,12 @@ math: true
 在考前需要着重训练中值定理的证明题，这类题型证明上思路活，题型看似老套，实则暗藏杀机。另外可以提前训练 23 届的先修考试卷子，希望你能够取得高分。
 
 > 文 / [YinMo19](https://github.com/YinMo19), 2024.5
+
+先修考试难度自 24 级开始飙升，24 级先修 80 分以上 11 人，90 以上 2 人。25 级先修无人 80 分以上。
+
+除非高中已经学完了微积分/数学分析，否则不建议高考后备考先修考试。要想在短短两个月考到 80 分以上，需要至少达到考研水平乃至大学生数学竞赛非数 A 类决赛水平，对于刚刚高考完的同学来说难度非常大。
+
+> 文 / [Fun10165](https://github.com/Fun10165), 2026.1
 
 ## 教材和参考书
 
