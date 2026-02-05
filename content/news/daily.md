@@ -14,6 +14,22 @@ title: AUTO 更新速递
 
 ### 周四 (2.5)
 
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
+- GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
+
+- JLPL666 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：初始化测试仓库
+
+- JLPL666 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：first commit
+
+- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：docs: add docker config and module docs
+
+- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：fix: handle sqlite lastrowid optional
+
+- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：feat: add repo lookup, submit-to-PR, and pending poller
+
+- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：feat: scaffold FastAPI JSON server
+
 - Fun10165 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Merge pull request #13 from Fun10165/main
 
 - Fun10165 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：增加 25 秋考试信息 (#39)
