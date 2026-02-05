@@ -171,7 +171,7 @@ class GitHubAPIClient:
 
             message_line = commit["commit"]["message"].split("\n")
 
-            message = message_line[0].replace('"', '&quot;')
+            message = message_line[0].replace('"', "&quot;")
             result_content = f"""{{{{< update-info update_time="{yymmdd}" author="{commit["commit"]["author"]["name"]}" message="{message}" >}}}}\n"""
         else:
             result_content = ""
