@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (2.5)
 
+- Fun10165 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：更正老师名字中的错别字，增加微积分 B 先修内容 (#27)
+
 - IcyDesert 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：Merge pull request #2 from HITSZ-OpenAuto/feat/files-movement
 
 - Fun10165 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：增加开设学期（第二学年春季） (#18)
@@ -73,18 +75,6 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [更正老师名字中的错别字，增加微积分 B 先修内容](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/27)
-
-- **仓库**: MATH1015B
-- **创建于**: 2026-01-31 16:18:44
-- **作者**: Fun10165
-
-### [增加 24、25 先修考试信息](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/28)
-
-- **仓库**: MATH1015A
-- **创建于**: 2026-01-31 16:17:12
-- **作者**: Fun10165
 
 ### [增加 25 春考试信息](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/25)
 
