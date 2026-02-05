@@ -42,8 +42,6 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [hoa-major-data](https://github.com/HITSZ-OpenAuto/hoa-major-data) 中提交了信息：更新了 COMP3002 的信息
 
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add standalone pages (#44)
-
 ### 周三 (2.4)
 
 - Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: add robots.txt to disallow all web crawlers
@@ -84,9 +82,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [更新了课程考核方式](https://github.com/HITSZ-OpenAuto/COMP3002/pull/7)
-
-- **仓库**: COMP3002
-- **创建于**: 2025-12-05 02:10:27
-- **作者**: Zsh-cs
+暂无待合并的 Pull Requests
 
