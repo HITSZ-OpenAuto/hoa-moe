@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #25 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252165" >}}
+{{< update-info update_time="2026 年 2 月 5 日" author="Fun10165" message="更正老师名字中的错别字，增加微积分 B 先修内容 (#27)" >}}
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -27,6 +27,14 @@ math: true
 ![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
 
 </div>
+
+## 学期之前
+
+除非正在备战大学生数学竞赛非数 A 类，否则不建议备考先修考试。
+
+微积分 B 的先修考试难度自 25 春开始大幅提升，参加考试的 24 级学生中无人获得 80 分以上。且按照微积分 A 先修考试难度逐年上升的趋势，微积分 B 的先修考试难度应当也会继续上升。
+
+> 文 / [Fun10165](https://github.com/Fun10165), 2026.1
 
 ## 教材和参考书
 
@@ -52,7 +60,7 @@ math: true
 
   > 文/[IcyDesert](https://github.com/IcyDesert), 2024.3
 
-- 严志彬
+- 严质彬
   - 授课风格：纯板书，板书风格比较潦草，随心而动。板书和课本并不完全一致（主要是顺序上的）。
   - 听课建议：
     - 建议听课，老师上课很有活力，而且逻辑特别清晰。
