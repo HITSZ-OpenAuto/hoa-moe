@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (2.6)
 
+- GitHub Actions 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：ci: format toml & regenerate README [automated] [skip ci]
+
+- Jiao Ziang 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：Merge pull request #25 from HITSZ-OpenAuto/ci/add-root-readme-toml
+
 - GitHub Actions 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：ci: format toml & regenerate README [automated] [skip ci]
 
 - Jiao Ziang 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：Merge pull request #18 from HITSZ-OpenAuto/ci/add-root-readme-toml
@@ -113,12 +117,6 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [ci: add root readme.toml](https://github.com/HITSZ-OpenAuto/AUTO2003B/pull/25)
-
-- **仓库**: AUTO2003B
-- **创建于**: 2026-02-06 23:42:40
-- **作者**: LiPu-jpg
 
 ### [修改了之前的 pr](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/24)
 
