@@ -12,6 +12,14 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (2.7)
+
+- GitHub Actions 在 [创新训练课 A](https://github.com/HITSZ-OpenAuto/AUTO2003A) 中提交了信息：ci: format toml & regenerate README [automated] [skip ci]
+
+- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：修复了由于 rebase 直接冲突导致小文件会生成失败的问题
+
+- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：防止自动程序因仓库内无维护成绩构成而报错
+
 ### 周五 (2.6)
 
 - GitHub Actions 在 [创新训练课 B](https://github.com/HITSZ-OpenAuto/AUTO2003B) 中提交了信息：ci: format toml & regenerate README [automated] [skip ci]
