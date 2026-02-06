@@ -14,6 +14,12 @@ title: AUTO 更新速递
 
 ### 周五 (2.6)
 
+- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
+
+- GitHub Actions 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：ci: format toml & regenerate README [automated]
+
+- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：手动更新 toml
+
 - GitHub Actions 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：ci: format toml & regenerate README [automated]
 
 - Jiao Ziang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：修改错误标题
