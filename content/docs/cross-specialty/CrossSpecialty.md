@@ -6,36 +6,15 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 2 月 4 日" author="Jiao Ziang" message="Merge pull request #23 from fruly-ZERO/main" >}}
+{{< update-info update_time="2026 年 2 月 6 日" author="Jiao Ziang" message="手动更新 toml" >}}
 
-<!--
-1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
-2. 请根据课程的具体内容增删仓库的子文件夹。子文件夹建议使用小写英文，并且添加 README.md。
-3. 关于课程的描述可以不止以下几个方面，酌情增删。
-4. hoa.moe 生成本课程对应页面后，请将页面链接复制到 GitHub 仓库的 About/Website 中。
-5. 可以在 GitHub 页面的 About/Topics 中为课程添加话题名称。
--->
-
-<div class="hoa-badge">
-
-![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
-![%E8%B7%A8%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE](https://img.shields.io/badge/%E8%B7%A8%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE-lightskyblue)
-
-</div>
-
-## 综述
-
-自 23 级起，跨专业发展课程学分从创新学分 14 分中独立出来，成为单独的 10 学分的跨专业课程学分要求。<br>
-跨专业选修课程体系的课程都是非自己本专业的其他专业开设的课程。跨专业课程大体有两类：一类是其他专业的专业课改造而来，如[经济学原理](https://hoa.moe/docs/cross-specialty/chem1012/)；另一类是通识类课程，如[普通天文学](https://hoa.moe/docs/cross-specialty/spst1004/)。<br>
-其他专业课改造而来的课程大多有比较丰富的资源，因此单独开一个仓库用于存放相关资料和相关内容要求。<br>
-对于跨专业课程，大多数人仅仅是为了修够学校要求的 10 分的跨专业学分，因此，跨专业上课考勤要求和期末考情况是两个很重要的参考因素。以下课程信息主要也集中于这两部分内容。<br>
+自 23 级起，跨专业发展课程学分从创新学分 14 分中独立出来，成为单独的 10 学分的跨专业课程学分要求。
+跨专业选修课程体系的课程都是非自己本专业的其他专业开设的课程。跨专业课程大体有两类：一类是其他专业的专业课改造而来，如经济学原理；另一类是通识类课程，如普通天文学。
+其他专业课改造而来的课程大多有比较丰富的资源，因此单独开一个仓库用于存放相关资料和相关内容要求。
+对于跨专业课程，大多数人仅仅是为了修够学校要求的 10 分的跨专业学分，因此，跨专业上课考勤要求和期末考情况是两个很重要的参考因素。以下课程信息主要也集中于这两部分内容。
 如果跨专业课程选修的课程在分流后为专业培养方案内的课程，则跨专业课程学分自动成为必修学分/限选学分，而不再作为跨专业学分。
 
-{{< callout type="info" >}}
-  欢迎大家补充关于“跨专业选修”课程的评价，包括老师风格、成绩构成和要求，作业和考试内容等。
-{{< /callout >}}
-
-### 大学化学 III
+## 大学化学 III
 
 <div class="hoa-badge">
 
@@ -47,13 +26,15 @@ math: true
 
 </div>
 
-开课期间要求学生在 3 个模块中各选择一个化学实验完成，每个时长在 3 学时左右。难度整体都一般，还是挺有意思的（在本科期间有多少机会进入化学实验室呢？）。<br>
-大学化学 III 没有期末考试，这是这门课对学生最友好的一点，学习压力会小很多。<br>
+### 大学化学 III - 课程概况
+
+开课期间要求学生在 3 个模块中各选择一个化学实验完成，每个时长在 3 学时左右。难度整体都一般，还是挺有意思的（在本科期间有多少机会进入化学实验室呢？）。
+大学化学 III 没有期末考试，这是这门课对学生最友好的一点，学习压力会小很多。
 总的来说，大学化学 III 占用时间精力很少，性价比还是很高的。
 
-> 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2023 年秋季选修该课
+> 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2023-09
 
-### 生物学导论
+## 生物学导论
 
 <div class="hoa-badge">
 
@@ -65,37 +46,42 @@ math: true
 
 </div>
 
-每个章节讲完后有小测，小测题量较大，使用搜题也要半小时，也有当成作业过。<br>
-只有一次签到且用小测代替。<br>
-课程汇报只要和生物学相关即可，PPT 20 页左右即可。<br>
+### 生物学导论 - 课程概况
+
+每个章节讲完后有小测，小测题量较大，使用搜题也要半小时，也有当成作业过。
+只有一次签到且用小测代替。
+课程汇报只要和生物学相关即可，PPT 20 页左右即可。
 给分较宽松，大部分人都有 80+ 甚至 90+
 
-> 文 / [海边的星空](https://)，2025.1
+> 文 / [海边的星空](https://), 2025-01
 
-### 氢能与燃料电池
+## 氢能与燃料电池
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
+
 ![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
 ![%E7%90%86%E8%AE%BA22](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-22-wheat)
 ![%E5%AE%9E%E9%AA%8C2](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-2-wheat)
 
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9570%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
 
 </div>
 
-王夷飞老师非常好，允许不去上课，考勤给满分，考核要求是写一篇小论文，给分也很高。
+### 氢能与燃料电池 - 授课教师
 
-> 文 / [海边的星空]()，2025.1
+- 王夷飞
+
+### 氢能与燃料电池 - 考查方式更新
 
 25 秋，该课程的课程大纲中增添了闭卷考试，但在实际上课时，仍然遵循无考试，只写一篇小论文的考察方式。
 
-> 文 / [jiazero](https://github.com/jiazero)，2025.12
+> 文 / [jiazero](https://github.com/jiazero), 2025-12
 
-### 智慧低碳能源发电技术导论
+## 智慧低碳能源发电技术导论
 
 <div class="hoa-badge">
 
@@ -107,21 +93,23 @@ math: true
 
 </div>
 
-潘泽华老师总共考勤两次，上课很简单。老师极善良的。<br>
-考试开卷，可以把上课 PPT 全部打印出来现场找答案，很轻松能拿到接近满分的成绩。
+### 智慧低碳能源发电技术导论 - 授课教师
 
-> 文 / [Caesia-ma](https://github.com/Caesia-ma/),2025.1
+- 潘泽华
 
-25 秋共考勤三次，分别为第一节课，汇报那节课和最后一节课。<br>
+### 智慧低碳能源发电技术导论 - 考勤与 Pre (25 秋)
+
+25 秋共考勤三次，分别为第一节课，汇报那节课和最后一节课。
 增加了一个小组 pre，要求三分钟内讲完，之后小组成员现场回答一个问题，问题很简单，不用担心
 
-> 文 / [Cecilia](https://github.com/mircecilia/), 2026.1
+> 文 / [Cecilia](https://github.com/mircecilia/), 2026-01
 
-### 水力学
+## 水力学
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2.5-moccasin)
+
 ![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
 ![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-32-wheat)
 ![%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%97%B68](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%97%B6-8-wheat)
@@ -133,11 +121,11 @@ math: true
 
 </div>
 
-刘彤宙老师授课挺好的，但是课本身难度较高，点名和小测会提前通知，小测开卷
-    
-> 文 / [Y-Sensi](https://github.com/Y-Sensi)，2025.1
+### 水力学 - 授课教师
 
-### 深空探测
+- 刘彤宙
+
+## 深空探测
 
 <div class="hoa-badge">
 
@@ -150,11 +138,13 @@ math: true
 
 </div>
 
+### 深空探测 - 课程概况
+
 给分很高，上课会提问，没有考试，结课有 pre 和论文。
 
-> 文 / [gzz](https://github.com/gzz677)，2025.1
+> 文 / [gzz](https://github.com/gzz677), 2025-01
 
-### 普通天文学
+## 普通天文学
 
 <div class="hoa-badge">
 
@@ -163,18 +153,20 @@ math: true
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E8%80%83%E5%8B%A420%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-20%25-wheat)
 ![%E4%BD%9C%E4%B8%9A30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
 
 </div>
 
-上课考勤 4 次，共有 5 次作业。上课会涉及很多很专业的名词和晦涩难懂的概念，也会有很多复杂无比的计算，但是这些都不会要求，本门课程是通识课，只要求最基本的内容。<br>
-期末考试闭卷，可以使用计算器，题型为 10 题填空 + 5 题简答 + 2 题计算。<br>
-有实地观测，地点位于 L8 的小平台。主要使用望远镜观测星空和太阳。<br>
+### 普通天文学 - 课程概况
+
+上课考勤 4 次，共有 5 次作业。上课会涉及很多很专业的名词和晦涩难懂的概念，也会有很多复杂无比的计算，但是这些都不会要求，本门课程是通识课，只要求最基本的内容。
+期末考试闭卷，可以使用计算器，题型为 10 题填空 + 5 题简答 + 2 题计算。
+有实地观测，地点位于 L8 的小平台。主要使用望远镜观测星空和太阳。
 更多内容可以前往[普通天文学](https://hoa.moe/docs/cross-specialty/spst1004/)中查看。
 
-> 文 / [Gaster](https://github.com/WDGaster703)，2025.1
+> 文 / [Gaster](https://github.com/WDGaster703), 2025-01
 
-### 经济学原理
+## 经济学原理
 
 <div class="hoa-badge">
 
@@ -189,36 +181,45 @@ math: true
 
 </div>
 
-重量级课程，慎选！<br>
-首先，本门课程上课在周六周日的一、二节，而且持续一学期，这意味着你要上一学期的周末早八。<br>
-其次，上课有非常多的考勤要求，收作业也是老师现场收，不允许补交。期末还有 pre。<br>
-其三，本门课有期中考和期末考，虽然 PPT 过一遍后考及格不难，但是如果不想花时间复习的慎选。<br>
+### 经济学原理 - 课程概况
+
+【学分】: 4
+【成绩构成】: 考勤 10% | 作业 15% | 生活中的经济学 15% | 期中考试 30% | 期末考试 30%
+
+重量级课程，慎选！
+首先，本门课程上课在周六周日的一、二节，而且持续一学期，这意味着你要上一学期的周末早八。
+其次，上课有非常多的考勤要求，收作业也是老师现场收，不允许补交。期末还有 pre。
+其三，本门课有期中考和期末考，虽然 PPT 过一遍后考及格不难，但是如果不想花时间复习的慎选。
 具体的资料可以前往[经济学原理](https://hoa.moe/docs/cross-specialty/econ2005f/)查看。
 
-### OpenHarmony 端云协同物联网开发实践
+## OpenHarmony 端云协同物联网开发实践
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A60%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-60%25-wheat)
 ![%E7%AD%94%E8%BE%A940%](https://img.shields.io/badge/%E7%AD%94%E8%BE%A9-40%25-wheat)
 
 </div>
 
-每次上课都考勤，共有 5 个 lab。上课不难，不过会涉及一些稍微专业的概念，不过涉入不深，自己查一下就行了，总体来说由简入深。<br>
-每节课大概率就是教你如何通过各种方式点灯（做拓展有加分，主要就是加一些蜂鸣器放歌，读取温度湿度之类的），大概是从正常的按键到 MQTT 协议再到接入华为云<br>
-注：这个课在 2025 夏季第一次开设，所以实际给分情况和教学大纲有区别，基本上你能跟着把每个 lab 的第一个任务做完就能及格，任务二做完就有 80，不强制要求答辩（最后 30 个同学里就 3 个上了）拿分还是很简单的<br>
-同时，记得保存实验代码，前四个 lab 要交代码，第五个还要额外带一份实验报告<br>
+### OpenHarmony 端云协同物联网开发实践 - 课程概况
+
+每次上课都考勤，共有 5 个 lab。上课不难，不过会涉及一些稍微专业的概念，不过涉入不深，自己查一下就行了，总体来说由简入深。
+每节课大概率就是教你如何通过各种方式点灯（做拓展有加分，主要就是加一些蜂鸣器放歌，读取温度湿度之类的），大概是从正常的按键到 MQTT 协议再到接入华为云
+注：这个课在 2025 夏季第一次开设，所以实际给分情况和教学大纲有区别，基本上你能跟着把每个 lab 的第一个任务做完就能及格，任务二做完就有 80，不强制要求答辩（最后 30 个同学里就 3 个上了）拿分还是很简单的
+同时，记得保存实验代码，前四个 lab 要交代码，第五个还要额外带一份实验报告
 更多内容可以前往[端云协同物联网开发实践 - 具体 lab 内容](https://ohiot.p.cs-lab.top/)中查看。
 
-> 文 / [离谱](https://github.com/LiPu-jpg)，2025.8
+> 文 / [离谱](https://github.com/LiPu-jpg), 2025-08
 
-### 大模型应用开发入门
+## 大模型应用开发入门
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%B9%B3%E6%97%B6%E8%80%83%E6%A0%B810%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E8%80%83%E6%A0%B8-10%25-wheat)
 ![%E5%AE%9E%E9%AA%8C%E4%BD%9C%E4%B8%9A60%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E4%BD%9C%E4%B8%9A-60%25-wheat)
@@ -226,58 +227,67 @@ math: true
 
 </div>
 
+### 大模型应用开发入门 - 授课教师
+
+- 谢佳
+
+### 大模型应用开发入门 - 课程概况
+
 推荐有 Python 基础同学选择。这门课依托于 LangChain 等大模型应用库，编写一个实用的大模型应用。注意课程和 **机器学习** 等不同，不涉及底层模型训练；2024 秋课上使用的是通义千问 API。
 
 有五个小实验，分别对应五个大模型应用开发的知识点，例如大家可能有所耳闻的 RAG、提示词工程等，详见大纲。
 期末结项是综合应用前面的知识点开发一个应用出来；当然老师知道有的同学没有编程基础，所以允许使用 [coze 低代码平台](https://www.coze.cn/) 开发应用。示例项目可参考 [文献阅读助手 - IcyDesert & OverLink](https://github.com/0verL1nk/LLM_App_Final)。
 
-谢佳老师好说话，上课氛围也比较轻松；知道同学们可能基础薄弱，所以她也欢迎同学提问（会有很多人问问题）。签到是签到表形式。
+> 文 / [IcyDesert](https://github.com/IcyDesert), 2025-09
 
-> 文 / [IcyDesert](https://github.com/IcyDesert)，2025.9
-
-### 城市社会学概论
+## 城市社会学概论
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A100%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A-100%25-wheat)
+![%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A100%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A-100%25-wheat)
 
 </div>
 
-周佩玲老师很温柔，上课氛围轻松，期中需要参与一次两节连堂的剧本杀，会记录该次出勤，老师还准备了饮料零食。
-考察方式主要是 3/4 人一组，以小组为单位，期中提交一个计划书，期末将该计划书扩展为 PPT 并展示。
-无考试，平时上课有时会发腾讯文档，扫码回答一个问题并填写名字，作为考勤方式，但无考勤似乎并不影响通过，周老师善良！
+### 城市社会学概论 - 授课教师
 
-> 文 / [jiazero](https://github.com/jiazero)，2025.12
+- 周佩玲
 
-### 现代电机设计导论
+## 现代电机设计导论
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A50%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-50%25-wheat)
 ![%E5%B9%B3%E6%97%B6%E5%88%8650%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E5%88%86-50%25-wheat)
 
 </div>
 
+### 现代电机设计导论 - 课程概况
+
 只有一次考勤，考勤方式是纸质名单签字，老师比较善良，无作业，无提问，无考试。
 实验是 4 学时，我们安排在了周五 7,8,9,10 节，实际操作 7,8 节就可以搞定，报告很简单，好课推荐。
 
-> 文 / [jiazero](https://github.com/jiazero)，2025.12
+> 文 / [jiazero](https://github.com/jiazero), 2025-12
 
-### 电子封装可靠性
+## 电子封装可靠性
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B020%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-20%25-wheat)
 ![%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A-40%25-wheat)
 ![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9540%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-40%25-wheat)
 
 </div>
+
+### 电子封装可靠性 - 课程概况
 
 大约有 10 次左右的点名考勤，还是比较频繁的；但是老师人很好。
 
@@ -288,32 +298,29 @@ math: true
 
 开卷考试，打印资料就能过。
 
-> 文 / [IcyDesert](https://github.com/IcyDesert)，2026.1
+> 文 / [IcyDesert](https://github.com/IcyDesert), 2026-01
 
-### 机器学习原理与经管应用
+## 机器学习原理与经管应用
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-%E5%85%B7%E4%BD%93%E8%A7%81%E4%B8%8B%E8%AF%B4%E6%98%8E-gold)
+
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E5%A4%A7%E4%BD%9C%E4%B8%9A(%E5%AE%9E%E9%AA%8C)100%](https://img.shields.io/badge/%E5%A4%A7%E4%BD%9C%E4%B8%9A(%E5%AE%9E%E9%AA%8C)-100%25-wheat)
 
 </div>
 
-吴璇
+### 机器学习原理与经管应用 - 授课教师
 
-老师人很好，24 秋因为本研上大纲和上课所说不同，老师为我们改了考核要求，改成大作业（即实验）100%，但是 25 秋恢复了需要论文 + 课堂汇报 + 大作业的分数组成了，课堂汇报和论文要求英文写作和表达。
+- 吴璇
 
-课程非常非常硬核。虽然名字叫机器学习，但是课程主要内容是经管中的统计问题，涉及大量多元统计学，如多元线性回归等。且 PPT 几乎是全英文，难以跟上老师上课速度。
-
-最后的实验难度也颇大，是运用机器学习方法分析某一股票走势或者其他经管问题，对于零基础来说几乎不可能实现。且课堂对此几乎没有涉及。
-
-> 文 / [Gaster](https://github.com/WDGaster703)，2025.1
-
-### 污染控制微生物学
+## 污染控制微生物学
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%B9%B3%E6%97%B620%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-20%25-wheat)
 ![%E5%AE%9E%E9%AA%8C20%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-20%25-wheat)
@@ -321,175 +328,128 @@ math: true
 
 </div>
 
-理论：韩炜，实验：魏
+### 污染控制微生物学 - 授课教师
 
-会有不定时考勤，不过不会凭此挂人。上课不怎么讲知识点，老师会讲一些自己的见解。
+- 韩炜
 
-实验共五个，分别是显微镜、革兰氏染色、接种、细菌测数和 PCR，实验都很简单，老师很好，而且实验仪器很好玩（PCR 分析仪价格可是不菲的）。
-
-24 春有开卷期末考，25 春起取消期末考，改为课堂汇报代替。
-
-> 文 / [Gaster](https://github.com/WDGaster703)，2025.7
-
-### 电动力学
+## 电动力学
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%B9%B3%E6%97%B630%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-30%25-wheat)
 ![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9570%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
 
 </div>
 
-老师：秦刚
+### 电动力学 - 授课教师
 
-每节课会有遍历点名，但是不会以此挂人。上课颇为硬核，且老师语速慢，吐字比较不清晰，所以很难听懂。
+- 秦刚
 
-有四次作业，但是很简单，且此四次作业能决定大部分平时分。
-
-24 春期末考为全选填，25 春期末考是五题大题，每道大题都是一个概念的简述，考试内容限于大物电磁学部分，具体可以见资料下载，捞的很狠（最后应该是零人挂科）。
-
-> 文 / [Gaster](https://github.com/WDGaster703)，2025.7
-
-### 核能与安全
+## 核能与安全
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%B9%B3%E6%97%B630%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-30%25-wheat)
 ![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A570%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-70%25-wheat)
 
 </div>
 
-老师：鞠鹏
+### 核能与安全 - 授课教师
 
-主要内容是核反应与核安全，老师上课不太清晰，且上课节奏很慢。会以低频次的提问代替考勤，不过也不太看重这个。有两次作业，一次是核反应的小计算，一次是核安全的分析思路。
+- 鞠鹏
 
-最后课程报告为核安全事故分析，可以是福岛或者切尔诺贝利或者其他的，汇报无特别具体的要求，三四页 word 即可。
-
-> 文 / [Gaster](https://github.com/WDGaster703)，2026.1
-
-### 环境学
+## 环境学
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A530%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-30%25-wheat)
 ![%E7%BB%93%E8%AF%BE%E8%AE%BA%E6%96%8770%](https://img.shields.io/badge/%E7%BB%93%E8%AF%BE%E8%AE%BA%E6%96%87-70%25-wheat)
 
 </div>
 
-课堂汇报内容与环境学相关即可，六七个人一组，汇报时间在 15 分钟左右，要求使用英文汇报，老师会用英文提问 ppt 相关内容，要求使用英文回答
+### 环境学 - 课程概况
 
+课堂汇报内容与环境学相关即可，六七个人一组，汇报时间在 15 分钟左右，要求使用英文汇报，老师会用英文提问 ppt 相关内容，要求使用英文回答
 最后结课论文的内容就是你在小组汇报中负责的内容，要求使用英文撰写，长度五到六页左右
 
-> 文 / [Cecilia](https://github.com/mircecilia/),2025.1
+> 文 / [Cecilia](https://github.com/mircecilia/), 2025-01
 
-### 空间环境
+## 空间环境
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%B9%B3%E6%97%B640%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-40%25-wheat)
 ![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
 
 </div>
 
-2025 秋有四次作业，几乎都能在下发的 PPT 找到答案；另外有若干（应该不算分？）的签到表考勤，不过左平兵老师也偶尔点名。结课后会发作业答案。
+### 空间环境 - 授课教师
 
-考试闭卷，题目和作业有相当部分重合。
+- 左平兵
 
-> 文 / [IcyDesert](https://github.com/IcyDesert)，2025.7
-
-### 会计学原理
+## 会计学原理
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
 ![%E9%9B%A8%E8%AF%BE%E5%A0%82%E7%BB%83%E4%B9%A010%](https://img.shields.io/badge/%E9%9B%A8%E8%AF%BE%E5%A0%82%E7%BB%83%E4%B9%A0-10%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83-50%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%8350%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83-50%25-wheat)
 
 </div>
 
-首先，本课程所有资料为**全英文**，包括 PPT、作业题目、雨课堂练习、**期末试题**；但王世璇老师还是中文讲课。
+### 会计学原理 - 授课教师
 
-- 作业有 8 次，需**英文回答**，交纸质版且不发回 ~~可以丢给 AI 满分完成~~
-- 雨课堂会不定期布置并通知，一般有一周作答；平时无考勤。
-- 期末考试**英文试卷英文作答**，题型分布为选择题 30 分（3\*10=30）+ 计算分录题（50 分，共 5 题）+ 简答题（2\*10=20）。
-  - 计算题把作业搞懂都能做出来
-  - 简答题考了「会计周期是什么」和「Financial statement 有哪些」
+- 王世璇
 
-> 文 / [IcyDesert](https://github.com/IcyDesert)，2026.1
-
-### 量子力学
+## 量子力学
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%B9%B3%E6%97%B640%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-40%25-wheat)
 ![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
 
 </div>
 
-老师：邓皓键
+### 量子力学 - 授课教师
 
-老师很友好，但是普通话有点不好，类似于外国人说中文，但是能听懂。
+- 邓皓键
 
-上课使用长江雨课堂点名，还会让助教在八点十分左右进行签到。课上不会管你在做什么，但是期末专门认识了几个听课比较认真的同学。
-
-每节课进行板书，没有 PPT。前面部分和教材基本符合，后面量子计算没有教材，但是难度较低一点。期末考试，听讲＋做好作业很好过。
-
-2025 年秋季学期考试内容：
-- 第一题，希尔伯特空间相关内容
-- 第二题，波函数相关，归一化和波函数到概率密度
-- 第三题，势垒问题
-- 第四题，势阱问题
-- 第五题，氢原子的物理量 nlm
-- 第六题，量子计算，boch 球相关
-
-> 文 / Layaka，2025.12
-
-### 波谱学原理与应用
+## 波谱学原理与应用
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
-![%E6%8A%A5%E5%91%8A](https://img.shields.io/badge/%E6%8A%A5%E5%91%8A-30%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-40%25-wheat)
+![%E4%BD%9C%E4%B8%9A30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
+![%E6%8A%A5%E5%91%8A30%](https://img.shields.io/badge/%E6%8A%A5%E5%91%8A-30%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9540%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-40%25-wheat)
 
 </div>
 
-老师：杨超
+### 波谱学原理与应用 - 授课教师
 
-上课不考勤，偶尔会按点名表顺序抽人回答问题~~在后面的完全不用担心~~，但是习题课一定要去！
+- 杨超
 
-考试难度不大，老师上课很认真很亲切，讲解也很清楚，如果认真听的话一定可以学到东西。
-
-ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频就够了。
-
-- 课程作业每次只有一道题，上交方式为 QQ 群小程序上交。10min 可解决
-- 课程 pre 在每一小章节结束后的习题课上，形式为微信小程序“OS.波谱学原理与应用”中的对应习题（按点名表序号选题）有半个小时的作答时间，只要讲出分析思路即可（1min 左右）~~实测用 AI 完全可以做完~~
-
-2025 年秋季学期考试内容：
-- 选择题：20 题，每题 1 分。
-其余为解答题，分布为
-- 谐振子模型估算红外吸收峰
-- 给定结构和紫外吸收波长，判断物质
-- 给定红外吸收峰，判断物质
-- 紫外，红外，质谱仪综合应用。
-
-> 文 / [lumen](https://github.com/lumen183)，2026.1
-
-### 走进量子世界
+## 走进量子世界
 
 <div class="hoa-badge">
 
@@ -502,101 +462,76 @@ ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频
 
 </div>
 
-老师：周宇
+### 走进量子世界 - 授课教师
 
-这一门正如老师自己所说：就是一门福利课。四学分的跨专业课不费吹灰之力。平时有小测和考勤，但是可以不用管，不扣平时分（因为根本就没有）。课堂汇报只要是和量子力学相关的内容基本都是 30 分/29 分。实验可以使用 AI，交了实验报告就是 20 分。最后 100 分折算成 50 分的考试也非常容易，老师最后会发两份 PDF，只需要对着 PDF 里面的内容复习即可，掌握量子力学历史、布洛赫球、简单的量子计算就可以轻松过关。四学分美美得吃 :yum:。
+- 周宇
 
-> 文 / [潜伏](https://github.com/capoo-fan)，2026.1
-
-### 公司并购与估值
+## 公司并购与估值
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
 ![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A560%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-60%25-wheat)
 
 </div>
 
-老师：李晶晶
+### 公司并购与估值 - 授课教师
 
-虽然是经济管理学院的课，但这门课整体相对友好，难度较低；老师人也非常和善。
+- 李晶晶
 
-- 考勤略多，形式为课间在黑板上写名字，有时会提前提醒（不是每次都有）。课堂偶尔提问，其他不太管。
-- 有两次需要在课上完成的 PPT 作业（写一份 PPT 分析某个具体问题），需要以小组形式完成，每个小组都必须至少选择一次作业进行汇报。不过这非常容易（
-- 期末汇报是案例分析，需要分析一个实际的公司并购案例。汇报时没有提问环节，也是非常轻松。
-- 给分友好，制作 PPT 只要稍微用心一些就能拿到不低的分数（90+）,对于想提高总学分绩的同学来说是不错的选择。
-
-
-> 文 / [PVZ&X](https://github.com/wpj9362)，2026.1
-
-### 绿色金融与碳排放权交易
+## 绿色金融与碳排放权交易
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E8%80%83%E5%8B%A410%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-10%25-wheat)
 ![%E8%AE%BA%E6%96%87%E5%88%86%E6%9E%9045%](https://img.shields.io/badge/%E8%AE%BA%E6%96%87%E5%88%86%E6%9E%90-45%25-wheat)
-![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A545%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%B1%87%E6%8A%A5-45%25-wheat)
+![%E8%AF%BE%E7%A8%8B%E6%B1%87%E6%8A%A545%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%B1%87%E6%8A%A5-45%25-wheat)
 
 </div>
 
-老师：陈小蓓
+### 绿色金融与碳排放权交易 - 授课教师
 
-同样是经济管理学院开设的，相对不那么“硬核”的课。
+- 陈小蓓
 
-- 每节课考勤，形式为上课后在名单上签字。不过平时分相对较少，自己取舍吧（）
-- 老师会偶尔“敲打”上课没有听讲的同学、或者提问。课程的内容比较新颖，也有一定价值，感兴趣的同学可以听一听的。
-- 小组作业分为两部分，各占 45%。“论文分析”是指阅读一篇绿色金融有关题材的论文，然后在课上作报告，谈谈你对论文的理解；“课堂汇报”则是需要自己根据所学内容，撰写绿色金融与碳排放权交易有关的案例分析，然后在课上汇报。老师会把上课的 PPT 和往届学生的汇报案例发到群里，供大家参考写作格式和内容。
-这门课每节课考勤，给分不算高但肯定能过（本人是 84，排名 24/60）且小组作业的工作量不少，也比较新颖。因此建议在小组组好队后，尽快明确职责，分配好各自负责的部分（论文搜集与写作、PPT 制作、汇报），这样可以省不少心。不过介于这门课不设置考试的属性，意味着你只要把该做的工作做完，就能轻松获得 2 学分。
-
-> 文 / [PVZ&X](https://github.com/wpj9362)，2026.1
-
-### 数智结构概论
+## 数智结构概论
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E8%80%83%E5%8B%A440%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-40%25-wheat)
 ![%E4%BD%9C%E4%B8%9A60%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-60%25-wheat)
 
 </div>
 
-老师：蔡坤
+### 数智结构概论 - 授课教师
 
-- 每节课考勤，形式为课前扫码签到。按理来说可以签完到就溜，但是老师后面会有抽签提问环节，要是抽到了不在那节课考勤就算不在。
-- 课程形式是上半节讲内容，下半节看视频，然后最后几分钟会根据视频内容提问。每节课都有课后作业，下星期的那天交，内容也是跟视频内容相关，大家大部分都是用电脑写好打印出来提交（因为真的很多）。
-- 给分比较宽松，考勤和作业没问题的话都能过，我是 A，不过好像作业有一定次数没交老师就会让助教挂你的科。
-- 是一个有点保守的老师，用他自己的话来说也有点说什么比较不顾忌。上课时要注意保持本心，培养辩证思维能力（doge）。
-- 因为种种原因（老师体验感不太好），这门课貌似已成为绝版课程，个人觉得挺可惜，毕竟三分好水的跨专业也不多。
+- 蔡坤
 
-> 文 / [SpeechlessPanda](https://github.com/SpeechlessPanda), 2026.1
-
-### 软体机器人理论与技术
+## 软体机器人理论与技术
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E4%BD%9C%E4%B8%9A%E5%92%8C%E9%9A%8F%E5%A0%82%E6%B5%8B%E8%AF%9540%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A%E5%92%8C%E9%9A%8F%E5%A0%82%E6%B5%8B%E8%AF%95-40%25-wheat)
 ![%E6%9C%9F%E6%9C%AB%E6%8A%A5%E5%91%8A60%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E6%8A%A5%E5%91%8A-60%25-wheat)
 
 </div>
 
-老师：郭江龙、周健友
+### 软体机器人理论与技术 - 授课教师
 
-- 理论上没有考勤，但是据老师说上次教评的时候有专家问课程考勤率是怎么得到的，导致老师后面开始考勤。周老师的形式是抽人回答问题，一般按花名册顺序，每个人都会被抽到一次，抽到没来的后面会再抽一次，那一次来了应该问题就不大。郭老师则是用随堂测试的形式来记录考勤。
-- 随堂测试比较简单，略过不讲。小作业的话，郭老师的比较好弄，交给 ai 然后给 py 代码画个图写个过程就行。周老师的小作业就是简化版的期末报告，比较麻烦，不过我们这一届的截止日期是在期末考试之后，而且一两个小时多半都能搞定，所以还算可以。期末报告同理，也是一两个小时就能搞定（这只是按我的经验来说，群里好像有些同学弄这个弄了很久）。
-- 期末报告我没理解错的话应该是叫你类似于总结已经有了的东西，然后图片也是找网上现有的。有些同学弄得慢好像是在自己画图（？）。
-- 软体机器人作为一个前沿方向还是非常大有可为，如果以后想在这方面有所发展的可以选这门课，跟两个老师搭上关系。两个老师讲的也很不错，属于是想听课的同学也能听下去的那种。
-- 一开始说这门课给分比较低，但是我作为一个两三个小时完成大小作业加考勤没缺过的人来说，分数还是挺高的好像，比我不少考试课分数都高（悲），所以非常推荐选，最好能和舍友一起，这样考勤问题也能大大解决。
+- 郭江龙/周健友
 
-> 文 / [SpeechlessPanda](https://github.com/SpeechlessPanda), 2026.1
-
-### 行星科学
+## 行星科学
 
 <div class="hoa-badge">
 
@@ -608,18 +543,16 @@ ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频
 
 </div>
 
-老师：张铁龙 肖苏东
+### 行星科学 - 授课教师
 
-期中一次 pre，期末一次 pre，最后交个论文就行，说是最简单的跨专业课也不为过。平时有一两次点名，但是不会影响及格。唯一的缺点是课程容量只有 30 人，抢课时代还有机会可以抢到，现在变成抽签就听天由命了。
+- 张铁龙/肖苏东
 
-> 文 / [潜伏](https://github.com/capoo-fan)，2026.1
-
-### 基础计量经济学
-
+## 基础计量经济学
 
 <div class="hoa-badge">
 
 ![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
+
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
 ![%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A-40%25-wheat)
 ![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
@@ -627,19 +560,9 @@ ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频
 
 </div>
 
-</div>
+### 基础计量经济学 - 授课教师
 
-老师：赵柘锦
-
-- 慎重选择，48 学时，内容比较多而且很偏统计学，并且还有配套的实验课，主要是学会使用 stata 分析和处理数据，需要在课后提交实验报告。
-
-- 考勤方面，不是非常严格，只有一两次考勤，不过课堂表现打分仿佛并不是完全依据考勤给的。
-- 作业方面，老师建议使用 latex，题目不难，一共要交四次，但是记得要及时交。
-- 课堂教学方面，感觉需要比较好的统计学基础，内容还是比较硬核的，并不是非常简单易懂，但老师有时候会讲一些小故事和现实案例什么的挺好玩的，还会和同学偶尔互动下。老师人比较年轻，比较友好。如果确实想学到知识还是可以好好听一下。
-- 实验课是由实验中心的王婷老师负责，先讲 ppt 再在 ppt 上留作业，即完成一份实验报告，内容量不少，需要在 stata 上写代码，相当于学一门新的语言了。老师很温柔，不会的地方可以举手问她。实验课每节课都要签到。
-- 考试方面，不考实验课涉及的部分，只考理论课的内容。不复习的话考试基本上是没法考的，但是老师的 ppt 又特别特别多，如果选了这门课的同学还是建议至少预留两三天时间复习期末考（虽然应该也不太容易挂科，毕竟考试只占百分之五十）。
-
-> 文 / [fruly-ZERO](https://github.com/fruly-ZERO)，2026.1
+- 赵柘锦
 
 ## 资料下载
 
@@ -656,6 +579,7 @@ ppt 全英文且课后不发放 ppt，期末考看 B 站的波谱学速成视频
 {{< hoa-filetree/file name="量子力学 2025 秋期末" type="pdf" size="87.9 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025%E7%A7%8B%E6%9C%9F%E6%9C%AB.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="readme" type="toml" size="31.5 KB" date="2026/02/06" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
