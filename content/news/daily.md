@@ -14,6 +14,22 @@ title: AUTO 更新速递
 
 ### 周五 (2.6)
 
+- GitHub Actions 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：ci: format toml & regenerate README [automated]
+
+- Jiao Ziang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：手动添加 toml 文件
+
+- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：把徽章生成部分添加回来 (#14)
+
+- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：更新 workflows，增加 toml 处理程序
+
+- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：更新 toml 格式
+
+- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：更新 tool 的说明
+
+- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：chore: consolidate repo layout (scripts/docs/state/work)
+
+- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：chore: update outputs and ignore local data
+
 - JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：web: improve markdown render + clearer submit feedback
 
 - GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
@@ -50,6 +66,8 @@ title: AUTO 更新速递
 
 - JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：feat: scaffold FastAPI JSON server
 
+- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：chore: tidy workspace artifacts
+
 - Fun10165 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Merge pull request #13 from Fun10165/main
 
 - Fun10165 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：增加 25 秋考试信息 (#39)
@@ -84,5 +102,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [更新了体育课信息](https://github.com/HITSZ-OpenAuto/PE100X/pull/33)
+
+- **仓库**: PE100X
+- **创建于**: 2026-02-06 22:08:12
+- **作者**: wpj9362
 
