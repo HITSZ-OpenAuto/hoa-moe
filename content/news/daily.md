@@ -16,6 +16,10 @@ title: AUTO 更新速递
 
 - GitHub Actions 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：ci: format toml & regenerate README [automated]
 
+- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：修复半角字符和不同 job 之间会相互打断的问题 (#17)
+
+- GitHub Actions 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：ci: format toml & regenerate README [automated]
+
 - Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：修复 multi-project 教师评价生成错误的问题 (#15)
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
@@ -99,6 +103,18 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [修改了之前的 pr](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/24)
+
+- **仓库**: CrossSpecialty
+- **创建于**: 2026-02-06 22:53:29
+- **作者**: wpj9362
+
+### [完善课程信息](https://github.com/HITSZ-OpenAuto/COMP2030/pull/14)
+
+- **仓库**: COMP2030
+- **创建于**: 2026-02-06 22:50:04
+- **作者**: wpj9362
 
 ### [完善了课程信息](https://github.com/HITSZ-OpenAuto/GEIP1017/pull/19)
 
