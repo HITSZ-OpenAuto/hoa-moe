@@ -16,6 +16,10 @@ title: AUTO 更新速递
 
 - GitHub Actions 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：ci: format toml & regenerate README [automated]
 
+- Jiao Ziang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：修改错误标题
+
+- GitHub Actions 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：ci: format toml & regenerate README [automated]
+
 - Jiao Ziang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：手动添加 toml 文件
 
 - Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：把徽章生成部分添加回来 (#14)
@@ -32,16 +36,6 @@ title: AUTO 更新速递
 
 - JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：web: improve markdown render + clearer submit feedback
 
-- GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：Merge pull request #3 from HITSZ-OpenAuto/bot/rdme-20260205-175810
-
-- hoa-prServer 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：chore: update TEST1001 readme.toml
-
-- GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：1
-
 - JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：fix: filter repos with dash in list
 
 ### 周四 (2.5)
@@ -51,12 +45,6 @@ title: AUTO 更新速递
 - JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：feat: restrict server to allowed repos (test-only)
 
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
-
-- JLPL666 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：初始化测试仓库
-
-- JLPL666 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：first commit
 
 - JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：docs: add docker config and module docs
 
