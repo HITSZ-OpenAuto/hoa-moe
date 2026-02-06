@@ -7,20 +7,6 @@ math: true
 ---
 
 {{< update-info update_time="2026 年 2 月 6 日" author="Jiao Ziang" message="Merge pull request #18 from HITSZ-OpenAuto/ci/add-root-readme-toml" >}}
-> [!WARNING]
-> TOML 自动化格式化/生成 README 失败：请检查 readme.toml，并查看 Actions 日志。
-<!-- RDME_TOML_AUTOGEN_WARNING_END -->
-
-# 创新训练课 A
-
-<div class="hoa-badge">
-
-![%E8%80%83%E6%9F%A5%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-</div>
-
-## Awesome HITSZ 大一立项
 
 收集 HITSZ 中有意思的大一立项项目：
 
@@ -35,6 +21,7 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/AUTO2003A" repoURL="https://github.com/HITSZ-OpenAuto/AUTO2003A" >}}
+{{< hoa-filetree/file name="readme" type="toml" size="690 bytes" date="2026/02/06" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO2003A/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
