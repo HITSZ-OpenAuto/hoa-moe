@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-02-05'
+date: '2026-02-06'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -13,6 +13,8 @@ title: AUTO 更新速递
 ## 更新内容
 
 ### 周五 (2.6)
+
+- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：web: improve markdown render + clearer submit feedback
 
 - GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
 
@@ -76,61 +78,11 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [hoa-major-data](https://github.com/HITSZ-OpenAuto/hoa-major-data) 中提交了信息：更新了 COMP3002 的信息
 
-### 周三 (2.4)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: add robots.txt to disallow all web crawlers
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: improve layout on narrow screens
-
-- kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: rename fuma-rs to hoa-backend (#42)
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix ci: remove absolute path
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix ci
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：rename and fix the duplicate wrapper
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：add math delimiiter
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：remove error test
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：no math test
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：for utf8 and add test
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：add test about all the functions
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix logic error on math escape
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：clean code
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：clean code
-
-### 周二 (2.3)
-
-- kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: fetch blog/news from dedicated repos (#41)
-
 ## 待解决的 Issues
 
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
 
-### [chore: update TEST1001 readme.toml](https://github.com/HITSZ-OpenAuto/TEST1001/pull/4)
-
-- **仓库**: TEST1001
-- **创建于**: 2026-02-06 01:58:13
-- **作者**: LiPu-jpg
-
-### [chore: update TEST1001 readme.toml](https://github.com/HITSZ-OpenAuto/TEST1001/pull/2)
-
-- **仓库**: TEST1001
-- **创建于**: 2026-02-06 01:57:50
-- **作者**: LiPu-jpg
-
-### [chore: update TEST1001 readme.toml](https://github.com/HITSZ-OpenAuto/TEST1001/pull/1)
-
-- **仓库**: TEST1001
-- **创建于**: 2026-02-06 01:57:36
-- **作者**: LiPu-jpg
+暂无待合并的 Pull Requests
 
