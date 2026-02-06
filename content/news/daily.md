@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (2.6)
 
+- GitHub Actions 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：ci: format toml & regenerate README [automated]
+
+- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：修复 multi-project 教师评价生成错误的问题 (#15)
+
 - GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - GitHub Actions 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：ci: format toml & regenerate README [automated]
@@ -95,6 +99,18 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [完善了课程信息](https://github.com/HITSZ-OpenAuto/GEIP1017/pull/19)
+
+- **仓库**: GEIP1017
+- **创建于**: 2026-02-06 22:43:09
+- **作者**: wpj9362
+
+### [完善课程信息](https://github.com/HITSZ-OpenAuto/MATH1002/pull/33)
+
+- **仓库**: MATH1002
+- **创建于**: 2026-02-06 22:33:44
+- **作者**: wpj9362
 
 ### [更新了体育课信息](https://github.com/HITSZ-OpenAuto/PE100X/pull/33)
 
