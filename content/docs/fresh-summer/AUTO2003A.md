@@ -6,7 +6,12 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO2003A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2024 年 7 月 16 日" author="Kowyo" message="更改文字描述" >}}
+{{< update-info update_time="2026 年 2 月 6 日" author="Jiao Ziang" message="Merge pull request #18 from HITSZ-OpenAuto/ci/add-root-readme-toml" >}}
+> [!WARNING]
+> TOML 自动化格式化/生成 README 失败：请检查 readme.toml，并查看 Actions 日志。
+<!-- RDME_TOML_AUTOGEN_WARNING_END -->
+
+# 创新训练课 A
 
 <div class="hoa-badge">
 
