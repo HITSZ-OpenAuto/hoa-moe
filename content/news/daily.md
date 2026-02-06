@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (2.6)
 
+- GitHub Actions 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：ci: format toml & regenerate README [automated] [skip ci]
+
 - GitHub Actions 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：ci: format toml & regenerate README [automated]
 
 - Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：修复半角字符和不同 job 之间会相互打断的问题 (#17)
