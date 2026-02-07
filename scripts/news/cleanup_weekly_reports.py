@@ -2,38 +2,11 @@ import os
 import re
 from pathlib import Path
 
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-
 
 DEFAULT_ORG_NAME = "HITSZ-OpenAuto"
-DEFAULT_REPOS_LIST_URL = (
-    "https://raw.githubusercontent.com/HITSZ-OpenAuto/repos-management/main/repos_list.txt"
-)
 
-
-def get_http_session():
-    session = requests.Session()
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504])
-    session.mount("https://", HTTPAdapter(max_retries=retries))
-    return session
-
-
-def load_allowed_repos(session, repos_list_url: str) -> set[str]:
-    resp = session.get(repos_list_url)
-    if resp.status_code != 200:
-        raise RuntimeError(
-            f"Failed to fetch repos list from {repos_list_url}: {resp.status_code}"
-        )
-
-    allowed: set[str] = set()
-    for raw in resp.text.splitlines():
-        line = raw.strip()
-        if not line or line.startswith("#"):
-            continue
-        allowed.add(line.split("/", 1)[-1])
-    return allowed
+# Only clean meta/tooling repos (keep historical course repos even if renamed)
+DEFAULT_CLEAN_PREFIXES = ("hoa-", "fuma", "aextra", "repos")
 
 
 _SECTION_HEADER_RE = re.compile(r"^#{3,4}\s+")
@@ -55,8 +28,11 @@ def split_front_matter(text: str) -> tuple[str, str]:
     return front, body
 
 
-def clean_markdown_body(body: str, org_name: str, allowed_repos: set[str]) -> str:
+def clean_markdown_body(body: str, org_name: str, clean_prefixes: tuple[str, ...]) -> str:
     link_re = re.compile(rf"https://github\.com/{re.escape(org_name)}/([^\s)]+)")
+
+    def should_clean(repo: str) -> bool:
+        return repo.startswith(clean_prefixes)
 
     lines = body.splitlines(keepends=True)
     out: list[str] = []
@@ -71,12 +47,12 @@ def clean_markdown_body(body: str, org_name: str, allowed_repos: set[str]) -> st
                 section.append(lines[i])
                 i += 1
 
-            # If the header itself points to a repo not in the allowlist, drop the whole section.
+            # If the header itself points to a repo we want to clean, drop the whole section.
             header_repo = None
             m_header = link_re.search(section[0])
             if m_header:
                 header_repo = m_header.group(1)
-            if header_repo and header_repo not in allowed_repos:
+            if header_repo and should_clean(header_repo):
                 if out and out[-1].strip() != "":
                     out.append("\n")
                 continue
@@ -96,7 +72,7 @@ def clean_markdown_body(body: str, org_name: str, allowed_repos: set[str]) -> st
                     m = link_re.search(l)
                     if m:
                         repo = m.group(1)
-                        if repo not in allowed_repos:
+                        if should_clean(repo):
                             skip_next_blank = True
                             continue
 
@@ -125,11 +101,14 @@ def clean_markdown_body(body: str, org_name: str, allowed_repos: set[str]) -> st
 
 def main():
     org_name = os.getenv("ORG_NAME", DEFAULT_ORG_NAME)
-    repos_list_url = os.getenv("REPOS_LIST_URL", DEFAULT_REPOS_LIST_URL)
     root = Path("content/news/weekly")
 
-    session = get_http_session()
-    allowed_repos = load_allowed_repos(session, repos_list_url)
+    prefixes_env = os.getenv("CLEAN_PREFIXES")
+    clean_prefixes = (
+        tuple(p.strip() for p in prefixes_env.split(",") if p.strip())
+        if prefixes_env
+        else DEFAULT_CLEAN_PREFIXES
+    )
 
     changed_files = 0
 
@@ -139,7 +118,7 @@ def main():
 
         original = path.read_text(encoding="utf-8")
         front, body = split_front_matter(original)
-        cleaned_body = clean_markdown_body(body, org_name, allowed_repos)
+        cleaned_body = clean_markdown_body(body, org_name, clean_prefixes)
         cleaned = front + cleaned_body
 
         if cleaned != original:
