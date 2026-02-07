@@ -136,7 +136,8 @@ def fetch_opened_prs_and_issues(org_name, public_repos):
         filtered_prs = [
             p
             for p in prs
-            if p["repository"]["name"] in public_repos and not ci_pr_re.search(p["title"])
+            if p["repository"]["name"] in public_repos
+            and not ci_pr_re.search(p["title"])
         ]
 
         if not filtered_prs:
