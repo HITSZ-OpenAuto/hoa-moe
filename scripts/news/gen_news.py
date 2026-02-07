@@ -25,17 +25,38 @@ def get_http_session():
     return session
 
 
-def get_org_public_repos(session, headers, url):
-    """Fetch all public repositories in the organization."""
+DEFAULT_REPOS_LIST_URL = "https://raw.githubusercontent.com/HITSZ-OpenAuto/repos-management/main/repos_list.txt"
+
+
+def get_repos_from_repos_list(session, headers, repos_list_url=DEFAULT_REPOS_LIST_URL):
+    """Fetch repository names from repos-management repos_list.txt.
+
+    Returns a list of dicts with at least {"name": <repo>} to stay compatible with
+    downstream code.
+    """
+    response = session.get(repos_list_url, headers=headers)
+    if response.status_code != 200:
+        raise RuntimeError(
+            f"Failed to fetch repos list from {repos_list_url}: {response.status_code}"
+        )
+
+    repo_names = []
+    for raw in response.text.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        # allow either `repo` or `org/repo`
+        repo_names.append(line.split("/", 1)[-1])
+
+    # Deduplicate while preserving order
+    seen = set()
     repos = []
-    while url:
-        response = session.get(url, headers=headers)
-        if response.status_code == 200:
-            repos.extend(repo for repo in response.json() if not repo["private"])
-            url = response.links.get("next", {}).get("url")
-        else:
-            print(f"Failed to fetch repositories: {response.status_code}")
-            break
+    for name in repo_names:
+        if name in seen:
+            continue
+        seen.add(name)
+        repos.append({"name": name})
+
     return repos
 
 
@@ -111,10 +132,11 @@ def fetch_commits_from_repos(session, headers, org_name, repos, start_time):
             session, headers, org_name, repo["name"], start_time
         )
         contain_manual = any(
-            commit["commit"]["author"]["name"] != "github-actions" for commit in commits
+            commit["commit"]["author"]["name"] not in {"github-actions", "actions-user"}
+            for commit in commits
         )
 
-        if commits and repo["name"] != "hoa-moe" and repo["name"] != ".github":
+        if commits:
             for commit in commits:
                 filtered_commits.append(
                     {
@@ -194,9 +216,8 @@ def main():
     headers = {"Authorization": f"token {token}"}
 
     start_time, display_start_time = calculate_start_time(news_type)
-    repos = get_org_public_repos(
-        session, headers, f"https://api.github.com/orgs/{org_name}/repos"
-    )
+    repos_list_url = os.getenv("REPOS_LIST_URL", DEFAULT_REPOS_LIST_URL)
+    repos = get_repos_from_repos_list(session, headers, repos_list_url)
     yaml_front_matter = generate_yaml_front_matter(news_type, display_start_time)
     filtered_commits, org_course_name = fetch_commits_from_repos(
         session, headers, org_name, repos, start_time
