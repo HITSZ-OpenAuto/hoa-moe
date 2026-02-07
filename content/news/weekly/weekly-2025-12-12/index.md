@@ -49,10 +49,6 @@ title: AUTO 周报 2025-12-12 - 2025-12-19
 
 - Lurker 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：加入了数字逻辑笔记
 
-- Jiao Ziang 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：Merge pull request #24 from Star1950625/main
-
-- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #30 from Star1950625/main
-
 - Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：增加个人笔记
 
 - Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Add files via upload
@@ -62,8 +58,6 @@ title: AUTO 周报 2025-12-12 - 2025-12-19
 - Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Delete notes/2024_lsx directory
 
 - Star1950625 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：commit message
-
-- Jiao Ziang 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：Merge pull request #12 from Star1950625/main
 
 ### 周一 (12.15)
 

@@ -113,8 +113,6 @@ title: AUTO 周报 2025-01-17 - 2025-01-24
 
 ### 周一 (1.20)
 
-- W·D·Gaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：Merge pull request #15 from WDGaster703/main
-
 - WDGaster 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：修复 psp 的笔记，删除 readme，修改文档落款格式
 
 ### 周日 (1.19)
