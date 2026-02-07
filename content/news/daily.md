@@ -70,6 +70,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [优化表现形式](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/25)
+
+- **仓库**: CrossSpecialty
+- **创建于**: 2026-02-07 09:35:25
+- **作者**: wpj9362
+
 ### [ci: add root readme.toml (done refresh)](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/19)
 
 - **仓库**: WRIT0001
@@ -242,11 +248,5 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3013
 - **创建于**: 2026-02-07 07:38:12
-- **作者**: LiPu-jpg
-
-### [ci: add root readme.toml (done refresh)](https://github.com/HITSZ-OpenAuto/COMP3011/pull/11)
-
-- **仓库**: COMP3011
-- **创建于**: 2026-02-07 07:38:02
 - **作者**: LiPu-jpg
 
