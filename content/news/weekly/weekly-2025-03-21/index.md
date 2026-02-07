@@ -26,4 +26,3 @@ title: AUTO 周报 2025-03-21 - 2025-03-28
 ### 周日 (3.23)
 
 - lajilizi 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：Exp28 碰撞打靶的数据处理 / 修复 Exp07 数据处理漏洞 (#41)
-

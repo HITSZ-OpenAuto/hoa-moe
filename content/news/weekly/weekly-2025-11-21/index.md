@@ -388,4 +388,3 @@ title: AUTO 周报 2025-11-21 - 2025-11-28
 - Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：ci: disable scheduled trigger (#22)
 
 - Kowyo 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：ci: disable scheduled trigger (#62)
-

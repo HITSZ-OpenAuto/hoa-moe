@@ -33,4 +33,3 @@ title: AUTO 周报 2025-10-10 - 2025-10-17
 ### 周六 (10.11)
 
 - Kowyo 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：移除不必要的注释 (#9)
-

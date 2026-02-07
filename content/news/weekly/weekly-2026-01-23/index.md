@@ -70,4 +70,3 @@ title: AUTO 周报 2026-01-23 - 2026-01-30
 - Mingjia Zhou 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了对两门跨专业课程的描述 (#19)
 
 - Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：加入了行星科学课程说明 (#18)
-
