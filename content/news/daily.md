@@ -244,9 +244,3 @@ title: AUTO 更新速递
 - **创建于**: 2026-02-07 07:38:21
 - **作者**: LiPu-jpg
 
-### [ci: add root readme.toml (done refresh)](https://github.com/HITSZ-OpenAuto/COMP3013/pull/12)
-
-- **仓库**: COMP3013
-- **创建于**: 2026-02-07 07:38:12
-- **作者**: LiPu-jpg
-
