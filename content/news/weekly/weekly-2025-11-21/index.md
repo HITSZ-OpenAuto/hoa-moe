@@ -53,19 +53,13 @@ title: AUTO 周报 2025-11-21 - 2025-11-28
 
 - W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：新建电气选修课仓库
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
 - W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：新建自动化导论的仓库
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
 - W. D. Gaster 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：迁移 OpenCS 的计算机导论内容并做说明
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：Initial commit
 
@@ -76,8 +70,6 @@ title: AUTO 周报 2025-11-21 - 2025-11-28
 - W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：将电路与电子学 I 课程从电路与电子学 II 中拆分出来独立仓库，并将 OpenCS 的电工与电子技术相关资料进行迁移。
 
 - W. D. Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改 24 级电路与电子学 II 的内容，将 I 和 III 内容独立
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Initial commit
 
@@ -120,8 +112,6 @@ title: AUTO 周报 2025-11-21 - 2025-11-28
 - W. D. Gaster 在 [形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：修改课程信息
 
 - W. D. Gaster 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：修改课程信息
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - Jiao 在 [auto-metadata](https://github.com/HITSZ-OpenAuto/auto-metadata) 中提交了信息：feat: full auto-metadata pipeline
 
@@ -166,8 +156,6 @@ title: AUTO 周报 2025-11-21 - 2025-11-28
 - Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：整理 README 的结构和格式 (#21)
 
 - Jiayi-hit 在 [机器学习概论](https://github.com/HITSZ-OpenAuto/COMP3006) 中提交了信息：上传机器学习 23 级期末回忆版 (#5)
-
-- OliverWu515 在 [hoa-spec](https://github.com/HITSZ-OpenAuto/hoa-spec) 中提交了信息：init: add metadata of hoa 3.0
 
 - HitTheStars 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：加入了思政实践网课的链接以及相关描述，添加了它的刷课脚本和使用教程。 (#17)
 
@@ -401,18 +389,3 @@ title: AUTO 周报 2025-11-21 - 2025-11-28
 
 - Kowyo 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：ci: disable scheduled trigger (#62)
 
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：feat: add concurrency to add_workflow
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：feat: add concurrency to close_pr
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：feat: add close pr
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: use PR_TITLE for commit message
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：update docs
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：chore: update pr description
-
-### 周五 (11.21)
-
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：docs: add source of workflow file in add_workflow.sh

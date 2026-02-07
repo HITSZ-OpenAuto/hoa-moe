@@ -22,10 +22,6 @@ title: AUTO 周报 2025-10-24 - 2025-10-31
 
 ## 更新内容
 
-### 周一 (10.27)
-
-- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：add docs-list and complete course-info component. (#18)
-
 ### 周六 (10.25)
 
 - Maxwell Jay 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：添加关于习题答案的提醒 (#38)

@@ -41,14 +41,6 @@ title: AUTO 周报 2026-01-30 - 2026-02-06
 
 ### 周五 (2.6)
 
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：更新 tool 的说明
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：chore: consolidate repo layout (scripts/docs/state/work)
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：chore: update outputs and ignore local data
-
-- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：web: improve markdown render + clearer submit feedback
-
 - GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：Merge pull request #3 from HITSZ-OpenAuto/bot/rdme-20260205-175810
@@ -59,31 +51,13 @@ title: AUTO 周报 2026-01-30 - 2026-02-06
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：1
 
-- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：fix: filter repos with dash in list
-
 ### 周四 (2.5)
-
-- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：feat: allow repo_name override for lookup/submit
-
-- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：feat: restrict server to allowed repos (test-only)
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - GitHub Actions 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：ci: format toml & regenerate README [automated]
 
 - JLPL666 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：初始化测试仓库
 
 - JLPL666 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/TEST1001) 中提交了信息：first commit
-
-- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：docs: add docker config and module docs
-
-- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：fix: handle sqlite lastrowid optional
-
-- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：feat: add repo lookup, submit-to-PR, and pending poller
-
-- JLPL666 在 [hoa-prServer](https://github.com/HITSZ-OpenAuto/hoa-prServer) 中提交了信息：feat: scaffold FastAPI JSON server
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：chore: tidy workspace artifacts
 
 - Fun10165 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Merge pull request #13 from Fun10165/main
 
@@ -107,63 +81,9 @@ title: AUTO 周报 2026-01-30 - 2026-02-06
 
 - 浮萍（混子）在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：Merge pull request #33 from DUCKSEEDYHB/patch-1
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
 - Junda Wu 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：Merge pull request #18 from HITSZ-OpenAuto/ow1
 
-- Jiao Ziang 在 [hoa-major-data](https://github.com/HITSZ-OpenAuto/hoa-major-data) 中提交了信息：更新了 COMP3002 的信息
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：格式化表格
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：添加普通仓库徽章
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：修改了 multi-repo 的徽章生成逻辑
-
 ### 周三 (2.4)
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：更改格式化代码
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：Fix list blank lines in README normalization
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：Wrap bare URLs in markdown
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：Fix markdown spacing and author quotes
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: add robots.txt to disallow all web crawlers
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: improve layout on narrow screens
-
-- kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: rename fuma-rs to hoa-backend (#42)
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix ci: remove absolute path
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix ci
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：rename and fix the duplicate wrapper
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：add math delimiiter
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：remove error test
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：no math test
-
-- Kowyo Bot 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：Initialize uv workspace and add .env support
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：for utf8 and add test
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：add test about all the functions
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：fix logic error on math escape
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：clean code
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：clean code
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：Add teachers reviews table
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：Generate README.md from TOMLs
-
-- JLPL666 在 [hoa-toml](https://github.com/HITSZ-OpenAuto/hoa-toml) 中提交了信息：Initial import: scripts + generated TOMLs
 
 - Jiao Ziang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Merge pull request #32 from SpeechlessPanda/patch-1
 
@@ -171,119 +91,13 @@ title: AUTO 周报 2026-01-30 - 2026-02-06
 
 ### 周二 (2.3)
 
-- kowyo-bot 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[fix] emit pages ordering for semester folders in meta.json (#3)
-
-- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: keep LICENSE at repo root
-
-- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: move news content under news/ folder
-
-- kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: fetch blog/news from dedicated repos (#41)
-
 - Mingjia Zhou 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：Revise grading distribution and learning recommendations
 
 - Mingjia Zhou 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：增加了对一门飞盘课的描述
 
-- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：Add LICENSE (CC BY-NC-SA 4.0)
-
-- Kowyo Bot 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：Add LICENSE (CC BY-NC-SA 4.0)
-
-- Kowyo Bot 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：Remove .gitignore files
-
-- Kowyo Bot 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：Remove .gitignore files
-
-- Kowyo 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：chore: add .gitignore
-
-- Kowyo 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: add .gitignore file to exclude build artifacts and dependencies
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: migrate blog and news to orphan branches
-
-- Kowyo 在 [hoa-news](https://github.com/HITSZ-OpenAuto/hoa-news) 中提交了信息：chore: initial news content
-
-- Kowyo 在 [hoa-blog](https://github.com/HITSZ-OpenAuto/hoa-blog) 中提交了信息：chore: initial blog content
-
-- Kowyo 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[fix] use osa alist url (#1)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat(docs): remember year + sidebar tab and auto-navigate to first course (#40)
-
-### 周一 (2.2)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add hideLocale option to i18n configuration
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add follow system theme option to theme toggle
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add Chinese search support (#39)
-
-- longlin li 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: change Home index style (#38)
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-### 周日 (2.1)
-
-- kowyo-bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore(ci): simplify clone step (#37)
-
-- Yin Mo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：ci: use Rust parser (#36)
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[fix] try using https url
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[fix] try cache 2
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[fix] try cache
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[fix] try cache
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[fix] shields.io remove line
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[fix] fix formatter error
-
-- Kowyo Bot 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：chore: rename package to hoa-cli
-
-- Kowyo Bot 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：chore: delete search and audit CLI commands and modules
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[ci] change data dir.
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：Add hoa-major-data as submodule
-
-- YinMo19 在 [hoa-major-data](https://github.com/HITSZ-OpenAuto/hoa-major-data) 中提交了信息：Initial commit: HITSZ major data collection
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[ci] add ci
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[ci] add ci
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[ci] add ci
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[ci] add ci
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[format]
-
-- YinMo19 在 [hoa-backend](https://github.com/HITSZ-OpenAuto/hoa-backend) 中提交了信息：[init]
-
-- kowyo-bot 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：fix: make [info].major_name match plan filename (#7)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add semester index pages with course cards
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: use absolute paths in navigation cards and remove redirect logic
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor(scripts): reorganize code into lib/ and course/ modules
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: display all percentages in grading bar and use flex-wrap
-
-- W. D. Gaster 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：删除第二学位、留学生以及一些不必要的培养方案，精简专业大类名称 (#6)
-
-- Kowyo Bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: bump deps
-
-- Kowyo Bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: prevent docs layout column flicker
-
-- Kowyo Bot 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: add Makefile and downgrade Python to 3.13
-
 ### 周六 (1.31)
 
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: implement course info data flow
-
 - fruly 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：docs: add course badges and description
-
-- kowyo-bot 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：info: append grade details from grades_summary.json (#5)
-
-- kowyo-bot 在 [hoa-cli](https://github.com/HITSZ-OpenAuto/hoa-cli) 中提交了信息：Add grades_summary.json data (#4)
 
 - Kowyo 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：[automated-generated-PR] ci: remove obsolete metadata/example files (#1)
 
@@ -876,11 +690,5 @@ title: AUTO 周报 2026-01-30 - 2026-02-06
 - Jiao Ziang 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：Update readme.toml for AUTO2006
 
 ### 周五 (1.30)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add news page (#31)
-
-- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：上传成绩构成信息
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: home page layout (#28)
 
 - Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：docs: add structured course info (AUTO5023.toml) (#20)

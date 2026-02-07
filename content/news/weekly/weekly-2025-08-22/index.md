@@ -32,8 +32,6 @@ title: AUTO 周报 2025-08-22 - 2025-08-29
 
 ### 周五 (8.29)
 
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：refactor: remove unused personal access token sourcing and streamline PR marker definition (#9)
-
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：ci: use a unified reusable workflow (#4)
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：ci: use a unified reusable workflow (#5)
@@ -257,8 +255,6 @@ title: AUTO 周报 2025-08-22 - 2025-08-29
 - IcyDesert 在 [大学化学 III](https://github.com/HITSZ-OpenAuto/CHEM1012) 中提交了信息： [automated-generated-PR] ci: updated worktree.json generation (#9)
 
 - IcyDesert 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息： [automated-generated-PR] ci: updated worktree.json generation (#35)
-
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: escape $ in workflow file (#8)
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：ci: use a unified reusable workflow (#13)
 

@@ -13,8 +13,6 @@ title: AUTO 周报 2024-11-08 - 2024-11-15
 
 ## ✨AI 摘要
 
-### 每周提交报告总结
-
 #### 周六 (11.9)
 
 - 动量子在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 项目中提交了一项更新：增加了动量子 Typst 实验模板至 README.md (#33)。

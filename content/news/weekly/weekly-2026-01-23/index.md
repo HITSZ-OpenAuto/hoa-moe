@@ -47,71 +47,19 @@ title: AUTO 周报 2026-01-23 - 2026-01-30
 
 ### 周五 (1.30)
 
-- Jiao Ziang 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：上传成绩构成信息
-
-- JLPL666 在 [hoa-make_toml](https://github.com/HITSZ-OpenAuto/hoa-make_toml) 中提交了信息：first_pr
-
-- JLPL666 在 [hoa-make_toml](https://github.com/HITSZ-OpenAuto/hoa-make_toml) 中提交了信息：first commit
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: home page layout (#28)
-
 - Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：docs: add structured course info (AUTO5023.toml) (#20)
 
 - Jiao Ziang 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：Merge pull request #66 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250009
 
 - Jiao Ziang 在 [程序设计思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/ci/auto-generate-toml-1768250740
 
-### 周四 (1.29)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：ci: add preview workflow for PRs (#29)
-
-### 周三 (1.28)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add Documentation, Blog, and GitHub links (#27)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：ci: improve build and deployment pipeline
-
-- kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：docs: migrate blog posts
-
-### 周二 (1.27)
-
-- kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: blog page layout and banner improvements
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: use shadcn theme color (#23)
-
-### 周一 (1.26)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：docs: update README and add contributing guide
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: track blog content
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor: update fumadocs collections and blog source configuration
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: add MIT license
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：ci: push generated content to production branch
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: deslop - reorganize components and fix lint issues (#22)
-
 ### 周日 (1.25)
 
 - Mingjia Zhou 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加了对三门文理通识课程的描述 且将表述进行了修改 (#22)
 
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix: remove llms-full.txt
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add FileTree component with JSON-to-tree transformation (#21)
-
 - Kowyo 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：移除教师评价中多余的横线
 
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor(scripts): modularize and optimize course fetching logic
-
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：Merge pull request #23 from HITSZ-OpenAuto/feature/database-course-info
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: download worktree.json in fetch_repo_data and rename fetch_readme
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：refactor: extract generate_pages and hardcode directory paths
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：perf: optimize course build script (#18)
 
 - cecilia 在 [数字逻辑设计](https://github.com/HITSZ-OpenAuto/COMP2051) 中提交了信息：增加对数逻实验的描述 (#17)
 
@@ -121,38 +69,5 @@ title: AUTO 周报 2026-01-23 - 2026-01-30
 
 - Mingjia Zhou 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了对两门跨专业课程的描述 (#19)
 
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat(ci): init building course pages workflow (#16)
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: simplify output
-
 - Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：加入了行星科学课程说明 (#18)
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-### 周三 (1.21)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: implement CourseInfo component (#14)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: remove .vscode and .claude from git and ignore them
-
-### 周三 (1.7)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: bump dependencies
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feature: implement blog layout (#12)
-
-### 周四 (1.1)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: setup husky, lint-staged and commitlint
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add prettier-plugin-tailwindcss
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: add prettier and eslint-config-prettier for code formatting
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: organize file structure
-
-### 周一 (12.29)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：fix logic
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：add checkbox visibility

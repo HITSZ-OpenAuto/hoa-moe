@@ -74,10 +74,6 @@ title: AUTO 周报 2025-09-12 - 2025-09-19
 
 - IcyDesert 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加 大模型应用开发入门 课程情况 (#9)
 
-- Chenx Dust 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：better frontend, block not ok response
-
-- Chenx Dust 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add error page
-
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Merge pull request #5 from mircecilia/main
 
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3054) 中提交了信息：Merge branch 'HITSZ-OpenAuto:main' into main

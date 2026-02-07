@@ -63,8 +63,6 @@ title: AUTO 周报 2026-01-09 - 2026-01-16
 
 - W. D. Gaster 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：上新课程设计与制造 B
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
 - W. D. Gaster 在 [设计与制造 B](https://github.com/HITSZ-OpenAuto/MECH2020) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [计算机系统](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：添加课程教材与网课推荐，上传 2025 春期末试卷
@@ -426,8 +424,6 @@ title: AUTO 周报 2026-01-09 - 2026-01-16
 - Kokoro2336 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：Merge pull request #8 from lumen183/main
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：增加示例 yaml
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：更新了经济学原理 (跨专业) 的课程信息 (#14)
 

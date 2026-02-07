@@ -39,18 +39,6 @@ title: AUTO 周报 2025-09-05 - 2025-09-12
 
 ### 周三 (9.10)
 
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：rename
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：update readme
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add title
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：refac
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：add package
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：init
-
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：Standadize incorrect formats
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP2010) 中提交了信息：Standadize incorrect formats
@@ -94,14 +82,6 @@ title: AUTO 周报 2025-09-05 - 2025-09-12
 - W·D·Gaster 在 [电力电子技术](https://github.com/HITSZ-OpenAuto/EE3002) 中提交了信息：更新课程表标签
 
 - W·D·Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：更新课程表标签
-
-### 周一 (9.8)
-
-- longlinli 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: update dependencies and improve code structure
-
-- Kowyo 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add cloudflare worker config
-
-- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：impl basic style for blog/ and news/ list page (#7)
 
 ### 周五 (9.5)
 

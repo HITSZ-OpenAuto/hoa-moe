@@ -23,25 +23,9 @@ title: AUTO 周报 2025-11-14 - 2025-11-21
 
 - RussReign 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：复变函数笔记上传 (#28)
 
-### 周三 (11.19)
-
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：chore: decouple workflow content from add_workflow.sh (#11)
-
-### 周一 (11.17)
-
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: remove schedule field (#10)
-
 ### 周日 (11.16)
 
 - OliverWu515 在 [控制理论中的代数基础](https://github.com/HITSZ-OpenAuto/AUTO2006) 中提交了信息：更新 2025 春作业答案
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: add step to trigger update repositories list workflow
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: use GITHUB_TOKEN in fetch repo
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: add workflow_dispatch for update repos list workflow
 
 - OliverWu515 在 [新时代中国特色社会主义理论与实践](https://github.com/HITSZ-OpenAuto/GEIP4004) 中提交了信息：上线新课程
 

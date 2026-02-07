@@ -53,55 +53,11 @@ title: AUTO 周报 2026-01-16 - 2026-01-23
 
 ### 周四 (1.22)
 
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：docs: add installation instructions via uv tool install
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat(cli): add repo command to lookup OpenAuto repository IDs (#3)
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add version information
-
-- W. D. Gaster 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：上传只保留目前组织里仓库相关的特殊映射的 lookup table (#1)
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：style: fix format and lint issues
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add pre-commit hooks, Makefile, and LICENSE
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add pre-commit configuration and Makefile for development setup
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: implement JW_COOKIE warning logging in fetcher
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：chore: remove lookup table tooling
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: rename folder SCHOOL_MAJORS to plans
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: rename CLI files to match command names
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：docs: update README with detailed usage and operational logic
-
 - Lurker 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：增加了走进量子世界课程 (#16)
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: update compatibility date in wrangler.toml to 2026-01-20
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: rename entry to index.js
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: add support for robots.txt in request handling
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: enable smart placement and run_worker_first in wrangler.toml
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: add MIT license
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：chore: remove deployment references
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: remove default variable fallbacks in worker.js
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：docs: create README and add deployment badge
 
 ### 周三 (1.21)
 
 - Hye 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：调整 README 结构，删去了 tabs 组件，修复页面构建的问题。 (#28)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：feat: implement CourseInfo component (#14)
-
-- Kowyo 在 [hoa-fuma](https://github.com/HITSZ-OpenAuto/hoa-fuma) 中提交了信息：chore: remove .vscode and .claude from git and ignore them
 
 - Anastasia-Charies 在 [经济学原理](https://github.com/HITSZ-OpenAuto/ECON2005F) 中提交了信息：补充署名，以便后面贡献的同学编写 (#21)
 
@@ -123,66 +79,5 @@ title: AUTO 周报 2026-01-16 - 2026-01-23
 
 - Jiao Ziang 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改错误链接 (#38)
 
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: update compatibility date
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: format code
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: enhance MarkdownComponent styling for better text wrapping
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: update math plugin type definition
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: replace any types with unknown to resolve lint errors
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: add prettier and format codebase
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: remove unused dependencies identified by knip
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: add knip configuration
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：refactor: use streamdown to render markdown component
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：fix: solve build error by checking for katexInstance
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：style: fix lint issues in App and components
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: bump dependencies to latest
-
-- Kowyo 在 [hoa-previewer](https://github.com/HITSZ-OpenAuto/hoa-previewer) 中提交了信息：chore: migrate from Cloudflare Pages to Workers
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: replace print statements with logging in CLI tools
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：fix: update smoke tests
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：chore: update build system and dependencies in pyproject.toml
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：chore: reorder build-system section in pyproject.toml
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: consolidate CLI commands under a single entry point
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: bundle data directory into package and update CLI tools
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat(ci): add GitHub Action for HOA Majors CLI setup
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：chore: update Python version requirement in uv.lock to 3.14
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: improve project structure, core logic, and CLI consistency
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：feat: add list course/plans/query commands
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：chore: update Python version requirements to 3.14
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：fix: format code and resolve lint issues with ruff
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：refactor: flatten and rename SCHOOL_MAJORS data structure
-
 - 345ljh 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：上传 25 秋回忆试题与大作业 (#17)
 
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：chore: ignore .claude and .cursor and remove them from git history
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：docs: update usage using uv
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：Update .gitignore with standard Python ignore patterns
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：Add uv.lock
-
-- Kowyo 在 [hoa-majors](https://github.com/HITSZ-OpenAuto/hoa-majors) 中提交了信息：Refactor project structure: reorganize into src/, data/, and tests/

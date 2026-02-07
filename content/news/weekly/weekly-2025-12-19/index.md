@@ -38,10 +38,6 @@ title: AUTO 周报 2025-12-19 - 2025-12-26
 
 - jiazero 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加城市社会学概论，现代电机设计导论跨专业课程评价
 
-### 周二 (12.23)
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：update allowed origins for CORS to include localhost
-
 ### 周一 (12.22)
 
 - Y-Sensi 在 [系统建模与仿真](https://github.com/HITSZ-OpenAuto/AUTO3004) 中提交了信息：添加一份 2025 年的思维导图
@@ -50,17 +46,9 @@ title: AUTO 周报 2025-12-19 - 2025-12-26
 
 - Star1950625 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：增加个人笔记 (#21)
 
-- kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: block search engine crawlers to trigger de-indexing
-
-- kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: add referer validation to restrict access from specific domains
-
-- Kowyo 在 [hoa-fastdl](https://github.com/HITSZ-OpenAuto/hoa-fastdl) 中提交了信息：feat: support CORS(#5)
-
 ### 周五 (12.19)
 
 - IcyDesert 在 [固体力学](https://github.com/HITSZ-OpenAuto/MECH2022) 中提交了信息：添加署名日期
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH3060) 中提交了信息：Initial commit
 

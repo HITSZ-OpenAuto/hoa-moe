@@ -44,10 +44,6 @@ title: AUTO 周报 2025-08-29 - 2025-09-05
 
 ### 周四 (9.4)
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: delete problematic equation in if-condition
-
 - W·D·Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加自救群共享文档部分课程评价 (#11)
 
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：添加课程信息
@@ -59,8 +55,6 @@ title: AUTO 周报 2025-08-29 - 2025-09-05
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：修改学分
 
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3030) 中提交了信息：迁移 OpenCS 对应仓库内容
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - W·D·Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：迁移 OpenCS 对应课程
 
@@ -87,8 +81,6 @@ title: AUTO 周报 2025-08-29 - 2025-09-05
 ### 周一 (9.1)
 
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3052) 中提交了信息：update COMP3052's information (#5)
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：feat: add delete folder
 
 ### 周五 (8.29)
 
@@ -322,10 +314,6 @@ title: AUTO 周报 2025-08-29 - 2025-09-05
 
 - Kowyo 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：ci: delete '.hoa' directory (#17)
 
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：refactor: remove unused personal access token sourcing and streamline PR marker definition (#9)
-
-- Kowyo 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：refactor: remove unused personal access token sourcing and streamline PR marker definition
-
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：ci: use a unified reusable workflow (#4)
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/COMP3042) 中提交了信息：ci: use a unified reusable workflow (#5)
@@ -549,7 +537,5 @@ title: AUTO 周报 2025-08-29 - 2025-09-05
 - IcyDesert 在 [大学化学 III](https://github.com/HITSZ-OpenAuto/CHEM1012) 中提交了信息： [automated-generated-PR] ci: updated worktree.json generation (#9)
 
 - IcyDesert 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息： [automated-generated-PR] ci: updated worktree.json generation (#35)
-
-- IcyDesert 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：fix: escape $ in workflow file (#8)
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：ci: use a unified reusable workflow (#13)

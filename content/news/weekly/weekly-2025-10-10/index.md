@@ -26,36 +26,11 @@ title: AUTO 周报 2025-10-10 - 2025-10-17
 
 ### 周三 (10.15)
 
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：fix(ui): improve ui (#15)
-
 - W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：修改部分内容
 
 - W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：添加 zsa 笔记
-
-- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：add dark mode style for links/ and about/. (#16)
-
-### 周二 (10.14)
-
-- longlin li 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: improve footer layout and styling in BaseFooter (#9)
-
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat(toc): add minDepth prop and improve numbering logic (#6)
-
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add metadata types and sample data for majors and courses (#11)
-
-### 周日 (10.12)
-
-- Kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：Merge pull request #10 from HITSZ-OpenAuto/links-about
-
-- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：Merge remote-tracking branch 'origin/main' into links-about
-
-- kokoro2336 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：chore: use text-based lockfile instead.
-
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：feat: add dark mode toggle and theme support (#14)
 
 ### 周六 (10.11)
 
 - Kowyo 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：移除不必要的注释 (#9)
 
-### 周五 (10.10)
-
-- hanjin 在 [aextra](https://github.com/HITSZ-OpenAuto/aextra) 中提交了信息：deps(ui): migrate from UnoCSS to Tailwind CSS v4 (#12)
