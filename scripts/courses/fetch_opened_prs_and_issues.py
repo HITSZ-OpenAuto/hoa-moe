@@ -1,6 +1,7 @@
 import subprocess
 import json
 import os
+import re
 from datetime import datetime, timedelta
 import logging
 
@@ -131,7 +132,13 @@ def fetch_opened_prs_and_issues(org_name, public_repos):
 
         f.write("## 待合并的 Pull Requests\n\n")
 
-        filtered_prs = [p for p in prs if p["repository"]["name"] in public_repos]
+        ci_pr_re = re.compile(r"(?i)\bci\s*[:：]")
+        filtered_prs = [
+            p
+            for p in prs
+            if p["repository"]["name"] in public_repos
+            and not ci_pr_re.search(p["title"])
+        ]
 
         if not filtered_prs:
             f.write("暂无待合并的 Pull Requests\n\n")

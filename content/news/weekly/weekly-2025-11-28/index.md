@@ -23,7 +23,6 @@ title: AUTO 周报 2025-11-28 - 2025-12-05
 - 计算机专业导论 (COMP2001)：新建并完成 OpenCS 的计算机导论内容迁移与说明，更新了开课学期信息。
 - 自动化专业导论 (AUTO2001)：新建仓库并完成初始提交。
 - auto-metadata：上线完整的自动元数据（auto-metadata）处理流水线。
-- 仓库管理（repos-management）：CI 自动任务多次更新了仓库列表（自动同步）。
 - 批量课程信息更新：多门课程（如机器学习概论、自然语言处理、计算机视觉、软件工程、信息检索、计算机体系结构、形式语言与自动机等）进行了课程信息/元数据的统一更新。
 - 其他零散改动：若干仓库有格式修正、README/说明调整或小规模文件变动，属于琐碎维护性修改。
 
@@ -40,8 +39,6 @@ title: AUTO 周报 2025-11-28 - 2025-12-05
 - OliverWu515 在 [优化算法](https://github.com/HITSZ-OpenAuto/MATH4002) 中提交了信息：上线新课程
 
 ### 周一 (12.1)
-
-- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Merge pull request #28 from capoo-fan/patch-1
 
 - Capoo-King 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Update README.md
 
@@ -71,19 +68,13 @@ title: AUTO 周报 2025-11-28 - 2025-12-05
 
 - W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：新建电气选修课仓库
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
 - W. D. Gaster 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：新建自动化导论的仓库
 
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
-
 - W. D. Gaster 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：迁移 OpenCS 的计算机导论内容并做说明
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - W. D. Gaster 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：Initial commit
 
@@ -94,8 +85,6 @@ title: AUTO 周报 2025-11-28 - 2025-12-05
 - W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：将电路与电子学 I 课程从电路与电子学 II 中拆分出来独立仓库，并将 OpenCS 的电工与电子技术相关资料进行迁移。
 
 - W. D. Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改 24 级电路与电子学 II 的内容，将 I 和 III 内容独立
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：Initial commit
 
@@ -138,7 +127,5 @@ title: AUTO 周报 2025-11-28 - 2025-12-05
 - W. D. Gaster 在 [形式语言与自动机](https://github.com/HITSZ-OpenAuto/COMP3004) 中提交了信息：修改课程信息
 
 - W. D. Gaster 在 [计算机体系结构](https://github.com/HITSZ-OpenAuto/COMP3011) 中提交了信息：修改课程信息
-
-- GitHub Actions 在 [repos-management](https://github.com/HITSZ-OpenAuto/repos-management) 中提交了信息：ci: update repositories list [automated]
 
 - Jiao 在 [auto-metadata](https://github.com/HITSZ-OpenAuto/auto-metadata) 中提交了信息：feat: full auto-metadata pipeline
