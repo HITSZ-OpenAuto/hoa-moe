@@ -436,7 +436,6 @@ math: true
 {{< hoa-filetree/file name="自控实践 B 复习_Tintin" type="pdf" size="6.4 MB" date="2024/06/25" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5B%E5%A4%8D%E4%B9%A0_Tintin.pdf" >}}
 {{< hoa-filetree/file name="自控实践复习整理 byAb1g2he" type="pdf" size="3.4 MB" date="2024/07/16" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86byAb1g2he.pdf" >}}
 {{< /hoa-filetree/folder >}}
-{{< hoa-filetree/file name="readme" type="toml" size="15.7 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/readme.toml" >}}
 {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
 {{< hoa-filetree/folder name="课件 - 带笔记-psp" date="" state="closed" >}}
 {{< hoa-filetree/file name="1 绪论" type="pdf" size="716.7 KB" date="2025/06/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002B/raw/main/slides/%E8%AF%BE%E4%BB%B6-%E5%B8%A6%E7%AC%94%E8%AE%B0-psp/1%20%E7%BB%AA%E8%AE%BA.pdf" >}}

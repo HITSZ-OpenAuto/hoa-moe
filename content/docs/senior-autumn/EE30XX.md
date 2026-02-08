@@ -455,7 +455,6 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/EE30XX" repoURL="https://github.com/HITSZ-OpenAuto/EE30XX" >}}
-{{< hoa-filetree/file name="readme" type="toml" size="11.7 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/EE30XX/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与

@@ -78,7 +78,8 @@ class GitHubAPIClient:
             }
         }"""
 
-        # Exclude rules: files contaning these patterns; files without an extension
+        # Exclude rules: files containing these patterns; files without an extension;
+        # files with excluded extensions.
         exclude_patterns = [
             "README.md",
             ".gitkeep",
@@ -90,6 +91,9 @@ class GitHubAPIClient:
             ".gitignore",
             ".gitattributes",
         ]
+        exclude_extensions = {
+            "toml",
+        }
 
         organized_paths = {}
         for original_path, info in worktree_info.items():
@@ -113,6 +117,9 @@ class GitHubAPIClient:
             for component in path_components[:-1]:
                 current_dict = current_dict.setdefault(component, {})
             name, suffix = full_name.rsplit(".", 1)
+            if suffix.lower() in exclude_extensions:
+                continue  # Skip excluded file extensions (e.g. *.toml)
+
             icon = match_suffix_icon(suffix)
 
             current_dict[original_path] = [name, suffix, size, date, icon]

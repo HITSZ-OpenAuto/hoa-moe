@@ -183,7 +183,6 @@ math: true
 {{< hoa-filetree/file name="高等数学知识点总结" type="pdf" size="6.4 MB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.pdf" >}}
 {{< hoa-filetree/file name="高等数学（下册）易遗忘知识点_xyfJASON" type="pdf" size="504.6 KB" date="2025/02/09" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89%E6%98%93%E9%81%97%E5%BF%98%E7%9F%A5%E8%AF%86%E7%82%B9_xyfJASON.pdf" >}}
 {{< /hoa-filetree/folder >}}
-{{< hoa-filetree/file name="readme" type="toml" size="6.2 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MATH1015B/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
