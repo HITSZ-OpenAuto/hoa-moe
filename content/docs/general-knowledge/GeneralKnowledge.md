@@ -309,7 +309,6 @@ math: true
 {{< hoa-filetree/folder name="notes" date="" state="closed" >}}
 {{< hoa-filetree/file name="深圳校区首批文理通识核心课建设立项名单" type="xlsx" size="13.6 KB" date="2025/01/07" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/notes/%E6%B7%B1%E5%9C%B3%E6%A0%A1%E5%8C%BA%E9%A6%96%E6%89%B9%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86%E6%A0%B8%E5%BF%83%E8%AF%BE%E5%BB%BA%E8%AE%BE%E7%AB%8B%E9%A1%B9%E5%90%8D%E5%8D%95.xlsx" >}}
 {{< /hoa-filetree/folder >}}
-{{< hoa-filetree/file name="readme" type="toml" size="17.5 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/GeneralKnowledge/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与

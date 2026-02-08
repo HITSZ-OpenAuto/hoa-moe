@@ -242,7 +242,6 @@ math: true
 {{< hoa-filetree/file name="2024-复习_Abigzhe" type="pdf" size="18.1 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2024-%E5%A4%8D%E4%B9%A0_Abigzhe.pdf" >}}
 {{< hoa-filetree/file name="2025-自控理论 B 笔记_November_in_North" type="pdf" size="55.6 MB" date="2025/06/28" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2025-%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAB%E7%AC%94%E8%AE%B0_November_in_North.pdf" >}}
 {{< /hoa-filetree/folder >}}
-{{< hoa-filetree/file name="readme" type="toml" size="3.5 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与

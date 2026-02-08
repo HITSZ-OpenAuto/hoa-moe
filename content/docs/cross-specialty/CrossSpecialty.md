@@ -679,7 +679,6 @@ math: true
 {{< hoa-filetree/file name="量子力学 2025 秋期末" type="pdf" size="87.9 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025%E7%A7%8B%E6%9C%9F%E6%9C%AB.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/folder >}}
-{{< hoa-filetree/file name="readme" type="toml" size="31.5 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与

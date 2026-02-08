@@ -403,7 +403,6 @@ math: true
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/file name="自控实践_by_Spar Océsel_2023" type="apkg" size="2.3 MB" date="2024/01/06" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/notes/%E8%87%AA%E6%8E%A7%E5%AE%9E%E8%B7%B5_by_Spar%20Oc%C3%A9sel_2023.apkg" >}}
 {{< /hoa-filetree/folder >}}
-{{< hoa-filetree/file name="readme" type="toml" size="10.6 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/readme.toml" >}}
 {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
 {{< hoa-filetree/folder name="24-psp-带笔记" date="" state="closed" >}}
 {{< hoa-filetree/file name="0 绪论与磁路" type="pdf" size="2.2 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3002A/raw/main/slides/24-psp-%E5%B8%A6%E7%AC%94%E8%AE%B0/0%20%E7%BB%AA%E8%AE%BA%E4%B8%8E%E7%A3%81%E8%B7%AF.pdf" >}}
