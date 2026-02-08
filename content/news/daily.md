@@ -12,15 +12,15 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (2.8)
+
+- Pengjie Wang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：优化表现形式 (#25)
+
 ## 待解决的 Issues
 
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
 
-### [优化表现形式](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/25)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-02-07 09:35:25
-- **作者**: wpj9362
+暂无待合并的 Pull Requests
 
