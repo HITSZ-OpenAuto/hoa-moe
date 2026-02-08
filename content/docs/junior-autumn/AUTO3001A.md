@@ -10,17 +10,12 @@ math: true
 
 <div class="hoa-badge">
 
-![%E8%80%83%E8%AF%95%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
-![%E5%AD%A6%E5%88%86 4.5](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4.5-moccasin)
-![%E5%AD%A6%E5%88%86 3.0（23%E7%BA%A7%E5%A4%A7%E4%BA%8C%E6%98%A5）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86%20（23%E7%BA%A7%E5%A4%A7%E4%BA%8C%E6%98%A5）-3.0-moccasin)
-![%E5%AD%A6%E5%88%86 2.0（23%E7%BA%A7%E5%A4%A7%E4%B8%89%E7%A7%8B）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86%20（23%E7%BA%A7%E5%A4%A7%E4%B8%89%E7%A7%8B）-2.0-moccasin)
-
 ![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A 13%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-13%25-wheat)
-![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0 5%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-5%25-wheat)
-![%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C 4%](https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C-4%25-wheat)
-![%E7%A1%AC%E4%BB%B6%E5%AE%9E%E9%AA%8C 8%](https://img.shields.io/badge/%E7%A1%AC%E4%BB%B6%E5%AE%9E%E9%AA%8C-8%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95 70%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
+![%E4%BD%9C%E4%B8%9A13%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-13%25-wheat)
+![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B05%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-5%25-wheat)
+![%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C4%](https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C-4%25-wheat)
+![%E7%A1%AC%E4%BB%B6%E5%AE%9E%E9%AA%8C8%](https://img.shields.io/badge/%E7%A1%AC%E4%BB%B6%E5%AE%9E%E9%AA%8C-8%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9570%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
 
 </div>
 
@@ -32,6 +27,22 @@ math: true
 |自动控制理论 | 电气工程及其自动化 | 大二春|3.0|线性连续系统数学模型、线性连续系统时域分析、根轨迹分析、频域分析与校正、非线性系统分析|
 |系统与控制 | 自动化与电气工程 | 大二春|3.0|线性连续系统数学模型、线性连续系统时域分析、根轨迹分析、频域稳定性分析|
 |**新**自动控制理论 A|23 级自动化 | 大三秋|2.0|线性离散系统建模与时域分析、状态空间表达式建模与时域分析、Lyapunov 稳定性分析|
+
+## 授课教师
+
+- 张宏伟
+  - 负责课程的前半部分。
+  - 上课和聊天一样，会将知识引申到课外的领域中。
+  - 考勤频率低。
+  - 上课以吹水为主，对于想快速掌握本课程知识而不想浪费时间的同学，不建议听课。
+  - 思维发散，但是例题有给比较充分时间上课完成，且对例题比较好的讲解。
+    > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01，[Oliver Wu](https://github.com/OliverWu515)，2025-02，[Gaster](https://github.com/WDGaster703)，2025-06
+- 张颖
+  - 负责课程的后半部分。
+  - 教学节奏较慢，有一种回到中学课堂的感觉。
+  - 几乎每节课都会考勤点名，一次点名一个班。
+  - 上课思维较为连贯，但是 PPT 有大量的例题没有给时间完成。
+    > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01，[Gaster](https://github.com/WDGaster703)，2025-06
 
 ## 教材和参考书
 
@@ -57,30 +68,8 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 
 张老师还推荐了王天威（B 站 [DR_CAN](https://space.bilibili.com/230105574)）的[《控制之美（卷 1）》](http://www.tup.tsinghua.edu.cn/booksCenter/book_10856501.html)，作为科普也很不错。
 
-## 授课教师
+## 课程内容
 
-- 张宏伟
-  - 负责前半部分的教学
-  - 上课和聊天一样，会将知识引申到课外的领域中
-  - 考勤频率低
-- 张颖
-  - 负责后半部分的教学
-  - 教学节奏较慢，有一种回到中学课堂的感觉
-  - 几乎每节课都会考勤点名，一次点名一个班
-
-> 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2025.1
-
-张宏伟老师上课以吹水为主，对于想快速掌握本课程知识而不想浪费时间的同学，不建议听课。
-
-> 文 / [Oliver Wu](https://github.com/OliverWu515), 2025.2
-
-张宏伟老师上课思维发散，但是例题有给比较充分时间上课完成，且对例题比较好的讲解；
-
-张颖老师上课思维较为连贯，但是上课速度缓慢，PPT 有大量的例题没有给时间完成。
-
-> 文 / [Gaster](https://github.com/WDGaster703), 2025.6
-
-## 关于授课内容
 > 以下为 4.5 学分的授课内容。
 
 {{% details title="理论授课（64 学时）" closed="true" %}}
@@ -150,32 +139,26 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 - 上机二：线性系统的根轨迹和频域分析
 {{% /details %}}
 
-> 文 / [Gaster](https://github.com/WDGaster703/)，2025.7
-
-## 关于作业
-
 - 自控理论的作业布置频率较高，基本上每周一次
 - 张宏伟老师的作业题目有一部分是原创的，颇具挑战性
 - 张颖老师的作业基本来自教材课后题，难度适中
 
-> 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2025.1
+> 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01，[Gaster](https://github.com/WDGaster703)，2025-06
 
 ## 关于考试
 
+24 年考试情况：
 2024 年的期末考试题目明显出得很难，但出分时大家发现比想象的高。
 因此深圳校区的考试难度我暂时得不出结论。
 
 对考试分数有要求的话，建议找考研题来做。
 
-> 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2025.1
+想多练练手就刷本校考研题。因为我们学校的考试风格与考研题接近。
 
-同上，想多练练手就刷本校考研题。因为我们学校的考试风格与考研题接近。
-
-> 文 / [Oliver Wu](https://github.com/OliverWu515), 2025.2
-
+25 年考试情况：
 看来 24 秋的期末像是一次意外，25 春《系统与控制》的考试（线性连续部分）又回归了往年的难度，难度低于考研题，由于知识点减少，考察的也比较细。
 
-> 文 / [Gaster](https://github.com/WDGaster703), 2025.6
+> 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01，[Oliver Wu](https://github.com/OliverWu515)，2025-02，[Gaster](https://github.com/WDGaster703)，2025-06
 
 ## 学习建议
 
@@ -190,13 +173,13 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 
 如果在备考时感觉某类题型弄不明白，直接在网上搜索基本上都有结果。
 
-> 文 / [Maxwell Jay](https://github.com/MaxwellJay256), 2025.1
+> 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01
 
 本门课是系统建模与分析部分，重点是时域分析，关注系统的快准稳三大要求和性能指标。有一些思路是在电路分析中已经用过的分析方法，如时域阶跃响应和频率特性。根轨迹重点掌握绘制方法，频域响应掌握 Nyquist 图和 Bode 图的绘制以及奈奎斯特判据。本门课关注**时域 - 频域 - 复频域**的联系和转化，关注系统复频域模型和实际响应之间的关系。
 
 如果想更深入学习控制理论，可以参考[Gaster 的控制理论笔记](https://github.com/WDGaster703/ControlTheory)和[SSC 的电机驱动学习笔记](https://github.com/SSC202/Engine/tree/V3.0/Note/)。
 
-> 文 / [Gaster](https://github.com/WDGaster703)，2025.6
+> 文 / [Gaster](https://github.com/WDGaster703)，2025-06
 
 ## 资料下载
 
