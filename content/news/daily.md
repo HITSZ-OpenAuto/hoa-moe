@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周日 (2.8)
 
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：删除导致格式错误的半角逗号
+
+- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：提交遗漏的 toml 文件
+
 - Pengjie Wang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：优化表现形式 (#25)
 
 ## 待解决的 Issues
