@@ -96,6 +96,7 @@ math: true
 {{< hoa-filetree/folder name="policies" date="" state="closed" >}}
 {{< hoa-filetree/file name="深圳校区 2023 级本科生大学英语课程免修免听方案" type="docx" size="230.8 KB" date="2025/02/15" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/policies/%E6%B7%B1%E5%9C%B3%E6%A0%A1%E5%8C%BA2023%E7%BA%A7%E6%9C%AC%E7%A7%91%E7%94%9F%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%BE%E7%A8%8B%E5%85%8D%E4%BF%AE%E5%85%8D%E5%90%AC%E6%96%B9%E6%A1%88.docx" >}}
 {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="readme" type="toml" size="4.6 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/LANG100X/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与

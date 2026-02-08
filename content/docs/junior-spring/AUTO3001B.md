@@ -10,43 +10,45 @@ math: true
 
 <div class="hoa-badge">
 
-![%E8%80%83%E8%AF%95%E8%AF%BE](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
-![%E5%AD%A6%E5%88%86（2025 %E6%98%A5%E4%B9%8B%E5%89%8D）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E4%B9%8B%E5%89%8D）-5-moccasin)
-![%E5%AD%A6%E5%88%86（2025 %E6%98%A5%E5%BC%80%E5%A7%8B）](https://img.shields.io/badge/%E5%AD%A6%E5%88%86（2025%E6%98%A5%E5%BC%80%E5%A7%8B）-4.5-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7&22%E7%BA%A7)](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90(21%E7%BA%A7&22%E7%BA%A7)-gold)
-![%E4%BD%9C%E4%B8%9A 12%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-12%25-wheat)
-![%E5%87%BA%E5%8B%A4 5%](https://img.shields.io/badge/%E5%87%BA%E5%8B%A4-5%25-wheat)
-![%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C 5%](https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C-5%25-wheat)
-![%E5%AE%9E%E9%AA%8C 8%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-8%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95 70%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
-
+![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![%E4%BD%9C%E4%B8%9A12%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-12%25-wheat)
+![%E5%87%BA%E5%8B%A45%](https://img.shields.io/badge/%E5%87%BA%E5%8B%A4-5%25-wheat)
+![%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C5%](https://img.shields.io/badge/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C-5%25-wheat)
+![%E5%AE%9E%E9%AA%8C8%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-8%25-wheat)
+![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9570%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
 
 </div>
 
+自动控制理论 A 主要学习控制系统的分析（给控制系统分析性能），而自动控制理论 B 主要学习控制系统的综合（给性能指标设计控制器）。
+
 ## 授课教师
 
-- 教师 1：吴爱国
+- 吴爱国
+  - 授课认真，讲解细致，按步骤演算各校正过程，生怕学生听不懂。上课给人的感觉是信手拈来 ~~（不知道成语用对了没有。不过他讲的这部分确实也不算难）~~。
+  - 频率校正部分的思路较为新颖，值得一听。
+  - 自编讲义并印发给学生（每班 2 本），不过其中有较多错误，课件中修正了一小部分；课件中的图片大多是矢量图，非常清晰美观。
+  - 仅看课件不一定看得懂（有些页面只有一张图），需要结合听课来理解。
+  - 注:2025 年没有发放纸质讲义。
+    > 文 / [Oliver Wu](https://www.github.com/OliverWu515)，2024-06，[Maxwell Jay](https://www.github.com/MaxwellJay256)，2025-08
+- 许鋆
+  - 课件来源比较多，主要参考吴爱国老师的讲义。对于讲义上的错误和含糊之处，做了很仔细的修订。讲解较为清晰。板书美观但是比较小，想看清的话建议坐前排。
+  - 考勤遵照吴老师意见，2023 年春季有较高强度考勤，2024 年春季则没有。
+    > 文 / [Oliver Wu](https://www.github.com/OliverWu515)，2024-11
 
-授课认真，讲解细致，按步骤演算各校正过程，生怕学生听不懂。上课给人的感觉是信手拈来 ~~（不知道成语用对了没有。不过他讲的这部分确实也不算难）~~。
-频率校正部分的思路较为新颖，值得一听。
+## 学习建议
 
-自编讲义并印发给学生（每班 2 本），不过其中有较多错误，课件中修正了一小部分；课件中的图片大多是矢量图，非常清晰美观。
+自动化控制理论 A 主要学习控制系统的分析（给控制系统分析性能），而自动控制理论 B 主要学习控制系统的综合（给性能指标设计控制器）。
 
-仅看课件不一定看得懂（有些页面只有一张图），需要结合听课来理解。
+自控 B 的特点有 4 个：
 
-> 文 / [Oliver Wu](https://www.github.com/OliverWu515), 2024.6
+1. 结果不唯一
+2. 存在近似处理
+3. 使用经验公式
+4. 设计过程具有主观性
 
-2025 年没有发放纸质讲义。
+频域校正、离散校正、能控能观分解、状态空间综合、非线性系统描述函数法，这些都有非常标准的公式和流程，多做几道题就能掌握，尤其是作业题很有代表性。
 
-> 文 / [Maxwell Jay](https://www.github.com/MaxwellJay256), 2025.8
-
-- 教师 2：许鋆
-
-课件来源比较多，主要参考吴爱国老师的讲义。对于讲义上的错误和含糊之处，做了很仔细的修订。讲解较为清晰。板书美观但是比较小，想看清的话建议坐前排。
-考勤遵照吴老师意见，2023 年春季有较高强度考勤，2024 年春季则没有。
-
-> 文 / [Oliver Wu](https://www.github.com/OliverWu515), 2024.11
+> 文 / [Maxwell Jay](https://www.github.com/MaxwellJay256)，2025-08
 
 ## 关于考试
 
@@ -56,25 +58,20 @@ math: true
 - 2025 年考得很简单，没有任何花样。因此高分段人数也很密集，97 分排名 16 / 130。
 - 老师说不考的内容真的不考
 
-> 文 / [Maxwell Jay](https://www.github.com/MaxwellJay256), 2025.8
+> 文 / [Oliver Wu](https://www.github.com/OliverWu515)，2024-06
+
+## 关于实验
+
+实验占比约 8%（README 未提供更多细节）。
+
+> 文 / [Oliver Wu](https://www.github.com/OliverWu515)，2024-06
 
 ## 学习建议
 
 - 自动化专业看家本领，重要性不言而喻。不过其实内容只是稍显繁琐，并不复杂。
 - 想读研的同学，可以在学状态空间有关知识的时候，注意打好线性代数基础，涉猎一些《线性系统理论》方面的知识。频域法的部分可能对于考研的同学更为有用。
-> 文 / [Oliver Wu](https://www.github.com/OliverWu515), 2024.11
 
-自动化控制理论 A 主要学习控制系统的分析（给控制系统分析性能），而自动控制理论 B 主要学习控制系统的综合（给性能指标设计控制器）。
-
-自控 B 的特点有 4 个：
-1. 结果不唯一
-2. 存在近似处理
-3. 使用经验公式
-4. 设计过程具有主观性
-
-频域校正、离散校正、能控能观分解、状态空间综合、非线性系统描述函数法，这些都有非常标准的公式和流程，多做几道题就能掌握，尤其是作业题很有代表性。
-
-> 文 / [Maxwell Jay](https://www.github.com/MaxwellJay256), 2025.8
+> 文 / [Oliver Wu](https://www.github.com/OliverWu515)，2024-11
 
 ## 资料下载
 
@@ -245,6 +242,7 @@ math: true
 {{< hoa-filetree/file name="2024-复习_Abigzhe" type="pdf" size="18.1 MB" date="2025/06/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2024-%E5%A4%8D%E4%B9%A0_Abigzhe.pdf" >}}
 {{< hoa-filetree/file name="2025-自控理论 B 笔记_November_in_North" type="pdf" size="55.6 MB" date="2025/06/28" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/notes/2025-%E8%87%AA%E6%8E%A7%E7%90%86%E8%AE%BAB%E7%AC%94%E8%AE%B0_November_in_North.pdf" >}}
 {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="readme" type="toml" size="3.5 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001B/raw/main/readme.toml" >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与

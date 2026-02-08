@@ -431,6 +431,7 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 {{< hoa-filetree/file name="2025 春系统与控制笔记-Gaster" type="pdf" size="2.8 MB" date="2025/07/17" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/2025%20%E6%98%A5%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%8E%A7%E5%88%B6%E7%AC%94%E8%AE%B0-Gaster.pdf" >}}
 {{< hoa-filetree/file name="2025 自控 A 笔记" type="pdf" size="4.5 MB" date="2025/11/24" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/notes/2025%E8%87%AA%E6%8E%A7A%E7%AC%94%E8%AE%B0.pdf" >}}
 {{< /hoa-filetree/folder >}}
+{{< hoa-filetree/file name="readme" type="toml" size="9.8 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/readme.toml" >}}
 {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
 {{< hoa-filetree/file name="2023 课件合订本" type="pdf" size="134 bytes" date="2024/10/30" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/AUTO3001A/raw/main/slides/2023%E8%AF%BE%E4%BB%B6%E5%90%88%E8%AE%A2%E6%9C%AC.pdf" >}}
 {{< /hoa-filetree/folder >}}

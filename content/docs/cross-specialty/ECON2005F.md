@@ -139,6 +139,7 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/ECON2005F" repoURL="https://github.com/HITSZ-OpenAuto/ECON2005F" >}}
+{{< hoa-filetree/file name="readme" type="toml" size="9.8 KB" date="2026/02/08" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/readme.toml" >}}
 {{< hoa-filetree/folder name="slides" date="" state="closed" >}}
 {{< hoa-filetree/folder name="宏观经济学 zhouyu" date="" state="closed" >}}
 {{< hoa-filetree/file name="第 10 章 - 开放经济的宏观经济理论" type="pptx" size="667.4 KB" date="2026/02/05" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ECON2005F/raw/main/slides/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%20zhouyu/%E7%AC%AC10%E7%AB%A0-%E5%BC%80%E6%94%BE%E7%BB%8F%E6%B5%8E%E7%9A%84%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E7%90%86%E8%AE%BA.pptx" >}}
