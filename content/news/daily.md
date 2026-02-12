@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (2.12)
 
+- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：删除多加的内容
+
 - Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：删除无用信息
 
 ## 待解决的 Issues
