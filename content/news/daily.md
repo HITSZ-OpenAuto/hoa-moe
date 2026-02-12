@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-02-09'
+date: '2026-02-12'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,13 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (2.8)
+### 周四 (2.12)
 
-- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：删除导致格式错误的半角逗号
-
-- Jiao Ziang 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：提交遗漏的 toml 文件
-
-- Pengjie Wang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：优化表现形式 (#25)
+- Jiao Ziang 在 [自动化专业导论](https://github.com/HITSZ-OpenAuto/AUTO2001) 中提交了信息：删除无用信息
 
 ## 待解决的 Issues
 
