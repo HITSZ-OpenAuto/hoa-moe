@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 2 月 8 日" author="Pengjie Wang" message="优化表现形式 (#25)" >}}
+{{< update-info update_time="2026 年 2 月 12 日" author="Jiao Ziang" message="删除多加的内容" >}}
 
 自 23 级起，跨专业发展课程学分从创新学分 14 分中独立出来，成为单独的 10 学分的跨专业课程学分要求。
 跨专业选修课程体系的课程都是非自己本专业的其他专业开设的课程。跨专业课程大体有两类：一类是其他专业的专业课改造而来，如经济学原理；另一类是通识类课程，如普通天文学。
@@ -189,9 +189,6 @@ math: true
 </div>
 
 ### 经济学原理 - 课程概况
-
-【学分】: 4
-【成绩构成】: 考勤 10% | 作业 15% | 生活中的经济学 15% | 期中考试 30% | 期末考试 30%
 
 重量级课程，慎选！
 首先，本门课程上课在周六周日的一、二节，而且持续一学期，这意味着你要上一学期的周末早八。
