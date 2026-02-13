@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (2.14)
+
+- Peifeng Lai 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加理论力学（4 学分）跨专业课课程介绍 (#27)
+
 ### 周四 (2.12)
 
 - Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：删除多加的内容
@@ -23,18 +27,6 @@ title: AUTO 更新速递
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
-
-### [添加跨专业课理论力学的课程信息](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/27)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-02-11 21:42:40
-- **作者**: lpf123321
-
-### [添加理论力学（4 学分）跨专业课课程介绍](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/26)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-02-10 14:08:00
-- **作者**: lpf123321
 
 ### [完善课程信息](https://github.com/HITSZ-OpenAuto/COMP2030/pull/14)
 
