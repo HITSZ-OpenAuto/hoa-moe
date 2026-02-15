@@ -64,7 +64,3 @@ title: AUTO 周报 2026-01-30 - 2026-02-06
 ### 周六 (1.31)
 
 - fruly 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：docs: add course badges and description
-
-# <<<<<<< HEAD
-
-> > > > > > > 435b4152 (chore(news): re-clean weekly history (drop readme.toml commits))
