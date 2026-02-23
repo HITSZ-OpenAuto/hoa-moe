@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-02-14'
+date: '2026-02-23'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周六 (2.14)
+### 周一 (2.23)
 
-- Peifeng Lai 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加理论力学（4 学分）跨专业课课程介绍 (#27)
+- Jiao Ziang 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：维护格式
 
 ## 待解决的 Issues
 
