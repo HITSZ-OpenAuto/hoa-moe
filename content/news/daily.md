@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-02-23'
+date: '2026-02-24'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -45,4 +45,10 @@ title: AUTO 更新速递
 - **仓库**: PE100X
 - **创建于**: 2026-02-06 22:08:12
 - **作者**: wpj9362
+
+### [上传 2025 秋马原思维导图](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/32)
+
+- **仓库**: GEIP1011
+- **创建于**: 2025-12-31 15:38:32
+- **作者**: Jiupai999
 
