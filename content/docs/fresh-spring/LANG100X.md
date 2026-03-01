@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/LANG100X/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="Merge pull request #20 from HITSZ-OpenAuto/ci/auto-generate-toml-1768252069" >}}
+{{< update-info update_time="2026 年 3 月 2 日" author="吹向无叶 | Leaflessward" message="更新关贝贝老师的简述和评价 (#25)" >}}
 
 <div class="hoa-badge">
 
@@ -53,6 +53,11 @@ math: true
   - 课后作业非常少，且会开通补交通道。
   - 老师人非常好，会带着大家织香囊~~端午节特色~~。
     > 文 / [Cecilia](https://github.com/mircecilia)，2025-06
+- 关贝贝
+  - 上课有固定座位，无点名，会顺序点人回答问题
+  - 课后作业非常少，偶有课上作业
+  - 老师人很好，基本 0 差评，最后一节课请大家喝了奶茶
+    > 文 / [l3](https://github.com/ll3me)，2026-03
 
 ## 在线资源
 
