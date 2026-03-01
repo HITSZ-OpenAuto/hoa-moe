@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-02-24'
+date: '2026-03-01'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,15 +12,21 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (2.23)
+### 周一 (3.2)
 
-- Jiao Ziang 在 [普通天文学](https://github.com/HITSZ-OpenAuto/SPST1004) 中提交了信息：维护格式
+- 吹向无叶 | Leaflessward 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：更新关贝贝老师的简述和评价 (#25)
 
 ## 待解决的 Issues
 
 暂无待解决的 Issues
 
 ## 待合并的 Pull Requests
+
+### [概率论笔记：二维随机变量的分布](https://github.com/HITSZ-OpenAuto/MATH1004/pull/40)
+
+- **仓库**: MATH1004
+- **创建于**: 2026-03-01 13:03:08
+- **作者**: Xl-ui
 
 ### [完善课程信息](https://github.com/HITSZ-OpenAuto/COMP2030/pull/14)
 
