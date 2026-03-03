@@ -50,7 +50,7 @@ weight: 5
    }
    ```
 
-3. 在 `themes/hextra` 目录下运行 `npm run watch`
+3. 在 `themes/hextra` 目录下运行 `bun run watch`
 
 做完以上步骤后，我们在 `layouts` 下的 html 中写的 TailwindCSS 类才能被编译到 `assets/css/compiled/main.css` 中，从而被完整导入进 `head-css.html`。
 

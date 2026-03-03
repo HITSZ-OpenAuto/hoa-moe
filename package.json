@@ -3,11 +3,11 @@
   "version": "1.2.0",
   "description": "HITSZ OpenAuto Website",
   "scripts": {
-    "dev": "concurrently 'npm run serve' 'npm run watch:css'",
+    "dev": "concurrently 'bun run serve' 'bun run watch:css'",
     "serve": "hugo server --disableFastRender -D -F",
     "build:css": "postcss --config postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css",
     "watch:css": "postcss --config postcss.config.mjs --env production assets/css/styles.css -o assets/css/compiled/main.css --watch",
-    "build": "npm run build:css && hugo --gc --minify",
+    "build": "bun run build:css && hugo --gc --minify",
     "format": "prettier --write . && autocorrect --fix content/",
     "lint": "eslint '**/*.md'"
   },

@@ -35,14 +35,14 @@ hugo server
 
 在终端显示的 URL 访问你的网站。按 `Ctrl + C` 停止 Hugo 开发服务器。
 
-### （可选）使用 NPM 搭建开发环境
+### （可选）使用 bun 搭建开发环境
 
 ```bash
-npm install
-npm run dev # 运行开发服务器并查看自定义 Tailwind CSS 的更改
-npm run serve # 仅运行开发服务器
-npm run build # 编译 CSS 并生成静态页面
-npm run build:css # 仅编译 CSS
+bun install
+bun run dev # 运行开发服务器并查看自定义 Tailwind CSS 的更改
+bun run serve # 仅运行开发服务器
+bun run build # 编译 CSS 并生成静态页面
+bun run build:css # 仅编译 CSS
 ```
 
 ## 如何贡献

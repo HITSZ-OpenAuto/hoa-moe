@@ -51,10 +51,10 @@ View your site at the URL displayed in your terminal. Press `Ctrl + C` to stop H
 
 ```bash
 npm install
-npm run dev # run the development server and watch for custom Tailwind CSS changes
-npm run serve # simply run the development server
-npm run build # build CSS and generate static pages
-npm run build:css # build only CSS
+bun run dev # run the development server and watch for custom Tailwind CSS changes
+bun run serve # simply run the development server
+bun run build # build CSS and generate static pages
+bun run build:css # build only CSS
 ```
 
 ## Contributing
