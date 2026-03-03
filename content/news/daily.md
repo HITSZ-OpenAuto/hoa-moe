@@ -22,6 +22,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [上传了自制的概率论模拟题和解析](https://github.com/HITSZ-OpenAuto/MATH1004/pull/41)
+
+- **仓库**: MATH1004
+- **创建于**: 2026-03-02 14:00:51
+- **作者**: wpj9362
+
 ### [概率论笔记：二维随机变量的分布](https://github.com/HITSZ-OpenAuto/MATH1004/pull/40)
 
 - **仓库**: MATH1004
