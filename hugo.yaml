@@ -13,9 +13,8 @@ services:
     ID: G-QZP1ZZF9NQ
 
 outputs:
-  home: [HTML]
-  page: [HTML]
-  section: [HTML, RSS]
+  page: [html, markdown]
+  section: [html, rss, markdown]
 
 defaultContentLanguage: zh-cn
 languages:
@@ -127,9 +126,9 @@ params:
   description: 由 HITSZ OpenAuto 维护，为 HITSZ 学子提供课程攻略共享服务
 
   banner:
-    key: survey-20251203
+    key: announcement-20260303
     message: |
-      🎉 HOA 第二期社区调查来啦！🎉 请帮助我们更好地维护项目和社区：[填写问卷](https://forms.office.com/r/0ZkXCxGmXM)
+      HOA 新版本测试中，欢迎访问并给我们[反馈](https://github.com/HITSZ-OpenAuto/hoa-fuma/issues)：<https://v3.hoa.moe>
   math:
     engine: mathjax
   navbar:
@@ -146,6 +145,12 @@ params:
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: wide
+    contextMenu:
+      enable: true
+      # links:
+      #   - name: "Ask AI"
+      #     url: "https://example.com?content={markdown_url}"
+      #     icon: "sparkles"
 
   theme:
     # light | dark | system
