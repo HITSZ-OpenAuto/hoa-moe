@@ -128,7 +128,7 @@ params:
   banner:
     key: announcement-20260303
     message: |
-      HOA 新版本测试中，欢迎访问并给我们[反馈](https://github.com/HITSZ-OpenAuto/hoa-fuma/issues)：<https://v3.hoa.moe>
+      HOA 新版本测试中！🎉 欢迎访问并给我们[反馈](https://github.com/HITSZ-OpenAuto/hoa-fuma/issues)：<https://v3.hoa.moe>
   math:
     engine: mathjax
   navbar:
