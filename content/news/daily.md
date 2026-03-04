@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-02'
+date: '2026-03-04'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -11,10 +11,6 @@ title: AUTO 更新速递
 ---
 
 ## 更新内容
-
-### 周一 (3.2)
-
-- 吹向无叶 | Leaflessward 在 [大学英语](https://github.com/HITSZ-OpenAuto/LANG100X) 中提交了信息：更新关贝贝老师的简述和评价 (#25)
 
 ## 待解决的 Issues
 
