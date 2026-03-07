@@ -7,6 +7,8 @@ math: true
 ---
 
 {{< update-info update_time="2026 年 2 月 5 日" author="Fun10165" message="更正老师名字中的错别字，增加微积分 B 先修内容 (#27)" >}}
+<!-- TOML-META: repo_type="normal" -->
+<!-- TOML-BADGES: source="grades_summary" -->
 
 <div class="hoa-badge">
 
@@ -22,6 +24,7 @@ math: true
 ## 授课教师
 
 - 余君武
+  <!-- TOML-ITEM: id="review-余君武 -1" -->
   - 授课风格：
   - 板书为主，幻灯片为辅（更像他的讲义），首先板书细致讲本节课内容和重点，再念一遍 ppt，还会逐题板书讲幻灯片例题
   - 偶尔吹水，但内容也与课程有关，基本是以生动的例子来类比定理，给你直觉上的理解
@@ -37,6 +40,7 @@ math: true
   - 不懂可以直接问，非常负责任
     > 文 / [IcyDesert](https://github.com/IcyDesert)，2024-03
 - 严质彬
+  <!-- TOML-ITEM: id="review-严质彬 -1" -->
   - 授课风格：
   - 纯板书，板书风格比较潦草，随心而动。板书和课本并不完全一致（主要是顺序上的）。
   - 听课建议：
@@ -45,8 +49,10 @@ math: true
   - 严老师的习题课并不局限于习题本身，而是跳出习题从更高的思维角度解读题目，对微积分的理解能让你超越课本的。
     > 文 / [Gaster](https://github.com/WDGaster)，2025-01
 - 包革军
+  <!-- TOML-ITEM: id="review-包革军 -1" -->
   - “当他在期末最后一节课上向到场的所有学生鞠躬致谢时，我便知道他是我在大一遇到的最有哈工大人气质的教授。”
     > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)
+  <!-- TOML-ITEM: id="review-包革军 -2" -->
   - 授课风格：
   - 完全不用幻灯片，纯板书，而且板书非常有条理，把他的板书全部抄下来就是一份可读性很好的笔记了。
   - 偶尔会点名。有学生觉得他讲得太慢，但事实上这位老先生总能在最后一刻讲完所有要讲的东西。
@@ -57,12 +63,18 @@ math: true
     > 文 / [psp_dada](https://github.com/pspdada)，2024-07
 
 ## 教材
+<!-- TOML-SECTION: title="教材" -->
+
+<!-- TOML-ITEM: id="item-教材 -1" -->
 
 - **高等数学下册**（同济大学数学系 / 高等教育出版社 / 7 版 / textbook）
 - **大学数学。工科数学分析下册**（哈尔滨工业大学数学学院 / 高等教育出版社 / 6 版 / textbook）
 - **工科数学分析学习指导与习题解答下册**（哈尔滨工业大学数学系分析研究室 / 高等教育出版社 / textbook）
 
 ## 关于考试
+<!-- TOML-SECTION: title="关于考试" -->
+
+<!-- TOML-ITEM: id="item-关于考试 -1" -->
 
 考试难度：
 
@@ -76,21 +88,32 @@ math: true
 > 文 / [IcyDesert](https://github.com/IcyDesert)，2024-07
 
 ## 学习建议
+<!-- TOML-SECTION: title="学习建议" -->
+
+<!-- TOML-ITEM: id="item-学习建议 -1" -->
 
 关于老师：
 看了上面关于两位老师的评价我觉得特别合适，他们都是非常认真负责的老师，都是可以信赖可以跟着走完一整门课的老师。
 
 > 文 / [psp_dada](https://github.com/pspdada)，2024-07
 
+<!-- TOML-ITEM: id="item-学习建议 -2" -->
+
 作业按章提交，题量较多，但时间也比较充足，建议每上完一次课就按时复习并完成相应作业题，不要等到 ddl 再写，会来不及，而且及时写作业可以巩固当前刚学习的新知识。
 
 > 文 / [Wei He](https://github.com/hewei2001)，2020-01
 
 ## 相关链接
+<!-- TOML-SECTION: title="相关链接" -->
+
+<!-- TOML-ITEM: id="item-相关链接 -1" -->
 
 - 由于 微积分 B 和 微积分 A 的学习是一脉贯通的，因此可以移步 [微积分 A](https://hoa.moe/docs/fresh-autumn/math1015a/) 仓库观看详细的学习指导。
 
 ## 先修课程与免修
+<!-- TOML-SECTION: title="先修课程与免修" -->
+
+<!-- TOML-ITEM: id="item-先修课程与免修 -1" -->
 
 除非正在备战大学生数学竞赛非数 A 类，否则不建议备考先修考试。
 微积分 B 的先修考试难度自 25 春开始大幅提升，参加考试的 24 级学生中无人获得 80 分以上。且按照微积分 A 先修考试难度逐年上升的趋势，微积分 B 的先修考试难度应当也会继续上升。

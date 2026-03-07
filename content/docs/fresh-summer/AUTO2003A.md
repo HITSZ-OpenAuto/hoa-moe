@@ -7,6 +7,7 @@ math: true
 ---
 
 {{< update-info update_time="2026 年 2 月 6 日" author="Jiao Ziang" message="Merge pull request #18 from HITSZ-OpenAuto/ci/add-root-readme-toml" >}}
+<!-- TOML-META: repo_type="normal" -->
 
 收集 HITSZ 中有意思的大一立项项目：
 

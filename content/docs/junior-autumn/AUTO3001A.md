@@ -7,6 +7,8 @@ math: true
 ---
 
 {{< update-info update_time="2026 年 1 月 13 日" author="Jiao Ziang" message="增加新 toml 并且修改错误链接" >}}
+<!-- TOML-META: repo_type="normal" -->
+<!-- TOML-BADGES: source="grades_summary" -->
 
 <div class="hoa-badge">
 
@@ -31,6 +33,7 @@ math: true
 ## 授课教师
 
 - 张宏伟
+  <!-- TOML-ITEM: id="review-张宏伟 -1" author_type="list" -->
   - 负责课程的前半部分。
   - 上课和聊天一样，会将知识引申到课外的领域中。
   - 考勤频率低。
@@ -38,6 +41,7 @@ math: true
   - 思维发散，但是例题有给比较充分时间上课完成，且对例题比较好的讲解。
     > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01，[Oliver Wu](https://github.com/OliverWu515)，2025-02，[Gaster](https://github.com/WDGaster703)，2025-06
 - 张颖
+  <!-- TOML-ITEM: id="review-张颖 -1" author_type="list" -->
   - 负责课程的后半部分。
   - 教学节奏较慢，有一种回到中学课堂的感觉。
   - 几乎每节课都会考勤点名，一次点名一个班。
@@ -45,6 +49,9 @@ math: true
     > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01，[Gaster](https://github.com/WDGaster703)，2025-06
 
 ## 教材和参考书
+<!-- TOML-SECTION: title="教材和参考书" -->
+
+<!-- TOML-ITEM: id="item-教材和参考书 -1" -->
 
 自动控制理论是控制科学与工程的考研科目之一，哈工大指定的 801 考试参考书目为：
 
@@ -69,6 +76,9 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 张老师还推荐了王天威（B 站 [DR_CAN](https://space.bilibili.com/230105574)）的[《控制之美（卷 1）》](http://www.tup.tsinghua.edu.cn/booksCenter/book_10856501.html)，作为科普也很不错。
 
 ## 课程内容
+<!-- TOML-SECTION: title="课程内容" -->
+
+<!-- TOML-ITEM: id="item-课程内容 -1" author_type="list" -->
 
 > 以下为 4.5 学分的授课内容。
 
@@ -146,6 +156,9 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01，[Gaster](https://github.com/WDGaster703)，2025-06
 
 ## 关于考试
+<!-- TOML-SECTION: title="关于考试" -->
+
+<!-- TOML-ITEM: id="item-关于考试 -1" author_type="list" -->
 
 24 年考试情况：
 2024 年的期末考试题目明显出得很难，但出分时大家发现比想象的高。
@@ -161,6 +174,9 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01，[Oliver Wu](https://github.com/OliverWu515)，2025-02，[Gaster](https://github.com/WDGaster703)，2025-06
 
 ## 学习建议
+<!-- TOML-SECTION: title="学习建议" -->
+
+<!-- TOML-ITEM: id="item-学习建议 -1" -->
 
 课程并没有指定使用哪本书作为教材，相反，**你应该尽量向不同的参考书学习**。
 同一个知识点，不同的书会有不同的解释，可以帮助你更好地理解。
@@ -174,6 +190,8 @@ G.Franklin, J.Powell, A.Emami-Naeini. Pearson. 2019.
 如果在备考时感觉某类题型弄不明白，直接在网上搜索基本上都有结果。
 
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01
+
+<!-- TOML-ITEM: id="item-学习建议 -2" -->
 
 本门课是系统建模与分析部分，重点是时域分析，关注系统的快准稳三大要求和性能指标。有一些思路是在电路分析中已经用过的分析方法，如时域阶跃响应和频率特性。根轨迹重点掌握绘制方法，频域响应掌握 Nyquist 图和 Bode 图的绘制以及奈奎斯特判据。本门课关注**时域 - 频域 - 复频域**的联系和转化，关注系统复频域模型和实际响应之间的关系。
 

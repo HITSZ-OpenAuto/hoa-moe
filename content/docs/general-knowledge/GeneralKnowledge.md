@@ -7,6 +7,7 @@ math: true
 ---
 
 {{< update-info update_time="2026 年 1 月 25 日" author="Mingjia Zhou" message="增加了对三门文理通识课程的描述 且将表述进行了修改 (#22)" >}}
+<!-- TOML-META: repo_type="multi-project" -->
 
 ## 关于「文理通识」课程
 
@@ -50,7 +51,10 @@ math: true
 
 各级对文理通识的学分要求各不相同，具体请前往教务系统的 **「学生个人成绩查询 - 学习进度」** 中查看。
 
+<!-- TOML-COURSES-START -->
+
 ## 西方艺术大师及其作品鉴赏
+<!-- TOML-COURSE: code="" name="西方艺术大师及其作品鉴赏" -->
 
 ### 西方艺术大师及其作品鉴赏 - 授课教师
 
@@ -62,6 +66,7 @@ math: true
     > 文 / Cecilia
 
 ## 书法基础
+<!-- TOML-COURSE: code="" name="书法基础" -->
 
 ### 书法基础 - 授课教师
 
@@ -80,6 +85,7 @@ math: true
 > 文 / 梦倾城终会醒，2023-01
 
 ## 声乐理论与实践
+<!-- TOML-COURSE: code="" name="声乐理论与实践" -->
 
 ### 声乐理论与实践 - 授课教师
 
@@ -94,6 +100,7 @@ math: true
 > 文 / 三水月可，2023-03
 
 ## 印染
+<!-- TOML-COURSE: code="" name="印染" -->
 
 ### 印染 - 授课教师
 
@@ -102,6 +109,7 @@ math: true
     > 文 / 三水月可，2024-09
 
 ## 现代汉语
+<!-- TOML-COURSE: code="" name="现代汉语" -->
 
 ### 现代汉语 - 授课教师
 
@@ -110,6 +118,8 @@ math: true
     > 文 / Hannah
 
 ## 西方流行音乐赏析
+<!-- TOML-COURSE: code="" name="西方流行音乐赏析" -->
+<!-- TOML-BADGES: source="basic_info" -->
 
 <div class="hoa-badge">
 
@@ -146,6 +156,7 @@ math: true
 > 文 / PVZ&X，2025-09
 
 ## 城市品牌战略
+<!-- TOML-COURSE: code="" name="城市品牌战略" -->
 
 ### 城市品牌战略 - 授课教师
 
@@ -157,6 +168,7 @@ math: true
     > 文 / lielie 🐹
 
 ## 现代食品工艺与食品感官评定
+<!-- TOML-COURSE: code="" name="现代食品工艺与食品感官评定" -->
 
 ### 现代食品工艺与食品感官评定 - 授课教师
 
@@ -167,6 +179,8 @@ math: true
     > 文 / lielie 🐹
 
 ## 游戏化思维
+<!-- TOML-COURSE: code="" name="游戏化思维" -->
+<!-- TOML-BADGES: source="basic_info" -->
 
 <div class="hoa-badge">
 
@@ -188,6 +202,8 @@ math: true
     > 文 / Cecilia
 
 ## 敦煌艺术赏析
+<!-- TOML-COURSE: code="" name="敦煌艺术赏析" -->
+<!-- TOML-BADGES: source="basic_info" -->
 
 <div class="hoa-badge">
 
@@ -211,6 +227,8 @@ math: true
     > 文 / PVZ&X，2025-03
 
 ## 全球气候环境变化
+<!-- TOML-COURSE: code="" name="全球气候环境变化" -->
+<!-- TOML-BADGES: source="basic_info" -->
 
 <div class="hoa-badge">
 
@@ -234,6 +252,8 @@ math: true
     > 文 / PVZ&X
 
 ## 中国音乐欣赏
+<!-- TOML-COURSE: code="" name="中国音乐欣赏" -->
+<!-- TOML-BADGES: source="basic_info" -->
 
 <div class="hoa-badge">
 
@@ -258,6 +278,8 @@ math: true
     > 文 / [SpeechlessPanda](https://github.com/SpeechlessPanda)，2026-01
 
 ## 智慧城市建设
+<!-- TOML-COURSE: code="" name="智慧城市建设" -->
+<!-- TOML-BADGES: source="basic_info" -->
 
 <div class="hoa-badge">
 
@@ -278,6 +300,8 @@ math: true
     > 文 / [SpeechlessPanda](https://github.com/SpeechlessPanda)，2026-01
 
 ## 中国共产党史
+<!-- TOML-COURSE: code="" name="中国共产党史" -->
+<!-- TOML-BADGES: source="basic_info" -->
 
 <div class="hoa-badge">
 

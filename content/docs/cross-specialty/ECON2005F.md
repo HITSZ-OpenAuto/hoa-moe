@@ -7,6 +7,8 @@ math: true
 ---
 
 {{< update-info update_time="2026 年 2 月 5 日" author="Jiao Ziang" message="删除提交错误的&quot;>&quot;符号" >}}
+<!-- TOML-META: repo_type="normal" -->
+<!-- TOML-BADGES: source="grades_summary" -->
 
 <div class="hoa-badge">
 
@@ -23,6 +25,7 @@ math: true
 ## 授课教师
 
 - Zhou Yu(周豫)
+  <!-- TOML-ITEM: id="review-Zhou Yu(周豫)-1" -->
   - **授课风格**：
   - 规格十分严格，如在上课开始后 15 分钟内不允许进入教室等等 (他会直接中断上课开始骂人的).
   - 课程群是微信群，同时老师设置为"不允许通过群聊添加好友",因此请假只能在课程群里公开发送申请。有时比较不近人情，一些特殊理由请假需要正式请假单，有些理由不被接受 (如以"这门课和其它跨专业或文理通识等非专业课冲突"为理由而请假),但是正常的理由只需要在课程群里提供充足证据即可。
@@ -33,6 +36,9 @@ math: true
     > 文 / [Anastasia Charies](https://github.com/Anastasia-Charies)，2026-01
 
 ## 关于考试
+<!-- TOML-SECTION: title="关于考试" -->
+
+<!-- TOML-ITEM: id="item-关于考试 -1" -->
 
 **期中考试**：
 
@@ -48,6 +54,9 @@ math: true
 > 文 / [Anastasia Charies](https://github.com/Anastasia-Charies)，2026-01
 
 ## 学习建议
+<!-- TOML-SECTION: title="学习建议" -->
+
+<!-- TOML-ITEM: id="item-学习建议 -1" -->
 
 从**修学分的角度**来说，作为 4 学分大课，本门课性价比不错。作为经济学入门课程，大多数内容贴近生活且符合直觉，是对一些经济现象系统性归纳，因此学习理解难度不高，多为记忆性内容。笔者微观经济学几乎没上过课，只用了一天速通 PPT 期中考试就拿到了满分。期末更是只用了 2 小时复习，最后课程顺利过关。至于小组展示，周老师给分很~~客观~~（实则很慷慨）。只要去了人交了 PPT 基本上最低都是 3 分。
 
@@ -61,11 +70,16 @@ math: true
 
 > 文 / [Alexis](https://github.com/Alexis0943)，2026-01
 
+<!-- TOML-ITEM: id="item-学习建议 -2" -->
+
 听课是没必要的，考前复习只需背诵 PPT 的知识点即可。
 
 > 文 / [Anastasia Charies](https://github.com/Anastasia-Charies)，2026-01
 
 ## 关于考勤
+<!-- TOML-SECTION: title="关于考勤" -->
+
+<!-- TOML-ITEM: id="item-关于考勤 -1" -->
 
 - 在学期内的 32 次课内，随机考勤 10 次（25 秋实际只考勤 8 次），每次考勤 2 分，不会提前通知。时刻在第一或二节课的开始或结束时，一次课不会有多次考勤。
 - 老师会给出一个最近讲过的知识点的简单问题，要求在纸上写出答案，5 分钟后他亲自一排一排的收。一旦检查到有代替他人考勤的行为，会收到检讨书要求和严肃批评。但是，只要提交的答题纸包含姓名学号即为有效，无论是否答出问题。
@@ -74,6 +88,9 @@ math: true
 > 文 / [Anastasia Charies](https://github.com/Anastasia-Charies)，2026-01
 
 ## 小组任务
+<!-- TOML-SECTION: title="小组任务" -->
+
+<!-- TOML-ITEM: id="item-小组任务 -1" has_author="true" -->
 
 - 以小组合作完成任务形式进行。一共 4 次任务，一次任务会占用一次课，每次占 5 分。
 - 需要在期中考试后自行组队（5-6 人一组），最后没有参与组队的学生将随机成对，并且不得加入参与组队的小组队伍以防止出现“搭便车”现象。
@@ -108,6 +125,9 @@ math: true
   - 没来得及在课上展示的 PPT 老师课后也会认真评阅给分，所有 PPT 都是基本完成任务即可得到上限分。
 
 ## 小组任务实例
+<!-- TOML-SECTION: title="小组任务实例" -->
+
+<!-- TOML-ITEM: id="item-小组任务实例 -1" author_type="list" -->
 
 以下为 25 秋的小组作业内容可供参考：
 
