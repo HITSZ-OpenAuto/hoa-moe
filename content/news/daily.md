@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-06'
+date: '2026-03-07'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -11,6 +11,10 @@ title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周六 (3.7)
+
+- Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修改网课部分错误的合并
 
 ## 待解决的 Issues
 
