@@ -128,12 +128,6 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [chore: update CrossSpecialty readme.toml](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/29)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-03-10 18:49:31
-- **作者**: LiPu-jpg
-
 ### [增加了对郑宝东老师的评价](https://github.com/HITSZ-OpenAuto/MATH1002/pull/36)
 
 - **仓库**: MATH1002
