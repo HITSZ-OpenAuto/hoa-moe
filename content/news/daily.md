@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (3.10)
 
+- Jiao Ziang 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：删除遗留的废弃标签
+
 - Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：删除测试内容检查 toml 生成能力
 
 - W. D. Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修改错误 (#41)
