@@ -6,10 +6,8 @@ editURL: "https://github.com/HITSZ-OpenAuto/EE30XX/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 11 月 29 日" author="W. D. Gaster" message="添加个课程学时和成绩安排" >}}
+{{< update-info update_time="2026 年 3 月 10 日" author="Jiao Ziang" message="删除遗留的废弃标签" >}}
 <!-- TOML-META: repo_type="multi-project" -->
-
-【标签】: 考查课
 
 电气专业的选修课开设于第三学年春季学期和第四学年秋季学期。
 

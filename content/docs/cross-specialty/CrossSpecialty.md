@@ -19,17 +19,6 @@ math: true
 
 ## 大学化学 III
 <!-- TOML-COURSE: code="" name="大学化学 III" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A60%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A-60%25-wheat)
-![%E5%AE%9E%E9%AA%8C40%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-40%25-wheat)
-
-</div>
 
 ### 大学化学 III - 课程概况
 
@@ -39,25 +28,8 @@ math: true
 
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2023-09
 
-### 大学化学 III - 自动回归测试
-
-multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 PR 仅用于接口验证，可直接关闭。
-
-> 文 / Copilot Regression，2026-03
-
 ## 生物学导论
 <!-- TOML-COURSE: code="" name="生物学导论" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B0%8F%E6%B5%8B80%](https://img.shields.io/badge/%E5%B0%8F%E6%B5%8B-80%25-wheat)
-![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A520%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-20%25-wheat)
-
-</div>
 
 ### 生物学导论 - 课程概况
 
@@ -70,21 +42,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 氢能与燃料电池
 <!-- TOML-COURSE: code="" name="氢能与燃料电池" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
-
-![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
-![%E7%90%86%E8%AE%BA22](https://img.shields.io/badge/%E7%90%86%E8%AE%BA-22-wheat)
-![%E5%AE%9E%E9%AA%8C2](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-2-wheat)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
-
-</div>
 
 ### 氢能与燃料电池 - 授课教师
 
@@ -100,17 +57,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 智慧低碳能源发电技术导论
 <!-- TOML-COURSE: code="" name="智慧低碳能源发电技术导论" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B6%E6%88%90%E7%BB%A930%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E6%88%90%E7%BB%A9-30%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9570%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
-
-</div>
 
 ### 智慧低碳能源发电技术导论 - 授课教师
 
@@ -128,22 +74,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 水力学
 <!-- TOML-COURSE: code="" name="水力学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2.5-moccasin)
-
-![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
-![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-32-wheat)
-![%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%97%B68](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%97%B6-8-wheat)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
-![%E5%AE%9E%E9%AA%8C20%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-20%25-wheat)
-![%E8%AF%BE%E5%A0%82%E6%B5%8B%E9%AA%8C50%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B5%8B%E9%AA%8C-50%25-wheat)
-
-</div>
 
 ### 水力学 - 授课教师
 
@@ -153,18 +83,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 深空探测
 <!-- TOML-COURSE: code="" name="深空探测" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%AF%BE%E5%A0%82%E5%8F%82%E4%B8%8E30%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E5%8F%82%E4%B8%8E-30%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E7%A0%94%E8%AE%A830%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E7%A0%94%E8%AE%A8-30%25-wheat)
-![%E8%AF%BE%E7%A8%8B%E8%AE%BA%E6%96%8740%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E8%AE%BA%E6%96%87-40%25-wheat)
-
-</div>
 
 ### 深空探测 - 课程概况
 
@@ -174,18 +92,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 普通天文学
 <!-- TOML-COURSE: code="" name="普通天文学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%80%83%E5%8B%A420%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-20%25-wheat)
-![%E4%BD%9C%E4%B8%9A30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
-
-</div>
 
 ### 普通天文学 - 课程概况
 
@@ -198,20 +104,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 经济学原理
 <!-- TOML-COURSE: code="" name="经济学原理" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%80%83%E5%8B%A410%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-10%25-wheat)
-![%E4%BD%9C%E4%B8%9A15%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-15%25-wheat)
-![%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E7%BB%8F%E6%B5%8E%E5%AD%A615%](https://img.shields.io/badge/%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E7%BB%8F%E6%B5%8E%E5%AD%A6-15%25-wheat)
-![%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%9530%](https://img.shields.io/badge/%E6%9C%9F%E4%B8%AD%E8%80%83%E8%AF%95-30%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9530%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-30%25-wheat)
-
-</div>
 
 ### 经济学原理 - 课程概况
 
@@ -223,17 +115,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## OpenHarmony 端云协同物联网开发实践
 <!-- TOML-COURSE: code="" name="OpenHarmony 端云协同物联网开发实践" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A60%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-60%25-wheat)
-![%E7%AD%94%E8%BE%A940%](https://img.shields.io/badge/%E7%AD%94%E8%BE%A9-40%25-wheat)
-
-</div>
 
 ### OpenHarmony 端云协同物联网开发实践 - 课程概况
 
@@ -247,18 +128,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 大模型应用开发入门
 <!-- TOML-COURSE: code="" name="大模型应用开发入门" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B6%E8%80%83%E6%A0%B810%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E8%80%83%E6%A0%B8-10%25-wheat)
-![%E5%AE%9E%E9%AA%8C%E4%BD%9C%E4%B8%9A60%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E4%BD%9C%E4%B8%9A-60%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE30%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE-30%25-wheat)
-
-</div>
 
 ### 大模型应用开发入门 - 授课教师
 
@@ -277,16 +146,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 城市社会学概论
 <!-- TOML-COURSE: code="" name="城市社会学概论" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A100%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A-100%25-wheat)
-
-</div>
 
 ### 城市社会学概论 - 授课教师
 
@@ -298,17 +157,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 现代电机设计导论
 <!-- TOML-COURSE: code="" name="现代电机设计导论" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A50%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-50%25-wheat)
-![%E5%B9%B3%E6%97%B6%E5%88%8650%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E5%88%86-50%25-wheat)
-
-</div>
 
 ### 现代电机设计导论 - 课程概况
 
@@ -319,18 +167,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 电子封装可靠性
 <!-- TOML-COURSE: code="" name="电子封装可靠性" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B020%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-20%25-wheat)
-![%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9540%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-40%25-wheat)
-
-</div>
 
 ### 电子封装可靠性 - 课程概况
 
@@ -347,16 +183,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 机器学习原理与经管应用
 <!-- TOML-COURSE: code="" name="机器学习原理与经管应用" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%A4%A7%E4%BD%9C%E4%B8%9A(%E5%AE%9E%E9%AA%8C)100%](https://img.shields.io/badge/%E5%A4%A7%E4%BD%9C%E4%B8%9A(%E5%AE%9E%E9%AA%8C)-100%25-wheat)
-
-</div>
 
 ### 机器学习原理与经管应用 - 授课教师
 
@@ -368,18 +194,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 污染控制微生物学
 <!-- TOML-COURSE: code="" name="污染控制微生物学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B620%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-20%25-wheat)
-![%E5%AE%9E%E9%AA%8C20%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-20%25-wheat)
-![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A560%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-60%25-wheat)
-
-</div>
 
 ### 污染控制微生物学 - 授课教师
 
@@ -391,17 +205,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 电动力学
 <!-- TOML-COURSE: code="" name="电动力学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B630%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-30%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9570%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-70%25-wheat)
-
-</div>
 
 ### 电动力学 - 授课教师
 
@@ -413,17 +216,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 核能与安全
 <!-- TOML-COURSE: code="" name="核能与安全" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1.5-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B630%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-30%25-wheat)
-![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A570%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-70%25-wheat)
-
-</div>
 
 ### 核能与安全 - 授课教师
 
@@ -434,17 +226,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 环境学
 <!-- TOML-COURSE: code="" name="环境学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A530%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-30%25-wheat)
-![%E7%BB%93%E8%AF%BE%E8%AE%BA%E6%96%8770%](https://img.shields.io/badge/%E7%BB%93%E8%AF%BE%E8%AE%BA%E6%96%87-70%25-wheat)
-
-</div>
 
 ### 环境学 - 课程概况
 
@@ -455,17 +236,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 空间环境
 <!-- TOML-COURSE: code="" name="空间环境" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B640%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
-
-</div>
 
 ### 空间环境 - 授课教师
 
@@ -476,18 +246,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 会计学原理
 <!-- TOML-COURSE: code="" name="会计学原理" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
-![%E9%9B%A8%E8%AF%BE%E5%A0%82%E7%BB%83%E4%B9%A010%](https://img.shields.io/badge/%E9%9B%A8%E8%AF%BE%E5%A0%82%E7%BB%83%E4%B9%A0-10%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%8350%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83-50%25-wheat)
-
-</div>
 
 ### 会计学原理 - 授课教师
 
@@ -502,17 +260,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 量子力学
 <!-- TOML-COURSE: code="" name="量子力学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B640%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
-
-</div>
 
 ### 量子力学 - 授课教师
 
@@ -531,18 +278,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 波谱学原理与应用
 <!-- TOML-COURSE: code="" name="波谱学原理与应用" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
-![%E6%8A%A5%E5%91%8A30%](https://img.shields.io/badge/%E6%8A%A5%E5%91%8A-30%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9540%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-40%25-wheat)
-
-</div>
 
 ### 波谱学原理与应用 - 授课教师
 
@@ -563,18 +298,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 走进量子世界
 <!-- TOML-COURSE: code="" name="走进量子世界" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E8%80%83%E8%AF%95-50%25-wheat)
-![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A530%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-30%25-wheat)
-![%E5%AE%9E%E9%AA%8C20%](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-20%25-wheat)
-
-</div>
 
 ### 走进量子世界 - 授课教师
 
@@ -584,17 +307,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 理论力学
 <!-- TOML-COURSE: code="" name="理论力学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%80%83%E8%AF%9570%](https://img.shields.io/badge/%E8%80%83%E8%AF%95-70%25-wheat)
-![%E4%BD%9C%E4%B8%9A30%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-30%25-wheat)
-
-</div>
 
 ### 理论力学 - 授课教师
 
@@ -606,17 +318,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 公司并购与估值
 <!-- TOML-COURSE: code="" name="公司并购与估值" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
-![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A560%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-60%25-wheat)
-
-</div>
 
 ### 公司并购与估值 - 授课教师
 
@@ -630,18 +331,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 绿色金融与碳排放权交易
 <!-- TOML-COURSE: code="" name="绿色金融与碳排放权交易" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%80%83%E5%8B%A410%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-10%25-wheat)
-![%E8%AE%BA%E6%96%87%E5%88%86%E6%9E%9045%](https://img.shields.io/badge/%E8%AE%BA%E6%96%87%E5%88%86%E6%9E%90-45%25-wheat)
-![%E8%AF%BE%E7%A8%8B%E6%B1%87%E6%8A%A545%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E6%B1%87%E6%8A%A5-45%25-wheat)
-
-</div>
 
 ### 绿色金融与碳排放权交易 - 授课教师
 
@@ -658,17 +347,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 数智结构概论
 <!-- TOML-COURSE: code="" name="数智结构概论" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%80%83%E5%8B%A440%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-40%25-wheat)
-![%E4%BD%9C%E4%B8%9A60%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-60%25-wheat)
-
-</div>
 
 ### 数智结构概论 - 授课教师
 
@@ -682,17 +360,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 软体机器人理论与技术
 <!-- TOML-COURSE: code="" name="软体机器人理论与技术" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E4%BD%9C%E4%B8%9A%E5%92%8C%E9%9A%8F%E5%A0%82%E6%B5%8B%E8%AF%9540%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A%E5%92%8C%E9%9A%8F%E5%A0%82%E6%B5%8B%E8%AF%95-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E6%8A%A5%E5%91%8A60%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E6%8A%A5%E5%91%8A-60%25-wheat)
-
-</div>
 
 ### 软体机器人理论与技术 - 授课教师
 
@@ -706,17 +373,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 行星科学
 <!-- TOML-COURSE: code="" name="行星科学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A550%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%B1%87%E6%8A%A5-50%25-wheat)
-![%E8%AF%BE%E7%A8%8B%E8%AE%BA%E6%96%8750%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E8%AE%BA%E6%96%87-50%25-wheat)
-
-</div>
 
 ### 行星科学 - 授课教师
 
@@ -726,18 +382,6 @@ multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 P
 
 ## 基础计量经济学
 <!-- TOML-COURSE: code="" name="基础计量经济学" -->
-<!-- TOML-BADGES: source="basic_info" -->
-
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-3-moccasin)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A40%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9550%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-50%25-wheat)
-![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B010%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-10%25-wheat)
-
-</div>
 
 ### 基础计量经济学 - 授课教师
 
