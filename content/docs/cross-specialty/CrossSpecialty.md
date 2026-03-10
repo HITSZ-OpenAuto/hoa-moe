@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 2 月 14 日" author="Peifeng Lai" message="添加理论力学（4 学分）跨专业课课程介绍 (#27)" >}}
+{{< update-info update_time="2026 年 3 月 10 日" author="Jiao Ziang" message="chore: update CrossSpecialty readme.toml (#29)" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 自 23 级起，跨专业发展课程学分从创新学分 14 分中独立出来，成为单独的 10 学分的跨专业课程学分要求。
@@ -38,6 +38,12 @@ math: true
 总的来说，大学化学 III 占用时间精力很少，性价比还是很高的。
 
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2023-09
+
+### 大学化学 III - 自动回归测试
+
+multi-project 仓库提交链路回归测试，时间戳 20260310-184748。该 PR 仅用于接口验证，可直接关闭。
+
+> 文 / Copilot Regression，2026-03
 
 ## 生物学导论
 <!-- TOML-COURSE: code="" name="生物学导论" -->
