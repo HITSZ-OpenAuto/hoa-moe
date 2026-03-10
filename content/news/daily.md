@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-08'
+date: '2026-03-10'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周六 (3.7)
+### 周二 (3.10)
 
-- Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修改网课部分错误的合并
+- W. D. Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修改错误 (#41)
 
 ## 待解决的 Issues
 
@@ -126,13 +126,13 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:26:34
 - **作者**: WDGaster703
 
-### [【MATH1002】](https://github.com/HITSZ-OpenAuto/MATH1002/issues/37)
-
-- **仓库**: MATH1002
-- **创建于**: 2026-03-09 23:26:30
-- **作者**: WDGaster703
-
 ## 待合并的 Pull Requests
+
+### [chore: update CrossSpecialty readme.toml](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/29)
+
+- **仓库**: CrossSpecialty
+- **创建于**: 2026-03-10 18:49:31
+- **作者**: LiPu-jpg
 
 ### [增加了对郑宝东老师的评价](https://github.com/HITSZ-OpenAuto/MATH1002/pull/36)
 
