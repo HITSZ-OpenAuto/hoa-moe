@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (3.10)
 
+- Alkaid 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：增加了对郑宝东老师的评价 (#36)
+
 - Xl-ui 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：概率论笔记：二维随机变量的分布 (#40)
 
 - Pengjie Wang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传了自制的概率论模拟题和解析 (#41)
@@ -135,12 +137,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [增加了对郑宝东老师的评价](https://github.com/HITSZ-OpenAuto/MATH1002/pull/36)
-
-- **仓库**: MATH1002
-- **创建于**: 2026-03-09 13:48:17
-- **作者**: 070622X
 
 ### [完善课程信息](https://github.com/HITSZ-OpenAuto/COMP2030/pull/14)
 
