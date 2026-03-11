@@ -56,7 +56,7 @@ math: true
 ## 西方艺术大师及其作品鉴赏
 <!-- TOML-COURSE: code="" name="西方艺术大师及其作品鉴赏" -->
 
-### 西方艺术大师及其作品鉴赏 - 授课教师
+### 授课教师
 
 - 刘波
   - 刘波老师人非常好，上课偶尔以提问方式点名，考核方式是期中论文 40%+期末论文 40%+平时考勤 20%。拿高分不太容易（本人得分 95，要很认真写论文**体现出自己的思考**，属于比较少的现象），但基本交了论文就能过（我室友基本一节课没去，没被点到，也有 80+）。
@@ -68,13 +68,13 @@ math: true
 ## 书法基础
 <!-- TOML-COURSE: code="" name="书法基础" -->
 
-### 书法基础 - 授课教师
+### 授课教师
 
 - 侯老师
   - 侯老师人很好，我是 24 年春季上的，一次课连上两节，老师先讲理论 40 分钟左右（我偶尔会太困睡着，老师不管的），剩余时间自由练习毛笔字，一次课结束前半小时把练习作品拍照发群里老师点评。期末考核是课程中期的一次 ppt 展示（主题是书法家介绍）+ 一份期末毛笔字作品，会给三节课左右的时间写期末作品，不占用课下时间，写得好还可以参加展览（我的就展在 t4 楼下）赚一分活动分（有参展证明）。期末给分也高，我拿了 94 分。有基础冲就完了，包你成为课上最靓的仔。
     > 文 / 沐沐激推 bot，2024-03
 
-### 书法基础 - 课程评价
+### 课程评价
 
 比较好水的课，老师不错，期末作业是写一幅书法作品。
 
@@ -87,13 +87,13 @@ math: true
 ## 声乐理论与实践
 <!-- TOML-COURSE: code="" name="声乐理论与实践" -->
 
-### 声乐理论与实践 - 授课教师
+### 授课教师
 
 - 吴丹
   - 我是 23 年秋季上的，吴丹老师人不错，但是对学生的演唱能力有一定要求，上课会轮流唱五线谱，0 基础唱不出来的话可能会有点社死。期末考核是在学期内学过的所有五线谱和简谱歌曲片段中抽两首在全班面前演唱展示，想全部复习到位的话需要花点时间。不建议想水学分的人选，建议喜欢唱歌，五音全，且 e 的人选。这节课最好不要请假，我有演唱基础，期末唱的也不错，可能是因为请假太多老师给了 88 分，略低了。
     > 文 / 沐沐激推 bot，2023-09
 
-### 声乐理论与实践 - 课程评价
+### 课程评价
 
 可以学，如果有一点乐理基础的话（能看懂简谱），上课体验会好很多；学发声技巧，日常发声训练和唱歌，期末展示是唱一首自己喜欢的歌（23 年上）。
 
@@ -102,7 +102,7 @@ math: true
 ## 印染
 <!-- TOML-COURSE: code="" name="印染" -->
 
-### 印染 - 授课教师
+### 授课教师
 
 - 徐老师
   - 考核为实验课出勤 + 期末论文/报告，满足你对水课的所有幻想：事少、分高、有趣。徐老师人很好。24 秋个人得分 98（排名 1/42）
@@ -111,7 +111,7 @@ math: true
 ## 现代汉语
 <!-- TOML-COURSE: code="" name="现代汉语" -->
 
-### 现代汉语 - 授课教师
+### 授课教师
 
 - 张莹
   - 张莹老师人很好很有趣，内容做的很认真，想学点语言类小知识或者想调剂一下生活可以选；如果是想水课不建议，老师比较注重课堂氛围，期末考核是闭卷考试，如果平时不听课基本考不了高分（反之如果每节课都去听讲基本能 90）。
@@ -119,22 +119,8 @@ math: true
 
 ## 西方流行音乐赏析
 <!-- TOML-COURSE: code="" name="西方流行音乐赏析" -->
-<!-- TOML-BADGES: source="basic_info" -->
 
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
-![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-32-wheat)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E5%B9%B3%E6%97%B6%E8%A1%A8%E7%8E%B020%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E8%A1%A8%E7%8E%B0-20%25-wheat)
-![%E6%B1%87%E6%8A%A580%](https://img.shields.io/badge/%E6%B1%87%E6%8A%A5-80%25-wheat)
-
-</div>
-
-### 西方流行音乐赏析 - 授课教师
+### 授课教师
 
 - 王砥
   - 王砥老师教的好过。
@@ -142,13 +128,13 @@ math: true
   - 王砥老师教的挺有趣。
     > 文 / Ø
 
-### 西方流行音乐赏析 - 课程评价
+### 课程评价
 
 教学大纲里有考试，但这已经是明日黄花了。现在只有小组展示。
 
 > 文 / Oliver Wu
 
-### 西方流行音乐赏析 - 课程概况
+### 课程概况
 
 - 25 秋这门课的考核为 20% 平时 +80% 汇报，还有个音乐会报告作业（写自己聆听音乐会的感受），不知道算在哪一部分。平时会有一些考勤，然后老师也非常注重课堂互动，积极引导同学参与课堂讨论。期末汇报要求也很宽松，只要是和西方音乐有关，题材积极健康都能拿到不低的分数。汇报完老师会提问，只要对准备的题材有理解都不难。
 - 总的来说，这门课的体验还是很好的，尤其是对西方流行音乐感兴趣的，很推荐选修听一听。
@@ -158,7 +144,7 @@ math: true
 ## 城市品牌战略
 <!-- TOML-COURSE: code="" name="城市品牌战略" -->
 
-### 城市品牌战略 - 授课教师
+### 授课教师
 
 - 马文婷
   - 特别注意：全英课，和很多留学生一起上课。
@@ -170,7 +156,7 @@ math: true
 ## 现代食品工艺与食品感官评定
 <!-- TOML-COURSE: code="" name="现代食品工艺与食品感官评定" -->
 
-### 现代食品工艺与食品感官评定 - 授课教师
+### 授课教师
 
 - 谷静思
   - 授课风格：课堂氛围轻松愉快，有不少动手操作的环节。
@@ -180,19 +166,8 @@ math: true
 
 ## 游戏化思维
 <!-- TOML-COURSE: code="" name="游戏化思维" -->
-<!-- TOML-BADGES: source="basic_info" -->
 
-<div class="hoa-badge">
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%80%83%E5%8B%A410%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-10%25-wheat)
-![%E8%AF%BE%E5%A0%82%E6%BC%94%E8%AE%B220%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E6%BC%94%E8%AE%B2-20%25-wheat)
-![%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%91%8A30%](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%91%8A-30%25-wheat)
-![%E5%9B%A2%E9%98%9F%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A20%](https://img.shields.io/badge/%E5%9B%A2%E9%98%9F%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A-20%25-wheat)
-
-</div>
-
-### 游戏化思维 - 授课教师
+### 授课教师
 
 - 陈阳
   - 授课风格：很善良的老师，上课经常结合一些知名/不知名游戏进行讲解。大作业组好队后，老师也会帮忙活跃组里讨论气氛之类的。
@@ -203,23 +178,8 @@ math: true
 
 ## 敦煌艺术赏析
 <!-- TOML-COURSE: code="" name="敦煌艺术赏析" -->
-<!-- TOML-BADGES: source="basic_info" -->
 
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
-![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-16-wheat)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%80%83%E5%8B%A420%](https://img.shields.io/badge/%E8%80%83%E5%8B%A4-20%25-wheat)
-![%E6%9C%9F%E4%B8%AD%E8%AE%BA%E6%96%8740%](https://img.shields.io/badge/%E6%9C%9F%E4%B8%AD%E8%AE%BA%E6%96%87-40%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%AE%BA%E6%96%8740%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%AE%BA%E6%96%87-40%25-wheat)
-
-</div>
-
-### 敦煌艺术赏析 - 授课教师
+### 授课教师
 
 - 刘波
   - 授课风格：刘波老师一向是很受欢迎的文理通识老师，上她的课是真能感受到浓浓的人文氛围的，因此很值得有兴趣的同学认真听一听。
@@ -228,22 +188,8 @@ math: true
 
 ## 全球气候环境变化
 <!-- TOML-COURSE: code="" name="全球气候环境变化" -->
-<!-- TOML-BADGES: source="basic_info" -->
 
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
-![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-16-wheat)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B040%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-40%25-wheat)
-![%E8%AF%BB%E4%B9%A6%E6%8A%A5%E5%91%8A60%](https://img.shields.io/badge/%E8%AF%BB%E4%B9%A6%E6%8A%A5%E5%91%8A-60%25-wheat)
-
-</div>
-
-### 全球气候环境变化 - 授课教师
+### 授课教师
 
 - 张芳
   - 授课风格：老师人非常善良，一学期下来基本没考过勤。上课主要是念 PPT 上的内容，并适当延伸。
@@ -253,23 +199,8 @@ math: true
 
 ## 中国音乐欣赏
 <!-- TOML-COURSE: code="" name="中国音乐欣赏" -->
-<!-- TOML-BADGES: source="basic_info" -->
 
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
-![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-32-wheat)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B020%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-20%25-wheat)
-![%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A20%](https://img.shields.io/badge/%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A-20%25-wheat)
-![%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%9560%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
-
-</div>
-
-### 中国音乐欣赏 - 授课教师
+### 授课教师
 
 - 吴丹
   - 授课风格：老师人的水平很高，人很温柔，在课上可以了解到各个时期的音乐，视频很多。课的前半小时是要学习如何吹陶笛，且这半个小时学到的曲目在下节课课前会随机抽查两个人演奏（这也是考勤方式）并会将这个表现算平时分。
@@ -279,18 +210,8 @@ math: true
 
 ## 智慧城市建设
 <!-- TOML-COURSE: code="" name="智慧城市建设" -->
-<!-- TOML-BADGES: source="basic_info" -->
 
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
-![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B632](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-32-wheat)
-
-</div>
-
-### 智慧城市建设 - 授课教师
+### 授课教师
 
 - 杨文静
   - 考核方式：我忘了，好像是平时分加期末报告的构成。
@@ -301,23 +222,8 @@ math: true
 
 ## 中国共产党史
 <!-- TOML-COURSE: code="" name="中国共产党史" -->
-<!-- TOML-BADGES: source="basic_info" -->
 
-<div class="hoa-badge">
-
-![%E5%AD%A6%E5%88%86](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-1-moccasin)
-
-![%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E5%AD%A6%E6%97%B6%E6%9E%84%E6%88%90-gold)
-![%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B616](https://img.shields.io/badge/%E7%90%86%E8%AE%BA%E5%AD%A6%E6%97%B6-16-wheat)
-
-![%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B020%](https://img.shields.io/badge/%E8%AF%BE%E5%A0%82%E8%A1%A8%E7%8E%B0-20%25-wheat)
-![%E8%AE%A8%E8%AE%BA%E6%B1%87%E6%8A%A530%](https://img.shields.io/badge/%E8%AE%A8%E8%AE%BA%E6%B1%87%E6%8A%A5-30%25-wheat)
-![%E8%AF%BE%E7%A8%8B%E8%AE%BA%E6%96%8750%](https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E8%AE%BA%E6%96%87-50%25-wheat)
-
-</div>
-
-### 中国共产党史 - 授课教师
+### 授课教师
 
 - 裴广强/罗平汉
   - 授课风格：挺无聊的 doge
