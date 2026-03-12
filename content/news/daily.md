@@ -140,6 +140,24 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [修改格式](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/44)
+
+- **仓库**: AUTO2005
+- **创建于**: 2026-03-11 20:42:27
+- **作者**: WDGaster703
+
+### [修改错误](https://github.com/HITSZ-OpenAuto/EE1018/pull/8)
+
+- **仓库**: EE1018
+- **创建于**: 2026-03-11 20:24:43
+- **作者**: WDGaster703
+
+### [修改排版](https://github.com/HITSZ-OpenAuto/EE1013/pull/27)
+
+- **仓库**: EE1013
+- **创建于**: 2026-03-11 15:01:22
+- **作者**: WDGaster703
+
 ### [完善课程信息](https://github.com/HITSZ-OpenAuto/COMP2030/pull/14)
 
 - **仓库**: COMP2030
