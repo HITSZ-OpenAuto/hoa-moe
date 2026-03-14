@@ -14,6 +14,22 @@ title: AUTO 更新速递
 
 ### 周六 (3.14)
 
+- Jiao Ziang 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：Migrate to new lecturers schema (#41)
+
+- Jiao Ziang 在 [电路 IB](https://github.com/HITSZ-OpenAuto/EE1011B) 中提交了信息：Migrate to new lecturers schema (#31)
+
+- Jiao Ziang 在 [模拟电子技术基础](https://github.com/HITSZ-OpenAuto/EE1007) 中提交了信息：Migrate to new lecturers schema (#31)
+
+- Jiao Ziang 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：Migrate to new lecturers schema (#36)
+
+- Jiao Ziang 在 [机器人学导论](https://github.com/HITSZ-OpenAuto/AUTO3005) 中提交了信息：Migrate to new lecturers schema (#31)
+
+- Jiao Ziang 在 [系统建模与仿真](https://github.com/HITSZ-OpenAuto/AUTO3004) 中提交了信息：Migrate to new lecturers schema (#31)
+
+- Jiao Ziang 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：Migrate to new lecturers schema (#53)
+
+- Jiao Ziang 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：Migrate to new lecturers schema (#45)
+
 - Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Migrate to new lecturers schema (#43)
 
 - Jiao Ziang 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：Migrate to new lecturers schema
@@ -130,52 +146,10 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/MATH1005/pull/41)
+### [Test PR from pr-server](https://github.com/HITSZ-OpenAuto/COMP1011/pull/31)
 
-- **仓库**: MATH1005
-- **创建于**: 2026-03-14 17:29:43
-- **作者**: LiPu-jpg
-
-### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/EE1011B/pull/31)
-
-- **仓库**: EE1011B
-- **创建于**: 2026-03-14 17:29:20
-- **作者**: LiPu-jpg
-
-### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/EE1007/pull/31)
-
-- **仓库**: EE1007
-- **创建于**: 2026-03-14 17:29:12
-- **作者**: LiPu-jpg
-
-### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO3007/pull/36)
-
-- **仓库**: AUTO3007
-- **创建于**: 2026-03-14 17:28:52
-- **作者**: LiPu-jpg
-
-### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO3005/pull/31)
-
-- **仓库**: AUTO3005
-- **创建于**: 2026-03-14 17:28:46
-- **作者**: LiPu-jpg
-
-### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/31)
-
-- **仓库**: AUTO3004
-- **创建于**: 2026-03-14 17:28:41
-- **作者**: LiPu-jpg
-
-### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/53)
-
-- **仓库**: AUTO3002A
-- **创建于**: 2026-03-14 17:28:34
-- **作者**: LiPu-jpg
-
-### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/45)
-
-- **仓库**: AUTO2005
-- **创建于**: 2026-03-14 17:28:28
+- **仓库**: COMP1011
+- **创建于**: 2026-03-14 18:24:11
 - **作者**: LiPu-jpg
 
 ### [修改格式](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/44)
