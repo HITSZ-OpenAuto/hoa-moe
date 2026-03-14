@@ -25,6 +25,7 @@ math: true
 
 ## 授课教师
 
+<!-- TOML-LECTURERS: part="items" -->
 - 吴爱国
   <!-- TOML-ITEM: id="review-吴爱国 -1" author_type="list" -->
   - 授课认真，讲解细致，按步骤演算各校正过程，生怕学生听不懂。上课给人的感觉是信手拈来 ~~（不知道成语用对了没有。不过他讲的这部分确实也不算难）~~。

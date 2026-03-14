@@ -23,6 +23,7 @@ math: true
 
 ## 授课教师
 
+<!-- TOML-LECTURERS: part="items" -->
 - 余君武
   <!-- TOML-ITEM: id="review-余君武 -1" -->
   - 授课风格：

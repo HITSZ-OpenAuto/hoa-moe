@@ -32,6 +32,7 @@ math: true
 
 ## 授课教师
 
+<!-- TOML-LECTURERS: part="items" -->
 - 张宏伟
   <!-- TOML-ITEM: id="review-张宏伟 -1" author_type="list" -->
   - 负责课程的前半部分。
