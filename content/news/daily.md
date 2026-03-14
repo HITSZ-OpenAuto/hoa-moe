@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周六 (3.14)
 
+- cecilia 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：尝试删除 md 中的 toml 格式，以观察整个工作流程
+
+- cecilia 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：尝试删除 md 中的 toml 格式，以观察整个工作流程
+
 - Jiao Ziang 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：Migrate to new lecturers schema (#41)
 
 - Jiao Ziang 在 [电路 IB](https://github.com/HITSZ-OpenAuto/EE1011B) 中提交了信息：Migrate to new lecturers schema (#31)
@@ -145,12 +149,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [Test PR from pr-server](https://github.com/HITSZ-OpenAuto/COMP1011/pull/31)
-
-- **仓库**: COMP1011
-- **创建于**: 2026-03-14 18:24:11
-- **作者**: LiPu-jpg
 
 ### [修改格式](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/44)
 
