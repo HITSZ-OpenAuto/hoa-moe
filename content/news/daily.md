@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-11'
+date: '2026-03-14'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,21 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (3.10)
+### 周五 (3.13)
 
-- Pengjie Wang 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：更新了体育课信息 (#33)
-
-- Alkaid 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：增加了对郑宝东老师的评价 (#36)
-
-- Xl-ui 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：概率论笔记：二维随机变量的分布 (#40)
-
-- Pengjie Wang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：上传了自制的概率论模拟题和解析 (#41)
-
-- Jiao Ziang 在 [电气专业选修课](https://github.com/HITSZ-OpenAuto/EE30XX) 中提交了信息：删除遗留的废弃标签
-
-- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：删除测试内容检查 toml 生成能力
-
-- W. D. Gaster 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修改错误 (#41)
+- patrick1129star 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：改了一下软件构造的成绩组成和描述
 
 ## 待解决的 Issues
 
