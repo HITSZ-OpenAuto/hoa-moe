@@ -12,6 +12,12 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (3.14)
+
+- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Migrate to new lecturers schema (#43)
+
+- Jiao Ziang 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Migrate to new lecturers schema
+
 ### 周五 (3.13)
 
 - patrick1129star 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：改了一下软件构造的成绩组成和描述
@@ -120,13 +126,55 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:26:39
 - **作者**: WDGaster703
 
-### [【EE3005】](https://github.com/HITSZ-OpenAuto/EE3005/issues/20)
-
-- **仓库**: EE3005
-- **创建于**: 2026-03-09 23:26:34
-- **作者**: WDGaster703
-
 ## 待合并的 Pull Requests
+
+### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/MATH1005/pull/41)
+
+- **仓库**: MATH1005
+- **创建于**: 2026-03-14 17:29:43
+- **作者**: LiPu-jpg
+
+### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/EE1011B/pull/31)
+
+- **仓库**: EE1011B
+- **创建于**: 2026-03-14 17:29:20
+- **作者**: LiPu-jpg
+
+### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/EE1007/pull/31)
+
+- **仓库**: EE1007
+- **创建于**: 2026-03-14 17:29:12
+- **作者**: LiPu-jpg
+
+### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO3007/pull/36)
+
+- **仓库**: AUTO3007
+- **创建于**: 2026-03-14 17:28:52
+- **作者**: LiPu-jpg
+
+### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO3005/pull/31)
+
+- **仓库**: AUTO3005
+- **创建于**: 2026-03-14 17:28:46
+- **作者**: LiPu-jpg
+
+### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO3004/pull/31)
+
+- **仓库**: AUTO3004
+- **创建于**: 2026-03-14 17:28:41
+- **作者**: LiPu-jpg
+
+### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO3002A/pull/53)
+
+- **仓库**: AUTO3002A
+- **创建于**: 2026-03-14 17:28:34
+- **作者**: LiPu-jpg
+
+### [Migrate to new lecturers schema](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/45)
+
+- **仓库**: AUTO2005
+- **创建于**: 2026-03-14 17:28:28
+- **作者**: LiPu-jpg
 
 ### [修改格式](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/44)
 
