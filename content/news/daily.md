@@ -16,6 +16,8 @@ title: AUTO 更新速递
 
 - Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Migrate to new lecturers schema (#43)
 
+- Jiao Ziang 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：Migrate to new lecturers schema
+
 - Jiao Ziang 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Migrate to new lecturers schema
 
 ### 周五 (3.13)
