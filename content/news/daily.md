@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (3.15)
 
+- W. D. Gaster 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：修改格式 (#21)
+
 - W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：修复错误 (#17)
 
 - Jiao 在 [multi-project-course-template](https://github.com/HITSZ-OpenAuto/multi-project-course-template) 中提交了信息：feat: 添加 courses.sections.items author 示例
