@@ -12,6 +12,22 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (3.15)
+
+- W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：修复错误 (#17)
+
+- Jiao 在 [multi-project-course-template](https://github.com/HITSZ-OpenAuto/multi-project-course-template) 中提交了信息：feat: 添加 courses.sections.items author 示例
+
+- Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：feat: 添加多条 sections.items, lecturers.intro, lecturers.summary 示例
+
+- Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：feat: 添加 sections.items author 示例
+
+- Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：feat: 添加 lecturers.intro 和 lecturers.summary 支持
+
+- Jiao 在 [multi-project-course-template](https://github.com/HITSZ-OpenAuto/multi-project-course-template) 中提交了信息：chore: multi-project course template
+
+- Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：chore: normal course template
+
 ### 周六 (3.14)
 
 - cecilia 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：尝试删除 md 中的 toml 格式，以观察整个工作流程
