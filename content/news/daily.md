@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-14'
+date: '2026-03-15'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -39,10 +39,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：Migrate to new lecturers schema
 
 - Jiao Ziang 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Migrate to new lecturers schema
-
-### 周五 (3.13)
-
-- patrick1129star 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：改了一下软件构造的成绩组成和描述
 
 ## 待解决的 Issues
 
