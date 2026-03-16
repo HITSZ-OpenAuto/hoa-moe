@@ -136,12 +136,6 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [修改格式](https://github.com/HITSZ-OpenAuto/EE2003/pull/16)
-
-- **仓库**: EE2003
-- **创建于**: 2026-03-16 00:14:58
-- **作者**: WDGaster703
-
 ### [修改格式](https://github.com/HITSZ-OpenAuto/EE3015/pull/16)
 
 - **仓库**: EE3015
