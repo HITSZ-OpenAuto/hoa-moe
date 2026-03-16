@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-15'
+date: '2026-03-16'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -29,34 +29,6 @@ title: AUTO 更新速递
 - Jiao 在 [multi-project-course-template](https://github.com/HITSZ-OpenAuto/multi-project-course-template) 中提交了信息：chore: multi-project course template
 
 - Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：chore: normal course template
-
-### 周六 (3.14)
-
-- cecilia 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：尝试删除 md 中的 toml 格式，以观察整个工作流程
-
-- cecilia 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：尝试删除 md 中的 toml 格式，以观察整个工作流程
-
-- Jiao Ziang 在 [复变函数与积分变换](https://github.com/HITSZ-OpenAuto/MATH1005) 中提交了信息：Migrate to new lecturers schema (#41)
-
-- Jiao Ziang 在 [电路 IB](https://github.com/HITSZ-OpenAuto/EE1011B) 中提交了信息：Migrate to new lecturers schema (#31)
-
-- Jiao Ziang 在 [模拟电子技术基础](https://github.com/HITSZ-OpenAuto/EE1007) 中提交了信息：Migrate to new lecturers schema (#31)
-
-- Jiao Ziang 在 [过程控制系统](https://github.com/HITSZ-OpenAuto/AUTO3007) 中提交了信息：Migrate to new lecturers schema (#36)
-
-- Jiao Ziang 在 [机器人学导论](https://github.com/HITSZ-OpenAuto/AUTO3005) 中提交了信息：Migrate to new lecturers schema (#31)
-
-- Jiao Ziang 在 [系统建模与仿真](https://github.com/HITSZ-OpenAuto/AUTO3004) 中提交了信息：Migrate to new lecturers schema (#31)
-
-- Jiao Ziang 在 [自动控制实践 A](https://github.com/HITSZ-OpenAuto/AUTO3002A) 中提交了信息：Migrate to new lecturers schema (#53)
-
-- Jiao Ziang 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：Migrate to new lecturers schema (#45)
-
-- Jiao Ziang 在 [概率论与数理统计](https://github.com/HITSZ-OpenAuto/MATH1004) 中提交了信息：Migrate to new lecturers schema (#43)
-
-- Jiao Ziang 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：Migrate to new lecturers schema
-
-- Jiao Ziang 在 [计算思维与实践](https://github.com/HITSZ-OpenAuto/COMP1011) 中提交了信息：Migrate to new lecturers schema
 
 ## 待解决的 Issues
 
@@ -163,6 +135,18 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [修改格式](https://github.com/HITSZ-OpenAuto/EE2003/pull/16)
+
+- **仓库**: EE2003
+- **创建于**: 2026-03-16 00:14:58
+- **作者**: WDGaster703
+
+### [修改格式](https://github.com/HITSZ-OpenAuto/EE3015/pull/16)
+
+- **仓库**: EE3015
+- **创建于**: 2026-03-15 12:42:51
+- **作者**: WDGaster703
 
 ### [修改格式](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/44)
 
