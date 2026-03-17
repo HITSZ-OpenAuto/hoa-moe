@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周二 (3.17)
+
+- Jiao Ziang 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：补充王悦昶老师的评价
+
 ### 周一 (3.16)
 
 - W. D. Gaster 在 [专业综合实践](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：添加内容 (#7)
@@ -112,6 +116,12 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3005
 - **创建于**: 2026-03-09 23:26:43
+- **作者**: WDGaster703
+
+### [【AUTO3016】](https://github.com/HITSZ-OpenAuto/AUTO3016/issues/33)
+
+- **仓库**: AUTO3016
+- **创建于**: 2026-03-09 23:26:39
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
