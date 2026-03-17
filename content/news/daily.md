@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-16'
+date: '2026-03-17'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,24 +15,6 @@ title: AUTO 更新速递
 ### 周一 (3.16)
 
 - W. D. Gaster 在 [专业综合实践](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：添加内容 (#7)
-
-### 周日 (3.15)
-
-- W. D. Gaster 在 [DSP 的原理与应用](https://github.com/HITSZ-OpenAuto/EE3005) 中提交了信息：修改格式 (#21)
-
-- W. D. Gaster 在 [电机学](https://github.com/HITSZ-OpenAuto/EE3001) 中提交了信息：修复错误 (#17)
-
-- Jiao 在 [multi-project-course-template](https://github.com/HITSZ-OpenAuto/multi-project-course-template) 中提交了信息：feat: 添加 courses.sections.items author 示例
-
-- Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：feat: 添加多条 sections.items, lecturers.intro, lecturers.summary 示例
-
-- Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：feat: 添加 sections.items author 示例
-
-- Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：feat: 添加 lecturers.intro 和 lecturers.summary 支持
-
-- Jiao 在 [multi-project-course-template](https://github.com/HITSZ-OpenAuto/multi-project-course-template) 中提交了信息：chore: multi-project course template
-
-- Jiao 在 [normal-course-template](https://github.com/HITSZ-OpenAuto/normal-course-template) 中提交了信息：chore: normal course template
 
 ## 待解决的 Issues
 
@@ -132,13 +114,13 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:26:43
 - **作者**: WDGaster703
 
-### [【AUTO3016】](https://github.com/HITSZ-OpenAuto/AUTO3016/issues/33)
-
-- **仓库**: AUTO3016
-- **创建于**: 2026-03-09 23:26:39
-- **作者**: WDGaster703
-
 ## 待合并的 Pull Requests
+
+### [修改内容](https://github.com/HITSZ-OpenAuto/EE30XX/pull/5)
+
+- **仓库**: EE30XX
+- **创建于**: 2026-03-16 13:22:06
+- **作者**: WDGaster703
 
 ### [修改格式](https://github.com/HITSZ-OpenAuto/EE3015/pull/16)
 
