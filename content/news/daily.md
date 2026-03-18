@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周三 (3.18)
+
+- Kowyo 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：测试 LaTeX 显示
+
 ### 周二 (3.17)
 
 - Jiao Ziang 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：补充王悦昶老师的评价
