@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-17'
+date: '2026-03-18'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周二 (3.17)
 
 - Jiao Ziang 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：补充王悦昶老师的评价
-
-### 周一 (3.16)
-
-- W. D. Gaster 在 [专业综合实践](https://github.com/HITSZ-OpenAuto/EE304X) 中提交了信息：添加内容 (#7)
 
 ## 待解决的 Issues
 
@@ -122,6 +118,12 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3016
 - **创建于**: 2026-03-09 23:26:39
+- **作者**: WDGaster703
+
+### [【MATH1002】](https://github.com/HITSZ-OpenAuto/MATH1002/issues/37)
+
+- **仓库**: MATH1002
+- **创建于**: 2026-03-09 23:26:30
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
