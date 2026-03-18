@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (3.18)
 
+- W. D. Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：修改格式 (#16)
+
 - Kowyo 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：测试 LaTeX 显示
 
 ### 周二 (3.17)
@@ -132,16 +134,16 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [修改内容](https://github.com/HITSZ-OpenAuto/EE30XX/pull/5)
+### [修复格式错误，将红外波实验移动到 archived 文件夹中](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/71)
 
-- **仓库**: EE30XX
-- **创建于**: 2026-03-16 13:22:06
+- **仓库**: PHYS1002
+- **创建于**: 2026-03-18 22:01:43
 - **作者**: WDGaster703
 
-### [修改格式](https://github.com/HITSZ-OpenAuto/EE3015/pull/16)
+### [修复大量格式混乱和内容错误](https://github.com/HITSZ-OpenAuto/PE100X/pull/39)
 
-- **仓库**: EE3015
-- **创建于**: 2026-03-15 12:42:51
+- **仓库**: PE100X
+- **创建于**: 2026-03-18 21:50:41
 - **作者**: WDGaster703
 
 ### [修改格式](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/44)
