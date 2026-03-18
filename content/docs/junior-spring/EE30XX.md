@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/EE30XX/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 3 月 10 日" author="Jiao Ziang" message="删除遗留的废弃标签" >}}
+{{< update-info update_time="2026 年 3 月 18 日" author="W. D. Gaster" message="Merge pull request #5 from HITSZ-OpenAuto/WDGaster703-patch-1" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 电气专业的选修课开设于第三学年春季学期和第四学年秋季学期。
@@ -79,7 +79,7 @@ math: true
 
 平时分包括考勤、课上小测以及课后作业。课程难度适中，学的东西是电力系统规划/电力市场，主要就是运筹学和写代码。
 
-实验很简单，一堂课做两三个实验，不会写的直接问 gpt 就行，实验可以五分钟速通。
+实验很简单，一堂课做两三个实验，不会写的直接问 GPT 就行，实验可以五分钟速通。
 
 > 文 / LJH，2025-11
 
@@ -136,7 +136,7 @@ math: true
 
 ### 授课教师
 
-- 多个老师 (集体)
+- 梁仲明，詹瀚林，梁高琪，张弦，吴婷，喻锦程，孙丽，朱荣伍
 
 ### 课程评价
 
@@ -190,7 +190,7 @@ math: true
 
 ### 授课教师
 
-- 叶剑
+- 叶剑（已离职，故 22 级未开设）
 
 ## EE3029 - 高电压技术
 <!-- TOML-COURSE: code="EE3029" name="高电压技术" -->
