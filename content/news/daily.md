@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (3.19)
 
+- patrick1129star 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：补充了实验说明
+
 - patrick1129star 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：补充了一些关于实验.md
 
 ### 周三 (3.18)
