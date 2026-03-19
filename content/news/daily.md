@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-18'
+date: '2026-03-19'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,10 +17,6 @@ title: AUTO 更新速递
 - W. D. Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：修改格式 (#16)
 
 - Kowyo 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：测试 LaTeX 显示
-
-### 周二 (3.17)
-
-- Jiao Ziang 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：补充王悦昶老师的评价
 
 ## 待解决的 Issues
 
@@ -133,6 +129,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [修改课程内容排版](https://github.com/HITSZ-OpenAuto/EE2004/pull/22)
+
+- **仓库**: EE2004
+- **创建于**: 2026-03-18 23:31:06
+- **作者**: WDGaster703
 
 ### [修复格式错误，将红外波实验移动到 archived 文件夹中](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/71)
 
