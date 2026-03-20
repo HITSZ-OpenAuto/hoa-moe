@@ -14,7 +14,7 @@ title: AUTO 更新速递
 
 ### 周五 (3.20)
 
-- 吹向无叶 | Leaflessward 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：勘误 Exp12 说明 (#72)
+- 吹向无叶 | Leaflessward 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：追加勘误说明#72
 
 ### 周四 (3.19)
 
