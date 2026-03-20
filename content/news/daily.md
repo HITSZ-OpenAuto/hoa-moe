@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (3.20)
 
+- IcyDesert 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：fix(style): 统一 toml 格式为 sections
+
 - 吹向无叶 | Leaflessward 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：追加勘误说明#72
 
 ### 周四 (3.19)
