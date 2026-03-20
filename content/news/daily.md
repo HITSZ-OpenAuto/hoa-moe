@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-19'
+date: '2026-03-20'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,12 +17,6 @@ title: AUTO 更新速递
 - patrick1129star 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：补充了实验说明
 
 - patrick1129star 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：补充了一些关于实验.md
-
-### 周三 (3.18)
-
-- W. D. Gaster 在 [电力系统分析](https://github.com/HITSZ-OpenAuto/EE3015) 中提交了信息：修改格式 (#16)
-
-- Kowyo 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：测试 LaTeX 显示
 
 ## 待解决的 Issues
 
