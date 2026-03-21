@@ -36,12 +36,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:27:33
 - **作者**: WDGaster703
 
-### [【PHYS1002】](https://github.com/HITSZ-OpenAuto/PHYS1002/issues/70)
-
-- **仓库**: PHYS1002
-- **创建于**: 2026-03-09 23:27:28
-- **作者**: WDGaster703
-
 ### [【AUTO3002A】](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/52)
 
 - **仓库**: AUTO3002A
@@ -126,6 +120,12 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:26:30
 - **作者**: WDGaster703
 
+### [【AUTO2006】](https://github.com/HITSZ-OpenAuto/AUTO2006/issues/27)
+
+- **仓库**: AUTO2006
+- **创建于**: 2026-03-09 23:26:26
+- **作者**: WDGaster703
+
 ## 待合并的 Pull Requests
 
 ### [fix(style): 统一 toml 格式为 sections 段](https://github.com/HITSZ-OpenAuto/COMP2050/pull/23)
@@ -138,12 +138,6 @@ title: AUTO 更新速递
 
 - **仓库**: EE2004
 - **创建于**: 2026-03-18 23:31:06
-- **作者**: WDGaster703
-
-### [修复格式错误，将红外波实验移动到 archived 文件夹中](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/71)
-
-- **仓库**: PHYS1002
-- **创建于**: 2026-03-18 22:01:43
 - **作者**: WDGaster703
 
 ### [修复大量格式混乱和内容错误](https://github.com/HITSZ-OpenAuto/PE100X/pull/39)
