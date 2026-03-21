@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-20'
+date: '2026-03-21'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -14,15 +14,7 @@ title: AUTO 更新速递
 
 ### 周五 (3.20)
 
-- IcyDesert 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：fix(style): 统一 toml 格式为 sections
-
 - 吹向无叶 | Leaflessward 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：追加勘误说明#72
-
-### 周四 (3.19)
-
-- patrick1129star 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：补充了实验说明
-
-- patrick1129star 在 [大数据导论](https://github.com/HITSZ-OpenAuto/COMP3009) 中提交了信息：补充了一些关于实验.md
 
 ## 待解决的 Issues
 
@@ -135,6 +127,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [fix(style): 统一 toml 格式为 sections 段](https://github.com/HITSZ-OpenAuto/COMP2050/pull/23)
+
+- **仓库**: COMP2050
+- **创建于**: 2026-03-20 22:38:21
+- **作者**: IcyDesert
 
 ### [修改课程内容排版](https://github.com/HITSZ-OpenAuto/EE2004/pull/22)
 
