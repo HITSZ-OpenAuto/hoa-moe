@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-21'
+date: '2026-03-22'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -11,10 +11,6 @@ title: AUTO 更新速递
 ---
 
 ## 更新内容
-
-### 周五 (3.20)
-
-- 吹向无叶 | Leaflessward 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：追加勘误说明#72
 
 ## 待解决的 Issues
 
@@ -127,6 +123,18 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [feat: 新增课程《改革开放与新时代》答案](https://github.com/HITSZ-OpenAuto/MOOC/pull/28)
+
+- **仓库**: MOOC
+- **创建于**: 2026-03-22 01:38:38
+- **作者**: GoldenHeng
+
+### [docs: 增加一条链接](https://github.com/HITSZ-OpenAuto/MOOC/pull/27)
+
+- **仓库**: MOOC
+- **创建于**: 2026-03-22 01:28:34
+- **作者**: GoldenHeng
 
 ### [fix(style): 统一 toml 格式为 sections 段](https://github.com/HITSZ-OpenAuto/COMP2050/pull/23)
 
