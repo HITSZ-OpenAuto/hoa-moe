@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周一 (3.23)
 
+- Jiao Ziang 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：修复老版本教师格式问题
+
 - Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修复遗留的老版本教师问题
 
 ## 待解决的 Issues
@@ -127,6 +129,36 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [修复老版本教师格式错误](https://github.com/HITSZ-OpenAuto/AUTO5005/pull/21)
+
+- **仓库**: AUTO5005
+- **创建于**: 2026-03-23 00:17:17
+- **作者**: LiPu-jpg
+
+### [修复老版本遗留的教师格式问题](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/34)
+
+- **仓库**: AUTO3002B
+- **创建于**: 2026-03-23 00:15:46
+- **作者**: LiPu-jpg
+
+### [修复老版本错误教师格式](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/26)
+
+- **仓库**: AUTO5023
+- **创建于**: 2026-03-23 00:13:46
+- **作者**: LiPu-jpg
+
+### [修复老版本教师格式遗留问题](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/32)
+
+- **仓库**: MATH1015A
+- **创建于**: 2026-03-23 00:11:06
+- **作者**: LiPu-jpg
+
+### [修复老版本遗留的教师格式错误](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/25)
+
+- **仓库**: AUTO5013
+- **创建于**: 2026-03-23 00:08:41
+- **作者**: LiPu-jpg
 
 ### [修复错误的教师格式（老版本->新版本）](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/42)
 
