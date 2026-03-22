@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周一 (3.23)
+
+- Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修复遗留的老版本教师问题
+
 ## 待解决的 Issues
 
 ### [【course-template】](https://github.com/HITSZ-OpenAuto/course-template/issues/25)
@@ -123,6 +127,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [修复错误的教师格式（老版本->新版本）](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/42)
+
+- **仓库**: GEIP1011
+- **创建于**: 2026-03-22 23:59:23
+- **作者**: LiPu-jpg
 
 ### [feat: 新增课程《改革开放与新时代》答案](https://github.com/HITSZ-OpenAuto/MOOC/pull/28)
 
