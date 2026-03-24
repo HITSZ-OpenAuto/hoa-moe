@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-23'
+date: '2026-03-24'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -14,9 +14,7 @@ title: AUTO 更新速递
 
 ### 周一 (3.23)
 
-- Jiao Ziang 在 [软件工程](https://github.com/HITSZ-OpenAuto/COMP3002) 中提交了信息：修复老版本教师格式问题
-
-- Jiao Ziang 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：修复遗留的老版本教师问题
+- IcyDesert 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：fix(style): 统一 toml 格式为 sections
 
 ## 待解决的 Issues
 
@@ -80,12 +78,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:27:01
 - **作者**: WDGaster703
 
-### [【COMP2050】](https://github.com/HITSZ-OpenAuto/COMP2050/issues/22)
-
-- **仓库**: COMP2050
-- **创建于**: 2026-03-09 23:26:58
-- **作者**: WDGaster703
-
 ### [【MATH1005】](https://github.com/HITSZ-OpenAuto/MATH1005/issues/40)
 
 - **仓库**: MATH1005
@@ -126,6 +118,12 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO2006
 - **创建于**: 2026-03-09 23:26:26
+- **作者**: WDGaster703
+
+### [【EE1007】](https://github.com/HITSZ-OpenAuto/EE1007/issues/30)
+
+- **仓库**: EE1007
+- **创建于**: 2026-03-09 23:26:22
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
@@ -177,12 +175,6 @@ title: AUTO 更新速递
 - **仓库**: MOOC
 - **创建于**: 2026-03-22 01:28:34
 - **作者**: GoldenHeng
-
-### [fix(style): 统一 toml 格式为 sections 段](https://github.com/HITSZ-OpenAuto/COMP2050/pull/23)
-
-- **仓库**: COMP2050
-- **创建于**: 2026-03-20 22:38:21
-- **作者**: IcyDesert
 
 ### [修改课程内容排版](https://github.com/HITSZ-OpenAuto/EE2004/pull/22)
 
