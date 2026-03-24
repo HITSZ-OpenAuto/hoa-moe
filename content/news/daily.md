@@ -128,6 +128,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [fix: 修正 toml 内容](https://github.com/HITSZ-OpenAuto/COMP2001/pull/6)
+
+- **仓库**: COMP2001
+- **创建于**: 2026-03-24 10:07:49
+- **作者**: IcyDesert
+
 ### [修复老版本教师格式错误](https://github.com/HITSZ-OpenAuto/AUTO5005/pull/21)
 
 - **仓库**: AUTO5005
