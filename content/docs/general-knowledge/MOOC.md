@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2025 年 11 月 22 日" author="Kowyo" message="整理 README 的结构和格式 (#21)" >}}
+{{< update-info update_time="2026 年 3 月 27 日" author="GoldenHeng" message="增加一条链接 (#27)" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 本文件夹下目录采用 答案 + README.md 的形式，README.md 则是描述该门课程的相关说明
@@ -68,6 +68,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称，与其他
 
 - [智慧树](https://github.com/CXRunfree/Autovisor)
 - [雨课堂](https://github.com/Niuwh/yuketang-jiaoben)
+- [AutoCourse-DB](https://github.com/GoldenHeng/AutoCourse-DB)
 
 测试答案见 [资料下载](https://hoa.moe/docs/general-knowledge/mooc/#资料下载)
 
