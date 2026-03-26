@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-25'
+date: '2026-03-26'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (3.23)
+### 周五 (3.27)
 
-- IcyDesert 在 [数据结构与算法](https://github.com/HITSZ-OpenAuto/COMP2050) 中提交了信息：fix(style): 统一 toml 格式为 sections
+- GoldenHeng 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：增加一条链接 (#27)
 
 ## 待解决的 Issues
 
@@ -180,12 +180,6 @@ title: AUTO 更新速递
 
 - **仓库**: MOOC
 - **创建于**: 2026-03-22 01:38:38
-- **作者**: GoldenHeng
-
-### [docs: 增加一条链接](https://github.com/HITSZ-OpenAuto/MOOC/pull/27)
-
-- **仓库**: MOOC
-- **创建于**: 2026-03-22 01:28:34
 - **作者**: GoldenHeng
 
 ### [修改课程内容排版](https://github.com/HITSZ-OpenAuto/EE2004/pull/22)
