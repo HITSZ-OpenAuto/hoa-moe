@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (3.27)
 
+- GoldenHeng 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：新增课程《改革开放与新时代》答案 (#28)
+
 - GoldenHeng 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：增加一条链接 (#27)
 
 ## 待解决的 Issues
@@ -175,12 +177,6 @@ title: AUTO 更新速递
 - **仓库**: GEIP1011
 - **创建于**: 2026-03-22 23:59:23
 - **作者**: LiPu-jpg
-
-### [feat: 新增课程《改革开放与新时代》答案](https://github.com/HITSZ-OpenAuto/MOOC/pull/28)
-
-- **仓库**: MOOC
-- **创建于**: 2026-03-22 01:38:38
-- **作者**: GoldenHeng
 
 ### [修改课程内容排版](https://github.com/HITSZ-OpenAuto/EE2004/pull/22)
 
