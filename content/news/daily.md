@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-27'
+date: '2026-03-28'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周五 (3.27)
+### 周六 (3.28)
 
-- GoldenHeng 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：新增课程《改革开放与新时代》答案 (#28)
-
-- GoldenHeng 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：增加一条链接 (#27)
+- rana608 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：示波器实验说明部分 (#74)
 
 ## 待解决的 Issues
 
@@ -135,6 +133,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [更改了实验的编号](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/73)
+
+- **仓库**: PHYS1002
+- **创建于**: 2026-03-28 11:15:14
+- **作者**: IceFerryLing
 
 ### [fix: 修正 toml 内容](https://github.com/HITSZ-OpenAuto/COMP2001/pull/6)
 
