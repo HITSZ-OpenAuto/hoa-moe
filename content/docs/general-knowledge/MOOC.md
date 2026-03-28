@@ -6,6 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
+{{< update-info update_time="2026 年 3 月 27 日" author="GoldenHeng" message="新增课程《改革开放与新时代》答案 (#28)" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 本文件夹下目录采用 答案 + README.md 的形式，README.md 则是描述该门课程的相关说明
