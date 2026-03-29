@@ -12,6 +12,12 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (3.29)
+
+- Mingjia Zhou 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：新增通信数字信号处理入门课程的评价 (#22)
+
+- baidu 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：更改了实验的编号 (#73)
+
 ### 周六 (3.28)
 
 - rana608 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：示波器实验说明部分 (#74)
@@ -133,12 +139,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [更改了实验的编号](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/73)
-
-- **仓库**: PHYS1002
-- **创建于**: 2026-03-28 11:15:14
-- **作者**: IceFerryLing
 
 ### [fix: 修正 toml 内容](https://github.com/HITSZ-OpenAuto/COMP2001/pull/6)
 
