@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-29'
+date: '2026-03-30'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,10 +17,6 @@ title: AUTO 更新速递
 - Mingjia Zhou 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：新增通信数字信号处理入门课程的评价 (#22)
 
 - baidu 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：更改了实验的编号 (#73)
-
-### 周六 (3.28)
-
-- rana608 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：示波器实验说明部分 (#74)
 
 ## 待解决的 Issues
 
@@ -139,6 +135,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [仓库内容审查与结构规范化](https://github.com/HITSZ-OpenAuto/AUTO5024/pull/25)
+
+- **仓库**: AUTO5024
+- **创建于**: 2026-03-29 21:46:44
+- **作者**: Co-ding-Man
 
 ### [fix: 修正 toml 内容](https://github.com/HITSZ-OpenAuto/COMP2001/pull/6)
 
