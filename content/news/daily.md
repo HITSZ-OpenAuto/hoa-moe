@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-03-30'
+date: '2026-03-31'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,12 +15,6 @@ title: AUTO 更新速递
 ### 周一 (3.30)
 
 - Hye 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：仓库内容审查与结构规范化 (#25)
-
-### 周日 (3.29)
-
-- Mingjia Zhou 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：新增通信数字信号处理入门课程的评价 (#22)
-
-- baidu 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：更改了实验的编号 (#73)
 
 ## 待解决的 Issues
 
@@ -136,6 +130,12 @@ title: AUTO 更新速递
 
 - **仓库**: EE1009
 - **创建于**: 2026-03-09 23:26:19
+- **作者**: WDGaster703
+
+### [【EE1010】](https://github.com/HITSZ-OpenAuto/EE1010/issues/23)
+
+- **仓库**: EE1010
+- **创建于**: 2026-03-09 23:26:15
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
