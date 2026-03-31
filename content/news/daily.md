@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周二 (3.31)
+
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ECON) 中提交了信息：Initial commit
+
 ### 周一 (3.30)
 
 - Hye 在 [模式识别](https://github.com/HITSZ-OpenAuto/AUTO5024) 中提交了信息：仓库内容审查与结构规范化 (#25)
