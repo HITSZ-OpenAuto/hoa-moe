@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周二 (3.31)
 
+- Jiao Ziang 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：补全基本信息
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ECON) 中提交了信息：Initial commit
 
 ### 周一 (3.30)
@@ -143,6 +145,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [添加经管类跨专业课程](https://github.com/HITSZ-OpenAuto/Cross-ECON/pull/1)
+
+- **仓库**: Cross-ECON
+- **创建于**: 2026-03-31 21:29:33
+- **作者**: WDGaster703
 
 ### [fix: 修正 toml 内容](https://github.com/HITSZ-OpenAuto/COMP2001/pull/6)
 
