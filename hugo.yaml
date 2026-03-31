@@ -1,4 +1,4 @@
-baseURL: "https://hoa.moe/"
+baseURL: "https://v2.hoa.moe/"
 title: HITSZ 自动化课程攻略共享计划
 
 theme: ["hextra", "hugo-embed-pdf-shortcode"]
@@ -125,10 +125,10 @@ menu:
 params:
   description: 由 HITSZ OpenAuto 维护，为 HITSZ 学子提供课程攻略共享服务
 
-  banner:
-    key: announcement-20260303
-    message: |
-      HOA 新版本测试中！🎉 欢迎访问并给我们[反馈](https://github.com/HITSZ-OpenAuto/hoa-fuma/issues)：<https://v3.hoa.moe>
+  # banner:
+  #   key: announcement-20260303
+  #   message: |
+  #     HOA 新版本测试中！🎉 欢迎访问并给我们[反馈](https://github.com/HITSZ-OpenAuto/hoa-fuma/issues)：<https://v3.hoa.moe>
   math:
     engine: mathjax
   navbar:

@@ -59,7 +59,7 @@ bun run build:css # build only CSS
 
 ## Contributing
 
-If you would like to contribute to the document, please refer to our [contribution guide](https://hoa.moe/blog/contribution-guide/). We also welcome code contributions, especially those addressing existing issues.
+If you would like to contribute to the document, please refer to our [contribution guide](https://wiki.hoa.moe). We also welcome code contributions, especially those addressing existing issues.
 
 ## License
 
