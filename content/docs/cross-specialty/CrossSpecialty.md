@@ -1,12 +1,12 @@
 ---
 title: 跨专业选修课程体系
-weight: 669
+weight: 670
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 3 月 10 日" author="Jiao Ziang" message="删除测试内容检查 toml 生成能力" >}}
+{{< update-info update_time="2026 年 3 月 31 日" author="Jiao Ziang" message="补全基本信息" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 自 23 级起，跨专业发展课程学分从创新学分 14 分中独立出来，成为单独的 10 学分的跨专业课程学分要求。
