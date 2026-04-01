@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (4.1)
 
+- Pengjie Wang 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：完善了课程信息
+
 - Kowyo 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：完善课程信息 (#33)
 
 - Pengjie Wang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：完善课程信息
@@ -221,10 +223,4 @@ title: AUTO 更新速递
 - **仓库**: EE1013
 - **创建于**: 2026-03-11 15:01:22
 - **作者**: WDGaster703
-
-### [完善了课程信息](https://github.com/HITSZ-OpenAuto/GEIP1017/pull/19)
-
-- **仓库**: GEIP1017
-- **创建于**: 2026-02-06 22:43:09
-- **作者**: wpj9362
 
