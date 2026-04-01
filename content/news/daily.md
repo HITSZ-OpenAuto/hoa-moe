@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (4.1)
 
+- Kowyo 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：完善课程信息 (#33)
+
 - Pengjie Wang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：完善课程信息
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ECON) 中提交了信息：添加经管类跨专业课程 (#1)
@@ -224,11 +226,5 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1017
 - **创建于**: 2026-02-06 22:43:09
-- **作者**: wpj9362
-
-### [完善课程信息](https://github.com/HITSZ-OpenAuto/MATH1002/pull/33)
-
-- **仓库**: MATH1002
-- **创建于**: 2026-02-06 22:33:44
 - **作者**: wpj9362
 
