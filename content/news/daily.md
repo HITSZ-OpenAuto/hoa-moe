@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-02'
+date: '2026-04-03'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,13 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (4.1)
+### 周五 (4.3)
 
-- Pengjie Wang 在 [习近平新时代中国特色社会主义思想概论](https://github.com/HITSZ-OpenAuto/GEIP1017) 中提交了信息：完善了课程信息
-
-- Kowyo 在 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 中提交了信息：完善课程信息 (#33)
-
-- Pengjie Wang 在 [离散数学](https://github.com/HITSZ-OpenAuto/COMP2030) 中提交了信息：完善课程信息
+- Fun10165 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：添加 Fun10165 的实验报告 (#75)
 
 ## 待解决的 Issues
 
@@ -128,18 +124,6 @@ title: AUTO 更新速递
 
 - **仓库**: EE1007
 - **创建于**: 2026-03-09 23:26:22
-- **作者**: WDGaster703
-
-### [【EE1009】](https://github.com/HITSZ-OpenAuto/EE1009/issues/32)
-
-- **仓库**: EE1009
-- **创建于**: 2026-03-09 23:26:19
-- **作者**: WDGaster703
-
-### [【EE1010】](https://github.com/HITSZ-OpenAuto/EE1010/issues/23)
-
-- **仓库**: EE1010
-- **创建于**: 2026-03-09 23:26:15
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
