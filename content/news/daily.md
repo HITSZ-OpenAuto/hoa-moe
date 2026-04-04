@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (4.4)
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-SPST) 中提交了信息：新仓库整理
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-SPST) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：Initial commit
@@ -114,7 +116,19 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:26:39
 - **作者**: WDGaster703
 
+### [【MATH1002】](https://github.com/HITSZ-OpenAuto/MATH1002/issues/37)
+
+- **仓库**: MATH1002
+- **创建于**: 2026-03-09 23:26:30
+- **作者**: WDGaster703
+
 ## 待合并的 Pull Requests
+
+### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
+
+- **仓库**: COMP3059
+- **创建于**: 2026-04-04 21:46:57
+- **作者**: LiPu-jpg
 
 ### [新仓库整理](https://github.com/HITSZ-OpenAuto/Cross-Science/pull/1)
 
