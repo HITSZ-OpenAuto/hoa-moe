@@ -1,6 +1,6 @@
 ---
 title: 经济学原理
-weight: 672
+weight: 673
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/ECON2005F/edit/main/README.md"
 math: true
