@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (4.4)
+
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：Initial commit
+
 ### 周五 (4.3)
 
 - Fun10165 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：添加 Fun10165 的实验报告 (#75)
@@ -106,12 +110,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3016
 - **创建于**: 2026-03-09 23:26:39
-- **作者**: WDGaster703
-
-### [【MATH1002】](https://github.com/HITSZ-OpenAuto/MATH1002/issues/37)
-
-- **仓库**: MATH1002
-- **创建于**: 2026-03-09 23:26:30
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
