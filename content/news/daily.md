@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (4.4)
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：新仓库整理
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-SPST) 中提交了信息：新仓库整理
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-SPST) 中提交了信息：Initial commit
@@ -129,12 +131,6 @@ title: AUTO 更新速递
 - **仓库**: COMP3059
 - **创建于**: 2026-04-04 21:46:57
 - **作者**: LiPu-jpg
-
-### [新仓库整理](https://github.com/HITSZ-OpenAuto/Cross-Science/pull/1)
-
-- **仓库**: Cross-Science
-- **创建于**: 2026-04-04 21:33:59
-- **作者**: WDGaster703
 
 ### [fix: 修正 toml 内容](https://github.com/HITSZ-OpenAuto/COMP2001/pull/6)
 
