@@ -1,6 +1,6 @@
 ---
 title: （限选）电气专业选修课
-weight: 290
+weight: 291
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/EE30XX/edit/main/README.md"
 math: true
