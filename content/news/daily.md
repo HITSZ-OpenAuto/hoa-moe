@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (4.5)
 
+- W. D. Gaster 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：修改为归档，从跨专业列表删除
+
 - W. D. Gaster 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：将写沟从文理通识中移至必修部分
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：添加一门课程
@@ -37,18 +39,6 @@ title: AUTO 更新速递
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
-
-### [【course-template】](https://github.com/HITSZ-OpenAuto/course-template/issues/25)
-
-- **仓库**: course-template
-- **创建于**: 2026-03-09 23:28:04
-- **作者**: WDGaster703
-
-### [【CHEM1012】](https://github.com/HITSZ-OpenAuto/CHEM1012/issues/23)
-
-- **仓库**: CHEM1012
-- **创建于**: 2026-03-09 23:27:37
-- **作者**: WDGaster703
 
 ### [【AUTO2005】](https://github.com/HITSZ-OpenAuto/AUTO2005/issues/43)
 
@@ -134,7 +124,25 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:26:30
 - **作者**: WDGaster703
 
+### [【AUTO2006】](https://github.com/HITSZ-OpenAuto/AUTO2006/issues/27)
+
+- **仓库**: AUTO2006
+- **创建于**: 2026-03-09 23:26:26
+- **作者**: WDGaster703
+
+### [【EE1007】](https://github.com/HITSZ-OpenAuto/EE1007/issues/30)
+
+- **仓库**: EE1007
+- **创建于**: 2026-03-09 23:26:22
+- **作者**: WDGaster703
+
 ## 待合并的 Pull Requests
+
+### [将日语和中国科技史话仓库合并](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/27)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2026-04-05 21:48:22
+- **作者**: WDGaster703
 
 ### [新仓库整理](https://github.com/HITSZ-OpenAuto/Cross--CEEV/pull/1)
 
