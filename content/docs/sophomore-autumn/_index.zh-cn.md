@@ -17,6 +17,7 @@ toc: false
 {{< card link="pe100x" title="体育" >}}
 {{< card link="phys1001" title="大学物理" >}}
 {{< card link="phys1002" title="大学物理实验" >}}
+{{< card link="writ0001" title="写作与沟通" >}}
 {{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/course-selection-auto/distributive-guidance-for-23/)
