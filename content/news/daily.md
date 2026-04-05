@@ -16,6 +16,8 @@ title: AUTO 更新速递
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：Update course code from 'Cross-Science' to 'Cross-ENER'
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross--CEEV) 中提交了信息：Initial commit
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：新仓库整理 (#1)
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：Initial commit
@@ -129,6 +131,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [新仓库整理](https://github.com/HITSZ-OpenAuto/Cross--CEEV/pull/1)
+
+- **仓库**: Cross--CEEV
+- **创建于**: 2026-04-05 15:52:32
+- **作者**: WDGaster703
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
 
