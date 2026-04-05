@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-04'
+date: '2026-04-05'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -21,10 +21,6 @@ title: AUTO 更新速递
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-SPST) 中提交了信息：Initial commit
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：Initial commit
-
-### 周五 (4.3)
-
-- Fun10165 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：添加 Fun10165 的实验报告 (#75)
 
 ## 待解决的 Issues
 
