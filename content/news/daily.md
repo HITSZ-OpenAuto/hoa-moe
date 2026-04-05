@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周日 (4.5)
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ARCH) 中提交了信息：新仓库整理
+
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ARCH) 中提交了信息：Initial commit
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-EIE) 中提交了信息：新仓库整理
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-EIE) 中提交了信息：Initial commit
