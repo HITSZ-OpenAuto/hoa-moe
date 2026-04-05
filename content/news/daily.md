@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周日 (4.5)
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-EIE) 中提交了信息：新仓库整理
+
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-EIE) 中提交了信息：Initial commit
+
 - W. D. Gaster 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：修改为归档，从跨专业列表删除
 
 - W. D. Gaster 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：将写沟从文理通识中移至必修部分
