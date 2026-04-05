@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周日 (4.5)
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：添加一门课程
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：Update course code from 'Cross-Science' to 'Cross-ENER'
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross--CEEV) 中提交了信息：Initial commit
