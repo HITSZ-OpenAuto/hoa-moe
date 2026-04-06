@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-05'
+date: '2026-04-06'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -37,16 +37,6 @@ title: AUTO 更新速递
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：新仓库整理 (#1)
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：Initial commit
-
-### 周六 (4.4)
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：新仓库整理
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-SPST) 中提交了信息：新仓库整理
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-SPST) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
