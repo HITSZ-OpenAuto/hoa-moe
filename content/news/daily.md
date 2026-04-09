@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (4.9)
 
+- baidu 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：提交了部分实验报告和实验说明 (#76)
+
 - Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：修复老版本错误教师格式 (#26)
 
 ## 待解决的 Issues
