@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 25 日" author="Mingjia Zhou" message="增加了对三门文理通识课程的描述 且将表述进行了修改 (#22)" >}}
+{{< update-info update_time="2026 年 4 月 9 日" author="W. D. Gaster" message="将日语和中国科技史话仓库合并 (#27)" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 ## 关于「文理通识」课程
