@@ -26,12 +26,6 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [【AUTO2005】](https://github.com/HITSZ-OpenAuto/AUTO2005/issues/43)
-
-- **仓库**: AUTO2005
-- **创建于**: 2026-03-09 23:27:33
-- **作者**: WDGaster703
-
 ### [【AUTO3002A】](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/52)
 
 - **仓库**: AUTO3002A
@@ -122,6 +116,12 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:26:22
 - **作者**: WDGaster703
 
+### [【EE1009】](https://github.com/HITSZ-OpenAuto/EE1009/issues/32)
+
+- **仓库**: EE1009
+- **创建于**: 2026-03-09 23:26:19
+- **作者**: WDGaster703
+
 ## 待合并的 Pull Requests
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
@@ -176,12 +176,6 @@ title: AUTO 更新速递
 
 - **仓库**: PE100X
 - **创建于**: 2026-03-18 21:50:41
-- **作者**: WDGaster703
-
-### [修改格式](https://github.com/HITSZ-OpenAuto/AUTO2005/pull/44)
-
-- **仓库**: AUTO2005
-- **创建于**: 2026-03-11 20:42:27
 - **作者**: WDGaster703
 
 ### [修改错误](https://github.com/HITSZ-OpenAuto/EE1018/pull/8)
