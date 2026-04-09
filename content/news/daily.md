@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-06'
+date: '2026-04-09'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,31 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (4.5)
+### 周四 (4.9)
 
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：添加机械类跨专业课程
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ARCH) 中提交了信息：新仓库整理
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ARCH) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-EIE) 中提交了信息：新仓库整理
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-EIE) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [深度学习体系结构](https://github.com/HITSZ-OpenAuto/COMP3043) 中提交了信息：修改为归档，从跨专业列表删除
-
-- W. D. Gaster 在 [写作与沟通](https://github.com/HITSZ-OpenAuto/WRIT0001) 中提交了信息：将写沟从文理通识中移至必修部分
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：添加一门课程
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：Update course code from 'Cross-Science' to 'Cross-ENER'
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-CEEV) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：新仓库整理 (#1)
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：Initial commit
+- Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：修复老版本错误教师格式 (#26)
 
 ## 待解决的 Issues
 
@@ -166,12 +144,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3002B
 - **创建于**: 2026-03-23 00:15:46
-- **作者**: LiPu-jpg
-
-### [修复老版本错误教师格式](https://github.com/HITSZ-OpenAuto/AUTO5023/pull/26)
-
-- **仓库**: AUTO5023
-- **创建于**: 2026-03-23 00:13:46
 - **作者**: LiPu-jpg
 
 ### [修复老版本教师格式遗留问题](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/32)
