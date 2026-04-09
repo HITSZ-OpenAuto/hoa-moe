@@ -14,6 +14,12 @@ title: AUTO 更新速递
 
 ### 周四 (4.9)
 
+- W. D. Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：将日语和中国科技史话仓库合并 (#27)
+
+- Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：修复错误格式
+
+- Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：删除重复字段 (#27)
+
 - baidu 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：提交了部分实验报告和实验说明 (#76)
 
 - Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：修复老版本错误教师格式 (#26)
@@ -117,12 +123,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [将日语和中国科技史话仓库合并](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/27)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-04-05 21:48:22
-- **作者**: WDGaster703
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
 
