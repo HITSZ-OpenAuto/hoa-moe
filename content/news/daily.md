@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (4.9)
 
+- W. D. Gaster 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改格式 (#44)
+
 - W. D. Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：将日语和中国科技史话仓库合并 (#27)
 
 - Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：修复错误格式
