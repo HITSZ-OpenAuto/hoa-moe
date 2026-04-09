@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (4.9)
 
+- IcyDesert 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：fix: 修正 toml 内容 (#6)
+
 - W. D. Gaster 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改格式 (#44)
 
 - W. D. Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：将日语和中国科技史话仓库合并 (#27)
@@ -131,12 +133,6 @@ title: AUTO 更新速递
 - **仓库**: COMP3059
 - **创建于**: 2026-04-04 21:46:57
 - **作者**: LiPu-jpg
-
-### [fix: 修正 toml 内容](https://github.com/HITSZ-OpenAuto/COMP2001/pull/6)
-
-- **仓库**: COMP2001
-- **创建于**: 2026-03-24 10:07:49
-- **作者**: IcyDesert
 
 ### [修复老版本教师格式错误](https://github.com/HITSZ-OpenAuto/AUTO5005/pull/21)
 
