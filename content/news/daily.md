@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-10'
+date: '2026-04-13'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,19 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周四 (4.9)
+### 周一 (4.13)
 
-- IcyDesert 在 [计算机专业导论](https://github.com/HITSZ-OpenAuto/COMP2001) 中提交了信息：fix: 修正 toml 内容 (#6)
-
-- W. D. Gaster 在 [信号分析与处理](https://github.com/HITSZ-OpenAuto/AUTO2005) 中提交了信息：修改格式 (#44)
-
-- W. D. Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：将日语和中国科技史话仓库合并 (#27)
-
-- Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：修复错误格式
-
-- Jiao Ziang 在 [凸优化与最优控制](https://github.com/HITSZ-OpenAuto/AUTO5023) 中提交了信息：删除重复字段 (#27)
-
-- baidu 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：提交了部分实验报告和实验说明 (#76)
+- Venokos 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：为示波器实验增加一些建议 (#77)
 
 ## 待解决的 Issues
 
@@ -125,12 +115,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [示波器实验 README 补充](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/77)
-
-- **仓库**: PHYS1002
-- **创建于**: 2026-04-09 23:16:06
-- **作者**: Venokos
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
 
