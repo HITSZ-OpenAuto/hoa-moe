@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周二 (4.14)
+
+- Jiao Ziang 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：修复老版本教师格式遗留问题 (#32)
+
 ### 周一 (4.13)
 
 - Venokos 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：为示波器实验增加一些建议 (#77)
@@ -126,12 +130,6 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO3002B
 - **创建于**: 2026-03-23 00:15:46
-- **作者**: LiPu-jpg
-
-### [修复老版本教师格式遗留问题](https://github.com/HITSZ-OpenAuto/MATH1015A/pull/32)
-
-- **仓库**: MATH1015A
-- **创建于**: 2026-03-23 00:11:06
 - **作者**: LiPu-jpg
 
 ### [修复老版本遗留的教师格式错误](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/25)
