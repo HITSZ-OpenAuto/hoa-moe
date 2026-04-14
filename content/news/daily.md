@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-13'
+date: '2026-04-14'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -106,12 +106,6 @@ title: AUTO 更新速递
 
 - **仓库**: EE1007
 - **创建于**: 2026-03-09 23:26:22
-- **作者**: WDGaster703
-
-### [【EE1009】](https://github.com/HITSZ-OpenAuto/EE1009/issues/32)
-
-- **仓库**: EE1009
-- **创建于**: 2026-03-09 23:26:19
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
