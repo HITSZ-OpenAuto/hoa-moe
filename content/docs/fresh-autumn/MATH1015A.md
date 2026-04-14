@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015A/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 2 月 5 日" author="Fun10165" message="Merge pull request #28 from Fun10165/main" >}}
+{{< update-info update_time="2026 年 4 月 14 日" author="Jiao Ziang" message="修复老版本教师格式遗留问题 (#32)" >}}
 
 <div class="hoa-badge">
 
