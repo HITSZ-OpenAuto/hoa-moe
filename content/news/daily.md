@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周三 (4.15)
+
+- Kowyo 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：更正课程链接格式
+
 ### 周二 (4.14)
 
 - Jiao Ziang 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：修复老版本教师格式遗留问题 (#32)
@@ -154,6 +158,12 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1011
 - **创建于**: 2026-03-09 23:25:49
+- **作者**: WDGaster703
+
+### [【GEIP1016】](https://github.com/HITSZ-OpenAuto/GEIP1016/issues/27)
+
+- **仓库**: GEIP1016
+- **创建于**: 2026-03-09 23:25:45
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
