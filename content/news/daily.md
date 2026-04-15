@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-14'
+date: '2026-04-15'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周二 (4.14)
 
 - Jiao Ziang 在 [微积分 A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：修复老版本教师格式遗留问题 (#32)
-
-### 周一 (4.13)
-
-- Venokos 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：为示波器实验增加一些建议 (#77)
 
 ## 待解决的 Issues
 
@@ -112,7 +108,61 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:26:22
 - **作者**: WDGaster703
 
+### [【EE1009】](https://github.com/HITSZ-OpenAuto/EE1009/issues/32)
+
+- **仓库**: EE1009
+- **创建于**: 2026-03-09 23:26:19
+- **作者**: WDGaster703
+
+### [【EE1010】](https://github.com/HITSZ-OpenAuto/EE1010/issues/23)
+
+- **仓库**: EE1010
+- **创建于**: 2026-03-09 23:26:15
+- **作者**: WDGaster703
+
+### [【EE1008】](https://github.com/HITSZ-OpenAuto/EE1008/issues/23)
+
+- **仓库**: EE1008
+- **创建于**: 2026-03-09 23:26:11
+- **作者**: WDGaster703
+
+### [【GEIP1018】](https://github.com/HITSZ-OpenAuto/GEIP1018/issues/26)
+
+- **仓库**: GEIP1018
+- **创建于**: 2026-03-09 23:26:07
+- **作者**: WDGaster703
+
+### [【EMEC1002】](https://github.com/HITSZ-OpenAuto/EMEC1002/issues/25)
+
+- **仓库**: EMEC1002
+- **创建于**: 2026-03-09 23:26:03
+- **作者**: WDGaster703
+
+### [【EE1012B】](https://github.com/HITSZ-OpenAuto/EE1012B/issues/22)
+
+- **仓库**: EE1012B
+- **创建于**: 2026-03-09 23:25:56
+- **作者**: WDGaster703
+
+### [【AUTO1001】](https://github.com/HITSZ-OpenAuto/AUTO1001/issues/36)
+
+- **仓库**: AUTO1001
+- **创建于**: 2026-03-09 23:25:52
+- **作者**: WDGaster703
+
+### [【GEIP1011】](https://github.com/HITSZ-OpenAuto/GEIP1011/issues/41)
+
+- **仓库**: GEIP1011
+- **创建于**: 2026-03-09 23:25:49
+- **作者**: WDGaster703
+
 ## 待合并的 Pull Requests
+
+### [更新了对于双选阶段的具体描述以及考查方式的替代方案](https://github.com/HITSZ-OpenAuto/COMP2029/pull/16)
+
+- **仓库**: COMP2029
+- **创建于**: 2026-04-14 23:41:18
+- **作者**: aguo2196
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
 
