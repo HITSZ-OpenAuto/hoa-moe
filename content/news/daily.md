@@ -164,6 +164,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [添加了几份大雾实验报告](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/78)
+
+- **仓库**: PHYS1002
+- **创建于**: 2026-04-20 11:35:25
+- **作者**: NaiYoung007
+
 ### [更新了对于双选阶段的具体描述以及考查方式的替代方案](https://github.com/HITSZ-OpenAuto/COMP2029/pull/16)
 
 - **仓库**: COMP2029
