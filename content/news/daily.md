@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (4.22)
 
+- Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：chore: remove .DS_Store files (#30)
+
 - Yushang Lu 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：新增《当代中国外交（外交学院）》单元测试答案 (#29)
 
 ### 周二 (4.21)
