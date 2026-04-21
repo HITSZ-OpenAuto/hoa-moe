@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MOOC/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 3 月 27 日" author="GoldenHeng" message="新增课程《改革开放与新时代》答案 (#28)" >}}
+{{< update-info update_time="2026 年 4 月 22 日" author="Yushang Lu" message="新增《当代中国外交（外交学院）》单元测试答案 (#29)" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 本文件夹下目录采用 答案 + README.md 的形式，README.md 则是描述该门课程的相关说明
@@ -86,6 +86,7 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称，与其他
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/MOOC" repoURL="https://github.com/HITSZ-OpenAuto/MOOC" >}}
+{{< hoa-filetree/file name="" type="DS_Store" size="6.0 KB" date="2026/04/21" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/.DS_Store" >}}
 {{< hoa-filetree/folder name="人工智能时代的身份、代理、平等和安全" date="" state="closed" >}}
 {{< hoa-filetree/file name="人工智能时代的身份、代理、平等和安全" type="pdf" size="69.0 KB" date="2024/08/27" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8.pdf" >}}
 {{< hoa-filetree/file name="人工智能期末答案" type="docx" size="930.8 KB" date="2024/08/27" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E8%BA%AB%E4%BB%BD%E3%80%81%E4%BB%A3%E7%90%86%E3%80%81%E5%B9%B3%E7%AD%89%E5%92%8C%E5%AE%89%E5%85%A8/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%9F%E6%9C%AB%E7%AD%94%E6%A1%88.docx" >}}
@@ -104,6 +105,10 @@ MOOC 事实上是「文理通识」课程中一类线上课的统称，与其他
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="奇异的仿生学" date="" state="closed" >}}
 {{< hoa-filetree/file name="奇异的仿生学答案整理" type="docx" size="390.4 KB" date="2023/12/01" icon="icons/docx.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E5%A5%87%E5%BC%82%E7%9A%84%E4%BB%BF%E7%94%9F%E5%AD%A6/%E5%A5%87%E5%BC%82%E7%9A%84%E4%BB%BF%E7%94%9F%E5%AD%A6%E7%AD%94%E6%A1%88%E6%95%B4%E7%90%86.docx" >}}
+{{< /hoa-filetree/folder >}}
+{{< hoa-filetree/folder name="当代中国外交（外交学院）" date="" state="closed" >}}
+{{< hoa-filetree/file name="" type="DS_Store" size="6.0 KB" date="2026/04/21" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E5%BD%93%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%A4%96%E4%BA%A4%EF%BC%88%E5%A4%96%E4%BA%A4%E5%AD%A6%E9%99%A2%EF%BC%89/.DS_Store" >}}
+{{< hoa-filetree/file name="当代中国外交 - 单元测试答案" type="pdf" size="421.0 KB" date="2026/04/21" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E5%BD%93%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%A4%96%E4%BA%A4%EF%BC%88%E5%A4%96%E4%BA%A4%E5%AD%A6%E9%99%A2%EF%BC%89/%E5%BD%93%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%A4%96%E4%BA%A4-%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E7%AD%94%E6%A1%88.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="思政实践网课" date="" state="closed" >}}
 {{< hoa-filetree/file name="刷课脚本_书签版" type="js" size="992 bytes" date="2025/11/22" icon="icons/file.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/MOOC/raw/main/%E6%80%9D%E6%94%BF%E5%AE%9E%E8%B7%B5%E7%BD%91%E8%AF%BE/%E5%88%B7%E8%AF%BE%E8%84%9A%E6%9C%AC_%E4%B9%A6%E7%AD%BE%E7%89%88.js" >}}
