@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-21'
+date: '2026-04-22'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,10 +17,6 @@ title: AUTO 更新速递
 - Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：chore: remove .DS_Store files (#30)
 
 - Yushang Lu 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：新增《当代中国外交（外交学院）》单元测试答案 (#29)
-
-### 周二 (4.21)
-
-- NaiYoung007 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：添加了几份大雾实验报告 (#78)
 
 ## 待解决的 Issues
 
