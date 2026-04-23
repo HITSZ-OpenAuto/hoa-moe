@@ -20,6 +20,12 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
+### [仓库链接问题没有完全修复](https://github.com/HITSZ-OpenAuto/EE1018/issues/9)
+
+- **仓库**: EE1018
+- **创建于**: 2026-04-22 23:03:09
+- **作者**: IceFerryLing
+
 ### [【AUTO3002A】](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/52)
 
 - **仓库**: AUTO3002A
@@ -156,12 +162,6 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1011
 - **创建于**: 2026-03-09 23:25:49
-- **作者**: WDGaster703
-
-### [【GEIP1016】](https://github.com/HITSZ-OpenAuto/GEIP1016/issues/27)
-
-- **仓库**: GEIP1016
-- **创建于**: 2026-03-09 23:25:45
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
