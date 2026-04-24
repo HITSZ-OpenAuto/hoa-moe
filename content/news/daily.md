@@ -20,12 +20,6 @@ title: AUTO 更新速递
 
 ## 待解决的 Issues
 
-### [仓库链接问题没有完全修复](https://github.com/HITSZ-OpenAuto/EE1018/issues/9)
-
-- **仓库**: EE1018
-- **创建于**: 2026-04-22 23:03:09
-- **作者**: IceFerryLing
-
 ### [【AUTO3002A】](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/52)
 
 - **仓库**: AUTO3002A
@@ -164,7 +158,19 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:25:49
 - **作者**: WDGaster703
 
+### [【GEIP1016】](https://github.com/HITSZ-OpenAuto/GEIP1016/issues/27)
+
+- **仓库**: GEIP1016
+- **创建于**: 2026-03-09 23:25:45
+- **作者**: WDGaster703
+
 ## 待合并的 Pull Requests
+
+### [增加 2026 春季学期考试信息](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/29)
+
+- **仓库**: GEIP1016
+- **创建于**: 2026-04-23 14:34:11
+- **作者**: ZhuHuan521
 
 ### [更新了对于双选阶段的具体描述以及考查方式的替代方案](https://github.com/HITSZ-OpenAuto/COMP2029/pull/16)
 
