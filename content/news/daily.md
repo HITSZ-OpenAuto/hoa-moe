@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-22'
+date: '2026-04-27'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (4.22)
+### 周一 (4.27)
 
-- Kowyo 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：chore: remove .DS_Store files (#30)
-
-- Yushang Lu 在 [MOOC](https://github.com/HITSZ-OpenAuto/MOOC) 中提交了信息：新增《当代中国外交（外交学院）》单元测试答案 (#29)
+- ZhuHuan521 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：增加 2026 春季学期考试信息 (#29)
 
 ## 待解决的 Issues
 
@@ -171,12 +169,6 @@ title: AUTO 更新速递
 - **仓库**: PHYS1001
 - **创建于**: 2026-04-26 20:50:33
 - **作者**: ll3me
-
-### [增加 2026 春季学期考试信息](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/29)
-
-- **仓库**: GEIP1016
-- **创建于**: 2026-04-23 14:34:11
-- **作者**: ZhuHuan521
 
 ### [更新了对于双选阶段的具体描述以及考查方式的替代方案](https://github.com/HITSZ-OpenAuto/COMP2029/pull/16)
 
