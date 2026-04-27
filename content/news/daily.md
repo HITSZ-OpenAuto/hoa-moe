@@ -166,6 +166,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [上传 2026 春季期中的回忆版试卷及答案 pdf 文件](https://github.com/HITSZ-OpenAuto/PHYS1001/pull/44)
+
+- **仓库**: PHYS1001
+- **创建于**: 2026-04-26 20:50:33
+- **作者**: ll3me
+
 ### [增加 2026 春季学期考试信息](https://github.com/HITSZ-OpenAuto/GEIP1016/pull/29)
 
 - **仓库**: GEIP1016
