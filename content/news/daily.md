@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-28'
+date: '2026-04-29'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周二 (4.28)
 
 - 吹向无叶 | Leaflessward 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：上传 2026 春季期中的回忆版试卷 pdf (#44)
-
-### 周一 (4.27)
-
-- ZhuHuan521 在 [中国近现代史纲要](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：增加 2026 春季学期考试信息 (#29)
 
 ## 待解决的 Issues
 
@@ -164,6 +160,12 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1016
 - **创建于**: 2026-03-09 23:25:45
+- **作者**: WDGaster703
+
+### [【AUTO2003B】](https://github.com/HITSZ-OpenAuto/AUTO2003B/issues/26)
+
+- **仓库**: AUTO2003B
+- **创建于**: 2026-03-09 23:25:41
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
