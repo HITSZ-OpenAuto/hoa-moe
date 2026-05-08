@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (5.8)
 
+- W. D. Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：修改错误 (#22)
+
+- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：修改错误 (#8)
+
 - W. D. Gaster 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：修复大量格式混乱和内容错误 (#39)
 
 - Jiao Ziang 在 [非线性与自适应控制](https://github.com/HITSZ-OpenAuto/AUTO5005) 中提交了信息：修复老版本教师格式错误
@@ -189,18 +193,6 @@ title: AUTO 更新速递
 - **仓库**: COMP3059
 - **创建于**: 2026-04-04 21:46:57
 - **作者**: LiPu-jpg
-
-### [修改课程内容排版](https://github.com/HITSZ-OpenAuto/EE2004/pull/22)
-
-- **仓库**: EE2004
-- **创建于**: 2026-03-18 23:31:06
-- **作者**: WDGaster703
-
-### [修改错误](https://github.com/HITSZ-OpenAuto/EE1018/pull/8)
-
-- **仓库**: EE1018
-- **创建于**: 2026-03-11 20:24:43
-- **作者**: WDGaster703
 
 ### [修改排版](https://github.com/HITSZ-OpenAuto/EE1013/pull/27)
 
