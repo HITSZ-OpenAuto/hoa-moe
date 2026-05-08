@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (5.8)
 
+- W. D. Gaster 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：修复大量格式混乱和内容错误 (#39)
+
 - Jiao Ziang 在 [非线性与自适应控制](https://github.com/HITSZ-OpenAuto/AUTO5005) 中提交了信息：修复老版本教师格式错误
 
 - Jiao Ziang 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：修复老版本遗留的教师格式问题
@@ -192,12 +194,6 @@ title: AUTO 更新速递
 
 - **仓库**: EE2004
 - **创建于**: 2026-03-18 23:31:06
-- **作者**: WDGaster703
-
-### [修复大量格式混乱和内容错误](https://github.com/HITSZ-OpenAuto/PE100X/pull/39)
-
-- **仓库**: PE100X
-- **创建于**: 2026-03-18 21:50:41
 - **作者**: WDGaster703
 
 ### [修改错误](https://github.com/HITSZ-OpenAuto/EE1018/pull/8)
