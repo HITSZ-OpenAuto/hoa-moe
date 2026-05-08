@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-04-29'
+date: '2026-05-08'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,15 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周二 (4.28)
+### 周五 (5.8)
 
-- 吹向无叶 | Leaflessward 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：上传 2026 春季期中的回忆版试卷 pdf (#44)
+- Jiao Ziang 在 [非线性与自适应控制](https://github.com/HITSZ-OpenAuto/AUTO5005) 中提交了信息：修复老版本教师格式错误
+
+- Jiao Ziang 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：修复老版本遗留的教师格式问题
+
+- Jiao Ziang 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：修复老版本遗留的教师格式错误
+
+- Jiao Ziang 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：修复错误的教师格式 (#42)
 
 ## 待解决的 Issues
 
@@ -170,12 +176,6 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [feat(template): add readme.toml&update README.md](https://github.com/HITSZ-OpenAuto/course-template/pull/26)
-
-- **仓库**: course-template
-- **创建于**: 2026-05-01 10:52:13
-- **作者**: IcyDesert
-
 ### [更新了对于双选阶段的具体描述以及考查方式的替代方案](https://github.com/HITSZ-OpenAuto/COMP2029/pull/16)
 
 - **仓库**: COMP2029
@@ -186,30 +186,6 @@ title: AUTO 更新速递
 
 - **仓库**: COMP3059
 - **创建于**: 2026-04-04 21:46:57
-- **作者**: LiPu-jpg
-
-### [修复老版本教师格式错误](https://github.com/HITSZ-OpenAuto/AUTO5005/pull/21)
-
-- **仓库**: AUTO5005
-- **创建于**: 2026-03-23 00:17:17
-- **作者**: LiPu-jpg
-
-### [修复老版本遗留的教师格式问题](https://github.com/HITSZ-OpenAuto/AUTO3002B/pull/34)
-
-- **仓库**: AUTO3002B
-- **创建于**: 2026-03-23 00:15:46
-- **作者**: LiPu-jpg
-
-### [修复老版本遗留的教师格式错误](https://github.com/HITSZ-OpenAuto/AUTO5013/pull/25)
-
-- **仓库**: AUTO5013
-- **创建于**: 2026-03-23 00:08:41
-- **作者**: LiPu-jpg
-
-### [修复错误的教师格式（老版本->新版本）](https://github.com/HITSZ-OpenAuto/GEIP1011/pull/42)
-
-- **仓库**: GEIP1011
-- **创建于**: 2026-03-22 23:59:23
 - **作者**: LiPu-jpg
 
 ### [修改课程内容排版](https://github.com/HITSZ-OpenAuto/EE2004/pull/22)
