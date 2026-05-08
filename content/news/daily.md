@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (5.8)
 
+- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：修改大纲表格排版
+
+- W. D. Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改排版 (#27)
+
 - W. D. Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：修改错误 (#22)
 
 - W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：修改错误 (#8)
@@ -193,10 +197,4 @@ title: AUTO 更新速递
 - **仓库**: COMP3059
 - **创建于**: 2026-04-04 21:46:57
 - **作者**: LiPu-jpg
-
-### [修改排版](https://github.com/HITSZ-OpenAuto/EE1013/pull/27)
-
-- **仓库**: EE1013
-- **创建于**: 2026-03-11 15:01:22
-- **作者**: WDGaster703
 
