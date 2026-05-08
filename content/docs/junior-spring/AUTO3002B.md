@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/AUTO3002B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 1 月 21 日" author="Hye" message="调整 README 结构，删去了 tabs 组件，修复页面构建的问题。 (#28)" >}}
+{{< update-info update_time="2026 年 5 月 8 日" author="Jiao Ziang" message="修复老版本遗留的教师格式问题" >}}
 
 <div class="hoa-badge">
 
