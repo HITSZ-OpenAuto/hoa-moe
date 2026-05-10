@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-05-09'
+date: '2026-05-10'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,26 +15,6 @@ title: AUTO 更新速递
 ### 周六 (5.9)
 
 - aguo2196 在 [面向领域的计算机系统设计与开发实践](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：更新了对于双选阶段的具体描述以及考查方式的替代方案 (#16)
-
-### 周五 (5.8)
-
-- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：修改大纲表格排版
-
-- W. D. Gaster 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改排版 (#27)
-
-- W. D. Gaster 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：修改错误 (#22)
-
-- W. D. Gaster 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：修改错误 (#8)
-
-- W. D. Gaster 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：修复大量格式混乱和内容错误 (#39)
-
-- Jiao Ziang 在 [非线性与自适应控制](https://github.com/HITSZ-OpenAuto/AUTO5005) 中提交了信息：修复老版本教师格式错误
-
-- Jiao Ziang 在 [自动控制实践 B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：修复老版本遗留的教师格式问题
-
-- Jiao Ziang 在 [最优估计](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：修复老版本遗留的教师格式错误
-
-- Jiao Ziang 在 [马克思主义基本原理](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：修复错误的教师格式 (#42)
 
 ## 待解决的 Issues
 
@@ -189,6 +169,18 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [修改排版问题](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/19)
+
+- **仓库**: ENGG1002
+- **创建于**: 2026-05-09 20:18:35
+- **作者**: WDGaster703
+
+### [修改排版问题](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/23)
+
+- **仓库**: ENGG1003
+- **创建于**: 2026-05-09 20:07:51
+- **作者**: WDGaster703
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
 
