@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (5.10)
+
+- W. D. Gaster 在 [工程训练（电子工艺实习）](https://github.com/HITSZ-OpenAuto/ENGG1003) 中提交了信息：修改排版问题 (#23)
+
 ### 周六 (5.9)
 
 - aguo2196 在 [面向领域的计算机系统设计与开发实践](https://github.com/HITSZ-OpenAuto/COMP2029) 中提交了信息：更新了对于双选阶段的具体描述以及考查方式的替代方案 (#16)
@@ -174,12 +178,6 @@ title: AUTO 更新速递
 
 - **仓库**: ENGG1002
 - **创建于**: 2026-05-09 20:18:35
-- **作者**: WDGaster703
-
-### [修改排版问题](https://github.com/HITSZ-OpenAuto/ENGG1003/pull/23)
-
-- **仓库**: ENGG1003
-- **创建于**: 2026-05-09 20:07:51
 - **作者**: WDGaster703
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
