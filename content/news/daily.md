@@ -176,6 +176,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [修改错误](https://github.com/HITSZ-OpenAuto/EE1018/pull/12)
+
+- **仓库**: EE1018
+- **创建于**: 2026-05-13 16:15:01
+- **作者**: WDGaster703
+
 ### [修改排版问题](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/19)
 
 - **仓库**: ENGG1002
