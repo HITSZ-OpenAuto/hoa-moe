@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周三 (5.13)
+
+- FangShuohan 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：增加孙丽教师的信息及评价 (#11)
+
 ### 周二 (5.12)
 
 - Jiao Ziang 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改错误格式
