@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-05-13'
+date: '2026-05-14'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,12 +15,6 @@ title: AUTO 更新速递
 ### 周三 (5.13)
 
 - FangShuohan 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：增加孙丽教师的信息及评价 (#11)
-
-### 周二 (5.12)
-
-- Jiao Ziang 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：修改错误格式
-
-- Jiao Ziang 在 [高等电路与电子分析](https://github.com/HITSZ-OpenAuto/EE2004) 中提交了信息：修复格式错误
 
 ## 待解决的 Issues
 
@@ -175,6 +169,18 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [增加了文理通识 - 数据科学工具及领域利用的课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/28)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2026-05-13 21:22:29
+- **作者**: tingshi-yuli
+
+### [fix: prevent workflow self-cancellation via concurrency queuing](https://github.com/HITSZ-OpenAuto/EE1013/pull/29)
+
+- **仓库**: EE1013
+- **创建于**: 2026-05-13 16:54:23
+- **作者**: Copilot
 
 ### [修改排版问题](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/19)
 
