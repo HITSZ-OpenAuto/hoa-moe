@@ -13,7 +13,6 @@ toc: false
 {{< card link="auto3022" title="自动化领域专家系列讲座" >}}
 {{< card link="comp3010" title="数据库系统" >}}
 {{< card link="comp3013" title="编译原理" >}}
-{{< card link="comp3060" title="软件构造实践" >}}
 {{< card link="ee304x" title="专业综合实践" >}}
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
