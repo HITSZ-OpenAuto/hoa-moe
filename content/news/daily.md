@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-05-14'
+date: '2026-05-15'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (5.13)
+### 周五 (5.15)
 
-- FangShuohan 在 [电路与电子学 I](https://github.com/HITSZ-OpenAuto/EE1018) 中提交了信息：增加孙丽教师的信息及评价 (#11)
+- Kowyo 在 [电路与电子学](https://github.com/HITSZ-OpenAuto/EE1013) 中提交了信息：fix: add missing closing tag for details shortcode
 
 ## 待解决的 Issues
 
