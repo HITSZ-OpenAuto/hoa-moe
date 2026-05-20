@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周三 (5.20)
+
+- 61m 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：添加 Exp16 准稳态法测不良导体的比热容和导热系数的 MATLAB 画图程序 (#79)
+
 ### 周二 (5.19)
 
 - IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2021) 中提交了信息：新课程 动力学与控制
@@ -171,12 +175,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [添加了一份 Exp16 准稳态法测不良导体的比热容和导热系数的 MATLAB 画图程序](https://github.com/HITSZ-OpenAuto/PHYS1002/pull/79)
-
-- **仓库**: PHYS1002
-- **创建于**: 2026-05-14 13:58:24
-- **作者**: 61mo
 
 ### [增加了文理通识 - 数据科学工具及领域利用的课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/28)
 
