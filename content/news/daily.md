@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-05-20'
+date: '2026-05-21'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,12 +15,6 @@ title: AUTO 更新速递
 ### 周三 (5.20)
 
 - 61m 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：添加 Exp16 准稳态法测不良导体的比热容和导热系数的 MATLAB 画图程序 (#79)
-
-### 周二 (5.19)
-
-- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2021) 中提交了信息：新课程 动力学与控制
-
-- IcyDesert 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/MECH2021) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
@@ -166,12 +160,6 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1016
 - **创建于**: 2026-03-09 23:25:45
-- **作者**: WDGaster703
-
-### [【AUTO2003B】](https://github.com/HITSZ-OpenAuto/AUTO2003B/issues/26)
-
-- **仓库**: AUTO2003B
-- **创建于**: 2026-03-09 23:25:41
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
