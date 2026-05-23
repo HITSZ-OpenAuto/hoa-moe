@@ -164,6 +164,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [Update course review](https://github.com/HITSZ-OpenAuto/COMP2030/pull/16)
+
+- **仓库**: COMP2030
+- **创建于**: 2026-05-22 23:30:34
+- **作者**: LiPu-jpg
+
 ### [增加了文理通识 - 数据科学工具及领域利用的课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/28)
 
 - **仓库**: GeneralKnowledge
