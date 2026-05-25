@@ -162,7 +162,19 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:25:45
 - **作者**: WDGaster703
 
+### [【AUTO2003B】](https://github.com/HITSZ-OpenAuto/AUTO2003B/issues/26)
+
+- **仓库**: AUTO2003B
+- **创建于**: 2026-03-09 23:25:41
+- **作者**: WDGaster703
+
 ## 待合并的 Pull Requests
+
+### [新增 26 春两纸开卷资料参考](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/37)
+
+- **仓库**: AUTO1001
+- **创建于**: 2026-05-25 10:05:05
+- **作者**: youyun0v0
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP2030/pull/16)
 
