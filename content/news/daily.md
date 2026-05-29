@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-05-21'
+date: '2026-05-29'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (5.20)
+### 周五 (5.29)
 
-- 61m 在 [大学物理实验](https://github.com/HITSZ-OpenAuto/PHYS1002) 中提交了信息：添加 Exp16 准稳态法测不良导体的比热容和导热系数的 MATLAB 画图程序 (#79)
+- Lin Shuyu 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加了文理通识 - 数据科学工具及领域利用 (#28)
+
+- youyun 在 [自动化认知与实践](https://github.com/HITSZ-OpenAuto/AUTO1001) 中提交了信息：新增 26 春两纸开卷资料参考 (#37)
 
 ## 待解决的 Issues
 
@@ -170,23 +172,11 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [新增 26 春两纸开卷资料参考](https://github.com/HITSZ-OpenAuto/AUTO1001/pull/37)
-
-- **仓库**: AUTO1001
-- **创建于**: 2026-05-25 10:05:05
-- **作者**: youyun0v0
-
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP2030/pull/16)
 
 - **仓库**: COMP2030
 - **创建于**: 2026-05-22 23:30:34
 - **作者**: LiPu-jpg
-
-### [增加了文理通识 - 数据科学工具及领域利用的课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/28)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-05-13 21:22:29
-- **作者**: tingshi-yuli
 
 ### [修改排版问题](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/19)
 
