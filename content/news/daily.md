@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周六 (5.30)
+
+- W. D. Gaster 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：修改排版问题
+
 ### 周五 (5.29)
 
 - Lin Shuyu 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加了文理通识 - 数据科学工具及领域利用 (#28)
@@ -183,12 +187,6 @@ title: AUTO 更新速递
 - **仓库**: COMP2030
 - **创建于**: 2026-05-22 23:30:34
 - **作者**: LiPu-jpg
-
-### [修改排版问题](https://github.com/HITSZ-OpenAuto/ENGG1002/pull/19)
-
-- **仓库**: ENGG1002
-- **创建于**: 2026-05-09 20:18:35
-- **作者**: WDGaster703
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
 
