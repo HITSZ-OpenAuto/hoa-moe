@@ -172,7 +172,7 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [Add 操作系统授课教师、实验描述、期末试题回忆版](https://github.com/HITSZ-OpenAuto/COMP3001/pull/14)
+### [添加操作系统授课教师、实验描述；上传期末试题回忆版](https://github.com/HITSZ-OpenAuto/COMP3001/pull/14)
 
 - **仓库**: COMP3001
 - **创建于**: 2026-05-29 23:30:22
