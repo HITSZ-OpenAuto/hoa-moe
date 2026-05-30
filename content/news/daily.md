@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (5.30)
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ELEC2101K) 中提交了信息：Initial commit
+
 - Chenrui Zhao 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：添加操作系统授课教师、实验描述；上传期末试题回忆版 (#14)
 
 - W. D. Gaster 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：修改排版问题
@@ -174,6 +176,12 @@ title: AUTO 更新速递
 
 - **仓库**: AUTO2003B
 - **创建于**: 2026-03-09 23:25:41
+- **作者**: WDGaster703
+
+### [【LANG100X】](https://github.com/HITSZ-OpenAuto/LANG100X/issues/26)
+
+- **仓库**: LANG100X
+- **创建于**: 2026-03-09 23:25:37
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
