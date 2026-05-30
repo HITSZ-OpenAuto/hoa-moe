@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-05-29'
+date: '2026-05-30'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -171,6 +171,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [Add 操作系统授课教师、实验描述、期末试题回忆版](https://github.com/HITSZ-OpenAuto/COMP3001/pull/14)
+
+- **仓库**: COMP3001
+- **创建于**: 2026-05-29 23:30:22
+- **作者**: NeptuneZhao
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP2030/pull/16)
 
