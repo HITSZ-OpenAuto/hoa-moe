@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (5.30)
 
+- Chenrui Zhao 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：添加操作系统授课教师、实验描述；上传期末试题回忆版 (#14)
+
 - W. D. Gaster 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：修改排版问题
 
 ### 周五 (5.29)
@@ -175,12 +177,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [添加操作系统授课教师、实验描述；上传期末试题回忆版](https://github.com/HITSZ-OpenAuto/COMP3001/pull/14)
-
-- **仓库**: COMP3001
-- **创建于**: 2026-05-29 23:30:22
-- **作者**: NeptuneZhao
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/COMP2030/pull/16)
 
