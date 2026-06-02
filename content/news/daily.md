@@ -182,15 +182,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [Update course review](https://github.com/HITSZ-OpenAuto/COMP2030/pull/16)
-
-- **仓库**: COMP2030
-- **创建于**: 2026-05-22 23:30:34
-- **作者**: LiPu-jpg
-
-### [Update course review](https://github.com/HITSZ-OpenAuto/COMP3059/pull/17)
-
-- **仓库**: COMP3059
-- **创建于**: 2026-04-04 21:46:57
-- **作者**: LiPu-jpg
+暂无待合并的 Pull Requests
 
