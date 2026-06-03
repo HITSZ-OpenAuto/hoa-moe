@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-05-31'
+date: '2026-06-03'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,15 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周六 (5.30)
+### 周三 (6.3)
 
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ELEC2102K) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ELEC2101K) 中提交了信息：Initial commit
-
-- Chenrui Zhao 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：添加操作系统授课教师、实验描述；上传期末试题回忆版 (#14)
-
-- W. D. Gaster 在 [工程训练（金工实习）](https://github.com/HITSZ-OpenAuto/ENGG1002) 中提交了信息：修改排版问题
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/AISZ2004) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
@@ -182,5 +176,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [修改排版](https://github.com/HITSZ-OpenAuto/COMP3001/pull/15)
+
+- **仓库**: COMP3001
+- **创建于**: 2026-06-03 22:32:35
+- **作者**: WDGaster703
 
