@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-04'
+date: '2026-06-06'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周三 (6.3)
+### 周六 (6.6)
 
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/AISZ2004) 中提交了信息：Initial commit
+- baidu 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加了城市经济学课程的介绍和评价 (#29)
 
 ## 待解决的 Issues
 
@@ -175,12 +175,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [增加了城市经济学课程的介绍和评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/29)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-06-06 00:59:15
-- **作者**: IceFerryLing
 
 ### [增加了 2025 年秋普通天文学课程内容和考试信息](https://github.com/HITSZ-OpenAuto/Cross-SPST/pull/2)
 
