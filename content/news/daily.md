@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-07'
+date: '2026-06-08'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周日 (6.7)
 
 - Star1950625 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md (#30)
-
-### 周六 (6.6)
-
-- baidu 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加了城市经济学课程的介绍和评价 (#29)
 
 ## 待解决的 Issues
 
