@@ -176,6 +176,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [增加碳达峰碳中和的中国之道课程的评价，并修改一个日期错误](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/31)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2026-06-10 00:06:08
+- **作者**: Yushang-Lu
+
 ### [增加了 2025 年秋普通天文学课程内容和考试信息](https://github.com/HITSZ-OpenAuto/Cross-SPST/pull/2)
 
 - **仓库**: Cross-SPST
