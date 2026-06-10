@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-08'
+date: '2026-06-10'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周日 (6.7)
+### 周三 (6.10)
 
-- Star1950625 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：Update README.md (#30)
+- Yushang Lu 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加《碳达峰碳中和的中国之道》课程评价，并修改一个日期错误 (#31)
 
 ## 待解决的 Issues
 
@@ -175,12 +175,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [增加碳达峰碳中和的中国之道课程的评价，并修改一个日期错误](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/31)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-06-10 00:06:08
-- **作者**: Yushang-Lu
 
 ### [增加了 2025 年秋普通天文学课程内容和考试信息](https://github.com/HITSZ-OpenAuto/Cross-SPST/pull/2)
 
