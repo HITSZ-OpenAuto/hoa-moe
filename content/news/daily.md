@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周四 (6.11)
 
+- Mingjia Zhou 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：新增一门课程描述 (#2)
+
 - Star1950625 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-SPST) 中提交了信息：增加空间天气学课程评价 (#3)
 
 - Star1950625 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-CEEV) 中提交了信息：添加了特种水处理及资源化的评价 (#2)
