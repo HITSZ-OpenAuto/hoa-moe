@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-10'
+date: '2026-06-11'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -182,5 +182,21 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [增加氢能与燃料电池课程评价](https://github.com/HITSZ-OpenAuto/Cross-EIE/pull/1)
+
+- **仓库**: Cross-EIE
+- **创建于**: 2026-06-11 01:08:24
+- **作者**: Star1950625
+
+### [添加了特种水处理及资源化的评价](https://github.com/HITSZ-OpenAuto/Cross-CEEV/pull/2)
+
+- **仓库**: Cross-CEEV
+- **创建于**: 2026-06-11 00:58:13
+- **作者**: Star1950625
+
+### [增加空间天气学课程评价](https://github.com/HITSZ-OpenAuto/Cross-SPST/pull/3)
+
+- **仓库**: Cross-SPST
+- **创建于**: 2026-06-11 00:50:12
+- **作者**: Star1950625
 
