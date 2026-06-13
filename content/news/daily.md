@@ -182,5 +182,15 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [我发现中外合办独有的课都是请输入文本，所以来写写](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/1)
+
+- **仓库**: ELEC2101K
+- **创建于**: 2026-06-12 23:32:08
+- **作者**: awaw-a
+
+### [补充新课注意事项](https://github.com/HITSZ-OpenAuto/Cross-Science/pull/3)
+
+- **仓库**: Cross-Science
+- **创建于**: 2026-06-12 21:03:35
+- **作者**: SpeechlessPanda
 
