@@ -182,6 +182,18 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [增加了丝绸之路的主题](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/23)
+
+- **仓库**: WRIT0001
+- **创建于**: 2026-06-15 00:21:11
+- **作者**: Star1950625
+
+### [增加了丝绸之路的主题](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/21)
+
+- **仓库**: WRIT0001
+- **创建于**: 2026-06-15 00:09:07
+- **作者**: Star1950625
+
 ### [我发现中外合办独有的课都是请输入文本，所以来写写](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/1)
 
 - **仓库**: ELEC2101K
