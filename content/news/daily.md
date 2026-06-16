@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-15'
+date: '2026-06-16'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -175,12 +175,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [增加了丝绸之路的主题](https://github.com/HITSZ-OpenAuto/WRIT0001/pull/23)
-
-- **仓库**: WRIT0001
-- **创建于**: 2026-06-15 00:21:11
-- **作者**: Star1950625
 
 ### [我发现中外合办独有的课都是请输入文本，所以来写写](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/1)
 
