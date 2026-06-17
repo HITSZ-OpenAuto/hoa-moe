@@ -168,12 +168,6 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:25:41
 - **作者**: WDGaster703
 
-### [【LANG100X】](https://github.com/HITSZ-OpenAuto/LANG100X/issues/26)
-
-- **仓库**: LANG100X
-- **创建于**: 2026-03-09 23:25:37
-- **作者**: WDGaster703
-
 ## 待合并的 Pull Requests
 
 ### [我发现中外合办独有的课都是请输入文本，所以来写写](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/1)
