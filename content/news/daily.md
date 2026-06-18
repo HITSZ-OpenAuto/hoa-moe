@@ -170,6 +170,18 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [上传 2026 春操作系统回忆版期末题和实验验收问题](https://github.com/HITSZ-OpenAuto/COMP3001/pull/16)
+
+- **仓库**: COMP3001
+- **创建于**: 2026-06-17 15:22:42
+- **作者**: NeptuneZhao
+
+### [Update course review](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/32)
+
+- **仓库**: GeneralKnowledge
+- **创建于**: 2026-06-17 13:51:33
+- **作者**: LiPu-jpg
+
 ### [我发现中外合办独有的课都是请输入文本，所以来写写](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/1)
 
 - **仓库**: ELEC2101K
