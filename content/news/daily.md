@@ -170,6 +170,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [Add files via upload](https://github.com/HITSZ-OpenAuto/Cross-Science/pull/4)
+
+- **仓库**: Cross-Science
+- **创建于**: 2026-06-18 12:28:19
+- **作者**: chenc100
+
 ### [上传 2026 春操作系统回忆版期末题和实验验收问题](https://github.com/HITSZ-OpenAuto/COMP3001/pull/16)
 
 - **仓库**: COMP3001
