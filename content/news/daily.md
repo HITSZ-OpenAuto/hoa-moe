@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周五 (6.19)
 
+- ChenChen 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：添加电动力学个人笔记 (#4)
+
+- Chenrui Zhao 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：上传 2026 春操作系统回忆版期末题和实验验收问题 (#16)
+
 - Huang Zifeng 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/AUTO2009) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
@@ -175,18 +179,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [Add files via upload](https://github.com/HITSZ-OpenAuto/Cross-Science/pull/4)
-
-- **仓库**: Cross-Science
-- **创建于**: 2026-06-18 12:28:19
-- **作者**: chenc100
-
-### [上传 2026 春操作系统回忆版期末题和实验验收问题](https://github.com/HITSZ-OpenAuto/COMP3001/pull/16)
-
-- **仓库**: COMP3001
-- **创建于**: 2026-06-17 15:22:42
-- **作者**: NeptuneZhao
 
 ### [Update course review](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/32)
 
