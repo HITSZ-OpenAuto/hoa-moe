@@ -180,12 +180,6 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [Update course review](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/32)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-06-17 13:51:33
-- **作者**: LiPu-jpg
-
 ### [我发现中外合办独有的课都是请输入文本，所以来写写](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/1)
 
 - **仓库**: ELEC2101K
