@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (6.21)
+
+- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：Apply suggestion from @gemini-code-assist[bot]
+
 ### 周五 (6.19)
 
 - ChenChen 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：添加电动力学个人笔记 (#4)
@@ -185,10 +189,4 @@ title: AUTO 更新速递
 - **仓库**: ELEC2101K
 - **创建于**: 2026-06-12 23:32:08
 - **作者**: awaw-a
-
-### [补充新课注意事项](https://github.com/HITSZ-OpenAuto/Cross-Science/pull/3)
-
-- **仓库**: Cross-Science
-- **创建于**: 2026-06-12 21:03:35
-- **作者**: SpeechlessPanda
 
