@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-20'
+date: '2026-06-21'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,14 +15,6 @@ title: AUTO 更新速递
 ### 周日 (6.21)
 
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：Apply suggestion from @gemini-code-assist[bot]
-
-### 周五 (6.19)
-
-- ChenChen 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：添加电动力学个人笔记 (#4)
-
-- Chenrui Zhao 在 [操作系统](https://github.com/HITSZ-OpenAuto/COMP3001) 中提交了信息：上传 2026 春操作系统回忆版期末题和实验验收问题 (#16)
-
-- Huang Zifeng 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/AUTO2009) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
