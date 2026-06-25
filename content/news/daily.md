@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-21'
+date: '2026-06-25'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -11,10 +11,6 @@ title: AUTO 更新速递
 ---
 
 ## 更新内容
-
-### 周日 (6.21)
-
-- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-Science) 中提交了信息：Apply suggestion from @gemini-code-assist[bot]
 
 ## 待解决的 Issues
 
@@ -176,9 +172,5 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [我发现中外合办独有的课都是请输入文本，所以来写写](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/1)
-
-- **仓库**: ELEC2101K
-- **创建于**: 2026-06-12 23:32:08
-- **作者**: awaw-a
+暂无待合并的 Pull Requests
 
