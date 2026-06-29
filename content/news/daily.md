@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-26'
+date: '2026-06-29'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -11,6 +11,10 @@ title: AUTO 更新速递
 ---
 
 ## 更新内容
+
+### 周一 (6.29)
+
+- baidu 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加了当代中国环境治理（英）和数字素养课程信息 (#33)
 
 ## 待解决的 Issues
 
@@ -172,5 +176,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [补充 2026 春的体育基础班课改信息](https://github.com/HITSZ-OpenAuto/PE100X/pull/40)
+
+- **仓库**: PE100X
+- **创建于**: 2026-06-29 19:20:58
+- **作者**: lin3939
 
