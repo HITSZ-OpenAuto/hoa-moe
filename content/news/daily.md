@@ -176,6 +176,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [add 2026 spring final review PDFs](https://github.com/HITSZ-OpenAuto/COMP2052/pull/14)
+
+- **仓库**: COMP2052
+- **创建于**: 2026-07-01 11:47:27
+- **作者**: Wzy-wm
+
 ### [增加《低空飞行器原理、设计与应用》课程评价](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/35)
 
 - **仓库**: GeneralKnowledge
