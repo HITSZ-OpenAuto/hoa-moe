@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2026 年 6 月 29 日" author="baidu" message="添加了当代中国环境治理（英）和数字素养课程信息 (#33)" >}}
+{{< update-info update_time="2026 年 7 月 2 日" author="justice" message="添加了桥梁结构鉴赏的课程信息 (#34)" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 ## 关于「文理通识」课程
@@ -294,6 +294,18 @@ math: true
   - 课程的主要内容就是 AI 以及 AI 工具的使用，讲了特别多 AI 辅助学习资料（真的真的特别多），很多在线 agent 网站什么的，上课老师会带你亲手安装 Claude Code，使用 DeepSeek API，然后有两次课堂作业，都是使用 agent 处理数据，Kaggle 入门题难度，使用 AI 就特别简单了，然后最后一部分就是 Git 相关，安装 Git，将最后一次作业上传到 GitHub 的公开仓库，总体来说课程内容适合大一刚刚接触计算机的学生，比较推荐。
   - 然后附上笔者大作业仓库：[数字素养作业](https://github.com/IceFerryLing/dig_literacy)
     > 文 / [摆渡](https://github.com/IceFerryLing)，2026-06
+
+## 桥梁结构赏析
+<!-- TOML-COURSE: code="" name="桥梁结构赏析" -->
+
+### 授课教师
+
+- 王文韬
+  - 授课风格：比较轻松，老师讲述很认真，但是内容可能比较枯燥
+  - 考勤方式：上课前使用纸质表签到，可以签完字马上跑。上课时会传话筒回答问题，加平时分。
+  - 期末作业：用纸和胶水搭一座桥，要求能承载一瓶矿泉水，然后写出完整的报告。（手工过程比较有趣）
+  - 虽然是 2 学分 32 课时的课程，但是 2026 春在 10-16 周开课，所以一周会上 2-3 节课，时间比较紧。（不过比较好水，笔者没去几次，基本都是签完到就跑）
+    > 文 / [justice](https://github.com/just1cez)，2026-06
 
 ## 资料下载
 

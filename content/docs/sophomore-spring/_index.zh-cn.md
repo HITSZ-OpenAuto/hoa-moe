@@ -12,6 +12,7 @@ toc: false
 {{< card link="auto2005" title="信号分析与处理" >}}
 {{< card link="comp2052" title="数据结构与算法" >}}
 {{< card link="ee2003" title="电磁场" >}}
+{{< card link="engg1003" title="工程训练（电子工艺实习）" >}}
 {{< card link="geip1018" title="毛泽东思想和中国特色社会主义理论体系概论" >}}
 {{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
