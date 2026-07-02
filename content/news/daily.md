@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-06-30'
+date: '2026-07-02'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (6.29)
+### 周四 (7.2)
 
-- baidu 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加了当代中国环境治理（英）和数字素养课程信息 (#33)
+- justice 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加了桥梁结构鉴赏的课程信息 (#34)
 
 ## 待解决的 Issues
 
@@ -193,12 +193,6 @@ title: AUTO 更新速递
 - **仓库**: GeneralKnowledge
 - **创建于**: 2026-06-30 19:53:50
 - **作者**: Yushang-Lu
-
-### [添加了桥梁结构鉴赏的课程信息](https://github.com/HITSZ-OpenAuto/GeneralKnowledge/pull/34)
-
-- **仓库**: GeneralKnowledge
-- **创建于**: 2026-06-30 19:19:51
-- **作者**: just1cez
 
 ### [补充 2026 春的体育基础班课改信息](https://github.com/HITSZ-OpenAuto/PE100X/pull/40)
 
