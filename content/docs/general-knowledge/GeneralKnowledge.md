@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2026 年 7 月 2 日" author="justice" message="添加了桥梁结构鉴赏的课程信息 (#34)" >}}
+{{< update-info update_time="2026 年 7 月 2 日" author="Yushang Lu" message="增加《低空飞行器原理、设计与应用》课程评价 (#35)" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 ## 关于「文理通识」课程
@@ -294,6 +294,18 @@ math: true
   - 课程的主要内容就是 AI 以及 AI 工具的使用，讲了特别多 AI 辅助学习资料（真的真的特别多），很多在线 agent 网站什么的，上课老师会带你亲手安装 Claude Code，使用 DeepSeek API，然后有两次课堂作业，都是使用 agent 处理数据，Kaggle 入门题难度，使用 AI 就特别简单了，然后最后一部分就是 Git 相关，安装 Git，将最后一次作业上传到 GitHub 的公开仓库，总体来说课程内容适合大一刚刚接触计算机的学生，比较推荐。
   - 然后附上笔者大作业仓库：[数字素养作业](https://github.com/IceFerryLing/dig_literacy)
     > 文 / [摆渡](https://github.com/IceFerryLing)，2026-06
+
+## 低空飞行器原理、设计与应用
+<!-- TOML-COURSE: code="" name="低空飞行器原理、设计与应用" -->
+
+### 授课教师
+
+- 沈路，张凯
+  - 这门课分为 16 学时理论课和 16 学时实验课。理论课不点名，实验课老师指导很细致，给分相对友好，大部分学生分数在 90 分以上。
+  - 理论课会介绍固定翼飞行器和四旋翼飞行器，期间有一次作业：设计一架飞行器，需要写设计说明并画草图（老师允许使用 AI 绘图）。
+  - 理论课结束后有两段组队实验。第一段是在实验室完成螺旋桨和风洞相关实验，连续 6 学时，需要提交三份手写实验报告。第二段是搭建两架固定翼飞机和一架四旋翼无人机，动手难度不算高；两架固定翼飞机分别按飞行距离和滞空时间排名，计入小组成绩，四旋翼无人机要完成一套飞行动作。第二段实验结束后还要写一份实践报告。
+  - 最后附上笔者的课程资料仓库[SEIN1076](https://github.com/Yushang-Lu/SEIN1076)，包含理论课 PPT、作业成品、实验报告模板和实践报告成品。笔者分数不算高，欢迎大佬继续补充资料。
+    > 文 / [语上](https://github.com/Yushang-Lu)，2026-06
 
 ## 桥梁结构赏析
 <!-- TOML-COURSE: code="" name="桥梁结构赏析" -->
