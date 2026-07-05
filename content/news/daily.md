@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-03'
+date: '2026-07-05'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,11 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周四 (7.2)
+### 周日 (7.5)
 
-- Yushang Lu 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：增加《低空飞行器原理、设计与应用》课程评价 (#35)
-
-- justice 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加了桥梁结构鉴赏的课程信息 (#34)
+- Crse 洛溪 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：2023 年春大学物理ⅠA 期末考试试题 latex 答案 - 太一 (#45)
 
 ## 待解决的 Issues
 
