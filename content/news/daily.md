@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周一 (7.6)
+
+- baidu 在 [人工智能](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：提交 2026 年春人工智能期末考试回忆版和作业答案修改版 (#15)
+
 ### 周日 (7.5)
 
 - Crse 洛溪 在 [大学物理](https://github.com/HITSZ-OpenAuto/PHYS1001) 中提交了信息：2023 年春大学物理ⅠA 期末考试试题 latex 答案 - 太一 (#45)
