@@ -184,21 +184,9 @@ title: AUTO 更新速递
 - **创建于**: 2026-07-08 13:20:57
 - **作者**: Fun10165
 
-### [Add review section for 高瑜](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/30)
-
-- **仓库**: MATH1015B
-- **创建于**: 2026-07-02 23:18:47
-- **作者**: 070622X
-
 ### [新增笔记：一份用 typst 完成的简要讲义，略去了不要求考查的证明](https://github.com/HITSZ-OpenAuto/AISZ2004/pull/1)
 
 - **仓库**: AISZ2004
 - **创建于**: 2026-07-01 15:38:03
 - **作者**: guanfuqi
-
-### [add 2026 spring final review PDFs](https://github.com/HITSZ-OpenAuto/COMP2052/pull/14)
-
-- **仓库**: COMP2052
-- **创建于**: 2026-07-01 11:47:27
-- **作者**: Wzy-wm
 
