@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-07'
+date: '2026-07-08'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (7.6)
+### 周四 (7.9)
 
-- baidu 在 [人工智能](https://github.com/HITSZ-OpenAuto/COMP3005) 中提交了信息：提交 2026 年春人工智能期末考试回忆版和作业答案修改版 (#15)
+- Wzy 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加生活中的社会学课程情况 (#33)
+
+- lin3939 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充 2026 春的体育基础班课改信息 (#40)
 
 ## 待解决的 Issues
 
@@ -176,17 +178,17 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [添加 26 春毛概期末试卷（回忆版）](https://github.com/HITSZ-OpenAuto/GEIP1018/pull/27)
+
+- **仓库**: GEIP1018
+- **创建于**: 2026-07-08 13:20:57
+- **作者**: Fun10165
+
 ### [Add review section for 高瑜](https://github.com/HITSZ-OpenAuto/MATH1015B/pull/30)
 
 - **仓库**: MATH1015B
 - **创建于**: 2026-07-02 23:18:47
 - **作者**: 070622X
-
-### [添加《生活中的社会学》课程情况](https://github.com/HITSZ-OpenAuto/CrossSpecialty/pull/33)
-
-- **仓库**: CrossSpecialty
-- **创建于**: 2026-07-02 21:06:23
-- **作者**: Wzy-wm
 
 ### [新增笔记：一份用 typst 完成的简要讲义，略去了不要求考查的证明](https://github.com/HITSZ-OpenAuto/AISZ2004/pull/1)
 
@@ -199,10 +201,4 @@ title: AUTO 更新速递
 - **仓库**: COMP2052
 - **创建于**: 2026-07-01 11:47:27
 - **作者**: Wzy-wm
-
-### [补充 2026 春的体育基础班课改信息](https://github.com/HITSZ-OpenAuto/PE100X/pull/40)
-
-- **仓库**: PE100X
-- **创建于**: 2026-06-29 19:20:58
-- **作者**: lin3939
 
