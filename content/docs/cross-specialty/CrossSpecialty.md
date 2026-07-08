@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 3 月 31 日" author="Jiao Ziang" message="补全基本信息" >}}
+{{< update-info update_time="2026 年 7 月 9 日" author="Wzy" message="添加生活中的社会学课程情况 (#33)" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 自 23 级起，跨专业发展课程学分从创新学分 14 分中独立出来，成为单独的 10 学分的跨专业课程学分要求。
@@ -154,6 +154,22 @@ math: true
   - 考察方式主要是 3/4 人一组，以小组为单位，期中提交一个计划书，期末将该计划书扩展为 PPT 并展示。
   - 无考试，平时上课有时会发腾讯文档，扫码回答一个问题并填写名字，作为考勤方式，但无考勤似乎并不影响通过，周老师善良！
     > 文 / [jiazero](https://github.com/jiazero)，2025-12
+
+## 生活中的社会学
+<!-- TOML-COURSE: code="" name="生活中的社会学" -->
+
+### 授课教师
+
+- 叶老师
+  - 叶老师人很好，讲得也非常好。课程围绕社会学展开，介绍福利、权力、劳动、消费观、亲密关系等与大家生活关系密切的内容，上完课会有很多思考和收获。
+
+### 课程概况
+
+此门课程在 2025 春属于文理通识课程，2026 春变为跨专业课程，2 学分。
+
+老师不考勤，缺勤不会扣分；没有 pre，没有考试，只需在期末提交一篇 1000 字报告。
+
+> 文 / [wzy](https://github.com/Wzy-wm)，2026-07
 
 ## 现代电机设计导论
 <!-- TOML-COURSE: code="" name="现代电机设计导论" -->
