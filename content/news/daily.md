@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-09'
+date: '2026-07-10'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -14,9 +14,7 @@ title: AUTO 更新速递
 
 ### 周四 (7.9)
 
-- Wzy 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：添加生活中的社会学课程情况 (#33)
-
-- lin3939 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：补充 2026 春的体育基础班课改信息 (#40)
+- Wu Qinhong 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/AISZ2004) 中提交了信息：新增笔记 (#1)
 
 ## 待解决的 Issues
 
