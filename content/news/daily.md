@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周五 (7.10)
 
+- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ECON3001) 中提交了信息：初始化
+
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ECON3001) 中提交了信息：Initial commit
 
 ### 周四 (7.9)
