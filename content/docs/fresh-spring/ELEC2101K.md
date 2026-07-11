@@ -1,6 +1,6 @@
 ---
 title: （必修）计算机编程
-weight: 98
+weight: 99
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/ELEC2101K/edit/main/README.md"
 math: true
