@@ -6,10 +6,10 @@ editURL: "https://github.com/HITSZ-OpenAuto/CrossSpecialty/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 7 月 11 日" author="W. D. Gaster" message="重构课程仓库内容" >}}
+{{< update-info update_time="2026 年 7 月 11 日" author="W. D. Gaster" message="删除文件夹下内容，修改错误排版" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
-## 关于「跨专业发展课程」学分
+## 关于「跨专业发展课程」
 
 自 23 级起，跨专业发展课程学分从创新学分 14 分中独立出来，本科生要求修读至少 10 学分跨专业课程，即在选课界面「跨专业课程体系」下的课程。跨专业课程主要有三类：
 - 与主课程合班，此类课程的考核与主课程一致，要求较高。课程代码一般与主课程代码一致。
@@ -27,21 +27,29 @@ math: true
 ## 跨专业课程仓库
 <!-- TOML-COURSE: code="" name="跨专业课程仓库" -->
 
+### 仓库目录
+
+由于跨专业课程较多，放在一个仓库下不方便阅读，因此将跨专业课程分成了如下七个仓库：
+
+- [理学类跨专业课程](https://hoa.moe/docs/cross-specialty/Cross-Science)：主要包括理学院开设的数学、物理学、化学、生物学和数据科学跨专业课程。
+
+- [电子信息类跨专业课程](https://hoa.moe/docs/cross-specialty/Cross-EIE)：主要包括智能科学与工程学院开设的自动化跨专业课程、计算机科学与技术学院开设的计算机跨专业课程、信息科学与技术学院开设的通信工程跨专业课程和集成电路学院开设的集成电路跨专业课程。
+
+- [空天科技类跨专业课程](https://hoa.moe/docs/cross-specialty/Cross-SPST)：主要包括空天科技学院开设的空间科学跨专业课程。
+
+- [能动电气类跨专业课程](https://hoa.moe/docs/cross-specialty/Cross-ENER)：主要包括机器人与先进制造学院开设的电气、动力和机械跨专业课程。
+
+- [土木环境类跨专业课程](https://hoa.moe/docs/cross-specialty/Cross-CEEV)：主要包括智能土木与海洋工程学院开设的土木工程跨专业课程和生态环境学院开设的环境工程跨专业课程。
+
+- [经管类跨专业课程](https://hoa.moe/docs/cross-specialty/Cross-ECON)：主要包括经济管理学院开设的经济学和会计学跨专业课程。
+
+- [设计类跨专业课程](https://hoa.moe/docs/cross-specialty/Cross-ARCH)：主要包括建筑学院开设的建筑学跨专业课程和未来设计学院开设的数字媒体艺术跨专业课程。
+
 ## 资料下载
 
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/CrossSpecialty" repoURL="https://github.com/HITSZ-OpenAuto/CrossSpecialty" >}}
-{{< hoa-filetree/folder name="exams" date="" state="closed" >}}
-{{< hoa-filetree/folder name="量子力学 2025" date="" state="closed" >}}
-{{< hoa-filetree/folder name="作业" date="" state="closed" >}}
-{{< hoa-filetree/file name="量子力学作业一" type="pdf" size="57.2 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E4%BD%9C%E4%B8%9A/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%80.pdf" >}}
-{{< hoa-filetree/file name="量子力学作业三" type="pdf" size="449.0 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E4%BD%9C%E4%B8%9A/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%B8%89.pdf" >}}
-{{< hoa-filetree/file name="量子力学作业二" type="pdf" size="41.0 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E4%BD%9C%E4%B8%9A/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E4%BD%9C%E4%B8%9A%E4%BA%8C.pdf" >}}
-{{< /hoa-filetree/folder >}}
-{{< hoa-filetree/file name="量子力学 2025 秋期末" type="pdf" size="87.9 KB" date="2026/01/11" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/CrossSpecialty/raw/main/exams/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A62025%E7%A7%8B%E6%9C%9F%E6%9C%AB.pdf" >}}
-{{< /hoa-filetree/folder >}}
-{{< /hoa-filetree/folder >}}
 {{< /hoa-filetree/container >}}
 
 ## 参与
