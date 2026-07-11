@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (7.11)
 
+- Fun10165 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：添加 26 春毛概期末试卷
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：补充学分相关情况
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Innovation) 中提交了信息：添加创新学分相关说明，迁移 OpenHarmony 课程到本仓库
@@ -39,6 +41,12 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ECON3001) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
+
+### [是否需要开设单独仓库](https://github.com/HITSZ-OpenAuto/ECON3001/issues/1)
+
+- **仓库**: ECON3001
+- **创建于**: 2026-07-11 17:58:19
+- **作者**: WDGaster703
 
 ### [【AUTO3002A】](https://github.com/HITSZ-OpenAuto/AUTO3002A/issues/52)
 
@@ -184,23 +192,7 @@ title: AUTO 更新速递
 - **创建于**: 2026-03-09 23:25:45
 - **作者**: WDGaster703
 
-### [【AUTO2003B】](https://github.com/HITSZ-OpenAuto/AUTO2003B/issues/26)
-
-- **仓库**: AUTO2003B
-- **创建于**: 2026-03-09 23:25:41
-- **作者**: WDGaster703
-
-### [【LANG100X】](https://github.com/HITSZ-OpenAuto/LANG100X/issues/26)
-
-- **仓库**: LANG100X
-- **创建于**: 2026-03-09 23:25:37
-- **作者**: WDGaster703
-
 ## 待合并的 Pull Requests
 
-### [添加 26 春毛概期末试卷（回忆版）](https://github.com/HITSZ-OpenAuto/GEIP1018/pull/27)
-
-- **仓库**: GEIP1018
-- **创建于**: 2026-07-08 13:20:57
-- **作者**: Fun10165
+暂无待合并的 Pull Requests
 
