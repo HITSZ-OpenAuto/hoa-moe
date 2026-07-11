@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-10'
+date: '2026-07-11'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -17,10 +17,6 @@ title: AUTO 更新速递
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ECON3001) 中提交了信息：初始化
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ECON3001) 中提交了信息：Initial commit
-
-### 周四 (7.9)
-
-- Wu Qinhong 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/AISZ2004) 中提交了信息：新增笔记 (#1)
 
 ## 待解决的 Issues
 
