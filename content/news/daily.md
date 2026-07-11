@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (7.11)
 
+- W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：删除文件夹下内容，修改错误排版
+
 - W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：重构课程仓库内容
 
 - Fun10165 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：添加 26 春毛概期末试卷
