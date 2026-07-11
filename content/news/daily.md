@@ -178,6 +178,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [修改了 26 春跆拳道/空手道的考试内容](https://github.com/HITSZ-OpenAuto/PE100X/pull/41)
+
+- **仓库**: PE100X
+- **创建于**: 2026-07-11 10:59:29
+- **作者**: IceFerryLing
+
 ### [添加 26 春毛概期末试卷（回忆版）](https://github.com/HITSZ-OpenAuto/GEIP1018/pull/27)
 
 - **仓库**: GEIP1018
