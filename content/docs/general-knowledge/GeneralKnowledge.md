@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/GeneralKnowledge/edit/main/README.md
 math: true
 ---
 
-{{< update-info update_time="2026 年 7 月 2 日" author="Yushang Lu" message="增加《低空飞行器原理、设计与应用》课程评价 (#35)" >}}
+{{< update-info update_time="2026 年 7 月 11 日" author="baidu" message="Merge pull request #36 from IceFerryLing/main" >}}
 <!-- TOML-META: repo_type="multi-project" -->
 
 ## 关于「文理通识」课程
@@ -318,6 +318,18 @@ math: true
   - 期末作业：用纸和胶水搭一座桥，要求能承载一瓶矿泉水，然后写出完整的报告。（手工过程比较有趣）
   - 虽然是 2 学分 32 课时的课程，但是 2026 春在 10-16 周开课，所以一周会上 2-3 节课，时间比较紧。（不过比较好水，笔者没去几次，基本都是签完到就跑）
     > 文 / [justice](https://github.com/just1cez)，2026-06
+
+## 信息素养与实践
+<!-- TOML-COURSE: code="" name="信息素养与实践" -->
+
+### 授课主办方
+
+- 大学城图书馆
+- 本门课程由四位图书馆老师开课，会比较宽松一些。考核方式是作业 + 平时分 + 期末开卷考。平时分会包括一个 presentation 和图书馆寻宝活动。给分是等级制，一般会在 A-以上。
+- 上课内容比较贴近时代，25 年之后加入了比较多 ai 相关内容，对于想了解图书馆信息资源、ai 使用、各种实用小工具的同学来说非常适合，但是实测课上听课人数极少。
+- 会有普通教室上课、机房上课完成作业以及去图书馆一节课的寻宝游戏，课程组成还是比较有趣的。
+
+> 文 / 霸气本尊，2026-07
 
 ## 资料下载
 
