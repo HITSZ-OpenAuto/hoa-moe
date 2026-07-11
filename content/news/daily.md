@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (7.11)
 
+- IceFerryLing 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：上传信息素养与实践课程的相关信息
+
 - IceFerryLing 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：更新课程评价
 
 ### 周五 (7.10)
