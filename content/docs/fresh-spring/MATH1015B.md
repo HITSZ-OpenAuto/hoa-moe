@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/MATH1015B/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 7 月 9 日" author="Alkaid" message="Merge pull request #30 from 070622X/patch-1" >}}
+{{< update-info update_time="2026 年 7 月 11 日" author="IceFerryLing" message="更新课程评价" >}}
 <!-- TOML-META: repo_type="normal" -->
 <!-- TOML-BADGES: source="grades_summary" -->
 
@@ -73,6 +73,12 @@ math: true
   - 不考勤，因此有很多人就不去上课，但老师不是很喜欢这样，建议去上一下。
   - 平时分只要交了作业（无论写多少）就是满分
     > 文 / Alkaid，2026-07
+- 张庆辉
+  <!-- TOML-ITEM: id="review-张庆辉 -1" -->
+  - 一位非常慈祥的老师，上课一小部分内容会使用纯板书，大约一半章节和习题课会使用 ppt。大部分能够证明的公式他都会现场带大家推导，并且数学思维比较严谨。
+  - 他很欢迎同学们跟他沟通各种题目或者知识点，上课会容易出现一些笔误或者算错数，需要一些同学认真听课及时指出（同时自己要注意笔记的正误），对作业的要求就是上完一章后的一周把整章作业交上来，但是临近考试的最后一章大概率可以不交，主要看能否有理有据地与助教沟通（不要直接在课程群说）
+  - 总而言之上课还是很有效的学习方式，老师安排的习题也非常好。虽然说要考勤，但是一年一次也没考勤，对不想上课的学生很友好。但是还是建议大部分同学都去听讲，毕竟内容挺多的也不简单。
+    > 文 / 霸气本尊，2026-07
 
 ## 教材
 <!-- TOML-SECTION: title="教材" -->
