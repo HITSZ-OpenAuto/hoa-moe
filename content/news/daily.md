@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (7.11)
 
+- W. D. Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：重构内容
+
 - W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：删除文件夹下内容，修改错误排版
 
 - W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：重构课程仓库内容
@@ -188,12 +190,6 @@ title: AUTO 更新速递
 
 - **仓库**: GEIP1011
 - **创建于**: 2026-03-09 23:25:49
-- **作者**: WDGaster703
-
-### [【GEIP1016】](https://github.com/HITSZ-OpenAuto/GEIP1016/issues/27)
-
-- **仓库**: GEIP1016
-- **创建于**: 2026-03-09 23:25:45
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
