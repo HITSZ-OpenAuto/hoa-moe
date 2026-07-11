@@ -14,6 +14,10 @@ title: AUTO 更新速递
 
 ### 周六 (7.11)
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：添加社会实践学分相关说明
+
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：Initial commit
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Innovation) 中提交了信息：Initial commit
 
 - IceFerryLing 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：上传信息素养与实践课程的相关信息
