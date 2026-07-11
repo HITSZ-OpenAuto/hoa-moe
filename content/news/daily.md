@@ -18,6 +18,8 @@ title: AUTO 更新速递
 
 - IceFerryLing 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：更新课程评价
 
+- IceFerryLing 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：修改了 26 春跆拳道/空手道的考试内容
+
 ### 周五 (7.10)
 
 - Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ECON3001) 中提交了信息：初始化
@@ -183,12 +185,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [修改了 26 春跆拳道/空手道的考试内容](https://github.com/HITSZ-OpenAuto/PE100X/pull/41)
-
-- **仓库**: PE100X
-- **创建于**: 2026-07-11 10:59:29
-- **作者**: IceFerryLing
 
 ### [添加 26 春毛概期末试卷（回忆版）](https://github.com/HITSZ-OpenAuto/GEIP1018/pull/27)
 
