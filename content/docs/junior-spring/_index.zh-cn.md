@@ -15,7 +15,6 @@ toc: false
 {{< card link="comp3013" title="编译原理" >}}
 {{< card link="comp3060" title="软件构造实践" >}}
 {{< card link="ee304x" title="专业综合实践" >}}
-{{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/course-selection-auto/distributive-guidance-for-23/)

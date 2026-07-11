@@ -22,7 +22,6 @@ toc: false
 {{< card link="ee304x" title="专业综合实践" >}}
 {{< card link="mech3041" title="设计与制造 C" >}}
 {{< card link="mech3060" title="机器人学基础" >}}
-{{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/course-selection-auto/distributive-guidance-for-23/)

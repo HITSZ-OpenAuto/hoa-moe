@@ -14,7 +14,6 @@ toc: false
 {{< card link="ee2003" title="电磁场" >}}
 {{< card link="engg1003" title="工程训练（电子工艺实习）" >}}
 {{< card link="geip1018" title="毛泽东思想和中国特色社会主义理论体系概论" >}}
-{{< card link="pe100x" title="体育" >}}
 {{< /cards >}}
 ## 限选
 [限选课选课指南](https://hoa.moe/blog/course-selection-auto/distributive-guidance-for-23/)
