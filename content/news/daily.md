@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周六 (7.11)
 
+- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：添加标题以正确被 toml 转换识别
+
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：添加社会实践学分相关说明
 
 - W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：Initial commit
