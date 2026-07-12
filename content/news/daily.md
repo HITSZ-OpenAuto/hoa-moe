@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-11'
+date: '2026-07-12'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -39,12 +39,6 @@ title: AUTO 更新速递
 - IceFerryLing 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：更新课程评价
 
 - IceFerryLing 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：修改了 26 春跆拳道/空手道的考试内容
-
-### 周五 (7.10)
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ECON3001) 中提交了信息：初始化
-
-- Jiao Ziang 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/ECON3001) 中提交了信息：Initial commit
 
 ## 待解决的 Issues
 
@@ -194,5 +188,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-暂无待合并的 Pull Requests
+### [针对通信工程（中外合作办学）第一年开办的课程 ELEC2102K 概率和数理统计的信息补充](https://github.com/HITSZ-OpenAuto/ELEC2102K/pull/1)
+
+- **仓库**: ELEC2102K
+- **创建于**: 2026-07-12 04:12:33
+- **作者**: 61mo
 
