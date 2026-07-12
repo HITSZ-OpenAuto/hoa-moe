@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周日 (7.12)
+
+- lumen183 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ECON) 中提交了信息：添加课程：生活中的社会学
+
 ### 周六 (7.11)
 
 - W. D. Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：重构内容
