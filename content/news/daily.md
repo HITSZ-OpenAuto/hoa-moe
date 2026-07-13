@@ -12,6 +12,10 @@ title: AUTO 更新速递
 
 ## 更新内容
 
+### 周一 (7.13)
+
+- 61m 在 [概率和数理统计](https://github.com/HITSZ-OpenAuto/ELEC2102K) 中提交了信息：针对通信工程（中外合作办学）第一年开办的课程 ELEC2102K 概率和数理统计的信息补充
+
 ### 周日 (7.12)
 
 - lumen183 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ECON) 中提交了信息：添加课程：生活中的社会学
@@ -164,15 +168,15 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [加入了有关和军平老师和梁高琪老师的评价](https://github.com/HITSZ-OpenAuto/EE1018/pull/13)
+
+- **仓库**: EE1018
+- **创建于**: 2026-07-13 17:33:24
+- **作者**: 070622X
+
 ### [添加了实验课老师；更新了课程考核方式；增加了个人实验仓库；稍微修改了前人的文字，以符合中文文案排版指北；将前人电子书的分类由 slides 移动到 books。](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/2)
 
 - **仓库**: ELEC2101K
 - **创建于**: 2026-07-12 22:48:51
-- **作者**: 61mo
-
-### [针对通信工程（中外合作办学）第一年开办的课程 ELEC2102K 概率和数理统计的信息补充](https://github.com/HITSZ-OpenAuto/ELEC2102K/pull/1)
-
-- **仓库**: ELEC2102K
-- **创建于**: 2026-07-12 04:12:33
 - **作者**: 61mo
 
