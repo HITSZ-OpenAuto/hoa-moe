@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-12'
+date: '2026-07-13'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,34 +15,6 @@ title: AUTO 更新速递
 ### 周日 (7.12)
 
 - lumen183 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ECON) 中提交了信息：添加课程：生活中的社会学
-
-### 周六 (7.11)
-
-- W. D. Gaster 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：重构内容
-
-- W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：删除文件夹下内容，修改错误排版
-
-- W. D. Gaster 在 [跨专业选修课程体系](https://github.com/HITSZ-OpenAuto/CrossSpecialty) 中提交了信息：重构课程仓库内容
-
-- Fun10165 在 [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/HITSZ-OpenAuto/GEIP1018) 中提交了信息：添加 26 春毛概期末试卷
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：补充学分相关情况
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Innovation) 中提交了信息：添加创新学分相关说明，迁移 OpenHarmony 课程到本仓库
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：添加标题以正确被 toml 转换识别
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：添加社会实践学分相关说明
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/SocialPractice) 中提交了信息：Initial commit
-
-- W. D. Gaster 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Innovation) 中提交了信息：Initial commit
-
-- IceFerryLing 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：上传信息素养与实践课程的相关信息
-
-- IceFerryLing 在 [微积分 B](https://github.com/HITSZ-OpenAuto/MATH1015B) 中提交了信息：更新课程评价
-
-- IceFerryLing 在 [体育](https://github.com/HITSZ-OpenAuto/PE100X) 中提交了信息：修改了 26 春跆拳道/空手道的考试内容
 
 ## 待解决的 Issues
 
@@ -191,6 +163,12 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
+
+### [添加了实验课老师；更新了课程考核方式；增加了个人实验仓库；稍微修改了前人的文字，以符合中文文案排版指北；将前人电子书的分类由 slides 移动到 books。](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/2)
+
+- **仓库**: ELEC2101K
+- **创建于**: 2026-07-12 22:48:51
+- **作者**: 61mo
 
 ### [针对通信工程（中外合作办学）第一年开办的课程 ELEC2102K 概率和数理统计的信息补充](https://github.com/HITSZ-OpenAuto/ELEC2102K/pull/1)
 
