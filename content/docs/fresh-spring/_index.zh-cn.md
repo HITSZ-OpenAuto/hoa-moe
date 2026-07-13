@@ -12,6 +12,7 @@ toc: false
 {{< card link="ee1014" title="电路与电子技术实验" >}}
 {{< card link="ee1018" title="电路与电子学 I" >}}
 {{< card link="elec2101k" title="计算机编程" >}}
+{{< card link="elec2102k" title="概率和数理统计" >}}
 {{< card link="geip1016" title="中国近现代史纲要" >}}
 {{< card link="lang100x" title="大学英语" >}}
 {{< card link="math1015b" title="微积分 B" >}}
