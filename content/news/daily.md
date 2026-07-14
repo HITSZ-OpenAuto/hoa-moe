@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-13'
+date: '2026-07-14'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,10 +15,6 @@ title: AUTO 更新速递
 ### 周一 (7.13)
 
 - 61m 在 [概率和数理统计](https://github.com/HITSZ-OpenAuto/ELEC2102K) 中提交了信息：针对通信工程（中外合作办学）第一年开办的课程 ELEC2102K 概率和数理统计的信息补充
-
-### 周日 (7.12)
-
-- lumen183 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-ECON) 中提交了信息：添加课程：生活中的社会学
 
 ## 待解决的 Issues
 
