@@ -6,12 +6,12 @@ editURL: "https://github.com/HITSZ-OpenAuto/ELEC2101K/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 7 月 15 日" author="baidu" message="Merge pull request #3 from awaw-a/submit-course-update" >}}
+{{< update-info update_time="2026 年 7 月 15 日" author="baidu" message="Merge pull request #2 from 61mo/main" >}}
 <!-- TOML-META: repo_type="normal" -->
 
-韩方授课，全英文，课程内容为**C++ 编程**的学习。包含 32 学时的理论课与 16 学时的实验课。
-实验课在学校机房（可以自带笔记本电脑）使用 VSCode 等 IDE 工具进行 C++ 编程。
-实验课为本校教师&助教进行授课。
+韩方授课，全英文，课程内容为 **C++ 编程**的学习。包含 32 学时的理论课与 16 学时的实验课。
+实验课在学校机房（可以自带笔记本电脑）使用 VS Code 等 IDE 工具进行 C++ 编程。
+实验课为本校教师 & 助教进行授课。
 学生一般不会与教师进行直接的互动，而是通过助教进行沟通。
 
 ## 授课教师
@@ -22,6 +22,16 @@ math: true
   - [教师个人主页](http://icsl.hanyang.ac.kr/~hnam/)
   - 如果希望与教师邮箱联系，请确保标题以 **HITSZ** 开头。
     > 文 / [awaw_a](https://github.com/awaw-a)，2026-06
+  <!-- TOML-ITEM: id="review-南海云 NAM HAEWOON（韩）-2" -->
+  - 理论课老师。
+    > 文 / [61m](https://github.com/61mo)，2026-07
+- 房敏
+  <!-- TOML-ITEM: id="review-房敏 -1" -->
+  - 实验课老师。
+  - 4 节实验课穿插在理论课程之间，差不多是每阶段性内容的总结与应用。
+  - 实验课在学校机房（或自带笔记本）使用 `VS Code` 进行代码编写，老师第一节课会教学用自己的笔记本下载 `VS Code` 并进行 `C++` 环境的配置。
+  - 实验课为整个 1 - 4 节或 5 - 8 节，课上如果提前完成课堂内容，需到老师的电脑上默打一遍代码，才可提前签到离开。
+    > 文 / [61m](https://github.com/61mo)，2026-07
 
 ## 学习建议
 <!-- TOML-SECTION: title="学习建议" -->
@@ -51,6 +61,21 @@ math: true
 
 > 文 / [awaw_a](https://github.com/awaw-a)，2026-07
 
+<!-- TOML-ITEM: id="item-考核方式 -2" -->
+
+- 平时成绩：随堂雨课堂 quiz 和实验课考勤及实验报告。
+- 期中考试：选择题，代码简答题（给出一段代码让你解释或让你写出代码输出结果），手写代码题。
+- 期末考试：和期中考试题型相同，主要考课本第 6 - 13 章。
+
+> 文 / [61m](https://github.com/61mo)，2026-07
+
+## 个人实验仓库
+<!-- TOML-SECTION: title="个人实验仓库" -->
+
+<!-- TOML-ITEM: id="item-个人实验仓库 -1" -->
+
+- [61mo/hitsz-computer-programming](https://github.com/61mo/hitsz-computer-programming): `C++` 源代码、程序流程图、编译生成文件以及实验报告
+
 ## 学习资料
 <!-- TOML-SECTION: title="学习资料" -->
 
@@ -64,6 +89,9 @@ math: true
 如果你是校内学生，可点击如下「内网网盘」按钮查看本门课程的电子书、课件和实验软件等。
 
 {{< hoa-filetree/container driveURL="https://open.osa.moe/openauto/ELEC2101K" repoURL="https://github.com/HITSZ-OpenAuto/ELEC2101K" >}}
+{{< hoa-filetree/folder name="books" date="" state="closed" >}}
+{{< hoa-filetree/file name="教材-C Programming An Object-Oriented Approach(McGrawHill)" type="pdf" size="30.0 MB" date="2026/07/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ELEC2101K/raw/main/books/%E6%95%99%E6%9D%90-C%20Programming%20An%20Object-Oriented%20Approach%28McGrawHill%29.pdf" >}}
+{{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="materials" date="" state="closed" >}}
 {{< hoa-filetree/file name="教材-C Programming An Object-Oriented Approach(McGrawHill)" type="pdf" size="30.0 MB" date="2026/07/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ELEC2101K/raw/main/materials/%E6%95%99%E6%9D%90-C%20Programming%20An%20Object-Oriented%20Approach%28McGrawHill%29.pdf" >}}
 {{< hoa-filetree/file name="期末复习题" type="pdf" size="220.1 KB" date="2026/07/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ELEC2101K/raw/main/materials/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
