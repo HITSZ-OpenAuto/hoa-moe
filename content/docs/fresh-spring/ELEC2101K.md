@@ -6,7 +6,7 @@ editURL: "https://github.com/HITSZ-OpenAuto/ELEC2101K/edit/main/README.md"
 math: true
 ---
 
-{{< update-info update_time="2026 年 7 月 15 日" author="baidu" message="Merge pull request #2 from 61mo/main" >}}
+{{< update-info update_time="2026 年 7 月 15 日" author="IceFerryLing" message="去掉了重复提交的教材" >}}
 <!-- TOML-META: repo_type="normal" -->
 
 韩方授课，全英文，课程内容为 **C++ 编程**的学习。包含 32 学时的理论课与 16 学时的实验课。
@@ -93,7 +93,6 @@ math: true
 {{< hoa-filetree/file name="教材-C Programming An Object-Oriented Approach(McGrawHill)" type="pdf" size="30.0 MB" date="2026/07/12" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ELEC2101K/raw/main/books/%E6%95%99%E6%9D%90-C%20Programming%20An%20Object-Oriented%20Approach%28McGrawHill%29.pdf" >}}
 {{< /hoa-filetree/folder >}}
 {{< hoa-filetree/folder name="materials" date="" state="closed" >}}
-{{< hoa-filetree/file name="教材-C Programming An Object-Oriented Approach(McGrawHill)" type="pdf" size="30.0 MB" date="2026/07/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ELEC2101K/raw/main/materials/%E6%95%99%E6%9D%90-C%20Programming%20An%20Object-Oriented%20Approach%28McGrawHill%29.pdf" >}}
 {{< hoa-filetree/file name="期末复习题" type="pdf" size="220.1 KB" date="2026/07/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ELEC2101K/raw/main/materials/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E9%A2%98.pdf" >}}
 {{< hoa-filetree/file name="期末复习题_答案" type="pdf" size="133.2 KB" date="2026/07/15" icon="icons/pdf.png" url="https://gh.hoa.moe/github.com/HITSZ-OpenAuto/ELEC2101K/raw/main/materials/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E9%A2%98_%E7%AD%94%E6%A1%88.pdf" >}}
 {{< /hoa-filetree/folder >}}
