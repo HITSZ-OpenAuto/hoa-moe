@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-14'
+date: '2026-07-15'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,9 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周一 (7.13)
+### 周三 (7.15)
 
-- 61m 在 [概率和数理统计](https://github.com/HITSZ-OpenAuto/ELEC2102K) 中提交了信息：针对通信工程（中外合作办学）第一年开办的课程 ELEC2102K 概率和数理统计的信息补充
+- awaw-a 在 [计算机编程](https://github.com/HITSZ-OpenAuto/ELEC2101K) 中提交了信息：Update ELEC2101K course docs and materials
 
 ## 待解决的 Issues
 
@@ -163,12 +163,6 @@ title: AUTO 更新速递
 - **作者**: WDGaster703
 
 ## 待合并的 Pull Requests
-
-### [Update ELEC2101K course docs and materials](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/3)
-
-- **仓库**: ELEC2101K
-- **创建于**: 2026-07-15 09:09:02
-- **作者**: awaw-a
 
 ### [加入了有关和军平老师和梁高琪老师的评价](https://github.com/HITSZ-OpenAuto/EE1018/pull/13)
 
