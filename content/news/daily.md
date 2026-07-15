@@ -14,6 +14,8 @@ title: AUTO 更新速递
 
 ### 周三 (7.15)
 
+- IceFerryLing 在 [计算机编程](https://github.com/HITSZ-OpenAuto/ELEC2101K) 中提交了信息：去掉了重复提交的教材
+
 - awaw-a 在 [计算机编程](https://github.com/HITSZ-OpenAuto/ELEC2101K) 中提交了信息：Update ELEC2101K course docs and materials
 
 ## 待解决的 Issues
