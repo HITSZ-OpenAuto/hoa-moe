@@ -164,6 +164,12 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
+### [Update ELEC2101K course docs and materials](https://github.com/HITSZ-OpenAuto/ELEC2101K/pull/3)
+
+- **仓库**: ELEC2101K
+- **创建于**: 2026-07-15 09:09:02
+- **作者**: awaw-a
+
 ### [加入了有关和军平老师和梁高琪老师的评价](https://github.com/HITSZ-OpenAuto/EE1018/pull/13)
 
 - **仓库**: EE1018
