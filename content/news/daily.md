@@ -166,9 +166,9 @@ title: AUTO 更新速递
 
 ## 待合并的 Pull Requests
 
-### [加入了有关和军平老师和梁高琪老师的评价](https://github.com/HITSZ-OpenAuto/EE1018/pull/13)
+### [增加一门跨专业课程的相关信息](https://github.com/HITSZ-OpenAuto/Cross-CEEV/pull/3)
 
-- **仓库**: EE1018
-- **创建于**: 2026-07-13 17:33:24
-- **作者**: 070622X
+- **仓库**: Cross-CEEV
+- **创建于**: 2026-07-15 21:01:12
+- **作者**: SpeechlessPanda
 
