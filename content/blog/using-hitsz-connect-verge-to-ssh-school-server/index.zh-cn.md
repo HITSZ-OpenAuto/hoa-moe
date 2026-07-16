@@ -91,4 +91,4 @@ Host <ip 地址>
 
 [^1]: 关于笔者为什么不使用 EasyConnect，推荐观看视频：[转发给你的同学看看 如何应对与卸载删除它？有什么替代方案？](https://www.bilibili.com/video/BV163411Z7BD)。
 
-[^2]: 同校另一位同学开发的软件 [EZ4Connect](https://github.com/PageChen04/EZ4Connect) 也支持类似功能，但是笔者尚未亲自测试。
+[^2]: 同校另一位同学开发的软件 [EZ4Connect](https://github.com/chenx-dust/EZ4Connect) 也支持类似功能，但是笔者尚未亲自测试。

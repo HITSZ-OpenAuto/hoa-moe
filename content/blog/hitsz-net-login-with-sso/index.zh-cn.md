@@ -27,12 +27,12 @@ excludeSearch: false
 
 ### 安装脚本
 
-直接点击链接进行安装： [安装](https://gist.githubusercontent.com/PageChen04/b1937e74d118ce02d9ed5a77e2ce3c93/raw/hitsz-net-login.user.js)
+直接点击链接进行安装： [安装](https://gist.githubusercontent.com/DustinChen04/b1937e74d118ce02d9ed5a77e2ce3c93/raw/hitsz-net-login.user.js)
 
 如果上述方法无法安装，可以手动进入 Tampermonkey 的脚本管理页面，点击 **实用工具** 面板，将下方脚本链接复制到 **从 URL 安装** 输入框中，并点击 **安装** 。
 
 ```url
-https://gist.githubusercontent.com/PageChen04/b1937e74d118ce02d9ed5a77e2ce3c93/raw/hitsz-net-login.user.js
+https://gist.githubusercontent.com/DustinChen04/b1937e74d118ce02d9ed5a77e2ce3c93/raw/hitsz-net-login.user.js
 ```
 
 ![脚本安装](./assets/script-install.png)
@@ -58,18 +58,18 @@ https://gist.githubusercontent.com/PageChen04/b1937e74d118ce02d9ed5a77e2ce3c93/r
 
 ## 方案 2 - 鉴权登录一体程序
 
-以下给出一种基于笔者编写的登录程序 [PageChen04/hitsz-srun-login](https://github.com/PageChen04/hitsz-srun-login) 的方式。
+以下给出一种基于笔者编写的登录程序 [DustinChen04/hitsz-srun-login](https://github.com/DustinChen04/hitsz-srun-login) 的方式。
 
 {{% steps %}}
 
 ### 下载登录程序
 
-前往 [Releases](https://github.com/PageChen04/hitsz-srun-login/releases) 下载最新的登录程序。
+前往 [Releases](https://github.com/DustinChen04/hitsz-srun-login/releases) 下载最新的登录程序。
 
 > [!NOTE]**版本选择**
 > 对于 Linux 系统，在绝大部分较新的 Intel/AMD 处理器上，推荐选择 `hitsz-srun-login-linux-amd64` 版本。
 
-这里我们以 `x86_64` 架构的 Linux 系统为例。请从 [Releases](https://github.com/PageChen04/hitsz-srun-login/releases) 页面下载最新的 `hitsz-srun-login-linux-amd64` 版本，并赋予其执行权限。
+这里我们以 `x86_64` 架构的 Linux 系统为例。请从 [Releases](https://github.com/DustinChen04/hitsz-srun-login/releases) 页面下载最新的 `hitsz-srun-login-linux-amd64` 版本，并赋予其执行权限。
 
 ```console
 # 将 <DOWNLOAD_URL> 替换为从 Releases 页面复制的下载链接
