@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-16'
+date: '2026-07-17'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -15,14 +15,6 @@ title: AUTO 更新速递
 ### 周四 (7.16)
 
 - cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-CEEV) 中提交了信息：增加水文明跨专业课程的相关信息
-
-### 周三 (7.15)
-
-- Mingjia Zhou 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-CEEV) 中提交了信息：增加一门跨专业课程的相关信息
-
-- IceFerryLing 在 [计算机编程](https://github.com/HITSZ-OpenAuto/ELEC2101K) 中提交了信息：去掉了重复提交的教材
-
-- awaw-a 在 [计算机编程](https://github.com/HITSZ-OpenAuto/ELEC2101K) 中提交了信息：Update ELEC2101K course docs and materials
 
 ## 待解决的 Issues
 
