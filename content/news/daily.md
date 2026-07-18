@@ -14,6 +14,26 @@ title: AUTO 更新速递
 
 ### 周六 (7.18)
 
+- Huang Zifeng 在 [AUTO5005](https://github.com/HITSZ-OpenAuto/AUTO5005) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [GEIP1016](https://github.com/HITSZ-OpenAuto/GEIP1016) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [AUTO5013](https://github.com/HITSZ-OpenAuto/AUTO5013) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [MATH1015A](https://github.com/HITSZ-OpenAuto/MATH1015A) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [AUTO3002B](https://github.com/HITSZ-OpenAuto/AUTO3002B) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [AUTO3099](https://github.com/HITSZ-OpenAuto/AUTO3099) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [GEIP1011](https://github.com/HITSZ-OpenAuto/GEIP1011) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [AUTO3001B](https://github.com/HITSZ-OpenAuto/AUTO3001B) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [MATH4004](https://github.com/HITSZ-OpenAuto/MATH4004) 中提交了信息：chore: remove tag.txt
+
+- Huang Zifeng 在 [EE1009](https://github.com/HITSZ-OpenAuto/EE1009) 中提交了信息：chore: remove tag.txt
+
 - Huang Zifeng 在 [Cross-ECON](https://github.com/HITSZ-OpenAuto/Cross-ECON) 中提交了信息：chore: remove tag.txt
 
 - Huang Zifeng 在 [Cross-ENER](https://github.com/HITSZ-OpenAuto/Cross-ENER) 中提交了信息：chore: remove tag.txt
