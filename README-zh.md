@@ -6,6 +6,8 @@
 
 <p align="center">本网站使用 <a href="https://gohugo.io/">Hugo</a> 框架和 <a href="https://imfing.github.io/hextra/">Hextra</a> 主题进行构建，由 <a href="https://github.com/HITSZ-OpenAuto">HITSZ OpenAuto</a> 团队管理维护。</p>
 
+> **注意：** 本仓库已停止维护。我们将开发工作迁移到了 [HITSZ-OpenAuto](https://github.com/HITSZ-OpenAuto) 组织下的仓库。详情请查看 [后端与 CI](https://wiki.hoa.moe/maintainer-guide/backend&CI) 和 [前端](https://wiki.hoa.moe/maintainer-guide/frontend)。
+
 ![showcase](static/images/showcase.webp)
 
 ## 网站特点

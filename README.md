@@ -18,6 +18,8 @@
   <a href="https://imfing.github.io/hextra/">Hextra</a>.
 </p>
 
+> **Note:** This repository is no longer maintained. We have moved the developments to repos under [HITSZ-OpenAuto](https://github.com/HITSZ-OpenAuto). Check [Backend & CI](https://wiki.hoa.moe/maintainer-guide/backend&CI) and [Frontend](https://wiki.hoa.moe/maintainer-guide/frontend) for details.
+
 ---
 
 ## Features
