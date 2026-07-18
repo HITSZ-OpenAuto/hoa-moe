@@ -11,5 +11,4 @@ toc: false
 {{< cards >}}
 {{< card link="auto5005" title="非线性与自适应控制" >}}
 {{< card link="auto5013" title="最优估计" >}}
-{{< card link="math4004" title="数值分析" >}}
 {{< /cards >}}
