@@ -14,6 +14,16 @@ title: AUTO 更新速递
 
 ### 周六 (7.18)
 
+- baidu 在 [PHYS1009](https://github.com/HITSZ-OpenAuto/PHYS1009) 中提交了信息：Initial commit
+
+- baidu 在 [AISZ3002](https://github.com/HITSZ-OpenAuto/AISZ3002) 中提交了信息：Initial commit
+
+- Kowyo 在 [course-template](https://github.com/HITSZ-OpenAuto/course-template) 中提交了信息：chore: remove tag.txt
+
+- baidu 在 [ELEC2018](https://github.com/HITSZ-OpenAuto/ELEC2018) 中提交了信息：Initial commit
+
+- baidu 在 [AISZ2006](https://github.com/HITSZ-OpenAuto/AISZ2006) 中提交了信息：Initial commit
+
 - ll3me 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加现代化课程介绍
 
 - ll3me 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加超快光学课程介绍
