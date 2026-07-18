@@ -3,7 +3,7 @@ authors:
 - image: https://avatars.githubusercontent.com/in/15368
   link: https://github.com/features/actions
   name: github-actions[bot]
-date: '2026-07-17'
+date: '2026-07-18'
 description: 每日更新
 draft: false
 excludeSearch: false
@@ -12,9 +12,11 @@ title: AUTO 更新速递
 
 ## 更新内容
 
-### 周四 (7.16)
+### 周六 (7.18)
 
-- cecilia 在 [（示例）大学物理实验](https://github.com/HITSZ-OpenAuto/Cross-CEEV) 中提交了信息：增加水文明跨专业课程的相关信息
+- ll3me 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加现代化课程介绍
+
+- ll3me 在 [文理通识课程体系](https://github.com/HITSZ-OpenAuto/GeneralKnowledge) 中提交了信息：添加超快光学课程介绍
 
 ## 待解决的 Issues
 
