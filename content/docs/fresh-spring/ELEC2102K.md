@@ -1,6 +1,6 @@
 ---
 title: （必修）概率和数理统计
-weight: 100
+weight: 104
 toc: true
 editURL: "https://github.com/HITSZ-OpenAuto/ELEC2102K/edit/main/README.md"
 math: true
