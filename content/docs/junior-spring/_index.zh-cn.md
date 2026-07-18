@@ -24,7 +24,6 @@ toc: false
 {{< card link="auto3005" title="机器人学导论" >}}
 {{< card link="auto3006" title="机器视觉" >}}
 {{< card link="auto3007" title="过程控制系统" >}}
-{{< card link="auto3011" title="运动控制系统" >}}
 {{< card link="comp2050" title="数据结构与算法" >}}
 {{< card link="comp3005" title="人工智能" >}}
 {{< card link="comp3017" title="服务计算" >}}
